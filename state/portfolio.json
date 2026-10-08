@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.41,
- "fees_paid": 0.23,
+ "cash": 57.96,
+ "fees_paid": 0.28,
  "peak_equity": 100.0,
  "day": "2026-10-08",
  "day_start_equity": 100.0,
- "next_id": 13,
+ "next_id": 16,
  "open_positions": [
   {
    "id": 1,
@@ -23,7 +23,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6604,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 2,
@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.88
+   "mark_price": 0.89
   },
   {
    "id": 3,
@@ -55,7 +55,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791565140.0,
    "score": 0.627,
-   "mark_price": 0.98
+   "mark_price": 0.95
   },
   {
    "id": 4,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.93
+   "mark_price": 0.91
   },
   {
    "id": 8,
@@ -167,7 +167,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.552,
-   "mark_price": 0.94
+   "mark_price": 0.91
   },
   {
    "id": 11,
@@ -200,6 +200,54 @@
    "close_ts": 1791608400.0,
    "score": 0.5359,
    "mark_price": 0.93
+  },
+  {
+   "id": 13,
+   "ticker": "KXSOLD-26OCT0917-T115.9999",
+   "event_ticker": "KXSOLD-26OCT0917",
+   "series": "KXSOLD",
+   "label": "SOL price on Oct 9, 2026? \u2014 $116 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791491446,
+   "close_ts": 1791579600.0,
+   "score": 0.5602,
+   "mark_price": 0.93
+  },
+  {
+   "id": 14,
+   "ticker": "KXHIGHPHIL-26OCT09-B72.5",
+   "event_ticker": "KXHIGHPHIL-26OCT09",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 72-73\u00b0 on Oct 9, 2026? \u2014 72\u00b0 to 73\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791491446,
+   "close_ts": 1791608400.0,
+   "score": 0.5189,
+   "mark_price": 0.91
+  },
+  {
+   "id": 15,
+   "ticker": "KXHIGHCHI-26OCT09-B75.5",
+   "event_ticker": "KXHIGHCHI-26OCT09",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Oct 9, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1791491446,
+   "close_ts": 1791612000.0,
+   "score": 0.5059,
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [],
@@ -223,93 +271,99 @@
    1791490547,
    100.0,
    99.32
+  ],
+  [
+   1791491446,
+   100.0,
+   98.97
   ]
  ],
  "last_run": {
-  "ts": 1791490547,
+  "ts": 1791491446,
   "error": null,
   "markets_scanned": 4858,
   "candidates": 44,
   "rejections": {
-   "too little volume": 4484,
-   "no favorite in 80-95c band": 283,
-   "spread too wide": 38,
-   "favorite is slipping fast": 9
+   "too little volume": 4475,
+   "no favorite in 80-95c band": 289,
+   "spread too wide": 39,
+   "favorite is slipping fast": 10,
+   "nothing for sale at the ask": 1
   },
   "opened": [
-   10,
-   11,
-   12
+   13,
+   14,
+   15
   ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.72,
-    "volume_24h": 15081.67,
-    "score": 0.6586
+    "price": 0.94,
+    "hours_to_close": 24.49,
+    "volume_24h": 18967.56,
+    "score": 0.6589
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.74,
-    "volume_24h": 15417.2,
-    "score": 0.6583
+    "hours_to_close": 24.49,
+    "volume_24h": 16173.13,
+    "score": 0.6589
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.72,
-    "volume_24h": 8049.92,
-    "score": 0.6515
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 9, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.72,
-    "volume_24h": 11001.5,
-    "score": 0.6486
+    "hours_to_close": 20.47,
+    "volume_24h": 8110.39,
+    "score": 0.6525
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 9, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.72,
-    "volume_24h": 13232.75,
-    "score": 0.6486
+    "hours_to_close": 20.47,
+    "volume_24h": 13284.97,
+    "score": 0.6493
    },
    {
-    "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 9, 2026? \u2014 38.3%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.74,
-    "volume_24h": 19065.38,
-    "score": 0.6483
+    "price": 0.91,
+    "hours_to_close": 20.47,
+    "volume_24h": 16351.8,
+    "score": 0.6393
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.74,
-    "volume_24h": 22363.22,
-    "score": 0.6083
+    "hours_to_close": 24.49,
+    "volume_24h": 17097.55,
+    "score": 0.6089
    },
    {
-    "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.74,
-    "volume_24h": 1507.63,
-    "score": 0.5967
+    "price": 0.91,
+    "hours_to_close": 20.47,
+    "volume_24h": 15081.67,
+    "score": 0.5893
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 24.49,
+    "volume_24h": 10812.64,
+    "score": 0.5789
    }
   ],
-  "watch_added": 8,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 41
  }

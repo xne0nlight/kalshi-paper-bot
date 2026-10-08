@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.88
+   "mark_price": 0.89
   },
   {
    "id": 3,
@@ -71,7 +71,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5934,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 5,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.86
+   "mark_price": 0.84
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.87
+   "mark_price": 0.86
   },
   {
    "id": 7,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 9,
@@ -151,7 +151,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.82
+   "mark_price": 0.84
   },
   {
    "id": 10,
@@ -183,7 +183,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791595200.0,
    "score": 0.5399,
-   "mark_price": 0.81
+   "mark_price": 0.85
   },
   {
    "id": 12,
@@ -215,7 +215,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791579600.0,
    "score": 0.5602,
-   "mark_price": 0.89
+   "mark_price": 0.85
   },
   {
    "id": 14,
@@ -231,7 +231,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791608400.0,
    "score": 0.5189,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 15,
@@ -331,19 +331,23 @@
    1791501341,
    100.0,
    98.64
+  ],
+  [
+   1791502244,
+   100.0,
+   98.73
   ]
  ],
  "last_run": {
-  "ts": 1791501341,
+  "ts": 1791502244,
   "error": null,
   "markets_scanned": 4868,
-  "candidates": 59,
+  "candidates": 54,
   "rejections": {
    "too little volume": 4457,
-   "no favorite in 80-95c band": 308,
-   "spread too wide": 36,
-   "favorite is slipping fast": 7,
-   "nothing for sale at the ask": 1
+   "no favorite in 80-95c band": 307,
+   "spread too wide": 44,
+   "favorite is slipping fast": 6
   },
   "opened": [],
   "settled": [],
@@ -353,68 +357,68 @@
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.74,
-    "volume_24h": 22280.75,
-    "score": 0.6657
+    "hours_to_close": 21.49,
+    "volume_24h": 22300.65,
+    "score": 0.6664
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.74,
-    "volume_24h": 19986.43,
-    "score": 0.6657
+    "hours_to_close": 21.49,
+    "volume_24h": 20049.57,
+    "score": 0.6664
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.1 on Oct 9, 2026? \u2014 Below 38.1%",
+    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 17.47,
+    "volume_24h": 22780.25,
+    "score": 0.6295
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,390 or above",
     "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 21.49,
+    "volume_24h": 3149.74,
+    "score": 0.6288
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "side": "no",
     "price": 0.9,
-    "hours_to_close": 17.72,
-    "volume_24h": 46929.95,
-    "score": 0.6385
+    "hours_to_close": 21.49,
+    "volume_24h": 13491.81,
+    "score": 0.6264
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 21.74,
-    "volume_24h": 95564.06,
-    "score": 0.6257
+    "hours_to_close": 21.49,
+    "volume_24h": 96007.45,
+    "score": 0.6264
    },
    {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,390 or above",
+    "label": "Will Trump's RCP approval average be below 38.1 on Oct 9, 2026? \u2014 Below 38.1%",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 21.74,
-    "volume_24h": 3105.74,
-    "score": 0.6176
-   },
-   {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.74,
-    "volume_24h": 13491.81,
-    "score": 0.6157
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 9, 2026? \u2014 Above $94.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 797.13,
-    "score": 0.6009
+    "price": 0.88,
+    "hours_to_close": 17.47,
+    "volume_24h": 48612.37,
+    "score": 0.6195
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 21.74,
-    "volume_24h": 36195.73,
-    "score": 0.5957
+    "hours_to_close": 21.49,
+    "volume_24h": 36185.04,
+    "score": 0.5964
    }
   ],
-  "watch_added": 5,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 41
  }

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 83.17,
- "fees_paid": 0.12,
+ "cash": 74.63,
+ "fees_paid": 0.17,
  "peak_equity": 100.0,
  "day": "2026-10-08",
  "day_start_equity": 100.0,
- "next_id": 7,
+ "next_id": 10,
  "open_positions": [
   {
    "id": 1,
@@ -23,7 +23,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6604,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 2,
@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.92
+   "mark_price": 0.9
   },
   {
    "id": 3,
@@ -55,7 +55,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791565140.0,
    "score": 0.627,
-   "mark_price": 0.92
+   "mark_price": 0.98
   },
   {
    "id": 4,
@@ -71,7 +71,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5934,
-   "mark_price": 0.91
+   "mark_price": 0.95
   },
   {
    "id": 5,
@@ -103,7 +103,55 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.91
+   "mark_price": 0.88
+  },
+  {
+   "id": 7,
+   "ticker": "KXGOLDW-26OCT0917-T4201.99",
+   "event_ticker": "KXGOLDW-26OCT0917",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791489958,
+   "close_ts": 1791579600.0,
+   "score": 0.5964,
+   "mark_price": 0.93
+  },
+  {
+   "id": 8,
+   "ticker": "KXHIGHLAX-26OCT09-B81.5",
+   "event_ticker": "KXHIGHLAX-26OCT09",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 81-82\u00b0 on Oct 9, 2026? \u2014 81\u00b0 to 82\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791489958,
+   "close_ts": 1791619200.0,
+   "score": 0.5534,
+   "mark_price": 0.93
+  },
+  {
+   "id": 9,
+   "ticker": "KXUST10A-26OCT09-T5.30",
+   "event_ticker": "KXUST10A-26OCT09",
+   "series": "KXUST10A",
+   "label": "Will the 10Y U.S. Treasury yield be above 5.30% on Oct 9, 2026? \u2014 5.31% or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791489958,
+   "close_ts": 1791574200.0,
+   "score": 0.5451,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [],
@@ -117,94 +165,98 @@
    1791476391,
    100.0,
    99.58
+  ],
+  [
+   1791489958,
+   100.0,
+   99.53
   ]
  ],
  "last_run": {
-  "ts": 1791476391,
+  "ts": 1791489958,
   "error": null,
-  "markets_scanned": 1588,
-  "candidates": 34,
+  "markets_scanned": 4838,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 1397,
-   "no favorite in 80-95c band": 127,
-   "spread too wide": 21,
-   "favorite is slipping fast": 8,
-   "nothing for sale at the ask": 1
+   "too little volume": 4466,
+   "no favorite in 80-95c band": 284,
+   "spread too wide": 35,
+   "favorite is slipping fast": 11
   },
   "opened": [
-   4,
-   5,
-   6
+   7,
+   8,
+   9
   ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 9, 2026? \u2014 $78,000 or above",
-    "side": "yes",
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 9, 2026? \u2014 38.3%",
+    "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.67,
-    "volume_24h": 11324.87,
-    "score": 0.6606
+    "hours_to_close": 20.88,
+    "volume_24h": 15899.51,
+    "score": 0.6781
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.88,
+    "volume_24h": 7932.49,
+    "score": 0.6506
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 9, 2026? \u2014 38.2%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 20.88,
+    "volume_24h": 13232.75,
+    "score": 0.6481
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.67,
-    "volume_24h": 16211.69,
-    "score": 0.6506
-   },
-   {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 28.67,
-    "volume_24h": 15523.76,
-    "score": 0.6306
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 38.7 on Oct 9, 2026? \u2014 Above 38.7%",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.65,
-    "volume_24h": 5195.79,
-    "score": 0.6272
+    "hours_to_close": 24.9,
+    "volume_24h": 19064.38,
+    "score": 0.648
    },
    {
-    "label": "Bitcoin price on Oct 9, 2026? \u2014 $78,500 or above",
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.67,
-    "volume_24h": 5839.19,
-    "score": 0.6231
+    "hours_to_close": 24.9,
+    "volume_24h": 15407.7,
+    "score": 0.648
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.88,
+    "volume_24h": 14244.41,
+    "score": 0.6181
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 28.67,
-    "volume_24h": 27617.86,
-    "score": 0.6206
+    "price": 0.89,
+    "hours_to_close": 24.9,
+    "volume_24h": 22486.31,
+    "score": 0.608
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.1 on Oct 9, 2026? \u2014 Below 38.1%",
+    "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.65,
-    "volume_24h": 5951.78,
-    "score": 0.6116
-   },
-   {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,310 or above",
-    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.67,
-    "volume_24h": 10625.14,
-    "score": 0.6006
+    "hours_to_close": 24.9,
+    "volume_24h": 1507.63,
+    "score": 0.5964
    }
   ],
-  "watch_added": 8,
+  "watch_added": 25,
   "watch_graded": 0,
   "api_calls": 41
  }

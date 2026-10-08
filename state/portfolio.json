@@ -1,0 +1,158 @@
+{
+ "version": 1,
+ "created_ts": 1791476132.2148023,
+ "starting_bankroll": 100.0,
+ "cash": 91.49,
+ "fees_paid": 0.05,
+ "peak_equity": 100.0,
+ "day": "2026-10-08",
+ "day_start_equity": 100.0,
+ "next_id": 4,
+ "open_positions": [
+  {
+   "id": 1,
+   "ticker": "KXBTCD-26OCT0917-T84499.99",
+   "event_ticker": "KXBTCD-26OCT0917",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791476132,
+   "close_ts": 1791579600.0,
+   "score": 0.6604,
+   "mark_price": 0.94
+  },
+  {
+   "id": 2,
+   "ticker": "KXETHD-26OCT0917-T2549.99",
+   "event_ticker": "KXETHD-26OCT0917",
+   "series": "KXETHD",
+   "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791476132,
+   "close_ts": 1791579600.0,
+   "score": 0.6504,
+   "mark_price": 0.93
+  },
+  {
+   "id": 3,
+   "ticker": "KXTRUMPAPPROVE-26OCT09-A38.7",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT09",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be above 38.7 on Oct 9, 2026? \u2014 Above 38.7%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1791476132,
+   "close_ts": 1791565140.0,
+   "score": 0.627,
+   "mark_price": 0.92
+  }
+ ],
+ "closed_positions": [],
+ "equity_history": [
+  [
+   1791476132,
+   100.0,
+   99.86
+  ]
+ ],
+ "last_run": {
+  "ts": 1791476132,
+  "error": null,
+  "markets_scanned": 1588,
+  "candidates": 37,
+  "rejections": {
+   "too little volume": 1397,
+   "no favorite in 80-95c band": 122,
+   "spread too wide": 22,
+   "favorite is slipping fast": 9,
+   "nothing for sale at the ask": 1
+  },
+  "opened": [
+   1,
+   2,
+   3
+  ],
+  "settled": [],
+  "halt": null,
+  "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.74,
+    "volume_24h": 16211.69,
+    "score": 0.6604
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 28.74,
+    "volume_24h": 15523.76,
+    "score": 0.6504
+   },
+   {
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 28.74,
+    "volume_24h": 11324.87,
+    "score": 0.6404
+   },
+   {
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $77,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 28.74,
+    "volume_24h": 4121.29,
+    "score": 0.6316
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,310 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 28.74,
+    "volume_24h": 10625.14,
+    "score": 0.6304
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.7 on Oct 9, 2026? \u2014 Above 38.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 24.72,
+    "volume_24h": 5195.79,
+    "score": 0.627
+   },
+   {
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 28.74,
+    "volume_24h": 27617.86,
+    "score": 0.6204
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.1 on Oct 9, 2026? \u2014 Below 38.1%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 24.72,
+    "volume_24h": 5951.78,
+    "score": 0.6115
+   }
+  ],
+  "watch_added": 37,
+  "watch_graded": 0,
+  "api_calls": 40
+ }
+}

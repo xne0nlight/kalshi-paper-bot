@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>Kalshi Paper Bot</title><style>
+:root{--bg:#f6f5f1;--panel:#fff;--ink:#17181c;--muted:#6b6e76;--line:#e4e2dc;
+--up:#13804b;--up-soft:rgba(19,128,75,.12);--down:#c2361f;--down-soft:rgba(194,54,31,.12);
+--accent:#2f4bd8;--warn-bg:#fff4dc;--warn-ink:#7a4b00;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111317;--panel:#1a1d23;
+--ink:#eceef2;--muted:#9097a3;--line:#2a2e36;--up:#3fcf8e;--up-soft:rgba(63,207,142,.14);
+--down:#ff7a63;--down-soft:rgba(255,122,99,.14);--accent:#8ea2ff;--warn-bg:#3a2c0e;
+--warn-ink:#ffd48a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:22px}
+h1{font-size:26px;letter-spacing:-.02em;margin:0}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px}
+.badge{display:inline-block;font-size:12px;font-weight:600;padding:3px 9px;border-radius:99px;
+background:var(--warn-bg);color:var(--warn-ink);vertical-align:middle;margin-left:8px}
+.muted{color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}
+.kpi,.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.kpi{padding:14px 16px}
+.kpi .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kpi .v{font-size:26px;font-weight:650;letter-spacing:-.02em;margin-top:2px}
+.kpi .s{font-size:13px;color:var(--muted)}
+.panel{padding:18px 18px 14px;margin-bottom:16px}
+.alert{border-radius:12px;padding:12px 16px;margin-bottom:16px;background:var(--warn-bg);color:var(--warn-ink);font-weight:550}
+.alert.err{background:var(--down-soft);color:var(--down)}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--muted)}
+.table-wrap{overflow-x:auto;margin:0 -4px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+th{text-align:left;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;
+letter-spacing:.05em;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;white-space:nowrap}
+.mkt{max-width:420px}
+.side{font-size:11px;font-weight:700;padding:2px 7px;border-radius:6px;background:var(--line)}
+.pill{font-size:12px;font-weight:650;padding:2px 8px;border-radius:99px}
+.pill.up{background:var(--up-soft)}.pill.down{background:var(--down-soft)}.pill.flat{background:var(--line)}
+.chart{width:100%;height:auto;display:block}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .baseline{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:5 5}
+.chart .axis{fill:var(--muted);font-size:12px}
+.chart .line{fill:none;stroke-width:2.5;stroke-linejoin:round}
+.chart .line.up,.chart .dot.up{stroke:var(--up);fill:var(--up)}.chart .line.up{fill:none}
+.chart .line.down,.chart .dot.down{stroke:var(--down);fill:var(--down)}.chart .line.down{fill:none}
+.chart .area.up{fill:var(--up-soft)}.chart .area.down{fill:var(--down-soft)}
+.chart-foot{display:flex;justify-content:space-between;font-size:12px;padding:4px 12px 0 56px}
+.chart-empty{padding:40px 0;text-align:center}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.bars{list-style:none;margin:0;padding:0}
+.bars li{display:grid;grid-template-columns:1fr auto;gap:8px;font-size:14px;padding:4px 0}
+.bars .bar{grid-column:1/-1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bars .bar span{display:block;height:100%;background:var(--accent)}
+.note{font-size:13px;color:var(--muted);margin:10px 0 0}
+footer{font-size:12px;color:var(--muted);margin-top:28px;line-height:1.7}
+</style></head>
+<body><div class="wrap">
+<header>
+  <div><h1>Kalshi Paper Bot <span class="badge">PAPER MONEY</span></h1>
+  <div class="muted">Imaginary $100.00 · started Thu Oct 8, 11:15 AM · day 0.0</div></div>
+  <div class="muted">Last run Thu Oct 8, 11:15 AM<br>Book value $100.00</div>
+</header>
+
+
+<div class="kpis">
+  <div class="kpi"><div class="k">Account value</div><div class="v">$99.86</div>
+    <div class="s down">-$0.14 (-0.1%)</div></div>
+  <div class="kpi"><div class="k">Realized profit</div><div class="v flat">+$0.00</div>
+    <div class="s">after $0.05 in fees</div></div>
+  <div class="kpi"><div class="k">Record</div><div class="v">0–0</div>
+    <div class="s">0% win rate · 0 settled</div></div>
+  <div class="kpi"><div class="k">In play</div><div class="v">$8.51</div>
+    <div class="s">3 open · $91.49 cash</div></div>
+</div>
+<section class="panel"><h2>Account value</h2><p class="muted chart-empty">The chart appears after the second run.</p></section>
+<section class="panel"><h2>Is the edge real?</h2>
+  <p class="muted" style="margin-top:-4px">Every market that passed the filters is tracked here,
+  bet or not, and graded when it settles. Favorites must win more often than
+  “needed to break even” (price + fee) for this strategy to make money.</p>
+  <div class="table-wrap"><table><thead><tr><th class="">Price range</th><th class="num">Markets graded</th><th class="num">Favorite won</th><th class="num">Needed to break even</th><th class="num">Edge</th><th class="num">Verdict</th></tr></thead><tbody><tr><td>80–85¢</td><td class="num">0</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><span class="pill flat">No data yet</span></td></tr><tr><td>85–90¢</td><td class="num">0</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><span class="pill flat">No data yet</span></td></tr><tr><td>90–95¢</td><td class="num">0</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><span class="pill flat">No data yet</span></td></tr><tr><td>All</td><td class="num">0</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num"><span class="pill flat">No data yet</span></td></tr></tbody></table></div>
+  <p class="note">0 graded · 37 still waiting to settle. Verdicts need 30+ markets and a
+  gap of 2 standard errors before they call it either way.</p>
+</section>
+<section class="panel"><h2>Open bets</h2><div class="table-wrap"><table><thead><tr><th class="">Market</th><th class="">Side</th><th class="num">Qty</th><th class="num">Paid</th><th class="num">Cost</th><th class="num">Bid now</th><th class="num">If sold now</th><th class="num">Closes</th><th class="num">Profit if win</th></tr></thead><tbody><tr><td class="mkt">Will Trump&#x27;s RCP approval average be above 38.7 on Oct 9, 2026? — Above 38.7%</td><td><span class="side">NO</span></td><td class="num">3</td><td class="num">93¢</td><td class="num">$2.81</td><td class="num">92¢</td><td class="num down">-$0.05</td><td class="num">1d 0h</td><td class="num">$0.19</td></tr><tr><td class="mkt">Bitcoin price on Oct 9, 2026? — $84,500 or above</td><td><span class="side">NO</span></td><td class="num">3</td><td class="num">95¢</td><td class="num">$2.86</td><td class="num">94¢</td><td class="num down">-$0.04</td><td class="num">1d 4h</td><td class="num">$0.14</td></tr><tr><td class="mkt">Ethereum price at Oct 9, 2026 at 5pm EDT? — $2,550 or above</td><td><span class="side">NO</span></td><td class="num">3</td><td class="num">94¢</td><td class="num">$2.84</td><td class="num">93¢</td><td class="num down">-$0.05</td><td class="num">1d 4h</td><td class="num">$0.16</td></tr></tbody></table></div></section>
+<section class="panel"><h2>Recent settled bets</h2><p class="muted">Nothing has settled yet — most bets resolve within a day.</p>
+  </section>
+<div class="two">
+  <section class="panel"><h2>Last scan</h2>
+    <p class="muted" style="margin-top:-4px">1,588 markets closing soon ·
+    37 qualified · 3 bets placed</p>
+    <ul class="bars"><li><span>too little volume</span><span class="muted">1,397</span><div class="bar"><span style="width:90.1%"></span></div></li><li><span>no favorite in 80-95c band</span><span class="muted">122</span><div class="bar"><span style="width:7.9%"></span></div></li><li><span>spread too wide</span><span class="muted">22</span><div class="bar"><span style="width:1.4%"></span></div></li><li><span>favorite is slipping fast</span><span class="muted">9</span><div class="bar"><span style="width:0.6%"></span></div></li><li><span>nothing for sale at the ask</span><span class="muted">1</span><div class="bar"><span style="width:0.1%"></span></div></li></ul></section>
+  <section class="panel"><h2>Top-ranked right now</h2><ul class="bars"><li><span>Bitcoin price on Oct 9, 2026? — $84,500 or above <span class="side">NO</span></span><span class="muted">95¢ · 28.7h</span></li><li><span>Ethereum price at Oct 9, 2026 at 5pm EDT? — $2,550 or above <span class="side">NO</span></span><span class="muted">94¢ · 28.7h</span></li><li><span>Bitcoin price on Oct 9, 2026? — $78,000 or above <span class="side">YES</span></span><span class="muted">93¢ · 28.7h</span></li><li><span>Bitcoin price on Oct 9, 2026? — $77,500 or above <span class="side">YES</span></span><span class="muted">95¢ · 28.7h</span></li><li><span>Ethereum price at Oct 9, 2026 at 5pm EDT? — $2,310 or above <span class="side">YES</span></span><span class="muted">92¢ · 28.7h</span></li><li><span>Will Trump&#x27;s RCP approval average be above 38.7 on Oct 9, 2026? — Above 38.7% <span class="side">NO</span></span><span class="muted">93¢ · 24.7h</span></li><li><span>Bitcoin price on Oct 9, 2026? — $84,000 or above <span class="side">NO</span></span><span class="muted">91¢ · 28.7h</span></li><li><span>Will Trump&#x27;s RCP approval average be below 38.1 on Oct 9, 2026? — Below 38.1% <span class="side">NO</span></span><span class="muted">91¢ · 24.7h</span></li></ul></section>
+</div>
+<footer>Bets 80–95¢ favorites closing in 15 min–36h · max 3% per bet, 60% total in play · spread ≤ 3¢ · ≥ 200 contracts/day · daily stop 8%, drawdown brake 20%<br>Fills are simulated at the best ask with Kalshi's taker fee and held to
+settlement. Real fills can be worse. Not financial advice — it's a robot with imaginary money.</footer>
+</div></body></html>

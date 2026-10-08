@@ -2,7 +2,7 @@ name: Kalshi paper bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 min (GitHub often runs these a few minutes late; that's fine)
+    - cron: "7,22,37,52 * * * *"   # every 15 min (GitHub often runs these a few minutes late; that's fine)
   workflow_dispatch:          # adds a "Run workflow" button for manual runs
 
 permissions:

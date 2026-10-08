@@ -23,7 +23,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6604,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 2,
@@ -55,7 +55,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791565140.0,
    "score": 0.627,
-   "mark_price": 0.95
+   "mark_price": 0.99
   },
   {
    "id": 4,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.88
+   "mark_price": 0.84
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.88
+   "mark_price": 0.89
   },
   {
    "id": 7,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.91
+   "mark_price": 0.92
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 9,
@@ -167,7 +167,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.552,
-   "mark_price": 0.91
+   "mark_price": 0.93
   },
   {
    "id": 11,
@@ -215,7 +215,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791579600.0,
    "score": 0.5602,
-   "mark_price": 0.93
+   "mark_price": 0.91
   },
   {
    "id": 14,
@@ -247,7 +247,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.92
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [],
@@ -276,94 +276,95 @@
    1791491446,
    100.0,
    98.97
+  ],
+  [
+   1791492344,
+   100.0,
+   98.94
   ]
  ],
  "last_run": {
-  "ts": 1791491446,
+  "ts": 1791492344,
   "error": null,
   "markets_scanned": 4858,
-  "candidates": 44,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 4475,
-   "no favorite in 80-95c band": 289,
-   "spread too wide": 39,
-   "favorite is slipping fast": 10,
+   "too little volume": 4469,
+   "no favorite in 80-95c band": 294,
+   "spread too wide": 43,
+   "favorite is slipping fast": 9,
    "nothing for sale at the ask": 1
   },
-  "opened": [
-   13,
-   14,
-   15
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.22,
+    "volume_24h": 9210.44,
+    "score": 0.6574
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 9, 2026? \u2014 38.2%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.22,
+    "volume_24h": 15773.61,
+    "score": 0.6201
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 24.24,
+    "volume_24h": 10812.64,
+    "score": 0.6194
+   },
+   {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 18967.56,
-    "score": 0.6589
+    "hours_to_close": 24.24,
+    "volume_24h": 19029.16,
+    "score": 0.6094
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 16173.13,
-    "score": 0.6589
+    "hours_to_close": 24.24,
+    "volume_24h": 16264.33,
+    "score": 0.6094
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
+    "label": "Will the WTI crude oil settlement price be above 87.99 USD/Bbl on Oct 9, 2026? \u2014 Above $87.99",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 21.74,
+    "volume_24h": 835.84,
+    "score": 0.5649
+   },
+   {
+    "label": "Will the maximum temperature be 81-82\u00b0 on Oct 9, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.47,
-    "volume_24h": 8110.39,
-    "score": 0.6525
+    "hours_to_close": 35.24,
+    "volume_24h": 1259.83,
+    "score": 0.5635
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 9, 2026? \u2014 38.2%",
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.47,
-    "volume_24h": 13284.97,
-    "score": 0.6493
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 9, 2026? \u2014 38.3%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.47,
-    "volume_24h": 16351.8,
-    "score": 0.6393
-   },
-   {
-    "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 24.49,
-    "volume_24h": 17097.55,
-    "score": 0.6089
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.47,
-    "volume_24h": 15081.67,
-    "score": 0.5893
-   },
-   {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 10812.64,
-    "score": 0.5789
+    "price": 0.84,
+    "hours_to_close": 24.24,
+    "volume_24h": 25739.36,
+    "score": 0.5594
    }
   ],
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 41
  }

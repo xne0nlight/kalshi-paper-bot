@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 74.63,
- "fees_paid": 0.17,
+ "cash": 66.41,
+ "fees_paid": 0.23,
  "peak_equity": 100.0,
  "day": "2026-10-08",
  "day_start_equity": 100.0,
- "next_id": 10,
+ "next_id": 13,
  "open_positions": [
   {
    "id": 1,
@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.9
+   "mark_price": 0.88
   },
   {
    "id": 3,
@@ -152,6 +152,54 @@
    "close_ts": 1791574200.0,
    "score": 0.5451,
    "mark_price": 0.93
+  },
+  {
+   "id": 10,
+   "ticker": "KXHIGHNY-26OCT09-T69",
+   "event_ticker": "KXHIGHNY-26OCT09",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be <69\u00b0 on Oct 9, 2026? \u2014 68\u00b0 or below",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791490547,
+   "close_ts": 1791608400.0,
+   "score": 0.552,
+   "mark_price": 0.94
+  },
+  {
+   "id": 11,
+   "ticker": "KXDIMAYORGAME-26OCT07CANTOL-TOL",
+   "event_ticker": "KXDIMAYORGAME-26OCT07CANTOL",
+   "series": "KXDIMAYORGAME",
+   "label": "Tolima wins",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.83,
+   "fee": 0.03,
+   "cost": 2.52,
+   "opened_ts": 1791490547,
+   "close_ts": 1791595200.0,
+   "score": 0.5399,
+   "mark_price": 0.82
+  },
+  {
+   "id": 12,
+   "ticker": "KXHIGHMIA-26OCT09-B92.5",
+   "event_ticker": "KXHIGHMIA-26OCT09",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 92-93\u00b0 on Oct 9, 2026? \u2014 92\u00b0 to 93\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791490547,
+   "close_ts": 1791608400.0,
+   "score": 0.5359,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [],
@@ -170,93 +218,98 @@
    1791489958,
    100.0,
    99.53
+  ],
+  [
+   1791490547,
+   100.0,
+   99.32
   ]
  ],
  "last_run": {
-  "ts": 1791489958,
+  "ts": 1791490547,
   "error": null,
-  "markets_scanned": 4838,
-  "candidates": 42,
+  "markets_scanned": 4858,
+  "candidates": 44,
   "rejections": {
-   "too little volume": 4466,
-   "no favorite in 80-95c band": 284,
-   "spread too wide": 35,
-   "favorite is slipping fast": 11
+   "too little volume": 4484,
+   "no favorite in 80-95c band": 283,
+   "spread too wide": 38,
+   "favorite is slipping fast": 9
   },
   "opened": [
-   7,
-   8,
-   9
+   10,
+   11,
+   12
   ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 9, 2026? \u2014 38.3%",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.88,
-    "volume_24h": 15899.51,
-    "score": 0.6781
+    "price": 0.93,
+    "hours_to_close": 20.72,
+    "volume_24h": 15081.67,
+    "score": 0.6586
+   },
+   {
+    "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 24.74,
+    "volume_24h": 15417.2,
+    "score": 0.6583
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.88,
-    "volume_24h": 7932.49,
-    "score": 0.6506
+    "hours_to_close": 20.72,
+    "volume_24h": 8049.92,
+    "score": 0.6515
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 9, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 20.72,
+    "volume_24h": 11001.5,
+    "score": 0.6486
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 9, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.88,
+    "hours_to_close": 20.72,
     "volume_24h": 13232.75,
-    "score": 0.6481
+    "score": 0.6486
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.9,
-    "volume_24h": 19064.38,
-    "score": 0.648
-   },
-   {
-    "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 24.9,
-    "volume_24h": 15407.7,
-    "score": 0.648
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 9, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.88,
-    "volume_24h": 14244.41,
-    "score": 0.6181
+    "hours_to_close": 24.74,
+    "volume_24h": 19065.38,
+    "score": 0.6483
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.9,
-    "volume_24h": 22486.31,
-    "score": 0.608
+    "hours_to_close": 24.74,
+    "volume_24h": 22363.22,
+    "score": 0.6083
    },
    {
     "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.9,
+    "hours_to_close": 24.74,
     "volume_24h": 1507.63,
-    "score": 0.5964
+    "score": 0.5967
    }
   ],
-  "watch_added": 25,
+  "watch_added": 8,
   "watch_graded": 0,
   "api_calls": 41
  }

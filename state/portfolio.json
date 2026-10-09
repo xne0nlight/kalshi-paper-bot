@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.89
+   "mark_price": 0.88
   },
   {
    "id": 3,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.84
+   "mark_price": 0.81
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.84
+   "mark_price": 0.83
   },
   {
    "id": 7,
@@ -231,7 +231,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.81
+   "mark_price": 0.82
   },
   {
    "id": 16,
@@ -247,7 +247,7 @@
    "opened_ts": 1791507654,
    "close_ts": 1791570600.0,
    "score": 0.6101,
-   "mark_price": 0.95
+   "mark_price": 0.96
   }
  ],
  "closed_positions": [
@@ -432,18 +432,24 @@
    1791515744,
    100.48,
    98.69
+  ],
+  [
+   1791516650,
+   100.48,
+   98.6
   ]
  ],
  "last_run": {
-  "ts": 1791515744,
+  "ts": 1791516650,
   "error": null,
   "markets_scanned": 4892,
-  "candidates": 62,
+  "candidates": 66,
   "rejections": {
-   "too little volume": 4437,
-   "no favorite in 80-95c band": 348,
-   "spread too wide": 40,
-   "favorite is slipping fast": 5
+   "too little volume": 4432,
+   "no favorite in 80-95c band": 350,
+   "spread too wide": 41,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -453,68 +459,68 @@
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.74,
-    "volume_24h": 16637.59,
-    "score": 0.6885
+    "hours_to_close": 17.49,
+    "volume_24h": 16731.41,
+    "score": 0.6894
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 17.74,
-    "volume_24h": 105319.55,
-    "score": 0.6785
+    "hours_to_close": 17.49,
+    "volume_24h": 106037.19,
+    "score": 0.6794
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 17.74,
-    "volume_24h": 27727.59,
-    "score": 0.6685
+    "price": 0.92,
+    "hours_to_close": 17.49,
+    "volume_24h": 28886.89,
+    "score": 0.6594
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,430 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 17.49,
+    "volume_24h": 16583.89,
+    "score": 0.6394
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 17.74,
-    "volume_24h": 30547.43,
-    "score": 0.6285
+    "price": 0.9,
+    "hours_to_close": 17.49,
+    "volume_24h": 30708.43,
+    "score": 0.6394
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.72,
-    "volume_24h": 35070.62,
-    "score": 0.6265
+    "price": 0.89,
+    "hours_to_close": 17.49,
+    "volume_24h": 15204.75,
+    "score": 0.6294
    },
    {
     "label": "Bitcoin price range on Oct 9, 2026? \u2014 $83,500 to 83,999.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.74,
+    "hours_to_close": 17.49,
     "volume_24h": 1882.1,
-    "score": 0.6241
+    "score": 0.625
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 9, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 3389.3,
-    "score": 0.6209
-   },
-   {
-    "label": "Will the 30Y U.S. Treasury yield be above 5.65% on Oct 9, 2026? \u2014 5.66% or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.24,
-    "volume_24h": 1233.01,
-    "score": 0.6163
+    "score": 0.6215
    }
   ],
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 41
  }

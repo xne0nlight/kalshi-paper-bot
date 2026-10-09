@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.71
+   "mark_price": 0.68
   },
   {
    "id": 7,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.79
+   "mark_price": 0.74
   },
   {
    "id": 8,
@@ -151,7 +151,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.8
+   "mark_price": 0.84
   },
   {
    "id": 10,
@@ -215,7 +215,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791608400.0,
    "score": 0.5189,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 15,
@@ -672,16 +672,21 @@
    1791558958,
    100.48,
    99.74
+  ],
+  [
+   1791559869,
+   100.48,
+   99.68
   ]
  ],
  "last_run": {
-  "ts": 1791558958,
+  "ts": 1791559869,
   "error": null,
   "markets_scanned": 36,
-  "candidates": 3,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 24,
-   "no favorite in 80-95c band": 9
+   "too little volume": 22,
+   "no favorite in 80-95c band": 10
   },
   "opened": [],
   "settled": [],
@@ -690,29 +695,37 @@
    {
     "label": "BBK Partnership wins",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.73,
-    "volume_24h": 71440.69,
-    "score": 0.6686
+    "price": 0.95,
+    "hours_to_close": 20.48,
+    "volume_24h": 66264.42,
+    "score": 0.6293
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 10, 2026? \u2014 37.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.72,
+    "hours_to_close": 25.46,
     "volume_24h": 3410.34,
-    "score": 0.6212
+    "score": 0.6217
    },
    {
     "label": "Sri Lanka Emerging Players wins",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.73,
-    "volume_24h": 42795.65,
-    "score": 0.6186
+    "price": 0.95,
+    "hours_to_close": 20.48,
+    "volume_24h": 42585.48,
+    "score": 0.5793
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 25.46,
+    "volume_24h": 352.91,
+    "score": 0.5379
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 41
  }

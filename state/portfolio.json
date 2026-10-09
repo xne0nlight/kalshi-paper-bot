@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.55
+   "mark_price": 0.53
   },
   {
    "id": 7,
@@ -103,7 +103,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.76
+   "mark_price": 0.68
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 10,
@@ -167,7 +167,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.5359,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 13,
@@ -215,7 +215,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 16,
@@ -742,85 +742,94 @@
    1791567953,
    100.67,
    100.3
+  ],
+  [
+   1791568856,
+   100.67,
+   99.97
   ]
  ],
  "last_run": {
-  "ts": 1791567953,
+  "ts": 1791568856,
   "error": null,
-  "markets_scanned": 219,
-  "candidates": 7,
+  "markets_scanned": 387,
+  "candidates": 13,
   "rejections": {
-   "too little volume": 148,
-   "no favorite in 80-95c band": 61,
-   "spread too wide": 3
+   "too little volume": 276,
+   "no favorite in 80-95c band": 91,
+   "spread too wide": 7
   },
-  "opened": [
-   17
-  ],
-  "settled": [
-   3
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.22,
-    "volume_24h": 1135.08,
-    "score": 0.601
+    "hours_to_close": 22.97,
+    "volume_24h": 1266.9,
+    "score": 0.6052
    },
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.22,
-    "volume_24h": 4493.86,
-    "score": 0.5958
+    "hours_to_close": 22.97,
+    "volume_24h": 4672.97,
+    "score": 0.5977
    },
    {
     "label": "Will it rain in Lexington on Oct 10, 2026?",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.24,
+    "price": 0.94,
+    "hours_to_close": 34.98,
     "volume_24h": 1959.11,
-    "score": 0.5478
+    "score": 0.5882
+   },
+   {
+    "label": "Will it rain in New Orleans on Oct 10, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.98,
+    "volume_24h": 3892.57,
+    "score": 0.5793
+   },
+   {
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 10, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.98,
+    "volume_24h": 581.48,
+    "score": 0.5074
+   },
+   {
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 10, 2026? \u2014 93\u00b0 to 94\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.98,
+    "volume_24h": 438.4,
+    "score": 0.4982
+   },
+   {
+    "label": "Will the maximum temperature be <70\u00b0 on Oct 10, 2026? \u2014 69\u00b0 or below",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.98,
+    "volume_24h": 535.0,
+    "score": 0.4959
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 10, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.24,
+    "price": 0.94,
+    "hours_to_close": 34.98,
     "volume_24h": 493.69,
-    "score": 0.533
-   },
-   {
-    "label": "Will it rain in Columbus on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 35.24,
-    "volume_24h": 7176.4,
-    "score": 0.5101
-   },
-   {
-    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 10, 2026? \u2014 66\u00b0 to 67\u00b0",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 35.24,
-    "volume_24h": 365.22,
-    "score": 0.4232
-   },
-   {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 10, 2026? \u2014 74\u00b0 to 75\u00b0",
-    "side": "no",
-    "price": 0.81,
-    "hours_to_close": 35.24,
-    "volume_24h": 204.0,
-    "score": 0.3843
+    "score": 0.4933
    }
   ],
-  "watch_added": 0,
-  "watch_graded": 8,
-  "api_calls": 42
+  "watch_added": 6,
+  "watch_graded": 0,
+  "api_calls": 41
  }
 }

@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.82
+   "mark_price": 0.84
   },
   {
    "id": 3,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.8
+   "mark_price": 0.81
   },
   {
    "id": 6,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.65
+   "mark_price": 0.7
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 9,
@@ -247,7 +247,7 @@
    "opened_ts": 1791507654,
    "close_ts": 1791570600.0,
    "score": 0.6101,
-   "mark_price": 0.97
+   "mark_price": 0.96
   }
  ],
  "closed_positions": [
@@ -557,88 +557,93 @@
    1791538258,
    100.48,
    98.6
+  ],
+  [
+   1791539150,
+   100.48,
+   98.84
   ]
  ],
  "last_run": {
-  "ts": 1791538258,
+  "ts": 1791539150,
   "error": null,
   "markets_scanned": 215,
-  "candidates": 22,
+  "candidates": 19,
   "rejections": {
-   "no favorite in 80-95c band": 116,
-   "too little volume": 70,
-   "spread too wide": 7
+   "no favorite in 80-95c band": 120,
+   "too little volume": 68,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 92-93\u00b0 on Oct 9, 2026? \u2014 92\u00b0 to 93\u00b0",
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 9, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 1711.89,
-    "score": 0.6218
+    "hours_to_close": 20.24,
+    "volume_24h": 2014.73,
+    "score": 0.6279
    },
    {
     "label": "Will the maximum temperature be 105-106\u00b0 on Oct 9, 2026? \u2014 105\u00b0 to 106\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.24,
     "volume_24h": 2187.91,
-    "score": 0.6169
+    "score": 0.6176
    },
    {
     "label": "Will the maximum temperature be 91-92\u00b0 on Oct 9, 2026? \u2014 91\u00b0 to 92\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 1239.13,
-    "score": 0.6113
+    "hours_to_close": 20.24,
+    "volume_24h": 1297.16,
+    "score": 0.6135
    },
    {
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 9, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.48,
-    "volume_24h": 4335.71,
-    "score": 0.6021
+    "price": 0.91,
+    "hours_to_close": 20.24,
+    "volume_24h": 4371.71,
+    "score": 0.6131
    },
    {
     "label": "Will the maximum temperature be 75-76\u00b0 on Oct 9, 2026? \u2014 75\u00b0 to 76\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.48,
+    "hours_to_close": 20.24,
     "volume_24h": 2093.31,
-    "score": 0.5984
-   },
-   {
-    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 9, 2026? \u2014 93\u00b0 to 94\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.48,
-    "volume_24h": 1867.73,
-    "score": 0.5847
+    "score": 0.5991
    },
    {
     "label": "Will the maximum temperature be 78-79\u00b0 on Oct 9, 2026? \u2014 78\u00b0 to 79\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.48,
+    "hours_to_close": 20.24,
     "volume_24h": 1273.13,
-    "score": 0.5822
+    "score": 0.5829
+   },
+   {
+    "label": "Will the maximum temperature be 92-93\u00b0 on Oct 9, 2026? \u2014 92\u00b0 to 93\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.24,
+    "volume_24h": 501.82,
+    "score": 0.5726
    },
    {
     "label": "Will the maximum temperature be <71\u00b0 on Oct 9, 2026? \u2014 70\u00b0 or below",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 20.48,
-    "volume_24h": 5553.37,
-    "score": 0.5701
+    "hours_to_close": 20.24,
+    "volume_24h": 5584.83,
+    "score": 0.5711
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 41
  }

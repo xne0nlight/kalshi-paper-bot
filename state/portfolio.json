@@ -2,45 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 58.24,
- "fees_paid": 0.3,
- "peak_equity": 100.67,
+ "cash": 67.79,
+ "fees_paid": 0.35,
+ "peak_equity": 101.57,
  "day": "2026-10-09",
  "day_start_equity": 100.0,
- "next_id": 18,
+ "next_id": 21,
  "open_positions": [
-  {
-   "id": 1,
-   "ticker": "KXBTCD-26OCT0917-T84499.99",
-   "event_ticker": "KXBTCD-26OCT0917",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791476132,
-   "close_ts": 1791579600.0,
-   "score": 0.6604,
-   "mark_price": 0.99
-  },
-  {
-   "id": 2,
-   "ticker": "KXETHD-26OCT0917-T2549.99",
-   "event_ticker": "KXETHD-26OCT0917",
-   "series": "KXETHD",
-   "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791476132,
-   "close_ts": 1791579600.0,
-   "score": 0.6504,
-   "mark_price": 0.99
-  },
   {
    "id": 4,
    "ticker": "KXBRENTW-26OCT0917-T107.99",
@@ -74,38 +42,6 @@
    "mark_price": 0.97
   },
   {
-   "id": 6,
-   "ticker": "KXBTC-26OCT0917-B82750",
-   "event_ticker": "KXBTC-26OCT0917",
-   "series": "KXBTC",
-   "label": "Bitcoin price range on Oct 9, 2026? \u2014 $82,500 to 82,999.99",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791476391,
-   "close_ts": 1791579600.0,
-   "score": 0.5429,
-   "mark_price": 0.94
-  },
-  {
-   "id": 7,
-   "ticker": "KXGOLDW-26OCT0917-T4201.99",
-   "event_ticker": "KXGOLDW-26OCT0917",
-   "series": "KXGOLDW",
-   "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791489958,
-   "close_ts": 1791579600.0,
-   "score": 0.5964,
-   "mark_price": 0.95
-  },
-  {
    "id": 8,
    "ticker": "KXHIGHLAX-26OCT09-B81.5",
    "event_ticker": "KXHIGHLAX-26OCT09",
@@ -120,22 +56,6 @@
    "close_ts": 1791619200.0,
    "score": 0.5534,
    "mark_price": 0.99
-  },
-  {
-   "id": 9,
-   "ticker": "KXUST10A-26OCT09-T5.30",
-   "event_ticker": "KXUST10A-26OCT09",
-   "series": "KXUST10A",
-   "label": "Will the 10Y U.S. Treasury yield be above 5.30% on Oct 9, 2026? \u2014 5.31% or above",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791489958,
-   "close_ts": 1791574200.0,
-   "score": 0.5451,
-   "mark_price": 0.98
   },
   {
    "id": 10,
@@ -170,22 +90,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 13,
-   "ticker": "KXSOLD-26OCT0917-T115.9999",
-   "event_ticker": "KXSOLD-26OCT0917",
-   "series": "KXSOLD",
-   "label": "SOL price on Oct 9, 2026? \u2014 $116 or above",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791491446,
-   "close_ts": 1791579600.0,
-   "score": 0.5602,
-   "mark_price": 0.99
-  },
-  {
    "id": 14,
    "ticker": "KXHIGHPHIL-26OCT09-B72.5",
    "event_ticker": "KXHIGHPHIL-26OCT09",
@@ -215,7 +119,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 16,
@@ -248,6 +152,54 @@
    "close_ts": 1791651540.0,
    "score": 0.601,
    "mark_price": 0.94
+  },
+  {
+   "id": 18,
+   "ticker": "KXETHD-26OCT1017-T2419.99",
+   "event_ticker": "KXETHD-26OCT1017",
+   "series": "KXETHD",
+   "label": "Ethereum price at Oct 10, 2026 at 5pm EDT? \u2014 $2,420 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791580542,
+   "close_ts": 1791666000.0,
+   "score": 0.6548,
+   "mark_price": 0.94
+  },
+  {
+   "id": 19,
+   "ticker": "KXBTCD-26OCT1017-T83499.99",
+   "event_ticker": "KXBTCD-26OCT1017",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 10, 2026? \u2014 $83,500 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.91,
+   "fee": 0.02,
+   "cost": 2.75,
+   "opened_ts": 1791580542,
+   "close_ts": 1791666000.0,
+   "score": 0.6306,
+   "mark_price": 0.9
+  },
+  {
+   "id": 20,
+   "ticker": "KXRAIN-26OCT10-LEX",
+   "event_ticker": "KXRAIN-26OCT10",
+   "series": "KXRAIN",
+   "label": "Will it rain in Lexington on Oct 10, 2026?",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791580542,
+   "close_ts": 1791694800.0,
+   "score": 0.6123,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -289,6 +241,126 @@
    "pnl": 0.19,
    "result": "NO",
    "closed_ts": 1791567953,
+   "won": true
+  },
+  {
+   "id": 1,
+   "ticker": "KXBTCD-26OCT0917-T84499.99",
+   "event_ticker": "KXBTCD-26OCT0917",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,500 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791476132,
+   "close_ts": 1791579600.0,
+   "score": 0.6604,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 2,
+   "ticker": "KXETHD-26OCT0917-T2549.99",
+   "event_ticker": "KXETHD-26OCT0917",
+   "series": "KXETHD",
+   "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791476132,
+   "close_ts": 1791579600.0,
+   "score": 0.6504,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 6,
+   "ticker": "KXBTC-26OCT0917-B82750",
+   "event_ticker": "KXBTC-26OCT0917",
+   "series": "KXBTC",
+   "label": "Bitcoin price range on Oct 9, 2026? \u2014 $82,500 to 82,999.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791476391,
+   "close_ts": 1791579600.0,
+   "score": 0.5429,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 7,
+   "ticker": "KXGOLDW-26OCT0917-T4201.99",
+   "event_ticker": "KXGOLDW-26OCT0917",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4201.99 USD/t.oz on October 09, 2026 at 5:00 PM EDT? \u2014 Above $4201.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791489958,
+   "close_ts": 1791579600.0,
+   "score": 0.5964,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 9,
+   "ticker": "KXUST10A-26OCT09-T5.30",
+   "event_ticker": "KXUST10A-26OCT09",
+   "series": "KXUST10A",
+   "label": "Will the 10Y U.S. Treasury yield be above 5.30% on Oct 9, 2026? \u2014 5.31% or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791489958,
+   "close_ts": 1791574200.0,
+   "score": 0.5451,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 13,
+   "ticker": "KXSOLD-26OCT0917-T115.9999",
+   "event_ticker": "KXSOLD-26OCT0917",
+   "series": "KXSOLD",
+   "label": "SOL price on Oct 9, 2026? \u2014 $116 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791491446,
+   "close_ts": 1791579600.0,
+   "score": 0.5602,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791580542,
    "won": true
   }
  ],
@@ -807,89 +879,105 @@
    1791579651,
    100.67,
    102.13
+  ],
+  [
+   1791580542,
+   101.57,
+   102.5
   ]
  ],
  "last_run": {
-  "ts": 1791579651,
+  "ts": 1791580542,
   "error": null,
   "markets_scanned": 1248,
-  "candidates": 31,
+  "candidates": 33,
   "rejections": {
-   "too little volume": 1044,
-   "no favorite in 80-95c band": 142,
-   "spread too wide": 31
+   "too little volume": 1041,
+   "no favorite in 80-95c band": 148,
+   "spread too wide": 26
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   18,
+   19,
+   20
+  ],
+  "settled": [
+   1,
+   2,
+   6,
+   7,
+   9,
+   13
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.97,
-    "volume_24h": 13850.82,
-    "score": 0.6709
+    "price": 0.93,
+    "hours_to_close": 19.72,
+    "volume_24h": 14213.52,
+    "score": 0.6616
+   },
+   {
+    "label": "Ethereum price at Oct 10, 2026 at 5pm EDT? \u2014 $2,420 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 6154.34,
+    "score": 0.6548
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.97,
-    "volume_24h": 3843.55,
-    "score": 0.6497
-   },
-   {
-    "label": "Ethereum price at Oct 10, 2026 at 5pm EDT? \u2014 $2,420 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 6110.34,
-    "score": 0.644
-   },
-   {
-    "label": "Will it rain in Lexington on Oct 10, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 31.99,
-    "volume_24h": 3594.14,
-    "score": 0.612
+    "hours_to_close": 19.72,
+    "volume_24h": 4115.46,
+    "score": 0.6527
    },
    {
     "label": "Bitcoin price on Oct 10, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.99,
-    "volume_24h": 7892.68,
-    "score": 0.5923
-   },
-   {
-    "label": "Will it rain in Pittsburgh on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 31.99,
-    "volume_24h": 7164.62,
-    "score": 0.5844
+    "price": 0.91,
+    "hours_to_close": 23.74,
+    "volume_24h": 20438.59,
+    "score": 0.6306
    },
    {
     "label": "Bitcoin price on Oct 10, 2026? \u2014 $81,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.99,
-    "volume_24h": 2444.14,
-    "score": 0.5842
+    "hours_to_close": 23.74,
+    "volume_24h": 14685.59,
+    "score": 0.6306
+   },
+   {
+    "label": "Will it rain in Lexington on Oct 10, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 31.74,
+    "volume_24h": 3594.14,
+    "score": 0.6123
    },
    {
     "label": "Will it rain in Los Angeles on Oct 10, 2026?",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 34.99,
-    "volume_24h": 5957.52,
-    "score": 0.5644
+    "price": 0.92,
+    "hours_to_close": 34.74,
+    "volume_24h": 7143.71,
+    "score": 0.6106
+   },
+   {
+    "label": "Will the minimum temperature be 51-52\u00b0 on Oct 10, 2026? \u2014 51\u00b0 to 52\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 31.74,
+    "volume_24h": 5099.2,
+    "score": 0.5837
    }
   ],
   "watch_added": 1,
-  "watch_graded": 40,
-  "api_calls": 44
+  "watch_graded": 30,
+  "api_calls": 43
  }
 }

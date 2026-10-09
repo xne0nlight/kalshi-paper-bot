@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.86
+   "mark_price": 0.84
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.87
+   "mark_price": 0.86
   },
   {
    "id": 7,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.82
+   "mark_price": 0.77
   },
   {
    "id": 8,
@@ -151,7 +151,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.85
+   "mark_price": 0.86
   },
   {
    "id": 10,
@@ -167,7 +167,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.552,
-   "mark_price": 0.94
+   "mark_price": 0.96
   },
   {
    "id": 12,
@@ -247,7 +247,7 @@
    "opened_ts": 1791507654,
    "close_ts": 1791570600.0,
    "score": 0.6101,
-   "mark_price": 0.94
+   "mark_price": 0.95
   }
  ],
  "closed_positions": [
@@ -397,18 +397,24 @@
    1791509445,
    100.48,
    99.11
+  ],
+  [
+   1791510354,
+   100.48,
+   98.99
   ]
  ],
  "last_run": {
-  "ts": 1791509445,
+  "ts": 1791510354,
   "error": null,
   "markets_scanned": 4884,
-  "candidates": 60,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 4449,
-   "no favorite in 80-95c band": 335,
-   "spread too wide": 34,
-   "favorite is slipping fast": 6
+   "too little volume": 4447,
+   "no favorite in 80-95c band": 337,
+   "spread too wide": 37,
+   "favorite is slipping fast": 6,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -418,68 +424,68 @@
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 24738.73,
-    "score": 0.6724
+    "hours_to_close": 19.23,
+    "volume_24h": 25059.87,
+    "score": 0.6732
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 19961.43,
-    "score": 0.6724
-   },
-   {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,390 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 4656.12,
-    "score": 0.6575
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 9, 2026? \u2014 38.1%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.47,
-    "volume_24h": 30438.6,
-    "score": 0.6378
+    "hours_to_close": 19.23,
+    "volume_24h": 20481.43,
+    "score": 0.6732
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $80,000 or above",
     "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 19.23,
+    "volume_24h": 101746.58,
+    "score": 0.6532
+   },
+   {
+    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.49,
-    "volume_24h": 101532.58,
-    "score": 0.6324
+    "hours_to_close": 19.23,
+    "volume_24h": 13948.02,
+    "score": 0.6332
    },
    {
     "label": "Will Trump's RCP approval average be below 38.1 on Oct 9, 2026? \u2014 Below 38.1%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 15.47,
-    "volume_24h": 56141.42,
-    "score": 0.6278
+    "hours_to_close": 15.22,
+    "volume_24h": 56492.01,
+    "score": 0.629
    },
    {
     "label": "Bitcoin price on Oct 9, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 19.49,
-    "volume_24h": 43195.64,
-    "score": 0.6224
+    "price": 0.87,
+    "hours_to_close": 19.23,
+    "volume_24h": 44557.44,
+    "score": 0.6032
    },
    {
-    "label": "Ethereum price at Oct 9, 2026 at 5pm EDT? \u2014 $2,550 or above",
+    "label": "BBK Partnership wins",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.49,
-    "volume_24h": 13790.88,
-    "score": 0.5924
+    "price": 0.95,
+    "hours_to_close": 34.23,
+    "volume_24h": 110985.93,
+    "score": 0.6022
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be between 88.00 and 88.99 USD/Bbl on Oct 9, 2026? \u2014 $88.00 to $88.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.73,
+    "volume_24h": 1068.89,
+    "score": 0.5996
    }
   ],
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 41
  }

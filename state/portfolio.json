@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 4,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.69
+   "mark_price": 0.79
   },
   {
    "id": 7,
@@ -215,7 +215,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.97
+   "mark_price": 0.95
   },
   {
    "id": 16,
@@ -777,17 +777,22 @@
    1791574251,
    100.67,
    101.02
+  ],
+  [
+   1791575147,
+   100.67,
+   101.23
   ]
  ],
  "last_run": {
-  "ts": 1791574251,
+  "ts": 1791575147,
   "error": null,
   "markets_scanned": 410,
-  "candidates": 16,
+  "candidates": 17,
   "rejections": {
-   "too little volume": 262,
-   "no favorite in 80-95c band": 110,
-   "spread too wide": 21,
+   "too little volume": 261,
+   "no favorite in 80-95c band": 108,
+   "spread too wide": 23,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -798,65 +803,65 @@
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.47,
-    "volume_24h": 2201.5,
-    "score": 0.6272
+    "hours_to_close": 21.22,
+    "volume_24h": 2332.67,
+    "score": 0.6298
    },
    {
     "label": "Will it rain in Lexington on Oct 10, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 3594.14,
-    "score": 0.6099
-   },
-   {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 10, 2026? \u2014 87\u00b0 to 88\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.49,
-    "volume_24h": 732.69,
-    "score": 0.5581
+    "score": 0.6102
    },
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.47,
-    "volume_24h": 6496.35,
-    "score": 0.5524
+    "price": 0.88,
+    "hours_to_close": 21.22,
+    "volume_24h": 6562.32,
+    "score": 0.5934
+   },
+   {
+    "label": "Will the maximum temperature be <70\u00b0 on Oct 10, 2026? \u2014 69\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.24,
+    "volume_24h": 537.0,
+    "score": 0.5583
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 10, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 493.69,
-    "score": 0.5453
+    "score": 0.5456
    },
    {
     "label": "Will the maximum temperature be <89\u00b0 on Oct 10, 2026? \u2014 88\u00b0 or below",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 417.1,
-    "score": 0.5372
+    "score": 0.5375
    },
    {
     "label": "Will the maximum temperature be 92-93\u00b0 on Oct 10, 2026? \u2014 92\u00b0 to 93\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 391.0,
-    "score": 0.5364
+    "score": 0.5367
    },
    {
     "label": "Will it rain in Washington DC on Oct 10, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 7280.29,
-    "score": 0.5328
+    "score": 0.5332
    }
   ],
   "watch_added": 0,

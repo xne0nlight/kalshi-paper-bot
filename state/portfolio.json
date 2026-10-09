@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 67.79,
- "fees_paid": 0.35,
- "peak_equity": 101.57,
+ "cash": 62.34,
+ "fees_paid": 0.4,
+ "peak_equity": 101.79,
  "day": "2026-10-09",
  "day_start_equity": 100.0,
- "next_id": 21,
+ "next_id": 24,
  "open_positions": [
-  {
-   "id": 4,
-   "ticker": "KXBRENTW-26OCT0917-T107.99",
-   "event_ticker": "KXBRENTW-26OCT0917",
-   "series": "KXBRENTW",
-   "label": "Will the brent crude oil close price be above 107.99 USD/Bbl on October 09, 2026 at 5:00 PM EDT? \u2014 Above $107.99",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791476391,
-   "close_ts": 1791579600.0,
-   "score": 0.5934,
-   "mark_price": 0.99
-  },
   {
    "id": 5,
    "ticker": "KXWTIW-26OCT0914-B89.50",
@@ -119,7 +103,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 16,
@@ -183,7 +167,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6306,
-   "mark_price": 0.9
+   "mark_price": 0.91
   },
   {
    "id": 20,
@@ -200,6 +184,54 @@
    "close_ts": 1791694800.0,
    "score": 0.6123,
    "mark_price": 0.93
+  },
+  {
+   "id": 21,
+   "ticker": "KXHIGHTDC-26OCT10-T70",
+   "event_ticker": "KXHIGHTDC-26OCT10",
+   "series": "KXHIGHTDC",
+   "label": "Will the maximum temperature be <70\u00b0 on Oct 10, 2026? \u2014 69\u00b0 or below",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791581451,
+   "close_ts": 1791694800.0,
+   "score": 0.5608,
+   "mark_price": 0.94
+  },
+  {
+   "id": 22,
+   "ticker": "KXHIGHTATL-26OCT10-B73.5",
+   "event_ticker": "KXHIGHTATL-26OCT10",
+   "series": "KXHIGHTATL",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Oct 10, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791581451,
+   "close_ts": 1791694800.0,
+   "score": 0.5481,
+   "mark_price": 0.93
+  },
+  {
+   "id": 23,
+   "ticker": "KXHIGHCHI-26OCT10-B77.5",
+   "event_ticker": "KXHIGHCHI-26OCT10",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 77-78\u00b0 on Oct 10, 2026? \u2014 77\u00b0 to 78\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.91,
+   "fee": 0.02,
+   "cost": 2.75,
+   "opened_ts": 1791581451,
+   "close_ts": 1791698400.0,
+   "score": 0.5425,
+   "mark_price": 0.9
   }
  ],
  "closed_positions": [
@@ -361,6 +393,26 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1791580542,
+   "won": true
+  },
+  {
+   "id": 4,
+   "ticker": "KXBRENTW-26OCT0917-T107.99",
+   "event_ticker": "KXBRENTW-26OCT0917",
+   "series": "KXBRENTW",
+   "label": "Will the brent crude oil close price be above 107.99 USD/Bbl on October 09, 2026 at 5:00 PM EDT? \u2014 Above $107.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791476391,
+   "close_ts": 1791579600.0,
+   "score": 0.5934,
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1791581451,
    "won": true
   }
  ],
@@ -884,30 +936,31 @@
    1791580542,
    101.57,
    102.5
+  ],
+  [
+   1791581451,
+   101.79,
+   102.45
   ]
  ],
  "last_run": {
-  "ts": 1791580542,
+  "ts": 1791581451,
   "error": null,
-  "markets_scanned": 1248,
-  "candidates": 33,
+  "markets_scanned": 1247,
+  "candidates": 30,
   "rejections": {
-   "too little volume": 1041,
-   "no favorite in 80-95c band": 148,
-   "spread too wide": 26
+   "too little volume": 1033,
+   "no favorite in 80-95c band": 154,
+   "spread too wide": 29,
+   "nothing for sale at the ask": 1
   },
   "opened": [
-   18,
-   19,
-   20
+   21,
+   22,
+   23
   ],
   "settled": [
-   1,
-   2,
-   6,
-   7,
-   9,
-   13
+   4
   ],
   "halt": null,
   "top_candidates": [
@@ -915,69 +968,69 @@
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.72,
-    "volume_24h": 14213.52,
-    "score": 0.6616
+    "hours_to_close": 19.47,
+    "volume_24h": 14511.04,
+    "score": 0.6625
    },
    {
     "label": "Ethereum price at Oct 10, 2026 at 5pm EDT? \u2014 $2,420 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 6154.34,
-    "score": 0.6548
+    "hours_to_close": 23.49,
+    "volume_24h": 6878.12,
+    "score": 0.659
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.72,
-    "volume_24h": 4115.46,
-    "score": 0.6527
-   },
-   {
-    "label": "Bitcoin price on Oct 10, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 20438.59,
-    "score": 0.6306
+    "hours_to_close": 19.47,
+    "volume_24h": 4151.53,
+    "score": 0.6538
    },
    {
     "label": "Bitcoin price on Oct 10, 2026? \u2014 $81,500 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 14685.59,
-    "score": 0.6306
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 14702.59,
+    "score": 0.6512
    },
    {
-    "label": "Will it rain in Lexington on Oct 10, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 31.74,
-    "volume_24h": 3594.14,
-    "score": 0.6123
+    "label": "Bitcoin price on Oct 10, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 21286.88,
+    "score": 0.6412
    },
    {
     "label": "Will it rain in Los Angeles on Oct 10, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
-    "volume_24h": 7143.71,
-    "score": 0.6106
+    "hours_to_close": 34.49,
+    "volume_24h": 8116.13,
+    "score": 0.6151
    },
    {
-    "label": "Will the minimum temperature be 51-52\u00b0 on Oct 10, 2026? \u2014 51\u00b0 to 52\u00b0",
+    "label": "Will it rain in Lexington on Oct 10, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 31.49,
+    "volume_24h": 3594.14,
+    "score": 0.6127
+   },
+   {
+    "label": "Will it rain in Pittsburgh on Oct 10, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 31.74,
-    "volume_24h": 5099.2,
-    "score": 0.5837
+    "price": 0.93,
+    "hours_to_close": 31.49,
+    "volume_24h": 7766.53,
+    "score": 0.5778
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 30,
-  "api_calls": 43
+  "watch_added": 0,
+  "watch_graded": 8,
+  "api_calls": 42
  }
 }

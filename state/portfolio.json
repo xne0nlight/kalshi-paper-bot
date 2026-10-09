@@ -23,7 +23,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6604,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 2,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 6,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.74
+   "mark_price": 0.79
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 9,
@@ -183,7 +183,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.5359,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 13,
@@ -231,7 +231,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791612000.0,
    "score": 0.5059,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 16,
@@ -712,17 +712,22 @@
    1791566157,
    100.48,
    100.22
+  ],
+  [
+   1791567065,
+   100.48,
+   100.46
   ]
  ],
  "last_run": {
-  "ts": 1791566157,
+  "ts": 1791567065,
   "error": null,
   "markets_scanned": 219,
   "candidates": 7,
   "rejections": {
    "too little volume": 149,
-   "no favorite in 80-95c band": 60,
-   "spread too wide": 3
+   "no favorite in 80-95c band": 62,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
@@ -732,60 +737,60 @@
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.72,
-    "volume_24h": 1086.51,
-    "score": 0.5984
+    "hours_to_close": 23.47,
+    "volume_24h": 1128.61,
+    "score": 0.6002
    },
    {
     "label": "Will it rain in Lexington on Oct 10, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 1958.0,
-    "score": 0.5972
+    "score": 0.5975
    },
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.72,
-    "volume_24h": 4273.38,
-    "score": 0.593
+    "hours_to_close": 23.47,
+    "volume_24h": 4481.88,
+    "score": 0.5951
+   },
+   {
+    "label": "Will it rain in Columbus on Oct 10, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.48,
+    "volume_24h": 6445.64,
+    "score": 0.5363
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 10, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 493.69,
-    "score": 0.4924
-   },
-   {
-    "label": "Will it rain in Columbus on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 35.73,
-    "volume_24h": 4640.08,
-    "score": 0.4853
+    "score": 0.4927
    },
    {
     "label": "Will the maximum temperature be 66-67\u00b0 on Oct 10, 2026? \u2014 66\u00b0 to 67\u00b0",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 35.73,
-    "volume_24h": 321.02,
-    "score": 0.4084
+    "price": 0.84,
+    "hours_to_close": 35.48,
+    "volume_24h": 350.22,
+    "score": 0.4315
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 10, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.81,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 204.0,
-    "score": 0.3337
+    "score": 0.334
    }
   ],
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  }

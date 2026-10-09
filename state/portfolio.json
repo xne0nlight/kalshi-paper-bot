@@ -23,7 +23,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6604,
-   "mark_price": 0.93
+   "mark_price": 0.95
   },
   {
    "id": 2,
@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.93
+   "mark_price": 0.95
   },
   {
    "id": 3,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791570600.0,
    "score": 0.5674,
-   "mark_price": 0.89
+   "mark_price": 0.9
   },
   {
    "id": 6,
@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.78
+   "mark_price": 0.74
   },
   {
    "id": 7,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.76
+   "mark_price": 0.78
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.94
+   "mark_price": 0.92
   },
   {
    "id": 9,
@@ -151,7 +151,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.92
+   "mark_price": 0.9
   },
   {
    "id": 10,
@@ -183,7 +183,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.5359,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 13,
@@ -657,16 +657,21 @@
    1791556266,
    100.48,
    99.89
+  ],
+  [
+   1791557171,
+   100.48,
+   99.83
   ]
  ],
  "last_run": {
-  "ts": 1791556266,
+  "ts": 1791557171,
   "error": null,
-  "markets_scanned": 63,
-  "candidates": 1,
+  "markets_scanned": 55,
+  "candidates": 2,
   "rejections": {
-   "too little volume": 40,
-   "no favorite in 80-95c band": 21,
+   "too little volume": 39,
+   "no favorite in 80-95c band": 13,
    "spread too wide": 1
   },
   "opened": [],
@@ -677,9 +682,17 @@
     "label": "Sri Lanka Emerging Players wins",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.48,
-    "volume_24h": 45294.08,
-    "score": 0.6164
+    "hours_to_close": 21.23,
+    "volume_24h": 45855.16,
+    "score": 0.6171
+   },
+   {
+    "label": "BBK Partnership wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.23,
+    "volume_24h": 77408.96,
+    "score": 0.5671
    }
   ],
   "watch_added": 0,

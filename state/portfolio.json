@@ -103,7 +103,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.65
+   "mark_price": 0.62
   },
   {
    "id": 7,
@@ -119,7 +119,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.72
+   "mark_price": 0.82
   },
   {
    "id": 8,
@@ -183,7 +183,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.5359,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 13,
@@ -247,7 +247,7 @@
    "opened_ts": 1791507654,
    "close_ts": 1791570600.0,
    "score": 0.6101,
-   "mark_price": 0.98
+   "mark_price": 0.99
   }
  ],
  "closed_positions": [
@@ -692,16 +692,21 @@
    1791562558,
    100.48,
    100.01
+  ],
+  [
+   1791563471,
+   100.48,
+   100.22
   ]
  ],
  "last_run": {
-  "ts": 1791562558,
+  "ts": 1791563471,
   "error": null,
   "markets_scanned": 98,
-  "candidates": 3,
+  "candidates": 2,
   "rejections": {
-   "too little volume": 75,
-   "no favorite in 80-95c band": 17,
+   "too little volume": 72,
+   "no favorite in 80-95c band": 21,
    "spread too wide": 3
   },
   "opened": [],
@@ -709,28 +714,20 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 10, 2026? \u2014 37.7%",
+    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.72,
-    "volume_24h": 3766.37,
-    "score": 0.6266
+    "price": 0.95,
+    "hours_to_close": 24.46,
+    "volume_24h": 617.26,
+    "score": 0.5783
    },
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.72,
-    "volume_24h": 3233.77,
-    "score": 0.6016
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 24.72,
-    "volume_24h": 554.26,
-    "score": 0.5742
+    "price": 0.91,
+    "hours_to_close": 24.46,
+    "volume_24h": 3906.25,
+    "score": 0.5483
    }
   ],
   "watch_added": 0,

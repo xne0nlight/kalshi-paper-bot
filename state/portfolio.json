@@ -39,7 +39,7 @@
    "opened_ts": 1791476132,
    "close_ts": 1791579600.0,
    "score": 0.6504,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 4,
@@ -87,7 +87,7 @@
    "opened_ts": 1791476391,
    "close_ts": 1791579600.0,
    "score": 0.5429,
-   "mark_price": 0.63
+   "mark_price": 0.68
   },
   {
    "id": 7,
@@ -103,7 +103,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791579600.0,
    "score": 0.5964,
-   "mark_price": 0.75
+   "mark_price": 0.62
   },
   {
    "id": 8,
@@ -135,7 +135,7 @@
    "opened_ts": 1791489958,
    "close_ts": 1791574200.0,
    "score": 0.5451,
-   "mark_price": 0.99
+   "mark_price": 0.91
   },
   {
    "id": 10,
@@ -167,7 +167,7 @@
    "opened_ts": 1791490547,
    "close_ts": 1791608400.0,
    "score": 0.5359,
-   "mark_price": 0.97
+   "mark_price": 0.99
   },
   {
    "id": 13,
@@ -183,7 +183,7 @@
    "opened_ts": 1791491446,
    "close_ts": 1791579600.0,
    "score": 0.5602,
-   "mark_price": 0.97
+   "mark_price": 0.99
   },
   {
    "id": 14,
@@ -762,17 +762,23 @@
    1791571553,
    100.67,
    100.54
+  ],
+  [
+   1791572457,
+   100.67,
+   100.15
   ]
  ],
  "last_run": {
-  "ts": 1791571553,
+  "ts": 1791572457,
   "error": null,
-  "markets_scanned": 385,
-  "candidates": 17,
+  "markets_scanned": 412,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 253,
-   "no favorite in 80-95c band": 96,
-   "spread too wide": 19
+   "too little volume": 268,
+   "no favorite in 80-95c band": 105,
+   "spread too wide": 22,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -782,68 +788,68 @@
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.22,
+    "hours_to_close": 21.97,
     "volume_24h": 1856.78,
-    "score": 0.6196
+    "score": 0.6203
+   },
+   {
+    "label": "Will it rain in Lexington on Oct 10, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 33.98,
+    "volume_24h": 2213.14,
+    "score": 0.5934
    },
    {
     "label": "Will Trump's RCP approval average be above 37.9 on Oct 10, 2026? \u2014 Above 37.9%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 22.22,
-    "volume_24h": 6243.54,
-    "score": 0.5891
-   },
-   {
-    "label": "Will it rain in Lexington on Oct 10, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 2213.14,
-    "score": 0.5831
+    "hours_to_close": 21.97,
+    "volume_24h": 6258.39,
+    "score": 0.5898
    },
    {
     "label": "Will it rain in New Orleans on Oct 10, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.98,
     "volume_24h": 4218.12,
-    "score": 0.5828
+    "score": 0.5831
+   },
+   {
+    "label": "Will it rain in Washington DC on Oct 10, 2026?",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 33.98,
+    "volume_24h": 7221.74,
+    "score": 0.5819
    },
    {
     "label": "Will the maximum temperature be 87-88\u00b0 on Oct 10, 2026? \u2014 87\u00b0 to 88\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.98,
     "volume_24h": 672.34,
-    "score": 0.5643
-   },
-   {
-    "label": "Will it rain in Washington DC on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.24,
-    "volume_24h": 7221.74,
-    "score": 0.5616
+    "score": 0.5646
    },
    {
     "label": "Will the maximum temperature be <70\u00b0 on Oct 10, 2026? \u2014 69\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.98,
     "volume_24h": 537.0,
-    "score": 0.557
+    "score": 0.5573
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 10, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.98,
     "volume_24h": 493.69,
-    "score": 0.5443
+    "score": 0.5446
    }
   ],
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  }

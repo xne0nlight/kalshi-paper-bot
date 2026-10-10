@@ -39,7 +39,7 @@
    "opened_ts": 1791567953,
    "close_ts": 1791651540.0,
    "score": 0.601,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 18,
@@ -183,7 +183,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791705600.0,
    "score": 0.5745,
-   "mark_price": 0.96
+   "mark_price": 0.94
   },
   {
    "id": 27,
@@ -231,7 +231,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.93
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [
@@ -1356,10 +1356,15 @@
    1791634545,
    102.94,
    103.08
+  ],
+  [
+   1791635454,
+   102.94,
+   102.93
   ]
  ],
  "last_run": {
-  "ts": 1791634545,
+  "ts": 1791635454,
   "error": null,
   "markets_scanned": 256,
   "candidates": 3,
@@ -1369,38 +1374,36 @@
    "spread too wide": 5
   },
   "opened": [],
-  "settled": [
-   15
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Donald Trump make between 160 and 179 Truth Social posts the week of Oct 4, 2026? \u2014 160-179",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.72,
+    "hours_to_close": 25.47,
     "volume_24h": 2203.23,
-    "score": 0.5969
+    "score": 0.5975
    },
    {
     "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 4743.86,
-    "score": 0.5419
+    "hours_to_close": 25.48,
+    "volume_24h": 4767.98,
+    "score": 0.5426
    },
    {
     "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.72,
-    "volume_24h": 1520.63,
-    "score": 0.5149
+    "hours_to_close": 25.47,
+    "volume_24h": 1520.16,
+    "score": 0.4654
    }
   ],
   "watch_added": 0,
-  "watch_graded": 23,
+  "watch_graded": 0,
   "api_calls": 42
  }
 }

@@ -87,7 +87,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5481,
-   "mark_price": 0.9
+   "mark_price": 0.93
   },
   {
    "id": 23,
@@ -103,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791698400.0,
    "score": 0.5425,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 24,
@@ -135,7 +135,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.9
+   "mark_price": 0.86
   },
   {
    "id": 26,
@@ -151,7 +151,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791705600.0,
    "score": 0.5745,
-   "mark_price": 0.96
+   "mark_price": 0.95
   },
   {
    "id": 27,
@@ -199,7 +199,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.87
+   "mark_price": 0.94
   },
   {
    "id": 30,
@@ -231,7 +231,7 @@
    "opened_ts": 1791648052,
    "close_ts": 1791777540.0,
    "score": 0.65,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 32,
@@ -247,7 +247,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.93
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [
@@ -1512,16 +1512,21 @@
    1791652549,
    103.24,
    103.81
+  ],
+  [
+   1791653454,
+   103.24,
+   103.9
   ]
  ],
  "last_run": {
-  "ts": 1791652549,
+  "ts": 1791653454,
   "error": null,
   "markets_scanned": 671,
-  "candidates": 14,
+  "candidates": 13,
   "rejections": {
    "too little volume": 479,
-   "no favorite in 80-95c band": 168,
+   "no favorite in 80-95c band": 169,
    "spread too wide": 10
   },
   "opened": [],
@@ -1529,71 +1534,71 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will average **gas prices** be above $4.3700? \u2014 Above 4.3700",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.72,
-    "volume_24h": 15821.33,
-    "score": 0.6516
+    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 34.47,
+    "volume_24h": 6868.1,
+    "score": 0.6197
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.72,
-    "volume_24h": 4047.66,
-    "score": 0.6312
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.72,
-    "volume_24h": 8063.1,
-    "score": 0.6037
+    "price": 0.92,
+    "hours_to_close": 23.47,
+    "volume_24h": 4708.43,
+    "score": 0.6167
    },
    {
     "label": "Will it rain in Lexington on Oct 11, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 2012.29,
-    "score": 0.5981
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 34.72,
-    "volume_24h": 6899.05,
-    "score": 0.5795
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.72,
-    "volume_24h": 345.72,
-    "score": 0.5412
+    "score": 0.5984
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.72,
-    "volume_24h": 698.29,
-    "score": 0.524
+    "hours_to_close": 23.47,
+    "volume_24h": 778.74,
+    "score": 0.5782
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.47,
+    "volume_24h": 395.39,
+    "score": 0.5461
+   },
+   {
+    "label": "Will the maximum temperature be <63\u00b0 on Oct 11, 2026? \u2014 62\u00b0 or below",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.49,
+    "volume_24h": 2810.71,
+    "score": 0.5293
+   },
+   {
+    "label": "Will it rain in Atlanta on Oct 11, 2026?",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 35.49,
+    "volume_24h": 2427.87,
+    "score": 0.5045
    },
    {
     "label": "Will the maximum temperature be 93-94\u00b0 on Oct 11, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 231.23,
-    "score": 0.4978
+    "score": 0.4981
    }
   ],
-  "watch_added": 5,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  }

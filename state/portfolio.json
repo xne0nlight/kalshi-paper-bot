@@ -87,7 +87,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5481,
-   "mark_price": 0.91
+   "mark_price": 0.9
   },
   {
    "id": 23,
@@ -103,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791698400.0,
    "score": 0.5425,
-   "mark_price": 0.99
+   "mark_price": 0.97
   },
   {
    "id": 24,
@@ -167,7 +167,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.6485,
-   "mark_price": 0.97
+   "mark_price": 0.99
   },
   {
    "id": 28,
@@ -199,7 +199,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.9
+   "mark_price": 0.87
   },
   {
    "id": 30,
@@ -215,7 +215,7 @@
    "opened_ts": 1791637252,
    "close_ts": 1791761400.0,
    "score": 0.5219,
-   "mark_price": 0.94
+   "mark_price": 0.96
   },
   {
    "id": 31,
@@ -1507,93 +1507,94 @@
    1791651664,
    103.24,
    103.87
+  ],
+  [
+   1791652549,
+   103.24,
+   103.81
   ]
  ],
  "last_run": {
-  "ts": 1791651664,
+  "ts": 1791652549,
   "error": null,
   "markets_scanned": 671,
-  "candidates": 11,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 482,
+   "too little volume": 479,
    "no favorite in 80-95c band": 168,
    "spread too wide": 10
   },
-  "opened": [
-   32
-  ],
-  "settled": [
-   17
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Georgia vs Alabama game to be delayed due to weather \u2014 Game to be delayed due to weather",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.48,
-    "volume_24h": 13998.61,
-    "score": 0.6576
-   },
    {
     "label": "Will average **gas prices** be above $4.3700? \u2014 Above 4.3700",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.97,
-    "volume_24h": 15849.4,
-    "score": 0.6513
+    "hours_to_close": 34.72,
+    "volume_24h": 15821.33,
+    "score": 0.6516
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.97,
-    "volume_24h": 3980.6,
-    "score": 0.6301
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 34.97,
-    "volume_24h": 6899.05,
-    "score": 0.6192
+    "hours_to_close": 23.72,
+    "volume_24h": 4047.66,
+    "score": 0.6312
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.97,
-    "volume_24h": 8040.52,
-    "score": 0.613
+    "price": 0.89,
+    "hours_to_close": 23.72,
+    "volume_24h": 8063.1,
+    "score": 0.6037
    },
    {
-    "label": "Will there be at least 5 presidential actions in the week of Oct 4, 2026? \u2014 At least 5",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 20.98,
-    "volume_24h": 8848.68,
-    "score": 0.5738
+    "label": "Will it rain in Lexington on Oct 11, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.74,
+    "volume_24h": 2012.29,
+    "score": 0.5981
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
-    "side": "no",
+    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.97,
-    "volume_24h": 521.84,
-    "score": 0.564
+    "hours_to_close": 34.72,
+    "volume_24h": 6899.05,
+    "score": 0.5795
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.97,
-    "volume_24h": 335.72,
-    "score": 0.5396
+    "hours_to_close": 23.72,
+    "volume_24h": 345.72,
+    "score": 0.5412
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.72,
+    "volume_24h": 698.29,
+    "score": 0.524
+   },
+   {
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 11, 2026? \u2014 93\u00b0 to 94\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.74,
+    "volume_24h": 231.23,
+    "score": 0.4978
    }
   ],
-  "watch_added": 2,
-  "watch_graded": 4,
+  "watch_added": 5,
+  "watch_graded": 0,
   "api_calls": 42
  }
 }

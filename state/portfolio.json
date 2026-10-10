@@ -23,7 +23,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6548,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 19,
@@ -39,7 +39,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6306,
-   "mark_price": 0.94
+   "mark_price": 0.96
   },
   {
    "id": 20,
@@ -87,7 +87,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5481,
-   "mark_price": 0.91
+   "mark_price": 0.94
   },
   {
    "id": 23,
@@ -135,7 +135,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.87
+   "mark_price": 0.92
   },
   {
    "id": 26,
@@ -1527,17 +1527,22 @@
    1791655250,
    103.24,
    103.84
+  ],
+  [
+   1791656150,
+   103.24,
+   104.17
   ]
  ],
  "last_run": {
-  "ts": 1791655250,
+  "ts": 1791656150,
   "error": null,
   "markets_scanned": 868,
-  "candidates": 22,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 610,
-   "no favorite in 80-95c band": 225,
-   "spread too wide": 11
+   "too little volume": 609,
+   "no favorite in 80-95c band": 228,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
@@ -1547,68 +1552,68 @@
     "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 33.97,
+    "hours_to_close": 33.72,
     "volume_24h": 6852.17,
-    "score": 0.6202
-   },
-   {
-    "label": "Will it rain in New Orleans between Oct 10 and Oct 11, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 12049.95,
-    "score": 0.61
+    "score": 0.6206
    },
    {
     "label": "Will it rain in Lexington on Oct 11, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 2012.29,
-    "score": 0.599
+    "score": 0.5993
+   },
+   {
+    "label": "Will there be at least 5 presidential actions in the week of Oct 4, 2026? \u2014 At least 5",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 19.74,
+    "volume_24h": 9083.99,
+    "score": 0.5985
    },
    {
     "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.97,
-    "volume_24h": 1904.75,
-    "score": 0.5969
+    "hours_to_close": 19.72,
+    "volume_24h": 1924.75,
+    "score": 0.598
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 22.97,
-    "volume_24h": 8264.41,
-    "score": 0.5863
+    "hours_to_close": 22.72,
+    "volume_24h": 8284.41,
+    "score": 0.587
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.97,
-    "volume_24h": 801.79,
-    "score": 0.5803
+    "hours_to_close": 22.72,
+    "volume_24h": 821.79,
+    "score": 0.5818
+   },
+   {
+    "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 19.74,
+    "volume_24h": 5733.77,
+    "score": 0.5535
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.97,
-    "volume_24h": 418.44,
-    "score": 0.5492
-   },
-   {
-    "label": "Will it rain in Atlanta on Oct 11, 2026?",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 34.99,
-    "volume_24h": 2623.28,
-    "score": 0.5377
+    "hours_to_close": 22.72,
+    "volume_24h": 438.44,
+    "score": 0.5513
    }
   ],
-  "watch_added": 7,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  }

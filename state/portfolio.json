@@ -103,7 +103,7 @@
    "opened_ts": 1791567953,
    "close_ts": 1791651540.0,
    "score": 0.601,
-   "mark_price": 0.97
+   "mark_price": 0.98
   },
   {
    "id": 18,
@@ -119,7 +119,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6548,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 19,
@@ -135,7 +135,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6306,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 20,
@@ -151,7 +151,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791694800.0,
    "score": 0.6123,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 21,
@@ -167,7 +167,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5608,
-   "mark_price": 0.87
+   "mark_price": 0.89
   },
   {
    "id": 22,
@@ -1242,85 +1242,91 @@
    1791625547,
    102.23,
    103.11
+  ],
+  [
+   1791626454,
+   102.23,
+   103.17
   ]
  ],
  "last_run": {
-  "ts": 1791625547,
+  "ts": 1791626454,
   "error": null,
-  "markets_scanned": 404,
-  "candidates": 21,
+  "markets_scanned": 300,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 199,
-   "no favorite in 80-95c band": 174,
-   "spread too wide": 10
+   "too little volume": 169,
+   "no favorite in 80-95c band": 112,
+   "spread too wide": 8,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 10, 2026? \u2014 79\u00b0 to 80\u00b0",
-    "side": "no",
+    "label": "Will the maximum temperature be >75\u00b0 on Oct 10, 2026? \u2014 76\u00b0 or above",
+    "side": "yes",
     "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 5896.78,
-    "score": 0.6428
+    "hours_to_close": 21.98,
+    "volume_24h": 19405.86,
+    "score": 0.655
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 10, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.98,
+    "volume_24h": 7167.79,
+    "score": 0.6542
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 10, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.98,
     "volume_24h": 1599.77,
-    "score": 0.6174
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 10, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 2561.66,
-    "score": 0.6157
-   },
-   {
-    "label": "Will it rain in Seattle on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.24,
-    "volume_24h": 8173.91,
-    "score": 0.6078
+    "score": 0.6181
    },
    {
     "label": "Will the maximum temperature be 61-62\u00b0 on Oct 10, 2026? \u2014 61\u00b0 to 62\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 1190.99,
-    "score": 0.6051
+    "hours_to_close": 21.98,
+    "volume_24h": 1295.99,
+    "score": 0.6085
    },
    {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 10, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "label": "Will the maximum temperature be 91-92\u00b0 on Oct 10, 2026? \u2014 91\u00b0 to 92\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.24,
-    "volume_24h": 6961.75,
-    "score": 0.6026
-   },
-   {
-    "label": "Will it rain in New Orleans on Oct 10, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 17257.93,
-    "score": 0.6
+    "price": 0.91,
+    "hours_to_close": 20.98,
+    "volume_24h": 3319.7,
+    "score": 0.6019
    },
    {
     "label": "Will Donald Trump make between 160 and 179 Truth Social posts the week of Oct 4, 2026? \u2014 160-179",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.22,
+    "hours_to_close": 27.97,
     "volume_24h": 2203.23,
-    "score": 0.5921
+    "score": 0.5926
+   },
+   {
+    "label": "Will the maximum temperature be 67-68\u00b0 on Oct 10, 2026? \u2014 67\u00b0 to 68\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.98,
+    "volume_24h": 489.34,
+    "score": 0.5568
+   },
+   {
+    "label": "Will the maximum temperature be >96\u00b0 on Oct 10, 2026? \u2014 97\u00b0 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 20.98,
+    "volume_24h": 1955.0,
+    "score": 0.5547
    }
   ],
   "watch_added": 0,

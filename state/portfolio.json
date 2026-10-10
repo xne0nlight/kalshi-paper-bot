@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 60.84,
- "fees_paid": 0.55,
- "peak_equity": 103.1,
+ "cash": 61.0,
+ "fees_paid": 0.57,
+ "peak_equity": 103.24,
  "day": "2026-10-10",
  "day_start_equity": 101.79,
- "next_id": 32,
+ "next_id": 33,
  "open_positions": [
-  {
-   "id": 17,
-   "ticker": "KXTRUMPAPPROVE-26OCT10-E37.9",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT10",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791567953,
-   "close_ts": 1791651540.0,
-   "score": 0.601,
-   "mark_price": 0.99
-  },
   {
    "id": 18,
    "ticker": "KXETHD-26OCT1017-T2419.99",
@@ -55,7 +39,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6306,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 20,
@@ -119,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791698400.0,
    "score": 0.5425,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 24,
@@ -151,7 +135,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.93
+   "mark_price": 0.9
   },
   {
    "id": 26,
@@ -183,7 +167,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.6485,
-   "mark_price": 0.95
+   "mark_price": 0.97
   },
   {
    "id": 28,
@@ -215,7 +199,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.94
+   "mark_price": 0.9
   },
   {
    "id": 30,
@@ -248,6 +232,22 @@
    "close_ts": 1791777540.0,
    "score": 0.65,
    "mark_price": 0.94
+  },
+  {
+   "id": 32,
+   "ticker": "KXTRUMPAPPROVE-26OCT11-E37.7",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT11",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791651664,
+   "close_ts": 1791737940.0,
+   "score": 0.6301,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -569,6 +569,26 @@
    "pnl": 0.16,
    "result": "NO",
    "closed_ts": 1791641752,
+   "won": true
+  },
+  {
+   "id": 17,
+   "ticker": "KXTRUMPAPPROVE-26OCT10-E37.9",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT10",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 10, 2026? \u2014 37.9%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791567953,
+   "close_ts": 1791651540.0,
+   "score": 0.601,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791651664,
    "won": true
   }
  ],
@@ -1482,89 +1502,98 @@
    1791650749,
    103.1,
    103.98
+  ],
+  [
+   1791651664,
+   103.24,
+   103.87
   ]
  ],
  "last_run": {
-  "ts": 1791650749,
+  "ts": 1791651664,
   "error": null,
-  "markets_scanned": 540,
-  "candidates": 10,
+  "markets_scanned": 671,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 398,
-   "no favorite in 80-95c band": 126,
-   "spread too wide": 6
+   "too little volume": 482,
+   "no favorite in 80-95c band": 168,
+   "spread too wide": 10
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   32
+  ],
+  "settled": [
+   17
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Georgia vs Alabama game to be delayed due to weather \u2014 Game to be delayed due to weather",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 13593.35,
-    "score": 0.6572
+    "hours_to_close": 30.48,
+    "volume_24h": 13998.61,
+    "score": 0.6576
    },
    {
     "label": "Will average **gas prices** be above $4.3700? \u2014 Above 4.3700",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.22,
-    "volume_24h": 15853.4,
-    "score": 0.6509
+    "hours_to_close": 34.97,
+    "volume_24h": 15849.4,
+    "score": 0.6513
    },
    {
-    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
+    "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.22,
-    "volume_24h": 7920.67,
-    "score": 0.6219
+    "price": 0.94,
+    "hours_to_close": 23.97,
+    "volume_24h": 3980.6,
+    "score": 0.6301
    },
    {
     "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 35.22,
-    "volume_24h": 6926.01,
-    "score": 0.619
+    "hours_to_close": 34.97,
+    "volume_24h": 6899.05,
+    "score": 0.6192
    },
    {
-    "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
+    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 6208.75,
-    "score": 0.6116
+    "price": 0.9,
+    "hours_to_close": 23.97,
+    "volume_24h": 8040.52,
+    "score": 0.613
+   },
+   {
+    "label": "Will there be at least 5 presidential actions in the week of Oct 4, 2026? \u2014 At least 5",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 20.98,
+    "volume_24h": 8848.68,
+    "score": 0.5738
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.22,
-    "volume_24h": 324.61,
-    "score": 0.5479
+    "hours_to_close": 23.97,
+    "volume_24h": 521.84,
+    "score": 0.564
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.22,
-    "volume_24h": 292.72,
-    "score": 0.5346
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 24.22,
-    "volume_24h": 353.97,
-    "score": 0.5108
+    "hours_to_close": 23.97,
+    "volume_24h": 335.72,
+    "score": 0.5396
    }
   ],
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 4,
   "api_calls": 42
  }
 }

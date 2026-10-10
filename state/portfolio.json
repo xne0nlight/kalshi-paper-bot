@@ -55,7 +55,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791666000.0,
    "score": 0.6306,
-   "mark_price": 0.97
+   "mark_price": 0.95
   },
   {
    "id": 20,
@@ -87,7 +87,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5608,
-   "mark_price": 0.81
+   "mark_price": 0.78
   },
   {
    "id": 22,
@@ -103,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5481,
-   "mark_price": 0.97
+   "mark_price": 0.92
   },
   {
    "id": 23,
@@ -119,7 +119,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791698400.0,
    "score": 0.5425,
-   "mark_price": 0.95
+   "mark_price": 0.91
   },
   {
    "id": 24,
@@ -183,7 +183,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.6485,
-   "mark_price": 0.91
+   "mark_price": 0.92
   },
   {
    "id": 28,
@@ -231,7 +231,7 @@
    "opened_ts": 1791637252,
    "close_ts": 1791761400.0,
    "score": 0.5219,
-   "mark_price": 0.93
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -1416,10 +1416,15 @@
    1791641752,
    103.1,
    103.06
+  ],
+  [
+   1791642648,
+   103.1,
+   102.64
   ]
  ],
  "last_run": {
-  "ts": 1791641752,
+  "ts": 1791642648,
   "error": null,
   "markets_scanned": 260,
   "candidates": 3,
@@ -1429,38 +1434,36 @@
    "spread too wide": 4
   },
   "opened": [],
-  "settled": [
-   8
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Donald Trump make between 160 and 179 Truth Social posts the week of Oct 4, 2026? \u2014 160-179",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.72,
-    "volume_24h": 2191.26,
-    "score": 0.6012
+    "hours_to_close": 23.47,
+    "volume_24h": 2201.27,
+    "score": 0.602
    },
    {
-    "label": "Will there be at least 5 presidential actions in the week of Oct 4, 2026? \u2014 At least 5",
+    "label": "Georgia vs Alabama game to be delayed due to weather \u2014 Game to be delayed due to weather",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 5056.02,
-    "score": 0.5384
+    "hours_to_close": 32.99,
+    "volume_24h": 11235.39,
+    "score": 0.5439
    },
    {
     "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 23.72,
-    "volume_24h": 1492.42,
-    "score": 0.5087
+    "hours_to_close": 23.47,
+    "volume_24h": 1651.42,
+    "score": 0.4626
    }
   ],
   "watch_added": 0,
-  "watch_graded": 15,
+  "watch_graded": 0,
   "api_calls": 42
  }
 }

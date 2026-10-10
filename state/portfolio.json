@@ -103,7 +103,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.94
+   "mark_price": 0.93
   },
   {
    "id": 26,
@@ -167,7 +167,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.8
+   "mark_price": 0.99
   },
   {
    "id": 30,
@@ -247,7 +247,7 @@
    "opened_ts": 1791666940,
    "close_ts": 1791792000.0,
    "score": 0.577,
-   "mark_price": 0.9
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -1642,18 +1642,23 @@
    1791668742,
    103.63,
    104.26
+  ],
+  [
+   1791669648,
+   103.63,
+   104.77
   ]
  ],
  "last_run": {
-  "ts": 1791668742,
+  "ts": 1791669648,
   "error": null,
-  "markets_scanned": 1619,
+  "markets_scanned": 1644,
   "candidates": 35,
   "rejections": {
-   "too little volume": 1319,
+   "too little volume": 1343,
    "no favorite in 80-95c band": 255,
-   "spread too wide": 8,
-   "nothing for sale at the ask": 2
+   "spread too wide": 10,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -1663,68 +1668,68 @@
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.22,
-    "volume_24h": 9491.47,
-    "score": 0.6516
+    "hours_to_close": 18.97,
+    "volume_24h": 9688.57,
+    "score": 0.6531
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.22,
-    "volume_24h": 10201.64,
-    "score": 0.6333
+    "hours_to_close": 18.97,
+    "volume_24h": 10304.3,
+    "score": 0.6341
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.22,
-    "volume_24h": 2759.04,
-    "score": 0.6313
+    "hours_to_close": 18.97,
+    "volume_24h": 2765.7,
+    "score": 0.6322
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.22,
-    "volume_24h": 3479.19,
-    "score": 0.6289
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.24,
-    "volume_24h": 2474.23,
-    "score": 0.6063
+    "hours_to_close": 18.97,
+    "volume_24h": 3485.85,
+    "score": 0.6298
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.24,
+    "price": 0.93,
+    "hours_to_close": 22.99,
     "volume_24h": 3029.12,
-    "score": 0.6029
+    "score": 0.6136
+   },
+   {
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.99,
+    "volume_24h": 3217.54,
+    "score": 0.6055
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 11, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.24,
+    "price": 0.92,
+    "hours_to_close": 30.99,
     "volume_24h": 1840.01,
-    "score": 0.5813
+    "score": 0.5717
    },
    {
-    "label": "Will there be at least 5 presidential actions in the week of Oct 4, 2026? \u2014 At least 5",
+    "label": "Will it rain in Atlanta on Oct 11, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 16.24,
-    "volume_24h": 8302.04,
-    "score": 0.5684
+    "price": 0.88,
+    "hours_to_close": 30.99,
+    "volume_24h": 5187.8,
+    "score": 0.5654
    }
   ],
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  }

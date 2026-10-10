@@ -2,9 +2,9 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 60.48,
+ "cash": 63.48,
  "fees_paid": 0.52,
- "peak_equity": 102.75,
+ "peak_equity": 102.94,
  "day": "2026-10-10",
  "day_start_equity": 101.79,
  "next_id": 30,
@@ -23,22 +23,6 @@
    "opened_ts": 1791489958,
    "close_ts": 1791619200.0,
    "score": 0.5534,
-   "mark_price": 0.99
-  },
-  {
-   "id": 15,
-   "ticker": "KXHIGHCHI-26OCT09-B75.5",
-   "event_ticker": "KXHIGHCHI-26OCT09",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 75-76\u00b0 on Oct 9, 2026? \u2014 75\u00b0 to 76\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 2.81,
-   "opened_ts": 1791491446,
-   "close_ts": 1791612000.0,
-   "score": 0.5059,
    "mark_price": 0.99
   },
   {
@@ -103,7 +87,7 @@
    "opened_ts": 1791580542,
    "close_ts": 1791694800.0,
    "score": 0.6123,
-   "mark_price": 0.96
+   "mark_price": 0.95
   },
   {
    "id": 21,
@@ -119,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5608,
-   "mark_price": 0.9
+   "mark_price": 0.88
   },
   {
    "id": 22,
@@ -183,7 +167,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.9
+   "mark_price": 0.92
   },
   {
    "id": 26,
@@ -215,7 +199,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.6485,
-   "mark_price": 0.87
+   "mark_price": 0.89
   },
   {
    "id": 28,
@@ -247,7 +231,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791705600.0,
    "score": 0.5711,
-   "mark_price": 0.91
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -529,6 +513,26 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1791630953,
+   "won": true
+  },
+  {
+   "id": 15,
+   "ticker": "KXHIGHCHI-26OCT09-B75.5",
+   "event_ticker": "KXHIGHCHI-26OCT09",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Oct 9, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1791491446,
+   "close_ts": 1791612000.0,
+   "score": 0.5059,
+   "payout": 3.0,
+   "pnl": 0.19,
+   "result": "NO",
+   "closed_ts": 1791634545,
    "won": true
   }
  ],
@@ -1347,49 +1351,56 @@
    1791633654,
    102.75,
    102.96
+  ],
+  [
+   1791634545,
+   102.94,
+   103.08
   ]
  ],
  "last_run": {
-  "ts": 1791633654,
+  "ts": 1791634545,
   "error": null,
   "markets_scanned": 256,
   "candidates": 3,
   "rejections": {
    "too little volume": 142,
-   "no favorite in 80-95c band": 107,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 106,
+   "spread too wide": 5
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   15
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Donald Trump make between 160 and 179 Truth Social posts the week of Oct 4, 2026? \u2014 160-179",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.97,
+    "hours_to_close": 25.72,
     "volume_24h": 2203.23,
-    "score": 0.5964
+    "score": 0.5969
    },
    {
     "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.98,
+    "price": 0.95,
+    "hours_to_close": 25.74,
     "volume_24h": 4743.86,
-    "score": 0.5214
+    "score": 0.5419
    },
    {
     "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 25.97,
+    "price": 0.86,
+    "hours_to_close": 25.72,
     "volume_24h": 1520.63,
-    "score": 0.5044
+    "score": 0.5149
    }
   ],
   "watch_added": 0,
-  "watch_graded": 3,
+  "watch_graded": 23,
   "api_calls": 42
  }
 }

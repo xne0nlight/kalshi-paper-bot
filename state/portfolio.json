@@ -87,7 +87,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791694800.0,
    "score": 0.5481,
-   "mark_price": 0.93
+   "mark_price": 0.91
   },
   {
    "id": 23,
@@ -103,7 +103,7 @@
    "opened_ts": 1791581451,
    "close_ts": 1791698400.0,
    "score": 0.5425,
-   "mark_price": 0.96
+   "mark_price": 0.99
   },
   {
    "id": 24,
@@ -135,7 +135,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791727200.0,
    "score": 0.5989,
-   "mark_price": 0.91
+   "mark_price": 0.87
   },
   {
    "id": 26,
@@ -151,7 +151,7 @@
    "opened_ts": 1791599451,
    "close_ts": 1791705600.0,
    "score": 0.5745,
-   "mark_price": 0.96
+   "mark_price": 0.98
   },
   {
    "id": 27,
@@ -247,7 +247,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.89
+   "mark_price": 0.87
   }
  ],
  "closed_positions": [
@@ -1522,17 +1522,22 @@
    1791654350,
    103.24,
    103.93
+  ],
+  [
+   1791655250,
+   103.24,
+   103.84
   ]
  ],
  "last_run": {
-  "ts": 1791654350,
+  "ts": 1791655250,
   "error": null,
-  "markets_scanned": 671,
-  "candidates": 16,
+  "markets_scanned": 868,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 474,
-   "no favorite in 80-95c band": 174,
-   "spread too wide": 7
+   "too little volume": 610,
+   "no favorite in 80-95c band": 225,
+   "spread too wide": 11
   },
   "opened": [],
   "settled": [],
@@ -1542,68 +1547,68 @@
     "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 34.22,
-    "volume_24h": 6851.1,
-    "score": 0.6199
+    "hours_to_close": 33.97,
+    "volume_24h": 6852.17,
+    "score": 0.6202
+   },
+   {
+    "label": "Will it rain in New Orleans between Oct 10 and Oct 11, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 12049.95,
+    "score": 0.61
    },
    {
     "label": "Will it rain in Lexington on Oct 11, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 2012.29,
-    "score": 0.5987
+    "score": 0.599
+   },
+   {
+    "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 19.97,
+    "volume_24h": 1904.75,
+    "score": 0.5969
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 22.97,
+    "volume_24h": 8264.41,
+    "score": 0.5863
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.22,
-    "volume_24h": 785.9,
-    "score": 0.5791
-   },
-   {
-    "label": "Will Donald Trump make between 140 and 159 Truth Social posts the week of Oct 4, 2026? \u2014 140-159",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.22,
-    "volume_24h": 1682.02,
-    "score": 0.5721
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.22,
-    "volume_24h": 4968.13,
-    "score": 0.5591
-   },
-   {
-    "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 6712.96,
-    "score": 0.5571
+    "hours_to_close": 22.97,
+    "volume_24h": 801.79,
+    "score": 0.5803
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.22,
-    "volume_24h": 402.55,
-    "score": 0.5473
+    "hours_to_close": 22.97,
+    "volume_24h": 418.44,
+    "score": 0.5492
    },
    {
     "label": "Will it rain in Atlanta on Oct 11, 2026?",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 35.24,
-    "volume_24h": 2603.28,
-    "score": 0.5371
+    "hours_to_close": 34.99,
+    "volume_24h": 2623.28,
+    "score": 0.5377
    }
   ],
-  "watch_added": 1,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  }

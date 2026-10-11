@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 61.36,
- "fees_paid": 0.6,
- "peak_equity": 103.63,
+ "cash": 61.5,
+ "fees_paid": 0.61,
+ "peak_equity": 103.85,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 35,
+ "next_id": 36,
  "open_positions": [
   {
    "id": 20,
@@ -170,22 +170,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 30,
-   "ticker": "KXNCAAFDELAY-26OCT10UGAALA-Y",
-   "event_ticker": "KXNCAAFDELAY-26OCT10UGAALA",
-   "series": "KXNCAAFDELAY",
-   "label": "Georgia vs Alabama game to be delayed due to weather \u2014 Game to be delayed due to weather",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791637252,
-   "close_ts": 1791761400.0,
-   "score": 0.5219,
-   "mark_price": 0.99
-  },
-  {
    "id": 31,
    "ticker": "KXAAAGASW-26OCT12-4.3700",
    "event_ticker": "KXAAAGASW-26OCT12",
@@ -247,7 +231,23 @@
    "opened_ts": 1791666940,
    "close_ts": 1791792000.0,
    "score": 0.577,
-   "mark_price": 0.83
+   "mark_price": 0.88
+  },
+  {
+   "id": 35,
+   "ticker": "KXOPENSHARE-26OCT12-18.7",
+   "event_ticker": "KXOPENSHARE-26OCT12",
+   "series": "KXOPENSHARE",
+   "label": "OpenAI market share this week? \u2014 Above 18.7%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791689449,
+   "close_ts": 1791813600.0,
+   "score": 0.6519,
+   "mark_price": 0.94
   }
  ],
  "closed_positions": [
@@ -629,6 +629,26 @@
    "pnl": 0.25,
    "result": "NO",
    "closed_ts": 1791666940,
+   "won": true
+  },
+  {
+   "id": 30,
+   "ticker": "KXNCAAFDELAY-26OCT10UGAALA-Y",
+   "event_ticker": "KXNCAAFDELAY-26OCT10UGAALA",
+   "series": "KXNCAAFDELAY",
+   "label": "Georgia vs Alabama game to be delayed due to weather \u2014 Game to be delayed due to weather",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791637252,
+   "close_ts": 1791761400.0,
+   "score": 0.5219,
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1791689449,
    "won": true
   }
  ],
@@ -1752,85 +1772,94 @@
    1791688547,
    103.63,
    104.89
+  ],
+  [
+   1791689449,
+   103.85,
+   105.03
   ]
  ],
  "last_run": {
-  "ts": 1791688547,
+  "ts": 1791689449,
   "error": null,
-  "markets_scanned": 2752,
-  "candidates": 52,
+  "markets_scanned": 2765,
+  "candidates": 49,
   "rejections": {
-   "too little volume": 2349,
-   "no favorite in 80-95c band": 327,
-   "spread too wide": 24
+   "too little volume": 2356,
+   "no favorite in 80-95c band": 335,
+   "spread too wide": 25
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   35
+  ],
+  "settled": [
+   30
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 17.74,
-    "volume_24h": 25600.18,
-    "score": 0.6885
-   },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 13.72,
-    "volume_24h": 10809.87,
-    "score": 0.6765
+    "hours_to_close": 13.47,
+    "volume_24h": 11739.31,
+    "score": 0.6779
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 13.72,
-    "volume_24h": 6402.46,
-    "score": 0.672
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 17.74,
-    "volume_24h": 17216.22,
-    "score": 0.6685
+    "hours_to_close": 13.47,
+    "volume_24h": 7331.9,
+    "score": 0.6778
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 13.72,
-    "volume_24h": 4155.24,
-    "score": 0.6679
+    "hours_to_close": 13.47,
+    "volume_24h": 5151.74,
+    "score": 0.6763
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 17.74,
-    "volume_24h": 13493.62,
-    "score": 0.6585
+    "hours_to_close": 17.49,
+    "volume_24h": 13493.84,
+    "score": 0.6594
+   },
+   {
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 17.49,
+    "volume_24h": 20781.21,
+    "score": 0.6594
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 13.72,
-    "volume_24h": 19515.49,
-    "score": 0.6565
+    "hours_to_close": 13.47,
+    "volume_24h": 21038.22,
+    "score": 0.6579
    },
    {
     "label": "OpenAI market share this week? \u2014 Above 18.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
-    "volume_24h": 10169.48,
-    "score": 0.6516
+    "hours_to_close": 34.49,
+    "volume_24h": 11733.25,
+    "score": 0.6519
+   },
+   {
+    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 52",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 5722.19,
+    "score": 0.6237
    }
   ],
   "watch_added": 1,

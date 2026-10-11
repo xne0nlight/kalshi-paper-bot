@@ -183,7 +183,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 33,
@@ -199,7 +199,7 @@
    "opened_ts": 1791666940,
    "close_ts": 1791752400.0,
    "score": 0.5914,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 34,
@@ -231,7 +231,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.88
+   "mark_price": 0.86
   },
   {
    "id": 36,
@@ -247,7 +247,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.9
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [
@@ -1942,62 +1942,60 @@
    1791715542,
    104.04,
    105.49
+  ],
+  [
+   1791716465,
+   104.04,
+   105.46
   ]
  ],
  "last_run": {
-  "ts": 1791715542,
+  "ts": 1791716465,
   "error": null,
-  "markets_scanned": 3935,
-  "candidates": 5,
+  "markets_scanned": 3948,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 3740,
-   "no favorite in 80-95c band": 152,
-   "spread too wide": 37,
-   "favorite is slipping fast": 1
+   "too little volume": 3745,
+   "no favorite in 80-95c band": 161,
+   "spread too wide": 36,
+   "favorite is slipping fast": 1,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump say \"Third Term\" before Oct 12, 2026?",
+    "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 8228.77,
-    "score": 0.6568
+    "hours_to_close": 26.98,
+    "volume_24h": 12438.9,
+    "score": 0.6637
    },
    {
     "label": "Sporting Jax wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.98,
     "volume_24h": 7410.75,
-    "score": 0.6424
+    "score": 0.6428
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.98,
     "volume_24h": 12562.62,
-    "score": 0.6232
+    "score": 0.6237
    },
    {
     "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 5271.55,
-    "score": 0.5923
-   },
-   {
-    "label": "Other Mommy Rotten Tomatoes score? \u2014 Above 20",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 27.24,
-    "volume_24h": 12255.7,
-    "score": 0.5432
+    "hours_to_close": 26.98,
+    "volume_24h": 5280.1,
+    "score": 0.5929
    }
   ],
   "watch_added": 0,

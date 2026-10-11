@@ -167,7 +167,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.86
+   "mark_price": 0.88
   },
   {
    "id": 40,
@@ -183,7 +183,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.92
+   "mark_price": 0.96
   },
   {
    "id": 41,
@@ -215,7 +215,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 43,
@@ -2222,69 +2222,94 @@
    1791737150,
    105.51,
    105.64
+  ],
+  [
+   1791738074,
+   105.51,
+   105.84
   ]
  ],
  "last_run": {
-  "ts": 1791737150,
+  "ts": 1791738074,
   "error": null,
-  "markets_scanned": 3804,
-  "candidates": 5,
+  "markets_scanned": 3934,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 3683,
-   "no favorite in 80-95c band": 100,
-   "spread too wide": 16
+   "too little volume": 3779,
+   "no favorite in 80-95c band": 126,
+   "spread too wide": 18
   },
-  "opened": [
-   44
-  ],
-  "settled": [
-   20
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Internacional wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.24,
-    "volume_24h": 13478.63,
-    "score": 0.6532
+    "hours_to_close": 26.98,
+    "volume_24h": 13506.63,
+    "score": 0.6537
+   },
+   {
+    "label": "Will it rain in Boston on Oct 12, 2026?",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 35.98,
+    "volume_24h": 1535.85,
+    "score": 0.539
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.96,
     "volume_24h": 671.65,
-    "score": 0.5316
+    "score": 0.5322
+   },
+   {
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.98,
+    "volume_24h": 529.7,
+    "score": 0.4944
+   },
+   {
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.98,
+    "volume_24h": 222.0,
+    "score": 0.4861
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 12, 2026? \u2014 37.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.96,
     "volume_24h": 836.64,
-    "score": 0.4787
+    "score": 0.4793
    },
    {
-    "label": "Sam LaPorta: Leader TE in fantasy points for Week 5?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.22,
-    "volume_24h": 252.74,
-    "score": 0.4213
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.8 on Oct 12, 2026? \u2014 37.8%",
-    "side": "no",
+    "label": "Will it rain in Providence on Oct 12, 2026?",
+    "side": "yes",
     "price": 0.83,
-    "hours_to_close": 24.22,
-    "volume_24h": 1605.43,
-    "score": 0.3899
+    "hours_to_close": 35.98,
+    "volume_24h": 1172.74,
+    "score": 0.4602
+   },
+   {
+    "label": "Will it rain in Washington DC on Oct 12, 2026?",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 35.98,
+    "volume_24h": 386.49,
+    "score": 0.4541
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 10,
-  "api_calls": 42
+  "watch_added": 8,
+  "watch_graded": 0,
+  "api_calls": 43
  }
 }

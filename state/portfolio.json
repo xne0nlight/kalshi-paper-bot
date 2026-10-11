@@ -151,7 +151,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.97
+   "mark_price": 0.92
   },
   {
    "id": 33,
@@ -199,7 +199,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.89
+   "mark_price": 0.75
   },
   {
    "id": 36,
@@ -1992,79 +1992,70 @@
    1791717348,
    104.34,
    105.56
+  ],
+  [
+   1791718257,
+   104.34,
+   104.99
   ]
  ],
  "last_run": {
-  "ts": 1791717348,
+  "ts": 1791718257,
   "error": null,
   "markets_scanned": 3948,
-  "candidates": 6,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 3745,
-   "no favorite in 80-95c band": 160,
-   "spread too wide": 37
+   "too little volume": 3746,
+   "no favorite in 80-95c band": 161,
+   "spread too wide": 36
   },
-  "opened": [
-   37,
-   38
-  ],
-  "settled": [
-   21,
-   22
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.48,
     "volume_24h": 12425.43,
-    "score": 0.6641
+    "score": 0.6646
    },
    {
     "label": "Sporting Jax wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.48,
     "volume_24h": 7542.75,
-    "score": 0.6437
+    "score": 0.644
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.48,
     "volume_24h": 12847.34,
-    "score": 0.6341
+    "score": 0.6346
    },
    {
     "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 26.74,
-    "volume_24h": 5365.42,
-    "score": 0.6039
+    "hours_to_close": 26.48,
+    "volume_24h": 5338.28,
+    "score": 0.6042
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 26.74,
-    "volume_24h": 21962.22,
-    "score": 0.5841
-   },
-   {
-    "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 26.74,
-    "volume_24h": 9474.95,
-    "score": 0.5524
+    "price": 0.88,
+    "hours_to_close": 26.48,
+    "volume_24h": 22025.05,
+    "score": 0.5946
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 15,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 43
  }
 }

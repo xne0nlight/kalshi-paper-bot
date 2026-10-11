@@ -231,7 +231,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.67
+   "mark_price": 0.84
   },
   {
    "id": 36,
@@ -247,7 +247,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.92
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -1907,88 +1907,94 @@
    1791709253,
    104.04,
    104.86
+  ],
+  [
+   1791710148,
+   104.04,
+   105.4
   ]
  ],
  "last_run": {
-  "ts": 1791709253,
+  "ts": 1791710148,
   "error": null,
-  "markets_scanned": 5503,
-  "candidates": 46,
+  "markets_scanned": 4001,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 4999,
-   "no favorite in 80-95c band": 408,
-   "spread too wide": 50
+   "too little volume": 3771,
+   "no favorite in 80-95c band": 179,
+   "spread too wide": 39,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 11.99,
-    "volume_24h": 18909.15,
-    "score": 0.6968
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 11.99,
-    "volume_24h": 11192.63,
-    "score": 0.6968
-   },
-   {
-    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 11, 2026? \u2014 66\u00b0 to 67\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.99,
-    "volume_24h": 5978.32,
-    "score": 0.6541
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 11, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 3452.07,
-    "score": 0.6432
-   },
-   {
     "label": "Sporting Jax wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 7408.75,
-    "score": 0.6403
+    "score": 0.6406
    },
    {
-    "label": "Ethereum price at Oct 11, 2026 at 5pm EDT? \u2014 $2,530 or above",
+    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 11, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 11.99,
-    "volume_24h": 5743.24,
-    "score": 0.6387
+    "price": 0.94,
+    "hours_to_close": 22.74,
+    "volume_24h": 4431.04,
+    "score": 0.6366
    },
    {
-    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 11, 2026? \u2014 64\u00b0 to 65\u00b0",
+    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 19.99,
-    "volume_24h": 4718.67,
-    "score": 0.6364
+    "price": 0.91,
+    "hours_to_close": 28.74,
+    "volume_24h": 13035.83,
+    "score": 0.6205
    },
    {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,500 or above",
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 11, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.74,
+    "volume_24h": 983.39,
+    "score": 0.5976
+   },
+   {
+    "label": "Other Mommy Rotten Tomatoes score? \u2014 Above 20",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 11.99,
-    "volume_24h": 28063.35,
-    "score": 0.6268
+    "hours_to_close": 28.74,
+    "volume_24h": 12231.87,
+    "score": 0.5205
+   },
+   {
+    "label": "Birmingham Legion FC wins",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 35.74,
+    "volume_24h": 10894.83,
+    "score": 0.5203
+   },
+   {
+    "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 28.74,
+    "volume_24h": 5468.73,
+    "score": 0.5008
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 11, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 22.74,
+    "volume_24h": 743.75,
+    "score": 0.4685
    }
   ],
-  "watch_added": 4,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  }

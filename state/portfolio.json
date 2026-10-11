@@ -183,7 +183,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.89
+   "mark_price": 0.85
   },
   {
    "id": 33,
@@ -231,7 +231,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.88
+   "mark_price": 0.89
   },
   {
    "id": 36,
@@ -247,7 +247,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.92
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -1922,17 +1922,22 @@
    1791711947,
    104.04,
    105.34
+  ],
+  [
+   1791712857,
+   104.04,
+   105.16
   ]
  ],
  "last_run": {
-  "ts": 1791711947,
+  "ts": 1791712857,
   "error": null,
-  "markets_scanned": 4001,
-  "candidates": 10,
+  "markets_scanned": 3935,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 3767,
-   "no favorite in 80-95c band": 185,
-   "spread too wide": 37,
+   "too little volume": 3740,
+   "no favorite in 80-95c band": 153,
+   "spread too wide": 35,
    "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
@@ -1941,68 +1946,44 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump say \"Third Term\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.98,
+    "volume_24h": 8221.14,
+    "score": 0.6554
+   },
+   {
     "label": "Sporting Jax wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.98,
     "volume_24h": 7408.75,
-    "score": 0.6412
-   },
-   {
-    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 11, 2026? \u2014 76\u00b0 to 77\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 4670.28,
-    "score": 0.6296
+    "score": 0.6415
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 28.24,
-    "volume_24h": 12934.57,
-    "score": 0.6213
+    "hours_to_close": 27.98,
+    "volume_24h": 12687.94,
+    "score": 0.6218
    },
    {
     "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.98,
     "volume_24h": 5479.72,
-    "score": 0.5418
+    "score": 0.5922
    },
    {
-    "label": "Will it rain in Los Angeles on Oct 11, 2026?",
+    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 52",
     "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 22.24,
-    "volume_24h": 21511.12,
-    "score": 0.5344
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 11, 2026? \u2014 62\u00b0 to 63\u00b0",
-    "side": "no",
-    "price": 0.82,
-    "hours_to_close": 22.24,
-    "volume_24h": 1891.82,
-    "score": 0.4902
-   },
-   {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 11, 2026? \u2014 65\u00b0 to 66\u00b0",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 22.24,
-    "volume_24h": 750.75,
-    "score": 0.4701
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 11, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 22.24,
-    "volume_24h": 513.93,
-    "score": 0.4678
+    "price": 0.95,
+    "hours_to_close": 27.98,
+    "volume_24h": 3938.62,
+    "score": 0.5815
    }
   ],
   "watch_added": 0,

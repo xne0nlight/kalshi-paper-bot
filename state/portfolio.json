@@ -119,7 +119,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 36,
@@ -151,7 +151,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791813600.0,
    "score": 0.6641,
-   "mark_price": 0.92
+   "mark_price": 0.91
   },
   {
    "id": 38,
@@ -199,7 +199,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.91
+   "mark_price": 0.92
   },
   {
    "id": 41,
@@ -215,7 +215,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.81
+   "mark_price": 0.83
   },
   {
    "id": 42,
@@ -247,7 +247,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.88
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [
@@ -2182,91 +2182,69 @@
    1791733548,
    105.35,
    105.7
+  ],
+  [
+   1791734455,
+   105.35,
+   105.79
   ]
  ],
  "last_run": {
-  "ts": 1791733548,
+  "ts": 1791734455,
   "error": null,
-  "markets_scanned": 3813,
-  "candidates": 10,
+  "markets_scanned": 3804,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 3665,
-   "no favorite in 80-95c band": 122,
-   "spread too wide": 15,
-   "favorite is slipping fast": 1
+   "too little volume": 3679,
+   "no favorite in 80-95c band": 107,
+   "spread too wide": 13
   },
-  "opened": [
-   43
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 14800.04,
-    "score": 0.6544
-   },
-   {
-    "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
+    "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 12, 2026? \u2014 37.5%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 22.24,
-    "volume_24h": 13591.75,
-    "score": 0.6444
-   },
-   {
-    "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 10524.35,
-    "score": 0.6244
-   },
-   {
-    "label": "Will Trump say \"Antifa\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 1884.2,
-    "score": 0.61
-   },
-   {
-    "label": "Other Mommy Rotten Tomatoes score? \u2014 Above 20",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 12496.73,
-    "score": 0.6044
-   },
-   {
-    "label": "Will Trump say \"Peace in the Middle East\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 4783.55,
-    "score": 0.6004
-   },
-   {
-    "label": "Will Trump say \"Crypto / Bitcoin\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.24,
-    "volume_24h": 10424.72,
-    "score": 0.5944
+    "hours_to_close": 24.97,
+    "volume_24h": 836.64,
+    "score": 0.557
    },
    {
     "label": "Will the gold close price be above 4129 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $4129",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.24,
+    "hours_to_close": 28.98,
     "volume_24h": 203.57,
-    "score": 0.4829
+    "score": 0.4833
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.97,
+    "volume_24h": 670.65,
+    "score": 0.4698
+   },
+   {
+    "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 28.98,
+    "volume_24h": 208.02,
+    "score": 0.424
+   },
+   {
+    "label": "Sam LaPorta: Leader TE in fantasy points for Week 5?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.97,
+    "volume_24h": 241.57,
+    "score": 0.4189
    }
   ],
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  }

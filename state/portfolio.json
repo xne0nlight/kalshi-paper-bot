@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 69.06,
- "fees_paid": 0.73,
+ "cash": 67.15,
+ "fees_paid": 0.74,
  "peak_equity": 105.35,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 42,
+ "next_id": 43,
  "open_positions": [
   {
    "id": 20,
@@ -71,7 +71,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.97
+   "mark_price": 0.98
   },
   {
    "id": 33,
@@ -151,7 +151,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791813600.0,
    "score": 0.6641,
-   "mark_price": 0.94
+   "mark_price": 0.92
   },
   {
    "id": 38,
@@ -183,7 +183,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 40,
@@ -216,6 +216,22 @@
    "close_ts": 1791838800.0,
    "score": 0.402,
    "mark_price": 0.81
+  },
+  {
+   "id": 42,
+   "ticker": "KXGOLDD-26OCT1217-T4129",
+   "event_ticker": "KXGOLDD-26OCT1217",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 4129 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $4129",
+   "side": "yes",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1791732660,
+   "close_ts": 1791838800.0,
+   "score": 0.4384,
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -2140,81 +2156,97 @@
    1791731751,
    105.35,
    105.69
+  ],
+  [
+   1791732660,
+   105.35,
+   105.62
   ]
  ],
  "last_run": {
-  "ts": 1791731751,
+  "ts": 1791732660,
   "error": null,
   "markets_scanned": 3813,
-  "candidates": 7,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 3665,
+   "too little volume": 3666,
    "no favorite in 80-95c band": 122,
-   "spread too wide": 18,
-   "nothing for sale at the ask": 1
+   "spread too wide": 15,
+   "nothing for sale at the ask": 1,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
+  "opened": [
+   42
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 11665.53,
-    "score": 0.6731
-   },
-   {
-    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.74,
-    "volume_24h": 14108.73,
-    "score": 0.6531
+    "hours_to_close": 22.48,
+    "volume_24h": 13504.54,
+    "score": 0.6537
    },
    {
     "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 10274.37,
-    "score": 0.6231
-   },
-   {
-    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 29361.18,
-    "score": 0.5731
-   },
-   {
-    "label": "Will Trump say \"Antifa\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 1887.31,
-    "score": 0.5688
+    "hours_to_close": 22.48,
+    "volume_24h": 10318.17,
+    "score": 0.6237
    },
    {
     "label": "Will Trump say \"Peace in the Middle East\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 4622.19,
-    "score": 0.548
+    "hours_to_close": 22.48,
+    "volume_24h": 4770.14,
+    "score": 0.5996
+   },
+   {
+    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 22.48,
+    "volume_24h": 14684.56,
+    "score": 0.5937
+   },
+   {
+    "label": "Will Trump say \"Antifa\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.48,
+    "volume_24h": 1901.92,
+    "score": 0.5697
+   },
+   {
+    "label": "Will Trump say \"Crypto / Bitcoin\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 22.48,
+    "volume_24h": 10158.25,
+    "score": 0.5437
+   },
+   {
+    "label": "Will the gold close price be above 4129 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $4129",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 29.48,
+    "volume_24h": 244.32,
+    "score": 0.4384
    },
    {
     "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
     "side": "yes",
     "price": 0.82,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.48,
     "volume_24h": 208.03,
-    "score": 0.4028
+    "score": 0.4032
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  }

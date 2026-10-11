@@ -71,7 +71,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 36,
@@ -119,7 +119,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791838800.0,
    "score": 0.6437,
-   "mark_price": 0.8
+   "mark_price": 0.75
   },
   {
    "id": 39,
@@ -135,7 +135,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.9
+   "mark_price": 0.77
   },
   {
    "id": 40,
@@ -2337,90 +2337,91 @@
    1791747046,
    105.97,
    105.87
+  ],
+  [
+   1791747945,
+   105.97,
+   105.3
   ]
  ],
  "last_run": {
-  "ts": 1791747046,
+  "ts": 1791747945,
   "error": null,
   "markets_scanned": 4100,
-  "candidates": 24,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 3878,
-   "no favorite in 80-95c band": 179,
-   "spread too wide": 18,
+   "too little volume": 3876,
+   "no favorite in 80-95c band": 181,
+   "spread too wide": 15,
    "nothing for sale at the ask": 1
   },
-  "opened": [
-   47
-  ],
-  "settled": [
-   44
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 12, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.47,
-    "volume_24h": 946.21,
-    "score": 0.5997
+    "hours_to_close": 21.22,
+    "volume_24h": 1224.21,
+    "score": 0.6088
    },
    {
     "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.47,
-    "volume_24h": 1279.51,
-    "score": 0.5895
+    "hours_to_close": 21.22,
+    "volume_24h": 1789.98,
+    "score": 0.6011
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.47,
-    "volume_24h": 922.83,
-    "score": 0.5889
-   },
-   {
-    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 909.07,
-    "score": 0.5638
+    "hours_to_close": 21.22,
+    "volume_24h": 1198.43,
+    "score": 0.5981
    },
    {
     "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 744.08,
-    "score": 0.5573
+    "hours_to_close": 34.24,
+    "volume_24h": 1031.08,
+    "score": 0.5682
+   },
+   {
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.24,
+    "volume_24h": 909.07,
+    "score": 0.5641
+   },
+   {
+    "label": "Will the maximum temperature be >71\u00b0 on Oct 12, 2026? \u2014 72\u00b0 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 33.24,
+    "volume_24h": 1012.25,
+    "score": 0.5389
    },
    {
     "label": "Will it rain in Milwaukee on Oct 12, 2026?",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 34.49,
-    "volume_24h": 1962.9,
-    "score": 0.5289
+    "hours_to_close": 34.24,
+    "volume_24h": 1967.9,
+    "score": 0.5293
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 12, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 208.65,
-    "score": 0.5047
-   },
-   {
-    "label": "Will it rain in Washington DC on Oct 12, 2026?",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 33.49,
-    "volume_24h": 920.64,
-    "score": 0.4955
+    "score": 0.505
    }
   ],
   "watch_added": 2,

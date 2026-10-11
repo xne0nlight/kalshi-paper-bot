@@ -71,7 +71,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.98
+   "mark_price": 0.96
   },
   {
    "id": 36,
@@ -135,7 +135,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.95
+   "mark_price": 0.91
   },
   {
    "id": 40,
@@ -151,7 +151,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 41,
@@ -231,7 +231,7 @@
    "opened_ts": 1791738946,
    "close_ts": 1791867600.0,
    "score": 0.5393,
-   "mark_price": 0.9
+   "mark_price": 0.89
   },
   {
    "id": 46,
@@ -2292,93 +2292,93 @@
    1791742547,
    105.86,
    105.61
+  ],
+  [
+   1791743452,
+   105.86,
+   105.43
   ]
  ],
  "last_run": {
-  "ts": 1791742547,
+  "ts": 1791743452,
   "error": null,
   "markets_scanned": 4100,
-  "candidates": 25,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 3887,
-   "no favorite in 80-95c band": 163,
-   "spread too wide": 24,
-   "nothing for sale at the ask": 1
+   "too little volume": 3871,
+   "no favorite in 80-95c band": 165,
+   "spread too wide": 41
   },
-  "opened": [
-   46
-  ],
-  "settled": [
-   32
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.72,
-    "volume_24h": 674.25,
-    "score": 0.5853
+    "hours_to_close": 22.47,
+    "volume_24h": 675.81,
+    "score": 0.586
    },
    {
     "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.72,
-    "volume_24h": 380.86,
-    "score": 0.5468
+    "hours_to_close": 22.47,
+    "volume_24h": 383.1,
+    "score": 0.5476
    },
    {
     "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 743.08,
-    "score": 0.5457
-   },
-   {
-    "label": "Will the maximum temperature be >71\u00b0 on Oct 12, 2026? \u2014 72\u00b0 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.74,
-    "volume_24h": 550.0,
-    "score": 0.5371
+    "score": 0.546
    },
    {
     "label": "Will it rain in Milwaukee on Oct 12, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 1766.9,
-    "score": 0.5339
+    "score": 0.5342
    },
    {
-    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.74,
-    "volume_24h": 283.0,
-    "score": 0.5255
+    "price": 0.91,
+    "hours_to_close": 35.49,
+    "volume_24h": 783.07,
+    "score": 0.5277
    },
    {
     "label": "Will it rain in Boston on Oct 12, 2026?",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 34.74,
-    "volume_24h": 1794.58,
-    "score": 0.5156
+    "price": 0.91,
+    "hours_to_close": 34.49,
+    "volume_24h": 2046.58,
+    "score": 0.5102
    },
    {
-    "label": "Will the maximum temperature be <69\u00b0 on Oct 12, 2026? \u2014 68\u00b0 or below",
+    "label": "Will the maximum temperature be >71\u00b0 on Oct 12, 2026? \u2014 72\u00b0 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 34.74,
-    "volume_24h": 498.21,
-    "score": 0.4839
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 551.0,
+    "score": 0.4975
+   },
+   {
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.49,
+    "volume_24h": 283.0,
+    "score": 0.4859
    }
   ],
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  }

@@ -151,7 +151,7 @@
    "opened_ts": 1791630953,
    "close_ts": 1791727140.0,
    "score": 0.5949,
-   "mark_price": 0.97
+   "mark_price": 0.98
   },
   {
    "id": 29,
@@ -1777,89 +1777,90 @@
    1791689449,
    103.85,
    105.03
+  ],
+  [
+   1791690341,
+   103.85,
+   105.06
   ]
  ],
  "last_run": {
-  "ts": 1791689449,
+  "ts": 1791690341,
   "error": null,
-  "markets_scanned": 2765,
-  "candidates": 49,
+  "markets_scanned": 2763,
+  "candidates": 44,
   "rejections": {
    "too little volume": 2356,
    "no favorite in 80-95c band": 335,
-   "spread too wide": 25
+   "spread too wide": 28
   },
-  "opened": [
-   35
-  ],
-  "settled": [
-   30
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.47,
-    "volume_24h": 11739.31,
-    "score": 0.6779
+    "price": 0.95,
+    "hours_to_close": 17.24,
+    "volume_24h": 25720.18,
+    "score": 0.6904
+   },
+   {
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 17.24,
+    "volume_24h": 20785.97,
+    "score": 0.6804
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.6 on Oct 11, 2026? \u2014 37.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 13.47,
-    "volume_24h": 7331.9,
-    "score": 0.6778
+    "hours_to_close": 13.22,
+    "volume_24h": 7373.9,
+    "score": 0.6793
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.1 on Oct 11, 2026? \u2014 Above 38.1%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 13.22,
+    "volume_24h": 11781.31,
+    "score": 0.6793
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 11, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 13.47,
-    "volume_24h": 5151.74,
-    "score": 0.6763
+    "hours_to_close": 13.22,
+    "volume_24h": 5193.74,
+    "score": 0.6779
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 17.49,
-    "volume_24h": 13493.84,
-    "score": 0.6594
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 17.49,
-    "volume_24h": 20781.21,
-    "score": 0.6594
+    "hours_to_close": 17.24,
+    "volume_24h": 13544.84,
+    "score": 0.6604
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 13.47,
-    "volume_24h": 21038.22,
-    "score": 0.6579
+    "hours_to_close": 13.22,
+    "volume_24h": 21197.21,
+    "score": 0.6593
    },
    {
     "label": "OpenAI market share this week? \u2014 Above 18.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 11733.25,
-    "score": 0.6519
-   },
-   {
-    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 52",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 5722.19,
-    "score": 0.6237
+    "score": 0.6522
    }
   ],
   "watch_added": 1,

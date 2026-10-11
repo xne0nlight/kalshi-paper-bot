@@ -183,7 +183,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.87
+   "mark_price": 0.88
   },
   {
    "id": 37,
@@ -199,7 +199,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791813600.0,
    "score": 0.6641,
-   "mark_price": 0.94
+   "mark_price": 0.93
   },
   {
    "id": 38,
@@ -231,7 +231,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.91
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -2041,77 +2041,82 @@
    1791721849,
    104.75,
    105.63
+  ],
+  [
+   1791722748,
+   104.75,
+   105.66
   ]
  ],
  "last_run": {
-  "ts": 1791721849,
+  "ts": 1791722748,
   "error": null,
   "markets_scanned": 3923,
   "candidates": 7,
   "rejections": {
    "too little volume": 3744,
-   "no favorite in 80-95c band": 144,
-   "spread too wide": 28
+   "no favorite in 80-95c band": 143,
+   "spread too wide": 29
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 12312.53,
-    "score": 0.6667
-   },
-   {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.49,
-    "volume_24h": 12856.52,
-    "score": 0.6467
+    "hours_to_close": 25.24,
+    "volume_24h": 12890.0,
+    "score": 0.6472
    },
    {
     "label": "Will Trump say \"Peace in the Middle East\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.49,
+    "hours_to_close": 25.24,
     "volume_24h": 4472.4,
-    "score": 0.6305
+    "score": 0.631
    },
    {
     "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.49,
-    "volume_24h": 5579.58,
-    "score": 0.6277
+    "hours_to_close": 25.24,
+    "volume_24h": 5600.56,
+    "score": 0.6284
+   },
+   {
+    "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.24,
+    "volume_24h": 12745.23,
+    "score": 0.6172
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.49,
-    "volume_24h": 23499.63,
-    "score": 0.6067
-   },
-   {
-    "label": "OpenAI market share this week? \u2014 Above 18.4%",
-    "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 25.49,
-    "volume_24h": 69722.01,
-    "score": 0.5767
+    "hours_to_close": 25.24,
+    "volume_24h": 23791.79,
+    "score": 0.6072
    },
    {
     "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.49,
-    "volume_24h": 36972.3,
-    "score": 0.5567
+    "hours_to_close": 25.24,
+    "volume_24h": 36201.99,
+    "score": 0.6072
+   },
+   {
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 25.24,
+    "volume_24h": 72632.36,
+    "score": 0.4772
    }
   ],
   "watch_added": 0,

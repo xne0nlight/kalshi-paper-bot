@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 62.0,
- "fees_paid": 0.65,
- "peak_equity": 104.34,
+ "cash": 65.28,
+ "fees_paid": 0.67,
+ "peak_equity": 104.75,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 39,
+ "next_id": 40,
  "open_positions": [
   {
    "id": 20,
@@ -23,38 +23,6 @@
    "opened_ts": 1791580542,
    "close_ts": 1791694800.0,
    "score": 0.6123,
-   "mark_price": 0.99
-  },
-  {
-   "id": 23,
-   "ticker": "KXHIGHCHI-26OCT10-B77.5",
-   "event_ticker": "KXHIGHCHI-26OCT10",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 77-78\u00b0 on Oct 10, 2026? \u2014 77\u00b0 to 78\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.91,
-   "fee": 0.02,
-   "cost": 2.75,
-   "opened_ts": 1791581451,
-   "close_ts": 1791698400.0,
-   "score": 0.5425,
-   "mark_price": 0.99
-  },
-  {
-   "id": 24,
-   "ticker": "KXHIGHTHOU-26OCT10-B92.5",
-   "event_ticker": "KXHIGHTHOU-26OCT10",
-   "series": "KXHIGHTHOU",
-   "label": "Will the maximum temperature be 92-93\u00b0 on Oct 10, 2026? \u2014 92\u00b0 to 93\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791582346,
-   "close_ts": 1791698400.0,
-   "score": 0.542,
    "mark_price": 0.99
   },
   {
@@ -151,7 +119,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.94
+   "mark_price": 0.95
   },
   {
    "id": 33,
@@ -199,7 +167,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.89
+   "mark_price": 0.85
   },
   {
    "id": 36,
@@ -215,7 +183,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.88
+   "mark_price": 0.91
   },
   {
    "id": 37,
@@ -247,7 +215,23 @@
    "opened_ts": 1791717348,
    "close_ts": 1791838800.0,
    "score": 0.6437,
-   "mark_price": 0.94
+   "mark_price": 0.9
+  },
+  {
+   "id": 39,
+   "ticker": "KXRT-SOC-55",
+   "event_ticker": "KXRT-SOC",
+   "series": "KXRT",
+   "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791720944,
+   "close_ts": 1791813600.0,
+   "score": 0.5662,
+   "mark_price": 0.88
   }
  ],
  "closed_positions": [
@@ -709,6 +693,46 @@
    "pnl": 0.16,
    "result": "NO",
    "closed_ts": 1791717348,
+   "won": true
+  },
+  {
+   "id": 23,
+   "ticker": "KXHIGHCHI-26OCT10-B77.5",
+   "event_ticker": "KXHIGHCHI-26OCT10",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 77-78\u00b0 on Oct 10, 2026? \u2014 77\u00b0 to 78\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.91,
+   "fee": 0.02,
+   "cost": 2.75,
+   "opened_ts": 1791581451,
+   "close_ts": 1791698400.0,
+   "score": 0.5425,
+   "payout": 3.0,
+   "pnl": 0.25,
+   "result": "NO",
+   "closed_ts": 1791720944,
+   "won": true
+  },
+  {
+   "id": 24,
+   "ticker": "KXHIGHTHOU-26OCT10-B92.5",
+   "event_ticker": "KXHIGHTHOU-26OCT10",
+   "series": "KXHIGHTHOU",
+   "label": "Will the maximum temperature be 92-93\u00b0 on Oct 10, 2026? \u2014 92\u00b0 to 93\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791582346,
+   "close_ts": 1791698400.0,
+   "score": 0.542,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791720944,
    "won": true
   }
  ],
@@ -2007,74 +2031,83 @@
    1791720044,
    104.34,
    105.38
+  ],
+  [
+   1791720944,
+   104.75,
+   105.24
   ]
  ],
  "last_run": {
-  "ts": 1791720044,
+  "ts": 1791720944,
   "error": null,
   "markets_scanned": 3923,
   "candidates": 6,
   "rejections": {
-   "too little volume": 3725,
-   "no favorite in 80-95c band": 156,
-   "spread too wide": 35,
-   "nothing for sale at the ask": 1
+   "too little volume": 3740,
+   "no favorite in 80-95c band": 144,
+   "spread too wide": 33
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   39
+  ],
+  "settled": [
+   23,
+   24
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 12304.01,
-    "score": 0.6657
-   },
-   {
-    "label": "Sporting Jax wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 7542.75,
-    "score": 0.6447
+    "hours_to_close": 25.74,
+    "volume_24h": 12296.9,
+    "score": 0.6662
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.99,
-    "volume_24h": 12882.61,
-    "score": 0.6357
+    "hours_to_close": 25.74,
+    "volume_24h": 12912.19,
+    "score": 0.6362
+   },
+   {
+    "label": "Will Trump say \"Peace in the Middle East\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 25.74,
+    "volume_24h": 4482.92,
+    "score": 0.63
    },
    {
     "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.99,
-    "volume_24h": 5429.93,
-    "score": 0.6058
+    "price": 0.93,
+    "hours_to_close": 25.74,
+    "volume_24h": 5518.59,
+    "score": 0.6268
    },
    {
-    "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Oct 12, 2026?",
+    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 9551.46,
-    "score": 0.5942
+    "price": 0.9,
+    "hours_to_close": 25.74,
+    "volume_24h": 36946.94,
+    "score": 0.5662
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 25.99,
-    "volume_24h": 22688.49,
-    "score": 0.5457
+    "price": 0.89,
+    "hours_to_close": 25.74,
+    "volume_24h": 23490.09,
+    "score": 0.5062
    }
   ],
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 18,
   "api_calls": 43
  }
 }

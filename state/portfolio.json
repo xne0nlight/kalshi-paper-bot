@@ -183,7 +183,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.89
+   "mark_price": 0.94
   },
   {
    "id": 33,
@@ -231,7 +231,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.63
+   "mark_price": 0.64
   },
   {
    "id": 36,
@@ -247,7 +247,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.91
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -1877,17 +1877,23 @@
    1791703852,
    104.04,
    104.5
+  ],
+  [
+   1791704748,
+   104.04,
+   104.62
   ]
  ],
  "last_run": {
-  "ts": 1791703852,
+  "ts": 1791704748,
   "error": null,
   "markets_scanned": 4757,
-  "candidates": 41,
+  "candidates": 43,
   "rejections": {
    "too little volume": 4302,
    "no favorite in 80-95c band": 374,
-   "spread too wide": 39,
+   "spread too wide": 36,
+   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -1895,68 +1901,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $84,000 or above",
+    "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 11, 2026? \u2014 37.5%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.49,
-    "volume_24h": 32068.36,
-    "score": 0.7078
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 37.7 on Oct 11, 2026? \u2014 37.7%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 9.47,
-    "volume_24h": 29825.68,
-    "score": 0.6858
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 10347.68,
-    "score": 0.6778
+    "price": 0.91,
+    "hours_to_close": 9.22,
+    "volume_24h": 36921.98,
+    "score": 0.698
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
     "side": "no",
+    "price": 0.91,
+    "hours_to_close": 13.24,
+    "volume_24h": 17709.88,
+    "score": 0.6692
+   },
+   {
+    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 20.22,
+    "volume_24h": 7270.6,
+    "score": 0.6597
+   },
+   {
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
+    "side": "yes",
     "price": 0.9,
-    "hours_to_close": 13.49,
-    "volume_24h": 17538.74,
-    "score": 0.6578
+    "hours_to_close": 13.24,
+    "volume_24h": 10533.69,
+    "score": 0.6592
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 11, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.24,
+    "volume_24h": 3022.24,
+    "score": 0.6354
    },
    {
     "label": "Will it rain in Atlanta on Oct 11, 2026?",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.49,
-    "volume_24h": 10735.97,
-    "score": 0.6464
+    "price": 0.9,
+    "hours_to_close": 21.24,
+    "volume_24h": 11039.55,
+    "score": 0.6271
    },
    {
     "label": "Ethereum price at Oct 11, 2026 at 5pm EDT? \u2014 $2,530 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 13.49,
-    "volume_24h": 5337.34,
-    "score": 0.6173
+    "price": 0.87,
+    "hours_to_close": 13.24,
+    "volume_24h": 5432.68,
+    "score": 0.6093
    },
    {
-    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 11, 2026? \u2014 89\u00b0 to 90\u00b0",
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.49,
-    "volume_24h": 2303.5,
-    "score": 0.6159
-   },
-   {
-    "label": "Will the maximum temperature be <64\u00b0 on Oct 11, 2026? \u2014 63\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 1374.04,
-    "score": 0.6118
+    "price": 0.84,
+    "hours_to_close": 13.24,
+    "volume_24h": 27665.92,
+    "score": 0.5992
    }
   ],
   "watch_added": 0,

@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 65.33,
- "fees_paid": 0.76,
- "peak_equity": 105.35,
+ "cash": 66.44,
+ "fees_paid": 0.77,
+ "peak_equity": 105.51,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 44,
+ "next_id": 45,
  "open_positions": [
-  {
-   "id": 20,
-   "ticker": "KXRAIN-26OCT10-LEX",
-   "event_ticker": "KXRAIN-26OCT10",
-   "series": "KXRAIN",
-   "label": "Will it rain in Lexington on Oct 10, 2026?",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791580542,
-   "close_ts": 1791694800.0,
-   "score": 0.6123,
-   "mark_price": 0.99
-  },
   {
    "id": 25,
    "ticker": "KXTRUMPACT-26OCT04-T6",
@@ -119,7 +103,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 36,
@@ -183,7 +167,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.93
+   "mark_price": 0.86
   },
   {
    "id": 40,
@@ -215,7 +199,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.81
+   "mark_price": 0.79
   },
   {
    "id": 42,
@@ -231,7 +215,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.93
+   "mark_price": 0.94
   },
   {
    "id": 43,
@@ -247,7 +231,23 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.92
+   "mark_price": 0.93
+  },
+  {
+   "id": 44,
+   "ticker": "KXBRASILEIROCGAME-26OCT10ARAINT-INT",
+   "event_ticker": "KXBRASILEIROCGAME-26OCT10ARAINT",
+   "series": "KXBRASILEIROCGAME",
+   "label": "Internacional wins",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 1.89,
+   "opened_ts": 1791737150,
+   "close_ts": 1791835200.0,
+   "score": 0.6532,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -809,6 +809,26 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1791728149,
+   "won": true
+  },
+  {
+   "id": 20,
+   "ticker": "KXRAIN-26OCT10-LEX",
+   "event_ticker": "KXRAIN-26OCT10",
+   "series": "KXRAIN",
+   "label": "Will it rain in Lexington on Oct 10, 2026?",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791580542,
+   "close_ts": 1791694800.0,
+   "score": 0.6123,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "YES",
+   "closed_ts": 1791737150,
    "won": true
   }
  ],
@@ -2197,73 +2217,74 @@
    1791736260,
    105.35,
    105.9
+  ],
+  [
+   1791737150,
+   105.51,
+   105.64
   ]
  ],
  "last_run": {
-  "ts": 1791736260,
+  "ts": 1791737150,
   "error": null,
   "markets_scanned": 3804,
-  "candidates": 6,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 3681,
-   "no favorite in 80-95c band": 102,
-   "spread too wide": 15
+   "too little volume": 3683,
+   "no favorite in 80-95c band": 100,
+   "spread too wide": 16
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   44
+  ],
+  "settled": [
+   20
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Internacional wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.48,
-    "volume_24h": 13438.08,
-    "score": 0.6527
-   },
-   {
-    "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.47,
-    "volume_24h": 3982.5,
-    "score": 0.6207
+    "hours_to_close": 27.24,
+    "volume_24h": 13478.63,
+    "score": 0.6532
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.22,
     "volume_24h": 671.65,
-    "score": 0.481
+    "score": 0.5316
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 12, 2026? \u2014 37.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.22,
     "volume_24h": 836.64,
-    "score": 0.4782
+    "score": 0.4787
    },
    {
     "label": "Sam LaPorta: Leader TE in fantasy points for Week 5?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.47,
-    "volume_24h": 241.57,
-    "score": 0.4195
+    "hours_to_close": 35.22,
+    "volume_24h": 252.74,
+    "score": 0.4213
    },
    {
-    "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
-    "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 28.48,
-    "volume_24h": 296.23,
-    "score": 0.3364
+    "label": "Will Trump's RCP approval average be exactly 37.8 on Oct 12, 2026? \u2014 37.8%",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 24.22,
+    "volume_24h": 1605.43,
+    "score": 0.3899
    }
   ],
   "watch_added": 1,
-  "watch_graded": 4,
-  "api_calls": 43
+  "watch_graded": 10,
+  "api_calls": 42
  }
 }

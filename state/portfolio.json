@@ -199,7 +199,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.79
+   "mark_price": 0.78
   },
   {
    "id": 33,
@@ -247,7 +247,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.94
+   "mark_price": 0.88
   }
  ],
  "closed_positions": [
@@ -1807,18 +1807,22 @@
    1791694854,
    103.85,
    105.03
+  ],
+  [
+   1791695746,
+   103.85,
+   104.82
   ]
  ],
  "last_run": {
-  "ts": 1791694854,
+  "ts": 1791695746,
   "error": null,
   "markets_scanned": 3745,
-  "candidates": 40,
+  "candidates": 44,
   "rejections": {
    "too little volume": 3327,
-   "no favorite in 80-95c band": 337,
-   "spread too wide": 40,
-   "nothing for sale at the ask": 1
+   "no favorite in 80-95c band": 333,
+   "spread too wide": 41
   },
   "opened": [],
   "settled": [],
@@ -1828,68 +1832,68 @@
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.98,
-    "volume_24h": 23081.79,
-    "score": 0.6855
+    "hours_to_close": 15.74,
+    "volume_24h": 23089.51,
+    "score": 0.6866
+   },
+   {
+    "label": "Will it rain in Denver on Oct 11, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.74,
+    "volume_24h": 8704.25,
+    "score": 0.6617
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.98,
-    "volume_24h": 14139.91,
-    "score": 0.6655
+    "price": 0.91,
+    "hours_to_close": 15.74,
+    "volume_24h": 15136.64,
+    "score": 0.6566
    },
    {
-    "label": "OpenAI market share this week? \u2014 Above 18.7%",
+    "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.98,
-    "volume_24h": 11772.32,
-    "score": 0.6539
-   },
-   {
-    "label": "Will it rain in Columbus on Oct 11, 2026?",
-    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.98,
-    "volume_24h": 6787.12,
-    "score": 0.6474
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 15.98,
-    "volume_24h": 9776.4,
-    "score": 0.6248
+    "hours_to_close": 32.74,
+    "volume_24h": 43523.04,
+    "score": 0.6442
    },
    {
     "label": "Will it rain in Atlanta on Oct 11, 2026?",
     "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.74,
+    "volume_24h": 9666.81,
+    "score": 0.6395
+   },
+   {
+    "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
+    "side": "yes",
     "price": 0.89,
-    "hours_to_close": 23.98,
-    "volume_24h": 9574.13,
-    "score": 0.6086
+    "hours_to_close": 15.74,
+    "volume_24h": 9820.86,
+    "score": 0.636
+   },
+   {
+    "label": "Will it rain in Columbus on Oct 11, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 6947.12,
+    "score": 0.6088
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 11, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.98,
-    "volume_24h": 3540.51,
-    "score": 0.6062
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 15.98,
-    "volume_24h": 23966.67,
-    "score": 0.5955
+    "hours_to_close": 23.74,
+    "volume_24h": 3552.57,
+    "score": 0.6069
    }
   ],
-  "watch_added": 0,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  }

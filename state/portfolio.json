@@ -151,7 +151,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.82
+   "mark_price": 0.68
   },
   {
    "id": 42,
@@ -167,7 +167,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.95
+   "mark_price": 0.75
   },
   {
    "id": 43,
@@ -2402,17 +2402,22 @@
    1791755147,
    106.11,
    105.53
+  ],
+  [
+   1791756045,
+   106.11,
+   104.71
   ]
  ],
  "last_run": {
-  "ts": 1791755147,
+  "ts": 1791756045,
   "error": null,
   "markets_scanned": 4499,
-  "candidates": 50,
+  "candidates": 49,
   "rejections": {
-   "too little volume": 4203,
-   "no favorite in 80-95c band": 236,
-   "spread too wide": 9,
+   "too little volume": 4201,
+   "no favorite in 80-95c band": 237,
+   "spread too wide": 11,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -2423,68 +2428,68 @@
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 12, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.22,
-    "volume_24h": 1249.13,
-    "score": 0.6155
+    "hours_to_close": 18.97,
+    "volume_24h": 1249.23,
+    "score": 0.6164
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.22,
-    "volume_24h": 1431.98,
-    "score": 0.61
+    "hours_to_close": 18.97,
+    "volume_24h": 1432.11,
+    "score": 0.6108
    },
    {
     "label": "Ethereum price at Oct 12, 2026 at 5pm EDT? \u2014 $2,610 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 872.32,
-    "score": 0.5924
+    "score": 0.593
+   },
+   {
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $81,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.99,
+    "volume_24h": 1826.66,
+    "score": 0.5871
    },
    {
     "label": "Will it rain in Albuquerque on Oct 12, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 1499.92,
-    "score": 0.5817
-   },
-   {
-    "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.22,
-    "volume_24h": 4035.27,
-    "score": 0.5784
+    "score": 0.5821
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 23.24,
-    "volume_24h": 1880.83,
-    "score": 0.5774
+    "hours_to_close": 22.99,
+    "volume_24h": 1903.58,
+    "score": 0.5784
    },
    {
     "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 920.07,
-    "score": 0.5772
+    "score": 0.5776
    },
    {
     "label": "Will it rain in Boston on Oct 12, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 2205.61,
-    "score": 0.5772
+    "score": 0.5776
    }
   ],
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  }

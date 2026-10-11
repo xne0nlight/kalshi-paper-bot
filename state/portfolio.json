@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.44,
- "fees_paid": 0.77,
- "peak_equity": 105.51,
+ "cash": 66.72,
+ "fees_paid": 0.79,
+ "peak_equity": 105.7,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 45,
+ "next_id": 46,
  "open_positions": [
-  {
-   "id": 25,
-   "ticker": "KXTRUMPACT-26OCT04-T6",
-   "event_ticker": "KXTRUMPACT-26OCT04",
-   "series": "KXTRUMPACT",
-   "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 2.81,
-   "opened_ts": 1791599451,
-   "close_ts": 1791727200.0,
-   "score": 0.5989,
-   "mark_price": 0.98
-  },
   {
    "id": 31,
    "ticker": "KXAAAGASW-26OCT12-4.3700",
@@ -103,7 +87,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 36,
@@ -167,7 +151,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.88
+   "mark_price": 0.87
   },
   {
    "id": 40,
@@ -183,7 +167,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.96
+   "mark_price": 0.93
   },
   {
    "id": 41,
@@ -199,7 +183,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.79
+   "mark_price": 0.81
   },
   {
    "id": 42,
@@ -248,6 +232,22 @@
    "close_ts": 1791835200.0,
    "score": 0.6532,
    "mark_price": 0.93
+  },
+  {
+   "id": 45,
+   "ticker": "KXRAIN-26OCT12-BOS",
+   "event_ticker": "KXRAIN-26OCT12",
+   "series": "KXRAIN",
+   "label": "Will it rain in Boston on Oct 12, 2026?",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791738946,
+   "close_ts": 1791867600.0,
+   "score": 0.5393,
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -829,6 +829,26 @@
    "pnl": 0.16,
    "result": "YES",
    "closed_ts": 1791737150,
+   "won": true
+  },
+  {
+   "id": 25,
+   "ticker": "KXTRUMPACT-26OCT04-T6",
+   "event_ticker": "KXTRUMPACT-26OCT04",
+   "series": "KXTRUMPACT",
+   "label": "Will there be at least 6 presidential actions in the week of Oct 4, 2026? \u2014 At least 6",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1791599451,
+   "close_ts": 1791727200.0,
+   "score": 0.5989,
+   "payout": 3.0,
+   "pnl": 0.19,
+   "result": "NO",
+   "closed_ts": 1791738946,
    "won": true
   }
  ],
@@ -2227,89 +2247,98 @@
    1791738074,
    105.51,
    105.84
+  ],
+  [
+   1791738946,
+   105.7,
+   105.82
   ]
  ],
  "last_run": {
-  "ts": 1791738074,
+  "ts": 1791738946,
   "error": null,
   "markets_scanned": 3934,
-  "candidates": 11,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 3779,
+   "too little volume": 3775,
    "no favorite in 80-95c band": 126,
-   "spread too wide": 18
+   "spread too wide": 21
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   45
+  ],
+  "settled": [
+   25
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Internacional wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.98,
+    "hours_to_close": 26.74,
     "volume_24h": 13506.63,
-    "score": 0.6537
+    "score": 0.6541
    },
    {
     "label": "Will it rain in Boston on Oct 12, 2026?",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 35.98,
+    "hours_to_close": 35.74,
     "volume_24h": 1535.85,
-    "score": 0.539
+    "score": 0.5393
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.96,
+    "hours_to_close": 23.72,
     "volume_24h": 671.65,
-    "score": 0.5322
-   },
-   {
-    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 35.98,
-    "volume_24h": 529.7,
-    "score": 0.4944
+    "score": 0.5327
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.98,
-    "volume_24h": 222.0,
-    "score": 0.4861
+    "hours_to_close": 35.74,
+    "volume_24h": 283.0,
+    "score": 0.4943
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 12, 2026? \u2014 37.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 23.96,
+    "hours_to_close": 23.72,
     "volume_24h": 836.64,
-    "score": 0.4793
+    "score": 0.4799
    },
    {
-    "label": "Will it rain in Providence on Oct 12, 2026?",
-    "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 35.98,
-    "volume_24h": 1172.74,
-    "score": 0.4602
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.74,
+    "volume_24h": 568.6,
+    "score": 0.477
+   },
+   {
+    "label": "Will it rain in Pittsburgh on Oct 12, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.74,
+    "volume_24h": 1928.79,
+    "score": 0.4667
    },
    {
     "label": "Will it rain in Washington DC on Oct 12, 2026?",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 35.98,
-    "volume_24h": 386.49,
-    "score": 0.4541
+    "hours_to_close": 35.74,
+    "volume_24h": 468.49,
+    "score": 0.4607
    }
   ],
-  "watch_added": 8,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 2,
   "api_calls": 43
  }
 }

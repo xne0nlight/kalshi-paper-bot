@@ -215,7 +215,7 @@
    "opened_ts": 1791666940,
    "close_ts": 1791792000.0,
    "score": 0.577,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 35,
@@ -247,7 +247,7 @@
    "opened_ts": 1791698446,
    "close_ts": 1791781200.0,
    "score": 0.6424,
-   "mark_price": 0.89
+   "mark_price": 0.91
   }
  ],
  "closed_positions": [
@@ -1882,17 +1882,22 @@
    1791704748,
    104.04,
    104.62
+  ],
+  [
+   1791705653,
+   104.04,
+   104.71
   ]
  ],
  "last_run": {
-  "ts": 1791704748,
+  "ts": 1791705653,
   "error": null,
-  "markets_scanned": 4757,
-  "candidates": 43,
+  "markets_scanned": 5375,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 4302,
-   "no favorite in 80-95c band": 374,
-   "spread too wide": 36,
+   "too little volume": 4887,
+   "no favorite in 80-95c band": 397,
+   "spread too wide": 47,
    "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
@@ -1903,69 +1908,69 @@
    {
     "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 11, 2026? \u2014 37.5%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 9.22,
-    "volume_24h": 36921.98,
-    "score": 0.698
+    "price": 0.93,
+    "hours_to_close": 8.97,
+    "volume_24h": 37609.26,
+    "score": 0.7203
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,750 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 13.24,
-    "volume_24h": 17709.88,
-    "score": 0.6692
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3500? \u2014 Above 4.3500",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.22,
-    "volume_24h": 7270.6,
-    "score": 0.6597
+    "price": 0.92,
+    "hours_to_close": 12.99,
+    "volume_24h": 18720.47,
+    "score": 0.6806
    },
    {
     "label": "Bitcoin price on Oct 11, 2026? \u2014 $82,250 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 13.24,
-    "volume_24h": 10533.69,
-    "score": 0.6592
+    "price": 0.91,
+    "hours_to_close": 12.99,
+    "volume_24h": 11192.63,
+    "score": 0.6706
+   },
+   {
+    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 11, 2026? \u2014 64\u00b0 to 65\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 4214.61,
+    "score": 0.6497
+   },
+   {
+    "label": "Will it rain in Atlanta on Oct 11, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 20.99,
+    "volume_24h": 11260.96,
+    "score": 0.6478
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 11, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 3022.24,
-    "score": 0.6354
+    "hours_to_close": 21.99,
+    "volume_24h": 3107.97,
+    "score": 0.637
    },
    {
-    "label": "Will it rain in Atlanta on Oct 11, 2026?",
+    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 11, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.24,
-    "volume_24h": 11039.55,
-    "score": 0.6271
+    "price": 0.95,
+    "hours_to_close": 23.99,
+    "volume_24h": 3083.32,
+    "score": 0.6317
    },
    {
-    "label": "Ethereum price at Oct 11, 2026 at 5pm EDT? \u2014 $2,530 or above",
+    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 11, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 13.24,
-    "volume_24h": 5432.68,
-    "score": 0.6093
-   },
-   {
-    "label": "Bitcoin price on Oct 11, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 13.24,
-    "volume_24h": 27665.92,
-    "score": 0.5992
+    "price": 0.94,
+    "hours_to_close": 21.99,
+    "volume_24h": 2580.57,
+    "score": 0.6209
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  }

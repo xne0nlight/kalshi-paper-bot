@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.07,
- "fees_paid": 0.83,
- "peak_equity": 105.97,
+ "cash": 66.21,
+ "fees_paid": 0.84,
+ "peak_equity": 106.11,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 48,
+ "next_id": 49,
  "open_positions": [
   {
    "id": 31,
@@ -23,22 +23,6 @@
    "opened_ts": 1791648052,
    "close_ts": 1791777540.0,
    "score": 0.65,
-   "mark_price": 0.99
-  },
-  {
-   "id": 33,
-   "ticker": "KXBTCD-26OCT1117-T81749.99",
-   "event_ticker": "KXBTCD-26OCT1117",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 11, 2026? \u2014 $81,750 or above",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791666940,
-   "close_ts": 1791752400.0,
-   "score": 0.5914,
    "mark_price": 0.99
   },
   {
@@ -119,7 +103,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791838800.0,
    "score": 0.6437,
-   "mark_price": 0.81
+   "mark_price": 0.82
   },
   {
    "id": 39,
@@ -151,7 +135,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 41,
@@ -247,6 +231,22 @@
    "opened_ts": 1791747046,
    "close_ts": 1791871200.0,
    "score": 0.5638,
+   "mark_price": 0.94
+  },
+  {
+   "id": 48,
+   "ticker": "KXHIGHLAX-26OCT12-B64.5",
+   "event_ticker": "KXHIGHLAX-26OCT12",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 64-65\u00b0 on Oct 12, 2026? \u2014 64\u00b0 to 65\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791753344,
+   "close_ts": 1791878400.0,
+   "score": 0.5914,
    "mark_price": 0.94
   }
  ],
@@ -889,6 +889,26 @@
    "pnl": 0.11,
    "result": "NO",
    "closed_ts": 1791747046,
+   "won": true
+  },
+  {
+   "id": 33,
+   "ticker": "KXBTCD-26OCT1117-T81749.99",
+   "event_ticker": "KXBTCD-26OCT1117",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 11, 2026? \u2014 $81,750 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791666940,
+   "close_ts": 1791752400.0,
+   "score": 0.5914,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "YES",
+   "closed_ts": 1791753344,
    "won": true
   }
  ],
@@ -2367,89 +2387,98 @@
    1791752453,
    105.97,
    105.87
+  ],
+  [
+   1791753344,
+   106.11,
+   105.86
   ]
  ],
  "last_run": {
-  "ts": 1791752453,
+  "ts": 1791753344,
   "error": null,
-  "markets_scanned": 4501,
-  "candidates": 40,
+  "markets_scanned": 4500,
+  "candidates": 48,
   "rejections": {
-   "too little volume": 4240,
-   "no favorite in 80-95c band": 210,
-   "spread too wide": 11
+   "too little volume": 4221,
+   "no favorite in 80-95c band": 222,
+   "spread too wide": 9
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   48
+  ],
+  "settled": [
+   33
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.97,
-    "volume_24h": 3122.67,
-    "score": 0.623
+    "hours_to_close": 19.72,
+    "volume_24h": 3311.72,
+    "score": 0.6257
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 12, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.97,
-    "volume_24h": 1248.43,
-    "score": 0.6131
+    "hours_to_close": 19.72,
+    "volume_24h": 1248.83,
+    "score": 0.6139
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.97,
-    "volume_24h": 1412.54,
-    "score": 0.6071
+    "hours_to_close": 19.72,
+    "volume_24h": 1431.98,
+    "score": 0.6084
    },
    {
     "label": "Will it rain in Pittsburgh on Oct 12, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.99,
-    "volume_24h": 2151.65,
-    "score": 0.5953
+    "hours_to_close": 31.74,
+    "volume_24h": 2340.13,
+    "score": 0.5984
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 12, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 1564.8,
-    "score": 0.5908
+    "hours_to_close": 34.74,
+    "volume_24h": 1574.8,
+    "score": 0.5914
    },
    {
     "label": "Will it rain in Albuquerque on Oct 12, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 1499.92,
-    "score": 0.5807
+    "score": 0.5811
    },
    {
-    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
-    "side": "no",
+    "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 910.07,
-    "score": 0.5758
+    "hours_to_close": 30.72,
+    "volume_24h": 4047.07,
+    "score": 0.5777
    },
    {
     "label": "Will it rain in Boston on Oct 12, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 2159.17,
-    "score": 0.5754
+    "hours_to_close": 31.74,
+    "volume_24h": 2195.17,
+    "score": 0.5763
    }
   ],
-  "watch_added": 4,
-  "watch_graded": 13,
+  "watch_added": 6,
+  "watch_graded": 6,
   "api_calls": 42
  }
 }

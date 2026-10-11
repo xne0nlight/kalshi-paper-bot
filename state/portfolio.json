@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.91,
- "fees_paid": 0.81,
- "peak_equity": 105.86,
+ "cash": 66.07,
+ "fees_paid": 0.83,
+ "peak_equity": 105.97,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 47,
+ "next_id": 48,
  "open_positions": [
   {
    "id": 31,
@@ -71,7 +71,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 36,
@@ -151,7 +151,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.93
+   "mark_price": 0.94
   },
   {
    "id": 41,
@@ -199,23 +199,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.94
-  },
-  {
-   "id": 44,
-   "ticker": "KXBRASILEIROCGAME-26OCT10ARAINT-INT",
-   "event_ticker": "KXBRASILEIROCGAME-26OCT10ARAINT",
-   "series": "KXBRASILEIROCGAME",
-   "label": "Internacional wins",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.94,
-   "fee": 0.01,
-   "cost": 1.89,
-   "opened_ts": 1791737150,
-   "close_ts": 1791835200.0,
-   "score": 0.6532,
-   "mark_price": 0.99
+   "mark_price": 0.95
   },
   {
    "id": 45,
@@ -247,6 +231,22 @@
    "opened_ts": 1791742547,
    "close_ts": 1791871200.0,
    "score": 0.5457,
+   "mark_price": 0.93
+  },
+  {
+   "id": 47,
+   "ticker": "KXHIGHTOKC-26OCT12-B93.5",
+   "event_ticker": "KXHIGHTOKC-26OCT12",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791747046,
+   "close_ts": 1791871200.0,
+   "score": 0.5638,
    "mark_price": 0.93
   }
  ],
@@ -869,6 +869,26 @@
    "pnl": 0.16,
    "result": "NO",
    "closed_ts": 1791742547,
+   "won": true
+  },
+  {
+   "id": 44,
+   "ticker": "KXBRASILEIROCGAME-26OCT10ARAINT-INT",
+   "event_ticker": "KXBRASILEIROCGAME-26OCT10ARAINT",
+   "series": "KXBRASILEIROCGAME",
+   "label": "Internacional wins",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 1.89,
+   "opened_ts": 1791737150,
+   "close_ts": 1791835200.0,
+   "score": 0.6532,
+   "payout": 2.0,
+   "pnl": 0.11,
+   "result": "NO",
+   "closed_ts": 1791747046,
    "won": true
   }
  ],
@@ -2312,88 +2332,98 @@
    1791746145,
    105.86,
    105.88
+  ],
+  [
+   1791747046,
+   105.97,
+   105.87
   ]
  ],
  "last_run": {
-  "ts": 1791746145,
+  "ts": 1791747046,
   "error": null,
-  "markets_scanned": 4118,
-  "candidates": 26,
+  "markets_scanned": 4100,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 3881,
-   "no favorite in 80-95c band": 197,
-   "spread too wide": 14
+   "too little volume": 3878,
+   "no favorite in 80-95c band": 179,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   47
+  ],
+  "settled": [
+   44
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
+    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 12, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.72,
-    "volume_24h": 1885.3,
-    "score": 0.6214
-   },
-   {
-    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.74,
-    "volume_24h": 909.07,
-    "score": 0.5635
-   },
-   {
-    "label": "Will it rain in Boston on Oct 12, 2026?",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 33.74,
-    "volume_24h": 2080.58,
-    "score": 0.5617
-   },
-   {
-    "label": "Will the maximum temperature be >71\u00b0 on Oct 12, 2026? \u2014 72\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 551.0,
-    "score": 0.5585
-   },
-   {
-    "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.74,
-    "volume_24h": 744.08,
-    "score": 0.557
+    "hours_to_close": 21.47,
+    "volume_24h": 946.21,
+    "score": 0.5997
    },
    {
     "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.72,
-    "volume_24h": 422.59,
-    "score": 0.5528
+    "hours_to_close": 21.47,
+    "volume_24h": 1279.51,
+    "score": 0.5895
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.47,
+    "volume_24h": 922.83,
+    "score": 0.5889
+   },
+   {
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 909.07,
+    "score": 0.5638
+   },
+   {
+    "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 744.08,
+    "score": 0.5573
    },
    {
     "label": "Will it rain in Milwaukee on Oct 12, 2026?",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 34.74,
-    "volume_24h": 1957.9,
-    "score": 0.5285
+    "hours_to_close": 34.49,
+    "volume_24h": 1962.9,
+    "score": 0.5289
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 12, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 208.65,
-    "score": 0.5044
+    "score": 0.5047
+   },
+   {
+    "label": "Will it rain in Washington DC on Oct 12, 2026?",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 33.49,
+    "volume_24h": 920.64,
+    "score": 0.4955
    }
   ],
-  "watch_added": 0,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  }

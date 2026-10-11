@@ -119,7 +119,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 36,
@@ -151,7 +151,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791813600.0,
    "score": 0.6641,
-   "mark_price": 0.92
+   "mark_price": 0.95
   },
   {
    "id": 38,
@@ -183,7 +183,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.91
+   "mark_price": 0.93
   },
   {
    "id": 40,
@@ -215,7 +215,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.79
+   "mark_price": 0.81
   },
   {
    "id": 42,
@@ -247,7 +247,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.91
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -2192,17 +2192,22 @@
    1791735351,
    105.35,
    105.64
+  ],
+  [
+   1791736260,
+   105.35,
+   105.9
   ]
  ],
  "last_run": {
-  "ts": 1791735351,
+  "ts": 1791736260,
   "error": null,
   "markets_scanned": 3804,
-  "candidates": 5,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 3679,
-   "no favorite in 80-95c band": 103,
-   "spread too wide": 17
+   "too little volume": 3681,
+   "no favorite in 80-95c band": 102,
+   "spread too wide": 15
   },
   "opened": [],
   "settled": [],
@@ -2212,45 +2217,53 @@
     "label": "Internacional wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.74,
-    "volume_24h": 13238.52,
-    "score": 0.6522
+    "hours_to_close": 27.48,
+    "volume_24h": 13438.08,
+    "score": 0.6527
    },
    {
-    "label": "Will the gold close price be above 4129 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $4129",
+    "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 203.57,
-    "score": 0.4838
+    "hours_to_close": 35.47,
+    "volume_24h": 3982.5,
+    "score": 0.6207
    },
    {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.72,
+    "price": 0.95,
+    "hours_to_close": 24.47,
     "volume_24h": 671.65,
-    "score": 0.4704
+    "score": 0.481
    },
    {
-    "label": "Will the #1 Movie on Netflix have at least 21 million views? \u2014 At least 21 million",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 35.72,
-    "volume_24h": 201.84,
-    "score": 0.3934
+    "label": "Will Trump's RCP approval average be exactly 37.5 on Oct 12, 2026? \u2014 37.5%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.47,
+    "volume_24h": 836.64,
+    "score": 0.4782
+   },
+   {
+    "label": "Sam LaPorta: Leader TE in fantasy points for Week 5?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.47,
+    "volume_24h": 241.57,
+    "score": 0.4195
    },
    {
     "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
     "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 28.74,
-    "volume_24h": 280.66,
-    "score": 0.3542
+    "price": 0.84,
+    "hours_to_close": 28.48,
+    "volume_24h": 296.23,
+    "score": 0.3364
    }
   ],
-  "watch_added": 2,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 1,
+  "watch_graded": 4,
+  "api_calls": 43
  }
 }

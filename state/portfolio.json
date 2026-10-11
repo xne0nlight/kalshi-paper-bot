@@ -87,7 +87,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 36,
@@ -151,7 +151,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.87
+   "mark_price": 0.92
   },
   {
    "id": 40,
@@ -183,7 +183,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.81
+   "mark_price": 0.83
   },
   {
    "id": 42,
@@ -215,7 +215,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.93
+   "mark_price": 0.94
   },
   {
    "id": 44,
@@ -231,7 +231,7 @@
    "opened_ts": 1791737150,
    "close_ts": 1791835200.0,
    "score": 0.6532,
-   "mark_price": 0.93
+   "mark_price": 0.81
   },
   {
    "id": 45,
@@ -247,7 +247,7 @@
    "opened_ts": 1791738946,
    "close_ts": 1791867600.0,
    "score": 0.5393,
-   "mark_price": 0.89
+   "mark_price": 0.9
   }
  ],
  "closed_positions": [
@@ -2257,16 +2257,21 @@
    1791739849,
    105.7,
    105.79
+  ],
+  [
+   1791740743,
+   105.7,
+   105.78
   ]
  ],
  "last_run": {
-  "ts": 1791739849,
+  "ts": 1791740743,
   "error": null,
   "markets_scanned": 3935,
-  "candidates": 10,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 3774,
-   "no favorite in 80-95c band": 127,
+   "too little volume": 3769,
+   "no favorite in 80-95c band": 126,
    "spread too wide": 24
   },
   "opened": [],
@@ -2274,72 +2279,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Boston on Oct 12, 2026?",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 35.49,
-    "volume_24h": 1544.58,
-    "score": 0.5398
-   },
-   {
     "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.47,
+    "hours_to_close": 23.22,
     "volume_24h": 671.65,
-    "score": 0.5333
+    "score": 0.5839
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.22,
+    "volume_24h": 241.29,
+    "score": 0.5307
+   },
+   {
+    "label": "Will it rain in Boston on Oct 12, 2026?",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 35.24,
+    "volume_24h": 1544.58,
+    "score": 0.5101
    },
    {
     "label": "Will the maximum temperature be >71\u00b0 on Oct 12, 2026? \u2014 72\u00b0 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
-    "volume_24h": 443.0,
-    "score": 0.4892
+    "hours_to_close": 35.24,
+    "volume_24h": 550.0,
+    "score": 0.4965
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 12, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 35.49,
-    "volume_24h": 578.6,
-    "score": 0.4779
+    "price": 0.91,
+    "hours_to_close": 35.24,
+    "volume_24h": 283.0,
+    "score": 0.4949
    },
    {
     "label": "Will it rain in Pittsburgh on Oct 12, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.49,
-    "volume_24h": 1969.7,
-    "score": 0.4677
+    "hours_to_close": 35.24,
+    "volume_24h": 1970.7,
+    "score": 0.468
    },
    {
     "label": "Will it rain in Washington DC on Oct 12, 2026?",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 468.49,
-    "score": 0.461
+    "score": 0.4613
    },
    {
     "label": "Will it rain in Providence on Oct 12, 2026?",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 1172.74,
-    "score": 0.4608
-   },
-   {
-    "label": "Will the maximum temperature be 81-82\u00b0 on Oct 12, 2026? \u2014 81\u00b0 to 82\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 35.49,
-    "volume_24h": 252.03,
-    "score": 0.4409
+    "score": 0.4611
    }
   ],
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
-  "api_calls": 44
+  "api_calls": 42
  }
 }

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 71.56,
- "fees_paid": 0.69,
+ "cash": 69.06,
+ "fees_paid": 0.73,
  "peak_equity": 105.35,
  "day": "2026-10-11",
  "day_start_equity": 103.63,
- "next_id": 41,
+ "next_id": 42,
  "open_positions": [
   {
    "id": 20,
@@ -71,7 +71,7 @@
    "opened_ts": 1791651664,
    "close_ts": 1791737940.0,
    "score": 0.6301,
-   "mark_price": 0.94
+   "mark_price": 0.96
   },
   {
    "id": 33,
@@ -119,7 +119,7 @@
    "opened_ts": 1791689449,
    "close_ts": 1791813600.0,
    "score": 0.6519,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 36,
@@ -183,7 +183,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.9
+   "mark_price": 0.94
   },
   {
    "id": 40,
@@ -200,6 +200,22 @@
    "close_ts": 1791813600.0,
    "score": 0.5695,
    "mark_price": 0.87
+  },
+  {
+   "id": 41,
+   "ticker": "KXSILVERD-26OCT1217-T60",
+   "event_ticker": "KXSILVERD-26OCT1217",
+   "series": "KXSILVERD",
+   "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.82,
+   "fee": 0.04,
+   "cost": 2.5,
+   "opened_ts": 1791729952,
+   "close_ts": 1791838800.0,
+   "score": 0.402,
+   "mark_price": 0.81
   }
  ],
  "closed_positions": [
@@ -2109,19 +2125,27 @@
    1791729054,
    105.35,
    105.55
+  ],
+  [
+   1791729952,
+   105.35,
+   105.69
   ]
  ],
  "last_run": {
-  "ts": 1791729054,
+  "ts": 1791729952,
   "error": null,
   "markets_scanned": 3902,
-  "candidates": 5,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 3746,
+   "too little volume": 3744,
    "no favorite in 80-95c band": 134,
-   "spread too wide": 17
+   "spread too wide": 17,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
+  "opened": [
+   41
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -2129,44 +2153,52 @@
     "label": "Will Trump say \"Who are you with / Where are you from\" before Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.48,
-    "volume_24h": 12145.49,
-    "score": 0.6712
-   },
-   {
-    "label": "Will Trump say \"Cuba / Cuban\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.48,
-    "volume_24h": 7725.57,
-    "score": 0.6628
-   },
-   {
-    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.48,
-    "volume_24h": 13023.41,
-    "score": 0.6012
+    "hours_to_close": 23.24,
+    "volume_24h": 12002.83,
+    "score": 0.6718
    },
    {
     "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.48,
-    "volume_24h": 33177.56,
-    "score": 0.5612
+    "price": 0.95,
+    "hours_to_close": 23.24,
+    "volume_24h": 30013.21,
+    "score": 0.6718
    },
    {
-    "label": "Will Trump say \"Zohran / Mamdani\" before Oct 12, 2026?",
+    "label": "Will Trump say \"Peace in the Middle East\" before Oct 12, 2026?",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 23.48,
-    "volume_24h": 28552.56,
-    "score": 0.5112
+    "price": 0.95,
+    "hours_to_close": 23.24,
+    "volume_24h": 4390.35,
+    "score": 0.645
+   },
+   {
+    "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.24,
+    "volume_24h": 13720.73,
+    "score": 0.6418
+   },
+   {
+    "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Oct 12, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.24,
+    "volume_24h": 10165.9,
+    "score": 0.6218
+   },
+   {
+    "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
+    "side": "yes",
+    "price": 0.82,
+    "hours_to_close": 30.24,
+    "volume_24h": 208.03,
+    "score": 0.402
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  }

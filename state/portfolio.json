@@ -87,7 +87,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791813600.0,
    "score": 0.6641,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 38,
@@ -119,7 +119,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.86
+   "mark_price": 0.89
   },
   {
    "id": 40,
@@ -2482,17 +2482,22 @@
    1791769541,
    106.11,
    106.31
+  ],
+  [
+   1791770445,
+   106.11,
+   106.43
   ]
  ],
  "last_run": {
-  "ts": 1791769541,
+  "ts": 1791770445,
   "error": null,
-  "markets_scanned": 4566,
-  "candidates": 66,
+  "markets_scanned": 4849,
+  "candidates": 64,
   "rejections": {
-   "too little volume": 4169,
-   "no favorite in 80-95c band": 314,
-   "spread too wide": 16,
+   "too little volume": 4341,
+   "no favorite in 80-95c band": 419,
+   "spread too wide": 24,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -2500,72 +2505,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 6655.81,
-    "score": 0.67
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 12, 2026? \u2014 38.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 15.22,
-    "volume_24h": 3246.13,
-    "score": 0.6623
-   },
-   {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,250 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 19.24,
-    "volume_24h": 9379.44,
-    "score": 0.6411
+    "hours_to_close": 18.99,
+    "volume_24h": 9414.44,
+    "score": 0.6421
    },
    {
     "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 15.22,
-    "volume_24h": 7587.38,
-    "score": 0.64
+    "hours_to_close": 14.97,
+    "volume_24h": 7779.18,
+    "score": 0.642
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.22,
+    "hours_to_close": 14.97,
     "volume_24h": 2058.36,
-    "score": 0.6375
+    "score": 0.6387
    },
    {
     "label": "Ethereum price at Oct 12, 2026 at 5pm EDT? \u2014 $2,610 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.24,
+    "hours_to_close": 18.99,
     "volume_24h": 4045.75,
-    "score": 0.6337
+    "score": 0.6346
    },
    {
-    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,500 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 19.24,
-    "volume_24h": 6692.57,
-    "score": 0.6201
+    "price": 0.95,
+    "hours_to_close": 18.99,
+    "volume_24h": 6655.81,
+    "score": 0.6208
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.24,
-    "volume_24h": 2104.55,
-    "score": 0.6125
+    "hours_to_close": 18.99,
+    "volume_24h": 2139.55,
+    "score": 0.6138
+   },
+   {
+    "label": "Will the maximum temperature be >77\u00b0 on Oct 12, 2026? \u2014 78\u00b0 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.99,
+    "volume_24h": 1996.32,
+    "score": 0.6112
+   },
+   {
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 18.99,
+    "volume_24h": 6694.57,
+    "score": 0.611
    }
   ],
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 4,
   "api_calls": 42
  }
 }

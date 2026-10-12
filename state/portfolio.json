@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 63.85,
- "fees_paid": 0.89,
+ "cash": 67.13,
+ "fees_paid": 0.91,
  "peak_equity": 106.11,
  "day": "2026-10-12",
  "day_start_equity": 106.11,
- "next_id": 52,
+ "next_id": 53,
  "open_positions": [
-  {
-   "id": 34,
-   "ticker": "KXHIGHLAX-26OCT11-T70",
-   "event_ticker": "KXHIGHLAX-26OCT11",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be <70\u00b0 on Oct 11, 2026? \u2014 69\u00b0 or below",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791666940,
-   "close_ts": 1791792000.0,
-   "score": 0.577,
-   "mark_price": 0.99
-  },
   {
    "id": 35,
    "ticker": "KXOPENSHARE-26OCT12-18.7",
@@ -74,22 +58,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 40,
-   "ticker": "KXRT-OTH-20",
-   "event_ticker": "KXRT-OTH",
-   "series": "KXRT",
-   "label": "Other Mommy Rotten Tomatoes score? \u2014 Above 20",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.9,
-   "fee": 0.02,
-   "cost": 2.72,
-   "opened_ts": 1791726347,
-   "close_ts": 1791813600.0,
-   "score": 0.5695,
-   "mark_price": 0.99
-  },
-  {
    "id": 41,
    "ticker": "KXSILVERD-26OCT1217-T60",
    "event_ticker": "KXSILVERD-26OCT1217",
@@ -103,7 +71,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.84
+   "mark_price": 0.79
   },
   {
    "id": 42,
@@ -119,7 +87,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.95
+   "mark_price": 0.94
   },
   {
    "id": 43,
@@ -199,7 +167,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 49,
@@ -247,7 +215,23 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.91
+   "mark_price": 0.9
+  },
+  {
+   "id": 52,
+   "ticker": "KXYTVIEWSW-KAT26OCT11-20.0M",
+   "event_ticker": "KXYTVIEWSW-KAT26OCT11",
+   "series": "KXYTVIEWSW",
+   "label": "Will KATSEYE have above 20M daily views at any point during October 5, 2026 - October 11, 2026? \u2014 Above 20M",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791814547,
+   "close_ts": 1791900000.0,
+   "score": 0.5657,
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -969,6 +953,46 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1791811845,
+   "won": true
+  },
+  {
+   "id": 34,
+   "ticker": "KXHIGHLAX-26OCT11-T70",
+   "event_ticker": "KXHIGHLAX-26OCT11",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be <70\u00b0 on Oct 11, 2026? \u2014 69\u00b0 or below",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791666940,
+   "close_ts": 1791792000.0,
+   "score": 0.577,
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1791814547,
+   "won": true
+  },
+  {
+   "id": 40,
+   "ticker": "KXRT-OTH-20",
+   "event_ticker": "KXRT-OTH",
+   "series": "KXRT",
+   "label": "Other Mommy Rotten Tomatoes score? \u2014 Above 20",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791726347,
+   "close_ts": 1791813600.0,
+   "score": 0.5695,
+   "payout": 3.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1791814547,
    "won": true
   }
  ],
@@ -2787,90 +2811,100 @@
    1791813666,
    103.61,
    104.53
+  ],
+  [
+   1791814547,
+   104.11,
+   104.37
   ]
  ],
  "last_run": {
-  "ts": 1791813666,
+  "ts": 1791814547,
   "error": null,
   "markets_scanned": 683,
-  "candidates": 9,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 502,
-   "no favorite in 80-95c band": 163,
+   "too little volume": 507,
+   "no favorite in 80-95c band": 160,
    "spread too wide": 7,
-   "favorite is slipping fast": 2
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   52
+  ],
+  "settled": [
+   34,
+   40
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI crude oil settlement price be above 89.49 USD/Bbl on Oct 13, 2026? \u2014 Above $89.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.48,
-    "volume_24h": 6235.66,
-    "score": 0.6455
-   },
    {
     "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 28.48,
+    "hours_to_close": 28.24,
     "volume_24h": 3272.05,
-    "score": 0.5945
+    "score": 0.595
    },
    {
     "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 28.48,
-    "volume_24h": 6162.86,
-    "score": 0.5751
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 88.49 USD/Bbl on Oct 13, 2026? \u2014 Above $88.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.48,
-    "volume_24h": 666.95,
-    "score": 0.5728
+    "hours_to_close": 28.24,
+    "volume_24h": 6150.12,
+    "score": 0.5755
    },
    {
     "label": "Will KATSEYE have above 20M daily views at any point during October 5, 2026 - October 11, 2026? \u2014 Above 20M",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.98,
+    "hours_to_close": 23.74,
     "volume_24h": 1848.92,
-    "score": 0.5651
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 13, 2026? \u2014 Above $97.49",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.48,
-    "volume_24h": 393.0,
-    "score": 0.5456
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 28.48,
-    "volume_24h": 1010.2,
-    "score": 0.5163
+    "score": 0.5657
    },
    {
     "label": "Will the WTI crude oil settlement price be above 89.99 USD/Bbl on Oct 13, 2026? \u2014 Above $89.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.48,
+    "hours_to_close": 28.24,
     "volume_24h": 561.0,
-    "score": 0.5071
+    "score": 0.5576
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 13, 2026? \u2014 Above $97.49",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 393.0,
+    "score": 0.556
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 28.24,
+    "volume_24h": 1010.56,
+    "score": 0.5267
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026? \u2014 Above $91.49",
+    "side": "yes",
+    "price": 0.82,
+    "hours_to_close": 28.24,
+    "volume_24h": 3851.02,
+    "score": 0.5003
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 28.24,
+    "volume_24h": 699.62,
+    "score": 0.4747
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 12,
+  "watch_added": 0,
+  "watch_graded": 16,
   "api_calls": 42
  }
 }

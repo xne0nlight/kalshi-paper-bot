@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 69.33,
- "fees_paid": 0.93,
+ "cash": 66.49,
+ "fees_paid": 0.95,
  "peak_equity": 106.11,
  "day": "2026-10-12",
  "day_start_equity": 106.11,
- "next_id": 55,
+ "next_id": 56,
  "open_positions": [
   {
    "id": 38,
@@ -39,7 +39,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.77
+   "mark_price": 0.75
   },
   {
    "id": 42,
@@ -135,7 +135,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 49,
@@ -183,7 +183,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.91
+   "mark_price": 0.92
   },
   {
    "id": 52,
@@ -232,6 +232,22 @@
    "close_ts": 1791900000.0,
    "score": 0.4808,
    "mark_price": 0.91
+  },
+  {
+   "id": 55,
+   "ticker": "KXTRUMPAPPROVE-26OCT13-E38.4",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT13",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791820868,
+   "close_ts": 1791910740.0,
+   "score": 0.5872,
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -2886,81 +2902,96 @@
    1791819947,
    104.53,
    103.54
+  ],
+  [
+   1791820868,
+   104.53,
+   103.46
   ]
  ],
  "last_run": {
-  "ts": 1791819947,
+  "ts": 1791820868,
   "error": null,
-  "markets_scanned": 629,
-  "candidates": 7,
+  "markets_scanned": 370,
+  "candidates": 13,
   "rejections": {
-   "too little volume": 459,
-   "no favorite in 80-95c band": 156,
-   "spread too wide": 6,
-   "favorite is slipping fast": 1
+   "too little volume": 290,
+   "no favorite in 80-95c band": 64,
+   "favorite is slipping fast": 2,
+   "spread too wide": 1
   },
-  "opened": [],
+  "opened": [
+   55
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.96,
+    "volume_24h": 5309.0,
+    "score": 0.5872
+   },
+   {
     "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.48,
     "volume_24h": 6160.05,
-    "score": 0.5784
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.74,
-    "volume_24h": 1050.56,
-    "score": 0.5708
+    "score": 0.5789
    },
    {
     "label": "Will the WTI crude oil settlement price be above 89.99 USD/Bbl on Oct 13, 2026? \u2014 Above $89.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.48,
     "volume_24h": 769.03,
-    "score": 0.5706
+    "score": 0.5711
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
+    "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.96,
+    "volume_24h": 1098.38,
+    "score": 0.5681
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026? \u2014 Above $91.49",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 26.74,
-    "volume_24h": 4011.05,
-    "score": 0.5644
+    "price": 0.87,
+    "hours_to_close": 26.48,
+    "volume_24h": 3764.59,
+    "score": 0.5528
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 37.8 on Oct 13, 2026? \u2014 Below 37.8%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 24.96,
+    "volume_24h": 212.22,
+    "score": 0.5425
    },
    {
     "label": "Will the brent crude oil close price be above 100 USD/Bbl on October 13, 2026 at 5:00 PM EDT? \u2014 Above $100",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.24,
+    "hours_to_close": 28.98,
     "volume_24h": 237.28,
-    "score": 0.5379
+    "score": 0.5383
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026? \u2014 Above $91.49",
+    "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
     "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 26.74,
-    "volume_24h": 3774.7,
-    "score": 0.5224
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 26.74,
-    "volume_24h": 993.11,
-    "score": 0.519
+    "price": 0.95,
+    "hours_to_close": 26.48,
+    "volume_24h": 4006.44,
+    "score": 0.5349
    }
   ],
-  "watch_added": 0,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  }

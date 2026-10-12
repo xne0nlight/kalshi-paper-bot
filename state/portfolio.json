@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 67.13,
+ "cash": 73.13,
  "fees_paid": 0.91,
  "peak_equity": 106.11,
  "day": "2026-10-12",
  "day_start_equity": 106.11,
  "next_id": 53,
  "open_positions": [
-  {
-   "id": 35,
-   "ticker": "KXOPENSHARE-26OCT12-18.7",
-   "event_ticker": "KXOPENSHARE-26OCT12",
-   "series": "KXOPENSHARE",
-   "label": "OpenAI market share this week? \u2014 Above 18.7%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791689449,
-   "close_ts": 1791813600.0,
-   "score": 0.6519,
-   "mark_price": 0.98
-  },
   {
    "id": 38,
    "ticker": "KXUSLGAME-26OCT10SPOBIR-SPO",
@@ -42,22 +26,6 @@
    "mark_price": 0.85
   },
   {
-   "id": 39,
-   "ticker": "KXRT-SOC-55",
-   "event_ticker": "KXRT-SOC",
-   "series": "KXRT",
-   "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.9,
-   "fee": 0.02,
-   "cost": 2.72,
-   "opened_ts": 1791720944,
-   "close_ts": 1791813600.0,
-   "score": 0.5662,
-   "mark_price": 0.99
-  },
-  {
    "id": 41,
    "ticker": "KXSILVERD-26OCT1217-T60",
    "event_ticker": "KXSILVERD-26OCT1217",
@@ -71,7 +39,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.79
+   "mark_price": 0.81
   },
   {
    "id": 42,
@@ -103,7 +71,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.94
+   "mark_price": 0.93
   },
   {
    "id": 45,
@@ -167,7 +135,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.97
+   "mark_price": 0.95
   },
   {
    "id": 49,
@@ -199,7 +167,7 @@
    "opened_ts": 1791810060,
    "close_ts": 1791896400.0,
    "score": 0.62,
-   "mark_price": 0.9
+   "mark_price": 0.89
   },
   {
    "id": 51,
@@ -215,7 +183,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.9
+   "mark_price": 0.93
   },
   {
    "id": 52,
@@ -993,6 +961,46 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1791814547,
+   "won": true
+  },
+  {
+   "id": 35,
+   "ticker": "KXOPENSHARE-26OCT12-18.7",
+   "event_ticker": "KXOPENSHARE-26OCT12",
+   "series": "KXOPENSHARE",
+   "label": "OpenAI market share this week? \u2014 Above 18.7%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791689449,
+   "close_ts": 1791813600.0,
+   "score": 0.6519,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791815451,
+   "won": true
+  },
+  {
+   "id": 39,
+   "ticker": "KXRT-SOC-55",
+   "event_ticker": "KXRT-SOC",
+   "series": "KXRT",
+   "label": "The Social Reckoning Rotten Tomatoes score? \u2014 Above 55",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791720944,
+   "close_ts": 1791813600.0,
+   "score": 0.5662,
+   "payout": 3.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1791815451,
    "won": true
   }
  ],
@@ -2816,25 +2824,28 @@
    1791814547,
    104.11,
    104.37
+  ],
+  [
+   1791815451,
+   104.53,
+   104.5
   ]
  ],
  "last_run": {
-  "ts": 1791814547,
+  "ts": 1791815451,
   "error": null,
   "markets_scanned": 683,
-  "candidates": 8,
+  "candidates": 7,
   "rejections": {
    "too little volume": 507,
-   "no favorite in 80-95c band": 160,
-   "spread too wide": 7,
-   "favorite is slipping fast": 1
+   "no favorite in 80-95c band": 159,
+   "spread too wide": 8,
+   "favorite is slipping fast": 2
   },
-  "opened": [
-   52
-  ],
+  "opened": [],
   "settled": [
-   34,
-   40
+   35,
+   39
   ],
   "halt": null,
   "top_candidates": [
@@ -2842,69 +2853,61 @@
     "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 3272.05,
-    "score": 0.595
+    "score": 0.5954
    },
    {
     "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 28.24,
-    "volume_24h": 6150.12,
-    "score": 0.5755
+    "hours_to_close": 27.99,
+    "volume_24h": 6176.0,
+    "score": 0.5761
    },
    {
     "label": "Will KATSEYE have above 20M daily views at any point during October 5, 2026 - October 11, 2026? \u2014 Above 20M",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 1848.92,
-    "score": 0.5657
+    "score": 0.5663
    },
    {
     "label": "Will the WTI crude oil settlement price be above 89.99 USD/Bbl on Oct 13, 2026? \u2014 Above $89.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.24,
-    "volume_24h": 561.0,
-    "score": 0.5576
+    "hours_to_close": 27.99,
+    "volume_24h": 562.18,
+    "score": 0.5581
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 13, 2026? \u2014 Above $97.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 393.0,
-    "score": 0.556
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.24,
-    "volume_24h": 1010.56,
-    "score": 0.5267
+    "score": 0.5565
    },
    {
     "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026? \u2014 Above $91.49",
     "side": "yes",
     "price": 0.82,
-    "hours_to_close": 28.24,
-    "volume_24h": 3851.02,
-    "score": 0.5003
+    "hours_to_close": 27.99,
+    "volume_24h": 3816.44,
+    "score": 0.5004
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 28.24,
-    "volume_24h": 699.62,
-    "score": 0.4747
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 13, 2026? \u2014 Above $91.99",
+    "side": "yes",
+    "price": 0.8,
+    "hours_to_close": 27.99,
+    "volume_24h": 4399.68,
+    "score": 0.4851
    }
   ],
-  "watch_added": 0,
-  "watch_graded": 16,
+  "watch_added": 1,
+  "watch_graded": 7,
   "api_calls": 42
  }
 }

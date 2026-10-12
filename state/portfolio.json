@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 65.65,
- "fees_paid": 0.97,
+ "cash": 65.79,
+ "fees_paid": 0.98,
  "peak_equity": 106.11,
  "day": "2026-10-12",
  "day_start_equity": 106.11,
- "next_id": 57,
+ "next_id": 58,
  "open_positions": [
   {
    "id": 38,
@@ -24,22 +24,6 @@
    "close_ts": 1791838800.0,
    "score": 0.6437,
    "mark_price": 0.75
-  },
-  {
-   "id": 41,
-   "ticker": "KXSILVERD-26OCT1217-T60",
-   "event_ticker": "KXSILVERD-26OCT1217",
-   "series": "KXSILVERD",
-   "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.82,
-   "fee": 0.04,
-   "cost": 2.5,
-   "opened_ts": 1791729952,
-   "close_ts": 1791838800.0,
-   "score": 0.402,
-   "mark_price": 0.98
   },
   {
    "id": 42,
@@ -167,7 +151,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.9
+   "mark_price": 0.89
   },
   {
    "id": 52,
@@ -199,7 +183,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.9
+   "mark_price": 0.92
   },
   {
    "id": 54,
@@ -248,6 +232,22 @@
    "close_ts": 1791950340.0,
    "score": 0.5697,
    "mark_price": 0.93
+  },
+  {
+   "id": 57,
+   "ticker": "KXRAIN-26OCT13-NYC",
+   "event_ticker": "KXRAIN-26OCT13",
+   "series": "KXRAIN",
+   "label": "Will it rain in New York City on Oct 13, 2026?",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791838861,
+   "close_ts": 1791954000.0,
+   "score": 0.5994,
+   "mark_price": 0.94
   }
  ],
  "closed_positions": [
@@ -1069,6 +1069,26 @@
    "pnl": 0.18,
    "result": "NO",
    "closed_ts": 1791824455,
+   "won": true
+  },
+  {
+   "id": 41,
+   "ticker": "KXSILVERD-26OCT1217-T60",
+   "event_ticker": "KXSILVERD-26OCT1217",
+   "series": "KXSILVERD",
+   "label": "Will the silver close price be above 60 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $60",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.82,
+   "fee": 0.04,
+   "cost": 2.5,
+   "opened_ts": 1791729952,
+   "close_ts": 1791838800.0,
+   "score": 0.402,
+   "payout": 3.0,
+   "pnl": 0.5,
+   "result": "YES",
+   "closed_ts": 1791838861,
    "won": true
   }
  ],
@@ -3022,89 +3042,98 @@
    1791837945,
    104.71,
    103.92
+  ],
+  [
+   1791838861,
+   105.21,
+   103.97
   ]
  ],
  "last_run": {
-  "ts": 1791837945,
+  "ts": 1791838861,
   "error": null,
   "markets_scanned": 3905,
-  "candidates": 58,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 3679,
-   "no favorite in 80-95c band": 163,
-   "spread too wide": 5
+   "too little volume": 3676,
+   "no favorite in 80-95c band": 161,
+   "spread too wide": 15
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   57
+  ],
+  "settled": [
+   41
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be above 38.4 on Oct 13, 2026? \u2014 Above 38.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.22,
-    "volume_24h": 10322.96,
-    "score": 0.6701
+    "hours_to_close": 19.97,
+    "volume_24h": 10349.78,
+    "score": 0.6709
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.22,
-    "volume_24h": 7991.45,
-    "score": 0.6528
+    "hours_to_close": 19.97,
+    "volume_24h": 8003.19,
+    "score": 0.6536
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 13, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.22,
-    "volume_24h": 5095.65,
-    "score": 0.6381
+    "hours_to_close": 19.97,
+    "volume_24h": 5707.39,
+    "score": 0.6426
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 13, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.22,
-    "volume_24h": 8761.13,
-    "score": 0.6358
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.74,
-    "volume_24h": 6229.18,
-    "score": 0.6303
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 2322.53,
-    "score": 0.6282
+    "hours_to_close": 19.97,
+    "volume_24h": 8808.14,
+    "score": 0.6367
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 13, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 20.22,
-    "volume_24h": 5331.25,
-    "score": 0.5996
+    "hours_to_close": 19.97,
+    "volume_24h": 5339.09,
+    "score": 0.6004
    },
    {
     "label": "Will it rain in New York City on Oct 13, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.98,
     "volume_24h": 1796.2,
-    "score": 0.599
+    "score": 0.5994
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.48,
+    "volume_24h": 6229.18,
+    "score": 0.591
+   },
+   {
+    "label": "Will it rain in Newark on Oct 13, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.98,
+    "volume_24h": 1377.86,
+    "score": 0.5908
    }
   ],
-  "watch_added": 3,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 2,
+  "watch_graded": 34,
+  "api_calls": 43
  }
 }

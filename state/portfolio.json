@@ -151,7 +151,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.85
+   "mark_price": 0.79
   },
   {
    "id": 42,
@@ -247,7 +247,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.92
+   "mark_price": 0.95
   }
  ],
  "closed_positions": [
@@ -2617,17 +2617,22 @@
    1791793854,
    106.11,
    106.91
+  ],
+  [
+   1791794752,
+   106.11,
+   106.82
   ]
  ],
  "last_run": {
-  "ts": 1791793854,
+  "ts": 1791794752,
   "error": null,
   "markets_scanned": 4511,
-  "candidates": 79,
+  "candidates": 78,
   "rejections": {
-   "too little volume": 3859,
-   "no favorite in 80-95c band": 541,
-   "spread too wide": 31,
+   "too little volume": 3857,
+   "no favorite in 80-95c band": 542,
+   "spread too wide": 33,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -2637,66 +2642,66 @@
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 12.49,
-    "volume_24h": 9145.37,
-    "score": 0.7007
-   },
-   {
-    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,250 or above",
-    "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 6089.12,
-    "score": 0.6975
+    "hours_to_close": 12.24,
+    "volume_24h": 9206.02,
+    "score": 0.7125
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 12.49,
+    "price": 0.93,
+    "hours_to_close": 12.24,
     "volume_24h": 27803.44,
-    "score": 0.6836
+    "score": 0.6952
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,250 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 12.49,
+    "price": 0.93,
+    "hours_to_close": 12.24,
     "volume_24h": 12107.35,
-    "score": 0.6836
-   },
-   {
-    "label": "Ethereum price at Oct 12, 2026 at 5pm EDT? \u2014 $2,490 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 2230.39,
-    "score": 0.6647
+    "score": 0.6952
    },
    {
     "label": "Ethereum price at Oct 12, 2026 at 5pm EDT? \u2014 $2,610 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 12.49,
-    "volume_24h": 25225.53,
-    "score": 0.6636
+    "price": 0.92,
+    "hours_to_close": 12.24,
+    "volume_24h": 25325.78,
+    "score": 0.6852
    },
    {
-    "label": "Will the gold close price be above 4239 USD/t.oz on October 12, 2026 at 5:00 PM EDT? \u2014 Above $4239",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 1060.21,
-    "score": 0.6405
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,500 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 12.24,
+    "volume_24h": 22157.82,
+    "score": 0.6552
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $84,750 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 12.49,
-    "volume_24h": 6430.84,
-    "score": 0.6392
+    "price": 0.9,
+    "hours_to_close": 12.24,
+    "volume_24h": 6454.38,
+    "score": 0.6509
+   },
+   {
+    "label": "Will October 11 be the day with the most transit calls through the Strait of Hormuz (10/5 - 10/11)?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 4067.52,
+    "score": 0.632
+   },
+   {
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 12.24,
+    "volume_24h": 37508.81,
+    "score": 0.6152
    }
   ],
   "watch_added": 2,

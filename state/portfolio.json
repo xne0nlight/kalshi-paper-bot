@@ -119,7 +119,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.78
+   "mark_price": 0.83
   },
   {
    "id": 42,
@@ -135,7 +135,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.88
+   "mark_price": 0.92
   },
   {
    "id": 43,
@@ -151,7 +151,7 @@
    "opened_ts": 1791733548,
    "close_ts": 1791824340.0,
    "score": 0.4793,
-   "mark_price": 0.89
+   "mark_price": 0.95
   },
   {
    "id": 45,
@@ -215,7 +215,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 49,
@@ -2747,94 +2747,94 @@
    1791810060,
    103.47,
    104.07
+  ],
+  [
+   1791810947,
+   103.47,
+   104.45
   ]
  ],
  "last_run": {
-  "ts": 1791810060,
+  "ts": 1791810947,
   "error": null,
   "markets_scanned": 677,
-  "candidates": 12,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 467,
-   "no favorite in 80-95c band": 186,
-   "spread too wide": 11,
-   "favorite is slipping fast": 1
+   "too little volume": 466,
+   "no favorite in 80-95c band": 190,
+   "spread too wide": 7
   },
-  "opened": [
-   50
-  ],
-  "settled": [
-   31
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will October 11 be the day with the most transit calls through the Strait of Hormuz (10/5 - 10/11)?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.98,
+    "hours_to_close": 23.74,
     "volume_24h": 4067.52,
-    "score": 0.6407
+    "score": 0.6413
    },
    {
     "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 5, 2026 to Oct 11, 2026? \u2014 Above 30",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.98,
+    "hours_to_close": 23.74,
     "volume_24h": 10246.12,
-    "score": 0.62
+    "score": 0.6206
    },
    {
     "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 29.48,
-    "volume_24h": 4090.41,
-    "score": 0.5801
+    "price": 0.91,
+    "hours_to_close": 29.24,
+    "volume_24h": 4092.05,
+    "score": 0.5905
+   },
+   {
+    "label": "Will there be more than 20 transit calls through the Strait of Hormuz from Oct 5, 2026 to Oct 11, 2026? \u2014 Above 20",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 23.74,
+    "volume_24h": 9762.21,
+    "score": 0.5798
    },
    {
     "label": "Will the WTI crude oil settlement price be above 88.49 USD/Bbl on Oct 13, 2026? \u2014 Above $88.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.48,
+    "hours_to_close": 29.24,
     "volume_24h": 666.95,
-    "score": 0.571
+    "score": 0.5715
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 29.24,
+    "volume_24h": 6071.29,
+    "score": 0.5633
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 13, 2026? \u2014 Above $97.49",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.24,
+    "volume_24h": 393.0,
+    "score": 0.5543
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 13, 2026? \u2014 Above $97.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.48,
+    "hours_to_close": 29.24,
     "volume_24h": 366.4,
-    "score": 0.5516
-   },
-   {
-    "label": "Will there be more than 175 transit calls through the Bab el-Mandeb Strait from Oct 5, 2026 to Oct 11, 2026? \u2014 Above 175",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 23.98,
-    "volume_24h": 517.93,
-    "score": 0.5337
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
-    "side": "yes",
-    "price": 0.82,
-    "hours_to_close": 29.48,
-    "volume_24h": 6055.56,
-    "score": 0.5128
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026? \u2014 Above $91.49",
-    "side": "yes",
-    "price": 0.82,
-    "hours_to_close": 29.48,
-    "volume_24h": 3874.53,
-    "score": 0.4983
+    "score": 0.552
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 5,
+  "watch_added": 0,
+  "watch_graded": 4,
   "api_calls": 42
  }
 }

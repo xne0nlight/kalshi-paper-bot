@@ -119,7 +119,7 @@
    "opened_ts": 1791720944,
    "close_ts": 1791813600.0,
    "score": 0.5662,
-   "mark_price": 0.89
+   "mark_price": 0.84
   },
   {
    "id": 40,
@@ -135,7 +135,7 @@
    "opened_ts": 1791726347,
    "close_ts": 1791813600.0,
    "score": 0.5695,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 41,
@@ -167,7 +167,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 43,
@@ -199,7 +199,7 @@
    "opened_ts": 1791738946,
    "close_ts": 1791867600.0,
    "score": 0.5393,
-   "mark_price": 0.86
+   "mark_price": 0.82
   },
   {
    "id": 46,
@@ -2487,17 +2487,22 @@
    1791770445,
    106.11,
    106.43
+  ],
+  [
+   1791771344,
+   106.11,
+   106.21
   ]
  ],
  "last_run": {
-  "ts": 1791770445,
+  "ts": 1791771344,
   "error": null,
   "markets_scanned": 4849,
-  "candidates": 64,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 4341,
-   "no favorite in 80-95c band": 419,
-   "spread too wide": 24,
+   "too little volume": 4332,
+   "no favorite in 80-95c band": 423,
+   "spread too wide": 31,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -2507,70 +2512,70 @@
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,250 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 18.99,
-    "volume_24h": 9414.44,
-    "score": 0.6421
-   },
-   {
-    "label": "Will Trump's RCP approval average be below 37.5 on Oct 12, 2026? \u2014 Below 37.5%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 14.97,
-    "volume_24h": 7779.18,
-    "score": 0.642
+    "price": 0.92,
+    "hours_to_close": 18.74,
+    "volume_24h": 9617.38,
+    "score": 0.6536
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 12, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.97,
-    "volume_24h": 2058.36,
-    "score": 0.6387
+    "hours_to_close": 14.72,
+    "volume_24h": 2132.16,
+    "score": 0.641
+   },
+   {
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $82,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 18.74,
+    "volume_24h": 6101.73,
+    "score": 0.6188
    },
    {
     "label": "Ethereum price at Oct 12, 2026 at 5pm EDT? \u2014 $2,610 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 4045.75,
-    "score": 0.6346
+    "price": 0.91,
+    "hours_to_close": 18.74,
+    "volume_24h": 4046.75,
+    "score": 0.6154
    },
    {
-    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,500 or above",
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.99,
-    "volume_24h": 6655.81,
-    "score": 0.6208
+    "price": 0.88,
+    "hours_to_close": 18.74,
+    "volume_24h": 10444.88,
+    "score": 0.6149
    },
    {
     "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 2139.55,
-    "score": 0.6138
+    "hours_to_close": 18.74,
+    "volume_24h": 2141.55,
+    "score": 0.6147
    },
    {
-    "label": "Will the maximum temperature be >77\u00b0 on Oct 12, 2026? \u2014 78\u00b0 or above",
+    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 18.74,
+    "volume_24h": 7157.81,
+    "score": 0.614
+   },
+   {
+    "label": "Will it rain in Albuquerque on Oct 12, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.99,
-    "volume_24h": 1996.32,
-    "score": 0.6112
-   },
-   {
-    "label": "Bitcoin price on Oct 12, 2026? \u2014 $85,000 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 18.99,
-    "volume_24h": 6694.57,
-    "score": 0.611
+    "hours_to_close": 28.74,
+    "volume_24h": 1851.92,
+    "score": 0.6055
    }
   ],
   "watch_added": 2,
-  "watch_graded": 4,
+  "watch_graded": 0,
   "api_calls": 42
  }
 }

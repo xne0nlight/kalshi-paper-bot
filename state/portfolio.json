@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.49,
- "fees_paid": 0.95,
+ "cash": 65.65,
+ "fees_paid": 0.97,
  "peak_equity": 106.11,
  "day": "2026-10-12",
  "day_start_equity": 106.11,
- "next_id": 56,
+ "next_id": 57,
  "open_positions": [
   {
    "id": 38,
@@ -23,7 +23,7 @@
    "opened_ts": 1791717348,
    "close_ts": 1791838800.0,
    "score": 0.6437,
-   "mark_price": 0.77
+   "mark_price": 0.75
   },
   {
    "id": 41,
@@ -39,7 +39,7 @@
    "opened_ts": 1791729952,
    "close_ts": 1791838800.0,
    "score": 0.402,
-   "mark_price": 0.75
+   "mark_price": 0.8
   },
   {
    "id": 42,
@@ -55,23 +55,7 @@
    "opened_ts": 1791732660,
    "close_ts": 1791838800.0,
    "score": 0.4384,
-   "mark_price": 0.96
-  },
-  {
-   "id": 43,
-   "ticker": "KXTRUMPAPPROVE-26OCT12-A38.1",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT12",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.9,
-   "fee": 0.02,
-   "cost": 1.82,
-   "opened_ts": 1791733548,
-   "close_ts": 1791824340.0,
-   "score": 0.4793,
-   "mark_price": 0.98
+   "mark_price": 0.97
   },
   {
    "id": 45,
@@ -135,7 +119,7 @@
    "opened_ts": 1791753344,
    "close_ts": 1791878400.0,
    "score": 0.5914,
-   "mark_price": 0.92
+   "mark_price": 0.94
   },
   {
    "id": 49,
@@ -248,6 +232,22 @@
    "close_ts": 1791910740.0,
    "score": 0.5872,
    "mark_price": 0.92
+  },
+  {
+   "id": 56,
+   "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
+   "event_ticker": "KXDWTSELIMINATION-26OCT14",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791824455,
+   "close_ts": 1791950340.0,
+   "score": 0.5697,
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -1049,6 +1049,26 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1791815451,
+   "won": true
+  },
+  {
+   "id": 43,
+   "ticker": "KXTRUMPAPPROVE-26OCT12-A38.1",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT12",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be above 38.1 on Oct 12, 2026? \u2014 Above 38.1%",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 1.82,
+   "opened_ts": 1791733548,
+   "close_ts": 1791824340.0,
+   "score": 0.4793,
+   "payout": 2.0,
+   "pnl": 0.18,
+   "result": "NO",
+   "closed_ts": 1791824455,
    "won": true
   }
  ],
@@ -2922,89 +2942,99 @@
    1791823548,
    104.53,
    103.23
+  ],
+  [
+   1791824455,
+   104.71,
+   103.39
   ]
  ],
  "last_run": {
-  "ts": 1791823548,
+  "ts": 1791824455,
   "error": null,
-  "markets_scanned": 370,
-  "candidates": 13,
+  "markets_scanned": 492,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 290,
-   "no favorite in 80-95c band": 65,
-   "favorite is slipping fast": 2
+   "too little volume": 377,
+   "no favorite in 80-95c band": 91,
+   "favorite is slipping fast": 2,
+   "spread too wide": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   56
+  ],
+  "settled": [
+   43
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 4071.62,
-    "score": 0.6169
-   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 5909.0,
-    "score": 0.5924
+    "score": 0.5929
    },
    {
     "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Oct 13, 2026? \u2014 Above $90.99",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 25.74,
-    "volume_24h": 6274.45,
-    "score": 0.581
+    "hours_to_close": 25.48,
+    "volume_24h": 6288.45,
+    "score": 0.5816
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 25.48,
+    "volume_24h": 4179.62,
+    "score": 0.5783
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.22,
-    "volume_24h": 1098.38,
-    "score": 0.569
+    "hours_to_close": 34.97,
+    "volume_24h": 1111.79,
+    "score": 0.5697
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 13, 2026? \u2014 38.2%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 23.97,
+    "volume_24h": 2747.44,
+    "score": 0.568
    },
    {
     "label": "Will Trump's RCP approval average be below 37.8 on Oct 13, 2026? \u2014 Below 37.8%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.22,
-    "volume_24h": 266.12,
-    "score": 0.5515
+    "hours_to_close": 23.97,
+    "volume_24h": 266.92,
+    "score": 0.5522
    },
    {
-    "label": "Will the brent crude oil close price be above 100 USD/Bbl on October 13, 2026 at 5:00 PM EDT? \u2014 Above $100",
-    "side": "yes",
+    "label": "Will it rain in New York City on Oct 13, 2026?",
+    "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 237.28,
-    "score": 0.5396
+    "hours_to_close": 35.98,
+    "volume_24h": 450.31,
+    "score": 0.5491
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 13, 2026? \u2014 Above $96.49",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 1077.56,
-    "score": 0.5236
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 13, 2026? \u2014 38.2%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 24.22,
-    "volume_24h": 532.0,
-    "score": 0.504
+    "price": 0.9,
+    "hours_to_close": 25.48,
+    "volume_24h": 1115.56,
+    "score": 0.5453
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 8,
+  "watch_graded": 8,
   "api_calls": 42
  }
 }

@@ -71,7 +71,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 57,
@@ -167,7 +167,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.86
+   "mark_price": 0.89
   },
   {
    "id": 64,
@@ -3762,18 +3762,22 @@
    1791927048,
    103.8,
    103.44
+  ],
+  [
+   1791927945,
+   103.8,
+   103.56
   ]
  ],
  "last_run": {
-  "ts": 1791927048,
+  "ts": 1791927945,
   "error": null,
   "markets_scanned": 3926,
-  "candidates": 50,
+  "candidates": 56,
   "rejections": {
-   "too little volume": 3706,
-   "no favorite in 80-95c band": 158,
-   "spread too wide": 11,
-   "favorite is slipping fast": 1
+   "too little volume": 3670,
+   "no favorite in 80-95c band": 186,
+   "spread too wide": 14
   },
   "opened": [],
   "settled": [],
@@ -3783,69 +3787,69 @@
     "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 1410.52,
-    "score": 0.5922
+    "hours_to_close": 31.24,
+    "volume_24h": 1477.08,
+    "score": 0.5941
    },
    {
     "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.49,
+    "hours_to_close": 32.24,
     "volume_24h": 1093.0,
-    "score": 0.5825
+    "score": 0.5828
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.49,
-    "volume_24h": 1840.06,
-    "score": 0.5794
-   },
-   {
-    "label": "Will it rain in Springfield on Oct 14, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 32.49,
-    "volume_24h": 885.29,
-    "score": 0.5756
+    "hours_to_close": 32.24,
+    "volume_24h": 1851.2,
+    "score": 0.58
    },
    {
     "label": "Will it rain in Albuquerque on Oct 14, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.49,
-    "volume_24h": 1186.48,
-    "score": 0.5738
+    "hours_to_close": 33.24,
+    "volume_24h": 1274.55,
+    "score": 0.5764
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 23.24,
+    "volume_24h": 1581.28,
+    "score": 0.5718
    },
    {
     "label": "Will it rain in St. Louis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 32.49,
+    "hours_to_close": 32.24,
     "volume_24h": 824.69,
-    "score": 0.5633
+    "score": 0.5637
    },
    {
     "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 554.83,
-    "score": 0.5619
+    "hours_to_close": 31.24,
+    "volume_24h": 570.46,
+    "score": 0.5632
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.49,
-    "volume_24h": 1468.47,
-    "score": 0.5588
+    "label": "Will the maximum temperature be >78\u00b0 on Oct 14, 2026? \u2014 79\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.24,
+    "volume_24h": 706.35,
+    "score": 0.5559
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

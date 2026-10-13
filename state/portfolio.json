@@ -119,7 +119,7 @@
    "opened_ts": 1791810060,
    "close_ts": 1791896400.0,
    "score": 0.62,
-   "mark_price": 0.9
+   "mark_price": 0.89
   },
   {
    "id": 51,
@@ -135,7 +135,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.89
+   "mark_price": 0.91
   },
   {
    "id": 52,
@@ -167,7 +167,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.9
+   "mark_price": 0.91
   },
   {
    "id": 54,
@@ -231,7 +231,7 @@
    "opened_ts": 1791838861,
    "close_ts": 1791954000.0,
    "score": 0.5994,
-   "mark_price": 0.97
+   "mark_price": 0.98
   },
   {
    "id": 58,
@@ -247,7 +247,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.75
+   "mark_price": 0.78
   }
  ],
  "closed_positions": [
@@ -3237,18 +3237,23 @@
    1791869444,
    105.3,
    104.44
+  ],
+  [
+   1791870348,
+   105.3,
+   104.62
   ]
  ],
  "last_run": {
-  "ts": 1791869444,
+  "ts": 1791870348,
   "error": null,
   "markets_scanned": 4148,
-  "candidates": 80,
+  "candidates": 90,
   "rejections": {
-   "too little volume": 3697,
-   "no favorite in 80-95c band": 335,
-   "spread too wide": 32,
-   "nothing for sale at the ask": 4
+   "too little volume": 3696,
+   "no favorite in 80-95c band": 332,
+   "spread too wide": 29,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -3258,68 +3263,68 @@
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.47,
-    "volume_24h": 14326.39,
-    "score": 0.7202
+    "hours_to_close": 11.22,
+    "volume_24h": 14497.3,
+    "score": 0.722
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 13, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.47,
-    "volume_24h": 15067.99,
-    "score": 0.7102
+    "hours_to_close": 11.22,
+    "volume_24h": 15738.9,
+    "score": 0.712
    },
    {
     "label": "Will Trump's RCP approval average be above 38.4 on Oct 13, 2026? \u2014 Above 38.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.47,
-    "volume_24h": 14492.29,
-    "score": 0.7102
+    "hours_to_close": 11.22,
+    "volume_24h": 14663.2,
+    "score": 0.712
+   },
+   {
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,750 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 15.24,
+    "volume_24h": 10128.56,
+    "score": 0.6989
+   },
+   {
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $81,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 15.24,
+    "volume_24h": 48328.94,
+    "score": 0.6989
+   },
+   {
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.24,
+    "volume_24h": 10991.76,
+    "score": 0.6789
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $81,750 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 15.49,
+    "hours_to_close": 15.24,
     "volume_24h": 24806.6,
-    "score": 0.6777
+    "score": 0.6789
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 13, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 11.47,
-    "volume_24h": 13675.89,
-    "score": 0.6702
-   },
-   {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.49,
-    "volume_24h": 9482.05,
-    "score": 0.666
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 13, 2026? \u2014 Above $94.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 12.99,
-    "volume_24h": 4666.32,
-    "score": 0.6658
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 13, 2026? \u2014 38.0%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 11.47,
-    "volume_24h": 20688.55,
-    "score": 0.6602
+    "hours_to_close": 11.22,
+    "volume_24h": 13846.8,
+    "score": 0.672
    }
   ],
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  }

@@ -71,7 +71,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.97
+   "mark_price": 0.96
   },
   {
    "id": 57,
@@ -217,7 +217,7 @@
    "opened_ts": 1791918062,
    "close_ts": 1792044000.0,
    "score": 0.5817,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -234,7 +234,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -3792,17 +3792,22 @@
    1791932452,
    103.8,
    103.62
+  ],
+  [
+   1791933346,
+   103.8,
+   103.65
   ]
  ],
  "last_run": {
-  "ts": 1791932452,
+  "ts": 1791933346,
   "error": null,
   "markets_scanned": 3926,
-  "candidates": 70,
+  "candidates": 72,
   "rejections": {
-   "too little volume": 3642,
-   "no favorite in 80-95c band": 196,
-   "spread too wide": 17,
+   "too little volume": 3632,
+   "no favorite in 80-95c band": 199,
+   "spread too wide": 22,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -3810,73 +3815,73 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.74,
+    "volume_24h": 5298.0,
+    "score": 0.625
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 1400.19,
+    "score": 0.6117
+   },
+   {
     "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 3864.84,
-    "score": 0.6041
+    "score": 0.6048
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.99,
-    "volume_24h": 4423.0,
-    "score": 0.5985
-   },
-   {
-    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.99,
-    "volume_24h": 1984.07,
-    "score": 0.5941
+    "hours_to_close": 19.24,
+    "volume_24h": 1069.31,
+    "score": 0.6004
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 21.74,
+    "volume_24h": 1278.48,
+    "score": 0.5987
    },
    {
     "label": "Will the gold close price be above 4267 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4267",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 2090.0,
-    "score": 0.5941
-   },
-   {
-    "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.99,
-    "volume_24h": 1786.0,
-    "score": 0.5907
+    "score": 0.5947
    },
    {
     "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.99,
-    "volume_24h": 1659.32,
-    "score": 0.5899
+    "hours_to_close": 29.74,
+    "volume_24h": 1702.73,
+    "score": 0.5911
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+    "label": "Will the brent crude oil close price be above 99.50 USD/Bbl on October 14, 2026 at 5:00 PM EDT? \u2014 Above $99.50",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 21.99,
-    "volume_24h": 1813.28,
-    "score": 0.5894
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,750 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 21.99,
-    "volume_24h": 2606.35,
-    "score": 0.5813
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 686.0,
+    "score": 0.5885
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 1,
+  "watch_added": 6,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

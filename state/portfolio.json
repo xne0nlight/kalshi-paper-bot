@@ -71,7 +71,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.92
+   "mark_price": 0.94
   },
   {
    "id": 57,
@@ -119,7 +119,7 @@
    "opened_ts": 1791890152,
    "close_ts": 1791980700.0,
    "score": 0.6674,
-   "mark_price": 0.94
+   "mark_price": 0.91
   },
   {
    "id": 61,
@@ -151,7 +151,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980940.0,
    "score": 0.5995,
-   "mark_price": 0.87
+   "mark_price": 0.86
   },
   {
    "id": 63,
@@ -167,7 +167,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.9
+   "mark_price": 0.88
   },
   {
    "id": 64,
@@ -217,7 +217,7 @@
    "opened_ts": 1791918062,
    "close_ts": 1792044000.0,
    "score": 0.5817,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -3802,17 +3802,23 @@
    1791934245,
    103.8,
    103.56
+  ],
+  [
+   1791935143,
+   103.8,
+   103.41
   ]
  ],
  "last_run": {
-  "ts": 1791934245,
+  "ts": 1791935143,
   "error": null,
   "markets_scanned": 3926,
-  "candidates": 74,
+  "candidates": 73,
   "rejections": {
-   "too little volume": 3626,
-   "no favorite in 80-95c band": 208,
-   "spread too wide": 18
+   "too little volume": 3617,
+   "no favorite in 80-95c band": 215,
+   "spread too wide": 20,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -3822,69 +3828,69 @@
     "label": "Will the gold close price be above 4057 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4057",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 4015.57,
-    "score": 0.6467
+    "score": 0.6474
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.24,
+    "volume_24h": 5298.54,
+    "score": 0.6364
    },
    {
     "label": "Will the copper close price be above 6.72 USD/Lbs on October 14, 2026 at 5:00 PM EDT? \u2014 Above $6.72",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 5785.91,
-    "score": 0.6286
+    "score": 0.6293
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.49,
-    "volume_24h": 5298.0,
-    "score": 0.6257
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $80,750 or above",
+    "label": "Will the gold close price be above 4067 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4067",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 1400.19,
-    "score": 0.6124
+    "price": 0.93,
+    "hours_to_close": 21.24,
+    "volume_24h": 2350.0,
+    "score": 0.6099
    },
    {
     "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 3864.84,
-    "score": 0.6054
-   },
-   {
-    "label": "Will the brent crude oil close price be above 99.50 USD/Bbl on October 14, 2026 at 5:00 PM EDT? \u2014 Above $99.50",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 963.0,
-    "score": 0.6002
+    "score": 0.6061
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 1299.66,
-    "score": 0.6
+    "score": 0.6007
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 14, 2026? \u2014 Above $91.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 18.74,
+    "volume_24h": 693.3,
+    "score": 0.598
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.49,
-    "volume_24h": 3870.62,
-    "score": 0.5955
+    "hours_to_close": 21.24,
+    "volume_24h": 3871.17,
+    "score": 0.5962
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

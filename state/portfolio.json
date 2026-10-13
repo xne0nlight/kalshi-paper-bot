@@ -103,7 +103,7 @@
    "opened_ts": 1791820868,
    "close_ts": 1791910740.0,
    "score": 0.5872,
-   "mark_price": 0.05
+   "mark_price": 0.04
   },
   {
    "id": 56,
@@ -151,7 +151,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.9
+   "mark_price": 0.92
   },
   {
    "id": 59,
@@ -167,7 +167,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.84
+   "mark_price": 0.85
   },
   {
    "id": 60,
@@ -183,7 +183,7 @@
    "opened_ts": 1791890152,
    "close_ts": 1791980700.0,
    "score": 0.6674,
-   "mark_price": 0.93
+   "mark_price": 0.94
   },
   {
    "id": 61,
@@ -231,7 +231,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.94
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -3536,54 +3536,56 @@
    1791904549,
    106.0,
    100.77
+  ],
+  [
+   1791905471,
+   106.0,
+   100.8
   ]
  ],
  "last_run": {
-  "ts": 1791904549,
+  "ts": 1791905471,
   "error": null,
   "markets_scanned": 299,
   "candidates": 3,
   "rejections": {
    "too little volume": 271,
-   "no favorite in 80-95c band": 23,
-   "spread too wide": 2
+   "no favorite in 80-95c band": 25
   },
   "opened": [],
-  "settled": [
-   54
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 14, 2026? \u2014 38.1%",
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.72,
-    "volume_24h": 3122.62,
-    "score": 0.6283
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 14, 2026? \u2014 38.2%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.72,
-    "volume_24h": 2036.91,
-    "score": 0.6144
+    "hours_to_close": 26.98,
+    "volume_24h": 813.0,
+    "score": 0.582
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.24,
+    "price": 0.93,
+    "hours_to_close": 26.98,
     "volume_24h": 267.0,
-    "score": 0.5453
+    "score": 0.5258
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 25.46,
+    "volume_24h": 1345.46,
+    "score": 0.4114
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 2
+   "related-market cap (Presidential approval)": 1
   },
   "watch_added": 2,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

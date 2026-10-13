@@ -135,7 +135,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 60,
@@ -151,7 +151,7 @@
    "opened_ts": 1791890152,
    "close_ts": 1791980700.0,
    "score": 0.6674,
-   "mark_price": 0.94
+   "mark_price": 0.93
   },
   {
    "id": 61,
@@ -167,7 +167,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980700.0,
    "score": 0.629,
-   "mark_price": 0.89
+   "mark_price": 0.88
   },
   {
    "id": 62,
@@ -249,7 +249,7 @@
    "opened_ts": 1791918062,
    "close_ts": 1792044000.0,
    "score": 0.5817,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -3705,92 +3705,96 @@
    1791924344,
    103.44,
    103.35
+  ],
+  [
+   1791925252,
+   103.44,
+   103.17
   ]
  ],
  "last_run": {
-  "ts": 1791924344,
+  "ts": 1791925252,
   "error": null,
-  "markets_scanned": 3915,
-  "candidates": 46,
+  "markets_scanned": 3926,
+  "candidates": 45,
   "rejections": {
-   "too little volume": 3718,
-   "no favorite in 80-95c band": 144,
-   "spread too wide": 6,
-   "favorite is slipping fast": 1
+   "too little volume": 3725,
+   "no favorite in 80-95c band": 148,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be <65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.24,
-    "volume_24h": 1229.73,
-    "score": 0.5853
-   },
-   {
     "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
-    "volume_24h": 1092.0,
-    "score": 0.5814
+    "hours_to_close": 32.99,
+    "volume_24h": 1093.0,
+    "score": 0.5818
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.24,
-    "volume_24h": 1824.31,
-    "score": 0.5781
+    "hours_to_close": 32.99,
+    "volume_24h": 1840.06,
+    "score": 0.5787
    },
    {
     "label": "Will it rain in Springfield on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 885.29,
-    "score": 0.5746
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 14, 2026? \u2014 Above $91.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.74,
-    "volume_24h": 593.3,
-    "score": 0.5738
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.74,
-    "volume_24h": 968.2,
-    "score": 0.5697
+    "score": 0.5749
    },
    {
     "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.24,
-    "volume_24h": 1328.23,
-    "score": 0.5692
+    "hours_to_close": 31.99,
+    "volume_24h": 1329.23,
+    "score": 0.5696
+   },
+   {
+    "label": "Will it rain in Boston on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 31.99,
+    "volume_24h": 6120.74,
+    "score": 0.5693
    },
    {
     "label": "Will it rain in Denver on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 682.78,
-    "score": 0.5648
+    "score": 0.5651
+   },
+   {
+    "label": "Will it rain in St. Louis on Oct 14, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 32.99,
+    "volume_24h": 824.69,
+    "score": 0.5626
+   },
+   {
+    "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.99,
+    "volume_24h": 534.83,
+    "score": 0.56
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 1,
+  "watch_graded": 10,
+  "api_calls": 44
  },
  "shadow_since": 1791904549
 }

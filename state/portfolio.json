@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 65.01,
- "fees_paid": 1.0,
+ "cash": 65.04,
+ "fees_paid": 1.03,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 59,
+ "next_id": 60,
  "open_positions": [
-  {
-   "id": 38,
-   "ticker": "KXUSLGAME-26OCT10SPOBIR-SPO",
-   "event_ticker": "KXUSLGAME-26OCT10SPOBIR",
-   "series": "KXUSLGAME",
-   "label": "Sporting Jax wins",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791717348,
-   "close_ts": 1791838800.0,
-   "score": 0.6437,
-   "mark_price": 0.75
-  },
   {
    "id": 45,
    "ticker": "KXRAIN-26OCT12-BOS",
@@ -135,7 +119,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.91
+   "mark_price": 0.9
   },
   {
    "id": 52,
@@ -151,7 +135,7 @@
    "opened_ts": 1791814547,
    "close_ts": 1791900000.0,
    "score": 0.5657,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 53,
@@ -248,6 +232,22 @@
    "close_ts": 1791925200.0,
    "score": 0.5921,
    "mark_price": 0.78
+  },
+  {
+   "id": 59,
+   "ticker": "KXHIGHNY-26OCT13-B73.5",
+   "event_ticker": "KXHIGHNY-26OCT13",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Oct 13, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.89,
+   "fee": 0.03,
+   "cost": 2.7,
+   "opened_ts": 1791871272,
+   "close_ts": 1791954000.0,
+   "score": 0.5921,
+   "mark_price": 0.88
   }
  ],
  "closed_positions": [
@@ -1109,6 +1109,26 @@
    "pnl": 0.09,
    "result": "YES",
    "closed_ts": 1791839741,
+   "won": true
+  },
+  {
+   "id": 38,
+   "ticker": "KXUSLGAME-26OCT10SPOBIR-SPO",
+   "event_ticker": "KXUSLGAME-26OCT10SPOBIR",
+   "series": "KXUSLGAME",
+   "label": "Sporting Jax wins",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791717348,
+   "close_ts": 1791838800.0,
+   "score": 0.6437,
+   "payout": 2.73,
+   "pnl": -0.13,
+   "result": "SCALAR",
+   "closed_ts": 1791871272,
    "won": true
   }
  ],
@@ -3242,90 +3262,99 @@
    1791870348,
    105.3,
    104.62
+  ],
+  [
+   1791871272,
+   105.17,
+   104.98
   ]
  ],
  "last_run": {
-  "ts": 1791870348,
+  "ts": 1791871272,
   "error": null,
-  "markets_scanned": 4148,
-  "candidates": 90,
+  "markets_scanned": 3879,
+  "candidates": 76,
   "rejections": {
-   "too little volume": 3696,
-   "no favorite in 80-95c band": 332,
-   "spread too wide": 29,
-   "nothing for sale at the ask": 1
+   "too little volume": 3420,
+   "no favorite in 80-95c band": 338,
+   "spread too wide": 43,
+   "nothing for sale at the ask": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   59
+  ],
+  "settled": [
+   38
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.22,
-    "volume_24h": 14497.3,
-    "score": 0.722
+    "hours_to_close": 10.96,
+    "volume_24h": 15258.47,
+    "score": 0.7238
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 13, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.22,
-    "volume_24h": 15738.9,
-    "score": 0.712
+    "hours_to_close": 10.96,
+    "volume_24h": 16000.07,
+    "score": 0.7138
    },
    {
     "label": "Will Trump's RCP approval average be above 38.4 on Oct 13, 2026? \u2014 Above 38.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.22,
-    "volume_24h": 14663.2,
-    "score": 0.712
+    "hours_to_close": 10.96,
+    "volume_24h": 14991.43,
+    "score": 0.7138
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.24,
+    "hours_to_close": 14.98,
     "volume_24h": 10128.56,
-    "score": 0.6989
+    "score": 0.7001
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $81,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 15.24,
-    "volume_24h": 48328.94,
-    "score": 0.6989
-   },
-   {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.24,
-    "volume_24h": 10991.76,
-    "score": 0.6789
+    "hours_to_close": 14.98,
+    "volume_24h": 48720.35,
+    "score": 0.7001
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $81,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 15.24,
-    "volume_24h": 24806.6,
-    "score": 0.6789
+    "price": 0.94,
+    "hours_to_close": 14.98,
+    "volume_24h": 24806.95,
+    "score": 0.6901
    },
    {
     "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 13, 2026? \u2014 37.9%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 11.22,
-    "volume_24h": 13846.8,
-    "score": 0.672
+    "hours_to_close": 10.96,
+    "volume_24h": 14153.02,
+    "score": 0.6738
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 13, 2026? \u2014 Above $94.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 12.48,
+    "volume_24h": 4705.14,
+    "score": 0.6691
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 0,
+  "watch_graded": 2,
+  "api_calls": 43
  }
 }

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.87,
- "fees_paid": 1.1,
+ "cash": 61.51,
+ "fees_paid": 1.15,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 64,
+ "next_id": 66,
  "open_positions": [
   {
    "id": 49,
@@ -90,22 +90,6 @@
    "mark_price": 0.97
   },
   {
-   "id": 55,
-   "ticker": "KXTRUMPAPPROVE-26OCT13-E38.4",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT13",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791820868,
-   "close_ts": 1791910740.0,
-   "score": 0.5872,
-   "mark_price": 0.02
-  },
-  {
    "id": 56,
    "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
    "event_ticker": "KXDWTSELIMINATION-26OCT14",
@@ -151,7 +135,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.96
+   "mark_price": 0.98
   },
   {
    "id": 59,
@@ -167,7 +151,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 60,
@@ -231,7 +215,41 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.92
+   "mark_price": 0.89
+  },
+  {
+   "id": 64,
+   "ticker": "KXTRUMPAPPROVE-26OCT14-E38.3",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT14",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.83,
+   "fee": 0.03,
+   "cost": 2.52,
+   "opened_ts": 1791910870,
+   "close_ts": 1791997140.0,
+   "score": 0.5286,
+   "mark_price": 0.82,
+   "shadow": {}
+  },
+  {
+   "id": 65,
+   "ticker": "KXHIGHTBOS-26OCT14-B79.5",
+   "event_ticker": "KXHIGHTBOS-26OCT14",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791910870,
+   "close_ts": 1792040400.0,
+   "score": 0.5197,
+   "mark_price": 0.93,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -1214,6 +1232,26 @@
    "result": "NO",
    "closed_ts": 1791904549,
    "won": true
+  },
+  {
+   "id": 55,
+   "ticker": "KXTRUMPAPPROVE-26OCT13-E38.4",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT13",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791820868,
+   "close_ts": 1791910740.0,
+   "score": 0.5872,
+   "payout": 0.0,
+   "pnl": -2.84,
+   "result": "YES",
+   "closed_ts": 1791910870,
+   "won": false
   }
  ],
  "equity_history": [
@@ -3566,76 +3604,100 @@
    1791909953,
    106.0,
    101.07
+  ],
+  [
+   1791910870,
+   103.16,
+   100.84
   ]
  ],
  "last_run": {
-  "ts": 1791909953,
+  "ts": 1791910870,
   "error": null,
-  "markets_scanned": 323,
-  "candidates": 6,
+  "markets_scanned": 446,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 292,
-   "no favorite in 80-95c band": 24,
+   "too little volume": 372,
+   "no favorite in 80-95c band": 53,
    "spread too wide": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   64,
+   65
+  ],
+  "settled": [
+   55
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.74,
+    "price": 0.93,
+    "hours_to_close": 25.48,
     "volume_24h": 813.0,
-    "score": 0.5845
+    "score": 0.565
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 24.22,
-    "volume_24h": 2130.69,
-    "score": 0.4991
+    "hours_to_close": 23.96,
+    "volume_24h": 5175.46,
+    "score": 0.5286
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 267.0,
-    "score": 0.4683
+    "price": 0.94,
+    "hours_to_close": 35.98,
+    "volume_24h": 247.73,
+    "score": 0.5197
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 14, 2026? \u2014 Above $91.49",
+    "label": "Will it rain in Newark on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.98,
+    "volume_24h": 589.89,
+    "score": 0.5179
+   },
+   {
+    "label": "Will it rain in New York City on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 35.98,
+    "volume_24h": 791.69,
+    "score": 0.4975
+   },
+   {
+    "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.98,
+    "volume_24h": 504.83,
+    "score": 0.4928
+   },
+   {
+    "label": "Will it rain in Indianapolis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 25.74,
-    "volume_24h": 234.23,
-    "score": 0.464
+    "hours_to_close": 35.98,
+    "volume_24h": 550.33,
+    "score": 0.4756
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 14, 2026? \u2014 Above $91.99",
+    "label": "Will it rain in Pittsburgh on Oct 14, 2026?",
     "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 25.74,
-    "volume_24h": 392.21,
-    "score": 0.4208
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Oct 14, 2026? \u2014 Above $92.49",
-    "side": "yes",
-    "price": 0.8,
-    "hours_to_close": 25.74,
-    "volume_24h": 475.59,
-    "score": 0.417
+    "price": 0.86,
+    "hours_to_close": 35.98,
+    "volume_24h": 571.27,
+    "score": 0.4668
    }
   ],
-  "skipped": {
-   "related-market cap (Presidential approval)": 1
-  },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "skipped": {},
+  "watch_added": 14,
+  "watch_graded": 8,
   "api_calls": 42
  },
  "shadow_since": 1791904549

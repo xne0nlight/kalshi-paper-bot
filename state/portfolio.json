@@ -135,7 +135,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 60,
@@ -167,7 +167,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980700.0,
    "score": 0.629,
-   "mark_price": 0.89
+   "mark_price": 0.88
   },
   {
    "id": 62,
@@ -183,7 +183,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980940.0,
    "score": 0.5995,
-   "mark_price": 0.87
+   "mark_price": 0.86
   },
   {
    "id": 63,
@@ -3675,17 +3675,22 @@
    1791918950,
    103.44,
    103.62
+  ],
+  [
+   1791919850,
+   103.44,
+   103.53
   ]
  ],
  "last_run": {
-  "ts": 1791918950,
+  "ts": 1791919850,
   "error": null,
-  "markets_scanned": 651,
+  "markets_scanned": 726,
   "candidates": 35,
   "rejections": {
-   "too little volume": 520,
-   "no favorite in 80-95c band": 92,
-   "spread too wide": 4
+   "too little volume": 594,
+   "no favorite in 80-95c band": 94,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
@@ -3695,65 +3700,65 @@
     "label": "Will the maximum temperature be <65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 1182.8,
-    "score": 0.582
+    "score": 0.5824
    },
    {
     "label": "Will it rain in Denver on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 667.15,
-    "score": 0.5622
+    "score": 0.5625
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 438.57,
-    "score": 0.5601
+    "score": 0.5607
    },
    {
     "label": "Will it rain in St. Louis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 811.28,
-    "score": 0.5598
+    "score": 0.5601
    },
    {
     "label": "Will it rain in Albuquerque on Oct 14, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 1114.11,
-    "score": 0.5589
-   },
-   {
-    "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.74,
-    "volume_24h": 1092.0,
-    "score": 0.5494
+    "hours_to_close": 35.49,
+    "volume_24h": 1129.74,
+    "score": 0.5596
    },
    {
     "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 405.35,
-    "score": 0.5485
+    "hours_to_close": 33.49,
+    "volume_24h": 407.35,
+    "score": 0.549
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 1679.59,
-    "score": 0.5435
+    "score": 0.5438
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 21.47,
+    "volume_24h": 5714.73,
+    "score": 0.5382
    }
   ],
   "skipped": {},

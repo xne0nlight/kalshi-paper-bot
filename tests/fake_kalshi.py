@@ -55,6 +55,13 @@ class FakeKalshi:
         self.markets[m["ticker"]] = m
         return m
 
+    def set_quote(self, ticker, yes_bid, yes_ask):
+        m = self.markets[ticker]
+        m["yes_bid_dollars"] = f"{yes_bid:.4f}"
+        m["yes_ask_dollars"] = f"{yes_ask:.4f}"
+        m["no_bid_dollars"] = f"{1 - yes_ask:.4f}"
+        m["no_ask_dollars"] = f"{1 - yes_bid:.4f}"
+
     def settle(self, ticker, result):
         m = self.markets[ticker]
         m["status"] = "finalized"

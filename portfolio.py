@@ -158,6 +158,7 @@ def open_position(state, cand, contracts, now_ts, log_path):
         "close_ts": cand["close_ts"],
         "score": cand["score"],
         "mark_price": cand["bid"] or cand["price"],
+        "shadow": {},  # shadow stop-loss triggers get recorded here
     }
     state["next_id"] += 1
     state["cash"] = round(state["cash"] - cost, ROUND)
@@ -189,15 +190,43 @@ def close_position(state, pos, payout_per_contract, result, now_ts, log_path):
     return closed
 
 
-def place_trades(state, candidates, now_ts, log_path):
+def shadow_key(drop):
+    return str(int(round(drop * 100)))
+
+
+def check_shadow_stops(pos, bid, now_ts):
+    """Log (never execute) the first moment each stop-loss threshold would fire."""
+    if "shadow" not in pos or bid is None or now_ts >= pos["close_ts"]:
+        return  # untracked bet, no buyers, or trading already closed (can't sell)
+    for drop in config.SHADOW_STOP_DROPS:
+        key = shadow_key(drop)
+        if key in pos["shadow"]:
+            continue
+        if bid <= pos["price"] - drop + 1e-9:
+            fee = strategy.taker_fee(pos["contracts"], bid)
+            pos["shadow"][key] = {
+                "ts": round(now_ts),
+                "bid": bid,
+                "proceeds": round(pos["contracts"] * bid - fee, ROUND),
+            }
+
+
+def place_trades(state, candidates, now_ts, log_path, skips=None):
     """Walk the ranked candidates and open the ones that fit every risk rule."""
     equity = book_equity(state)
     exposure = open_cost(state)
     held_tickers = {p["ticker"] for p in state["open_positions"]}
     held_events = {p["event_ticker"] for p in state["open_positions"]}
-    per_series = {}
+    per_series, per_group = {}, {}
     for p in state["open_positions"]:
         per_series[p["series"]] = per_series.get(p["series"], 0) + 1
+        g = strategy.related_group(p["label"])
+        if g:
+            per_group[g] = per_group.get(g, 0) + 1
+
+    def skip(reason):
+        if skips is not None:
+            skips[reason] = skips.get(reason, 0) + 1
 
     opened = []
     for c in candidates:
@@ -208,6 +237,11 @@ def place_trades(state, candidates, now_ts, log_path):
         if c["ticker"] in held_tickers or c["event_ticker"] in held_events:
             continue  # one bet per event: sibling markets move together
         if per_series.get(c["series"], 0) >= config.MAX_POSITIONS_PER_SERIES:
+            skip("series cap")
+            continue
+        group = strategy.related_group(c["label"])
+        if group and per_group.get(group, 0) >= config.MAX_POSITIONS_PER_GROUP:
+            skip(f"related-market cap ({group})")
             continue
         budget = min(
             equity * config.RISK_PER_TRADE,
@@ -223,4 +257,6 @@ def place_trades(state, candidates, now_ts, log_path):
         held_tickers.add(c["ticker"])
         held_events.add(c["event_ticker"])
         per_series[c["series"]] = per_series.get(c["series"], 0) + 1
+        if group:
+            per_group[group] = per_group.get(group, 0) + 1
     return opened

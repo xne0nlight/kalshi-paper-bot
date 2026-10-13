@@ -87,6 +87,38 @@ def calibration(watch):
 
 
 # ---------------------------------------------------------------------------
+# Shadow stop-loss: would selling on a price drop have beaten holding?
+# ---------------------------------------------------------------------------
+def shadow_stats(state):
+    closed = [p for p in state["closed_positions"] if "shadow" in p]
+    opens = [p for p in state["open_positions"] if "shadow" in p]
+    rows = []
+    for drop in config.SHADOW_STOP_DROPS:
+        key = portfolio.shadow_key(drop)
+        fired = [p for p in closed if key in p["shadow"]]
+        # stop result minus hold result = what selling would have returned
+        # minus what settlement actually paid
+        deltas = [p["shadow"][key]["proceeds"] - p["payout"] for p in fired]
+        helped = [d for d in deltas if d > 0]
+        hurt = [d for d in deltas if d <= 0]
+        net = sum(deltas)
+        if not fired:
+            verdict, cls = "No triggers yet", "flat"
+        elif abs(net) < 0.01:
+            verdict, cls = "Break-even", "flat"
+        elif net > 0:
+            verdict, cls = "Would have helped", "up"
+        else:
+            verdict, cls = "Would have hurt", "down"
+        rows.append({
+            "drop": drop, "fired": len(fired), "helped": len(helped), "saved": sum(helped),
+            "hurt": len(hurt), "cost": sum(hurt), "net": net, "verdict": verdict, "cls": cls,
+            "tripped_open": sum(1 for p in opens if key in p["shadow"]),
+        })
+    return rows, len(closed), len(opens)
+
+
+# ---------------------------------------------------------------------------
 # Equity chart (inline SVG, no libraries)
 # ---------------------------------------------------------------------------
 def equity_svg(history, start):
@@ -280,7 +312,32 @@ def build_html(state, watch, now_ts=None):
                       ("Needed to break even", "num"), ("Edge", "num"), ("Verdict", "num")],
                      cal_rows, "")
 
+    # shadow stop-loss
+    sh_rows, sh_closed, sh_open = shadow_stats(state)
+    sh_html = []
+    for r in sh_rows:
+        pending = (f' <span class="muted">· {r["tripped_open"]} open bet'
+                   f'{"" if r["tripped_open"] == 1 else "s"} tripped</span>') if r["tripped_open"] else ""
+        sh_html.append(
+            f'<tr><td>Sell if bid drops {r["drop"] * 100:.0f}¢{pending}</td>'
+            f'<td class="num">{r["fired"]}</td>'
+            f'<td class="num">{r["helped"]}'
+            f'{f" <span class=up>({signed(r["saved"])})</span>" if r["helped"] else ""}</td>'
+            f'<td class="num">{r["hurt"]}'
+            f'{f" <span class=down>({signed(r["cost"])})</span>" if r["hurt"] else ""}</td>'
+            f'<td class="num {tone(r["net"])}">{signed(r["net"]) if r["fired"] else "—"}</td>'
+            f'<td class="num"><span class="pill {r["cls"]}">{r["verdict"]}</span></td></tr>')
+    shadow_tbl = _table([("Rule", ""), ("Would have sold", "num"), ("Then lost (saved)", "num"),
+                         ("Then won (cost)", "num"), ("Net vs holding", "num"), ("Verdict", "num")],
+                        sh_html, "")
+    since = fmt_dt(state.get("shadow_since"))
+
     # last scan
+    skipped = run.get("skipped") or {}
+    skipped_note = ""
+    if skipped:
+        skipped_note = ('<p class="note">Qualified but skipped by risk caps: ' +
+                        ", ".join(f"{esc(k)} ×{v}" for k, v in skipped.items()) + "</p>")
     rej = run.get("rejections") or {}
     total_rej = sum(rej.values()) or 1
     rej_items = "".join(
@@ -295,6 +352,7 @@ def build_html(state, watch, now_ts=None):
     cfg = (f"Bets {config.MIN_PRICE * 100:.0f}–{config.MAX_PRICE * 100:.0f}¢ favorites closing in "
            f"{config.MIN_HOURS_TO_CLOSE * 60:.0f} min–{config.MAX_HOURS_TO_CLOSE}h · max "
            f"{config.RISK_PER_TRADE:.0%} per bet, {config.MAX_TOTAL_EXPOSURE:.0%} total in play · "
+           f"max {config.MAX_POSITIONS_PER_GROUP} bet per related group · "
            f"spread ≤ {config.MAX_SPREAD * 100:.0f}¢ · ≥ {config.MIN_VOLUME_24H} contracts/day · "
            f"daily stop {config.DAILY_STOP_LOSS:.0%}, drawdown brake {config.MAX_DRAWDOWN_HALT:.0%}")
 
@@ -320,6 +378,16 @@ def build_html(state, watch, now_ts=None):
   <p class="note">{n_graded:,} graded · {n_pending:,} still waiting to settle. Verdicts need 30+ markets and a
   gap of 2 standard errors before they call it either way.</p>
 </section>
+<section class="panel"><h2>Shadow stop-loss</h2>
+  <p class="muted" style="margin-top:-4px">Practice only — these sales never happen. For each bet,
+  the bot notes the first time its bid falls this far below what we paid and what selling right
+  then would have returned, then compares that with what holding to settlement actually paid.</p>
+  {shadow_tbl}
+  <p class="note">Tracking since {since} · {sh_closed} settled bet{'' if sh_closed == 1 else 's'} counted ·
+  {sh_open} open bet{'' if sh_open == 1 else 's'} being watched.
+  Bets opened before tracking began aren't counted. Prices are checked about every 15 minutes, so a
+  real stop could fill a bit better or worse.</p>
+</section>
 <section class="panel"><h2>Open bets</h2>{open_tbl}</section>
 <section class="panel"><h2>Recent settled bets</h2>{closed_tbl}
   {f'<p class="note">Showing the latest 25 of {len(closed):,}. Full history: state/trade_log.csv</p>' if len(closed) > 25 else ''}</section>
@@ -327,7 +395,7 @@ def build_html(state, watch, now_ts=None):
   <section class="panel"><h2>Last scan</h2>
     <p class="muted" style="margin-top:-4px">{run.get('markets_scanned', 0):,} markets closing soon ·
     {run.get('candidates', 0):,} qualified · {len(run.get('opened', []))} bet{'' if len(run.get('opened', [])) == 1 else 's'} placed</p>
-    <ul class="bars">{rej_items}</ul></section>
+    <ul class="bars">{rej_items}</ul>{skipped_note}</section>
   <section class="panel"><h2>Top-ranked right now</h2><ul class="bars">{top}</ul></section>
 </div>
 <footer>{esc(cfg)}<br>Fills are simulated at the best ask with Kalshi's taker fee and held to

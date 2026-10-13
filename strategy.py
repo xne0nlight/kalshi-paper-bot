@@ -67,6 +67,21 @@ def label_of(m):
     return f"{title} — {sub}" if sub and sub not in title else title
 
 
+_GROUP_PATTERNS = None
+
+
+def related_group(text):
+    """Name of the related-market group this title belongs to, or None."""
+    global _GROUP_PATTERNS
+    if _GROUP_PATTERNS is None or set(_GROUP_PATTERNS) != set(config.RELATED_GROUPS):
+        _GROUP_PATTERNS = {k: re.compile(v) for k, v in config.RELATED_GROUPS.items()}
+    t = (text or "").lower()
+    for name, pat in _GROUP_PATTERNS.items():
+        if pat.search(t):
+            return name
+    return None
+
+
 def _valid(p):
     return p is not None and 0 < p < 1
 
@@ -188,6 +203,7 @@ def evaluate(m, now_ts):
         "event_ticker": m.get("event_ticker") or ticker,
         "series": series_of(m),
         "label": label_of(m),
+        "group": related_group(label_of(m)),
         "side": side,
         "price": round(price, 4),
         "bid": q["bid"],

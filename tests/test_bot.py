@@ -10,6 +10,7 @@ from fake_kalshi import FakeKalshi, make_market
 import config
 import paper_bot
 import portfolio
+import report
 import strategy
 
 NOW = 1_791_500_000  # a fixed fake clock
@@ -223,6 +224,137 @@ class TestCycle(Base):
         self.assertFalse(self.run_cycle(NOW))
         self.assertIn("network down", self.state()["last_run"]["error"])
         self.assertTrue(os.path.exists(self.report))
+
+
+class TestRelatedGroups(unittest.TestCase):
+    def test_real_titles_from_live_dashboard(self):
+        cases = {
+            "Will CPI Core rise more than 0.3% in September? — Above 0.3%": "Inflation reports",
+            "Will CPI rise more than 0.4% in September 2026? — Above 0.4%": "Inflation reports",
+            "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026?":
+                "Inflation reports",
+            "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026?":
+                "Oil prices",
+            "Will the brent crude oil close price be above 100 USD/Bbl on October 13, 2026?":
+                "Oil prices",
+            "Bitcoin price on Oct 13, 2026? — $84,500 or above": "Crypto",
+            "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026?":
+                "Presidential approval",
+            "Will average **gas prices** be above $4.3700? — Above 4.3700": "Gas prices",
+            "Will the gold close price be above 4129 USD/t.oz on October 12, 2026?":
+                "Precious metals",
+            "Will October 11 be the day with the most transit calls through the Strait of Hormuz?":
+                "Strait of Hormuz",
+        }
+        for title, group in cases.items():
+            with self.subTest(title):
+                self.assertEqual(strategy.related_group(title), group)
+
+    def test_no_false_alarms(self):
+        for title in ["Will it rain in New York City on Oct 13, 2026?",
+                      "Golden State Warriors wins", "Sporting Jax wins",
+                      "Will Julia Stiles be eliminated from Dancing with the Stars?",
+                      "Will the maximum temperature be 73-74° on Oct 13, 2026?",
+                      "Showdown at the stadium: who wins?"]:
+            with self.subTest(title):
+                self.assertIsNone(strategy.related_group(title))
+
+
+class TestNewRiskFeatures(Base):
+    def test_one_cpi_bet_not_three(self):
+        self.api.add("KXCPICORE-26SEP-T0.3", NOW + 5 * H, 0.06, 0.07,
+                     title="Will CPI Core rise more than 0.3% in September?")
+        self.api.add("KXCPI-26SEP-T0.4", NOW + 5 * H, 0.91, 0.92,
+                     title="Will CPI rise more than 0.4% in September 2026?")
+        self.api.add("KXCPIYOY-26SEP-T3.5", NOW + 5 * H, 0.87, 0.88,
+                     title="Will the rate of CPI inflation be above 3.5%?")
+        self.api.add("KXRAINNYC-26OCT13", NOW + 5 * H, 0.06, 0.07,
+                     title="Will it rain in New York City on Oct 13, 2026?")
+        self.run_cycle(NOW)
+        st = self.state()
+        labels = [p["label"] for p in st["open_positions"]]
+        self.assertEqual(sum("CPI" in l for l in labels), 1)
+        self.assertTrue(any("rain" in l for l in labels))  # unrelated bets still go through
+        self.assertEqual(st["last_run"]["skipped"], {"related-market cap (Inflation reports)": 2})
+        with open(self.report, encoding="utf-8") as f:
+            self.assertIn("related-market cap (Inflation reports) ×2", f.read())
+
+    def test_cap_counts_bets_already_open(self):
+        self.api.add("KXWTI-26OCT13-T90", NOW + 5 * H, 0.91, 0.92,
+                     title="Will the WTI crude oil settlement price be above 90.49?")
+        self.run_cycle(NOW)
+        self.api.add("KXBRENTD-26OCT13-T100", NOW + 6 * H, 0.94, 0.95,
+                     title="Will the brent crude oil close price be above 100?")
+        self.run_cycle(NOW + 900)
+        self.assertEqual(len(self.state()["open_positions"]), 1)
+
+    def test_shadow_stop_records_but_never_sells(self):
+        t = "KXKAT-26OCT11-T20"
+        self.api.add(t, NOW + 20 * H, 0.08, 0.10, title="Will KATSEYE have above 20M views?")
+        self.run_cycle(NOW)                                   # buys NO at 92c
+        pos = self.state()["open_positions"][0]
+        self.assertAlmostEqual(pos["price"], 0.92)
+        self.assertEqual(pos["shadow"], {})
+
+        self.api.set_quote(t, 0.24, 0.26)                     # NO bid falls to 74c (-18c)
+        self.run_cycle(NOW + 900)
+        st = self.state()
+        self.assertEqual(len(st["open_positions"]), 1)        # still holding: nothing sold
+        sh = st["open_positions"][0]["shadow"]
+        self.assertEqual(sorted(sh), ["10", "15"])            # 20c and 30c not reached
+        self.assertAlmostEqual(sh["10"]["bid"], 0.74)
+        self.assertAlmostEqual(sh["10"]["proceeds"],
+                               3 * 0.74 - strategy.taker_fee(3, 0.74), places=4)
+
+        self.api.set_quote(t, 0.40, 0.42)                     # falls further to 58c
+        self.run_cycle(NOW + 1800)
+        sh = self.state()["open_positions"][0]["shadow"]
+        self.assertAlmostEqual(sh["10"]["bid"], 0.74)         # first trigger price kept
+        self.assertEqual(sorted(sh), ["10", "15", "20", "30"])
+
+        self.api.settle(t, "yes")                             # our NO side loses
+        self.run_cycle(NOW + 21 * H)
+        closed = self.state()["closed_positions"][0]
+        self.assertAlmostEqual(closed["payout"], 0.0)
+        rows = {r["drop"]: r for r in report.shadow_stats(self.state())[0]}
+        self.assertEqual(rows[0.10]["helped"], 1)
+        self.assertAlmostEqual(rows[0.10]["net"], sh["10"]["proceeds"])
+        self.assertEqual(rows[0.10]["verdict"], "Would have helped")
+
+    def test_shadow_stop_cost_when_bet_recovers(self):
+        t = "KXDIP-26OCT13-A"
+        self.api.add(t, NOW + 20 * H, 0.89, 0.90)
+        self.run_cycle(NOW)
+        self.api.set_quote(t, 0.78, 0.80)                     # dips 12c...
+        self.run_cycle(NOW + 900)
+        self.api.settle(t, "yes")                             # ...but wins anyway
+        self.run_cycle(NOW + 21 * H)
+        r = report.shadow_stats(self.state())[0][0]
+        self.assertEqual((r["fired"], r["hurt"]), (1, 1))
+        self.assertLess(r["net"], 0)
+        self.assertEqual(r["verdict"], "Would have hurt")
+
+    def test_no_shadow_trigger_after_trading_closes(self):
+        t = "KXLATE-26OCT13-A"
+        self.api.add(t, NOW + 2 * H, 0.89, 0.90)
+        self.run_cycle(NOW)
+        self.api.set_quote(t, 0.20, 0.22)
+        self.run_cycle(NOW + 3 * H)                           # after close: can't sell
+        self.assertEqual(self.state()["open_positions"][0]["shadow"], {})
+
+    def test_old_state_without_new_fields_still_works(self):
+        self.api.add("KXOLD-26OCT13-A", NOW + 5 * H, 0.89, 0.90)
+        self.run_cycle(NOW)
+        st = self.state()
+        for p in st["open_positions"]:
+            p.pop("shadow")                                   # simulate last week's bets
+        st.pop("shadow_since")
+        portfolio.save_state(st, self.state_dir)
+        self.api.set_quote("KXOLD-26OCT13-A", 0.20, 0.22)
+        self.assertTrue(self.run_cycle(NOW + 900))
+        st = self.state()
+        self.assertNotIn("shadow", st["open_positions"][0])   # untracked, not mis-counted
+        self.assertIn("shadow_since", st)
 
 
 if __name__ == "__main__":

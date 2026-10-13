@@ -48,6 +48,7 @@ def refresh_open_positions(api, state, now_ts, log_path):
             # after trading closes the book empties; keep the last known mark
             if bid is not None:
                 pos["mark_price"] = bid
+                portfolio.check_shadow_stops(pos, bid, now_ts)
     return settled
 
 
@@ -91,9 +92,11 @@ def run_cycle(api, now_ts=None, state_dir=config.STATE_DIR, report_path=config.R
     state = portfolio.load_state(state_dir, now_ts)
     watch = portfolio.load_json(watch_path, {"entries": {}})
     portfolio.roll_day(state, now_ts)
+    state.setdefault("shadow_since", round(now_ts))  # when shadow stop tracking began
 
     run = {"ts": round(now_ts), "error": None, "markets_scanned": 0, "candidates": 0,
-           "rejections": {}, "opened": [], "settled": [], "halt": None, "top_candidates": []}
+           "rejections": {}, "opened": [], "settled": [], "halt": None, "top_candidates": [],
+           "skipped": {}}
     ok = True
     try:
         settled = refresh_open_positions(api, state, now_ts, log_path)
@@ -113,8 +116,10 @@ def run_cycle(api, now_ts=None, state_dir=config.STATE_DIR, report_path=config.R
 
         run["halt"] = portfolio.risk_halt_reason(state)
         if not run["halt"]:
-            opened = portfolio.place_trades(state, candidates, now_ts, log_path)
+            skips = {}
+            opened = portfolio.place_trades(state, candidates, now_ts, log_path, skips)
             run["opened"] = [p["id"] for p in opened]
+            run["skipped"] = skips
     except (KalshiAPIError, urllib.error.URLError, TimeoutError, OSError) as e:
         run["error"] = f"{type(e).__name__}: {e}"
         ok = False

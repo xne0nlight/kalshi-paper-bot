@@ -37,11 +37,21 @@ bets. The bot is built to answer exactly that.
 | Max in play | 60% of account | Always keeps 40% cash |
 | One bet per event | — | Related markets (e.g. temperature strikes) move together |
 | Max 2 bets per series | — | No piling into one city / league |
+| Max 1 bet per related group | — | CPI, Core CPI and CPI-YoY are separate series but one report decides them all. Groups (inflation, oil, crypto, Fed…) are keyword patterns in `config.py` |
 | Daily stop | −8% | Stops new bets for the rest of the UTC day |
 | Drawdown brake | −20% from peak | Stops new bets until you review |
 
 Simulated weeks (fake markets, see below) showed 3% sizing roughly halved the
 swings compared with 5% while keeping most of the upside.
+
+## Shadow stop-loss (logging only)
+
+The bot never sells early; every bet is held to settlement. To find out whether
+a stop-loss *would* help, it records, for each bet, the first time the bid
+falls 10¢, 15¢, 20¢ and 30¢ below what was paid, plus what selling right then
+would have returned. The dashboard's **Shadow stop-loss** panel compares that
+with what holding actually paid. Green = selling would have beaten holding.
+Only bets opened after the feature was added are counted.
 
 ## Option A — run it on GitHub (recommended, fully hands-off)
 

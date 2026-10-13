@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 61.51,
- "fees_paid": 1.15,
+ "cash": 61.65,
+ "fees_paid": 1.16,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 66,
+ "next_id": 67,
  "open_positions": [
   {
    "id": 49,
@@ -58,22 +58,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 52,
-   "ticker": "KXYTVIEWSW-KAT26OCT11-20.0M",
-   "event_ticker": "KXYTVIEWSW-KAT26OCT11",
-   "series": "KXYTVIEWSW",
-   "label": "Will KATSEYE have above 20M daily views at any point during October 5, 2026 - October 11, 2026? \u2014 Above 20M",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.9,
-   "fee": 0.02,
-   "cost": 2.72,
-   "opened_ts": 1791814547,
-   "close_ts": 1791900000.0,
-   "score": 0.5657,
-   "mark_price": 0.21
-  },
-  {
    "id": 53,
    "ticker": "KXBRENTD-26OCT1317-T100",
    "event_ticker": "KXBRENTD-26OCT1317",
@@ -87,7 +71,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.97
+   "mark_price": 0.99
   },
   {
    "id": 56,
@@ -135,7 +119,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 59,
@@ -248,6 +232,23 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 66,
+   "ticker": "KXHIGHCHI-26OCT14-T65",
+   "event_ticker": "KXHIGHCHI-26OCT14",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be <65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 or below",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791918062,
+   "close_ts": 1792044000.0,
+   "score": 0.5817,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -1252,6 +1253,26 @@
    "result": "YES",
    "closed_ts": 1791910870,
    "won": false
+  },
+  {
+   "id": 52,
+   "ticker": "KXYTVIEWSW-KAT26OCT11-20.0M",
+   "event_ticker": "KXYTVIEWSW-KAT26OCT11",
+   "series": "KXYTVIEWSW",
+   "label": "Will KATSEYE have above 20M daily views at any point during October 5, 2026 - October 11, 2026? \u2014 Above 20M",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1791814547,
+   "close_ts": 1791900000.0,
+   "score": 0.5657,
+   "payout": 3.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1791918062,
+   "won": true
   }
  ],
  "equity_history": [
@@ -3644,90 +3665,99 @@
    1791917148,
    103.16,
    101.2
+  ],
+  [
+   1791918062,
+   103.44,
+   103.62
   ]
  ],
  "last_run": {
-  "ts": 1791917148,
+  "ts": 1791918062,
   "error": null,
-  "markets_scanned": 624,
-  "candidates": 32,
+  "markets_scanned": 651,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 504,
-   "no favorite in 80-95c band": 85,
+   "too little volume": 521,
+   "no favorite in 80-95c band": 93,
    "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   66
+  ],
+  "settled": [
+   52
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Springfield on Oct 14, 2026?",
+    "label": "Will the maximum temperature be <65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.98,
+    "volume_24h": 1181.8,
+    "score": 0.5817
+   },
+   {
+    "label": "Will it rain in Denver on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.24,
-    "volume_24h": 869.66,
-    "score": 0.5714
+    "hours_to_close": 35.98,
+    "volume_24h": 667.15,
+    "score": 0.5619
    },
    {
     "label": "Will it rain in St. Louis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.98,
     "volume_24h": 811.28,
-    "score": 0.5592
+    "score": 0.5595
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.48,
     "volume_24h": 438.57,
-    "score": 0.5588
+    "score": 0.5595
    },
    {
-    "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
+    "label": "Will it rain in Albuquerque on Oct 14, 2026?",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.24,
-    "volume_24h": 402.35,
-    "score": 0.5476
-   },
-   {
-    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 35.24,
-    "volume_24h": 1679.59,
-    "score": 0.5428
+    "price": 0.93,
+    "hours_to_close": 35.98,
+    "volume_24h": 1114.11,
+    "score": 0.5586
    },
    {
     "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.24,
-    "volume_24h": 842.0,
-    "score": 0.5404
+    "hours_to_close": 34.98,
+    "volume_24h": 1092.0,
+    "score": 0.5491
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 22.22,
-    "volume_24h": 5709.48,
-    "score": 0.5362
-   },
-   {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
-    "volume_24h": 258.73,
-    "score": 0.5333
+    "hours_to_close": 33.98,
+    "volume_24h": 404.35,
+    "score": 0.5481
+   },
+   {
+    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 34.98,
+    "volume_24h": 1679.59,
+    "score": 0.5432
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549

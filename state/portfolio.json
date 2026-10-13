@@ -2,45 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 65.18,
- "fees_paid": 1.04,
+ "cash": 65.73,
+ "fees_paid": 1.09,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 61,
+ "next_id": 63,
  "open_positions": [
-  {
-   "id": 46,
-   "ticker": "KXHIGHAUS-26OCT12-B96.5",
-   "event_ticker": "KXHIGHAUS-26OCT12",
-   "series": "KXHIGHAUS",
-   "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 2.81,
-   "opened_ts": 1791742547,
-   "close_ts": 1791871200.0,
-   "score": 0.5457,
-   "mark_price": 0.99
-  },
-  {
-   "id": 47,
-   "ticker": "KXHIGHTOKC-26OCT12-B93.5",
-   "event_ticker": "KXHIGHTOKC-26OCT12",
-   "series": "KXHIGHTOKC",
-   "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791747046,
-   "close_ts": 1791871200.0,
-   "score": 0.5638,
-   "mark_price": 0.99
-  },
   {
    "id": 48,
    "ticker": "KXHIGHLAX-26OCT12-B64.5",
@@ -71,7 +39,7 @@
    "opened_ts": 1791803758,
    "close_ts": 1791896400.0,
    "score": 0.6369,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 50,
@@ -87,7 +55,7 @@
    "opened_ts": 1791810060,
    "close_ts": 1791896400.0,
    "score": 0.62,
-   "mark_price": 0.88
+   "mark_price": 0.86
   },
   {
    "id": 51,
@@ -167,7 +135,7 @@
    "opened_ts": 1791820868,
    "close_ts": 1791910740.0,
    "score": 0.5872,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 56,
@@ -215,7 +183,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.88
+   "mark_price": 0.9
   },
   {
    "id": 59,
@@ -231,7 +199,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.91
+   "mark_price": 0.92
   },
   {
    "id": 60,
@@ -248,6 +216,38 @@
    "close_ts": 1791980700.0,
    "score": 0.6674,
    "mark_price": 0.93
+  },
+  {
+   "id": 61,
+   "ticker": "KXCPI-26SEP-T0.4",
+   "event_ticker": "KXCPI-26SEP",
+   "series": "KXCPI",
+   "label": "Will CPI rise more than 0.4% in September 2026? \u2014 Above 0.4%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791893748,
+   "close_ts": 1791980700.0,
+   "score": 0.629,
+   "mark_price": 0.91
+  },
+  {
+   "id": 62,
+   "ticker": "KXCPIYOY-26SEP-T3.5",
+   "event_ticker": "KXCPIYOY-26SEP",
+   "series": "KXCPIYOY",
+   "label": "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026? \u2014 Above 3.5%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.88,
+   "fee": 0.03,
+   "cost": 2.67,
+   "opened_ts": 1791893748,
+   "close_ts": 1791980940.0,
+   "score": 0.5995,
+   "mark_price": 0.87
   }
  ],
  "closed_positions": [
@@ -1149,6 +1149,46 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1791890152,
+   "won": true
+  },
+  {
+   "id": 46,
+   "ticker": "KXHIGHAUS-26OCT12-B96.5",
+   "event_ticker": "KXHIGHAUS-26OCT12",
+   "series": "KXHIGHAUS",
+   "label": "Will the maximum temperature be 96-97\u00b0 on Oct 12, 2026? \u2014 96\u00b0 to 97\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1791742547,
+   "close_ts": 1791871200.0,
+   "score": 0.5457,
+   "payout": 3.0,
+   "pnl": 0.19,
+   "result": "NO",
+   "closed_ts": 1791893748,
+   "won": true
+  },
+  {
+   "id": 47,
+   "ticker": "KXHIGHTOKC-26OCT12-B93.5",
+   "event_ticker": "KXHIGHTOKC-26OCT12",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be 93-94\u00b0 on Oct 12, 2026? \u2014 93\u00b0 to 94\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791747046,
+   "close_ts": 1791871200.0,
+   "score": 0.5638,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791893748,
    "won": true
   }
  ],
@@ -3407,10 +3447,15 @@
    1791892850,
    105.45,
    103.33
+  ],
+  [
+   1791893748,
+   105.8,
+   103.31
   ]
  ],
  "last_run": {
-  "ts": 1791892850,
+  "ts": 1791893748,
   "error": null,
   "markets_scanned": 535,
   "candidates": 12,
@@ -3419,77 +3464,83 @@
    "no favorite in 80-95c band": 45,
    "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   61,
+   62
+  ],
+  "settled": [
+   46,
+   47
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will CPI Core rise more than 0.3% in September? \u2014 Above 0.3%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.4,
+    "hours_to_close": 24.15,
     "volume_24h": 11323.09,
-    "score": 0.6591
+    "score": 0.6596
    },
    {
     "label": "Will CPI rise more than 0.4% in September 2026? \u2014 Above 0.4%",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 24.4,
+    "hours_to_close": 24.15,
     "volume_24h": 7213.08,
-    "score": 0.6284
+    "score": 0.629
    },
    {
     "label": "Will CPI Core rise more than 0.0% in September? \u2014 Above 0.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 24.4,
+    "hours_to_close": 24.15,
     "volume_24h": 2401.92,
-    "score": 0.6226
+    "score": 0.6232
    },
    {
     "label": "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026? \u2014 Above 3.5%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 24.47,
-    "volume_24h": 10029.04,
-    "score": 0.5989
+    "hours_to_close": 24.22,
+    "volume_24h": 10053.17,
+    "score": 0.5995
    },
    {
     "label": "Will the rate of CPI inflation be above 3.7% for the year ending in September 2026? \u2014 Above 3.7%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.22,
     "volume_24h": 5550.3,
-    "score": 0.5898
+    "score": 0.5903
    },
    {
     "label": "CPI year-over-year in Sep 2026? \u2014 Exactly 3.8%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.22,
     "volume_24h": 6617.37,
-    "score": 0.5855
+    "score": 0.586
    },
    {
     "label": "Will CPI rise more than 0.6% in September 2026? \u2014 Above 0.6%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 24.4,
+    "hours_to_close": 24.15,
     "volume_24h": 32909.62,
-    "score": 0.5791
+    "score": 0.5796
    },
    {
     "label": "Will the rate of core CPI inflation be above 2.5% for the year ending in September 2026? \u2014 Above 2.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.4,
+    "hours_to_close": 24.15,
     "volume_24h": 1828.49,
-    "score": 0.5737
+    "score": 0.5743
    }
   ],
   "watch_added": 0,
-  "watch_graded": 2,
+  "watch_graded": 24,
   "api_calls": 43
  }
 }

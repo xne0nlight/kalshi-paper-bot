@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 61.65,
- "fees_paid": 1.16,
+ "cash": 61.95,
+ "fees_paid": 1.19,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 67,
+ "next_id": 69,
  "open_positions": [
   {
    "id": 49,
@@ -58,22 +58,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 53,
-   "ticker": "KXBRENTD-26OCT1317-T100",
-   "event_ticker": "KXBRENTD-26OCT1317",
-   "series": "KXBRENTD",
-   "label": "Will the brent crude oil close price be above 100 USD/Bbl on October 13, 2026 at 5:00 PM EDT? \u2014 Above $100",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791817257,
-   "close_ts": 1791925200.0,
-   "score": 0.5366,
-   "mark_price": 0.97
-  },
-  {
    "id": 56,
    "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
    "event_ticker": "KXDWTSELIMINATION-26OCT14",
@@ -87,7 +71,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.94
+   "mark_price": 0.93
   },
   {
    "id": 57,
@@ -106,22 +90,6 @@
    "mark_price": 0.99
   },
   {
-   "id": 58,
-   "ticker": "KXBTCD-26OCT1317-T84499.99",
-   "event_ticker": "KXBTCD-26OCT1317",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 13, 2026? \u2014 $84,500 or above",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791839741,
-   "close_ts": 1791925200.0,
-   "score": 0.5921,
-   "mark_price": 0.99
-  },
-  {
    "id": 59,
    "ticker": "KXHIGHNY-26OCT13-B73.5",
    "event_ticker": "KXHIGHNY-26OCT13",
@@ -135,7 +103,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 60,
@@ -183,7 +151,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980940.0,
    "score": 0.5995,
-   "mark_price": 0.86
+   "mark_price": 0.87
   },
   {
    "id": 63,
@@ -249,7 +217,41 @@
    "opened_ts": 1791918062,
    "close_ts": 1792044000.0,
    "score": 0.5817,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 67,
+   "ticker": "KXHIGHAUS-26OCT14-T96",
+   "event_ticker": "KXHIGHAUS-26OCT14",
+   "series": "KXHIGHAUS",
+   "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791926145,
+   "close_ts": 1792044000.0,
+   "score": 0.5821,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 68,
+   "ticker": "KXHIGHMIA-26OCT14-B90.5",
+   "event_ticker": "KXHIGHMIA-26OCT14",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791926145,
+   "close_ts": 1792040400.0,
+   "score": 0.5812,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -1272,6 +1274,46 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1791918062,
+   "won": true
+  },
+  {
+   "id": 53,
+   "ticker": "KXBRENTD-26OCT1317-T100",
+   "event_ticker": "KXBRENTD-26OCT1317",
+   "series": "KXBRENTD",
+   "label": "Will the brent crude oil close price be above 100 USD/Bbl on October 13, 2026 at 5:00 PM EDT? \u2014 Above $100",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791817257,
+   "close_ts": 1791925200.0,
+   "score": 0.5366,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "YES",
+   "closed_ts": 1791926145,
+   "won": true
+  },
+  {
+   "id": 58,
+   "ticker": "KXBTCD-26OCT1317-T84499.99",
+   "event_ticker": "KXBTCD-26OCT1317",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 13, 2026? \u2014 $84,500 or above",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791839741,
+   "close_ts": 1791925200.0,
+   "score": 0.5921,
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1791926145,
    "won": true
   }
  ],
@@ -3710,90 +3752,102 @@
    1791925252,
    103.44,
    103.17
+  ],
+  [
+   1791926145,
+   103.8,
+   103.32
   ]
  ],
  "last_run": {
-  "ts": 1791925252,
+  "ts": 1791926145,
   "error": null,
   "markets_scanned": 3926,
-  "candidates": 45,
+  "candidates": 51,
   "rejections": {
-   "too little volume": 3725,
-   "no favorite in 80-95c band": 148,
-   "spread too wide": 8
+   "too little volume": 3710,
+   "no favorite in 80-95c band": 153,
+   "spread too wide": 11,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   67,
+   68
+  ],
+  "settled": [
+   53,
+   58
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 1093.0,
-    "score": 0.5818
+    "score": 0.5821
+   },
+   {
+    "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.74,
+    "volume_24h": 1382.52,
+    "score": 0.5812
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 1840.06,
-    "score": 0.5787
+    "score": 0.5791
    },
    {
     "label": "Will it rain in Springfield on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 885.29,
-    "score": 0.5749
-   },
-   {
-    "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 1329.23,
-    "score": 0.5696
-   },
-   {
-    "label": "Will it rain in Boston on Oct 14, 2026?",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 31.99,
-    "volume_24h": 6120.74,
-    "score": 0.5693
-   },
-   {
-    "label": "Will it rain in Denver on Oct 14, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 682.78,
-    "score": 0.5651
+    "score": 0.5753
    },
    {
     "label": "Will it rain in St. Louis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 824.69,
-    "score": 0.5626
+    "score": 0.563
    },
    {
     "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 534.83,
-    "score": 0.56
+    "score": 0.5603
+   },
+   {
+    "label": "Will the maximum temperature be >78\u00b0 on Oct 14, 2026? \u2014 79\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.74,
+    "volume_24h": 706.35,
+    "score": 0.5553
+   },
+   {
+    "label": "Will it rain in Boston on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 31.74,
+    "volume_24h": 6623.32,
+    "score": 0.5522
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 10,
+  "watch_added": 7,
+  "watch_graded": 63,
   "api_calls": 44
  },
  "shadow_since": 1791904549

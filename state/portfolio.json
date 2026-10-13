@@ -3639,89 +3639,94 @@
    1791916259,
    103.16,
    101.2
+  ],
+  [
+   1791917148,
+   103.16,
+   101.2
   ]
  ],
  "last_run": {
-  "ts": 1791916259,
+  "ts": 1791917148,
   "error": null,
   "markets_scanned": 624,
-  "candidates": 33,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 506,
-   "no favorite in 80-95c band": 83,
-   "spread too wide": 2
+   "too little volume": 504,
+   "no favorite in 80-95c band": 85,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be <65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.48,
-    "volume_24h": 1048.18,
-    "score": 0.5772
-   },
-   {
     "label": "Will it rain in Springfield on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.48,
+    "hours_to_close": 35.24,
     "volume_24h": 869.66,
-    "score": 0.5711
+    "score": 0.5714
    },
    {
     "label": "Will it rain in St. Louis on Oct 14, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.48,
+    "hours_to_close": 35.24,
     "volume_24h": 811.28,
-    "score": 0.5589
+    "score": 0.5592
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 438.57,
+    "score": 0.5588
    },
    {
     "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.48,
+    "hours_to_close": 34.24,
     "volume_24h": 402.35,
-    "score": 0.5473
+    "score": 0.5476
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.48,
+    "hours_to_close": 35.24,
     "volume_24h": 1679.59,
-    "score": 0.5425
+    "score": 0.5428
+   },
+   {
+    "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.24,
+    "volume_24h": 842.0,
+    "score": 0.5404
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 22.47,
+    "hours_to_close": 22.22,
     "volume_24h": 5709.48,
-    "score": 0.5355
+    "score": 0.5362
    },
    {
     "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.48,
-    "volume_24h": 253.73,
-    "score": 0.5323
-   },
-   {
-    "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.48,
-    "volume_24h": 526.83,
-    "score": 0.5261
+    "hours_to_close": 34.24,
+    "volume_24h": 258.73,
+    "score": 0.5333
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

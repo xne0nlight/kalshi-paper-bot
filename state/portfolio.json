@@ -135,7 +135,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.97
+   "mark_price": 0.98
   },
   {
    "id": 59,
@@ -215,7 +215,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 64,
@@ -3614,89 +3614,94 @@
    1791911750,
    103.16,
    100.96
+  ],
+  [
+   1791912654,
+   103.16,
+   101.02
   ]
  ],
  "last_run": {
-  "ts": 1791911750,
+  "ts": 1791912654,
   "error": null,
-  "markets_scanned": 446,
-  "candidates": 20,
+  "markets_scanned": 456,
+  "candidates": 19,
   "rejections": {
-   "too little volume": 372,
-   "no favorite in 80-95c band": 54
+   "too little volume": 382,
+   "no favorite in 80-95c band": 55
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.24,
-    "volume_24h": 813.0,
-    "score": 0.5855
-   },
-   {
     "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.74,
-    "volume_24h": 393.35,
-    "score": 0.545
+    "hours_to_close": 35.48,
+    "volume_24h": 399.35,
+    "score": 0.5458
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.98,
+    "volume_24h": 267.0,
+    "score": 0.5399
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 23.72,
-    "volume_24h": 5264.79,
-    "score": 0.5298
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.24,
-    "volume_24h": 267.0,
-    "score": 0.5293
+    "hours_to_close": 23.47,
+    "volume_24h": 5351.17,
+    "score": 0.5309
    },
    {
     "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.74,
-    "volume_24h": 247.73,
-    "score": 0.52
+    "hours_to_close": 35.48,
+    "volume_24h": 249.73,
+    "score": 0.5206
    },
    {
     "label": "Will it rain in Newark on Oct 14, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.48,
     "volume_24h": 589.89,
-    "score": 0.5182
+    "score": 0.5185
    },
    {
     "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.48,
     "volume_24h": 513.83,
-    "score": 0.5137
+    "score": 0.514
    },
    {
     "label": "Will it rain in Providence on Oct 14, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.48,
     "volume_24h": 200.73,
-    "score": 0.5032
+    "score": 0.5035
+   },
+   {
+    "label": "Will it rain in New York City on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.48,
+    "volume_24h": 830.69,
+    "score": 0.4896
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 4,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 65.73,
- "fees_paid": 1.09,
+ "cash": 65.87,
+ "fees_paid": 1.1,
  "peak_equity": 106.11,
  "day": "2026-10-13",
  "day_start_equity": 105.3,
- "next_id": 63,
+ "next_id": 64,
  "open_positions": [
-  {
-   "id": 48,
-   "ticker": "KXHIGHLAX-26OCT12-B64.5",
-   "event_ticker": "KXHIGHLAX-26OCT12",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 64-65\u00b0 on Oct 12, 2026? \u2014 64\u00b0 to 65\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791753344,
-   "close_ts": 1791878400.0,
-   "score": 0.5914,
-   "mark_price": 0.99
-  },
   {
    "id": 49,
    "ticker": "KXHORMUZMAX-26OCT11-OCT11",
@@ -103,7 +87,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.94
+   "mark_price": 0.96
   },
   {
    "id": 54,
@@ -183,7 +167,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.92
+   "mark_price": 0.85
   },
   {
    "id": 59,
@@ -199,7 +183,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.87
+   "mark_price": 0.88
   },
   {
    "id": 60,
@@ -248,6 +232,22 @@
    "close_ts": 1791980940.0,
    "score": 0.5995,
    "mark_price": 0.87
+  },
+  {
+   "id": 63,
+   "ticker": "KXWTI-26OCT1414-T96.99",
+   "event_ticker": "KXWTI-26OCT1414",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791900947,
+   "close_ts": 1792002600.0,
+   "score": 0.5434,
+   "mark_price": 0.94
   }
  ],
  "closed_positions": [
@@ -1189,6 +1189,26 @@
    "pnl": 0.16,
    "result": "NO",
    "closed_ts": 1791893748,
+   "won": true
+  },
+  {
+   "id": 48,
+   "ticker": "KXHIGHLAX-26OCT12-B64.5",
+   "event_ticker": "KXHIGHLAX-26OCT12",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 64-65\u00b0 on Oct 12, 2026? \u2014 64\u00b0 to 65\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791753344,
+   "close_ts": 1791878400.0,
+   "score": 0.5914,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791900947,
    "won": true
   }
  ],
@@ -3487,40 +3507,41 @@
    1791900055,
    105.8,
    103.55
+  ],
+  [
+   1791900947,
+   105.94,
+   103.42
   ]
  ],
  "last_run": {
-  "ts": 1791900055,
+  "ts": 1791900947,
   "error": null,
   "markets_scanned": 314,
-  "candidates": 2,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 299,
-   "no favorite in 80-95c band": 13
+   "too little volume": 297,
+   "no favorite in 80-95c band": 16
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   63
+  ],
+  "settled": [
+   48
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.48,
+    "hours_to_close": 28.24,
     "volume_24h": 267.0,
-    "score": 0.543
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 89.99 USD/Bbl on Oct 14, 2026? \u2014 Above $89.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.48,
-    "volume_24h": 1205.01,
-    "score": 0.542
+    "score": 0.5434
    }
   ],
-  "watch_added": 1,
-  "watch_graded": 1,
+  "watch_added": 0,
+  "watch_graded": 16,
   "api_calls": 42
  }
 }

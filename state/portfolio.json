@@ -103,7 +103,7 @@
    "opened_ts": 1791810060,
    "close_ts": 1791896400.0,
    "score": 0.62,
-   "mark_price": 0.88
+   "mark_price": 0.89
   },
   {
    "id": 51,
@@ -119,7 +119,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.83
+   "mark_price": 0.84
   },
   {
    "id": 52,
@@ -151,7 +151,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.86
+   "mark_price": 0.88
   },
   {
    "id": 54,
@@ -247,7 +247,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.94
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -3362,17 +3362,21 @@
    1791888353,
    105.17,
    103.19
+  ],
+  [
+   1791889253,
+   105.17,
+   103.28
   ]
  ],
  "last_run": {
-  "ts": 1791888353,
+  "ts": 1791889253,
   "error": null,
   "markets_scanned": 535,
-  "candidates": 14,
+  "candidates": 15,
   "rejections": {
    "too little volume": 475,
-   "no favorite in 80-95c band": 45,
-   "spread too wide": 1
+   "no favorite in 80-95c band": 45
   },
   "opened": [],
   "settled": [],
@@ -3382,69 +3386,69 @@
     "label": "Will CPI Core rise more than 0.3% in September? \u2014 Above 0.3%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.65,
-    "volume_24h": 11939.94,
-    "score": 0.6663
+    "hours_to_close": 25.4,
+    "volume_24h": 11933.94,
+    "score": 0.6669
+   },
+   {
+    "label": "Will CPI Core rise more than 0.0% in September? \u2014 Above 0.0%",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 25.4,
+    "volume_24h": 3387.34,
+    "score": 0.6316
    },
    {
     "label": "Will CPI rise more than 0.4% in September 2026? \u2014 Above 0.4%",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 25.65,
+    "hours_to_close": 25.4,
     "volume_24h": 7182.88,
-    "score": 0.6256
+    "score": 0.6261
    },
    {
     "label": "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026? \u2014 Above 3.5%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 25.72,
-    "volume_24h": 9937.29,
-    "score": 0.596
+    "hours_to_close": 25.47,
+    "volume_24h": 10018.04,
+    "score": 0.5967
    },
    {
     "label": "Will the rate of CPI inflation be above 3.7% for the year ending in September 2026? \u2014 Above 3.7%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.72,
+    "hours_to_close": 25.47,
     "volume_24h": 5470.81,
-    "score": 0.5866
+    "score": 0.5871
    },
    {
     "label": "Will the rate of core CPI inflation be above 2.3% for the year ending in September 2026? \u2014 Above 2.3%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 25.65,
+    "hours_to_close": 25.4,
     "volume_24h": 7374.52,
-    "score": 0.5864
+    "score": 0.587
    },
    {
     "label": "CPI year-over-year in Sep 2026? \u2014 Exactly 3.8%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 25.72,
-    "volume_24h": 6696.37,
-    "score": 0.5831
+    "hours_to_close": 25.47,
+    "volume_24h": 6517.37,
+    "score": 0.5828
    },
    {
     "label": "Will CPI rise more than 0.6% in September 2026? \u2014 Above 0.6%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.65,
-    "volume_24h": 33008.06,
-    "score": 0.5763
-   },
-   {
-    "label": "CPI year-over-year in Sep 2026? \u2014 Exactly 3.5%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 25.72,
-    "volume_24h": 266.0,
-    "score": 0.5382
+    "hours_to_close": 25.4,
+    "volume_24h": 32994.0,
+    "score": 0.5769
    }
   ],
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 6,
   "api_calls": 43
  }
 }

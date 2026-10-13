@@ -87,7 +87,7 @@
    "opened_ts": 1791817257,
    "close_ts": 1791925200.0,
    "score": 0.5366,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 55,
@@ -199,7 +199,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980700.0,
    "score": 0.629,
-   "mark_price": 0.91
+   "mark_price": 0.89
   },
   {
    "id": 62,
@@ -231,7 +231,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.92
+   "mark_price": 0.93
   }
  ],
  "closed_positions": [
@@ -3551,16 +3551,21 @@
    1791907274,
    106.0,
    101.25
+  ],
+  [
+   1791908149,
+   106.0,
+   101.25
   ]
  ],
  "last_run": {
-  "ts": 1791907274,
+  "ts": 1791908149,
   "error": null,
   "markets_scanned": 323,
   "candidates": 3,
   "rejections": {
-   "too little volume": 292,
-   "no favorite in 80-95c band": 27,
+   "too little volume": 293,
+   "no favorite in 80-95c band": 26,
    "spread too wide": 1
   },
   "opened": [],
@@ -3571,31 +3576,31 @@
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.48,
+    "hours_to_close": 26.24,
     "volume_24h": 267.0,
-    "score": 0.5368
+    "score": 0.5373
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 24.96,
-    "volume_24h": 1355.43,
-    "score": 0.5128
+    "hours_to_close": 24.72,
+    "volume_24h": 1355.54,
+    "score": 0.5133
    },
    {
     "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 14, 2026? \u2014 Above $91.49",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 26.48,
+    "hours_to_close": 26.24,
     "volume_24h": 234.23,
-    "score": 0.4625
+    "score": 0.463
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

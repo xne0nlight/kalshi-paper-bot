@@ -119,7 +119,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.84
+   "mark_price": 0.85
   },
   {
    "id": 52,
@@ -135,7 +135,7 @@
    "opened_ts": 1791814547,
    "close_ts": 1791900000.0,
    "score": 0.5657,
-   "mark_price": 0.41
+   "mark_price": 0.21
   },
   {
    "id": 53,
@@ -231,7 +231,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.69
+   "mark_price": 0.74
   },
   {
    "id": 59,
@@ -247,7 +247,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.9
+   "mark_price": 0.89
   }
  ],
  "closed_positions": [
@@ -3312,89 +3312,94 @@
    1791879358,
    105.17,
    102.97
+  ],
+  [
+   1791880260,
+   105.17,
+   102.52
   ]
  ],
  "last_run": {
-  "ts": 1791879358,
+  "ts": 1791880260,
   "error": null,
   "markets_scanned": 3900,
-  "candidates": 76,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 3407,
-   "no favorite in 80-95c band": 370,
-   "spread too wide": 45,
-   "nothing for sale at the ask": 2
+   "too little volume": 3405,
+   "no favorite in 80-95c band": 380,
+   "spread too wide": 37,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 12.73,
-    "volume_24h": 10309.82,
-    "score": 0.7021
-   },
-   {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $82,250 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 12.73,
-    "volume_24h": 57704.71,
-    "score": 0.7021
+    "hours_to_close": 12.48,
+    "volume_24h": 58919.71,
+    "score": 0.7036
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 89.49 USD/Bbl on Oct 13, 2026? \u2014 Above $89.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 10.23,
-    "volume_24h": 3775.12,
-    "score": 0.6976
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 12.48,
+    "volume_24h": 18503.2,
+    "score": 0.6936
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 13, 2026? \u2014 Above $94.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 10.23,
+    "hours_to_close": 9.98,
     "volume_24h": 5417.2,
-    "score": 0.6894
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 13, 2026? \u2014 Above $94.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 10.23,
-    "volume_24h": 4705.14,
-    "score": 0.6848
-   },
-   {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 12.73,
-    "volume_24h": 17099.2,
-    "score": 0.6821
+    "score": 0.6914
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $82,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 12.73,
-    "volume_24h": 73911.92,
-    "score": 0.6721
+    "hours_to_close": 12.48,
+    "volume_24h": 75011.92,
+    "score": 0.6736
    },
    {
     "label": "Will it rain in Miami on Oct 13, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.73,
-    "volume_24h": 8676.66,
-    "score": 0.6639
+    "hours_to_close": 20.48,
+    "volume_24h": 8703.37,
+    "score": 0.6648
+   },
+   {
+    "label": "Will the brent crude oil close price be above 99.50 USD/Bbl on October 13, 2026 at 5:00 PM EDT? \u2014 Above $99.50",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 12.48,
+    "volume_24h": 1572.01,
+    "score": 0.6534
+   },
+   {
+    "label": "Ethereum price at Oct 13, 2026 at 5pm EDT? \u2014 $2,470 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 12.48,
+    "volume_24h": 1482.63,
+    "score": 0.6515
+   },
+   {
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $85,250 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 12.48,
+    "volume_24h": 6874.23,
+    "score": 0.6514
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  }

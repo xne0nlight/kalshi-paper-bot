@@ -151,7 +151,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.95
+   "mark_price": 0.96
   },
   {
    "id": 59,
@@ -167,7 +167,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.85
+   "mark_price": 0.96
   },
   {
    "id": 60,
@@ -231,7 +231,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.91
+   "mark_price": 0.92
   }
  ],
  "closed_positions": [
@@ -3546,50 +3546,56 @@
    1791906349,
    106.0,
    100.86
+  ],
+  [
+   1791907274,
+   106.0,
+   101.25
   ]
  ],
  "last_run": {
-  "ts": 1791906349,
+  "ts": 1791907274,
   "error": null,
-  "markets_scanned": 299,
+  "markets_scanned": 323,
   "candidates": 3,
   "rejections": {
-   "too little volume": 271,
-   "no favorite in 80-95c band": 25
+   "too little volume": 292,
+   "no favorite in 80-95c band": 27,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 26.74,
-    "volume_24h": 813.0,
-    "score": 0.5824
-   },
-   {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.74,
+    "price": 0.94,
+    "hours_to_close": 26.48,
     "volume_24h": 267.0,
-    "score": 0.5163
+    "score": 0.5368
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.22,
+    "hours_to_close": 24.96,
     "volume_24h": 1355.43,
-    "score": 0.5122
+    "score": 0.5128
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 14, 2026? \u2014 Above $91.49",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 26.48,
+    "volume_24h": 234.23,
+    "score": 0.4625
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

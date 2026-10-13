@@ -71,7 +71,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 57,
@@ -119,7 +119,7 @@
    "opened_ts": 1791890152,
    "close_ts": 1791980700.0,
    "score": 0.6674,
-   "mark_price": 0.93
+   "mark_price": 0.94
   },
   {
    "id": 61,
@@ -3767,89 +3767,94 @@
    1791927945,
    103.8,
    103.56
+  ],
+  [
+   1791928853,
+   103.8,
+   103.62
   ]
  ],
  "last_run": {
-  "ts": 1791927945,
+  "ts": 1791928853,
   "error": null,
   "markets_scanned": 3926,
-  "candidates": 56,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 3670,
-   "no favorite in 80-95c band": 186,
-   "spread too wide": 14
+   "too little volume": 3669,
+   "no favorite in 80-95c band": 195,
+   "spread too wide": 9
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 22.99,
+    "volume_24h": 4296.0,
+    "score": 0.5949
+   },
+   {
     "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.24,
-    "volume_24h": 1477.08,
-    "score": 0.5941
+    "hours_to_close": 30.99,
+    "volume_24h": 1480.22,
+    "score": 0.5946
+   },
+   {
+    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.99,
+    "volume_24h": 1912.06,
+    "score": 0.5914
    },
    {
     "label": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026? \u2014 97\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
-    "volume_24h": 1093.0,
-    "score": 0.5828
+    "hours_to_close": 31.99,
+    "volume_24h": 1343.0,
+    "score": 0.5899
    },
    {
-    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.24,
-    "volume_24h": 1851.2,
-    "score": 0.58
+    "hours_to_close": 20.49,
+    "volume_24h": 968.31,
+    "score": 0.5833
    },
    {
     "label": "Will it rain in Albuquerque on Oct 14, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
-    "volume_24h": 1274.55,
-    "score": 0.5764
+    "hours_to_close": 32.99,
+    "volume_24h": 1348.31,
+    "score": 0.5786
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.24,
-    "volume_24h": 1581.28,
-    "score": 0.5718
+    "hours_to_close": 22.99,
+    "volume_24h": 1788.28,
+    "score": 0.5764
    },
    {
-    "label": "Will it rain in St. Louis on Oct 14, 2026?",
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 14, 2026? \u2014 Above $91.99",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 32.24,
-    "volume_24h": 824.69,
-    "score": 0.5637
-   },
-   {
-    "label": "Will the maximum temperature be <73\u00b0 on Oct 14, 2026? \u2014 72\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.24,
-    "volume_24h": 570.46,
-    "score": 0.5632
-   },
-   {
-    "label": "Will the maximum temperature be >78\u00b0 on Oct 14, 2026? \u2014 79\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.24,
-    "volume_24h": 706.35,
-    "score": 0.5559
+    "price": 0.93,
+    "hours_to_close": 20.49,
+    "volume_24h": 593.3,
+    "score": 0.5673
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

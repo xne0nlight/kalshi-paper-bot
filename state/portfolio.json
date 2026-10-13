@@ -135,7 +135,7 @@
    "opened_ts": 1791811845,
    "close_ts": 1791916200.0,
    "score": 0.6009,
-   "mark_price": 0.89
+   "mark_price": 0.88
   },
   {
    "id": 52,
@@ -247,7 +247,7 @@
    "opened_ts": 1791839741,
    "close_ts": 1791925200.0,
    "score": 0.5921,
-   "mark_price": 0.95
+   "mark_price": 0.94
   }
  ],
  "closed_positions": [
@@ -3157,18 +3157,22 @@
    1791855040,
    105.3,
    104.1
+  ],
+  [
+   1791855948,
+   105.3,
+   104.04
   ]
  ],
  "last_run": {
-  "ts": 1791855040,
+  "ts": 1791855948,
   "error": null,
   "markets_scanned": 4198,
-  "candidates": 82,
+  "candidates": 81,
   "rejections": {
-   "too little volume": 3809,
-   "no favorite in 80-95c band": 282,
-   "spread too wide": 24,
-   "favorite is slipping fast": 1
+   "too little volume": 3807,
+   "no favorite in 80-95c band": 284,
+   "spread too wide": 26
   },
   "opened": [],
   "settled": [],
@@ -3178,68 +3182,68 @@
     "label": "Will Trump's RCP approval average be above 38.4 on Oct 13, 2026? \u2014 Above 38.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.47,
-    "volume_24h": 12737.45,
-    "score": 0.6878
+    "hours_to_close": 15.22,
+    "volume_24h": 12764.27,
+    "score": 0.689
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 13, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 15.47,
+    "hours_to_close": 15.22,
     "volume_24h": 10621.9,
-    "score": 0.6778
+    "score": 0.679
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 13, 2026? \u2014 Above $95.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.99,
+    "hours_to_close": 16.74,
     "volume_24h": 6496.01,
-    "score": 0.6773
+    "score": 0.6783
+   },
+   {
+    "label": "Bitcoin price on Oct 13, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 6918.3,
+    "score": 0.6712
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 13, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 15.47,
+    "hours_to_close": 15.22,
     "volume_24h": 12997.47,
-    "score": 0.6678
+    "score": 0.669
    },
    {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 19.49,
-    "volume_24h": 10384.31,
-    "score": 0.6624
-   },
-   {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $79,750 or above",
-    "side": "yes",
+    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 13, 2026? \u2014 Above $95.49",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 6048.93,
-    "score": 0.656
+    "hours_to_close": 16.74,
+    "volume_24h": 4535.98,
+    "score": 0.6566
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 37.9 on Oct 13, 2026? \u2014 37.9%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 15.22,
+    "volume_24h": 12254.72,
+    "score": 0.649
    },
    {
     "label": "Bitcoin price on Oct 13, 2026? \u2014 $84,250 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 5701.17,
-    "score": 0.6541
-   },
-   {
-    "label": "Bitcoin price on Oct 13, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.49,
-    "volume_24h": 32608.35,
-    "score": 0.6524
+    "price": 0.93,
+    "hours_to_close": 19.24,
+    "volume_24h": 5836.29,
+    "score": 0.6457
    }
   ],
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  }

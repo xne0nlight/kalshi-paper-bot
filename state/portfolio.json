@@ -103,7 +103,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980700.0,
    "score": 0.629,
-   "mark_price": 0.9
+   "mark_price": 0.88
   },
   {
    "id": 62,
@@ -135,7 +135,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.85
+   "mark_price": 0.87
   },
   {
    "id": 64,
@@ -219,7 +219,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -253,7 +253,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -4059,17 +4059,22 @@
    1791972937,
    104.18,
    103.77
+  ],
+  [
+   1791973844,
+   104.18,
+   103.86
   ]
  ],
  "last_run": {
-  "ts": 1791972937,
+  "ts": 1791973844,
   "error": null,
   "markets_scanned": 553,
-  "candidates": 24,
+  "candidates": 20,
   "rejections": {
    "too little volume": 384,
-   "no favorite in 80-95c band": 127,
-   "spread too wide": 18
+   "no favorite in 80-95c band": 129,
+   "spread too wide": 20
   },
   "opened": [],
   "settled": [],
@@ -4079,65 +4084,65 @@
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 13033.75,
-    "score": 0.6416
+    "score": 0.6424
    },
    {
     "label": "Will it rain in Albuquerque on Oct 14, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
-    "volume_24h": 2676.93,
-    "score": 0.6356
-   },
-   {
-    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 14, 2026? \u2014 93\u00b0 to 94\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 2348.74,
-    "score": 0.6344
+    "hours_to_close": 20.49,
+    "volume_24h": 2707.6,
+    "score": 0.6367
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Oct 14, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 19.74,
-    "volume_24h": 5064.28,
-    "score": 0.6194
+    "hours_to_close": 19.49,
+    "volume_24h": 5101.24,
+    "score": 0.6205
    },
    {
     "label": "Will the maximum temperature be 82-83\u00b0 on Oct 14, 2026? \u2014 82\u00b0 to 83\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.74,
-    "volume_24h": 931.95,
-    "score": 0.5943
+    "hours_to_close": 19.49,
+    "volume_24h": 1007.87,
+    "score": 0.5977
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 14, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.74,
-    "volume_24h": 1013.32,
-    "score": 0.5912
+    "hours_to_close": 21.49,
+    "volume_24h": 1014.32,
+    "score": 0.5919
+   },
+   {
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 14, 2026? \u2014 93\u00b0 to 94\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.49,
+    "volume_24h": 2617.11,
+    "score": 0.5887
    },
    {
     "label": "Will it rain in Houston on Oct 14, 2026?",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 19.74,
-    "volume_24h": 5128.75,
-    "score": 0.5898
+    "price": 0.87,
+    "hours_to_close": 19.49,
+    "volume_24h": 5216.25,
+    "score": 0.5812
    },
    {
-    "label": "Will the maximum temperature be 95-96\u00b0 on Oct 14, 2026? \u2014 95\u00b0 to 96\u00b0",
+    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 14, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.74,
-    "volume_24h": 830.14,
-    "score": 0.5706
+    "hours_to_close": 21.49,
+    "volume_24h": 1016.67,
+    "score": 0.572
    }
   ],
   "skipped": {},

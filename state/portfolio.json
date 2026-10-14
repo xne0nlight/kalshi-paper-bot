@@ -119,7 +119,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980940.0,
    "score": 0.5995,
-   "mark_price": 0.89
+   "mark_price": 0.88
   },
   {
    "id": 63,
@@ -168,7 +168,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -253,7 +253,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -3969,19 +3969,24 @@
    1791956734,
    104.18,
    103.98
+  ],
+  [
+   1791957661,
+   104.18,
+   103.89
   ]
  ],
  "last_run": {
-  "ts": 1791956734,
+  "ts": 1791957661,
   "error": null,
   "markets_scanned": 3684,
-  "candidates": 77,
+  "candidates": 79,
   "rejections": {
-   "too little volume": 3246,
-   "no favorite in 80-95c band": 322,
+   "too little volume": 3242,
+   "no favorite in 80-95c band": 324,
    "spread too wide": 34,
-   "nothing for sale at the ask": 4,
-   "favorite is slipping fast": 1
+   "nothing for sale at the ask": 3,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
@@ -3990,72 +3995,72 @@
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 15.24,
-    "volume_24h": 9220.58,
-    "score": 0.6762
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 15.24,
-    "volume_24h": 2350.54,
-    "score": 0.6517
+    "price": 0.92,
+    "hours_to_close": 14.98,
+    "volume_24h": 9528.58,
+    "score": 0.6685
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 15.24,
-    "volume_24h": 2314.08,
-    "score": 0.6512
+    "hours_to_close": 14.98,
+    "volume_24h": 2814.08,
+    "score": 0.6588
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 14, 2026? \u2014 Above $97.49",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 12.48,
+    "volume_24h": 1612.25,
+    "score": 0.6542
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 14.98,
+    "volume_24h": 5922.6,
+    "score": 0.653
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,750 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 15.24,
-    "volume_24h": 13179.61,
-    "score": 0.6489
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.24,
-    "volume_24h": 5922.6,
-    "score": 0.6418
+    "hours_to_close": 14.98,
+    "volume_24h": 13189.64,
+    "score": 0.6501
    },
    {
     "label": "Ethereum price at Oct 14, 2026 at 5pm EDT? \u2014 $2,580 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.24,
+    "price": 0.94,
+    "hours_to_close": 14.98,
     "volume_24h": 1858.17,
+    "score": 0.6353
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 12.48,
+    "volume_24h": 1607.44,
     "score": 0.6241
    },
    {
     "label": "Will the maximum temperature be 93-94\u00b0 on Oct 14, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.98,
     "volume_24h": 2205.54,
-    "score": 0.6202
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,000 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 15.24,
-    "volume_24h": 17045.02,
-    "score": 0.6189
+    "score": 0.6208
    }
   ],
   "skipped": {},
   "watch_added": 2,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549
 }

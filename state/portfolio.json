@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 62.09,
- "fees_paid": 1.2,
+ "cash": 62.25,
+ "fees_paid": 1.22,
  "peak_equity": 106.11,
  "day": "2026-10-14",
  "day_start_equity": 103.8,
- "next_id": 70,
+ "next_id": 71,
  "open_positions": [
   {
    "id": 49,
@@ -40,22 +40,6 @@
    "close_ts": 1791896400.0,
    "score": 0.62,
    "mark_price": 0.87
-  },
-  {
-   "id": 56,
-   "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
-   "event_ticker": "KXDWTSELIMINATION-26OCT14",
-   "series": "KXDWTSELIMINATION",
-   "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791824455,
-   "close_ts": 1791950340.0,
-   "score": 0.5697,
-   "mark_price": 0.99
   },
   {
    "id": 57,
@@ -253,6 +237,23 @@
    "close_ts": 1792011600.0,
    "score": 0.6512,
    "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 70,
+   "ticker": "KXBTCD-26OCT1417-T81499.99",
+   "event_ticker": "KXBTCD-26OCT1417",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791948654,
+   "close_ts": 1792011600.0,
+   "score": 0.6552,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -1335,6 +1336,26 @@
    "pnl": 0.22,
    "result": "YES",
    "closed_ts": 1791940558,
+   "won": true
+  },
+  {
+   "id": 56,
+   "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
+   "event_ticker": "KXDWTSELIMINATION-26OCT14",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 14, 2026?",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791824455,
+   "close_ts": 1791950340.0,
+   "score": 0.5697,
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1791948654,
    "won": true
   }
  ],
@@ -3898,91 +3919,100 @@
    1791947756,
    104.02,
    103.61
+  ],
+  [
+   1791948654,
+   104.18,
+   103.59
   ]
  ],
  "last_run": {
-  "ts": 1791947756,
+  "ts": 1791948654,
   "error": null,
-  "markets_scanned": 4086,
-  "candidates": 70,
+  "markets_scanned": 4088,
+  "candidates": 72,
   "rejections": {
-   "too little volume": 3694,
-   "no favorite in 80-95c band": 284,
-   "spread too wide": 35,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 3690,
+   "no favorite in 80-95c band": 286,
+   "spread too wide": 34,
+   "nothing for sale at the ask": 4,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   70
+  ],
+  "settled": [
+   56
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 17.48,
+    "volume_24h": 4750.44,
+    "score": 0.6552
+   },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 17.73,
+    "hours_to_close": 17.48,
     "volume_24h": 6937.09,
-    "score": 0.6466
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 17.73,
-    "volume_24h": 4750.44,
-    "score": 0.6442
+    "score": 0.6475
    },
    {
     "label": "Will it rain in Lexington on Oct 14, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.73,
+    "hours_to_close": 25.48,
     "volume_24h": 3694.02,
-    "score": 0.6337
+    "score": 0.6343
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Oct 14, 2026? \u2014 Above $91.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 14.98,
+    "volume_24h": 1100.3,
+    "score": 0.6282
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,750 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 17.73,
-    "volume_24h": 1316.66,
-    "score": 0.6225
+    "price": 0.94,
+    "hours_to_close": 17.48,
+    "volume_24h": 1347.93,
+    "score": 0.6142
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.73,
-    "volume_24h": 5558.74,
-    "score": 0.6194
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $82,000 or above",
-    "side": "yes",
     "price": 0.88,
-    "hours_to_close": 17.73,
-    "volume_24h": 39005.03,
-    "score": 0.6185
+    "hours_to_close": 17.48,
+    "volume_24h": 5692.97,
+    "score": 0.6011
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Oct 14, 2026? \u2014 Above $92.49",
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $82,250 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 15.23,
-    "volume_24h": 1106.38,
-    "score": 0.6072
+    "price": 0.86,
+    "hours_to_close": 17.48,
+    "volume_24h": 13691.87,
+    "score": 0.5994
    },
    {
-    "label": "Will it rain in Albuquerque on Oct 14, 2026?",
+    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 14, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.73,
-    "volume_24h": 1701.39,
-    "score": 0.5946
+    "price": 0.93,
+    "hours_to_close": 28.48,
+    "volume_24h": 2368.32,
+    "score": 0.594
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -23,7 +23,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.96
+   "mark_price": 0.97
   },
   {
    "id": 64,
@@ -56,7 +56,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -90,7 +90,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -107,7 +107,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.78,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1791990935,
@@ -152,7 +152,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.68,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -224,7 +224,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -4282,85 +4282,98 @@
    1791990935,
    105.73,
    104.93
+  ],
+  [
+   1791991839,
+   105.73,
+   105.11
   ]
  ],
  "last_run": {
-  "ts": 1791990935,
+  "ts": 1791991839,
   "error": null,
   "markets_scanned": 344,
-  "candidates": 7,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 285,
-   "no favorite in 80-95c band": 43,
-   "spread too wide": 9
+   "too little volume": 283,
+   "no favorite in 80-95c band": 41,
+   "spread too wide": 10
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Once Caldas wins",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.24,
-    "volume_24h": 78217.65,
-    "score": 0.5622
+    "price": 0.94,
+    "hours_to_close": 25.47,
+    "volume_24h": 688.19,
+    "score": 0.5696
+   },
+   {
+    "label": "Anubis Gaming wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 24.49,
+    "volume_24h": 1739.65,
+    "score": 0.5619
    },
    {
     "label": "Solary wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 24.74,
-    "volume_24h": 2922.61,
-    "score": 0.5383
+    "hours_to_close": 24.49,
+    "volume_24h": 3022.61,
+    "score": 0.5399
    },
    {
-    "label": "Anubis Gaming wins",
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.74,
-    "volume_24h": 1629.04,
-    "score": 0.5192
+    "price": 0.87,
+    "hours_to_close": 25.47,
+    "volume_24h": 1037.49,
+    "score": 0.513
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.8 on Oct 15, 2026? \u2014 Above 38.8%",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 25.47,
+    "volume_24h": 1903.1,
+    "score": 0.5127
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 25.47,
+    "volume_24h": 1859.06,
+    "score": 0.5119
    },
    {
     "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 14, 2026 be above 56.2%? \u2014 Above 56.2%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 1814.0,
-    "score": 0.4975
+    "score": 0.4981
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 15, 2026? \u2014 Above $96.49",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.24,
+    "price": 0.92,
+    "hours_to_close": 26.99,
     "volume_24h": 388.0,
-    "score": 0.4474
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.72,
-    "volume_24h": 248.31,
-    "score": 0.436
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 38.8 on Oct 15, 2026? \u2014 Above 38.8%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 25.72,
-    "volume_24h": 1627.22,
-    "score": 0.4271
+    "score": 0.4779
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1,
-   "related-market cap (Presidential approval)": 2
+   "related-market cap (Presidential approval)": 4,
+   "related-market cap (Oil prices)": 2
   },
   "watch_added": 2,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

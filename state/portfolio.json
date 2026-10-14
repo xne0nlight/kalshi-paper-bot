@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 61.95,
- "fees_paid": 1.19,
+ "cash": 62.09,
+ "fees_paid": 1.2,
  "peak_equity": 106.11,
  "day": "2026-10-14",
  "day_start_equity": 103.8,
- "next_id": 69,
+ "next_id": 70,
  "open_positions": [
   {
    "id": 49,
@@ -42,22 +42,6 @@
    "mark_price": 0.87
   },
   {
-   "id": 51,
-   "ticker": "KXWTI-26OCT1314-T90.49",
-   "event_ticker": "KXWTI-26OCT1314",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791811845,
-   "close_ts": 1791916200.0,
-   "score": 0.6009,
-   "mark_price": 0.99
-  },
-  {
    "id": 56,
    "ticker": "KXDWTSELIMINATION-26OCT14-JSTIL",
    "event_ticker": "KXDWTSELIMINATION-26OCT14",
@@ -71,7 +55,7 @@
    "opened_ts": 1791824455,
    "close_ts": 1791950340.0,
    "score": 0.5697,
-   "mark_price": 0.93
+   "mark_price": 0.98
   },
   {
    "id": 57,
@@ -103,7 +87,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.98
+   "mark_price": 0.99
   },
   {
    "id": 60,
@@ -167,7 +151,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.86
+   "mark_price": 0.83
   },
   {
    "id": 64,
@@ -252,6 +236,23 @@
    "close_ts": 1792040400.0,
    "score": 0.5812,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 69,
+   "ticker": "KXGOLDD-26OCT1417-T4277",
+   "event_ticker": "KXGOLDD-26OCT1417",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791940558,
+   "close_ts": 1792011600.0,
+   "score": 0.6512,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -1314,6 +1315,26 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1791926145,
+   "won": true
+  },
+  {
+   "id": 51,
+   "ticker": "KXWTI-26OCT1314-T90.49",
+   "event_ticker": "KXWTI-26OCT1314",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Oct 13, 2026? \u2014 Above $90.49",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791811845,
+   "close_ts": 1791916200.0,
+   "score": 0.6009,
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "YES",
+   "closed_ts": 1791940558,
    "won": true
   }
  ],
@@ -3832,92 +3853,100 @@
    1791939656,
    103.8,
    103.47
+  ],
+  [
+   1791940558,
+   104.02,
+   103.55
   ]
  ],
  "last_run": {
-  "ts": 1791939656,
+  "ts": 1791940558,
   "error": null,
   "markets_scanned": 4007,
   "candidates": 78,
   "rejections": {
-   "too little volume": 3669,
-   "no favorite in 80-95c band": 236,
-   "spread too wide": 22,
-   "nothing for sale at the ask": 1,
+   "too little volume": 3650,
+   "no favorite in 80-95c band": 254,
+   "spread too wide": 24,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   69
+  ],
+  "settled": [
+   51
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 3934.84,
-    "score": 0.6504
+    "score": 0.6512
    },
    {
     "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.98,
+    "hours_to_close": 28.73,
     "volume_24h": 5001.89,
-    "score": 0.6375
+    "score": 0.6379
    },
    {
-    "label": "Will the copper close price be above 6.72 USD/Lbs on October 14, 2026 at 5:00 PM EDT? \u2014 Above $6.72",
+    "label": "Will the gold close price be above 4057 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4057",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 19.98,
-    "volume_24h": 5785.91,
-    "score": 0.623
+    "price": 0.93,
+    "hours_to_close": 19.73,
+    "volume_24h": 4016.57,
+    "score": 0.6319
    },
    {
     "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.98,
-    "volume_24h": 5420.66,
-    "score": 0.6209
+    "price": 0.92,
+    "hours_to_close": 19.73,
+    "volume_24h": 5451.66,
+    "score": 0.6318
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 19.98,
-    "volume_24h": 3927.18,
-    "score": 0.6204
+    "price": 0.95,
+    "hours_to_close": 19.73,
+    "volume_24h": 2063.93,
+    "score": 0.6302
+   },
+   {
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 19.73,
+    "volume_24h": 7557.06,
+    "score": 0.6225
+   },
+   {
+    "label": "Will the copper close price be above 6.72 USD/Lbs on October 14, 2026 at 5:00 PM EDT? \u2014 Above $6.72",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 19.73,
+    "volume_24h": 5785.91,
+    "score": 0.6138
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Oct 14, 2026? \u2014 Above $92.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 17.48,
+    "hours_to_close": 17.23,
     "volume_24h": 911.56,
-    "score": 0.6114
-   },
-   {
-    "label": "Will it rain in Lexington on Oct 14, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.98,
-    "volume_24h": 3290.11,
-    "score": 0.6056
-   },
-   {
-    "label": "Will the gold close price be above 4067 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4067",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 19.98,
-    "volume_24h": 2484.0,
-    "score": 0.6055
+    "score": 0.6124
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 6,
+  "watch_graded": 24,
   "api_calls": 42
  },
  "shadow_since": 1791904549

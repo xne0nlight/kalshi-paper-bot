@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 71.77,
- "fees_paid": 1.27,
+ "cash": 69.22,
+ "fees_paid": 1.3,
  "peak_equity": 106.11,
  "day": "2026-10-14",
  "day_start_equity": 103.8,
- "next_id": 73,
+ "next_id": 74,
  "open_positions": [
   {
    "id": 49,
@@ -55,7 +55,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 64,
@@ -71,7 +71,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1791997140.0,
    "score": 0.5286,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -173,7 +173,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.81,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -214,6 +214,23 @@
    "close_ts": 1792080000.0,
    "score": 0.4656,
    "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 73,
+   "ticker": "KXDIMAYORGAME-26OCT13MILOC-OC",
+   "event_ticker": "KXDIMAYORGAME-26OCT13MILOC",
+   "series": "KXDIMAYORGAME",
+   "label": "Once Caldas wins",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.84,
+   "fee": 0.03,
+   "cost": 2.55,
+   "opened_ts": 1791984639,
+   "close_ts": 1792114200.0,
+   "score": 0.54,
+   "mark_price": 0.83,
    "shadow": {}
   }
  ],
@@ -4179,62 +4196,75 @@
    1791983734,
    105.31,
    105.01
+  ],
+  [
+   1791984639,
+   105.31,
+   105.1
   ]
  ],
  "last_run": {
-  "ts": 1791983734,
+  "ts": 1791984639,
   "error": null,
-  "markets_scanned": 345,
-  "candidates": 4,
+  "markets_scanned": 359,
+  "candidates": 5,
   "rejections": {
    "too little volume": 310,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 6
+   "no favorite in 80-95c band": 34,
+   "spread too wide": 10
   },
-  "opened": [],
-  "settled": [
-   61
+  "opened": [
+   73
   ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.16,
+    "hours_to_close": 22.91,
     "volume_24h": 751.87,
-    "score": 0.5778
+    "score": 0.5784
+   },
+   {
+    "label": "Once Caldas wins",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 35.99,
+    "volume_24h": 75425.31,
+    "score": 0.54
    },
    {
     "label": "Anubis Gaming wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 26.74,
-    "volume_24h": 1171.37,
-    "score": 0.5243
+    "hours_to_close": 26.49,
+    "volume_24h": 1249.87,
+    "score": 0.5269
    },
    {
     "label": "Solary wins",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 26.74,
-    "volume_24h": 984.96,
-    "score": 0.4787
+    "hours_to_close": 26.49,
+    "volume_24h": 986.96,
+    "score": 0.4792
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 15, 2026? \u2014 Above $96.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.24,
-    "volume_24h": 305.33,
-    "score": 0.4361
+    "price": 0.92,
+    "hours_to_close": 28.99,
+    "volume_24h": 340.33,
+    "score": 0.47
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 1
   },
   "watch_added": 1,
-  "watch_graded": 9,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

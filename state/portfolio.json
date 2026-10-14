@@ -291,7 +291,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -4584,17 +4584,23 @@
    1792014336,
    106.87,
    106.91
+  ],
+  [
+   1792015240,
+   106.87,
+   106.94
   ]
  ],
  "last_run": {
-  "ts": 1792014336,
+  "ts": 1792015240,
   "error": null,
-  "markets_scanned": 3845,
-  "candidates": 56,
+  "markets_scanned": 3855,
+  "candidates": 66,
   "rejections": {
-   "too little volume": 3584,
-   "no favorite in 80-95c band": 176,
-   "spread too wide": 29
+   "too little volume": 3591,
+   "no favorite in 80-95c band": 182,
+   "spread too wide": 15,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -4604,69 +4610,69 @@
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 8213.41,
-    "score": 0.6654
+    "score": 0.666
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.22,
-    "volume_24h": 17713.85,
-    "score": 0.6633
+    "hours_to_close": 18.97,
+    "volume_24h": 17774.55,
+    "score": 0.6641
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.22,
+    "hours_to_close": 18.97,
     "volume_24h": 21293.7,
-    "score": 0.6533
+    "score": 0.6541
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.24,
-    "volume_24h": 2926.04,
-    "score": 0.5864
+    "hours_to_close": 30.99,
+    "volume_24h": 2957.04,
+    "score": 0.5871
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 1048.48,
-    "score": 0.583
+    "score": 0.5833
    },
    {
     "label": "Will the maximum temperature be >54\u00b0 on Oct 15, 2026? \u2014 55\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 977.34,
-    "score": 0.5778
+    "score": 0.5781
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.24,
-    "volume_24h": 2433.94,
-    "score": 0.5762
+    "hours_to_close": 33.99,
+    "volume_24h": 2443.94,
+    "score": 0.5766
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 15, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.24,
-    "volume_24h": 1544.27,
-    "score": 0.5756
+    "hours_to_close": 30.99,
+    "volume_24h": 1547.27,
+    "score": 0.576
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

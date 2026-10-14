@@ -103,7 +103,7 @@
    "opened_ts": 1791871272,
    "close_ts": 1791954000.0,
    "score": 0.5921,
-   "mark_price": 0.99
+   "mark_price": 0.98
   },
   {
    "id": 60,
@@ -151,7 +151,7 @@
    "opened_ts": 1791893748,
    "close_ts": 1791980940.0,
    "score": 0.5995,
-   "mark_price": 0.87
+   "mark_price": 0.88
   },
   {
    "id": 63,
@@ -167,7 +167,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.88
+   "mark_price": 0.86
   },
   {
    "id": 64,
@@ -200,7 +200,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -3827,17 +3827,23 @@
    1791938756,
    103.8,
    103.5
+  ],
+  [
+   1791939656,
+   103.8,
+   103.47
   ]
  ],
  "last_run": {
-  "ts": 1791938756,
+  "ts": 1791939656,
   "error": null,
   "markets_scanned": 4007,
-  "candidates": 79,
+  "candidates": 78,
   "rejections": {
    "too little volume": 3669,
-   "no favorite in 80-95c band": 239,
-   "spread too wide": 19,
+   "no favorite in 80-95c band": 236,
+   "spread too wide": 22,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -3845,72 +3851,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.23,
-    "volume_24h": 5414.66,
-    "score": 0.6401
-   },
-   {
     "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.23,
+    "price": 0.95,
+    "hours_to_close": 19.98,
     "volume_24h": 3934.84,
-    "score": 0.6397
+    "score": 0.6504
    },
    {
-    "label": "Will the gold close price be above 4047 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4047",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.23,
-    "volume_24h": 4072.0,
-    "score": 0.6308
-   },
-   {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.23,
-    "volume_24h": 3891.95,
-    "score": 0.6293
+    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.98,
+    "volume_24h": 5001.89,
+    "score": 0.6375
    },
    {
     "label": "Will the copper close price be above 6.72 USD/Lbs on October 14, 2026 at 5:00 PM EDT? \u2014 Above $6.72",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 20.23,
+    "hours_to_close": 19.98,
     "volume_24h": 5785.91,
-    "score": 0.6222
+    "score": 0.623
    },
    {
-    "label": "Will the gold close price be above 4057 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4057",
-    "side": "yes",
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $85,250 or above",
+    "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.23,
-    "volume_24h": 4016.57,
-    "score": 0.6103
+    "hours_to_close": 19.98,
+    "volume_24h": 5420.66,
+    "score": 0.6209
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $82,000 or above",
+    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 20.23,
-    "volume_24h": 35733.47,
-    "score": 0.61
+    "price": 0.92,
+    "hours_to_close": 19.98,
+    "volume_24h": 3927.18,
+    "score": 0.6204
    },
    {
-    "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,750 or above",
+    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Oct 14, 2026? \u2014 Above $92.49",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 20.23,
-    "volume_24h": 3884.84,
-    "score": 0.6093
+    "price": 0.95,
+    "hours_to_close": 17.48,
+    "volume_24h": 911.56,
+    "score": 0.6114
+   },
+   {
+    "label": "Will it rain in Lexington on Oct 14, 2026?",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 27.98,
+    "volume_24h": 3290.11,
+    "score": 0.6056
+   },
+   {
+    "label": "Will the gold close price be above 4067 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4067",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 19.98,
+    "volume_24h": 2484.0,
+    "score": 0.6055
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

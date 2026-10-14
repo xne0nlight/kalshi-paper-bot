@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.41,
- "fees_paid": 1.4,
- "peak_equity": 106.57,
+ "cash": 66.77,
+ "fees_paid": 1.43,
+ "peak_equity": 106.87,
  "day": "2026-10-14",
  "day_start_equity": 103.8,
- "next_id": 80,
+ "next_id": 82,
  "open_positions": [
   {
    "id": 63,
@@ -89,7 +89,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -117,61 +117,6 @@
      "ts": 1791990935,
      "bid": 0.78,
      "proceeds": 2.3
-    }
-   }
-  },
-  {
-   "id": 69,
-   "ticker": "KXGOLDD-26OCT1417-T4277",
-   "event_ticker": "KXGOLDD-26OCT1417",
-   "series": "KXGOLDD",
-   "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791940558,
-   "close_ts": 1792011600.0,
-   "score": 0.6512,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 70,
-   "ticker": "KXBTCD-26OCT1417-T81499.99",
-   "event_ticker": "KXBTCD-26OCT1417",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791948654,
-   "close_ts": 1792011600.0,
-   "score": 0.6552,
-   "mark_price": 0.86,
-   "shadow": {
-    "10": {
-     "ts": 1791983734,
-     "bid": 0.81,
-     "proceeds": 2.39
-    },
-    "15": {
-     "ts": 1791986441,
-     "bid": 0.78,
-     "proceeds": 2.3
-    },
-    "20": {
-     "ts": 1791987336,
-     "bid": 0.74,
-     "proceeds": 2.17
-    },
-    "30": {
-     "ts": 1791989137,
-     "bid": 0.62,
-     "proceeds": 1.81
     }
    }
   },
@@ -206,7 +151,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -261,7 +206,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -329,6 +274,40 @@
    "opened_ts": 1792005332,
    "close_ts": 1792130400.0,
    "score": 0.5515,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 80,
+   "ticker": "KXBTCD-26OCT1517-T78999.99",
+   "event_ticker": "KXBTCD-26OCT1517",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1792012534,
+   "close_ts": 1792098000.0,
+   "score": 0.6642,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 81,
+   "ticker": "KXHIGHLAX-26OCT15-B85.5",
+   "event_ticker": "KXHIGHLAX-26OCT15",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1792012534,
+   "close_ts": 1792137600.0,
+   "score": 0.5755,
    "mark_price": 0.91,
    "shadow": {}
   }
@@ -1614,6 +1593,69 @@
    "pnl": 0.36,
    "result": "NO",
    "closed_ts": 1792005332,
+   "won": true
+  },
+  {
+   "id": 69,
+   "ticker": "KXGOLDD-26OCT1417-T4277",
+   "event_ticker": "KXGOLDD-26OCT1417",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 4277 USD/t.oz on October 14, 2026 at 5:00 PM EDT? \u2014 Above $4277",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791940558,
+   "close_ts": 1792011600.0,
+   "score": 0.6512,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1792012534,
+   "won": true
+  },
+  {
+   "id": 70,
+   "ticker": "KXBTCD-26OCT1417-T81499.99",
+   "event_ticker": "KXBTCD-26OCT1417",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 14, 2026? \u2014 $81,500 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791948654,
+   "close_ts": 1792011600.0,
+   "score": 0.6552,
+   "shadow": {
+    "10": {
+     "ts": 1791983734,
+     "bid": 0.81,
+     "proceeds": 2.39
+    },
+    "15": {
+     "ts": 1791986441,
+     "bid": 0.78,
+     "proceeds": 2.3
+    },
+    "20": {
+     "ts": 1791987336,
+     "bid": 0.74,
+     "proceeds": 2.17
+    },
+    "30": {
+     "ts": 1791989137,
+     "bid": 0.62,
+     "proceeds": 1.81
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "YES",
+   "closed_ts": 1792012534,
    "won": true
   }
  ],
@@ -4527,90 +4569,103 @@
    1792011633,
    106.57,
    106.5
+  ],
+  [
+   1792012534,
+   106.87,
+   107.01
   ]
  ],
  "last_run": {
-  "ts": 1792011633,
+  "ts": 1792012534,
   "error": null,
   "markets_scanned": 3845,
-  "candidates": 47,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 3615,
-   "no favorite in 80-95c band": 165,
-   "spread too wide": 18
+   "too little volume": 3588,
+   "no favorite in 80-95c band": 178,
+   "spread too wide": 22
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   80,
+   81
+  ],
+  "settled": [
+   69,
+   70
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 8213.41,
+    "score": 0.6642
+   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 15, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.97,
-    "volume_24h": 3001.79,
-    "score": 0.6417
+    "hours_to_close": 19.72,
+    "volume_24h": 3398.82,
+    "score": 0.6465
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 19.97,
-    "volume_24h": 9735.29,
-    "score": 0.6
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,300 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 1170.41,
+    "score": 0.5908
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 2908.04,
-    "score": 0.5851
+    "hours_to_close": 31.74,
+    "volume_24h": 2912.04,
+    "score": 0.5855
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 19.72,
+    "volume_24h": 6936.97,
+    "score": 0.5797
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 918.38,
-    "score": 0.5775
+    "hours_to_close": 31.74,
+    "volume_24h": 923.38,
+    "score": 0.5781
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.99,
-    "volume_24h": 2423.08,
-    "score": 0.5751
-   },
-   {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 15, 2026? \u2014 74\u00b0 to 75\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 1134.73,
-    "score": 0.5644
-   },
-   {
-    "label": "Will the maximum temperature be 47-48\u00b0 on Oct 15, 2026? \u2014 47\u00b0 to 48\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 631.34,
-    "score": 0.5626
+    "hours_to_close": 34.74,
+    "volume_24h": 2431.82,
+    "score": 0.5755
    },
    {
     "label": "Once Caldas wins",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 28.49,
-    "volume_24h": 89954.66,
-    "score": 0.5609
+    "price": 0.86,
+    "hours_to_close": 28.24,
+    "volume_24h": 89140.46,
+    "score": 0.5713
    }
   ],
-  "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 5,
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
+  "watch_added": 12,
+  "watch_graded": 57,
   "api_calls": 43
  },
  "shadow_since": 1791904549

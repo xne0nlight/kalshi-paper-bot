@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 62.77,
+ "cash": 68.77,
  "fees_paid": 1.27,
  "peak_equity": 106.11,
  "day": "2026-10-14",
@@ -42,22 +42,6 @@
    "mark_price": 0.87
   },
   {
-   "id": 60,
-   "ticker": "KXCPICORE-26SEP-T0.3",
-   "event_ticker": "KXCPICORE-26SEP",
-   "series": "KXCPICORE",
-   "label": "Will CPI Core rise more than 0.3% in September? \u2014 Above 0.3%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791890152,
-   "close_ts": 1791980700.0,
-   "score": 0.6674,
-   "mark_price": 0.91
-  },
-  {
    "id": 61,
    "ticker": "KXCPI-26SEP-T0.4",
    "event_ticker": "KXCPI-26SEP",
@@ -74,22 +58,6 @@
    "mark_price": 0.9
   },
   {
-   "id": 62,
-   "ticker": "KXCPIYOY-26SEP-T3.5",
-   "event_ticker": "KXCPIYOY-26SEP",
-   "series": "KXCPIYOY",
-   "label": "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026? \u2014 Above 3.5%",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.88,
-   "fee": 0.03,
-   "cost": 2.67,
-   "opened_ts": 1791893748,
-   "close_ts": 1791980940.0,
-   "score": 0.5995,
-   "mark_price": 0.86
-  },
-  {
    "id": 63,
    "ticker": "KXWTI-26OCT1414-T96.99",
    "event_ticker": "KXWTI-26OCT1414",
@@ -103,7 +71,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.87
+   "mark_price": 0.9
   },
   {
    "id": 64,
@@ -119,7 +87,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1791997140.0,
    "score": 0.5286,
-   "mark_price": 0.75,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -170,7 +138,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -187,7 +155,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -221,7 +189,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -255,7 +223,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792080000.0,
    "score": 0.4656,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   }
  ],
@@ -1398,6 +1366,46 @@
    "pnl": 0.3,
    "result": "NO",
    "closed_ts": 1791976536,
+   "won": true
+  },
+  {
+   "id": 60,
+   "ticker": "KXCPICORE-26SEP-T0.3",
+   "event_ticker": "KXCPICORE-26SEP",
+   "series": "KXCPICORE",
+   "label": "Will CPI Core rise more than 0.3% in September? \u2014 Above 0.3%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791890152,
+   "close_ts": 1791980700.0,
+   "score": 0.6674,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1791982849,
+   "won": true
+  },
+  {
+   "id": 62,
+   "ticker": "KXCPIYOY-26SEP-T3.5",
+   "event_ticker": "KXCPIYOY-26SEP",
+   "series": "KXCPIYOY",
+   "label": "Will the rate of CPI inflation be above 3.5% for the year ending in September 2026? \u2014 Above 3.5%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.88,
+   "fee": 0.03,
+   "cost": 2.67,
+   "opened_ts": 1791893748,
+   "close_ts": 1791980940.0,
+   "score": 0.5995,
+   "payout": 3.0,
+   "pnl": 0.33,
+   "result": "YES",
+   "closed_ts": 1791982849,
    "won": true
   }
  ],
@@ -4151,50 +4159,58 @@
    1791981933,
    104.62,
    103.36
+  ],
+  [
+   1791982849,
+   105.09,
+   104.38
   ]
  ],
  "last_run": {
-  "ts": 1791981933,
+  "ts": 1791982849,
   "error": null,
   "markets_scanned": 345,
   "candidates": 3,
   "rejections": {
-   "too little volume": 312,
-   "no favorite in 80-95c band": 25,
+   "too little volume": 313,
+   "no favorite in 80-95c band": 24,
    "spread too wide": 5
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   60,
+   62
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.66,
-    "volume_24h": 741.87,
-    "score": 0.5761
-   },
-   {
-    "label": "Solary wins",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 27.24,
-    "volume_24h": 984.96,
-    "score": 0.4777
+    "hours_to_close": 23.4,
+    "volume_24h": 751.87,
+    "score": 0.5772
    },
    {
     "label": "Anubis Gaming wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 27.24,
-    "volume_24h": 1144.43,
-    "score": 0.4726
+    "hours_to_close": 26.99,
+    "volume_24h": 1171.37,
+    "score": 0.5238
+   },
+   {
+    "label": "Solary wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 984.96,
+    "score": 0.4782
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 8,
   "api_calls": 42
  },
  "shadow_since": 1791904549

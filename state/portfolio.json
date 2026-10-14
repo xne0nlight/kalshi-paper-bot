@@ -135,7 +135,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.93
+   "mark_price": 0.92
   },
   {
    "id": 64,
@@ -219,7 +219,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -253,7 +253,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -4044,18 +4044,22 @@
    1791970245,
    104.18,
    104.04
+  ],
+  [
+   1791971134,
+   104.18,
+   103.95
   ]
  ],
  "last_run": {
-  "ts": 1791970245,
+  "ts": 1791971134,
   "error": null,
   "markets_scanned": 695,
-  "candidates": 29,
+  "candidates": 35,
   "rejections": {
    "too little volume": 448,
-   "no favorite in 80-95c band": 190,
-   "spread too wide": 25,
-   "nothing for sale at the ask": 2,
+   "no favorite in 80-95c band": 188,
+   "spread too wide": 23,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -4063,68 +4067,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
+    "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.49,
-    "volume_24h": 2847.87,
-    "score": 0.6215
+    "hours_to_close": 19.24,
+    "volume_24h": 4394.44,
+    "score": 0.6364
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 14, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 19.49,
-    "volume_24h": 7843.78,
-    "score": 0.6145
+    "hours_to_close": 19.24,
+    "volume_24h": 7865.47,
+    "score": 0.6154
+   },
+   {
+    "label": "Will it rain in Boston on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 19.24,
+    "volume_24h": 10026.45,
+    "score": 0.6132
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 14, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 5791.23,
-    "score": 0.6115
+    "score": 0.6122
    },
    {
-    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
+    "label": "Will the maximum temperature be 75-76\u00b0 on Oct 14, 2026? \u2014 75\u00b0 to 76\u00b0",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 20.49,
-    "volume_24h": 12126.89,
-    "score": 0.6093
+    "price": 0.93,
+    "hours_to_close": 21.24,
+    "volume_24h": 2227.89,
+    "score": 0.6082
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Oct 14, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 20.49,
-    "volume_24h": 4925.37,
-    "score": 0.6062
+    "hours_to_close": 20.24,
+    "volume_24h": 4988.67,
+    "score": 0.6074
    },
    {
-    "label": "Will the maximum temperature be 82-83\u00b0 on Oct 14, 2026? \u2014 82\u00b0 to 83\u00b0",
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 14, 2026? \u2014 77\u00b0 to 78\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 929.95,
-    "score": 0.592
+    "price": 0.92,
+    "hours_to_close": 19.24,
+    "volume_24h": 1992.55,
+    "score": 0.6007
    },
    {
-    "label": "Will it rain in Albuquerque on Oct 14, 2026?",
+    "label": "Will the maximum temperature be <81\u00b0 on Oct 14, 2026? \u2014 80\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 2589.47,
-    "score": 0.5824
-   },
-   {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 14, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.49,
-    "volume_24h": 960.43,
-    "score": 0.5774
+    "hours_to_close": 19.24,
+    "volume_24h": 779.64,
+    "score": 0.6001
    }
   ],
   "skipped": {},

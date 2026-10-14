@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.05,
- "fees_paid": 1.37,
- "peak_equity": 106.11,
+ "cash": 66.19,
+ "fees_paid": 1.38,
+ "peak_equity": 106.21,
  "day": "2026-10-14",
  "day_start_equity": 103.8,
- "next_id": 78,
+ "next_id": 79,
  "open_positions": [
   {
    "id": 63,
@@ -26,23 +26,6 @@
    "mark_price": 0.97
   },
   {
-   "id": 64,
-   "ticker": "KXTRUMPAPPROVE-26OCT14-E38.3",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT14",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.83,
-   "fee": 0.03,
-   "cost": 2.52,
-   "opened_ts": 1791910870,
-   "close_ts": 1791997140.0,
-   "score": 0.5286,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 65,
    "ticker": "KXHIGHTBOS-26OCT14-B79.5",
    "event_ticker": "KXHIGHTBOS-26OCT14",
@@ -56,7 +39,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
-   "mark_price": 0.76,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1791996348,
@@ -123,7 +106,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.94,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1791990935,
@@ -168,7 +151,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.78,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -223,7 +206,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792080000.0,
    "score": 0.4656,
-   "mark_price": 0.89,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -240,7 +223,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -257,7 +240,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.52,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -295,7 +278,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -330,6 +313,23 @@
    "close_ts": 1792126800.0,
    "score": 0.5465,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 78,
+   "ticker": "KXTRUMPAPPROVE-26OCT15-E38.4",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT15",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791998131,
+   "close_ts": 1792083540.0,
+   "score": 0.5881,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -1572,6 +1572,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1791988261,
+   "won": true
+  },
+  {
+   "id": 64,
+   "ticker": "KXTRUMPAPPROVE-26OCT14-E38.3",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT14",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 14, 2026? \u2014 38.3%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.83,
+   "fee": 0.03,
+   "cost": 2.52,
+   "opened_ts": 1791910870,
+   "close_ts": 1791997140.0,
+   "score": 0.5286,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.48,
+   "result": "NO",
+   "closed_ts": 1791998131,
    "won": true
   }
  ],
@@ -4405,95 +4426,99 @@
    1791997238,
    105.73,
    104.79
+  ],
+  [
+   1791998131,
+   106.21,
+   105.09
   ]
  ],
  "last_run": {
-  "ts": 1791997238,
+  "ts": 1791998131,
   "error": null,
   "markets_scanned": 453,
-  "candidates": 20,
+  "candidates": 19,
   "rejections": {
-   "too little volume": 362,
-   "no favorite in 80-95c band": 63,
-   "spread too wide": 8
+   "too little volume": 358,
+   "no favorite in 80-95c band": 65,
+   "spread too wide": 11
   },
   "opened": [
-   76,
-   77
+   78
   ],
-  "settled": [],
+  "settled": [
+   64
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Anubis Gaming wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.99,
-    "volume_24h": 7043.45,
-    "score": 0.621
-   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.97,
-    "volume_24h": 689.19,
-    "score": 0.583
+    "hours_to_close": 23.72,
+    "volume_24h": 793.09,
+    "score": 0.5881
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 733.86,
-    "score": 0.565
-   },
-   {
-    "label": "Once Caldas wins",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 32.49,
-    "volume_24h": 83816.72,
-    "score": 0.5646
+    "score": 0.5653
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 23.97,
-    "volume_24h": 3790.04,
-    "score": 0.5485
+    "hours_to_close": 23.72,
+    "volume_24h": 3967.73,
+    "score": 0.5505
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 1044.8,
-    "score": 0.5465
+    "hours_to_close": 35.74,
+    "volume_24h": 1112.8,
+    "score": 0.5488
    },
    {
-    "label": "Solary wins",
+    "label": "Once Caldas wins",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 32.24,
+    "volume_24h": 84395.39,
+    "score": 0.5349
+   },
+   {
+    "label": "Will the maximum temperature be <68\u00b0 on Oct 15, 2026? \u2014 67\u00b0 or below",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 299.0,
+    "score": 0.5261
+   },
+   {
+    "label": "Will it rain in Indianapolis on Oct 15, 2026?",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 22.99,
-    "volume_24h": 4028.56,
-    "score": 0.5228
+    "price": 0.89,
+    "hours_to_close": 35.74,
+    "volume_24h": 666.74,
+    "score": 0.5022
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 15, 2026? \u2014 Above $97.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.49,
+    "hours_to_close": 25.24,
     "volume_24h": 290.0,
-    "score": 0.5015
+    "score": 0.502
    }
   ],
-  "skipped": {
-   "related-market cap (Presidential approval)": 2
-  },
-  "watch_added": 10,
-  "watch_graded": 6,
+  "skipped": {},
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

@@ -135,7 +135,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.92
+   "mark_price": 0.91
   },
   {
    "id": 64,
@@ -4049,90 +4049,94 @@
    1791971134,
    104.18,
    103.95
+  ],
+  [
+   1791972049,
+   104.18,
+   103.92
   ]
  ],
  "last_run": {
-  "ts": 1791971134,
+  "ts": 1791972049,
   "error": null,
-  "markets_scanned": 695,
-  "candidates": 35,
+  "markets_scanned": 553,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 448,
-   "no favorite in 80-95c band": 188,
-   "spread too wide": 23,
-   "favorite is slipping fast": 1
+   "too little volume": 386,
+   "no favorite in 80-95c band": 129,
+   "spread too wide": 17
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be >90\u00b0 on Oct 14, 2026? \u2014 91\u00b0 or above",
+    "label": "Will it rain in Milwaukee on Oct 14, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 19.24,
-    "volume_24h": 4394.44,
-    "score": 0.6364
-   },
-   {
-    "label": "Will the maximum temperature be 80-81\u00b0 on Oct 14, 2026? \u2014 80\u00b0 to 81\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 19.24,
-    "volume_24h": 7865.47,
-    "score": 0.6154
-   },
-   {
-    "label": "Will it rain in Boston on Oct 14, 2026?",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 19.24,
-    "volume_24h": 10026.45,
-    "score": 0.6132
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 14, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.24,
-    "volume_24h": 5791.23,
-    "score": 0.6122
+    "price": 0.95,
+    "hours_to_close": 19.99,
+    "volume_24h": 11875.87,
+    "score": 0.6808
    },
    {
     "label": "Will the maximum temperature be 75-76\u00b0 on Oct 14, 2026? \u2014 75\u00b0 to 76\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.24,
-    "volume_24h": 2227.89,
-    "score": 0.6082
+    "hours_to_close": 20.99,
+    "volume_24h": 2274.86,
+    "score": 0.6096
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Oct 14, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 20.24,
-    "volume_24h": 4988.67,
-    "score": 0.6074
+    "hours_to_close": 19.99,
+    "volume_24h": 5060.99,
+    "score": 0.6086
    },
    {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 14, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "label": "Will the maximum temperature be 82-83\u00b0 on Oct 14, 2026? \u2014 82\u00b0 to 83\u00b0",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.24,
-    "volume_24h": 1992.55,
-    "score": 0.6007
+    "price": 0.94,
+    "hours_to_close": 19.99,
+    "volume_24h": 929.95,
+    "score": 0.5935
    },
    {
-    "label": "Will the maximum temperature be <81\u00b0 on Oct 14, 2026? \u2014 80\u00b0 or below",
+    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 14, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 779.64,
-    "score": 0.6001
+    "hours_to_close": 21.99,
+    "volume_24h": 728.01,
+    "score": 0.5897
+   },
+   {
+    "label": "Will it rain in Albuquerque on Oct 14, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 2602.88,
+    "score": 0.584
+   },
+   {
+    "label": "Will the maximum temperature be 95-96\u00b0 on Oct 14, 2026? \u2014 95\u00b0 to 96\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 19.99,
+    "volume_24h": 830.14,
+    "score": 0.5698
+   },
+   {
+    "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 26.4,
+    "volume_24h": 713.87,
+    "score": 0.5689
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

@@ -89,7 +89,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -151,7 +151,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.57,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -206,7 +206,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792080000.0,
    "score": 0.4656,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -223,7 +223,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.85,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -295,7 +295,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.565,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -4451,17 +4451,22 @@
    1792001730,
    106.21,
    105.42
+  ],
+  [
+   1792002645,
+   106.21,
+   105.3
   ]
  ],
  "last_run": {
-  "ts": 1792001730,
+  "ts": 1792002645,
   "error": null,
   "markets_scanned": 558,
-  "candidates": 32,
+  "candidates": 29,
   "rejections": {
-   "too little volume": 412,
-   "no favorite in 80-95c band": 108,
-   "spread too wide": 5,
+   "too little volume": 409,
+   "no favorite in 80-95c band": 112,
+   "spread too wide": 7,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -4469,72 +4474,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Solary wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 11396.26,
-    "score": 0.6757
-   },
-   {
-    "label": "Anubis Gaming wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 22782.12,
-    "score": 0.6257
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.72,
-    "volume_24h": 1187.42,
-    "score": 0.6037
+    "hours_to_close": 22.47,
+    "volume_24h": 1203.05,
+    "score": 0.6048
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.72,
+    "hours_to_close": 22.47,
     "volume_24h": 4251.99,
-    "score": 0.5853
+    "score": 0.5859
+   },
+   {
+    "label": "Will it rain in Newark on Oct 15, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.49,
+    "volume_24h": 843.67,
+    "score": 0.5714
    },
    {
     "label": "Will it rain in Minneapolis on Oct 15, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 615.16,
-    "score": 0.5595
+    "score": 0.5598
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 1188.65,
-    "score": 0.5522
+    "score": 0.5525
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 15, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 1130.06,
-    "score": 0.5493
+    "score": 0.5496
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 22.72,
-    "volume_24h": 1368.5,
-    "score": 0.5383
+    "hours_to_close": 22.47,
+    "volume_24h": 1384.5,
+    "score": 0.5394
+   },
+   {
+    "label": "Will the maximum temperature be >66\u00b0 on Oct 15, 2026? \u2014 67\u00b0 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.49,
+    "volume_24h": 1957.25,
+    "score": 0.5375
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

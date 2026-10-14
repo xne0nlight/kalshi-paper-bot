@@ -39,7 +39,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1791997140.0,
    "score": 0.5286,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -107,7 +107,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1791990935,
@@ -152,7 +152,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.58,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -190,7 +190,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -207,7 +207,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792080000.0,
    "score": 0.4656,
-   "mark_price": 0.89,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -224,7 +224,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -4292,16 +4292,21 @@
    1791992745,
    105.73,
    105.06
+  ],
+  [
+   1791993651,
+   105.73,
+   105.03
   ]
  ],
  "last_run": {
-  "ts": 1791992745,
+  "ts": 1791993651,
   "error": null,
-  "markets_scanned": 344,
-  "candidates": 8,
+  "markets_scanned": 334,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 281,
-   "no favorite in 80-95c band": 47,
+   "too little volume": 283,
+   "no favorite in 80-95c band": 37,
    "spread too wide": 8
   },
   "opened": [],
@@ -4309,75 +4314,58 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Anubis Gaming wins",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 24.24,
-    "volume_24h": 1773.88,
-    "score": 0.5631
+    "price": 0.95,
+    "hours_to_close": 24.97,
+    "volume_24h": 689.19,
+    "score": 0.5807
    },
    {
-    "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 14, 2026 be above 56.2%? \u2014 Above 56.2%",
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 1814.0,
-    "score": 0.5488
-   },
-   {
-    "label": "Solary wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 24.24,
-    "volume_24h": 3022.61,
-    "score": 0.5405
-   },
-   {
-    "label": "Once Caldas wins",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 33.74,
-    "volume_24h": 78616.64,
-    "score": 0.5028
+    "price": 0.83,
+    "hours_to_close": 24.97,
+    "volume_24h": 3066.9,
+    "score": 0.5093
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 25.22,
-    "volume_24h": 1050.99,
-    "score": 0.4939
+    "hours_to_close": 24.97,
+    "volume_24h": 1059.84,
+    "score": 0.4947
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 25.22,
-    "volume_24h": 3027.06,
-    "score": 0.4684
+    "label": "Solary wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 23.99,
+    "volume_24h": 3238.21,
+    "score": 0.4733
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 15, 2026? \u2014 Above $96.49",
+    "label": "Once Caldas wins",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 26.74,
-    "volume_24h": 388.0,
-    "score": 0.4484
+    "price": 0.85,
+    "hours_to_close": 33.49,
+    "volume_24h": 78916.82,
+    "score": 0.4532
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.81,
-    "hours_to_close": 25.22,
-    "volume_24h": 862.5,
-    "score": 0.4475
+    "hours_to_close": 24.97,
+    "volume_24h": 930.82,
+    "score": 0.4505
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 3,
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Presidential approval)": 4
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -39,7 +39,7 @@
    "opened_ts": 1791910870,
    "close_ts": 1792040400.0,
    "score": 0.5197,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1791996348,
@@ -106,7 +106,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1791990935,
@@ -151,7 +151,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.49,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -206,7 +206,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792080000.0,
    "score": 0.4656,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -223,7 +223,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -240,7 +240,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.75,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -4446,17 +4446,22 @@
    1792000838,
    106.21,
    105.04
+  ],
+  [
+   1792001730,
+   106.21,
+   105.42
   ]
  ],
  "last_run": {
-  "ts": 1792000838,
+  "ts": 1792001730,
   "error": null,
-  "markets_scanned": 559,
-  "candidates": 27,
+  "markets_scanned": 558,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 418,
-   "no favorite in 80-95c band": 102,
-   "spread too wide": 11,
+   "too little volume": 412,
+   "no favorite in 80-95c band": 108,
+   "spread too wide": 5,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -4464,72 +4469,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Solary wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 11396.26,
+    "score": 0.6757
+   },
+   {
+    "label": "Anubis Gaming wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 22782.12,
+    "score": 0.6257
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.97,
+    "hours_to_close": 22.72,
     "volume_24h": 1187.42,
-    "score": 0.6031
+    "score": 0.6037
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.97,
+    "hours_to_close": 22.72,
     "volume_24h": 4251.99,
-    "score": 0.5846
-   },
-   {
-    "label": "Once Caldas wins",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 31.49,
-    "volume_24h": 84856.58,
-    "score": 0.576
-   },
-   {
-    "label": "Anubis Gaming wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.99,
-    "volume_24h": 18429.32,
-    "score": 0.565
+    "score": 0.5853
    },
    {
     "label": "Will it rain in Minneapolis on Oct 15, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 604.68,
-    "score": 0.5587
-   },
-   {
-    "label": "Solary wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.99,
-    "volume_24h": 8095.22,
-    "score": 0.5581
+    "hours_to_close": 35.74,
+    "volume_24h": 615.16,
+    "score": 0.5595
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.99,
-    "volume_24h": 1122.8,
-    "score": 0.55
+    "hours_to_close": 34.74,
+    "volume_24h": 1188.65,
+    "score": 0.5522
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 15, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 1129.06,
-    "score": 0.549
+    "hours_to_close": 35.74,
+    "volume_24h": 1130.06,
+    "score": 0.5493
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 22.72,
+    "volume_24h": 1368.5,
+    "score": 0.5383
    }
   ],
   "skipped": {},
-  "watch_added": 10,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

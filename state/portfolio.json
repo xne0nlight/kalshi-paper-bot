@@ -90,7 +90,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -107,8 +107,19 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.88,
-   "shadow": {}
+   "mark_price": 0.78,
+   "shadow": {
+    "10": {
+     "ts": 1791990935,
+     "bid": 0.78,
+     "proceeds": 2.3
+    },
+    "15": {
+     "ts": 1791990935,
+     "bid": 0.78,
+     "proceeds": 2.3
+    }
+   }
   },
   {
    "id": 69,
@@ -141,7 +152,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.62,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -179,7 +190,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -213,7 +224,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -230,7 +241,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.87,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -4266,70 +4277,90 @@
    1791989137,
    105.73,
    104.87
+  ],
+  [
+   1791990935,
+   105.73,
+   104.93
   ]
  ],
  "last_run": {
-  "ts": 1791989137,
+  "ts": 1791990935,
   "error": null,
-  "markets_scanned": 368,
-  "candidates": 5,
+  "markets_scanned": 344,
+  "candidates": 7,
   "rejections": {
-   "too little volume": 314,
+   "too little volume": 285,
    "no favorite in 80-95c band": 43,
-   "spread too wide": 6
+   "spread too wide": 9
   },
-  "opened": [
-   74
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 14, 2026 be above 56.2%? \u2014 Above 56.2%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 23.24,
-    "volume_24h": 1784.0,
-    "score": 0.5457
-   },
-   {
     "label": "Once Caldas wins",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 34.74,
-    "volume_24h": 77532.91,
-    "score": 0.5415
-   },
-   {
-    "label": "Anubis Gaming wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.24,
-    "volume_24h": 1586.26,
-    "score": 0.5173
+    "price": 0.86,
+    "hours_to_close": 34.24,
+    "volume_24h": 78217.65,
+    "score": 0.5622
    },
    {
     "label": "Solary wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 25.24,
-    "volume_24h": 1346.7,
-    "score": 0.5119
+    "hours_to_close": 24.74,
+    "volume_24h": 2922.61,
+    "score": 0.5383
+   },
+   {
+    "label": "Anubis Gaming wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 24.74,
+    "volume_24h": 1629.04,
+    "score": 0.5192
+   },
+   {
+    "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 14, 2026 be above 56.2%? \u2014 Above 56.2%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 1814.0,
+    "score": 0.4975
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 15, 2026? \u2014 Above $96.49",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.74,
-    "volume_24h": 323.0,
-    "score": 0.4305
+    "price": 0.94,
+    "hours_to_close": 27.24,
+    "volume_24h": 388.0,
+    "score": 0.4474
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 15, 2026? \u2014 38.8%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 25.72,
+    "volume_24h": 248.31,
+    "score": 0.436
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.8 on Oct 15, 2026? \u2014 Above 38.8%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 25.72,
+    "volume_24h": 1627.22,
+    "score": 0.4271
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 1,
+   "related-market cap (Presidential approval)": 2
   },
   "watch_added": 2,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549

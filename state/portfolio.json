@@ -151,7 +151,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -257,7 +257,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.81,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -319,7 +319,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -4625,17 +4625,22 @@
    1792019732,
    106.87,
    106.47
+  ],
+  [
+   1792020631,
+   106.87,
+   106.53
   ]
  ],
  "last_run": {
-  "ts": 1792019732,
+  "ts": 1792020631,
   "error": null,
   "markets_scanned": 3865,
   "candidates": 70,
   "rejections": {
-   "too little volume": 3573,
-   "no favorite in 80-95c band": 200,
-   "spread too wide": 22
+   "too little volume": 3572,
+   "no favorite in 80-95c band": 204,
+   "spread too wide": 19
   },
   "opened": [],
   "settled": [],
@@ -4645,69 +4650,69 @@
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 8898.54,
-    "score": 0.6619
+    "score": 0.6626
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 17.47,
+    "volume_24h": 28127.09,
+    "score": 0.6395
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 17.47,
+    "volume_24h": 16396.66,
+    "score": 0.6195
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.49,
+    "volume_24h": 1388.37,
+    "score": 0.6121
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.49,
+    "volume_24h": 2200.03,
+    "score": 0.6071
    },
    {
     "label": "Will the 10Y U.S. Treasury yield be above 5.27% on Oct 15, 2026? \u2014 5.28% or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.24,
+    "hours_to_close": 19.99,
     "volume_24h": 799.95,
-    "score": 0.5978
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.74,
-    "volume_24h": 2128.03,
-    "score": 0.5953
-   },
-   {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 15, 2026? \u2014 74\u00b0 to 75\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.74,
-    "volume_24h": 1845.87,
-    "score": 0.5937
+    "score": 0.5986
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 29.74,
-    "volume_24h": 3244.89,
-    "score": 0.5921
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.72,
-    "volume_24h": 16199.95,
-    "score": 0.5885
+    "hours_to_close": 29.49,
+    "volume_24h": 3259.89,
+    "score": 0.5927
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.74,
-    "volume_24h": 1152.28,
-    "score": 0.5884
-   },
-   {
-    "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.74,
-    "volume_24h": 2534.1,
-    "score": 0.5795
+    "hours_to_close": 29.49,
+    "volume_24h": 1164.28,
+    "score": 0.5892
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

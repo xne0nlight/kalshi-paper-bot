@@ -103,7 +103,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.83
+   "mark_price": 0.79
   },
   {
    "id": 64,
@@ -187,7 +187,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.9,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -4121,56 +4121,63 @@
    1791976536,
    104.62,
    103.66
+  ],
+  [
+   1791977439,
+   104.62,
+   103.72
   ]
  ],
  "last_run": {
-  "ts": 1791976536,
+  "ts": 1791977439,
   "error": null,
   "markets_scanned": 344,
-  "candidates": 3,
+  "candidates": 4,
   "rejections": {
    "too little volume": 313,
    "no favorite in 80-95c band": 24,
-   "spread too wide": 4
+   "spread too wide": 3
   },
-  "opened": [
-   71,
-   72
-  ],
-  "settled": [
-   57,
-   59
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.16,
+    "hours_to_close": 24.91,
     "volume_24h": 713.87,
-    "score": 0.5715
+    "score": 0.572
+   },
+   {
+    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 15, 2026 be above 7.40%? \u2014 Above 7.40%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 28.47,
+    "volume_24h": 547.06,
+    "score": 0.4863
    },
    {
     "label": "Anubis Gaming wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 28.74,
-    "volume_24h": 1366.63,
-    "score": 0.4656
+    "hours_to_close": 28.49,
+    "volume_24h": 1029.5,
+    "score": 0.4569
    },
    {
     "label": "Solary wins",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 28.74,
-    "volume_24h": 753.06,
-    "score": 0.4063
+    "hours_to_close": 28.49,
+    "volume_24h": 778.06,
+    "score": 0.4078
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 18,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549

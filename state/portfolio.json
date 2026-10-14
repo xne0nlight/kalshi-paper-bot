@@ -89,7 +89,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -151,7 +151,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.75,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -206,7 +206,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -223,7 +223,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.83,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -312,7 +312,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -4497,91 +4497,95 @@
    1792006234,
    106.57,
    105.82
+  ],
+  [
+   1792007130,
+   106.57,
+   105.73
   ]
  ],
  "last_run": {
-  "ts": 1792006234,
+  "ts": 1792007130,
   "error": null,
-  "markets_scanned": 658,
+  "markets_scanned": 656,
   "candidates": 37,
   "rejections": {
-   "too little volume": 485,
-   "no favorite in 80-95c band": 126,
-   "spread too wide": 8,
-   "nothing for sale at the ask": 2
+   "too little volume": 479,
+   "no favorite in 80-95c band": 127,
+   "spread too wide": 13
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.47,
-    "volume_24h": 1515.8,
-    "score": 0.615
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.47,
-    "volume_24h": 4251.99,
-    "score": 0.5886
+    "price": 0.92,
+    "hours_to_close": 33.24,
+    "volume_24h": 2639.65,
+    "score": 0.5801
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.49,
-    "volume_24h": 847.57,
-    "score": 0.5728
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 15, 2026? \u2014 Above $96.49",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.99,
-    "volume_24h": 980.5,
-    "score": 0.5568
-   },
-   {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 33.49,
-    "volume_24h": 1227.65,
-    "score": 0.5549
+    "hours_to_close": 33.24,
+    "volume_24h": 850.69,
+    "score": 0.5733
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 15, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 1163.23,
-    "score": 0.5518
+    "score": 0.5521
    },
    {
     "label": "Will the maximum temperature be >54\u00b0 on Oct 15, 2026? \u2014 55\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 454.44,
-    "score": 0.55
+    "score": 0.5503
    },
    {
-    "label": "Once Caldas wins",
+    "label": "Will the maximum temperature be 47-48\u00b0 on Oct 15, 2026? \u2014 47\u00b0 to 48\u00b0",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 29.99,
-    "volume_24h": 86947.37,
-    "score": 0.5483
+    "price": 0.93,
+    "hours_to_close": 35.24,
+    "volume_24h": 600.97,
+    "score": 0.5394
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 15, 2026? \u2014 Above $91.49",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 22.74,
+    "volume_24h": 735.0,
+    "score": 0.5381
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.23,
+    "volume_24h": 3894.87,
+    "score": 0.5364
+   },
+   {
+    "label": "Will it rain in Denver on Oct 15, 2026?",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 35.24,
+    "volume_24h": 1858.75,
+    "score": 0.5361
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549

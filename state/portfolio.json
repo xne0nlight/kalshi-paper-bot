@@ -151,7 +151,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -168,7 +168,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.76,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -206,7 +206,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -257,7 +257,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.97,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -4574,99 +4574,96 @@
    1792012534,
    106.87,
    107.01
+  ],
+  [
+   1792013438,
+   106.87,
+   106.85
   ]
  ],
  "last_run": {
-  "ts": 1792012534,
+  "ts": 1792013438,
   "error": null,
-  "markets_scanned": 3845,
-  "candidates": 57,
+  "markets_scanned": 3849,
+  "candidates": 58,
   "rejections": {
    "too little volume": 3588,
    "no favorite in 80-95c band": 178,
-   "spread too wide": 22
+   "spread too wide": 25
   },
-  "opened": [
-   80,
-   81
-  ],
-  "settled": [
-   69,
-   70
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 8213.41,
-    "score": 0.6642
+    "score": 0.6648
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 15, 2026? \u2014 38.7%",
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.72,
-    "volume_24h": 3398.82,
-    "score": 0.6465
+    "hours_to_close": 19.47,
+    "volume_24h": 7209.65,
+    "score": 0.6218
    },
    {
     "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,300 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 1170.41,
-    "score": 0.5908
+    "price": 0.95,
+    "hours_to_close": 23.49,
+    "volume_24h": 1580.89,
+    "score": 0.6112
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.74,
-    "volume_24h": 2912.04,
-    "score": 0.5855
+    "hours_to_close": 31.49,
+    "volume_24h": 2926.04,
+    "score": 0.586
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
+    "label": "Once Caldas wins",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.72,
-    "volume_24h": 6936.97,
-    "score": 0.5797
+    "price": 0.87,
+    "hours_to_close": 27.99,
+    "volume_24h": 88504.84,
+    "score": 0.5818
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 923.38,
-    "score": 0.5781
+    "score": 0.5785
    },
    {
-    "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
+    "label": "Will the maximum temperature be >54\u00b0 on Oct 15, 2026? \u2014 55\u00b0 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.74,
-    "volume_24h": 2431.82,
-    "score": 0.5755
+    "price": 0.95,
+    "hours_to_close": 33.49,
+    "volume_24h": 974.34,
+    "score": 0.5774
    },
    {
-    "label": "Once Caldas wins",
+    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 15, 2026? \u2014 Above $96.99",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 28.24,
-    "volume_24h": 89140.46,
-    "score": 0.5713
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 446.16,
+    "score": 0.5766
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 1
-  },
-  "watch_added": 12,
-  "watch_graded": 57,
-  "api_calls": 43
+  "skipped": {},
+  "watch_added": 3,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549
 }

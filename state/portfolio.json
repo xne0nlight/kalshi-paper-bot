@@ -151,7 +151,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.85,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -297,7 +297,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -4600,18 +4600,22 @@
    1792016131,
    106.87,
    106.62
+  ],
+  [
+   1792017032,
+   106.87,
+   106.47
   ]
  ],
  "last_run": {
-  "ts": 1792016131,
+  "ts": 1792017032,
   "error": null,
   "markets_scanned": 3865,
-  "candidates": 72,
+  "candidates": 67,
   "rejections": {
-   "too little volume": 3586,
-   "no favorite in 80-95c band": 187,
-   "spread too wide": 19,
-   "nothing for sale at the ask": 1
+   "too little volume": 3582,
+   "no favorite in 80-95c band": 192,
+   "spread too wide": 24
   },
   "opened": [],
   "settled": [],
@@ -4620,70 +4624,70 @@
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 22.74,
+    "price": 0.94,
+    "hours_to_close": 22.49,
     "volume_24h": 8264.41,
-    "score": 0.6669
+    "score": 0.6575
    },
    {
     "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,300 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.74,
-    "volume_24h": 1596.79,
-    "score": 0.6133
+    "hours_to_close": 22.49,
+    "volume_24h": 1654.79,
+    "score": 0.6151
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 2045.64,
-    "score": 0.6014
+    "score": 0.602
+   },
+   {
+    "label": "Will the 10Y U.S. Treasury yield be above 5.27% on Oct 15, 2026? \u2014 5.28% or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 799.95,
+    "score": 0.5956
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.74,
-    "volume_24h": 3060.81,
-    "score": 0.5886
+    "hours_to_close": 30.49,
+    "volume_24h": 3212.89,
+    "score": 0.5906
    },
    {
     "label": "Will it rain in Newark on Oct 15, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 1048.48,
-    "score": 0.5837
+    "score": 0.5841
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 15, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 1813.47,
-    "score": 0.5816
-   },
-   {
-    "label": "Will the maximum temperature be >54\u00b0 on Oct 15, 2026? \u2014 55\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.74,
-    "volume_24h": 988.34,
-    "score": 0.5789
+    "hours_to_close": 30.49,
+    "volume_24h": 1824.47,
+    "score": 0.5822
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.74,
-    "volume_24h": 2453.94,
-    "score": 0.5771
+    "hours_to_close": 33.49,
+    "volume_24h": 2485.94,
+    "score": 0.5779
    }
   ],
   "skipped": {},
-  "watch_added": 8,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

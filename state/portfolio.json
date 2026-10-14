@@ -55,7 +55,7 @@
    "opened_ts": 1791900947,
    "close_ts": 1792002600.0,
    "score": 0.5434,
-   "mark_price": 0.92
+   "mark_price": 0.93
   },
   {
    "id": 64,
@@ -122,7 +122,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792044000.0,
    "score": 0.5821,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -139,7 +139,7 @@
    "opened_ts": 1791926145,
    "close_ts": 1792040400.0,
    "score": 0.5812,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -173,7 +173,7 @@
    "opened_ts": 1791948654,
    "close_ts": 1792011600.0,
    "score": 0.6552,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1791983734,
@@ -196,7 +196,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.93,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -4201,69 +4201,64 @@
    1791984639,
    105.31,
    105.1
+  ],
+  [
+   1791985534,
+   105.31,
+   104.98
   ]
  ],
  "last_run": {
-  "ts": 1791984639,
+  "ts": 1791985534,
   "error": null,
-  "markets_scanned": 359,
-  "candidates": 5,
+  "markets_scanned": 357,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 310,
-   "no favorite in 80-95c band": 34,
-   "spread too wide": 10
+   "too little volume": 308,
+   "no favorite in 80-95c band": 33,
+   "spread too wide": 12
   },
-  "opened": [
-   73
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.91,
-    "volume_24h": 751.87,
-    "score": 0.5784
+    "label": "Solary wins",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 26.24,
+    "volume_24h": 1334.26,
+    "score": 0.5496
    },
    {
     "label": "Once Caldas wins",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 35.99,
-    "volume_24h": 75425.31,
-    "score": 0.54
+    "hours_to_close": 35.74,
+    "volume_24h": 76175.15,
+    "score": 0.5403
    },
    {
     "label": "Anubis Gaming wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 26.49,
-    "volume_24h": 1249.87,
-    "score": 0.5269
-   },
-   {
-    "label": "Solary wins",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 26.49,
-    "volume_24h": 986.96,
-    "score": 0.4792
+    "hours_to_close": 26.24,
+    "volume_24h": 1349.87,
+    "score": 0.5299
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 15, 2026? \u2014 Above $96.99",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 28.99,
+    "price": 0.94,
+    "hours_to_close": 28.74,
     "volume_24h": 340.33,
-    "score": 0.47
+    "score": 0.4404
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

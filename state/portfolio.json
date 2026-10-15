@@ -342,8 +342,29 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.89,
-   "shadow": {}
+   "mark_price": 0.31,
+   "shadow": {
+    "10": {
+     "ts": 1792053938,
+     "bid": 0.31,
+     "proceeds": 0.88
+    },
+    "15": {
+     "ts": 1792053938,
+     "bid": 0.31,
+     "proceeds": 0.88
+    },
+    "20": {
+     "ts": 1792053938,
+     "bid": 0.31,
+     "proceeds": 0.88
+    },
+    "30": {
+     "ts": 1792053938,
+     "bid": 0.31,
+     "proceeds": 0.88
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -4874,17 +4895,22 @@
    1792053039,
    106.89,
    105.57
+  ],
+  [
+   1792053938,
+   106.89,
+   103.83
   ]
  ],
  "last_run": {
-  "ts": 1792053039,
+  "ts": 1792053938,
   "error": null,
   "markets_scanned": 3941,
   "candidates": 16,
   "rejections": {
-   "too little volume": 3435,
-   "no favorite in 80-95c band": 387,
-   "spread too wide": 103
+   "too little volume": 3438,
+   "no favorite in 80-95c band": 383,
+   "spread too wide": 104
   },
   "opened": [],
   "settled": [],
@@ -4894,65 +4920,65 @@
     "label": "Will it rain in College Station on Oct 15, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 5701.2,
-    "score": 0.6481
+    "score": 0.6488
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 6476.04,
-    "score": 0.6451
+    "score": 0.6459
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 15, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 5001.22,
-    "score": 0.6367
+    "score": 0.6375
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 29.47,
+    "hours_to_close": 29.22,
     "volume_24h": 3265.33,
-    "score": 0.6028
+    "score": 0.6032
    },
    {
     "label": "Will it rain in Austin on Oct 15, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 3409.84,
-    "score": 0.5914
+    "score": 0.5921
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 15, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 1380.04,
-    "score": 0.5619
+    "score": 0.5626
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 23.49,
+    "hours_to_close": 23.24,
     "volume_24h": 7342.56,
-    "score": 0.5612
+    "score": 0.5618
    },
    {
     "label": "Will the maximum temperature be 92-93\u00b0 on Oct 15, 2026? \u2014 92\u00b0 to 93\u00b0",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 2092.4,
-    "score": 0.5555
+    "score": 0.5562
    }
   ],
   "skipped": {},

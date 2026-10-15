@@ -6,7 +6,7 @@
  "fees_paid": 1.58,
  "peak_equity": 107.76,
  "day": "2026-10-15",
- "day_start_equity": 106.87,
+ "day_start_equity": 107.76,
  "next_id": 90,
  "open_positions": [
   {
@@ -23,7 +23,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.82,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792044059,
@@ -125,7 +125,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -158,7 +158,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.81,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -198,7 +198,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.61,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -325,7 +325,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.6,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -5184,99 +5184,106 @@
    1792074643,
    107.76,
    106.13
+  ],
+  [
+   1792075539,
+   107.76,
+   106.85
   ]
  ],
  "last_run": {
-  "ts": 1792074643,
+  "ts": 1792075539,
   "error": null,
   "markets_scanned": 1693,
-  "candidates": 31,
+  "candidates": 33,
   "rejections": {
-   "too little volume": 1496,
-   "no favorite in 80-95c band": 132,
-   "spread too wide": 33,
-   "favorite is slipping fast": 1
+   "too little volume": 1498,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 34
   },
-  "opened": [
-   89
-  ],
-  "settled": [
-   74
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 18879.7,
-    "score": 0.6376
-   },
-   {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 46081.77,
-    "score": 0.6376
+    "price": 0.95,
+    "hours_to_close": 30.24,
+    "volume_24h": 45982.77,
+    "score": 0.6579
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,500 or above",
     "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 30.24,
+    "volume_24h": 9567.93,
+    "score": 0.6365
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.24,
+    "volume_24h": 4885.67,
+    "score": 0.6346
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
+    "side": "no",
     "price": 0.91,
-    "hours_to_close": 30.49,
-    "volume_24h": 9439.41,
-    "score": 0.6157
+    "hours_to_close": 30.24,
+    "volume_24h": 18386.23,
+    "score": 0.6179
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 23.47,
+    "hours_to_close": 23.22,
     "volume_24h": 3305.83,
-    "score": 0.6152
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 30.49,
-    "volume_24h": 13672.03,
-    "score": 0.6076
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 30.49,
-    "volume_24h": 13121.05,
-    "score": 0.5776
+    "score": 0.6158
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 30.49,
-    "volume_24h": 16340.56,
-    "score": 0.5776
+    "price": 0.9,
+    "hours_to_close": 30.24,
+    "volume_24h": 16344.56,
+    "score": 0.6079
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
+    "label": "Will the WTI crude oil settlement price be between 91.00 and 91.99 USD/Bbl on Oct 16, 2026? \u2014 $91.00 to $91.99",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 30.49,
-    "volume_24h": 48121.45,
-    "score": 0.5576
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 935.41,
+    "score": 0.5851
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 30.24,
+    "volume_24h": 13423.05,
+    "score": 0.5779
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 16,
-   "related-market cap (Oil prices)": 9
+   "related-market cap (Crypto)": 14,
+   "related-market cap (Oil prices)": 10,
+   "tracked only (below bet price floor)": 5
   },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 2,
   "api_calls": 42
  },
- "shadow_since": 1791904549
+ "shadow_since": 1791904549,
+ "phase": {
+  "name": "Week 2: 6% bets, 85-95\u00a2 only",
+  "start_ts": 1792075539,
+  "start_equity": 106.13,
+  "start_book": 107.76
+ }
 }

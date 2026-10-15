@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 33.75,
- "fees_paid": 1.87,
- "peak_equity": 108.26,
+ "cash": 31.03,
+ "fees_paid": 1.89,
+ "peak_equity": 108.4,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 97,
+ "next_id": 98,
  "open_positions": [
   {
    "id": 76,
@@ -59,39 +59,6 @@
    "score": 0.5515,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 80,
-   "ticker": "KXBTCD-26OCT1517-T78999.99",
-   "event_ticker": "KXBTCD-26OCT1517",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1792012534,
-   "close_ts": 1792098000.0,
-   "score": 0.6642,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792031438,
-     "bid": 0.82,
-     "proceeds": 2.42
-    },
-    "15": {
-     "ts": 1792048535,
-     "bid": 0.68,
-     "proceeds": 1.99
-    },
-    "20": {
-     "ts": 1792048535,
-     "bid": 0.68,
-     "proceeds": 1.99
-    }
-   }
   },
   {
    "id": 81,
@@ -251,7 +218,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.97,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -339,8 +306,14 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.93,
-   "shadow": {}
+   "mark_price": 0.82,
+   "shadow": {
+    "10": {
+     "ts": 1792098929,
+     "bid": 0.82,
+     "proceeds": 4.85
+    }
+   }
   },
   {
    "id": 91,
@@ -407,7 +380,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.65,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -458,6 +431,23 @@
    "close_ts": 1792169940.0,
    "score": 0.5713,
    "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 97,
+   "ticker": "KXBTCD-26OCT1617-T79499.99",
+   "event_ticker": "KXBTCD-26OCT1617",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792098929,
+   "close_ts": 1792184400.0,
+   "score": 0.6706,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -2079,6 +2069,43 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1792084532,
+   "won": true
+  },
+  {
+   "id": 80,
+   "ticker": "KXBTCD-26OCT1517-T78999.99",
+   "event_ticker": "KXBTCD-26OCT1517",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1792012534,
+   "close_ts": 1792098000.0,
+   "score": 0.6642,
+   "shadow": {
+    "10": {
+     "ts": 1792031438,
+     "bid": 0.82,
+     "proceeds": 2.42
+    },
+    "15": {
+     "ts": 1792048535,
+     "bid": 0.68,
+     "proceeds": 1.99
+    },
+    "20": {
+     "ts": 1792048535,
+     "bid": 0.68,
+     "proceeds": 1.99
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "YES",
+   "closed_ts": 1792098929,
    "won": true
   }
  ],
@@ -5472,92 +5499,100 @@
    1792098035,
    108.26,
    104.56
+  ],
+  [
+   1792098929,
+   108.4,
+   104.53
   ]
  ],
  "last_run": {
-  "ts": 1792098035,
+  "ts": 1792098929,
   "error": null,
   "markets_scanned": 4894,
-  "candidates": 66,
+  "candidates": 69,
   "rejections": {
-   "too little volume": 4481,
-   "no favorite in 80-95c band": 299,
-   "spread too wide": 45,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 4480,
+   "no favorite in 80-95c band": 298,
+   "spread too wide": 44,
+   "favorite is slipping fast": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   97
+  ],
+  "settled": [
+   80
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 12796.86,
+    "score": 0.6706
+   },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 13363.08,
-    "score": 0.66
+    "hours_to_close": 23.74,
+    "volume_24h": 14363.08,
+    "score": 0.6606
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.97,
+    "hours_to_close": 30.73,
     "volume_24h": 14098.91,
-    "score": 0.6568
+    "score": 0.6572
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.99,
+    "hours_to_close": 23.74,
     "volume_24h": 6417.31,
-    "score": 0.6356
+    "score": 0.6362
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 3224.71,
-    "score": 0.6332
+    "hours_to_close": 23.74,
+    "volume_24h": 3296.71,
+    "score": 0.6345
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 23.74,
+    "volume_24h": 4873.07,
+    "score": 0.6272
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.99,
-    "volume_24h": 30564.48,
-    "score": 0.62
+    "hours_to_close": 23.74,
+    "volume_24h": 31159.73,
+    "score": 0.6206
    },
    {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 23.99,
-    "volume_24h": 4836.06,
-    "score": 0.6164
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 11093.5,
-    "score": 0.61
-   },
-   {
-    "label": "Will it rain in Seattle on Oct 16, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.99,
-    "volume_24h": 3522.04,
-    "score": 0.6073
+    "price": 0.9,
+    "hours_to_close": 23.74,
+    "volume_24h": 127887.54,
+    "score": 0.6206
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 5,
+  "watch_graded": 74,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

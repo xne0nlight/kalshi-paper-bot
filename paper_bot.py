@@ -56,13 +56,21 @@ def update_watchlist(api, watch, candidates, now_ts):
     entries = watch.setdefault("entries", {})
     added = 0
     for c in candidates:
+        e = entries.get(c["ticker"])
+        if e is not None:
+            # still qualifies: remember its most recent price, so we can later
+            # compare "price when first seen" vs "price near the close"
+            if e["won"] is None and e["side"] == c["side"]:
+                e["last_price"], e["last_ts"] = c["price"], round(now_ts)
+            continue
         if added >= config.WATCHLIST_MAX_ADDS_PER_RUN:
-            break
-        if c["ticker"] in entries:
             continue
         entries[c["ticker"]] = {
             "side": c["side"], "price": c["price"], "series": c["series"],
             "seen_ts": round(now_ts), "close_ts": c["close_ts"], "won": None,
+            # extra detail for slicing results (volume, spread, topic)
+            "vol24": round(c["volume_24h"]), "spread": c["spread"],
+            "group": c.get("group"), "label": c["label"][:140],
         }
         added += 1
 
@@ -92,6 +100,7 @@ def run_cycle(api, now_ts=None, state_dir=config.STATE_DIR, report_path=config.R
     state = portfolio.load_state(state_dir, now_ts)
     watch = portfolio.load_json(watch_path, {"entries": {}})
     portfolio.roll_day(state, now_ts)
+    portfolio.update_phase(state, now_ts)
     state.setdefault("shadow_since", round(now_ts))  # when shadow stop tracking began
 
     run = {"ts": round(now_ts), "error": None, "markets_scanned": 0, "candidates": 0,

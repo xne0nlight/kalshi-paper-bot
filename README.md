@@ -16,7 +16,9 @@ So every 15 minutes the bot:
 
 1. Looks at markets closing in the next 15 min – 36 hours.
 2. Keeps only liquid ones (≥200 contracts traded/day, spread ≤3¢) where one side
-   costs **80–95¢**, and skips favorites whose price is sliding.
+   costs **80–95¢**, and skips favorites whose price is sliding. All of these are
+   tracked for the evidence table, but only **85–95¢** favorites are bet (week 1
+   showed the 80–85¢ band losing after fees).
 3. Ranks them by how trustworthy the price is (close to settlement, heavily
    traded, tight spread).
 4. Buys the favorite with small, capped bets and holds until Kalshi settles it.
@@ -33,16 +35,23 @@ bets. The bot is built to answer exactly that.
 
 | Rule | Default | Why |
 |---|---|---|
-| Max per bet | 3% of account | One loss can't hurt much |
-| Max in play | 60% of account | Always keeps 40% cash |
+| Max per bet | 6% of account (week 1: 3%) | A loss costs ~6%; a win pays ~0.5% |
+| Max in play | 90% of account (week 1: 60%) | Keeps idle cash working; 10% stays in reserve |
+| Max open bets | 20 (week 1: 15) | |
 | One bet per event | — | Related markets (e.g. temperature strikes) move together |
 | Max 2 bets per series | — | No piling into one city / league |
 | Max 1 bet per related group | — | CPI, Core CPI and CPI-YoY are separate series but one report decides them all. Groups (inflation, oil, crypto, Fed…) are keyword patterns in `config.py` |
-| Daily stop | −8% | Stops new bets for the rest of the UTC day |
-| Drawdown brake | −20% from peak | Stops new bets until you review |
+| Daily stop | −15% (week 1: −8%) | Stops new bets for the rest of the UTC day |
+| Drawdown brake | −35% from peak (week 1: −20%) | Stops new bets until you review |
 
-Simulated weeks (fake markets, see below) showed 3% sizing roughly halved the
-swings compared with 5% while keeping most of the upside.
+**Experiment phases:** `PHASE_NAME` in `config.py` labels the current settings.
+Change it whenever you change the strategy; the dashboard's **This phase** card
+then scores the new settings on their own, and the chart marks when they began.
+Brakes reset at the start of each phase.
+
+Week 2 simulation (bets drawn from week 1's real prices): about **+8.5%** in a
+week if week 1's edge was real, about **−3%** if prices are simply fair, and
+roughly 1 week in 11 ending down 20%+ in the no-edge case.
 
 ## Shadow stop-loss (logging only)
 

@@ -17,21 +17,31 @@ EXCLUDE_TICKER_PREFIXES = [    # series to ignore entirely
     "KXMVE",                   # multi-leg combos / parlays
 ]
 
+# --- Experiment label ---------------------------------------------------------
+# Change this whenever you change the strategy. The dashboard then tracks
+# results since the change separately, so each experiment gets a clean score.
+PHASE_NAME = "Week 2: 6% bets, 85-95¢ only"
+
 # --- What counts as a "good bet" --------------------------------------------
-MIN_PRICE = 0.80               # only buy strong favorites...
+MIN_PRICE = 0.80               # markets 80-95c are TRACKED for the evidence table...
+BET_MIN_PRICE = 0.85           # ...but only 85c+ are BET. Week 1: 80-85c favorites won 77%
+                               # vs 82.5% needed (-6.4c per $ staked), the worst band.
 MAX_PRICE = 0.95               # ...but not so expensive that fees + one loss wipe out the gain
 MAX_ALL_IN_COST = 0.965        # price + fee per contract; guarantees a win pays >= ~3.5 cents
 MAX_DAILY_DROP = 0.06          # skip a favorite whose price fell > 6 cents vs a day ago
 
-# --- Risk management (the "conservative" part) ------------------------------
-RISK_PER_TRADE = 0.03          # max 3% of the account on one bet. In simulated weeks, 5%
-                               # roughly doubled the swings for only a bit more upside.
-MAX_TOTAL_EXPOSURE = 0.60      # keep at least 40% of the account in cash
-MAX_OPEN_POSITIONS = 15
+# --- Risk management ----------------------------------------------------------
+# Week 2 ramp-up. Week 1 (3% bets, 60% max in play) sat on ~$68 of idle cash and
+# skipped qualified markets because all 15 slots were full. Simulated week at these
+# settings: about +8.5% if last week's results reflect a real edge, about -3% if
+# prices are simply fair; roughly 1 week in 11 ends down 20%+ in the no-edge case.
+RISK_PER_TRADE = 0.06          # max 6% of the account on one bet (~$0.45 win / ~$6.40 loss)
+MAX_TOTAL_EXPOSURE = 0.90      # keep at least 10% of the account in cash
+MAX_OPEN_POSITIONS = 20
 MAX_POSITIONS_PER_SERIES = 2   # e.g. no more than 2 bets on the same weather city / league
-MAX_NEW_TRADES_PER_RUN = 3     # spread entries out over time
-DAILY_STOP_LOSS = 0.08         # stop opening bets for the rest of the UTC day if down 8% today
-MAX_DRAWDOWN_HALT = 0.20       # stop opening bets entirely if 20% below the account's peak
+MAX_NEW_TRADES_PER_RUN = 5     # spread entries out over time
+DAILY_STOP_LOSS = 0.15         # stop opening bets for the rest of the UTC day if down 15% today
+MAX_DRAWDOWN_HALT = 0.35       # stop opening bets entirely if 35% below the account's peak
 
 # --- Related-market cap --------------------------------------------------------
 # Kalshi files closely linked markets under different series (CPI, Core CPI and

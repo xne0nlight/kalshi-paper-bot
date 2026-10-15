@@ -189,7 +189,9 @@ class TestCycle(Base):
         self.add_basket()
         os.makedirs(self.state_dir, exist_ok=True)
         st = portfolio.new_state(NOW)
-        st["cash"] = 90.0  # pretend we lost $10 today
+        st["cash"] = 80.0  # pretend we lost $20 today (past the 15% daily stop)
+        st["phase"] = {"name": config.PHASE_NAME, "start_ts": NOW - 3600,
+                       "start_equity": 100.0, "start_book": 100.0}
         portfolio.save_state(st, self.state_dir)
         self.run_cycle(NOW)
         st = self.state()
@@ -303,8 +305,9 @@ class TestNewRiskFeatures(Base):
         sh = st["open_positions"][0]["shadow"]
         self.assertEqual(sorted(sh), ["10", "15"])            # 20c and 30c not reached
         self.assertAlmostEqual(sh["10"]["bid"], 0.74)
+        n = pos["contracts"]
         self.assertAlmostEqual(sh["10"]["proceeds"],
-                               3 * 0.74 - strategy.taker_fee(3, 0.74), places=4)
+                               n * 0.74 - strategy.taker_fee(n, 0.74), places=4)
 
         self.api.set_quote(t, 0.40, 0.42)                     # falls further to 58c
         self.run_cycle(NOW + 1800)
@@ -355,6 +358,78 @@ class TestNewRiskFeatures(Base):
         st = self.state()
         self.assertNotIn("shadow", st["open_positions"][0])   # untracked, not mis-counted
         self.assertIn("shadow_since", st)
+
+
+class TestWeek2Changes(Base):
+    def test_80_85c_tracked_but_not_bet(self):
+        self.api.add("KXLOW-26OCT15-A", NOW + 5 * H, 0.81, 0.82)   # 82c: track only
+        self.api.add("KXOK-26OCT15-A", NOW + 5 * H, 0.87, 0.88)    # 88c: bet
+        self.run_cycle(NOW)
+        st = self.state()
+        self.assertEqual([p["ticker"] for p in st["open_positions"]], ["KXOK-26OCT15-A"])
+        watch = portfolio.load_json(os.path.join(self.state_dir, "watchlist.json"), {})
+        self.assertIn("KXLOW-26OCT15-A", watch["entries"])           # evidence still collected
+        self.assertEqual(st["last_run"]["skipped"], {"tracked only (below bet price floor)": 1})
+
+    def test_bet_size_and_exposure_at_new_settings(self):
+        for i in range(30):
+            self.api.add(f"KXS{i}-26OCT15-A", NOW + 5 * H, 0.89, 0.90)
+        for k in range(10):
+            self.run_cycle(NOW + k * 900)
+        st = self.state()
+        costs = [p["cost"] for p in st["open_positions"]]
+        self.assertTrue(all(c <= 100 * config.RISK_PER_TRADE + 1e-9 for c in costs))
+        self.assertGreater(max(costs), 100 * config.RISK_PER_TRADE * 0.85)   # actually ~6%
+        self.assertLessEqual(sum(costs), 100 * config.MAX_TOTAL_EXPOSURE + 1e-9)
+        self.assertGreater(sum(costs), 100 * config.MAX_TOTAL_EXPOSURE * 0.9)  # cash put to work
+
+    def test_phase_starts_once_and_restarts_on_rename(self):
+        self.api.add("KXA-26OCT15-A", NOW + 5 * H, 0.89, 0.90)
+        self.run_cycle(NOW)
+        self.run_cycle(NOW + 900)
+        st = self.state()
+        self.assertEqual(st["phase"]["name"], config.PHASE_NAME)
+        self.assertEqual(st["phase"]["start_ts"], NOW)               # not reset on later runs
+        self.api.settle("KXA-26OCT15-A", "yes")
+        self.run_cycle(NOW + 6 * H)
+        ph = portfolio.phase_stats(self.state())
+        self.assertEqual((ph["wins"], ph["losses"]), (1, 0))
+        self.assertGreater(ph["pnl"], 0)
+
+        self.cfg(PHASE_NAME="Week 3: something new")
+        self.run_cycle(NOW + 7 * H)
+        st = self.state()
+        self.assertEqual(st["phase"]["name"], "Week 3: something new")
+        self.assertEqual(st["past_phases"][0]["name"], self._saved["PHASE_NAME"])
+        self.assertEqual(len(st["past_phases"]), 1)
+        self.assertEqual(portfolio.phase_stats(st)["wins"], 0)       # fresh scoreboard
+        with open(self.report, encoding="utf-8") as f:
+            page = f.read()
+        self.assertIn("This phase", page)
+        self.assertIn("Week 3: something new", page)
+
+    def test_old_week1_state_upgrades_cleanly(self):
+        # a state file exactly like week 1's: no phase, positions without new fields
+        st = portfolio.new_state(NOW - 7 * 86400)
+        st["peak_equity"] = 107.65
+        portfolio.save_state(st, self.state_dir)
+        self.api.add("KXA-26OCT15-A", NOW + 5 * H, 0.89, 0.90)
+        self.assertTrue(self.run_cycle(NOW))
+        st = self.state()
+        self.assertEqual(st["phase"]["start_ts"], NOW)
+        self.assertEqual(len(st["open_positions"]), 1)
+
+    def test_watchlist_records_detail_and_latest_price(self):
+        t = "KXW-26OCT15-A"
+        self.api.add(t, NOW + 20 * H, 0.89, 0.90, vol24=5000, title="Will gold close above 4000?")
+        self.run_cycle(NOW)
+        self.api.set_quote(t, 0.92, 0.93)
+        self.run_cycle(NOW + 900)
+        e = portfolio.load_json(os.path.join(self.state_dir, "watchlist.json"), {})["entries"][t]
+        self.assertEqual((e["price"], e["last_price"]), (0.90, 0.93))
+        self.assertEqual(e["vol24"], 5000)
+        self.assertEqual(e["group"], "Precious metals")
+        self.assertIn("gold", e["label"])
 
 
 if __name__ == "__main__":

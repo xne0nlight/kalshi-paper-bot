@@ -121,7 +121,7 @@ def shadow_stats(state):
 # ---------------------------------------------------------------------------
 # Equity chart (inline SVG, no libraries)
 # ---------------------------------------------------------------------------
-def equity_svg(history, start):
+def equity_svg(history, start, marker_ts=None):
     pts = [(t, mark) for t, _book, mark in history]
     if len(pts) < 2:
         return '<p class="muted chart-empty">The chart appears after the second run.</p>'
@@ -142,6 +142,14 @@ def equity_svg(history, start):
     line = " ".join(f"{x(t):.1f},{y(v):.1f}" for t, v in pts)
     area = f"{x(t0):.1f},{y(lo):.1f} {line} {x(t1):.1f},{y(lo):.1f}"
     up = pts[-1][1] >= start
+    marker = ""
+    if marker_ts and t0 < marker_ts <= t1:
+        mx = x(marker_ts)
+        near_right = mx > W - 140   # put the label on the left side of the line near the edge
+        lx, anchor = (mx - 6, "end") if near_right else (mx + 6, "start")
+        marker = (f'<line x1="{mx:.1f}" x2="{mx:.1f}" y1="{PY}" y2="{H - PY}" class="baseline"/>'
+                  f'<text x="{lx:.1f}" y="{PY + 12}" class="axis" text-anchor="{anchor}">'
+                  f'new settings</text>')
     grid = ""
     for frac in (0, 0.5, 1):
         v = lo + (hi - lo) * frac
@@ -150,7 +158,7 @@ def equity_svg(history, start):
                  f'${v:,.2f}</text>')
     return f"""
 <svg viewBox="0 0 {W} {H}" class="chart" role="img" aria-label="Account value over time">
-  {grid}
+  {grid}{marker}
   <line x1="{PX}" x2="{W - 12}" y1="{y(start):.1f}" y2="{y(start):.1f}" class="baseline"/>
   <text x="{PX + 8}" y="{y(start) - 6:.1f}" class="axis">start {money(start)}</text>
   <polygon points="{area}" class="area {'up' if up else 'down'}"/>
@@ -251,8 +259,15 @@ def build_html(state, watch, now_ts=None):
     if run.get("error"):
         alerts += f'<div class="alert err">Last run hit an error: {esc(run["error"])}</div>'
 
+    ph = portfolio.phase_stats(state)
+    phase_kpi = ""
+    if ph:
+        phase_kpi = (f'<div class="kpi"><div class="k">This phase</div>'
+                     f'<div class="v {tone(ph["pnl"])}">{signed(ph["pnl"])}</div>'
+                     f'<div class="s">{esc(ph["name"])} · {ph["wins"]}–{ph["losses"]} · '
+                     f'since {fmt_dt(ph["start_ts"])}</div></div>')
     kpis = f"""
-<div class="kpis">
+<div class="kpis">{phase_kpi}
   <div class="kpi"><div class="k">Account value</div><div class="v">{money(mark)}</div>
     <div class="s {tone(total_pnl)}">{signed(total_pnl)} ({total_pnl / start:+.1%})</div></div>
   <div class="kpi"><div class="k">Realized profit</div><div class="v {tone(realized)}">{signed(realized)}</div>
@@ -316,16 +331,20 @@ def build_html(state, watch, now_ts=None):
     sh_rows, sh_closed, sh_open = shadow_stats(state)
     sh_html = []
     for r in sh_rows:
-        pending = (f' <span class="muted">· {r["tripped_open"]} open bet'
-                   f'{"" if r["tripped_open"] == 1 else "s"} tripped</span>') if r["tripped_open"] else ""
+        # (kept free of nested f-strings so it runs on Python 3.10 as well as 3.12)
+        n_open = r["tripped_open"]
+        pending = ""
+        if n_open:
+            pending = ' <span class="muted">· %d open bet%s tripped</span>' % (n_open, "" if n_open == 1 else "s")
+        saved = ' <span class="up">(%s)</span>' % signed(r["saved"]) if r["helped"] else ""
+        cost = ' <span class="down">(%s)</span>' % signed(r["cost"]) if r["hurt"] else ""
+        net = signed(r["net"]) if r["fired"] else "—"
         sh_html.append(
             f'<tr><td>Sell if bid drops {r["drop"] * 100:.0f}¢{pending}</td>'
             f'<td class="num">{r["fired"]}</td>'
-            f'<td class="num">{r["helped"]}'
-            f'{f" <span class=up>({signed(r["saved"])})</span>" if r["helped"] else ""}</td>'
-            f'<td class="num">{r["hurt"]}'
-            f'{f" <span class=down>({signed(r["cost"])})</span>" if r["hurt"] else ""}</td>'
-            f'<td class="num {tone(r["net"])}">{signed(r["net"]) if r["fired"] else "—"}</td>'
+            f'<td class="num">{r["helped"]}{saved}</td>'
+            f'<td class="num">{r["hurt"]}{cost}</td>'
+            f'<td class="num {tone(r["net"])}">{net}</td>'
             f'<td class="num"><span class="pill {r["cls"]}">{r["verdict"]}</span></td></tr>')
     shadow_tbl = _table([("Rule", ""), ("Would have sold", "num"), ("Then lost (saved)", "num"),
                          ("Then won (cost)", "num"), ("Net vs holding", "num"), ("Verdict", "num")],
@@ -349,7 +368,9 @@ def build_html(state, watch, now_ts=None):
         f'<span class="muted">{cents(c["price"])} · {c["hours_to_close"]:.1f}h</span></li>'
         for c in run.get("top_candidates", [])) or '<li class="muted">No qualifying markets last scan.</li>'
 
-    cfg = (f"Bets {config.MIN_PRICE * 100:.0f}–{config.MAX_PRICE * 100:.0f}¢ favorites closing in "
+    bet_floor = getattr(config, "BET_MIN_PRICE", config.MIN_PRICE)
+    cfg = (f"Bets {bet_floor * 100:.0f}–{config.MAX_PRICE * 100:.0f}¢ favorites "
+           f"(tracks {config.MIN_PRICE * 100:.0f}¢+) closing in "
            f"{config.MIN_HOURS_TO_CLOSE * 60:.0f} min–{config.MAX_HOURS_TO_CLOSE}h · max "
            f"{config.RISK_PER_TRADE:.0%} per bet, {config.MAX_TOTAL_EXPOSURE:.0%} total in play · "
            f"max {config.MAX_POSITIONS_PER_GROUP} bet per related group · "
@@ -369,7 +390,7 @@ def build_html(state, watch, now_ts=None):
 </header>
 {alerts}
 {kpis}
-<section class="panel"><h2>Account value</h2>{equity_svg(state['equity_history'], start)}</section>
+<section class="panel"><h2>Account value</h2>{equity_svg(state['equity_history'], start, ph["start_ts"] if ph else None)}</section>
 <section class="panel"><h2>Is the edge real?</h2>
   <p class="muted" style="margin-top:-4px">Every market that passed the filters is tracked here,
   bet or not, and graded when it settles. Favorites must win more often than

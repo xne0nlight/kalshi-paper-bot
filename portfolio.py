@@ -121,6 +121,31 @@ def risk_halt_reason(state):
     return None
 
 
+def update_phase(state, now_ts):
+    """Start a new experiment phase whenever config.PHASE_NAME changes."""
+    name = getattr(config, "PHASE_NAME", "")
+    if not name or state.get("phase", {}).get("name") == name:
+        return
+    if state.get("phase"):
+        state.setdefault("past_phases", []).append(dict(state["phase"], end_ts=round(now_ts)))
+    state["phase"] = {"name": name, "start_ts": round(now_ts),
+                      "start_equity": mark_equity(state), "start_book": book_equity(state)}
+    # fresh brakes for the new experiment
+    state["peak_equity"] = book_equity(state)
+    state["day_start_equity"] = book_equity(state)
+
+
+def phase_stats(state):
+    ph = state.get("phase")
+    if not ph:
+        return None
+    closed = [p for p in state["closed_positions"] if p.get("opened_ts", 0) >= ph["start_ts"]]
+    wins = sum(1 for p in closed if p["pnl"] > 0)
+    return {"name": ph["name"], "start_ts": ph["start_ts"],
+            "pnl": mark_equity(state) - ph["start_equity"],
+            "start_equity": ph["start_equity"], "wins": wins, "losses": len(closed) - wins}
+
+
 def record_equity(state, now_ts):
     state["equity_history"].append([round(now_ts), book_equity(state), mark_equity(state)])
     state["equity_history"] = state["equity_history"][-5000:]
@@ -236,6 +261,9 @@ def place_trades(state, candidates, now_ts, log_path, skips=None):
             break
         if c["ticker"] in held_tickers or c["event_ticker"] in held_events:
             continue  # one bet per event: sibling markets move together
+        if c["price"] < getattr(config, "BET_MIN_PRICE", config.MIN_PRICE) - 1e-9:
+            skip("tracked only (below bet price floor)")
+            continue
         if per_series.get(c["series"], 0) >= config.MAX_POSITIONS_PER_SERIES:
             skip("series cap")
             continue

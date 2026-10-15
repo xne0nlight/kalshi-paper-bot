@@ -251,7 +251,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -289,7 +289,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -339,7 +339,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -407,7 +407,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -5416,18 +5416,23 @@
    1792090840,
    108.26,
    105.48
+  ],
+  [
+   1792091734,
+   108.26,
+   105.55
   ]
  ],
  "last_run": {
-  "ts": 1792090840,
+  "ts": 1792091734,
   "error": null,
   "markets_scanned": 1931,
-  "candidates": 54,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 1576,
-   "no favorite in 80-95c band": 261,
-   "spread too wide": 35,
-   "favorite is slipping fast": 5
+   "too little volume": 1569,
+   "no favorite in 80-95c band": 262,
+   "spread too wide": 41,
+   "favorite is slipping fast": 6
   },
   "opened": [],
   "settled": [],
@@ -5437,69 +5442,69 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 12846.28,
-    "score": 0.6656
+    "score": 0.6662
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 14200.47,
-    "score": 0.6656
+    "hours_to_close": 25.74,
+    "volume_24h": 13700.47,
+    "score": 0.6662
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.97,
+    "hours_to_close": 32.72,
     "volume_24h": 14098.91,
-    "score": 0.6539
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 10931.39,
-    "score": 0.6456
+    "score": 0.6542
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 108270.89,
-    "score": 0.6456
+    "hours_to_close": 25.74,
+    "volume_24h": 110456.34,
+    "score": 0.6462
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 25.74,
+    "volume_24h": 10931.39,
+    "score": 0.6362
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 5943.33,
-    "score": 0.6187
+    "score": 0.6192
    },
    {
-    "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Oct 16, 2026? \u2014 $93.00 to $93.99",
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.49,
-    "volume_24h": 2533.02,
-    "score": 0.6065
+    "price": 0.95,
+    "hours_to_close": 25.74,
+    "volume_24h": 2310.71,
+    "score": 0.6185
    },
    {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.99,
-    "volume_24h": 4012.22,
-    "score": 0.6059
+    "price": 0.9,
+    "hours_to_close": 25.74,
+    "volume_24h": 50354.6,
+    "score": 0.6162
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

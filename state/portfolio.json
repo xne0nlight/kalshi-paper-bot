@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 42.84,
- "fees_paid": 1.79,
+ "cash": 37.17,
+ "fees_paid": 1.82,
  "peak_equity": 108.12,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 95,
+ "next_id": 96,
  "open_positions": [
   {
    "id": 76,
@@ -135,7 +135,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.78,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -180,7 +180,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.09,
+   "mark_price": 0.06,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -218,7 +218,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.6077,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -235,7 +235,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.5167,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -307,7 +307,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -340,7 +340,7 @@
    "opened_ts": 1792074643,
    "close_ts": 1792202400.0,
    "score": 0.378,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -408,7 +408,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -425,7 +425,24 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
+   "shadow": {}
+  },
+  {
+   "id": 95,
+   "ticker": "KXRAIN-26OCT16-ATL",
+   "event_ticker": "KXRAIN-26OCT16",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Oct 16, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792083643,
+   "close_ts": 1792213200.0,
+   "score": 0.5582,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -5323,96 +5340,101 @@
    1792082737,
    108.12,
    105.17
+  ],
+  [
+   1792083643,
+   108.12,
+   105.1
   ]
  ],
  "last_run": {
-  "ts": 1792082737,
+  "ts": 1792083643,
   "error": null,
-  "markets_scanned": 1606,
-  "candidates": 29,
+  "markets_scanned": 1736,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 1394,
-   "no favorite in 80-95c band": 134,
-   "spread too wide": 47,
+   "too little volume": 1491,
+   "no favorite in 80-95c band": 162,
+   "spread too wide": 46,
    "favorite is slipping fast": 2
   },
-  "opened": [],
+  "opened": [
+   95
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 28.24,
-    "volume_24h": 17299.28,
-    "score": 0.6513
-   },
-   {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.22,
+    "hours_to_close": 34.97,
     "volume_24h": 14098.91,
-    "score": 0.6509
+    "score": 0.6513
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 10193.41,
-    "score": 0.6413
+    "score": 0.6418
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 17291.28,
+    "score": 0.6418
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 27.99,
+    "volume_24h": 5924.08,
+    "score": 0.6347
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.99,
+    "volume_24h": 15865.96,
+    "score": 0.6118
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 28.24,
-    "volume_24h": 102663.17,
-    "score": 0.6113
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.24,
-    "volume_24h": 17506.96,
-    "score": 0.6013
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 6776.08,
-    "score": 0.5987
+    "hours_to_close": 27.99,
+    "volume_24h": 103557.55,
+    "score": 0.6118
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 28.24,
+    "price": 0.89,
+    "hours_to_close": 27.99,
     "volume_24h": 20835.37,
-    "score": 0.5913
+    "score": 0.6018
    },
    {
     "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Oct 16, 2026? \u2014 $93.00 to $93.99",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.74,
-    "volume_24h": 2457.14,
-    "score": 0.5805
+    "hours_to_close": 25.49,
+    "volume_24h": 2468.25,
+    "score": 0.5811
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 12,
-   "related-market cap (Oil prices)": 6,
-   "related-market cap (Presidential approval)": 1,
-   "tracked only (below bet price floor)": 4
+   "related-market cap (Crypto)": 6,
+   "related-market cap (Oil prices)": 2
   },
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 6,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

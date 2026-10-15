@@ -151,7 +151,7 @@
    "opened_ts": 1791984639,
    "close_ts": 1792114200.0,
    "score": 0.54,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -168,7 +168,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -257,7 +257,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -302,7 +302,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -319,7 +319,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -4675,16 +4675,21 @@
    1792028731,
    106.87,
    106.44
+  ],
+  [
+   1792029636,
+   106.87,
+   106.51
   ]
  ],
  "last_run": {
-  "ts": 1792028731,
+  "ts": 1792029636,
   "error": null,
-  "markets_scanned": 3901,
-  "candidates": 82,
+  "markets_scanned": 4024,
+  "candidates": 77,
   "rejections": {
-   "too little volume": 3556,
-   "no favorite in 80-95c band": 232,
+   "too little volume": 3670,
+   "no favorite in 80-95c band": 246,
    "spread too wide": 28,
    "favorite is slipping fast": 2,
    "nothing for sale at the ask": 1
@@ -4694,72 +4699,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 9202.68,
-    "score": 0.6805
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 15.22,
-    "volume_24h": 17505.29,
-    "score": 0.6689
+    "hours_to_close": 14.97,
+    "volume_24h": 17991.95,
+    "score": 0.6701
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 15.22,
-    "volume_24h": 35490.31,
-    "score": 0.6689
+    "hours_to_close": 14.97,
+    "volume_24h": 35615.31,
+    "score": 0.6701
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 16.49,
+    "volume_24h": 15265.52,
+    "score": 0.6534
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.24,
+    "hours_to_close": 18.99,
     "volume_24h": 1806.88,
-    "score": 0.6275
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,750 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 19.24,
-    "volume_24h": 6125.8,
-    "score": 0.6272
+    "score": 0.6283
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.24,
-    "volume_24h": 2899.48,
-    "score": 0.6229
+    "hours_to_close": 18.99,
+    "volume_24h": 2929.48,
+    "score": 0.6241
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 16.74,
-    "volume_24h": 15265.52,
-    "score": 0.6123
+    "hours_to_close": 14.97,
+    "volume_24h": 29040.52,
+    "score": 0.6201
    },
    {
-    "label": "Will it rain in Newark on Oct 15, 2026?",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 18.99,
+    "volume_24h": 8691.3,
+    "score": 0.6195
+   },
+   {
+    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 15, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 1577.24,
-    "score": 0.603
+    "hours_to_close": 26.99,
+    "volume_24h": 2154.73,
+    "score": 0.6137
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

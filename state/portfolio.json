@@ -118,7 +118,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -196,7 +196,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.565,
-   "mark_price": 0.97,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -213,7 +213,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.5465,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -230,7 +230,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.89,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -275,7 +275,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -348,7 +348,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -4936,17 +4936,22 @@
    1792059334,
    106.89,
    106.77
+  ],
+  [
+   1792060232,
+   106.89,
+   106.59
   ]
  ],
  "last_run": {
-  "ts": 1792059334,
+  "ts": 1792060232,
   "error": null,
   "markets_scanned": 1627,
-  "candidates": 25,
+  "candidates": 26,
   "rejections": {
-   "too little volume": 1428,
-   "no favorite in 80-95c band": 130,
-   "spread too wide": 37,
+   "too little volume": 1429,
+   "no favorite in 80-95c band": 125,
+   "spread too wide": 40,
    "favorite is slipping fast": 7
   },
   "opened": [],
@@ -4954,72 +4959,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 34.74,
-    "volume_24h": 46598.92,
-    "score": 0.6515
-   },
-   {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.74,
-    "volume_24h": 32504.39,
-    "score": 0.6315
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 32514.22,
+    "score": 0.6419
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 46598.92,
+    "score": 0.6419
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 18498.04,
-    "score": 0.6215
+    "score": 0.6219
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 3635.91,
-    "score": 0.6186
+    "score": 0.6189
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 8733.9,
-    "score": 0.6071
+    "score": 0.6075
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.72,
+    "hours_to_close": 27.47,
     "volume_24h": 3265.33,
-    "score": 0.6058
+    "score": 0.6063
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 14828.01,
-    "score": 0.5715
+    "score": 0.5719
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.74,
-    "volume_24h": 54777.79,
-    "score": 0.5615
+    "price": 0.87,
+    "hours_to_close": 34.49,
+    "volume_24h": 56260.88,
+    "score": 0.5719
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

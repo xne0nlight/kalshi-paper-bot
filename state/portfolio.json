@@ -173,7 +173,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792044059,
@@ -230,7 +230,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -275,7 +275,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -4819,17 +4819,22 @@
    1792044932,
    106.89,
    105.96
+  ],
+  [
+   1792045841,
+   106.89,
+   105.99
   ]
  ],
  "last_run": {
-  "ts": 1792044932,
+  "ts": 1792045841,
   "error": null,
-  "markets_scanned": 3660,
-  "candidates": 81,
+  "markets_scanned": 3716,
+  "candidates": 85,
   "rejections": {
-   "too little volume": 3225,
-   "no favorite in 80-95c band": 316,
-   "spread too wide": 37,
+   "too little volume": 3270,
+   "no favorite in 80-95c band": 311,
+   "spread too wide": 49,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -4837,72 +4842,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 18862.04,
-    "score": 0.7012
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 14861.59,
-    "score": 0.7012
-   },
-   {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.74,
+    "price": 0.95,
+    "hours_to_close": 14.49,
     "volume_24h": 12517.84,
-    "score": 0.6812
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,250 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.74,
-    "volume_24h": 5733.94,
-    "score": 0.6731
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 14.74,
-    "volume_24h": 16716.98,
-    "score": 0.6712
+    "score": 0.7025
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 3274.24,
-    "score": 0.6649
+    "score": 0.6661
    },
    {
     "label": "Will the maximum temperature be 77-78\u00b0 on Oct 15, 2026? \u2014 77\u00b0 to 78\u00b0",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 22.74,
-    "volume_24h": 9279.1,
-    "score": 0.6606
+    "hours_to_close": 22.49,
+    "volume_24h": 9280.2,
+    "score": 0.6613
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 14.49,
+    "volume_24h": 3034.11,
+    "score": 0.6537
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 14.49,
+    "volume_24h": 18867.04,
+    "score": 0.6525
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 14.74,
-    "volume_24h": 7322.47,
-    "score": 0.6511
+    "price": 0.92,
+    "hours_to_close": 14.49,
+    "volume_24h": 4684.41,
+    "score": 0.6478
+   },
+   {
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,260 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 14.49,
+    "volume_24h": 2229.96,
+    "score": 0.6436
+   },
+   {
+    "label": "Will it rain in College Station on Oct 15, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 5460.67,
+    "score": 0.6415
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 43
  },

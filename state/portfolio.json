@@ -200,7 +200,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.6077,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -289,7 +289,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.89,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -390,7 +390,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.83,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -407,8 +407,24 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.65,
+   "shadow": {
+    "10": {
+     "ts": 1792098035,
+     "bid": 0.65,
+     "proceeds": 3.17
+    },
+    "15": {
+     "ts": 1792098035,
+     "bid": 0.65,
+     "proceeds": 3.17
+    },
+    "20": {
+     "ts": 1792098035,
+     "bid": 0.65,
+     "proceeds": 3.17
+    }
+   }
   },
   {
    "id": 95,
@@ -5451,92 +5467,98 @@
    1792097133,
    108.26,
    105.19
+  ],
+  [
+   1792098035,
+   108.26,
+   104.56
   ]
  ],
  "last_run": {
-  "ts": 1792097133,
+  "ts": 1792098035,
   "error": null,
-  "markets_scanned": 4890,
-  "candidates": 70,
+  "markets_scanned": 4894,
+  "candidates": 66,
   "rejections": {
-   "too little volume": 4479,
-   "no favorite in 80-95c band": 296,
-   "spread too wide": 42,
-   "favorite is slipping fast": 3
+   "too little volume": 4481,
+   "no favorite in 80-95c band": 299,
+   "spread too wide": 45,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.24,
-    "volume_24h": 11186.56,
-    "score": 0.6594
+    "hours_to_close": 23.99,
+    "volume_24h": 13363.08,
+    "score": 0.66
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.22,
+    "hours_to_close": 30.97,
     "volume_24h": 14098.91,
-    "score": 0.6564
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 24.24,
-    "volume_24h": 122751.88,
-    "score": 0.6494
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.24,
-    "volume_24h": 13364.19,
-    "score": 0.6394
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 24.24,
-    "volume_24h": 5160.02,
-    "score": 0.6379
+    "score": 0.6568
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.24,
-    "volume_24h": 6417.08,
-    "score": 0.635
+    "hours_to_close": 23.99,
+    "volume_24h": 6417.31,
+    "score": 0.6356
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.24,
+    "price": 0.95,
+    "hours_to_close": 23.99,
     "volume_24h": 3224.71,
-    "score": 0.6226
+    "score": 0.6332
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.99,
+    "volume_24h": 30564.48,
+    "score": 0.62
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 23.99,
+    "volume_24h": 4836.06,
+    "score": 0.6164
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 24.24,
+    "price": 0.94,
+    "hours_to_close": 23.99,
     "volume_24h": 11093.5,
-    "score": 0.6194
+    "score": 0.61
+   },
+   {
+    "label": "Will it rain in Seattle on Oct 16, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.99,
+    "volume_24h": 3522.04,
+    "score": 0.6073
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 2,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

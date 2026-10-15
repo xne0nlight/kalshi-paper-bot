@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 47.28,
- "fees_paid": 1.75,
+ "cash": 42.84,
+ "fees_paid": 1.79,
  "peak_equity": 108.12,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 94,
+ "next_id": 95,
  "open_positions": [
   {
    "id": 76,
@@ -102,7 +102,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -135,7 +135,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.8,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -252,7 +252,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792184400.0,
    "score": 0.4749,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -307,7 +307,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -391,7 +391,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.86,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -409,6 +409,23 @@
    "close_ts": 1792209540.0,
    "score": 0.4125,
    "mark_price": 0.84,
+   "shadow": {}
+  },
+  {
+   "id": 94,
+   "ticker": "KXXRPD-26OCT1617-T1.3999",
+   "event_ticker": "KXXRPD-26OCT1617",
+   "series": "KXXRPD",
+   "label": "Ripple price at Oct 16, 2026 at 5pm EDT? \u2014 $1.39991 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.88,
+   "fee": 0.04,
+   "cost": 4.44,
+   "opened_ts": 1792081838,
+   "close_ts": 1792184400.0,
+   "score": 0.3763,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -5296,98 +5313,103 @@
    1792080943,
    108.12,
    105.4
+  ],
+  [
+   1792081838,
+   108.12,
+   105.16
   ]
  ],
  "last_run": {
-  "ts": 1792080943,
+  "ts": 1792081838,
   "error": null,
   "markets_scanned": 1606,
-  "candidates": 35,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 1400,
-   "no favorite in 80-95c band": 124,
-   "spread too wide": 45,
-   "favorite is slipping fast": 2
+   "too little volume": 1398,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 41,
+   "favorite is slipping fast": 3
   },
-  "opened": [],
-  "settled": [
-   75
+  "opened": [
+   94
   ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 17299.28,
-    "score": 0.6605
-   },
-   {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.74,
-    "volume_24h": 11964.11,
-    "score": 0.6505
+    "price": 0.95,
+    "hours_to_close": 28.49,
+    "volume_24h": 11959.11,
+    "score": 0.6609
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.72,
+    "hours_to_close": 35.47,
     "volume_24h": 14098.91,
-    "score": 0.6503
+    "score": 0.6506
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.74,
+    "hours_to_close": 28.49,
     "volume_24h": 6388.18,
-    "score": 0.6459
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 6277.08,
-    "score": 0.6453
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 28.74,
-    "volume_24h": 102495.59,
-    "score": 0.6205
+    "score": 0.6463
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 28.74,
-    "volume_24h": 10274.41,
-    "score": 0.6105
+    "price": 0.93,
+    "hours_to_close": 28.49,
+    "volume_24h": 10219.41,
+    "score": 0.6409
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 28.49,
+    "volume_24h": 17299.28,
+    "score": 0.6409
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 28.49,
+    "volume_24h": 18008.96,
+    "score": 0.6109
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 28.49,
+    "volume_24h": 102503.95,
+    "score": 0.6009
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
+    "side": "no",
     "price": 0.88,
-    "hours_to_close": 28.74,
-    "volume_24h": 51773.21,
-    "score": 0.5905
+    "hours_to_close": 28.49,
+    "volume_24h": 20233.37,
+    "score": 0.5909
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 17,
+   "related-market cap (Crypto)": 15,
+   "related-market cap (Oil prices)": 6,
    "related-market cap (Presidential approval)": 1,
-   "related-market cap (Oil prices)": 7,
    "tracked only (below bet price floor)": 5
   },
-  "watch_added": 0,
-  "watch_graded": 3,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

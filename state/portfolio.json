@@ -285,7 +285,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.87,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -308,7 +308,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -4752,18 +4752,23 @@
    1792037739,
    106.75,
    106.29
+  ],
+  [
+   1792038638,
+   106.75,
+   106.41
   ]
  ],
  "last_run": {
-  "ts": 1792037739,
+  "ts": 1792038638,
   "error": null,
   "markets_scanned": 4110,
-  "candidates": 82,
+  "candidates": 78,
   "rejections": {
    "too little volume": 3702,
-   "no favorite in 80-95c band": 280,
-   "spread too wide": 41,
-   "nothing for sale at the ask": 5
+   "no favorite in 80-95c band": 283,
+   "spread too wide": 44,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
@@ -4773,69 +4778,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.72,
-    "volume_24h": 38749.0,
-    "score": 0.6922
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 15023.38,
-    "score": 0.6824
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 11751.85,
-    "score": 0.6824
+    "hours_to_close": 12.47,
+    "volume_24h": 38799.0,
+    "score": 0.6937
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 12.72,
-    "volume_24h": 19374.82,
-    "score": 0.6822
+    "hours_to_close": 12.47,
+    "volume_24h": 19399.82,
+    "score": 0.6837
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 16.49,
+    "volume_24h": 6271.52,
+    "score": 0.6782
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 16.49,
+    "volume_24h": 20949.19,
+    "score": 0.6734
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 16.49,
+    "volume_24h": 15423.38,
+    "score": 0.6634
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 16.74,
+    "hours_to_close": 16.49,
     "volume_24h": 6822.44,
-    "score": 0.6599
+    "score": 0.6609
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 15, 2026? \u2014 Above $95.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 2295.36,
-    "score": 0.6558
+    "score": 0.6571
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 14.24,
-    "volume_24h": 21459.6,
-    "score": 0.6538
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 16.74,
-    "volume_24h": 13327.7,
-    "score": 0.6524
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 16.49,
+    "volume_24h": 4007.58,
+    "score": 0.6536
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

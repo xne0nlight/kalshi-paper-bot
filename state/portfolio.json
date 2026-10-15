@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 67.9,
- "fees_paid": 1.58,
+ "cash": 62.23,
+ "fees_paid": 1.61,
  "peak_equity": 107.76,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 90,
+ "next_id": 91,
  "open_positions": [
   {
    "id": 75,
@@ -125,7 +125,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -158,7 +158,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -181,7 +181,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -198,7 +198,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.49,
+   "mark_price": 0.28,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -287,7 +287,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -325,7 +325,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -358,7 +358,24 @@
    "opened_ts": 1792074643,
    "close_ts": 1792202400.0,
    "score": 0.378,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
+   "shadow": {}
+  },
+  {
+   "id": 90,
+   "ticker": "KXINX-26OCT16H1600-B7662",
+   "event_ticker": "KXINX-26OCT16H1600",
+   "series": "KXINX",
+   "label": "Will the S&P 500 be between 7650 and 7674.9999 on Oct 16, 2026 at 4pm EDT? \u2014 7,650 to 7,674.9999",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792078244,
+   "close_ts": 1792180800.0,
+   "score": 0.4773,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -5199,19 +5216,27 @@
    1792077339,
    107.76,
    106.89
+  ],
+  [
+   1792078244,
+   107.76,
+   106.01
   ]
  ],
  "last_run": {
-  "ts": 1792077339,
+  "ts": 1792078244,
   "error": null,
   "markets_scanned": 1632,
-  "candidates": 30,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 1445,
-   "no favorite in 80-95c band": 125,
-   "spread too wide": 32
+   "too little volume": 1441,
+   "no favorite in 80-95c band": 127,
+   "spread too wide": 34,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
+  "opened": [
+   90
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -5219,74 +5244,74 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.74,
-    "volume_24h": 10620.37,
-    "score": 0.6488
+    "hours_to_close": 29.49,
+    "volume_24h": 11620.52,
+    "score": 0.6492
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 29.74,
-    "volume_24h": 17255.56,
-    "score": 0.6388
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 29.74,
-    "volume_24h": 4668.09,
-    "score": 0.614
+    "hours_to_close": 29.49,
+    "volume_24h": 17270.56,
+    "score": 0.6392
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 29.74,
-    "volume_24h": 11215.0,
-    "score": 0.6088
+    "price": 0.91,
+    "hours_to_close": 29.49,
+    "volume_24h": 10705.0,
+    "score": 0.6192
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 29.74,
-    "volume_24h": 93054.3,
-    "score": 0.6088
+    "hours_to_close": 29.49,
+    "volume_24h": 102487.24,
+    "score": 0.6092
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 29.74,
-    "volume_24h": 5374.08,
-    "score": 0.5985
+    "hours_to_close": 29.49,
+    "volume_24h": 5777.08,
+    "score": 0.6013
    },
    {
-    "label": "Will the WTI crude oil settlement price be between 91.00 and 91.99 USD/Bbl on Oct 16, 2026? \u2014 $91.00 to $91.99",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 930.71,
-    "score": 0.5859
+    "price": 0.9,
+    "hours_to_close": 29.49,
+    "volume_24h": 5015.18,
+    "score": 0.5867
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
+    "label": "Will the brent crude oil close price be above 107.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $107.99",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 29.74,
-    "volume_24h": 18595.37,
-    "score": 0.5588
+    "price": 0.93,
+    "hours_to_close": 29.49,
+    "volume_24h": 1864.19,
+    "score": 0.5845
+   },
+   {
+    "label": "Bitcoin price range on Oct 16, 2026? \u2014 $81,500 to 81,999.99",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 29.49,
+    "volume_24h": 3905.67,
+    "score": 0.5586
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 14,
-   "related-market cap (Oil prices)": 10,
-   "tracked only (below bet price floor)": 3,
+   "related-market cap (Crypto)": 12,
+   "related-market cap (Oil prices)": 6,
+   "tracked only (below bet price floor)": 5,
    "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

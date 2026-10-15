@@ -173,7 +173,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792044059,
@@ -213,7 +213,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.5465,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -230,7 +230,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -275,7 +275,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -4931,18 +4931,23 @@
    1792058460,
    106.89,
    106.65
+  ],
+  [
+   1792059334,
+   106.89,
+   106.77
   ]
  ],
  "last_run": {
-  "ts": 1792058460,
+  "ts": 1792059334,
   "error": null,
   "markets_scanned": 1627,
-  "candidates": 23,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 1429,
-   "no favorite in 80-95c band": 129,
-   "spread too wide": 43,
-   "favorite is slipping fast": 3
+   "too little volume": 1428,
+   "no favorite in 80-95c band": 130,
+   "spread too wide": 37,
+   "favorite is slipping fast": 7
   },
   "opened": [],
   "settled": [],
@@ -4952,69 +4957,69 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.98,
-    "volume_24h": 46374.92,
-    "score": 0.6512
+    "hours_to_close": 34.74,
+    "volume_24h": 46598.92,
+    "score": 0.6515
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.98,
-    "volume_24h": 32719.39,
-    "score": 0.6312
+    "hours_to_close": 34.74,
+    "volume_24h": 32504.39,
+    "score": 0.6315
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 34.74,
+    "volume_24h": 18498.04,
+    "score": 0.6215
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.98,
+    "hours_to_close": 34.74,
     "volume_24h": 3635.91,
-    "score": 0.6183
+    "score": 0.6186
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 34.98,
+    "hours_to_close": 34.74,
     "volume_24h": 8733.9,
-    "score": 0.6068
+    "score": 0.6071
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.97,
+    "hours_to_close": 27.72,
     "volume_24h": 3265.33,
-    "score": 0.6054
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 34.98,
-    "volume_24h": 7591.29,
-    "score": 0.6023
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.98,
-    "volume_24h": 22749.63,
-    "score": 0.6012
+    "score": 0.6058
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.98,
+    "price": 0.92,
+    "hours_to_close": 34.74,
     "volume_24h": 14828.01,
-    "score": 0.5612
+    "score": 0.5715
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 34.74,
+    "volume_24h": 54777.79,
+    "score": 0.5615
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 43
  },

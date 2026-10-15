@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 37.17,
- "fees_paid": 1.82,
- "peak_equity": 108.12,
+ "cash": 33.75,
+ "fees_paid": 1.87,
+ "peak_equity": 108.26,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 96,
+ "next_id": 97,
  "open_positions": [
   {
    "id": 76,
@@ -42,34 +42,6 @@
    "score": 0.5465,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 78,
-   "ticker": "KXTRUMPAPPROVE-26OCT15-E38.4",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT15",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791998131,
-   "close_ts": 1792083540.0,
-   "score": 0.5881,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792016131,
-     "bid": 0.83,
-     "proceeds": 2.46
-    },
-    "15": {
-     "ts": 1792018839,
-     "bid": 0.8,
-     "proceeds": 2.36
-    }
-   }
   },
   {
    "id": 79,
@@ -135,7 +107,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.79,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -146,6 +118,11 @@
      "ts": 1792079129,
      "bid": 0.77,
      "proceeds": 2.27
+    },
+    "20": {
+     "ts": 1792084532,
+     "bid": 0.66,
+     "proceeds": 1.93
     }
    }
   },
@@ -180,7 +157,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.06,
+   "mark_price": 0.04,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -269,7 +246,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -307,7 +284,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -340,7 +317,7 @@
    "opened_ts": 1792074643,
    "close_ts": 1792202400.0,
    "score": 0.378,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -443,6 +420,23 @@
    "close_ts": 1792213200.0,
    "score": 0.5582,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 96,
+   "ticker": "KXTRUMPAPPROVE-26OCT16-E39.0",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT16",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 16, 2026? \u2014 39.0%",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.91,
+   "fee": 0.05,
+   "cost": 6.42,
+   "opened_ts": 1792084532,
+   "close_ts": 1792169940.0,
+   "score": 0.5713,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -2032,6 +2026,38 @@
    "pnl": 0.36,
    "result": "YES",
    "closed_ts": 1792080943,
+   "won": true
+  },
+  {
+   "id": 78,
+   "ticker": "KXTRUMPAPPROVE-26OCT15-E38.4",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT15",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791998131,
+   "close_ts": 1792083540.0,
+   "score": 0.5881,
+   "shadow": {
+    "10": {
+     "ts": 1792016131,
+     "bid": 0.83,
+     "proceeds": 2.46
+    },
+    "15": {
+     "ts": 1792018839,
+     "bid": 0.8,
+     "proceeds": 2.36
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1792084532,
    "won": true
   }
  ],
@@ -5345,96 +5371,103 @@
    1792083643,
    108.12,
    105.1
+  ],
+  [
+   1792084532,
+   108.26,
+   104.68
   ]
  ],
  "last_run": {
-  "ts": 1792083643,
+  "ts": 1792084532,
   "error": null,
   "markets_scanned": 1736,
-  "candidates": 35,
+  "candidates": 39,
   "rejections": {
-   "too little volume": 1491,
+   "too little volume": 1493,
    "no favorite in 80-95c band": 162,
-   "spread too wide": 46,
-   "favorite is slipping fast": 2
+   "spread too wide": 41,
+   "favorite is slipping fast": 1
   },
   "opened": [
-   95
+   96
   ],
-  "settled": [],
+  "settled": [
+   78
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 10599.29,
+    "score": 0.6622
+   },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.97,
+    "hours_to_close": 34.72,
     "volume_24h": 14098.91,
-    "score": 0.6513
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 10193.41,
-    "score": 0.6418
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 17291.28,
-    "score": 0.6418
+    "score": 0.6516
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.99,
+    "price": 0.95,
+    "hours_to_close": 27.74,
     "volume_24h": 5924.08,
-    "score": 0.6347
+    "score": 0.6452
    },
    {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 27.99,
-    "volume_24h": 15865.96,
-    "score": 0.6118
+    "price": 0.92,
+    "hours_to_close": 27.74,
+    "volume_24h": 10209.15,
+    "score": 0.6322
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 27.99,
-    "volume_24h": 103557.55,
-    "score": 0.6118
+    "price": 0.92,
+    "hours_to_close": 27.74,
+    "volume_24h": 105472.27,
+    "score": 0.6322
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 27.99,
-    "volume_24h": 20835.37,
-    "score": 0.6018
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 17314.69,
+    "score": 0.6122
    },
    {
-    "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Oct 16, 2026? \u2014 $93.00 to $93.99",
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.49,
-    "volume_24h": 2468.25,
-    "score": 0.5811
+    "price": 0.87,
+    "hours_to_close": 27.74,
+    "volume_24h": 15856.83,
+    "score": 0.5822
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 27.74,
+    "volume_24h": 50088.04,
+    "score": 0.5822
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 6,
-   "related-market cap (Oil prices)": 2
+   "related-market cap (Crypto)": 8,
+   "related-market cap (Oil prices)": 1
   },
-  "watch_added": 4,
-  "watch_graded": 6,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

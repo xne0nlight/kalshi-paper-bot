@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 68.28,
- "fees_paid": 1.53,
- "peak_equity": 107.49,
+ "cash": 68.7,
+ "fees_paid": 1.56,
+ "peak_equity": 107.65,
  "day": "2026-10-15",
  "day_start_equity": 106.87,
- "next_id": 88,
+ "next_id": 89,
  "open_positions": [
-  {
-   "id": 71,
-   "ticker": "KXJOBLESSCLAIMS-26OCT15-205000",
-   "event_ticker": "KXJOBLESSCLAIMS-26OCT15",
-   "series": "KXJOBLESSCLAIMS",
-   "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791976536,
-   "close_ts": 1792067100.0,
-   "score": 0.5715,
-   "mark_price": 0.9,
-   "shadow": {}
-  },
   {
    "id": 74,
    "ticker": "KXOPENSOURCESHARE-26OCT15-T56.2",
@@ -135,7 +118,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -213,7 +196,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.82,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -253,7 +236,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -325,7 +308,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792184400.0,
    "score": 0.4749,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -365,6 +348,23 @@
      "proceeds": 0.45
     }
    }
+  },
+  {
+   "id": 88,
+   "ticker": "KXNATGASW-26OCT1617-T3.699",
+   "event_ticker": "KXNATGASW-26OCT1617",
+   "series": "KXNATGASW",
+   "label": "Will the natural gas close price be above 3.699 USD/MMBtu on October 16, 2026 at 5:00 PM EDT? \u2014 Above $3.699",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.85,
+   "fee": 0.03,
+   "cost": 2.58,
+   "opened_ts": 1792068337,
+   "close_ts": 1792184400.0,
+   "score": 0.3926,
+   "mark_price": 0.82,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -1863,6 +1863,27 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1792066535,
+   "won": true
+  },
+  {
+   "id": 71,
+   "ticker": "KXJOBLESSCLAIMS-26OCT15-205000",
+   "event_ticker": "KXJOBLESSCLAIMS-26OCT15",
+   "series": "KXJOBLESSCLAIMS",
+   "label": "How many initial jobless claims will there be the week ending Oct 10, 2026? \u2014 At least 205000",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791976536,
+   "close_ts": 1792067100.0,
+   "score": 0.5715,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1792068337,
    "won": true
   }
  ],
@@ -5086,91 +5107,104 @@
    1792067438,
    107.49,
    105.41
+  ],
+  [
+   1792068337,
+   107.65,
+   105.59
   ]
  ],
  "last_run": {
-  "ts": 1792067438,
+  "ts": 1792068337,
   "error": null,
   "markets_scanned": 1638,
-  "candidates": 20,
+  "candidates": 26,
   "rejections": {
-   "too little volume": 1439,
-   "no favorite in 80-95c band": 128,
-   "spread too wide": 49,
-   "favorite is slipping fast": 2
+   "too little volume": 1445,
+   "no favorite in 80-95c band": 127,
+   "spread too wide": 33,
+   "favorite is slipping fast": 7
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   88
+  ],
+  "settled": [
+   71
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.49,
-    "volume_24h": 32000.32,
-    "score": 0.6446
+    "hours_to_close": 32.24,
+    "volume_24h": 31751.52,
+    "score": 0.6449
+   },
+   {
+    "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 26.24,
+    "volume_24h": 9037.42,
+    "score": 0.6418
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 18074.07,
-    "score": 0.6146
+    "price": 0.92,
+    "hours_to_close": 32.24,
+    "volume_24h": 17422.3,
+    "score": 0.6249
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 32.24,
+    "volume_24h": 45050.32,
+    "score": 0.6249
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 32.24,
+    "volume_24h": 3585.93,
+    "score": 0.6215
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 25.47,
-    "volume_24h": 3285.33,
-    "score": 0.6105
+    "hours_to_close": 25.22,
+    "volume_24h": 3305.83,
+    "score": 0.6112
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 32.49,
-    "volume_24h": 60920.2,
-    "score": 0.5846
+    "price": 0.87,
+    "hours_to_close": 32.24,
+    "volume_24h": 60409.23,
+    "score": 0.5749
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 14089.01,
-    "score": 0.5646
-   },
-   {
-    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.49,
-    "volume_24h": 3668.91,
-    "score": 0.5619
-   },
-   {
-    "label": "Will the brent crude oil close price be above 97.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $97.99",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 540.0,
-    "score": 0.5196
-   },
-   {
-    "label": "Above 8.7%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 25.47,
-    "volume_24h": 502.76,
-    "score": 0.5194
+    "hours_to_close": 32.24,
+    "volume_24h": 14088.01,
+    "score": 0.5649
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 12,
+   "related-market cap (Presidential approval)": 1,
+   "related-market cap (Oil prices)": 8
+  },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549

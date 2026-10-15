@@ -2,29 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.34,
- "fees_paid": 1.44,
- "peak_equity": 106.87,
+ "cash": 66.48,
+ "fees_paid": 1.45,
+ "peak_equity": 106.89,
  "day": "2026-10-15",
  "day_start_equity": 106.87,
- "next_id": 83,
+ "next_id": 84,
  "open_positions": [
-  {
-   "id": 63,
-   "ticker": "KXWTI-26OCT1414-T96.99",
-   "event_ticker": "KXWTI-26OCT1414",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1791900947,
-   "close_ts": 1792002600.0,
-   "score": 0.5434,
-   "mark_price": 0.99
-  },
   {
    "id": 65,
    "ticker": "KXHIGHTBOS-26OCT14-B79.5",
@@ -134,7 +118,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -206,7 +190,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.565,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -240,7 +224,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -308,7 +292,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -326,6 +310,23 @@
    "close_ts": 1792126800.0,
    "score": 0.6192,
    "mark_price": 0.97,
+   "shadow": {}
+  },
+  {
+   "id": 83,
+   "ticker": "KXWTI-26OCT1514-T95.49",
+   "event_ticker": "KXWTI-26OCT1514",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 15, 2026? \u2014 Above $95.49",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1792039537,
+   "close_ts": 1792089000.0,
+   "score": 0.6585,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -1694,6 +1695,26 @@
    "pnl": -0.12,
    "result": "SCALAR",
    "closed_ts": 1792031438,
+   "won": true
+  },
+  {
+   "id": 63,
+   "ticker": "KXWTI-26OCT1414-T96.99",
+   "event_ticker": "KXWTI-26OCT1414",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 14, 2026? \u2014 Above $96.99",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1791900947,
+   "close_ts": 1792002600.0,
+   "score": 0.5434,
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1792039537,
    "won": true
   }
  ],
@@ -4757,91 +4778,100 @@
    1792038638,
    106.75,
    106.41
+  ],
+  [
+   1792039537,
+   106.89,
+   106.34
   ]
  ],
  "last_run": {
-  "ts": 1792038638,
+  "ts": 1792039537,
   "error": null,
   "markets_scanned": 4110,
-  "candidates": 78,
+  "candidates": 81,
   "rejections": {
-   "too little volume": 3702,
-   "no favorite in 80-95c band": 283,
-   "spread too wide": 44,
-   "nothing for sale at the ask": 3
+   "too little volume": 3698,
+   "no favorite in 80-95c band": 288,
+   "spread too wide": 41,
+   "nothing for sale at the ask": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   83
+  ],
+  "settled": [
+   63
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.47,
-    "volume_24h": 38799.0,
-    "score": 0.6937
+    "hours_to_close": 12.22,
+    "volume_24h": 38807.98,
+    "score": 0.6952
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 12.47,
-    "volume_24h": 19399.82,
-    "score": 0.6837
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.49,
-    "volume_24h": 6271.52,
-    "score": 0.6782
+    "hours_to_close": 12.22,
+    "volume_24h": 19458.38,
+    "score": 0.6852
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 16.49,
-    "volume_24h": 20949.19,
-    "score": 0.6734
+    "hours_to_close": 16.24,
+    "volume_24h": 21177.19,
+    "score": 0.6744
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 16.49,
-    "volume_24h": 15423.38,
-    "score": 0.6634
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 16.49,
-    "volume_24h": 6822.44,
-    "score": 0.6609
+    "price": 0.94,
+    "hours_to_close": 16.24,
+    "volume_24h": 6366.28,
+    "score": 0.6697
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 15, 2026? \u2014 Above $95.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.99,
+    "hours_to_close": 13.74,
     "volume_24h": 2295.36,
-    "score": 0.6571
+    "score": 0.6585
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.49,
-    "volume_24h": 4007.58,
-    "score": 0.6536
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 13.74,
+    "volume_24h": 21633.71,
+    "score": 0.6564
+   },
+   {
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 16.24,
+    "volume_24h": 2318.21,
+    "score": 0.6468
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 16.24,
+    "volume_24h": 15423.58,
+    "score": 0.6444
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 13,
   "api_calls": 42
  },
  "shadow_since": 1791904549

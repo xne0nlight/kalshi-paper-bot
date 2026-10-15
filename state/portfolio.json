@@ -135,7 +135,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.565,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -169,7 +169,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -247,7 +247,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.83,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -270,7 +270,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -287,7 +287,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -5008,18 +5008,23 @@
    1792064732,
    107.21,
    106.84
+  ],
+  [
+   1792065644,
+   107.21,
+   106.72
   ]
  ],
  "last_run": {
-  "ts": 1792064732,
+  "ts": 1792065644,
   "error": null,
   "markets_scanned": 1638,
-  "candidates": 22,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 1441,
-   "no favorite in 80-95c band": 123,
-   "spread too wide": 45,
-   "favorite is slipping fast": 7
+   "too little volume": 1442,
+   "no favorite in 80-95c band": 120,
+   "spread too wide": 44,
+   "favorite is slipping fast": 5
   },
   "opened": [],
   "settled": [],
@@ -5029,70 +5034,70 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
-    "volume_24h": 31970.32,
-    "score": 0.6435
+    "hours_to_close": 32.99,
+    "volume_24h": 32000.32,
+    "score": 0.6439
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 46600.96,
-    "score": 0.6435
+    "score": 0.6439
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.99,
+    "volume_24h": 14828.01,
+    "score": 0.6239
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 3894.27,
-    "score": 0.6228
+    "score": 0.6232
    },
    {
-    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.24,
-    "volume_24h": 3635.91,
-    "score": 0.6106
+    "price": 0.91,
+    "hours_to_close": 32.99,
+    "volume_24h": 18397.59,
+    "score": 0.6139
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 26.22,
+    "hours_to_close": 25.97,
     "volume_24h": 3285.33,
-    "score": 0.6089
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.24,
-    "volume_24h": 18397.59,
-    "score": 0.6035
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 33.24,
-    "volume_24h": 14828.01,
-    "score": 0.5635
+    "score": 0.6094
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 33.24,
-    "volume_24h": 60936.47,
-    "score": 0.5635
+    "hours_to_close": 32.99,
+    "volume_24h": 60936.04,
+    "score": 0.5639
+   },
+   {
+    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 32.99,
+    "volume_24h": 3635.91,
+    "score": 0.5509
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 7,
   "api_calls": 43
  },
  "shadow_since": 1791904549

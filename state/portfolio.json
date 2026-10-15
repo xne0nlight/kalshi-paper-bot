@@ -2,46 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.48,
- "fees_paid": 1.45,
- "peak_equity": 106.89,
+ "cash": 66.95,
+ "fees_paid": 1.49,
+ "peak_equity": 107.21,
  "day": "2026-10-15",
  "day_start_equity": 106.87,
- "next_id": 84,
+ "next_id": 86,
  "open_positions": [
-  {
-   "id": 65,
-   "ticker": "KXHIGHTBOS-26OCT14-B79.5",
-   "event_ticker": "KXHIGHTBOS-26OCT14",
-   "series": "KXHIGHTBOS",
-   "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791910870,
-   "close_ts": 1792040400.0,
-   "score": 0.5197,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1791996348,
-     "bid": 0.71,
-     "proceeds": 2.08
-    },
-    "15": {
-     "ts": 1791996348,
-     "bid": 0.71,
-     "proceeds": 2.08
-    },
-    "20": {
-     "ts": 1791996348,
-     "bid": 0.71,
-     "proceeds": 2.08
-    }
-   }
-  },
   {
    "id": 66,
    "ticker": "KXHIGHCHI-26OCT14-T65",
@@ -77,34 +44,6 @@
    "shadow": {}
   },
   {
-   "id": 68,
-   "ticker": "KXHIGHMIA-26OCT14-B90.5",
-   "event_ticker": "KXHIGHMIA-26OCT14",
-   "series": "KXHIGHMIA",
-   "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1791926145,
-   "close_ts": 1792040400.0,
-   "score": 0.5812,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1791990935,
-     "bid": 0.78,
-     "proceeds": 2.3
-    },
-    "15": {
-     "ts": 1791990935,
-     "bid": 0.78,
-     "proceeds": 2.3
-    }
-   }
-  },
-  {
    "id": 71,
    "ticker": "KXJOBLESSCLAIMS-26OCT15-205000",
    "event_ticker": "KXJOBLESSCLAIMS-26OCT15",
@@ -118,7 +57,7 @@
    "opened_ts": 1791976536,
    "close_ts": 1792067100.0,
    "score": 0.5715,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -213,7 +152,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.5465,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -348,7 +287,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -371,6 +310,40 @@
      "proceeds": 0.88
     }
    }
+  },
+  {
+   "id": 84,
+   "ticker": "KXACTBLUETOP-26OCT16-JTAL",
+   "event_ticker": "KXACTBLUETOP-26OCT16",
+   "series": "KXACTBLUETOP",
+   "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1792062932,
+   "close_ts": 1792159140.0,
+   "score": 0.6077,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 85,
+   "ticker": "KXGENERICBALLOTVOTEHUB-26OCT16-T8.7",
+   "event_ticker": "KXGENERICBALLOTVOTEHUB-26OCT16",
+   "series": "KXGENERICBALLOTVOTEHUB",
+   "label": "Above 8.7%",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.9,
+   "fee": 0.02,
+   "cost": 2.72,
+   "opened_ts": 1792062932,
+   "close_ts": 1792159140.0,
+   "score": 0.5167,
+   "mark_price": 0.89,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -1758,6 +1731,75 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1792039537,
+   "won": true
+  },
+  {
+   "id": 65,
+   "ticker": "KXHIGHTBOS-26OCT14-B79.5",
+   "event_ticker": "KXHIGHTBOS-26OCT14",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be 79-80\u00b0 on Oct 14, 2026? \u2014 79\u00b0 to 80\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791910870,
+   "close_ts": 1792040400.0,
+   "score": 0.5197,
+   "shadow": {
+    "10": {
+     "ts": 1791996348,
+     "bid": 0.71,
+     "proceeds": 2.08
+    },
+    "15": {
+     "ts": 1791996348,
+     "bid": 0.71,
+     "proceeds": 2.08
+    },
+    "20": {
+     "ts": 1791996348,
+     "bid": 0.71,
+     "proceeds": 2.08
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1792062932,
+   "won": true
+  },
+  {
+   "id": 68,
+   "ticker": "KXHIGHMIA-26OCT14-B90.5",
+   "event_ticker": "KXHIGHMIA-26OCT14",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 90-91\u00b0 on Oct 14, 2026? \u2014 90\u00b0 to 91\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1791926145,
+   "close_ts": 1792040400.0,
+   "score": 0.5812,
+   "shadow": {
+    "10": {
+     "ts": 1791990935,
+     "bid": 0.78,
+     "proceeds": 2.3
+    },
+    "15": {
+     "ts": 1791990935,
+     "bid": 0.78,
+     "proceeds": 2.3
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "NO",
+   "closed_ts": 1792062932,
    "won": true
   }
  ],
@@ -4951,91 +4993,106 @@
    1792062042,
    106.89,
    106.75
+  ],
+  [
+   1792062932,
+   107.21,
+   106.77
   ]
  ],
  "last_run": {
-  "ts": 1792062042,
+  "ts": 1792062932,
   "error": null,
   "markets_scanned": 1638,
   "candidates": 26,
   "rejections": {
-   "too little volume": 1440,
-   "no favorite in 80-95c band": 126,
-   "spread too wide": 41,
-   "favorite is slipping fast": 5
+   "too little volume": 1441,
+   "no favorite in 80-95c band": 125,
+   "spread too wide": 40,
+   "favorite is slipping fast": 6
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   84,
+   85
+  ],
+  "settled": [
+   65,
+   68
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 32528.4,
-    "score": 0.6425
+    "hours_to_close": 33.74,
+    "volume_24h": 32520.55,
+    "score": 0.6428
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 46598.92,
-    "score": 0.6425
+    "hours_to_close": 33.74,
+    "volume_24h": 46599.96,
+    "score": 0.6428
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 3894.27,
-    "score": 0.6218
-   },
-   {
-    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 3635.91,
-    "score": 0.6196
+    "score": 0.6221
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.99,
-    "volume_24h": 18498.04,
-    "score": 0.6125
+    "hours_to_close": 33.74,
+    "volume_24h": 18397.59,
+    "score": 0.6128
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 26.97,
+    "hours_to_close": 26.72,
     "volume_24h": 3265.33,
-    "score": 0.6072
+    "score": 0.6077
+   },
+   {
+    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on October 16, 2026 at 5:00 PM EDT? \u2014 Above $105.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 33.74,
+    "volume_24h": 3635.91,
+    "score": 0.5999
    },
    {
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 27.99,
-    "volume_24h": 8770.08,
-    "score": 0.5775
+    "hours_to_close": 27.74,
+    "volume_24h": 8775.08,
+    "score": 0.578
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 33.99,
-    "volume_24h": 60988.44,
-    "score": 0.5725
+    "price": 0.86,
+    "hours_to_close": 33.74,
+    "volume_24h": 60936.47,
+    "score": 0.5628
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 6,
+   "related-market cap (Oil prices)": 2,
+   "related-market cap (Presidential approval)": 1
+  },
   "watch_added": 0,
-  "watch_graded": 10,
+  "watch_graded": 22,
   "api_calls": 43
  },
  "shadow_since": 1791904549

@@ -107,7 +107,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.62,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -251,7 +251,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -289,7 +289,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -5391,17 +5391,22 @@
    1792086336,
    108.26,
    104.5
+  ],
+  [
+   1792087242,
+   108.26,
+   104.36
   ]
  ],
  "last_run": {
-  "ts": 1792086336,
+  "ts": 1792087242,
   "error": null,
-  "markets_scanned": 1736,
-  "candidates": 43,
+  "markets_scanned": 1904,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 1485,
-   "no favorite in 80-95c band": 160,
-   "spread too wide": 44,
+   "too little volume": 1608,
+   "no favorite in 80-95c band": 200,
+   "spread too wide": 42,
    "favorite is slipping fast": 3,
    "nothing for sale at the ask": 1
   },
@@ -5413,69 +5418,69 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 12822.69,
-    "score": 0.6632
+    "score": 0.6637
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 17328.1,
-    "score": 0.6632
+    "hours_to_close": 26.99,
+    "volume_24h": 17323.1,
+    "score": 0.6637
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.22,
+    "hours_to_close": 33.97,
     "volume_24h": 14098.91,
-    "score": 0.6522
+    "score": 0.6525
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 26.99,
+    "volume_24h": 10400.15,
+    "score": 0.6437
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.24,
-    "volume_24h": 106239.16,
-    "score": 0.6432
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 27.24,
-    "volume_24h": 10400.15,
-    "score": 0.6332
+    "hours_to_close": 26.99,
+    "volume_24h": 106122.59,
+    "score": 0.6437
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 27.24,
+    "price": 0.9,
+    "hours_to_close": 26.99,
     "volume_24h": 50128.64,
-    "score": 0.6032
+    "score": 0.6137
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 16, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.22,
+    "hours_to_close": 22.97,
     "volume_24h": 905.71,
-    "score": 0.5837
+    "score": 0.5843
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 16, 2026? \u2014 39.0%",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.22,
-    "volume_24h": 1617.88,
-    "score": 0.5726
+    "price": 0.87,
+    "hours_to_close": 26.99,
+    "volume_24h": 23615.44,
+    "score": 0.5837
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 9,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 62.23,
- "fees_paid": 1.61,
+ "cash": 44.28,
+ "fees_paid": 1.75,
  "peak_equity": 107.76,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
- "next_id": 91,
+ "next_id": 94,
  "open_positions": [
   {
    "id": 75,
@@ -125,7 +125,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -158,7 +158,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.77,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -186,7 +186,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -203,7 +203,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.3,
+   "mark_price": 0.2,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -241,7 +241,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.6077,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792184400.0,
    "score": 0.4749,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -381,6 +381,57 @@
    "close_ts": 1792180800.0,
    "score": 0.4773,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 91,
+   "ticker": "KXANTHVREQ-16OCT26-T4P6",
+   "event_ticker": "KXANTHVREQ-16OCT26",
+   "series": "KXANTHVREQ",
+   "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792080044,
+   "close_ts": 1792209540.0,
+   "score": 0.65,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 92,
+   "ticker": "KXGOOGVREQ-16OCT26-T14P5",
+   "event_ticker": "KXGOOGVREQ-16OCT26",
+   "series": "KXGOOGVREQ",
+   "label": "Google Vercel share of AI Gateway requests across the top labs above 14.5% \u2014 Above 14.5%",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.87,
+   "fee": 0.06,
+   "cost": 6.15,
+   "opened_ts": 1792080044,
+   "close_ts": 1792209540.0,
+   "score": 0.5104,
+   "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 93,
+   "ticker": "KXMOONVSPEND-16OCT26-T11P7",
+   "event_ticker": "KXMOONVSPEND-16OCT26",
+   "series": "KXMOONVSPEND",
+   "label": "Moonshot AI Vercel share of AI Gateway spend across the top labs above 11.7% \u2014 Above 11.7%",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 6.08,
+   "opened_ts": 1792080044,
+   "close_ts": 1792209540.0,
+   "score": 0.4125,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -5231,96 +5282,106 @@
    1792079129,
    107.76,
    105.75
+  ],
+  [
+   1792080044,
+   107.76,
+   105.07
   ]
  ],
  "last_run": {
-  "ts": 1792079129,
+  "ts": 1792080044,
   "error": null,
-  "markets_scanned": 1632,
-  "candidates": 32,
+  "markets_scanned": 1606,
+  "candidates": 38,
   "rejections": {
-   "too little volume": 1443,
-   "no favorite in 80-95c band": 126,
-   "spread too wide": 28,
-   "favorite is slipping fast": 3
+   "too little volume": 1401,
+   "no favorite in 80-95c band": 133,
+   "spread too wide": 32,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
+  "opened": [
+   91,
+   92,
+   93
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.24,
-    "volume_24h": 11620.52,
-    "score": 0.6496
-   },
-   {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 29.24,
+    "price": 0.95,
+    "hours_to_close": 28.99,
     "volume_24h": 17280.56,
-    "score": 0.6496
+    "score": 0.66
+   },
+   {
+    "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.97,
+    "volume_24h": 14098.91,
+    "score": 0.65
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.99,
+    "volume_24h": 6365.18,
+    "score": 0.6453
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 29.24,
+    "price": 0.95,
+    "hours_to_close": 28.99,
     "volume_24h": 5777.08,
-    "score": 0.6317
+    "score": 0.6422
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 28.99,
+    "volume_24h": 11914.11,
+    "score": 0.64
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 29.24,
-    "volume_24h": 102894.46,
-    "score": 0.6196
+    "price": 0.92,
+    "hours_to_close": 28.99,
+    "volume_24h": 101864.36,
+    "score": 0.63
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.24,
+    "price": 0.95,
+    "hours_to_close": 28.99,
     "volume_24h": 2611.71,
-    "score": 0.6059
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 16, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 25.23,
-    "volume_24h": 685.7,
-    "score": 0.57
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 29.24,
-    "volume_24h": 17203.96,
-    "score": 0.5696
+    "score": 0.6163
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 29.24,
-    "volume_24h": 51033.42,
-    "score": 0.5696
+    "price": 0.88,
+    "hours_to_close": 28.99,
+    "volume_24h": 51929.73,
+    "score": 0.59
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 16,
-   "related-market cap (Presidential approval)": 2,
-   "related-market cap (Oil prices)": 7,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Crypto)": 17,
+   "related-market cap (Presidential approval)": 1,
+   "related-market cap (Oil prices)": 6,
+   "tracked only (below bet price floor)": 6,
+   "related-market cap (Precious metals)": 1
   },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 7,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

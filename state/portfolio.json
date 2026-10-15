@@ -189,7 +189,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -240,7 +240,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -285,7 +285,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -308,7 +308,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.88,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -4727,18 +4727,22 @@
    1792033235,
    106.75,
    106.53
+  ],
+  [
+   1792034131,
+   106.75,
+   106.5
   ]
  ],
  "last_run": {
-  "ts": 1792033235,
+  "ts": 1792034131,
   "error": null,
   "markets_scanned": 4102,
-  "candidates": 83,
+  "candidates": 89,
   "rejections": {
-   "too little volume": 3719,
-   "no favorite in 80-95c band": 264,
-   "spread too wide": 32,
-   "nothing for sale at the ask": 3,
+   "too little volume": 3707,
+   "no favorite in 80-95c band": 269,
+   "spread too wide": 36,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -4746,72 +4750,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 13.72,
+    "volume_24h": 38618.67,
+    "score": 0.6865
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 13.97,
-    "volume_24h": 18178.77,
-    "score": 0.6751
+    "hours_to_close": 13.72,
+    "volume_24h": 19216.2,
+    "score": 0.6765
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.97,
-    "volume_24h": 35858.54,
-    "score": 0.6751
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 17.99,
-    "volume_24h": 16509.23,
-    "score": 0.6675
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
-    "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.99,
-    "volume_24h": 3371.91,
-    "score": 0.6521
+    "hours_to_close": 17.74,
+    "volume_24h": 6037.07,
+    "score": 0.672
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 17.99,
-    "volume_24h": 13229.39,
-    "score": 0.6475
+    "price": 0.93,
+    "hours_to_close": 17.74,
+    "volume_24h": 13527.31,
+    "score": 0.6685
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 17.74,
+    "volume_24h": 16685.23,
+    "score": 0.6485
+   },
+   {
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 15.49,
-    "volume_24h": 15359.17,
-    "score": 0.6377
+    "price": 0.95,
+    "hours_to_close": 17.74,
+    "volume_24h": 2235.96,
+    "score": 0.6397
+   },
+   {
+    "label": "Will it rain in College Station on Oct 15, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.74,
+    "volume_24h": 4713.36,
+    "score": 0.6396
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 17.99,
-    "volume_24h": 2081.59,
-    "score": 0.6364
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 13.97,
-    "volume_24h": 29229.38,
-    "score": 0.6251
+    "price": 0.93,
+    "hours_to_close": 17.74,
+    "volume_24h": 2919.59,
+    "score": 0.6284
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 66.77,
- "fees_paid": 1.43,
+ "cash": 66.34,
+ "fees_paid": 1.44,
  "peak_equity": 106.87,
  "day": "2026-10-15",
  "day_start_equity": 106.87,
- "next_id": 82,
+ "next_id": 83,
  "open_positions": [
   {
    "id": 63,
@@ -138,23 +138,6 @@
    "shadow": {}
   },
   {
-   "id": 73,
-   "ticker": "KXDIMAYORGAME-26OCT13MILOC-OC",
-   "event_ticker": "KXDIMAYORGAME-26OCT13MILOC",
-   "series": "KXDIMAYORGAME",
-   "label": "Once Caldas wins",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.84,
-   "fee": 0.03,
-   "cost": 2.55,
-   "opened_ts": 1791984639,
-   "close_ts": 1792114200.0,
-   "score": 0.54,
-   "mark_price": 0.83,
-   "shadow": {}
-  },
-  {
    "id": 74,
    "ticker": "KXOPENSOURCESHARE-26OCT15-T56.2",
    "event_ticker": "KXOPENSOURCESHARE-26OCT15",
@@ -168,7 +151,7 @@
    "opened_ts": 1791989137,
    "close_ts": 1792072800.0,
    "score": 0.5457,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1791995433,
@@ -206,7 +189,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.85,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -302,8 +285,14 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.94,
-   "shadow": {}
+   "mark_price": 0.82,
+   "shadow": {
+    "10": {
+     "ts": 1792031438,
+     "bid": 0.82,
+     "proceeds": 2.42
+    }
+   }
   },
   {
    "id": 81,
@@ -319,7 +308,24 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 82,
+   "ticker": "KXHIGHNY-26OCT15-B68.5",
+   "event_ticker": "KXHIGHNY-26OCT15",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 15, 2026? \u2014 68\u00b0 to 69\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1792031438,
+   "close_ts": 1792126800.0,
+   "score": 0.6192,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -1667,6 +1673,27 @@
    "pnl": 0.16,
    "result": "YES",
    "closed_ts": 1792012534,
+   "won": true
+  },
+  {
+   "id": 73,
+   "ticker": "KXDIMAYORGAME-26OCT13MILOC-OC",
+   "event_ticker": "KXDIMAYORGAME-26OCT13MILOC",
+   "series": "KXDIMAYORGAME",
+   "label": "Once Caldas wins",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.84,
+   "fee": 0.03,
+   "cost": 2.55,
+   "opened_ts": 1791984639,
+   "close_ts": 1792114200.0,
+   "score": 0.54,
+   "shadow": {},
+   "payout": 2.43,
+   "pnl": -0.12,
+   "result": "SCALAR",
+   "closed_ts": 1792031438,
    "won": true
   }
  ],
@@ -4685,91 +4712,103 @@
    1792030534,
    106.87,
    106.72
+  ],
+  [
+   1792031438,
+   106.75,
+   106.11
   ]
  ],
  "last_run": {
-  "ts": 1792030534,
+  "ts": 1792031438,
   "error": null,
-  "markets_scanned": 4024,
-  "candidates": 88,
+  "markets_scanned": 4094,
+  "candidates": 80,
   "rejections": {
-   "too little volume": 3664,
-   "no favorite in 80-95c band": 248,
-   "spread too wide": 23,
+   "too little volume": 3731,
+   "no favorite in 80-95c band": 253,
+   "spread too wide": 27,
+   "nothing for sale at the ask": 2,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   82
+  ],
+  "settled": [
+   73
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 13016.89,
-    "score": 0.6749
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 8766.3,
+    "score": 0.6815
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 14.72,
+    "hours_to_close": 14.47,
     "volume_24h": 18169.17,
-    "score": 0.6713
+    "score": 0.6726
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 14.72,
+    "hours_to_close": 14.47,
     "volume_24h": 35777.97,
-    "score": 0.6713
+    "score": 0.6726
    },
    {
-    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,300 or above",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,000 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 2414.1,
-    "score": 0.6386
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 9659.29,
+    "score": 0.6646
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,000 or above",
     "side": "no",
+    "price": 0.91,
+    "hours_to_close": 18.49,
+    "volume_24h": 9937.72,
+    "score": 0.6456
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $77,750 or above",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 3090.19,
-    "score": 0.6366
+    "hours_to_close": 18.49,
+    "volume_24h": 3811.34,
+    "score": 0.6443
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 16.24,
-    "volume_24h": 15358.17,
-    "score": 0.6344
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 1869.43,
-    "score": 0.6303
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,250 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 18.49,
+    "volume_24h": 10613.71,
+    "score": 0.6358
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 14.72,
+    "hours_to_close": 14.47,
     "volume_24h": 29109.07,
-    "score": 0.6213
+    "score": 0.6226
    }
   ],
-  "skipped": {},
-  "watch_added": 5,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
+  "watch_added": 8,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549

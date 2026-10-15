@@ -190,7 +190,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.565,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -224,7 +224,7 @@
    "opened_ts": 1791998131,
    "close_ts": 1792083540.0,
    "score": 0.5881,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792016131,
@@ -269,7 +269,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -292,7 +292,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -4783,95 +4783,96 @@
    1792039537,
    106.89,
    106.34
+  ],
+  [
+   1792040447,
+   106.89,
+   106.55
   ]
  ],
  "last_run": {
-  "ts": 1792039537,
+  "ts": 1792040447,
   "error": null,
-  "markets_scanned": 4110,
+  "markets_scanned": 4129,
   "candidates": 81,
   "rejections": {
-   "too little volume": 3698,
-   "no favorite in 80-95c band": 288,
-   "spread too wide": 41,
+   "too little volume": 3713,
+   "no favorite in 80-95c band": 294,
+   "spread too wide": 39,
    "nothing for sale at the ask": 2
   },
-  "opened": [
-   83
-  ],
-  "settled": [
-   63
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 15, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.22,
-    "volume_24h": 38807.98,
-    "score": 0.6952
+    "hours_to_close": 11.97,
+    "volume_24h": 38843.21,
+    "score": 0.6969
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 15, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 12.22,
-    "volume_24h": 19458.38,
-    "score": 0.6852
+    "hours_to_close": 11.97,
+    "volume_24h": 19865.97,
+    "score": 0.6869
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 16.24,
+    "price": 0.94,
+    "hours_to_close": 15.99,
     "volume_24h": 21177.19,
-    "score": 0.6744
+    "score": 0.6855
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 16.24,
+    "hours_to_close": 15.99,
     "volume_24h": 6366.28,
-    "score": 0.6697
+    "score": 0.6708
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 15.99,
+    "volume_24h": 4071.58,
+    "score": 0.6663
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 15, 2026? \u2014 Above $95.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.74,
+    "hours_to_close": 13.49,
     "volume_24h": 2295.36,
-    "score": 0.6585
+    "score": 0.6598
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 15, 2026? \u2014 Above $94.99",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 15, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 13.74,
-    "volume_24h": 21633.71,
-    "score": 0.6564
+    "price": 0.89,
+    "hours_to_close": 11.97,
+    "volume_24h": 38192.13,
+    "score": 0.6569
    },
    {
     "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.24,
+    "hours_to_close": 15.99,
     "volume_24h": 2318.21,
-    "score": 0.6468
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 16.24,
-    "volume_24h": 15423.58,
-    "score": 0.6444
+    "score": 0.6479
    }
   ],
   "skipped": {},
   "watch_added": 2,
-  "watch_graded": 13,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

@@ -61,7 +61,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792044059,
@@ -101,7 +101,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.5465,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -163,7 +163,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.87,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -219,7 +219,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.84,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -291,7 +291,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.5167,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -308,7 +308,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792184400.0,
    "score": 0.4749,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -363,7 +363,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -5122,18 +5122,23 @@
    1792070138,
    107.65,
    106.47
+  ],
+  [
+   1792071042,
+   107.65,
+   106.11
   ]
  ],
  "last_run": {
-  "ts": 1792070138,
+  "ts": 1792071042,
   "error": null,
   "markets_scanned": 1638,
-  "candidates": 24,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 1452,
-   "no favorite in 80-95c band": 127,
-   "spread too wide": 30,
-   "favorite is slipping fast": 5
+   "too little volume": 1451,
+   "no favorite in 80-95c band": 125,
+   "spread too wide": 33,
+   "favorite is slipping fast": 4
   },
   "opened": [],
   "settled": [],
@@ -5142,71 +5147,71 @@
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.74,
-    "volume_24h": 18048.13,
-    "score": 0.6456
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,000 or above",
-    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.74,
-    "volume_24h": 6850.16,
-    "score": 0.6433
+    "hours_to_close": 31.49,
+    "volume_24h": 16772.71,
+    "score": 0.656
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 31.74,
-    "volume_24h": 56649.45,
-    "score": 0.6156
+    "price": 0.92,
+    "hours_to_close": 31.49,
+    "volume_24h": 54261.61,
+    "score": 0.626
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 31.49,
+    "volume_24h": 6974.94,
+    "score": 0.6243
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 24.72,
+    "hours_to_close": 24.47,
     "volume_24h": 3305.83,
-    "score": 0.6123
+    "score": 0.6129
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $77,500 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.74,
-    "volume_24h": 3585.93,
-    "score": 0.5922
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,420 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 31.74,
-    "volume_24h": 14089.91,
-    "score": 0.5756
-   },
-   {
-    "label": "Bitcoin price range on Oct 16, 2026? \u2014 $82,500 to 82,999.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.74,
-    "volume_24h": 552.72,
-    "score": 0.5614
+    "price": 0.86,
+    "hours_to_close": 31.49,
+    "volume_24h": 10882.22,
+    "score": 0.566
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 31.74,
-    "volume_24h": 42185.33,
-    "score": 0.5556
+    "hours_to_close": 31.49,
+    "volume_24h": 40077.07,
+    "score": 0.556
+   },
+   {
+    "label": "Bitcoin price range on Oct 16, 2026? \u2014 $82,500 to 82,999.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.49,
+    "volume_24h": 384.92,
+    "score": 0.55
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.49,
+    "volume_24h": 13437.91,
+    "score": 0.546
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 6,
+  "watch_added": 3,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549

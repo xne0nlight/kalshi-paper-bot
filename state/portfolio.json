@@ -258,7 +258,7 @@
    "opened_ts": 1792005332,
    "close_ts": 1792130400.0,
    "score": 0.5515,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -315,7 +315,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {}
   }
  ],
@@ -4829,90 +4829,94 @@
    1792046731,
    106.89,
    106.23
+  ],
+  [
+   1792047634,
+   106.89,
+   106.17
   ]
  ],
  "last_run": {
-  "ts": 1792046731,
+  "ts": 1792047634,
   "error": null,
   "markets_scanned": 3716,
-  "candidates": 82,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 3263,
-   "no favorite in 80-95c band": 317,
-   "spread too wide": 53,
-   "nothing for sale at the ask": 1
+   "too little volume": 3261,
+   "no favorite in 80-95c band": 349,
+   "spread too wide": 75
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "label": "Will it rain in College Station on Oct 15, 2026?",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 19021.16,
-    "score": 0.7037
+    "price": 0.94,
+    "hours_to_close": 22.99,
+    "volume_24h": 5567.08,
+    "score": 0.6434
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.99,
+    "volume_24h": 6476.04,
+    "score": 0.6409
+   },
+   {
+    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 15, 2026? \u2014 89\u00b0 to 90\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.99,
+    "volume_24h": 5001.22,
+    "score": 0.6325
+   },
+   {
+    "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 14.24,
-    "volume_24h": 8326.43,
-    "score": 0.6878
+    "price": 0.93,
+    "hours_to_close": 30.97,
+    "volume_24h": 3266.48,
+    "score": 0.6004
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 15, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 21.99,
+    "volume_24h": 3004.8,
+    "score": 0.5959
+   },
+   {
+    "label": "Will it rain in Austin on Oct 15, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 22.99,
+    "volume_24h": 3408.84,
+    "score": 0.5874
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,250 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.24,
+    "price": 0.95,
+    "hours_to_close": 13.99,
     "volume_24h": 5746.59,
-    "score": 0.6757
+    "score": 0.587
    },
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 14.24,
-    "volume_24h": 17896.02,
-    "score": 0.6737
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 3274.24,
-    "score": 0.6674
-   },
-   {
-    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,260 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 2309.26,
-    "score": 0.656
-   },
-   {
-    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,460 or above",
+    "label": "Will it rain in New York City on Oct 15, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.24,
-    "volume_24h": 3034.11,
-    "score": 0.6549
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 14.24,
-    "volume_24h": 4756.41,
-    "score": 0.6496
+    "hours_to_close": 21.99,
+    "volume_24h": 2784.65,
+    "score": 0.5734
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

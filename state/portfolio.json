@@ -2,36 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 44.28,
+ "cash": 47.28,
  "fees_paid": 1.75,
- "peak_equity": 107.76,
+ "peak_equity": 108.12,
  "day": "2026-10-15",
  "day_start_equity": 107.76,
  "next_id": 94,
  "open_positions": [
-  {
-   "id": 75,
-   "ticker": "KX30YMORTW-26OCT15-T7.34",
-   "event_ticker": "KX30YMORTW-26OCT15",
-   "series": "KX30YMORTW",
-   "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 15, 2026 be above 7.34%? \u2014 Above 7.34%",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.87,
-   "fee": 0.03,
-   "cost": 2.64,
-   "opened_ts": 1791995433,
-   "close_ts": 1792079940.0,
-   "score": 0.4884,
-   "mark_price": 0.92,
-   "shadow": {
-    "10": {
-     "ts": 1792044059,
-     "bid": 0.74,
-     "proceeds": 2.17
-    }
-   }
-  },
   {
    "id": 76,
    "ticker": "KXRAIN-26OCT15-EWR",
@@ -125,7 +102,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -158,7 +135,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792137600.0,
    "score": 0.5755,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792054835,
@@ -203,7 +180,7 @@
    "opened_ts": 1792039537,
    "close_ts": 1792089000.0,
    "score": 0.6585,
-   "mark_price": 0.2,
+   "mark_price": 0.09,
    "shadow": {
     "10": {
      "ts": 1792053938,
@@ -258,7 +235,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.5167,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -292,7 +269,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.75,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -1994,6 +1971,33 @@
    "pnl": 0.11,
    "result": "NO",
    "closed_ts": 1792074643,
+   "won": true
+  },
+  {
+   "id": 75,
+   "ticker": "KX30YMORTW-26OCT15-T7.34",
+   "event_ticker": "KX30YMORTW-26OCT15",
+   "series": "KX30YMORTW",
+   "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 15, 2026 be above 7.34%? \u2014 Above 7.34%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.87,
+   "fee": 0.03,
+   "cost": 2.64,
+   "opened_ts": 1791995433,
+   "close_ts": 1792079940.0,
+   "score": 0.4884,
+   "shadow": {
+    "10": {
+     "ts": 1792044059,
+     "bid": 0.74,
+     "proceeds": 2.17
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.36,
+   "result": "YES",
+   "closed_ts": 1792080943,
    "won": true
   }
  ],
@@ -5287,101 +5291,103 @@
    1792080044,
    107.76,
    105.07
+  ],
+  [
+   1792080943,
+   108.12,
+   105.4
   ]
  ],
  "last_run": {
-  "ts": 1792080044,
+  "ts": 1792080943,
   "error": null,
   "markets_scanned": 1606,
-  "candidates": 38,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 1401,
-   "no favorite in 80-95c band": 133,
-   "spread too wide": 32,
+   "too little volume": 1400,
+   "no favorite in 80-95c band": 124,
+   "spread too wide": 45,
    "favorite is slipping fast": 2
   },
-  "opened": [
-   91,
-   92,
-   93
+  "opened": [],
+  "settled": [
+   75
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 17280.56,
-    "score": 0.66
+    "hours_to_close": 28.74,
+    "volume_24h": 17299.28,
+    "score": 0.6605
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 28.74,
+    "volume_24h": 11964.11,
+    "score": 0.6505
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.97,
+    "hours_to_close": 35.72,
     "volume_24h": 14098.91,
-    "score": 0.65
+    "score": 0.6503
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 6365.18,
-    "score": 0.6453
+    "hours_to_close": 28.74,
+    "volume_24h": 6388.18,
+    "score": 0.6459
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,340 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 5777.08,
-    "score": 0.6422
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $85,000 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.99,
-    "volume_24h": 11914.11,
-    "score": 0.64
+    "hours_to_close": 28.74,
+    "volume_24h": 6277.08,
+    "score": 0.6453
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 28.99,
-    "volume_24h": 101864.36,
-    "score": 0.63
+    "price": 0.91,
+    "hours_to_close": 28.74,
+    "volume_24h": 102495.59,
+    "score": 0.6205
    },
    {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 2611.71,
-    "score": 0.6163
+    "price": 0.9,
+    "hours_to_close": 28.74,
+    "volume_24h": 10274.41,
+    "score": 0.6105
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 28.99,
-    "volume_24h": 51929.73,
-    "score": 0.59
+    "hours_to_close": 28.74,
+    "volume_24h": 51773.21,
+    "score": 0.5905
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 17,
    "related-market cap (Presidential approval)": 1,
-   "related-market cap (Oil prices)": 6,
-   "tracked only (below bet price floor)": 6,
-   "related-market cap (Precious metals)": 1
+   "related-market cap (Oil prices)": 7,
+   "tracked only (below bet price floor)": 5
   },
-  "watch_added": 7,
-  "watch_graded": 2,
+  "watch_added": 0,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -173,7 +173,7 @@
    "opened_ts": 1791995433,
    "close_ts": 1792079940.0,
    "score": 0.4884,
-   "mark_price": 0.79,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792044059,
@@ -213,7 +213,7 @@
    "opened_ts": 1791997238,
    "close_ts": 1792126800.0,
    "score": 0.5465,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -258,7 +258,7 @@
    "opened_ts": 1792005332,
    "close_ts": 1792130400.0,
    "score": 0.5515,
-   "mark_price": 0.91,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792012534,
    "close_ts": 1792098000.0,
    "score": 0.6642,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792031438,
@@ -315,7 +315,7 @@
    "opened_ts": 1792031438,
    "close_ts": 1792126800.0,
    "score": 0.6192,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -4824,17 +4824,22 @@
    1792045841,
    106.89,
    105.99
+  ],
+  [
+   1792046731,
+   106.89,
+   106.23
   ]
  ],
  "last_run": {
-  "ts": 1792045841,
+  "ts": 1792046731,
   "error": null,
   "markets_scanned": 3716,
-  "candidates": 85,
+  "candidates": 82,
   "rejections": {
-   "too little volume": 3270,
-   "no favorite in 80-95c band": 311,
-   "spread too wide": 49,
+   "too little volume": 3263,
+   "no favorite in 80-95c band": 317,
+   "spread too wide": 53,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -4842,72 +4847,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,250 or above",
-    "side": "yes",
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
+    "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.49,
-    "volume_24h": 12517.84,
-    "score": 0.7025
+    "hours_to_close": 14.24,
+    "volume_24h": 19021.16,
+    "score": 0.7037
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,500 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 14.24,
+    "volume_24h": 8326.43,
+    "score": 0.6878
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,250 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 14.24,
+    "volume_24h": 5746.59,
+    "score": 0.6757
+   },
+   {
+    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 14.24,
+    "volume_24h": 17896.02,
+    "score": 0.6737
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.49,
+    "hours_to_close": 14.24,
     "volume_24h": 3274.24,
-    "score": 0.6661
+    "score": 0.6674
    },
    {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 15, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,260 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 22.49,
-    "volume_24h": 9280.2,
-    "score": 0.6613
+    "price": 0.95,
+    "hours_to_close": 14.24,
+    "volume_24h": 2309.26,
+    "score": 0.656
    },
    {
     "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,460 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.49,
+    "hours_to_close": 14.24,
     "volume_24h": 3034.11,
-    "score": 0.6537
-   },
-   {
-    "label": "Bitcoin price on Oct 15, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.49,
-    "volume_24h": 18867.04,
-    "score": 0.6525
+    "score": 0.6549
    },
    {
     "label": "Bitcoin price on Oct 15, 2026? \u2014 $78,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 14.49,
-    "volume_24h": 4684.41,
-    "score": 0.6478
-   },
-   {
-    "label": "Ethereum price at Oct 15, 2026 at 5pm EDT? \u2014 $2,260 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 14.49,
-    "volume_24h": 2229.96,
-    "score": 0.6436
-   },
-   {
-    "label": "Will it rain in College Station on Oct 15, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 5460.67,
-    "score": 0.6415
+    "hours_to_close": 14.24,
+    "volume_24h": 4756.41,
+    "score": 0.6496
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

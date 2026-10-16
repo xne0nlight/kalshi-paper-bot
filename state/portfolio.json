@@ -112,7 +112,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -150,7 +150,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -223,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.59,
+   "mark_price": 0.54,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +261,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.52,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -349,7 +349,7 @@
    "opened_ts": 1792084532,
    "close_ts": 1792169940.0,
    "score": 0.5713,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -366,7 +366,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -434,7 +434,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   }
  ],
@@ -5883,10 +5883,15 @@
    1792152973,
    106.46,
    102.63
+  ],
+  [
+   1792153880,
+   106.46,
+   102.4
   ]
  ],
  "last_run": {
-  "ts": 1792152973,
+  "ts": 1792153880,
   "error": null,
   "markets_scanned": 55,
   "candidates": 1,
@@ -5896,26 +5901,24 @@
    "spread too wide": 3
   },
   "opened": [],
-  "settled": [
-   79
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-    "side": "no",
-    "price": 0.8,
-    "hours_to_close": 25.73,
-    "volume_24h": 31383.97,
-    "score": 0.5162
+    "label": "Inner Circle wins",
+    "side": "yes",
+    "price": 0.81,
+    "hours_to_close": 27.48,
+    "volume_24h": 3571.56,
+    "score": 0.3892
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,
-  "watch_graded": 18,
-  "api_calls": 43
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -2,51 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 25.31,
+ "cash": 28.31,
  "fees_paid": 2.0,
  "peak_equity": 108.4,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
  "next_id": 103,
  "open_positions": [
-  {
-   "id": 81,
-   "ticker": "KXHIGHLAX-26OCT15-B85.5",
-   "event_ticker": "KXHIGHLAX-26OCT15",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1792012534,
-   "close_ts": 1792137600.0,
-   "score": 0.5755,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792054835,
-     "bid": 0.82,
-     "proceeds": 2.42
-    },
-    "15": {
-     "ts": 1792079129,
-     "bid": 0.77,
-     "proceeds": 2.27
-    },
-    "20": {
-     "ts": 1792084532,
-     "bid": 0.66,
-     "proceeds": 1.93
-    },
-    "30": {
-     "ts": 1792085442,
-     "bid": 0.59,
-     "proceeds": 1.71
-    }
-   }
-  },
   {
    "id": 84,
    "ticker": "KXACTBLUETOP-26OCT16-JTAL",
@@ -183,7 +145,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -223,7 +185,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.33,
+   "mark_price": 0.45,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.63,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -332,7 +294,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -349,7 +311,7 @@
    "opened_ts": 1792084532,
    "close_ts": 1792169940.0,
    "score": 0.5713,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -417,7 +379,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.92,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -434,7 +396,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.74,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -467,7 +429,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.86,
+   "mark_price": 0.81,
    "shadow": {}
   }
  ],
@@ -2273,6 +2235,48 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1792152973,
+   "won": true
+  },
+  {
+   "id": 81,
+   "ticker": "KXHIGHLAX-26OCT15-B85.5",
+   "event_ticker": "KXHIGHLAX-26OCT15",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 85-86\u00b0 on Oct 15, 2026? \u2014 85\u00b0 to 86\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1792012534,
+   "close_ts": 1792137600.0,
+   "score": 0.5755,
+   "shadow": {
+    "10": {
+     "ts": 1792054835,
+     "bid": 0.82,
+     "proceeds": 2.42
+    },
+    "15": {
+     "ts": 1792079129,
+     "bid": 0.77,
+     "proceeds": 2.27
+    },
+    "20": {
+     "ts": 1792084532,
+     "bid": 0.66,
+     "proceeds": 1.93
+    },
+    "30": {
+     "ts": 1792085442,
+     "bid": 0.59,
+     "proceeds": 1.71
+    }
+   },
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1792160178,
    "won": true
   }
  ],
@@ -5951,36 +5955,43 @@
    1792159296,
    106.46,
    101.21
+  ],
+  [
+   1792160178,
+   106.68,
+   101.24
   ]
  ],
  "last_run": {
-  "ts": 1792159296,
+  "ts": 1792160178,
   "error": null,
   "markets_scanned": 82,
   "candidates": 1,
   "rejections": {
    "too little volume": 53,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 3
+   "no favorite in 80-95c band": 26,
+   "spread too wide": 2
   },
-  "opened": [
-   102
+  "opened": [],
+  "settled": [
+   81
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+    "label": "Mena Warriors wins",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 23.97,
-    "volume_24h": 33012.67,
-    "score": 0.5901
+    "price": 0.81,
+    "hours_to_close": 25.73,
+    "volume_24h": 3759.6,
+    "score": 0.3943
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 14,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

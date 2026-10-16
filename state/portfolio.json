@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.68,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -127,6 +127,11 @@
      "ts": 1792170968,
      "bid": 0.68,
      "proceeds": 3.98
+    },
+    "30": {
+     "ts": 1792173685,
+     "bid": 0.63,
+     "proceeds": 3.68
     }
    }
   },
@@ -237,7 +242,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -376,7 +381,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -409,8 +414,14 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.8,
-   "shadow": {}
+   "mark_price": 0.76,
+   "shadow": {
+    "10": {
+     "ts": 1792173685,
+     "bid": 0.76,
+     "proceeds": 1.49
+    }
+   }
   },
   {
    "id": 103,
@@ -460,7 +471,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -494,7 +505,7 @@
    "opened_ts": 1792170968,
    "close_ts": 1792252800.0,
    "score": 0.5883,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -6158,90 +6169,94 @@
    1792172768,
    107.73,
    97.79
+  ],
+  [
+   1792173685,
+   107.73,
+   97.14
   ]
  ],
  "last_run": {
-  "ts": 1792172768,
+  "ts": 1792173685,
   "error": null,
-  "markets_scanned": 176,
-  "candidates": 15,
+  "markets_scanned": 344,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 98,
-   "no favorite in 80-95c band": 59,
-   "spread too wide": 3,
-   "nothing for sale at the ask": 1
+   "too little volume": 217,
+   "no favorite in 80-95c band": 100,
+   "spread too wide": 9
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.96,
+    "volume_24h": 6590.28,
+    "score": 0.6589
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 23.21,
-    "volume_24h": 11956.91,
-    "score": 0.5819
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Oct 17, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.23,
-    "volume_24h": 435.04,
-    "score": 0.5489
+    "hours_to_close": 22.96,
+    "volume_24h": 14202.72,
+    "score": 0.5825
    },
    {
     "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 35.23,
-    "volume_24h": 2610.98,
-    "score": 0.5472
+    "hours_to_close": 34.98,
+    "volume_24h": 2842.94,
+    "score": 0.5503
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.23,
+    "hours_to_close": 34.98,
     "volume_24h": 713.14,
-    "score": 0.535
+    "score": 0.5353
+   },
+   {
+    "label": "Will it rain in Pittsburgh on Oct 17, 2026?",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 34.98,
+    "volume_24h": 1189.33,
+    "score": 0.5219
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.23,
-    "volume_24h": 530.91,
-    "score": 0.5154
+    "hours_to_close": 34.98,
+    "volume_24h": 555.91,
+    "score": 0.5172
    },
    {
     "label": "Will it rain in Washington DC on Oct 17, 2026?",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 35.23,
+    "hours_to_close": 34.98,
     "volume_24h": 2821.56,
-    "score": 0.5097
+    "score": 0.51
    },
    {
     "label": "Will it rain in Philadelphia on Oct 17, 2026?",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 35.23,
+    "hours_to_close": 34.98,
     "volume_24h": 2467.49,
-    "score": 0.5054
-   },
-   {
-    "label": "Will it rain in Pittsburgh on Oct 17, 2026?",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 35.23,
-    "volume_24h": 1184.2,
-    "score": 0.5015
+    "score": 0.5057
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

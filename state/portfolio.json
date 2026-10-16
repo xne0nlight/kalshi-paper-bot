@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 27.07,
- "fees_paid": 1.98,
+ "cash": 25.31,
+ "fees_paid": 2.0,
  "peak_equity": 108.4,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
- "next_id": 102,
+ "next_id": 103,
  "open_positions": [
   {
    "id": 81,
@@ -112,7 +112,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -223,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.26,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +261,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.55,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -299,7 +299,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -332,7 +332,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -349,7 +349,7 @@
    "opened_ts": 1792084532,
    "close_ts": 1792169940.0,
    "score": 0.5713,
-   "mark_price": 0.89,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -434,7 +434,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.71,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -452,6 +452,23 @@
      "proceeds": 4.17
     }
    }
+  },
+  {
+   "id": 102,
+   "ticker": "KXRTTV-VIS-85",
+   "event_ticker": "KXRTTV-VIS",
+   "series": "KXRTTV",
+   "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.87,
+   "fee": 0.02,
+   "cost": 1.76,
+   "opened_ts": 1792159296,
+   "close_ts": 1792245600.0,
+   "score": 0.5901,
+   "mark_price": 0.86,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -5929,52 +5946,41 @@
    1792158372,
    106.46,
    99.63
+  ],
+  [
+   1792159296,
+   106.46,
+   101.21
   ]
  ],
  "last_run": {
-  "ts": 1792158372,
+  "ts": 1792159296,
   "error": null,
-  "markets_scanned": 66,
-  "candidates": 3,
+  "markets_scanned": 82,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 37,
+   "too little volume": 53,
    "no favorite in 80-95c band": 25,
-   "spread too wide": 1
+   "spread too wide": 3
   },
-  "opened": [],
+  "opened": [
+   102
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
-    "price": 0.83,
-    "hours_to_close": 24.23,
-    "volume_24h": 32920.67,
-    "score": 0.5495
-   },
-   {
-    "label": "Mena Warriors wins",
-    "side": "no",
-    "price": 0.82,
-    "hours_to_close": 26.23,
-    "volume_24h": 3353.82,
-    "score": 0.3996
-   },
-   {
-    "label": "Inner Circle wins",
-    "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 26.23,
-    "volume_24h": 3740.82,
-    "score": 0.3931
+    "price": 0.87,
+    "hours_to_close": 23.97,
+    "volume_24h": 33012.67,
+    "score": 0.5901
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 3
-  },
+  "skipped": {},
   "watch_added": 0,
-  "watch_graded": 7,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

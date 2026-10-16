@@ -112,7 +112,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -223,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.41,
+   "mark_price": 0.4,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +261,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.47,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -332,7 +332,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -366,7 +366,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -434,12 +434,17 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.81,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792154774,
      "bid": 0.84,
      "proceeds": 4.98
+    },
+    "15": {
+     "ts": 1792157486,
+     "bid": 0.77,
+     "proceeds": 4.54
     }
    }
   }
@@ -5909,10 +5914,15 @@
    1792156570,
    106.46,
    100.88
+  ],
+  [
+   1792157486,
+   106.46,
+   100.36
   ]
  ],
  "last_run": {
-  "ts": 1792156570,
+  "ts": 1792157486,
   "error": null,
   "markets_scanned": 66,
   "candidates": 3,
@@ -5928,33 +5938,33 @@
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
-    "price": 0.8,
-    "hours_to_close": 24.73,
-    "volume_24h": 32854.06,
-    "score": 0.5183
+    "price": 0.83,
+    "hours_to_close": 24.48,
+    "volume_24h": 32855.26,
+    "score": 0.5489
    },
    {
     "label": "Mena Warriors wins",
     "side": "no",
     "price": 0.82,
-    "hours_to_close": 26.73,
-    "volume_24h": 3238.3,
-    "score": 0.3974
+    "hours_to_close": 26.48,
+    "volume_24h": 3353.82,
+    "score": 0.3991
    },
    {
     "label": "Inner Circle wins",
     "side": "yes",
     "price": 0.81,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 3727.26,
-    "score": 0.392
+    "score": 0.3925
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 3
   },
-  "watch_added": 1,
-  "watch_graded": 5,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

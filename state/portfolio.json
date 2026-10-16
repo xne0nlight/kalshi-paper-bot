@@ -256,7 +256,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.92,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -289,7 +289,7 @@
    "opened_ts": 1792074643,
    "close_ts": 1792202400.0,
    "score": 0.378,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -346,7 +346,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.63,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -379,7 +379,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -5540,18 +5540,23 @@
    1792112483,
    108.4,
    104.58
+  ],
+  [
+   1792113367,
+   108.4,
+   105.29
   ]
  ],
  "last_run": {
-  "ts": 1792112483,
+  "ts": 1792113367,
   "error": null,
   "markets_scanned": 4766,
-  "candidates": 75,
+  "candidates": 76,
   "rejections": {
-   "too little volume": 4258,
-   "no favorite in 80-95c band": 387,
-   "spread too wide": 44,
-   "favorite is slipping fast": 2
+   "too little volume": 4256,
+   "no favorite in 80-95c band": 384,
+   "spread too wide": 47,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
@@ -5561,65 +5566,65 @@
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.98,
-    "volume_24h": 134734.19,
-    "score": 0.6808
+    "hours_to_close": 19.73,
+    "volume_24h": 137264.92,
+    "score": 0.6816
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.98,
-    "volume_24h": 17336.55,
-    "score": 0.6708
+    "hours_to_close": 19.73,
+    "volume_24h": 17445.67,
+    "score": 0.6716
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,540 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 6882.84,
-    "score": 0.6687
+    "score": 0.6694
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 26.96,
+    "hours_to_close": 26.71,
     "volume_24h": 14058.91,
-    "score": 0.6637
+    "score": 0.6642
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 19.73,
+    "volume_24h": 51863.41,
+    "score": 0.6416
+   },
+   {
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,380 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 19.73,
+    "volume_24h": 5833.56,
+    "score": 0.6341
    },
    {
     "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 16181.51,
-    "score": 0.6308
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 19.98,
-    "volume_24h": 51449.49,
-    "score": 0.6308
+    "score": 0.6316
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 19.98,
-    "volume_24h": 34016.04,
-    "score": 0.6208
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 16, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 15.96,
-    "volume_24h": 955.78,
-    "score": 0.6192
+    "hours_to_close": 19.73,
+    "volume_24h": 34273.03,
+    "score": 0.6216
    }
   ],
   "skipped": {},

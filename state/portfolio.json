@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 34.31,
- "fees_paid": 2.0,
+ "cash": 20.41,
+ "fees_paid": 2.17,
  "peak_equity": 108.4,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
- "next_id": 103,
+ "next_id": 107,
  "open_positions": [
   {
    "id": 86,
@@ -111,12 +111,17 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.82,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792098929,
      "bid": 0.82,
      "proceeds": 4.85
+    },
+    "15": {
+     "ts": 1792170080,
+     "bid": 0.76,
+     "proceeds": 4.48
     }
    }
   },
@@ -151,7 +156,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.44,
+   "mark_price": 0.29,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -189,7 +194,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.35,
+   "mark_price": 0.4,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -260,24 +265,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.95,
-   "shadow": {}
-  },
-  {
-   "id": 96,
-   "ticker": "KXTRUMPAPPROVE-26OCT16-E39.0",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT16",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 16, 2026? \u2014 39.0%",
-   "side": "no",
-   "contracts": 7,
-   "price": 0.91,
-   "fee": 0.05,
-   "cost": 6.42,
-   "opened_ts": 1792084532,
-   "close_ts": 1792169940.0,
-   "score": 0.5713,
-   "mark_price": 0.99,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -328,7 +316,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.4,
+   "mark_price": 0.15,
    "shadow": {
     "10": {
      "ts": 1792168277,
@@ -366,7 +354,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.92,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -417,6 +405,74 @@
    "close_ts": 1792245600.0,
    "score": 0.5901,
    "mark_price": 0.81,
+   "shadow": {}
+  },
+  {
+   "id": 103,
+   "ticker": "KXRAIN-26OCT17-MIA",
+   "event_ticker": "KXRAIN-26OCT17",
+   "series": "KXRAIN",
+   "label": "Will it rain in Miami on Oct 17, 2026?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792170080,
+   "close_ts": 1792299600.0,
+   "score": 0.5602,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 104,
+   "ticker": "KXHIGHNY-26OCT17-B62.5",
+   "event_ticker": "KXHIGHNY-26OCT17",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1792170080,
+   "close_ts": 1792299600.0,
+   "score": 0.5313,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 105,
+   "ticker": "KXHIGHPHIL-26OCT17-B60.5",
+   "event_ticker": "KXHIGHPHIL-26OCT17",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 60-61\u00b0 on Oct 17, 2026? \u2014 60\u00b0 to 61\u00b0",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.88,
+   "fee": 0.06,
+   "cost": 6.22,
+   "opened_ts": 1792170080,
+   "close_ts": 1792299600.0,
+   "score": 0.4809,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 106,
+   "ticker": "KXHIGHMIA-26OCT17-B90.5",
+   "event_ticker": "KXHIGHMIA-26OCT17",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 90-91\u00b0 on Oct 17, 2026? \u2014 90\u00b0 to 91\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.86,
+   "fee": 0.05,
+   "cost": 4.35,
+   "opened_ts": 1792170080,
+   "close_ts": 1792299600.0,
+   "score": 0.457,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -2306,6 +2362,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792161971,
+   "won": true
+  },
+  {
+   "id": 96,
+   "ticker": "KXTRUMPAPPROVE-26OCT16-E39.0",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT16",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 16, 2026? \u2014 39.0%",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.91,
+   "fee": 0.05,
+   "cost": 6.42,
+   "opened_ts": 1792084532,
+   "close_ts": 1792169940.0,
+   "score": 0.5713,
+   "shadow": {},
+   "payout": 7.0,
+   "pnl": 0.58,
+   "result": "NO",
+   "closed_ts": 1792170080,
    "won": true
   }
  ],
@@ -6039,60 +6116,104 @@
    1792169171,
    107.15,
    97.49
+  ],
+  [
+   1792170080,
+   107.73,
+   94.9
   ]
  ],
  "last_run": {
-  "ts": 1792169171,
+  "ts": 1792170080,
   "error": null,
-  "markets_scanned": 54,
-  "candidates": 4,
+  "markets_scanned": 178,
+  "candidates": 14,
   "rejections": {
-   "no favorite in 80-95c band": 25,
-   "too little volume": 23,
-   "spread too wide": 2
+   "too little volume": 109,
+   "no favorite in 80-95c band": 52,
+   "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   103,
+   104,
+   105,
+   106
+  ],
+  "settled": [
+   96
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 24.21,
-    "volume_24h": 5466.27,
-    "score": 0.5998
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 17, 2026? \u2014 38.9%",
-    "side": "no",
+    "label": "Will it rain in Miami on Oct 17, 2026?",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 24.21,
-    "volume_24h": 989.83,
-    "score": 0.5942
+    "hours_to_close": 35.98,
+    "volume_24h": 633.94,
+    "score": 0.5602
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 17, 2026? \u2014 38.8%",
+    "label": "Will it rain in West Palm Beach on Oct 17, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.98,
+    "volume_24h": 391.19,
+    "score": 0.5445
+   },
+   {
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.21,
-    "volume_24h": 992.37,
-    "score": 0.5543
+    "price": 0.92,
+    "hours_to_close": 35.98,
+    "volume_24h": 655.25,
+    "score": 0.5313
+   },
+   {
+    "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 35.98,
+    "volume_24h": 2178.35,
+    "score": 0.5004
+   },
+   {
+    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 17, 2026? \u2014 60\u00b0 to 61\u00b0",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 35.98,
+    "volume_24h": 476.05,
+    "score": 0.4809
+   },
+   {
+    "label": "Will it rain in Philadelphia on Oct 17, 2026?",
+    "side": "yes",
+    "price": 0.82,
+    "hours_to_close": 35.98,
+    "volume_24h": 2394.9,
+    "score": 0.4735
    },
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 21.23,
-    "volume_24h": 33359.66,
-    "score": 0.4671
+    "hours_to_close": 20.98,
+    "volume_24h": 33109.66,
+    "score": 0.4678
+   },
+   {
+    "label": "Will it rain in Washington DC on Oct 17, 2026?",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 35.98,
+    "volume_24h": 2568.56,
+    "score": 0.4658
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 3
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 13,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

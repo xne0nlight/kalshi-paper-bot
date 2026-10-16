@@ -154,7 +154,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.65,
+   "mark_price": 0.35,
    "shadow": {
     "10": {
      "ts": 1792188075,
@@ -170,6 +170,11 @@
      "ts": 1792188075,
      "bid": 0.67,
      "proceeds": 3.92
+    },
+    "30": {
+     "ts": 1792189868,
+     "bid": 0.35,
+     "proceeds": 2.0
     }
    }
   },
@@ -6428,94 +6433,95 @@
    1792188965,
    109.65,
    91.17
+  ],
+  [
+   1792189868,
+   109.65,
+   89.37
   ]
  ],
  "last_run": {
-  "ts": 1792188965,
+  "ts": 1792189868,
   "error": null,
   "markets_scanned": 1204,
   "candidates": 39,
   "rejections": {
-   "too little volume": 987,
-   "no favorite in 80-95c band": 165,
-   "spread too wide": 13
+   "too little volume": 984,
+   "no favorite in 80-95c band": 170,
+   "spread too wide": 11
   },
-  "opened": [
-   113
-  ],
-  "settled": [
-   87
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.72,
-    "volume_24h": 8549.05,
-    "score": 0.6699
-   },
-   {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 80",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 15.73,
-    "volume_24h": 2973.04,
-    "score": 0.6571
+    "hours_to_close": 18.46,
+    "volume_24h": 8956.39,
+    "score": 0.6723
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.73,
+    "hours_to_close": 22.48,
     "volume_24h": 7443.15,
-    "score": 0.6535
+    "score": 0.6541
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 22.73,
-    "volume_24h": 10914.9,
-    "score": 0.6531
+    "hours_to_close": 22.48,
+    "volume_24h": 10973.61,
+    "score": 0.6537
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 22.73,
-    "volume_24h": 15286.01,
-    "score": 0.6331
+    "price": 0.92,
+    "hours_to_close": 22.48,
+    "volume_24h": 16955.45,
+    "score": 0.6437
+   },
+   {
+    "label": "Will it rain in Atlanta on Oct 17, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 30.48,
+    "volume_24h": 6854.46,
+    "score": 0.6353
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.73,
-    "volume_24h": 14491.35,
-    "score": 0.6131
+    "hours_to_close": 22.48,
+    "volume_24h": 18854.9,
+    "score": 0.6137
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.73,
-    "volume_24h": 1975.92,
-    "score": 0.6001
+    "hours_to_close": 33.48,
+    "volume_24h": 2074.46,
+    "score": 0.602
    },
    {
-    "label": "Will the maximum temperature be >84\u00b0 on Oct 17, 2026? \u2014 85\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.73,
-    "volume_24h": 955.32,
-    "score": 0.5678
+    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 15.48,
+    "volume_24h": 36634.23,
+    "score": 0.5978
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 12,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 28.31,
+ "cash": 31.31,
  "fees_paid": 2.0,
  "peak_equity": 108.4,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
  "next_id": 103,
  "open_positions": [
-  {
-   "id": 84,
-   "ticker": "KXACTBLUETOP-26OCT16-JTAL",
-   "event_ticker": "KXACTBLUETOP-26OCT16",
-   "series": "KXACTBLUETOP",
-   "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 2.81,
-   "opened_ts": 1792062932,
-   "close_ts": 1792159140.0,
-   "score": 0.6077,
-   "mark_price": 0.98,
-   "shadow": {}
-  },
   {
    "id": 85,
    "ticker": "KXGENERICBALLOTVOTEHUB-26OCT16-T8.7",
@@ -145,7 +128,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -185,7 +168,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.45,
+   "mark_price": 0.19,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -223,7 +206,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.53,
+   "mark_price": 0.42,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -294,7 +277,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -328,7 +311,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -362,7 +345,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -396,7 +379,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.76,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -429,7 +412,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {}
   }
  ],
@@ -2277,6 +2260,27 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1792160178,
+   "won": true
+  },
+  {
+   "id": 84,
+   "ticker": "KXACTBLUETOP-26OCT16-JTAL",
+   "event_ticker": "KXACTBLUETOP-26OCT16",
+   "series": "KXACTBLUETOP",
+   "label": "Will James Talarico be the top ActBlue fundraiser on Oct 16 at 10:00 AM ET?",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1792062932,
+   "close_ts": 1792159140.0,
+   "score": 0.6077,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.19,
+   "result": "YES",
+   "closed_ts": 1792161078,
    "won": true
   }
  ],
@@ -5960,10 +5964,15 @@
    1792160178,
    106.68,
    101.24
+  ],
+  [
+   1792161078,
+   106.87,
+   99.33
   ]
  ],
  "last_run": {
-  "ts": 1792160178,
+  "ts": 1792161078,
   "error": null,
   "markets_scanned": 82,
   "candidates": 1,
@@ -5974,24 +5983,22 @@
   },
   "opened": [],
   "settled": [
-   81
+   84
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Mena Warriors wins",
+    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
-    "price": 0.81,
-    "hours_to_close": 25.73,
-    "volume_24h": 3759.6,
-    "score": 0.3943
+    "price": 0.85,
+    "hours_to_close": 23.48,
+    "volume_24h": 32065.91,
+    "score": 0.5712
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
+  "skipped": {},
   "watch_added": 0,
-  "watch_graded": 14,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -163,7 +163,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792184400.0,
    "score": 0.4749,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -218,7 +218,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -308,7 +308,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.31,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -346,7 +346,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.64,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -5647,19 +5647,23 @@
    1792124171,
    105.54,
    100.97
+  ],
+  [
+   1792125077,
+   105.54,
+   103.09
   ]
  ],
  "last_run": {
-  "ts": 1792124171,
+  "ts": 1792125077,
   "error": null,
-  "markets_scanned": 4605,
-  "candidates": 62,
+  "markets_scanned": 4583,
+  "candidates": 71,
   "rejections": {
-   "too little volume": 4062,
-   "no favorite in 80-95c band": 422,
-   "spread too wide": 53,
-   "favorite is slipping fast": 4,
-   "nothing for sale at the ask": 2
+   "too little volume": 4039,
+   "no favorite in 80-95c band": 419,
+   "spread too wide": 49,
+   "favorite is slipping fast": 5
   },
   "opened": [],
   "settled": [],
@@ -5668,70 +5672,70 @@
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.73,
-    "volume_24h": 52047.97,
-    "score": 0.6924
+    "price": 0.94,
+    "hours_to_close": 16.48,
+    "volume_24h": 53360.2,
+    "score": 0.6834
    },
    {
     "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.73,
-    "volume_24h": 135475.14,
-    "score": 0.6824
-   },
-   {
-    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.73,
-    "volume_24h": 11209.25,
-    "score": 0.6724
+    "hours_to_close": 16.48,
+    "volume_24h": 136345.35,
+    "score": 0.6734
    },
    {
     "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.71,
+    "hours_to_close": 23.46,
     "volume_24h": 14058.91,
-    "score": 0.6707
+    "score": 0.6713
    },
    {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $83,500 or above",
+    "label": "Ethereum price at Oct 16, 2026 at 5pm EDT? \u2014 $2,500 or above",
     "side": "no",
+    "price": 0.92,
+    "hours_to_close": 16.48,
+    "volume_24h": 11214.89,
+    "score": 0.6634
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Oct 16, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 25.48,
+    "volume_24h": 8121.55,
+    "score": 0.6499
+   },
+   {
+    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
+    "side": "yes",
     "price": 0.9,
-    "hours_to_close": 16.73,
-    "volume_24h": 41318.76,
-    "score": 0.6424
+    "hours_to_close": 16.48,
+    "volume_24h": 44058.13,
+    "score": 0.6434
+   },
+   {
+    "label": "Will the copper close price be above 6.63 USD/Lbs on October 16, 2026 at 5:00 PM EDT? \u2014 Above $6.63",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 16.48,
+    "volume_24h": 7097.71,
+    "score": 0.6423
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 16, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.71,
-    "volume_24h": 971.41,
-    "score": 0.6363
-   },
-   {
-    "label": "Bitcoin price on Oct 16, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 16.73,
-    "volume_24h": 43934.07,
-    "score": 0.6324
-   },
-   {
-    "label": "Will the copper close price be above 6.63 USD/Lbs on October 16, 2026 at 5:00 PM EDT? \u2014 Above $6.63",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 16.73,
-    "volume_24h": 7097.71,
-    "score": 0.6312
+    "hours_to_close": 12.46,
+    "volume_24h": 972.45,
+    "score": 0.6379
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

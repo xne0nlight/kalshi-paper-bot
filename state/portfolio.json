@@ -274,7 +274,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.65,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -291,7 +291,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.53,
+   "mark_price": 0.36,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -329,7 +329,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.38,
+   "mark_price": 0.51,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -367,7 +367,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -400,7 +400,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -434,7 +434,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -5798,17 +5798,22 @@
    1792146677,
    105.74,
    101.15
+  ],
+  [
+   1792147573,
+   105.74,
+   100.83
   ]
  ],
  "last_run": {
-  "ts": 1792146677,
+  "ts": 1792147573,
   "error": null,
-  "markets_scanned": 158,
-  "candidates": 9,
+  "markets_scanned": 156,
+  "candidates": 10,
   "rejections": {
-   "no favorite in 80-95c band": 86,
-   "too little volume": 59,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 88,
+   "too little volume": 57,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
@@ -5817,66 +5822,66 @@
    {
     "label": "Will the maximum temperature be 93-94\u00b0 on Oct 16, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.48,
-    "volume_24h": 19321.21,
-    "score": 0.6364
+    "price": 0.94,
+    "hours_to_close": 21.23,
+    "volume_24h": 20508.82,
+    "score": 0.6671
    },
    {
     "label": "Will the maximum temperature be 82-83\u00b0 on Oct 16, 2026? \u2014 82\u00b0 to 83\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 2578.17,
-    "score": 0.6323
+    "score": 0.633
    },
    {
     "label": "Will the maximum temperature be >94\u00b0 on Oct 16, 2026? \u2014 95\u00b0 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 21.48,
-    "volume_24h": 13782.91,
-    "score": 0.6164
+    "price": 0.9,
+    "hours_to_close": 21.23,
+    "volume_24h": 13788.89,
+    "score": 0.6271
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 16, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
+    "hours_to_close": 20.23,
     "volume_24h": 1240.24,
-    "score": 0.6113
+    "score": 0.6121
    },
    {
     "label": "Will the maximum temperature be <71\u00b0 on Oct 16, 2026? \u2014 70\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 977.87,
-    "score": 0.6007
+    "score": 0.6014
    },
    {
     "label": "Will the maximum temperature be <55\u00b0 on Oct 16, 2026? \u2014 54\u00b0 or below",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.48,
+    "hours_to_close": 20.23,
     "volume_24h": 1857.66,
-    "score": 0.5845
+    "score": 0.5853
    },
    {
     "label": "Will the maximum temperature be 84-85\u00b0 on Oct 16, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 1937.14,
-    "score": 0.573
+    "score": 0.5737
    },
    {
     "label": "Will the maximum temperature be 90-91\u00b0 on Oct 16, 2026? \u2014 90\u00b0 to 91\u00b0",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 20.48,
-    "volume_24h": 2497.91,
-    "score": 0.5441
+    "price": 0.84,
+    "hours_to_close": 20.23,
+    "volume_24h": 2545.91,
+    "score": 0.5255
    }
   ],
   "skipped": {},

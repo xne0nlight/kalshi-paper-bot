@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 23.79,
- "fees_paid": 1.96,
+ "cash": 24.07,
+ "fees_paid": 1.98,
  "peak_equity": 108.4,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
- "next_id": 101,
+ "next_id": 102,
  "open_positions": [
-  {
-   "id": 77,
-   "ticker": "KXHIGHMIA-26OCT15-B86.5",
-   "event_ticker": "KXHIGHMIA-26OCT15",
-   "series": "KXHIGHMIA",
-   "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.92,
-   "fee": 0.02,
-   "cost": 2.78,
-   "opened_ts": 1791997238,
-   "close_ts": 1792126800.0,
-   "score": 0.5465,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 79,
    "ticker": "KXHIGHCHI-26OCT15-B59.5",
@@ -80,23 +63,6 @@
      "proceeds": 1.71
     }
    }
-  },
-  {
-   "id": 82,
-   "ticker": "KXHIGHNY-26OCT15-B68.5",
-   "event_ticker": "KXHIGHNY-26OCT15",
-   "series": "KXHIGHNY",
-   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 15, 2026? \u2014 68\u00b0 to 69\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1792031438,
-   "close_ts": 1792126800.0,
-   "score": 0.6192,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 84,
@@ -163,7 +129,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -274,7 +240,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.46,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -451,7 +417,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -468,6 +434,23 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 101,
+   "ticker": "KXHIGHLAX-26OCT16-B93.5",
+   "event_ticker": "KXHIGHLAX-26OCT16",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 93-94\u00b0 on Oct 16, 2026? \u2014 93\u00b0 to 94\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792149369,
+   "close_ts": 1792224000.0,
+   "score": 0.6786,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -2211,6 +2194,48 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1792148500,
+   "won": true
+  },
+  {
+   "id": 77,
+   "ticker": "KXHIGHMIA-26OCT15-B86.5",
+   "event_ticker": "KXHIGHMIA-26OCT15",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 86-87\u00b0 on Oct 15, 2026? \u2014 86\u00b0 to 87\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 2.78,
+   "opened_ts": 1791997238,
+   "close_ts": 1792126800.0,
+   "score": 0.5465,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1792149369,
+   "won": true
+  },
+  {
+   "id": 82,
+   "ticker": "KXHIGHNY-26OCT15-B68.5",
+   "event_ticker": "KXHIGHNY-26OCT15",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 15, 2026? \u2014 68\u00b0 to 69\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1792031438,
+   "close_ts": 1792126800.0,
+   "score": 0.6192,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1792149369,
    "won": true
   }
  ],
@@ -5829,70 +5854,70 @@
    1792148500,
    105.88,
    102.02
+  ],
+  [
+   1792149369,
+   106.24,
+   102.45
   ]
  ],
  "last_run": {
-  "ts": 1792148500,
+  "ts": 1792149369,
   "error": null,
-  "markets_scanned": 129,
-  "candidates": 5,
+  "markets_scanned": 126,
+  "candidates": 4,
   "rejections": {
    "no favorite in 80-95c band": 72,
    "too little volume": 49,
-   "spread too wide": 3
+   "spread too wide": 1
   },
   "opened": [
-   100
+   101
   ],
   "settled": [
-   76
+   77,
+   82
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 82-83\u00b0 on Oct 16, 2026? \u2014 82\u00b0 to 83\u00b0",
+    "label": "Will the maximum temperature be 93-94\u00b0 on Oct 16, 2026? \u2014 93\u00b0 to 94\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.97,
-    "volume_24h": 2578.17,
-    "score": 0.6337
+    "hours_to_close": 20.73,
+    "volume_24h": 23680.27,
+    "score": 0.6786
    },
    {
     "label": "Will the maximum temperature be >94\u00b0 on Oct 16, 2026? \u2014 95\u00b0 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 20.97,
-    "volume_24h": 13976.41,
-    "score": 0.6279
-   },
-   {
-    "label": "Will the maximum temperature be <71\u00b0 on Oct 16, 2026? \u2014 70\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.97,
-    "volume_24h": 977.87,
-    "score": 0.6022
+    "price": 0.91,
+    "hours_to_close": 20.73,
+    "volume_24h": 14091.49,
+    "score": 0.6386
    },
    {
     "label": "Will the maximum temperature be 84-85\u00b0 on Oct 16, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 20.97,
-    "volume_24h": 2112.69,
-    "score": 0.5572
+    "hours_to_close": 20.73,
+    "volume_24h": 2112.8,
+    "score": 0.5579
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 16, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
-    "price": 0.81,
-    "hours_to_close": 20.97,
-    "volume_24h": 707.84,
-    "score": 0.4516
+    "price": 0.8,
+    "hours_to_close": 20.73,
+    "volume_24h": 746.84,
+    "score": 0.4441
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
   "watch_added": 0,
-  "watch_graded": 9,
+  "watch_graded": 21,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

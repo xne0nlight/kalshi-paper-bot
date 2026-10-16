@@ -116,7 +116,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.74,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792188075,
@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.05,
+   "mark_price": 0.09,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -337,7 +337,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.8,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792182672,
@@ -360,12 +360,17 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.73,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792192565,
      "bid": 0.73,
      "proceeds": 3.58
+    },
+    "15": {
+     "ts": 1792193468,
+     "bid": 0.71,
+     "proceeds": 3.47
     }
    }
   },
@@ -417,7 +422,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.86,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -474,7 +479,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -6486,93 +6491,94 @@
    1792192565,
    103.98,
    88.29
+  ],
+  [
+   1792193468,
+   103.98,
+   88.19
   ]
  ],
  "last_run": {
-  "ts": 1792192565,
+  "ts": 1792193468,
   "error": null,
   "markets_scanned": 1208,
-  "candidates": 41,
+  "candidates": 37,
   "rejections": {
-   "too little volume": 982,
-   "no favorite in 80-95c band": 175,
-   "spread too wide": 10
+   "too little volume": 980,
+   "no favorite in 80-95c band": 180,
+   "spread too wide": 11
   },
-  "opened": [
-   114
-  ],
-  "settled": [
-   90
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.72,
-    "volume_24h": 9153.27,
-    "score": 0.6757
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.73,
-    "volume_24h": 7841.99,
-    "score": 0.6578
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 21.73,
-    "volume_24h": 16956.36,
-    "score": 0.6457
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.72,
-    "volume_24h": 27903.8,
-    "score": 0.6386
+    "hours_to_close": 17.46,
+    "volume_24h": 9232.95,
+    "score": 0.6769
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.73,
-    "volume_24h": 20790.54,
-    "score": 0.6257
+    "price": 0.92,
+    "hours_to_close": 21.48,
+    "volume_24h": 20790.79,
+    "score": 0.6464
    },
    {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 17.46,
+    "volume_24h": 28631.95,
+    "score": 0.6295
+   },
+   {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.73,
-    "volume_24h": 35372.02,
-    "score": 0.6013
+    "price": 0.9,
+    "hours_to_close": 21.48,
+    "volume_24h": 17011.24,
+    "score": 0.6264
+   },
+   {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 21.48,
+    "volume_24h": 21426.72,
+    "score": 0.5964
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 2364.69,
-    "score": 0.5873
+    "score": 0.5876
    },
    {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,000 or above",
+    "label": "Will Trump do anything on Oct 16, 2026? \u2014 Yes",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 14.48,
+    "volume_24h": 1718.92,
+    "score": 0.5752
+   },
+   {
+    "label": "Will it rain in Washington DC on Oct 17, 2026?",
     "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 21.73,
-    "volume_24h": 14777.78,
-    "score": 0.5857
+    "price": 0.9,
+    "hours_to_close": 29.48,
+    "volume_24h": 3505.78,
+    "score": 0.5751
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

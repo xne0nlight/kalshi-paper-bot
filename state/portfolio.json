@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.96,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -134,7 +134,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.65,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -151,7 +151,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.36,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -189,7 +189,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.42,
+   "mark_price": 0.48,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -328,7 +328,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -362,7 +362,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -5988,44 +5988,57 @@
    1792163768,
    107.15,
    101.1
+  ],
+  [
+   1792164676,
+   107.15,
+   102.65
   ]
  ],
  "last_run": {
-  "ts": 1792163768,
+  "ts": 1792164676,
   "error": null,
-  "markets_scanned": 65,
-  "candidates": 2,
+  "markets_scanned": 61,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 36,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 2
+   "no favorite in 80-95c band": 28,
+   "too little volume": 27,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 25.46,
+    "volume_24h": 4991.02,
+    "score": 0.5941
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 17, 2026? \u2014 38.9%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.46,
+    "volume_24h": 983.83,
+    "score": 0.5912
+   },
+   {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 22.73,
+    "hours_to_close": 22.48,
     "volume_24h": 32062.77,
-    "score": 0.5731
-   },
-   {
-    "label": "Inner Circle wins",
-    "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 24.73,
-    "volume_24h": 5663.58,
-    "score": 0.4298
+    "score": 0.5737
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Presidential approval)": 2
   },
-  "watch_added": 0,
-  "watch_graded": 1,
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

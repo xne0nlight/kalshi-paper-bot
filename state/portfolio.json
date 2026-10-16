@@ -223,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.54,
+   "mark_price": 0.45,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +261,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.53,
+   "mark_price": 0.3,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -332,7 +332,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -434,8 +434,14 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.84,
+   "shadow": {
+    "10": {
+     "ts": 1792154774,
+     "bid": 0.84,
+     "proceeds": 4.98
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -5888,10 +5894,15 @@
    1792153880,
    106.46,
    102.4
+  ],
+  [
+   1792154774,
+   106.46,
+   100.04
   ]
  ],
  "last_run": {
-  "ts": 1792153880,
+  "ts": 1792154774,
   "error": null,
   "markets_scanned": 55,
   "candidates": 1,
@@ -5908,9 +5919,9 @@
     "label": "Inner Circle wins",
     "side": "yes",
     "price": 0.81,
-    "hours_to_close": 27.48,
+    "hours_to_close": 27.23,
     "volume_24h": 3571.56,
-    "score": 0.3892
+    "score": 0.3897
    }
   ],
   "skipped": {

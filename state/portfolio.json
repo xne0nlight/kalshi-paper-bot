@@ -144,7 +144,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.65,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -161,7 +161,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.26,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -199,7 +199,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.41,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -237,7 +237,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -287,7 +287,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -321,7 +321,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.15,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1792168277,
@@ -426,7 +426,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -460,7 +460,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -477,7 +477,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.83,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -6148,88 +6148,91 @@
    1792170968,
    107.73,
    94.07
+  ],
+  [
+   1792171873,
+   107.73,
+   94.25
   ]
  ],
  "last_run": {
-  "ts": 1792170968,
+  "ts": 1792171873,
   "error": null,
   "markets_scanned": 176,
   "candidates": 13,
   "rejections": {
-   "too little volume": 105,
-   "no favorite in 80-95c band": 52,
-   "spread too wide": 5,
-   "nothing for sale at the ask": 1
+   "too little volume": 98,
+   "no favorite in 80-95c band": 58,
+   "spread too wide": 4,
+   "nothing for sale at the ask": 3
   },
-  "opened": [
-   107
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Mena Warriors wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.73,
-    "volume_24h": 4675.33,
-    "score": 0.5883
-   },
-   {
-    "label": "Will it rain in Miami on Oct 17, 2026?",
+    "label": "Will it rain in West Palm Beach on Oct 17, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.73,
-    "volume_24h": 633.94,
-    "score": 0.5605
+    "hours_to_close": 35.48,
+    "volume_24h": 435.04,
+    "score": 0.5486
    },
    {
     "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 35.73,
-    "volume_24h": 2219.35,
-    "score": 0.5513
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Oct 17, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.73,
-    "volume_24h": 391.19,
-    "score": 0.5448
+    "price": 0.89,
+    "hours_to_close": 35.48,
+    "volume_24h": 2609.87,
+    "score": 0.5469
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.73,
-    "volume_24h": 676.25,
-    "score": 0.5326
+    "hours_to_close": 35.48,
+    "volume_24h": 692.25,
+    "score": 0.5337
    },
    {
-    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 17, 2026? \u2014 60\u00b0 to 61\u00b0",
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 35.73,
-    "volume_24h": 499.05,
-    "score": 0.4827
-   },
-   {
-    "label": "Will it rain in Philadelphia on Oct 17, 2026?",
-    "side": "yes",
-    "price": 0.82,
-    "hours_to_close": 35.73,
-    "volume_24h": 2395.9,
-    "score": 0.4738
+    "price": 0.91,
+    "hours_to_close": 35.48,
+    "volume_24h": 530.91,
+    "score": 0.5151
    },
    {
     "label": "Will it rain in Washington DC on Oct 17, 2026?",
     "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 35.73,
+    "price": 0.85,
+    "hours_to_close": 35.48,
     "volume_24h": 2821.56,
-    "score": 0.4691
+    "score": 0.5094
+   },
+   {
+    "label": "Will it rain in Philadelphia on Oct 17, 2026?",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 35.48,
+    "volume_24h": 2460.9,
+    "score": 0.495
+   },
+   {
+    "label": "Will it rain in Pittsburgh on Oct 17, 2026?",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 35.48,
+    "volume_24h": 1184.2,
+    "score": 0.4912
+   },
+   {
+    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 20.48,
+    "volume_24h": 32389.9,
+    "score": 0.4593
    }
   ],
   "skipped": {},

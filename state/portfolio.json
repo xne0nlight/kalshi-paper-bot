@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.93,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -151,7 +151,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.39,
+   "mark_price": 0.32,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -189,7 +189,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.46,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -227,7 +227,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -328,7 +328,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.96,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -362,7 +362,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -395,7 +395,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.84,
+   "mark_price": 0.79,
    "shadow": {}
   }
  ],
@@ -5998,17 +5998,22 @@
    1792165569,
    107.15,
    101.77
+  ],
+  [
+   1792166483,
+   107.15,
+   99.36
   ]
  ],
  "last_run": {
-  "ts": 1792165569,
+  "ts": 1792166483,
   "error": null,
-  "markets_scanned": 61,
+  "markets_scanned": 54,
   "candidates": 5,
   "rejections": {
-   "no favorite in 80-95c band": 28,
-   "too little volume": 27,
-   "spread too wide": 1
+   "no favorite in 80-95c band": 24,
+   "too little volume": 23,
+   "spread too wide": 2
   },
   "opened": [],
   "settled": [],
@@ -6018,48 +6023,48 @@
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.21,
-    "volume_24h": 5339.32,
-    "score": 0.5968
+    "hours_to_close": 24.96,
+    "volume_24h": 5343.59,
+    "score": 0.5974
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 17, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.21,
+    "hours_to_close": 24.96,
     "volume_24h": 989.83,
-    "score": 0.592
+    "score": 0.5925
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 17, 2026? \u2014 38.8%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.96,
+    "volume_24h": 992.37,
+    "score": 0.5326
    },
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 22.23,
-    "volume_24h": 32054.66,
-    "score": 0.5744
+    "price": 0.83,
+    "hours_to_close": 21.98,
+    "volume_24h": 32098.66,
+    "score": 0.4551
    },
    {
-    "label": "Inner Circle wins",
-    "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 24.23,
-    "volume_24h": 5797.05,
-    "score": 0.4117
-   },
-   {
-    "label": "Mena Warriors wins",
+    "label": "Will Trump do anything on Oct 16, 2026? \u2014 Yes",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 24.23,
-    "volume_24h": 4181.07,
-    "score": 0.4111
+    "price": 0.8,
+    "hours_to_close": 21.98,
+    "volume_24h": 1347.56,
+    "score": 0.3598
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 2,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Presidential approval)": 3,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

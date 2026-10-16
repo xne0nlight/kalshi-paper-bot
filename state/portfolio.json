@@ -2,51 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.51,
- "fees_paid": 2.35,
+ "cash": 10.57,
+ "fees_paid": 2.36,
  "peak_equity": 109.65,
  "day": "2026-10-16",
  "day_start_equity": 108.4,
- "next_id": 114,
+ "next_id": 115,
  "open_positions": [
-  {
-   "id": 90,
-   "ticker": "KXINX-26OCT16H1600-B7662",
-   "event_ticker": "KXINX-26OCT16H1600",
-   "series": "KXINX",
-   "label": "Will the S&P 500 be between 7650 and 7674.9999 on Oct 16, 2026 at 4pm EDT? \u2014 7,650 to 7,674.9999",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1792078244,
-   "close_ts": 1792180800.0,
-   "score": 0.4773,
-   "mark_price": 0.57,
-   "shadow": {
-    "10": {
-     "ts": 1792098929,
-     "bid": 0.82,
-     "proceeds": 4.85
-    },
-    "15": {
-     "ts": 1792170080,
-     "bid": 0.76,
-     "proceeds": 4.48
-    },
-    "20": {
-     "ts": 1792170968,
-     "bid": 0.68,
-     "proceeds": 3.98
-    },
-    "30": {
-     "ts": 1792173685,
-     "bid": 0.63,
-     "proceeds": 3.68
-    }
-   }
-  },
   {
    "id": 91,
    "ticker": "KXANTHVREQ-16OCT26-T4P6",
@@ -154,7 +116,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.39,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792188075,
@@ -352,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -398,8 +360,14 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.78,
-   "shadow": {}
+   "mark_price": 0.73,
+   "shadow": {
+    "10": {
+     "ts": 1792192565,
+     "bid": 0.73,
+     "proceeds": 3.58
+    }
+   }
   },
   {
    "id": 108,
@@ -449,7 +417,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -489,7 +457,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -506,7 +474,24 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
+   "shadow": {}
+  },
+  {
+   "id": 114,
+   "ticker": "KXHIGHTBOS-26OCT17-T59",
+   "event_ticker": "KXHIGHTBOS-26OCT17",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be <59\u00b0 on Oct 17, 2026? \u2014 58\u00b0 or below",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1792192565,
+   "close_ts": 1792299600.0,
+   "score": 0.5604,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -2597,6 +2582,48 @@
    "result": "NO",
    "closed_ts": 1792188965,
    "won": true
+  },
+  {
+   "id": 90,
+   "ticker": "KXINX-26OCT16H1600-B7662",
+   "event_ticker": "KXINX-26OCT16H1600",
+   "series": "KXINX",
+   "label": "Will the S&P 500 be between 7650 and 7674.9999 on Oct 16, 2026 at 4pm EDT? \u2014 7,650 to 7,674.9999",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792078244,
+   "close_ts": 1792180800.0,
+   "score": 0.4773,
+   "shadow": {
+    "10": {
+     "ts": 1792098929,
+     "bid": 0.82,
+     "proceeds": 4.85
+    },
+    "15": {
+     "ts": 1792170080,
+     "bid": 0.76,
+     "proceeds": 4.48
+    },
+    "20": {
+     "ts": 1792170968,
+     "bid": 0.68,
+     "proceeds": 3.98
+    },
+    "30": {
+     "ts": 1792173685,
+     "bid": 0.63,
+     "proceeds": 3.68
+    }
+   },
+   "payout": 0.0,
+   "pnl": -5.67,
+   "result": "YES",
+   "closed_ts": 1792192565,
+   "won": false
   }
  ],
  "equity_history": [
@@ -6454,91 +6481,99 @@
    1792191673,
    109.65,
    89.83
+  ],
+  [
+   1792192565,
+   103.98,
+   88.29
   ]
  ],
  "last_run": {
-  "ts": 1792191673,
+  "ts": 1792192565,
   "error": null,
   "markets_scanned": 1208,
-  "candidates": 38,
+  "candidates": 41,
   "rejections": {
-   "too little volume": 984,
-   "no favorite in 80-95c band": 173,
-   "spread too wide": 12,
-   "nothing for sale at the ask": 1
+   "too little volume": 982,
+   "no favorite in 80-95c band": 175,
+   "spread too wide": 10
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   114
+  ],
+  "settled": [
+   90
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.96,
-    "volume_24h": 9153.13,
-    "score": 0.6748
+    "hours_to_close": 17.72,
+    "volume_24h": 9153.27,
+    "score": 0.6757
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.98,
-    "volume_24h": 7734.7,
-    "score": 0.6567
+    "hours_to_close": 21.73,
+    "volume_24h": 7841.99,
+    "score": 0.6578
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 21.98,
+    "hours_to_close": 21.73,
     "volume_24h": 16956.36,
-    "score": 0.6451
+    "score": 0.6457
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 17.96,
-    "volume_24h": 27665.94,
-    "score": 0.6376
-   },
-   {
-    "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.98,
-    "volume_24h": 3694.25,
-    "score": 0.6214
+    "hours_to_close": 17.72,
+    "volume_24h": 27903.8,
+    "score": 0.6386
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.98,
-    "volume_24h": 19706.09,
-    "score": 0.6151
+    "price": 0.9,
+    "hours_to_close": 21.73,
+    "volume_24h": 20790.54,
+    "score": 0.6257
    },
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.98,
-    "volume_24h": 35339.02,
-    "score": 0.6001
+    "hours_to_close": 14.73,
+    "volume_24h": 35372.02,
+    "score": 0.6013
+   },
+   {
+    "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 32.73,
+    "volume_24h": 2364.69,
+    "score": 0.5873
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 21.98,
-    "volume_24h": 14672.36,
-    "score": 0.5851
+    "hours_to_close": 21.73,
+    "volume_24h": 14777.78,
+    "score": 0.5857
    }
   ],
   "skipped": {},
   "watch_added": 1,
-  "watch_graded": 2,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -78,7 +78,7 @@
    "opened_ts": 1792062932,
    "close_ts": 1792159140.0,
    "score": 0.5167,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -112,7 +112,7 @@
    "opened_ts": 1792066535,
    "close_ts": 1792179000.0,
    "score": 0.4163,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792067438,
@@ -150,7 +150,7 @@
    "opened_ts": 1792068337,
    "close_ts": 1792184400.0,
    "score": 0.3926,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792074643,
@@ -183,7 +183,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -223,7 +223,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.4,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -261,7 +261,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.46,
+   "mark_price": 0.55,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -366,7 +366,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -434,7 +434,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.77,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -445,6 +445,11 @@
      "ts": 1792157486,
      "bid": 0.77,
      "proceeds": 4.54
+    },
+    "20": {
+     "ts": 1792158372,
+     "bid": 0.71,
+     "proceeds": 4.17
     }
    }
   }
@@ -5919,10 +5924,15 @@
    1792157486,
    106.46,
    100.36
+  ],
+  [
+   1792158372,
+   106.46,
+   99.63
   ]
  ],
  "last_run": {
-  "ts": 1792157486,
+  "ts": 1792158372,
   "error": null,
   "markets_scanned": 66,
   "candidates": 3,
@@ -5939,32 +5949,32 @@
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 24.48,
-    "volume_24h": 32855.26,
-    "score": 0.5489
+    "hours_to_close": 24.23,
+    "volume_24h": 32920.67,
+    "score": 0.5495
    },
    {
     "label": "Mena Warriors wins",
     "side": "no",
     "price": 0.82,
-    "hours_to_close": 26.48,
+    "hours_to_close": 26.23,
     "volume_24h": 3353.82,
-    "score": 0.3991
+    "score": 0.3996
    },
    {
     "label": "Inner Circle wins",
     "side": "yes",
     "price": 0.81,
-    "hours_to_close": 26.48,
-    "volume_24h": 3727.26,
-    "score": 0.3925
+    "hours_to_close": 26.23,
+    "volume_24h": 3740.82,
+    "score": 0.3931
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 3
   },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

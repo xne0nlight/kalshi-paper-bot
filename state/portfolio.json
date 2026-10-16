@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.53,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -242,7 +242,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -364,7 +364,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -414,7 +414,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.18,
+   "mark_price": 0.2,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -6240,18 +6240,23 @@
    1792179075,
    108.06,
    95.16
+  ],
+  [
+   1792179967,
+   108.06,
+   95.28
   ]
  ],
  "last_run": {
-  "ts": 1792179075,
+  "ts": 1792179967,
   "error": null,
   "markets_scanned": 366,
-  "candidates": 21,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 220,
-   "no favorite in 80-95c band": 117,
-   "spread too wide": 7,
-   "nothing for sale at the ask": 1
+   "too little volume": 219,
+   "no favorite in 80-95c band": 118,
+   "spread too wide": 5,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -6261,65 +6266,65 @@
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.46,
-    "volume_24h": 6854.82,
-    "score": 0.6642
+    "hours_to_close": 21.21,
+    "volume_24h": 7154.97,
+    "score": 0.6663
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.46,
-    "volume_24h": 19023.03,
-    "score": 0.6365
-   },
-   {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-    "side": "yes",
-    "price": 0.82,
-    "hours_to_close": 18.48,
-    "volume_24h": 28323.08,
-    "score": 0.5558
+    "hours_to_close": 21.21,
+    "volume_24h": 19469.99,
+    "score": 0.6372
    },
    {
     "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 33.48,
-    "volume_24h": 3205.66,
-    "score": 0.5361
+    "hours_to_close": 33.23,
+    "volume_24h": 3207.66,
+    "score": 0.5365
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.48,
+    "hours_to_close": 33.23,
     "volume_24h": 870.14,
-    "score": 0.5337
+    "score": 0.534
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.48,
+    "hours_to_close": 33.23,
     "volume_24h": 557.51,
-    "score": 0.5192
+    "score": 0.5196
    },
    {
     "label": "Will it rain in Philadelphia on Oct 17, 2026?",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 33.48,
+    "hours_to_close": 33.23,
     "volume_24h": 2470.65,
-    "score": 0.5177
+    "score": 0.518
    },
    {
     "label": "Will it rain in Washington DC on Oct 17, 2026?",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 33.48,
+    "hours_to_close": 33.23,
     "volume_24h": 2822.56,
-    "score": 0.512
+    "score": 0.5123
+   },
+   {
+    "label": "Will the maximum temperature be <60\u00b0 on Oct 17, 2026? \u2014 59\u00b0 or below",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 33.23,
+    "volume_24h": 1406.82,
+    "score": 0.5097
    }
   ],
   "skipped": {},

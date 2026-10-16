@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -134,7 +134,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.65,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -151,7 +151,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.18,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -189,7 +189,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.25,
+   "mark_price": 0.27,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -260,7 +260,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -328,8 +328,29 @@
    "opened_ts": 1792134974,
    "close_ts": 1792175400.0,
    "score": 0.6564,
-   "mark_price": 0.88,
-   "shadow": {}
+   "mark_price": 0.53,
+   "shadow": {
+    "10": {
+     "ts": 1792168277,
+     "bid": 0.53,
+     "proceeds": 3.07
+    },
+    "15": {
+     "ts": 1792168277,
+     "bid": 0.53,
+     "proceeds": 3.07
+    },
+    "20": {
+     "ts": 1792168277,
+     "bid": 0.53,
+     "proceeds": 3.07
+    },
+    "30": {
+     "ts": 1792168277,
+     "bid": 0.53,
+     "proceeds": 3.07
+    }
+   }
   },
   {
    "id": 100,
@@ -345,7 +366,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -362,7 +383,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -6008,17 +6029,22 @@
    1792167369,
    107.15,
    98.4
+  ],
+  [
+   1792168277,
+   107.15,
+   97.37
   ]
  ],
  "last_run": {
-  "ts": 1792167369,
+  "ts": 1792168277,
   "error": null,
   "markets_scanned": 54,
-  "candidates": 6,
+  "candidates": 3,
   "rejections": {
-   "no favorite in 80-95c band": 24,
+   "no favorite in 80-95c band": 25,
    "too little volume": 23,
-   "spread too wide": 1
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
@@ -6028,54 +6054,29 @@
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.71,
-    "volume_24h": 5343.59,
-    "score": 0.598
+    "hours_to_close": 24.46,
+    "volume_24h": 5466.27,
+    "score": 0.5993
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 17, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.71,
+    "hours_to_close": 24.46,
     "volume_24h": 989.83,
-    "score": 0.5931
+    "score": 0.5936
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 17, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.71,
+    "hours_to_close": 24.46,
     "volume_24h": 992.37,
-    "score": 0.5532
-   },
-   {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 21.73,
-    "volume_24h": 32107.66,
-    "score": 0.4557
-   },
-   {
-    "label": "Mena Warriors wins",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 23.73,
-    "volume_24h": 4181.07,
-    "score": 0.4322
-   },
-   {
-    "label": "Will Trump do anything on Oct 16, 2026? \u2014 Yes",
-    "side": "no",
-    "price": 0.8,
-    "hours_to_close": 21.73,
-    "volume_24h": 1371.56,
-    "score": 0.361
+    "score": 0.5537
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 3,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Presidential approval)": 3
   },
   "watch_added": 0,
   "watch_graded": 0,

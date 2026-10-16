@@ -111,7 +111,7 @@
    "opened_ts": 1792078244,
    "close_ts": 1792180800.0,
    "score": 0.4773,
-   "mark_price": 0.71,
+   "mark_price": 0.51,
    "shadow": {
     "10": {
      "ts": 1792098929,
@@ -275,7 +275,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1792149369,
    "close_ts": 1792224000.0,
    "score": 0.6786,
-   "mark_price": 0.84,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792154774,
@@ -414,12 +414,22 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.77,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1792173685,
      "bid": 0.76,
      "proceeds": 1.49
+    },
+    "15": {
+     "ts": 1792178166,
+     "bid": 0.63,
+     "proceeds": 1.22
+    },
+    "20": {
+     "ts": 1792178166,
+     "bid": 0.63,
+     "proceeds": 1.22
     }
    }
   },
@@ -471,7 +481,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -6215,89 +6225,91 @@
    1792177281,
    108.06,
    96.73
+  ],
+  [
+   1792178166,
+   108.06,
+   95.3
   ]
  ],
  "last_run": {
-  "ts": 1792177281,
+  "ts": 1792178166,
   "error": null,
   "markets_scanned": 366,
-  "candidates": 23,
+  "candidates": 22,
   "rejections": {
    "too little volume": 220,
    "no favorite in 80-95c band": 118,
-   "spread too wide": 5
+   "spread too wide": 5,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   108
-  ],
-  "settled": [
-   107
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.96,
-    "volume_24h": 6824.82,
-    "score": 0.6627
+    "hours_to_close": 21.71,
+    "volume_24h": 6839.82,
+    "score": 0.6634
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.96,
-    "volume_24h": 18536.29,
-    "score": 0.5951
+    "hours_to_close": 21.71,
+    "volume_24h": 18819.52,
+    "score": 0.6458
    },
    {
     "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 33.98,
-    "volume_24h": 3159.55,
-    "score": 0.555
-   },
-   {
-    "label": "Will it rain in Pittsburgh on Oct 17, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 33.98,
-    "volume_24h": 1199.17,
-    "score": 0.5235
+    "price": 0.87,
+    "hours_to_close": 33.73,
+    "volume_24h": 3160.55,
+    "score": 0.5353
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.98,
-    "volume_24h": 869.14,
-    "score": 0.523
+    "hours_to_close": 33.73,
+    "volume_24h": 870.14,
+    "score": 0.5234
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.98,
+    "hours_to_close": 34.73,
     "volume_24h": 339.23,
-    "score": 0.5211
+    "score": 0.5214
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.98,
+    "hours_to_close": 33.73,
     "volume_24h": 557.51,
-    "score": 0.5186
+    "score": 0.5189
    },
    {
-    "label": "Will the maximum temperature be <59\u00b0 on Oct 17, 2026? \u2014 58\u00b0 or below",
+    "label": "Will the maximum temperature be <60\u00b0 on Oct 17, 2026? \u2014 59\u00b0 or below",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.98,
-    "volume_24h": 712.33,
-    "score": 0.5165
+    "price": 0.88,
+    "hours_to_close": 33.73,
+    "volume_24h": 1394.82,
+    "score": 0.5187
+   },
+   {
+    "label": "Will it rain in Columbus on Oct 17, 2026?",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 33.73,
+    "volume_24h": 1353.75,
+    "score": 0.5177
    }
   ],
   "skipped": {},

@@ -154,7 +154,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.35,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792188075,
@@ -297,7 +297,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.11,
+   "mark_price": 0.05,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -426,7 +426,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -466,7 +466,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.92,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -483,7 +483,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -6438,16 +6438,21 @@
    1792189868,
    109.65,
    89.37
+  ],
+  [
+   1792190766,
+   109.65,
+   90.32
   ]
  ],
  "last_run": {
-  "ts": 1792189868,
+  "ts": 1792190766,
   "error": null,
   "markets_scanned": 1204,
-  "candidates": 39,
+  "candidates": 37,
   "rejections": {
-   "too little volume": 984,
-   "no favorite in 80-95c band": 170,
+   "too little volume": 982,
+   "no favorite in 80-95c band": 174,
    "spread too wide": 11
   },
   "opened": [],
@@ -6455,68 +6460,68 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 15.23,
+    "volume_24h": 40250.64,
+    "score": 0.6989
+   },
+   {
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.46,
-    "volume_24h": 8956.39,
-    "score": 0.6723
+    "hours_to_close": 18.21,
+    "volume_24h": 9151.54,
+    "score": 0.6738
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.48,
-    "volume_24h": 7443.15,
-    "score": 0.6541
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 22.48,
-    "volume_24h": 10973.61,
-    "score": 0.6537
+    "hours_to_close": 22.23,
+    "volume_24h": 7709.7,
+    "score": 0.6559
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 22.48,
+    "hours_to_close": 22.23,
     "volume_24h": 16955.45,
-    "score": 0.6437
+    "score": 0.6444
    },
    {
-    "label": "Will it rain in Atlanta on Oct 17, 2026?",
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.48,
-    "volume_24h": 6854.46,
-    "score": 0.6353
+    "price": 0.89,
+    "hours_to_close": 18.21,
+    "volume_24h": 27237.2,
+    "score": 0.6267
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.48,
-    "volume_24h": 18854.9,
-    "score": 0.6137
+    "hours_to_close": 22.23,
+    "volume_24h": 19321.4,
+    "score": 0.6144
+   },
+   {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 22.23,
+    "volume_24h": 14552.77,
+    "score": 0.5844
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.48,
-    "volume_24h": 2074.46,
-    "score": 0.602
-   },
-   {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 15.48,
-    "volume_24h": 36634.23,
-    "score": 0.5978
+    "price": 0.93,
+    "hours_to_close": 33.23,
+    "volume_24h": 2138.14,
+    "score": 0.5833
    }
   ],
   "skipped": {},

@@ -134,7 +134,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.65,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -151,7 +151,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.5104,
-   "mark_price": 0.26,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1792109770,
@@ -189,7 +189,7 @@
    "opened_ts": 1792080044,
    "close_ts": 1792209540.0,
    "score": 0.4125,
-   "mark_price": 0.44,
+   "mark_price": 0.48,
    "shadow": {
     "10": {
      "ts": 1792118767,
@@ -227,7 +227,7 @@
    "opened_ts": 1792081838,
    "close_ts": 1792184400.0,
    "score": 0.3763,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792098035,
@@ -294,7 +294,7 @@
    "opened_ts": 1792098929,
    "close_ts": 1792184400.0,
    "score": 0.6706,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792148500,
    "close_ts": 1792224000.0,
    "score": 0.6337,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -395,7 +395,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -5978,36 +5978,39 @@
    1792161971,
    107.15,
    99.96
+  ],
+  [
+   1792162884,
+   107.15,
+   102.09
   ]
  ],
  "last_run": {
-  "ts": 1792161971,
+  "ts": 1792162884,
   "error": null,
-  "markets_scanned": 82,
+  "markets_scanned": 65,
   "candidates": 1,
   "rejections": {
-   "too little volume": 52,
-   "no favorite in 80-95c band": 27,
+   "too little volume": 37,
+   "no favorite in 80-95c band": 25,
    "spread too wide": 2
   },
   "opened": [],
-  "settled": [
-   85
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 23.23,
+    "hours_to_close": 22.98,
     "volume_24h": 32065.91,
-    "score": 0.5718
+    "score": 0.5725
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

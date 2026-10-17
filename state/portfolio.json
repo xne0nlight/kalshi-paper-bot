@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.63,
- "fees_paid": 2.45,
+ "cash": 12.19,
+ "fees_paid": 2.49,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 119,
+ "next_id": 120,
  "open_positions": [
-  {
-   "id": 91,
-   "ticker": "KXANTHVREQ-16OCT26-T4P6",
-   "event_ticker": "KXANTHVREQ-16OCT26",
-   "series": "KXANTHVREQ",
-   "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792080044,
-   "close_ts": 1792209540.0,
-   "score": 0.65,
-   "mark_price": 0.94,
-   "shadow": {}
-  },
   {
    "id": 92,
    "ticker": "KXGOOGVREQ-16OCT26-T14P5",
@@ -192,7 +175,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.93,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792241129,
@@ -276,7 +259,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.65,
+   "mark_price": 0.39,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -331,7 +314,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -393,7 +376,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -431,7 +414,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -482,7 +465,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -516,7 +499,24 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.5673,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
+   "shadow": {}
+  },
+  {
+   "id": 119,
+   "ticker": "KXANTHVSPEND-18OCT26-T41P2",
+   "event_ticker": "KXANTHVSPEND-18OCT26",
+   "series": "KXANTHVSPEND",
+   "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1792253729,
+   "close_ts": 1792382340.0,
+   "score": 0.6003,
+   "mark_price": 0.89,
    "shadow": {}
   }
  ],
@@ -2769,6 +2769,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792246528,
+   "won": true
+  },
+  {
+   "id": 91,
+   "ticker": "KXANTHVREQ-16OCT26-T4P6",
+   "event_ticker": "KXANTHVREQ-16OCT26",
+   "series": "KXANTHVREQ",
+   "label": "Anthropic Vercel share of AI Gateway requests across the top labs above 4.6% \u2014 Above 4.6%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792080044,
+   "close_ts": 1792209540.0,
+   "score": 0.65,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1792253729,
    "won": true
   }
  ],
@@ -6967,90 +6988,101 @@
    1792252831,
    104.91,
    87.11
+  ],
+  [
+   1792253729,
+   105.19,
+   86.39
   ]
  ],
  "last_run": {
-  "ts": 1792252831,
+  "ts": 1792253729,
   "error": null,
   "markets_scanned": 686,
-  "candidates": 30,
+  "candidates": 38,
   "rejections": {
-   "too little volume": 482,
-   "no favorite in 80-95c band": 159,
-   "spread too wide": 15
+   "too little volume": 479,
+   "no favorite in 80-95c band": 150,
+   "spread too wide": 19
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   119
+  ],
+  "settled": [
+   91
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Charlotte wins",
+    "label": "LSU wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 31.74,
+    "volume_24h": 391784.92,
+    "score": 0.6556
+   },
+   {
+    "label": "Mississippi St. wins",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 25642.07,
-    "score": 0.6253
+    "price": 0.94,
+    "hours_to_close": 31.74,
+    "volume_24h": 1718504.81,
+    "score": 0.6456
    },
    {
     "label": "Temple wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 7563.9,
-    "score": 0.6162
+    "hours_to_close": 31.74,
+    "volume_24h": 7771.29,
+    "score": 0.6174
+   },
+   {
+    "label": "Charlotte wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 31.74,
+    "volume_24h": 28066.43,
+    "score": 0.6156
+   },
+   {
+    "label": "Kent St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 31.74,
+    "volume_24h": 7099.29,
+    "score": 0.6045
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.97,
+    "hours_to_close": 35.73,
     "volume_24h": 11692.0,
-    "score": 0.6
+    "score": 0.6003
    },
    {
     "label": "Will average **gas prices** be above $4.2200? \u2014 Above 4.2200",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.97,
+    "hours_to_close": 35.73,
     "volume_24h": 2706.83,
-    "score": 0.5975
+    "score": 0.5978
    },
    {
-    "label": "Mississippi St. wins",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 31.99,
-    "volume_24h": 1441786.15,
-    "score": 0.5853
-   },
-   {
-    "label": "LSU wins",
+    "label": "Pittsburgh wins",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 31.99,
-    "volume_24h": 335386.13,
-    "score": 0.5853
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 2453.53,
-    "score": 0.5795
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 732.4,
-    "score": 0.5702
+    "price": 0.89,
+    "hours_to_close": 31.74,
+    "volume_24h": 41577.35,
+    "score": 0.5956
    }
   ],
-  "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 2,
+  "skipped": {
+   "series cap": 2
+  },
+  "watch_added": 8,
+  "watch_graded": 12,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

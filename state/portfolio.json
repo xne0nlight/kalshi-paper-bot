@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.1,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -283,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.68,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -372,7 +372,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.69,
+   "mark_price": 0.59,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -388,6 +388,11 @@
      "ts": 1792257330,
      "bid": 0.73,
      "proceeds": 0.71
+    },
+    "30": {
+     "ts": 1792265429,
+     "bid": 0.59,
+     "proceeds": 0.57
     }
    }
   },
@@ -7159,85 +7164,90 @@
    1792264529,
    107.52,
    91.14
+  ],
+  [
+   1792265429,
+   107.52,
+   91.27
   ]
  ],
  "last_run": {
-  "ts": 1792264529,
+  "ts": 1792265429,
   "error": null,
-  "markets_scanned": 869,
-  "candidates": 50,
+  "markets_scanned": 855,
+  "candidates": 45,
   "rejections": {
-   "too little volume": 575,
-   "no favorite in 80-95c band": 224,
-   "spread too wide": 20
+   "too little volume": 572,
+   "no favorite in 80-95c band": 220,
+   "spread too wide": 18
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Northwestern wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 28.74,
-    "volume_24h": 1344551.02,
-    "score": 0.6404
-   },
-   {
-    "label": "Michigan St. wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.74,
-    "volume_24h": 954609.12,
-    "score": 0.6404
-   },
-   {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.73,
-    "volume_24h": 1881.34,
-    "score": 0.6213
+    "hours_to_close": 21.48,
+    "volume_24h": 1917.34,
+    "score": 0.6227
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.74,
+    "hours_to_close": 28.49,
     "volume_24h": 6096.15,
-    "score": 0.6143
+    "score": 0.6148
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 11692.0,
-    "score": 0.6042
+    "score": 0.6046
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 2038.0,
-    "score": 0.6024
+    "score": 0.6028
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.73,
-    "volume_24h": 934.95,
-    "score": 0.5986
+    "hours_to_close": 21.48,
+    "volume_24h": 970.95,
+    "score": 0.6005
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 28.74,
+    "hours_to_close": 28.49,
     "volume_24h": 3553.1,
-    "score": 0.5968
+    "score": 0.5972
+   },
+   {
+    "label": "Will the maximum temperature be >69\u00b0 on Oct 18, 2026? \u2014 70\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.49,
+    "volume_24h": 1827.74,
+    "score": 0.5865
+   },
+   {
+    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 18, 2026? \u2014 60\u00b0 to 61\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.49,
+    "volume_24h": 1199.86,
+    "score": 0.5841
    }
   ],
   "skipped": {},

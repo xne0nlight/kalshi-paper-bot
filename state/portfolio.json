@@ -228,7 +228,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.03,
+   "mark_price": 0.02,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -436,7 +436,7 @@
    "opened_ts": 1792271730,
    "close_ts": 1792368000.0,
    "score": 0.6541,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -453,8 +453,29 @@
    "opened_ts": 1792272632,
    "close_ts": 1792368000.0,
    "score": 0.6356,
-   "mark_price": 0.91,
-   "shadow": {}
+   "mark_price": 0.01,
+   "shadow": {
+    "10": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "15": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "20": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "30": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -7298,18 +7319,23 @@
    1792273532,
    105.6,
    87.41
+  ],
+  [
+   1792274431,
+   105.6,
+   86.58
   ]
  ],
  "last_run": {
-  "ts": 1792273532,
+  "ts": 1792274431,
   "error": null,
-  "markets_scanned": 1637,
-  "candidates": 63,
+  "markets_scanned": 1627,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 1265,
-   "no favorite in 80-95c band": 259,
-   "spread too wide": 49,
-   "favorite is slipping fast": 1
+   "too little volume": 1264,
+   "no favorite in 80-95c band": 251,
+   "spread too wide": 45,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
@@ -7319,71 +7345,71 @@
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.22,
-    "volume_24h": 6250.2,
-    "score": 0.668
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.22,
-    "volume_24h": 55475.21,
-    "score": 0.658
+    "hours_to_close": 18.97,
+    "volume_24h": 6755.09,
+    "score": 0.6713
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.22,
-    "volume_24h": 3848.82,
-    "score": 0.6522
+    "hours_to_close": 18.97,
+    "volume_24h": 3853.71,
+    "score": 0.653
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.22,
-    "volume_24h": 4340.53,
-    "score": 0.6461
-   },
-   {
-    "label": "Missouri wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.24,
-    "volume_24h": 2477859.64,
-    "score": 0.6451
-   },
-   {
-    "label": "Ole Miss wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 26.24,
-    "volume_24h": 1715445.25,
-    "score": 0.6451
+    "hours_to_close": 18.97,
+    "volume_24h": 4347.53,
+    "score": 0.647
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.24,
-    "volume_24h": 10812.09,
-    "score": 0.6351
+    "hours_to_close": 25.99,
+    "volume_24h": 11389.25,
+    "score": 0.6356
    },
    {
     "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.22,
-    "volume_24h": 20258.64,
-    "score": 0.6333
+    "hours_to_close": 18.97,
+    "volume_24h": 20263.53,
+    "score": 0.6341
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 25.99,
+    "volume_24h": 7383.49,
+    "score": 0.6258
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 25.99,
+    "volume_24h": 5702.37,
+    "score": 0.6174
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 22.99,
+    "volume_24h": 4425.24,
+    "score": 0.6159
    }
   ],
   "skipped": {},
   "watch_added": 6,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

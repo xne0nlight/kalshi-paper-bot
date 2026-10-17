@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.39,
+   "mark_price": 0.38,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.13,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -375,7 +375,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.69,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -465,7 +465,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -482,7 +482,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.79,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -6717,90 +6717,94 @@
    1792227698,
    103.98,
    87.65
+  ],
+  [
+   1792228569,
+   103.98,
+   87.81
   ]
  ],
  "last_run": {
-  "ts": 1792227698,
+  "ts": 1792228569,
   "error": null,
-  "markets_scanned": 1388,
-  "candidates": 39,
+  "markets_scanned": 400,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 1043,
-   "no favorite in 80-95c band": 285,
-   "spread too wide": 18,
-   "nothing for sale at the ask": 3
+   "too little volume": 217,
+   "no favorite in 80-95c band": 152,
+   "spread too wide": 10
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.97,
-    "volume_24h": 51962.87,
-    "score": 0.7068
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 11.97,
-    "volume_24h": 59834.68,
-    "score": 0.6768
-   },
-   {
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.97,
-    "volume_24h": 12623.59,
-    "score": 0.6625
-   },
-   {
-    "label": "Ethereum price at Oct 17, 2026 at 5pm EDT? \u2014 $2,410 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 11.97,
-    "volume_24h": 5183.35,
-    "score": 0.6454
-   },
-   {
-    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.97,
-    "volume_24h": 4309.68,
-    "score": 0.6451
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.97,
-    "volume_24h": 4514.54,
-    "score": 0.645
+    "hours_to_close": 22.73,
+    "volume_24h": 12773.25,
+    "score": 0.6631
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.96,
+    "hours_to_close": 28.71,
     "volume_24h": 4920.31,
-    "score": 0.637
+    "score": 0.6374
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 17, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.73,
+    "volume_24h": 2136.81,
+    "score": 0.6083
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 22.97,
-    "volume_24h": 9485.82,
-    "score": 0.6208
+    "price": 0.88,
+    "hours_to_close": 22.73,
+    "volume_24h": 9812.56,
+    "score": 0.6025
+   },
+   {
+    "label": "Will the maximum temperature be 72-73\u00b0 on Oct 17, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.73,
+    "volume_24h": 1321.31,
+    "score": 0.5927
+   },
+   {
+    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 21.73,
+    "volume_24h": 2044.22,
+    "score": 0.584
+   },
+   {
+    "label": "Will the maximum temperature be 80-81\u00b0 on Oct 17, 2026? \u2014 80\u00b0 to 81\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 22.73,
+    "volume_24h": 1434.56,
+    "score": 0.5699
+   },
+   {
+    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 22.73,
+    "volume_24h": 4614.68,
+    "score": 0.5679
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 44
  },

@@ -204,7 +204,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.41,
+   "mark_price": 0.31,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -265,7 +265,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.24,
+   "mark_price": 0.25,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -326,7 +326,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -416,7 +416,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -433,7 +433,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.7,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -6850,17 +6850,22 @@
    1792242029,
    104.35,
    88.48
+  ],
+  [
+   1792242928,
+   104.35,
+   88.12
   ]
  ],
  "last_run": {
-  "ts": 1792242029,
+  "ts": 1792242928,
   "error": null,
   "markets_scanned": 393,
-  "candidates": 23,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 260,
-   "no favorite in 80-95c band": 97,
-   "spread too wide": 13
+   "too little volume": 259,
+   "no favorite in 80-95c band": 98,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
@@ -6870,70 +6875,70 @@
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.98,
+    "hours_to_close": 24.73,
     "volume_24h": 4920.31,
-    "score": 0.6447
+    "score": 0.6453
    },
    {
     "label": "Charlotte wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 13603.0,
-    "score": 0.6312
+    "hours_to_close": 34.74,
+    "volume_24h": 13697.0,
+    "score": 0.6315
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.99,
-    "volume_24h": 653351.82,
-    "score": 0.5712
+    "hours_to_close": 34.74,
+    "volume_24h": 694648.41,
+    "score": 0.5715
    },
    {
     "label": "LSU wins",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 34.99,
-    "volume_24h": 239469.62,
-    "score": 0.5712
+    "hours_to_close": 34.74,
+    "volume_24h": 242171.64,
+    "score": 0.5715
    },
    {
     "label": "Louisiana-Monroe wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.99,
-    "volume_24h": 14283.95,
-    "score": 0.5712
+    "hours_to_close": 34.74,
+    "volume_24h": 14351.32,
+    "score": 0.5715
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 2296.37,
-    "score": 0.5633
+    "score": 0.5636
    },
    {
     "label": "Utah wins",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 34.99,
-    "volume_24h": 10862.61,
-    "score": 0.5612
+    "hours_to_close": 34.74,
+    "volume_24h": 10895.98,
+    "score": 0.5615
    },
    {
     "label": "Colorado wins",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 34.99,
-    "volume_24h": 14153.62,
-    "score": 0.5612
+    "hours_to_close": 34.74,
+    "volume_24h": 14477.21,
+    "score": 0.5615
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 3,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

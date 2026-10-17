@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.57,
- "fees_paid": 2.36,
+ "cash": 10.85,
+ "fees_paid": 2.38,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 115,
+ "next_id": 116,
  "open_positions": [
   {
    "id": 91,
@@ -99,44 +99,6 @@
      "ts": 1792126882,
      "bid": 0.45,
      "proceeds": 3.02
-    }
-   }
-  },
-  {
-   "id": 95,
-   "ticker": "KXRAIN-26OCT16-ATL",
-   "event_ticker": "KXRAIN-26OCT16",
-   "series": "KXRAIN",
-   "label": "Will it rain in Atlanta on Oct 16, 2026?",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1792083643,
-   "close_ts": 1792213200.0,
-   "score": 0.5582,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792188075,
-     "bid": 0.67,
-     "proceeds": 3.92
-    },
-    "15": {
-     "ts": 1792188075,
-     "bid": 0.67,
-     "proceeds": 3.92
-    },
-    "20": {
-     "ts": 1792188075,
-     "bid": 0.67,
-     "proceeds": 3.92
-    },
-    "30": {
-     "ts": 1792189868,
-     "bid": 0.35,
-     "proceeds": 2.0
     }
    }
   },
@@ -259,7 +221,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.27,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -297,7 +259,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.94,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -314,7 +276,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.15,
+   "mark_price": 0.17,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -420,7 +382,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -437,7 +399,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -482,7 +444,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.74,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -528,6 +490,23 @@
    "close_ts": 1792299600.0,
    "score": 0.5604,
    "mark_price": 0.99,
+   "shadow": {}
+  },
+  {
+   "id": 115,
+   "ticker": "KXTRUTHSOCIAL-26OCT17-B209",
+   "event_ticker": "KXTRUTHSOCIAL-26OCT17",
+   "series": "KXTRUTHSOCIAL",
+   "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792235729,
+   "close_ts": 1792331940.0,
+   "score": 0.6411,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -2660,6 +2639,48 @@
    "result": "YES",
    "closed_ts": 1792192565,
    "won": false
+  },
+  {
+   "id": 95,
+   "ticker": "KXRAIN-26OCT16-ATL",
+   "event_ticker": "KXRAIN-26OCT16",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Oct 16, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792083643,
+   "close_ts": 1792213200.0,
+   "score": 0.5582,
+   "shadow": {
+    "10": {
+     "ts": 1792188075,
+     "bid": 0.67,
+     "proceeds": 3.92
+    },
+    "15": {
+     "ts": 1792188075,
+     "bid": 0.67,
+     "proceeds": 3.92
+    },
+    "20": {
+     "ts": 1792188075,
+     "bid": 0.67,
+     "proceeds": 3.92
+    },
+    "30": {
+     "ts": 1792189868,
+     "bid": 0.35,
+     "proceeds": 2.0
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.33,
+   "result": "NO",
+   "closed_ts": 1792235729,
+   "won": true
   }
  ],
  "equity_history": [
@@ -6757,90 +6778,99 @@
    1792234829,
    103.98,
    87.54
+  ],
+  [
+   1792235729,
+   104.31,
+   87.68
   ]
  ],
  "last_run": {
-  "ts": 1792234829,
+  "ts": 1792235729,
   "error": null,
   "markets_scanned": 278,
-  "candidates": 12,
+  "candidates": 11,
   "rejections": {
    "too little volume": 172,
    "no favorite in 80-95c band": 85,
-   "spread too wide": 9
+   "spread too wide": 10
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   115
+  ],
+  "settled": [
+   95
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.99,
-    "volume_24h": 13881.33,
-    "score": 0.6578
+    "price": 0.92,
+    "hours_to_close": 20.74,
+    "volume_24h": 13973.33,
+    "score": 0.6485
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.98,
+    "hours_to_close": 26.73,
     "volume_24h": 4920.31,
-    "score": 0.6406
+    "score": 0.6411
+   },
+   {
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.74,
+    "volume_24h": 10675.0,
+    "score": 0.6185
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 17, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 1519.16,
-    "score": 0.6064
-   },
-   {
-    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.99,
-    "volume_24h": 10666.06,
-    "score": 0.5778
+    "score": 0.6072
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Oct 17, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 447.26,
-    "score": 0.5767
+    "hours_to_close": 20.74,
+    "volume_24h": 461.26,
+    "score": 0.5784
    },
    {
     "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 20.99,
-    "volume_24h": 6178.68,
-    "score": 0.5521
+    "hours_to_close": 20.74,
+    "volume_24h": 6195.68,
+    "score": 0.5529
    },
    {
     "label": "Will Trump do anything on Oct 17, 2026? \u2014 Yes",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.99,
+    "hours_to_close": 26.74,
     "volume_24h": 315.83,
-    "score": 0.5312
+    "score": 0.5317
    },
    {
     "label": "Will the maximum temperature be 82-83\u00b0 on Oct 17, 2026? \u2014 82\u00b0 to 83\u00b0",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 20.99,
-    "volume_24h": 1156.11,
-    "score": 0.5076
+    "price": 0.87,
+    "hours_to_close": 20.74,
+    "volume_24h": 1157.24,
+    "score": 0.5283
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 7,
+  "watch_graded": 18,
   "api_calls": 44
  },
  "shadow_since": 1791904549,

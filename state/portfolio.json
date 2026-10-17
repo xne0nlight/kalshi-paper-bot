@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 17.65,
- "fees_paid": 2.62,
+ "cash": 11.98,
+ "fees_paid": 2.65,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 125,
+ "next_id": 126,
  "open_positions": [
   {
    "id": 99,
@@ -200,7 +200,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -245,7 +245,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.47,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -283,7 +283,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -319,44 +319,6 @@
    "score": 0.6411,
    "mark_price": 0.96,
    "shadow": {}
-  },
-  {
-   "id": 116,
-   "ticker": "KXNCAAFGAME-26OCT16CHARTEM-CHAR",
-   "event_ticker": "KXNCAAFGAME-26OCT16CHARTEM",
-   "series": "KXNCAAFGAME",
-   "label": "Charlotte wins",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 0.94,
-   "opened_ts": 1792239329,
-   "close_ts": 1792368000.0,
-   "score": 0.6303,
-   "mark_price": 0.06,
-   "shadow": {
-    "10": {
-     "ts": 1792257330,
-     "bid": 0.73,
-     "proceeds": 0.71
-    },
-    "15": {
-     "ts": 1792257330,
-     "bid": 0.73,
-     "proceeds": 0.71
-    },
-    "20": {
-     "ts": 1792257330,
-     "bid": 0.73,
-     "proceeds": 0.71
-    },
-    "30": {
-     "ts": 1792265429,
-     "bid": 0.59,
-     "proceeds": 0.57
-    }
-   }
   },
   {
    "id": 117,
@@ -457,7 +419,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -475,6 +437,23 @@
    "close_ts": 1792368000.0,
    "score": 0.594,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 125,
+   "ticker": "KXNCAAF1H-26OCT16MIZZMISS-MISS",
+   "event_ticker": "KXNCAAF1H-26OCT16MIZZMISS",
+   "series": "KXNCAAF1H",
+   "label": "Ole Miss wins the 1st half",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792269929,
+   "close_ts": 1792368000.0,
+   "score": 0.6353,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -2922,6 +2901,48 @@
    "pnl": -1.76,
    "result": "YES",
    "closed_ts": 1792266328,
+   "won": false
+  },
+  {
+   "id": 116,
+   "ticker": "KXNCAAFGAME-26OCT16CHARTEM-CHAR",
+   "event_ticker": "KXNCAAFGAME-26OCT16CHARTEM",
+   "series": "KXNCAAFGAME",
+   "label": "Charlotte wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1792239329,
+   "close_ts": 1792368000.0,
+   "score": 0.6303,
+   "shadow": {
+    "10": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    },
+    "15": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    },
+    "20": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    },
+    "30": {
+     "ts": 1792265429,
+     "bid": 0.59,
+     "proceeds": 0.57
+    }
+   },
+   "payout": 0.0,
+   "pnl": -0.94,
+   "result": "YES",
+   "closed_ts": 1792269929,
    "won": false
   }
  ],
@@ -7210,90 +7231,99 @@
    1792269030,
    105.76,
    88.99
+  ],
+  [
+   1792269929,
+   104.82,
+   87.72
   ]
  ],
  "last_run": {
-  "ts": 1792269030,
+  "ts": 1792269929,
   "error": null,
-  "markets_scanned": 1683,
-  "candidates": 54,
+  "markets_scanned": 1679,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 1371,
+   "too little volume": 1367,
    "no favorite in 80-95c band": 239,
-   "spread too wide": 18,
+   "spread too wide": 17,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   125
+  ],
+  "settled": [
+   116
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Virginia Tech wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 158326.46,
-    "score": 0.6627
-   },
-   {
-    "label": "Georgia Tech wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 165848.36,
-    "score": 0.6627
-   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 5338.65,
-    "score": 0.6589
+    "hours_to_close": 20.23,
+    "volume_24h": 6014.0,
+    "score": 0.6635
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 2711.64,
-    "score": 0.6368
+    "hours_to_close": 20.23,
+    "volume_24h": 3402.62,
+    "score": 0.645
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.48,
-    "volume_24h": 3279.34,
-    "score": 0.633
+    "hours_to_close": 20.23,
+    "volume_24h": 4090.92,
+    "score": 0.641
    },
    {
-    "label": "UMass wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 1543760.74,
-    "score": 0.6327
-   },
-   {
-    "label": "Buffalo wins",
+    "label": "Ole Miss wins the 1st half",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 1358031.41,
-    "score": 0.6327
+    "price": 0.94,
+    "hours_to_close": 27.24,
+    "volume_24h": 5768.44,
+    "score": 0.6353
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 7800.31,
-    "score": 0.6246
+    "hours_to_close": 27.24,
+    "volume_24h": 8881.28,
+    "score": 0.6293
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 27.24,
+    "volume_24h": 4938.87,
+    "score": 0.6102
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 20.23,
+    "volume_24h": 19613.23,
+    "score": 0.6101
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.24,
+    "volume_24h": 3580.44,
+    "score": 0.6097
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

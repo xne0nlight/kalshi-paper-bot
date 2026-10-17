@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.25,
+   "mark_price": 0.29,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -297,7 +297,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.22,
+   "mark_price": 0.28,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -352,7 +352,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792182672,
@@ -375,7 +375,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.74,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -437,12 +437,17 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.89,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792188965,
      "bid": 0.8,
      "proceeds": 3.15
+    },
+    "15": {
+     "ts": 1792210579,
+     "bid": 0.72,
+     "proceeds": 2.82
     }
    }
   },
@@ -494,7 +499,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -511,7 +516,7 @@
    "opened_ts": 1792192565,
    "close_ts": 1792299600.0,
    "score": 0.5604,
-   "mark_price": 0.94,
+   "mark_price": 0.99,
    "shadow": {}
   }
  ],
@@ -6601,17 +6606,23 @@
    1792209678,
    103.98,
    87.32
+  ],
+  [
+   1792210579,
+   103.98,
+   87.08
   ]
  ],
  "last_run": {
-  "ts": 1792209678,
+  "ts": 1792210579,
   "error": null,
   "markets_scanned": 1405,
-  "candidates": 43,
+  "candidates": 41,
   "rejections": {
-   "too little volume": 1076,
-   "no favorite in 80-95c band": 263,
-   "spread too wide": 23
+   "too little volume": 1075,
+   "no favorite in 80-95c band": 267,
+   "spread too wide": 21,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -6621,69 +6632,69 @@
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.98,
-    "volume_24h": 25530.98,
-    "score": 0.6814
+    "hours_to_close": 16.73,
+    "volume_24h": 26539.9,
+    "score": 0.6824
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 16.98,
-    "volume_24h": 33283.88,
-    "score": 0.6614
+    "hours_to_close": 16.73,
+    "volume_24h": 33409.22,
+    "score": 0.6624
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 12.96,
-    "volume_24h": 36048.57,
-    "score": 0.6507
+    "hours_to_close": 12.71,
+    "volume_24h": 36212.85,
+    "score": 0.6522
    },
    {
-    "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
+    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 17, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.98,
-    "volume_24h": 5387.66,
-    "score": 0.6317
+    "price": 0.92,
+    "hours_to_close": 24.73,
+    "volume_24h": 9118.36,
+    "score": 0.6353
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 16.98,
-    "volume_24h": 23872.56,
-    "score": 0.6314
+    "hours_to_close": 16.73,
+    "volume_24h": 23889.86,
+    "score": 0.6324
+   },
+   {
+    "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 27.73,
+    "volume_24h": 5388.66,
+    "score": 0.6321
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.98,
+    "hours_to_close": 27.73,
     "volume_24h": 3090.75,
-    "score": 0.6236
+    "score": 0.624
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.96,
+    "hours_to_close": 33.71,
     "volume_24h": 4627.72,
-    "score": 0.6175
-   },
-   {
-    "label": "Will it rain in Atlanta on Oct 17, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 24.98,
-    "volume_24h": 8889.14,
-    "score": 0.614
+    "score": 0.6178
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

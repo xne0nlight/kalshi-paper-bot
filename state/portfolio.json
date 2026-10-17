@@ -221,7 +221,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.24,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -259,7 +259,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -276,7 +276,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.17,
+   "mark_price": 0.15,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -337,7 +337,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.74,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -444,7 +444,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.75,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -455,6 +455,11 @@
      "ts": 1792220475,
      "bid": 0.75,
      "proceeds": 3.68
+    },
+    "20": {
+     "ts": 1792237530,
+     "bid": 0.73,
+     "proceeds": 3.58
     }
    }
   },
@@ -6788,17 +6793,22 @@
    1792236629,
    104.31,
    87.5
+  ],
+  [
+   1792237530,
+   104.31,
+   87.32
   ]
  ],
  "last_run": {
-  "ts": 1792236629,
+  "ts": 1792237530,
   "error": null,
   "markets_scanned": 278,
-  "candidates": 14,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 172,
-   "no favorite in 80-95c band": 85,
-   "spread too wide": 7
+   "too little volume": 171,
+   "no favorite in 80-95c band": 83,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
@@ -6808,69 +6818,69 @@
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.49,
-    "volume_24h": 14041.59,
-    "score": 0.6493
+    "hours_to_close": 20.24,
+    "volume_24h": 14078.39,
+    "score": 0.65
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.48,
+    "hours_to_close": 26.23,
     "volume_24h": 4920.31,
-    "score": 0.6416
+    "score": 0.6421
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.49,
-    "volume_24h": 10745.0,
-    "score": 0.6193
+    "price": 0.9,
+    "hours_to_close": 20.24,
+    "volume_24h": 10971.94,
+    "score": 0.63
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 17, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.49,
-    "volume_24h": 1719.16,
-    "score": 0.6019
+    "hours_to_close": 20.24,
+    "volume_24h": 1845.21,
+    "score": 0.605
    },
    {
     "label": "Will the maximum temperature be 92-93\u00b0 on Oct 17, 2026? \u2014 92\u00b0 to 93\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 718.29,
-    "score": 0.5835
+    "score": 0.5843
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Oct 17, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 476.26,
-    "score": 0.5802
-   },
-   {
-    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 20.49,
-    "volume_24h": 6210.68,
-    "score": 0.5538
+    "score": 0.5809
    },
    {
     "label": "Will Trump do anything on Oct 17, 2026? \u2014 Yes",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.49,
+    "hours_to_close": 26.24,
     "volume_24h": 315.83,
-    "score": 0.5322
+    "score": 0.5327
+   },
+   {
+    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
+    "side": "no",
+    "price": 0.81,
+    "hours_to_close": 20.24,
+    "volume_24h": 6214.68,
+    "score": 0.5245
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

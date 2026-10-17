@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.1,
+   "mark_price": 0.12,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -183,7 +183,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.04,
+   "mark_price": 0.01,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -266,7 +266,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -283,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.68,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -355,7 +355,7 @@
    "opened_ts": 1792235729,
    "close_ts": 1792331940.0,
    "score": 0.6411,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -372,7 +372,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.8,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -479,7 +479,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -7103,90 +7103,96 @@
    1792258231,
    107.24,
    91.45
+  ],
+  [
+   1792259130,
+   107.24,
+   91.39
   ]
  ],
  "last_run": {
-  "ts": 1792258231,
+  "ts": 1792259130,
   "error": null,
   "markets_scanned": 759,
-  "candidates": 38,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 514,
-   "no favorite in 80-95c band": 186,
-   "spread too wide": 19,
-   "favorite is slipping fast": 2
+   "too little volume": 524,
+   "no favorite in 80-95c band": 180,
+   "spread too wide": 16,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 825953.15,
-    "score": 0.6375
-   },
-   {
-    "label": "Florida wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 2038469.94,
-    "score": 0.6375
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.47,
+    "hours_to_close": 23.23,
     "volume_24h": 6296.37,
-    "score": 0.6262
+    "score": 0.6268
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.49,
-    "volume_24h": 6899.82,
-    "score": 0.6155
+    "hours_to_close": 30.24,
+    "volume_24h": 7002.75,
+    "score": 0.6163
+   },
+   {
+    "label": "Yandy D\u00edaz: 2+ RBIs?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 28.24,
+    "volume_24h": 6009.57,
+    "score": 0.6147
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.47,
+    "hours_to_close": 23.23,
     "volume_24h": 1354.96,
-    "score": 0.6062
+    "score": 0.6068
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.47,
+    "hours_to_close": 34.23,
     "volume_24h": 11692.0,
-    "score": 0.6019
+    "score": 0.6022
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.47,
+    "hours_to_close": 34.23,
     "volume_24h": 2038.0,
-    "score": 0.6001
+    "score": 0.6004
    },
    {
-    "label": "Will average **gas prices** be above $4.2200? \u2014 Above 4.2200",
+    "label": "Texas wins",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 34.47,
-    "volume_24h": 2676.57,
-    "score": 0.599
+    "price": 0.88,
+    "hours_to_close": 30.24,
+    "volume_24h": 929949.04,
+    "score": 0.5879
+   },
+   {
+    "label": "Florida wins",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 30.24,
+    "volume_24h": 2593684.85,
+    "score": 0.5879
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

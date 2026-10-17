@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.98,
- "fees_paid": 2.65,
+ "cash": 13.31,
+ "fees_paid": 2.68,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 126,
+ "next_id": 127,
  "open_positions": [
   {
    "id": 99,
@@ -215,23 +215,6 @@
    }
   },
   {
-   "id": 111,
-   "ticker": "KXBTCD-26OCT1717-T80499.99",
-   "event_ticker": "KXBTCD-26OCT1717",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
-   "side": "yes",
-   "contracts": 7,
-   "price": 0.93,
-   "fee": 0.04,
-   "cost": 6.55,
-   "opened_ts": 1792185370,
-   "close_ts": 1792270800.0,
-   "score": 0.6491,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 112,
    "ticker": "KXHIGHCHI-26OCT17-B55.5",
    "event_ticker": "KXHIGHCHI-26OCT17",
@@ -245,7 +228,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.19,
+   "mark_price": 0.16,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -283,7 +266,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -351,7 +334,7 @@
    "opened_ts": 1792253729,
    "close_ts": 1792382340.0,
    "score": 0.6003,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -436,7 +419,7 @@
    "opened_ts": 1792266328,
    "close_ts": 1792368000.0,
    "score": 0.594,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -454,6 +437,23 @@
    "close_ts": 1792368000.0,
    "score": 0.6353,
    "mark_price": 0.99,
+   "shadow": {}
+  },
+  {
+   "id": 126,
+   "ticker": "KXNCAAFGAME-26OCT16MIZZMISS-MIZZ",
+   "event_ticker": "KXNCAAFGAME-26OCT16MIZZMISS",
+   "series": "KXNCAAFGAME",
+   "label": "Missouri wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792271730,
+   "close_ts": 1792368000.0,
+   "score": 0.6541,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -2944,6 +2944,27 @@
    "result": "YES",
    "closed_ts": 1792269929,
    "won": false
+  },
+  {
+   "id": 111,
+   "ticker": "KXBTCD-26OCT1717-T80499.99",
+   "event_ticker": "KXBTCD-26OCT1717",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
+   "side": "yes",
+   "contracts": 7,
+   "price": 0.93,
+   "fee": 0.04,
+   "cost": 6.55,
+   "opened_ts": 1792185370,
+   "close_ts": 1792270800.0,
+   "score": 0.6491,
+   "shadow": {},
+   "payout": 7.0,
+   "pnl": 0.45,
+   "result": "YES",
+   "closed_ts": 1792271730,
+   "won": true
   }
  ],
  "equity_history": [
@@ -7241,91 +7262,102 @@
    1792270832,
    104.82,
    87.76
+  ],
+  [
+   1792271730,
+   105.27,
+   87.63
   ]
  ],
  "last_run": {
-  "ts": 1792270832,
+  "ts": 1792271730,
   "error": null,
-  "markets_scanned": 1650,
-  "candidates": 58,
+  "markets_scanned": 1644,
+  "candidates": 64,
   "rejections": {
-   "too little volume": 1336,
-   "no favorite in 80-95c band": 240,
-   "spread too wide": 15,
+   "too little volume": 1287,
+   "no favorite in 80-95c band": 248,
+   "spread too wide": 44,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   126
+  ],
+  "settled": [
+   111
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.97,
+    "hours_to_close": 19.73,
     "volume_24h": 6091.19,
-    "score": 0.6647
+    "score": 0.6655
+   },
+   {
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.73,
+    "volume_24h": 58992.02,
+    "score": 0.6572
+   },
+   {
+    "label": "Missouri wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 26.74,
+    "volume_24h": 2070073.79,
+    "score": 0.6541
+   },
+   {
+    "label": "Ole Miss wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 26.74,
+    "volume_24h": 1542373.86,
+    "score": 0.6541
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.97,
-    "volume_24h": 3479.81,
-    "score": 0.6465
+    "hours_to_close": 19.73,
+    "volume_24h": 3689.81,
+    "score": 0.6492
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.97,
+    "hours_to_close": 19.73,
     "volume_24h": 4168.11,
-    "score": 0.6424
+    "score": 0.6431
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.99,
-    "volume_24h": 9225.35,
-    "score": 0.631
+    "hours_to_close": 26.74,
+    "volume_24h": 9977.34,
+    "score": 0.6341
    },
    {
-    "label": "Missouri wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 26.99,
-    "volume_24h": 1655220.08,
-    "score": 0.6237
-   },
-   {
-    "label": "Ole Miss wins",
+    "label": "Miami (OH) wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 26.99,
-    "volume_24h": 1339770.29,
-    "score": 0.6237
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 26.99,
-    "volume_24h": 5086.09,
-    "score": 0.6116
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.99,
-    "volume_24h": 3580.44,
-    "score": 0.6102
+    "hours_to_close": 26.74,
+    "volume_24h": 67120.75,
+    "score": 0.6241
    }
   ],
-  "skipped": {},
-  "watch_added": 6,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Gas prices)": 1
+  },
+  "watch_added": 10,
+  "watch_graded": 19,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

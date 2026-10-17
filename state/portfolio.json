@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 23.26,
- "fees_paid": 2.59,
+ "cash": 17.65,
+ "fees_paid": 2.62,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 124,
+ "next_id": 125,
  "open_positions": [
   {
    "id": 99,
@@ -48,44 +48,6 @@
    }
   },
   {
-   "id": 102,
-   "ticker": "KXRTTV-VIS-85",
-   "event_ticker": "KXRTTV-VIS",
-   "series": "KXRTTV",
-   "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.87,
-   "fee": 0.02,
-   "cost": 1.76,
-   "opened_ts": 1792159296,
-   "close_ts": 1792245600.0,
-   "score": 0.5901,
-   "mark_price": 0.28,
-   "shadow": {
-    "10": {
-     "ts": 1792173685,
-     "bid": 0.76,
-     "proceeds": 1.49
-    },
-    "15": {
-     "ts": 1792178166,
-     "bid": 0.63,
-     "proceeds": 1.22
-    },
-    "20": {
-     "ts": 1792178166,
-     "bid": 0.63,
-     "proceeds": 1.22
-    },
-    "30": {
-     "ts": 1792179075,
-     "bid": 0.18,
-     "proceeds": 0.33
-    }
-   }
-  },
-  {
    "id": 103,
    "ticker": "KXRAIN-26OCT17-MIA",
    "event_ticker": "KXRAIN-26OCT17",
@@ -122,7 +84,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.08,
+   "mark_price": 0.1,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -238,7 +200,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -283,7 +245,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.75,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -321,7 +283,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.97,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -372,7 +334,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.59,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -478,7 +440,7 @@
    "opened_ts": 1792257330,
    "close_ts": 1792386000.0,
    "score": 0.6306,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -495,7 +457,24 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 124,
+   "ticker": "KXNCAAF1H-26OCT16WISUCLA-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT16WISUCLA",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1792266328,
+   "close_ts": 1792368000.0,
+   "score": 0.594,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -2902,6 +2881,48 @@
    "result": "NO",
    "closed_ts": 1792260031,
    "won": true
+  },
+  {
+   "id": 102,
+   "ticker": "KXRTTV-VIS-85",
+   "event_ticker": "KXRTTV-VIS",
+   "series": "KXRTTV",
+   "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.87,
+   "fee": 0.02,
+   "cost": 1.76,
+   "opened_ts": 1792159296,
+   "close_ts": 1792245600.0,
+   "score": 0.5901,
+   "shadow": {
+    "10": {
+     "ts": 1792173685,
+     "bid": 0.76,
+     "proceeds": 1.49
+    },
+    "15": {
+     "ts": 1792178166,
+     "bid": 0.63,
+     "proceeds": 1.22
+    },
+    "20": {
+     "ts": 1792178166,
+     "bid": 0.63,
+     "proceeds": 1.22
+    },
+    "30": {
+     "ts": 1792179075,
+     "bid": 0.18,
+     "proceeds": 0.33
+    }
+   },
+   "payout": 0.0,
+   "pnl": -1.76,
+   "result": "YES",
+   "closed_ts": 1792266328,
+   "won": false
   }
  ],
  "equity_history": [
@@ -7169,90 +7190,99 @@
    1792265429,
    107.52,
    91.27
+  ],
+  [
+   1792266328,
+   105.76,
+   90.37
   ]
  ],
  "last_run": {
-  "ts": 1792265429,
+  "ts": 1792266328,
   "error": null,
-  "markets_scanned": 855,
-  "candidates": 45,
+  "markets_scanned": 849,
+  "candidates": 47,
   "rejections": {
-   "too little volume": 572,
-   "no favorite in 80-95c band": 220,
-   "spread too wide": 18
+   "too little volume": 569,
+   "no favorite in 80-95c band": 214,
+   "spread too wide": 19
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   124
+  ],
+  "settled": [
+   102
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
-    "volume_24h": 1917.34,
-    "score": 0.6227
+    "hours_to_close": 21.23,
+    "volume_24h": 1947.34,
+    "score": 0.6239
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.49,
-    "volume_24h": 6096.15,
-    "score": 0.6148
+    "hours_to_close": 28.24,
+    "volume_24h": 6671.25,
+    "score": 0.6181
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.48,
+    "hours_to_close": 32.23,
     "volume_24h": 11692.0,
-    "score": 0.6046
+    "score": 0.6049
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.48,
+    "hours_to_close": 32.23,
     "volume_24h": 2038.0,
-    "score": 0.6028
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.48,
-    "volume_24h": 970.95,
-    "score": 0.6005
+    "score": 0.6031
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 28.49,
-    "volume_24h": 3553.1,
-    "score": 0.5972
+    "hours_to_close": 28.24,
+    "volume_24h": 3608.86,
+    "score": 0.5981
    },
    {
-    "label": "Will the maximum temperature be >69\u00b0 on Oct 18, 2026? \u2014 70\u00b0 or above",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 1827.74,
-    "score": 0.5865
+    "price": 0.88,
+    "hours_to_close": 21.23,
+    "volume_24h": 7460.02,
+    "score": 0.5976
    },
    {
-    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 18, 2026? \u2014 60\u00b0 to 61\u00b0",
+    "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.49,
-    "volume_24h": 1199.86,
-    "score": 0.5841
+    "price": 0.93,
+    "hours_to_close": 28.24,
+    "volume_24h": 2335.47,
+    "score": 0.594
+   },
+   {
+    "label": "Rutgers wins",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 28.24,
+    "volume_24h": 451112.36,
+    "score": 0.5913
    }
   ],
   "skipped": {},
   "watch_added": 2,
-  "watch_graded": 0,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

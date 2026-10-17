@@ -317,7 +317,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.6082,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -453,7 +453,7 @@
    "opened_ts": 1792278031,
    "close_ts": 1792368000.0,
    "score": 0.6378,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -7386,95 +7386,95 @@
    1792278031,
    104.99,
    86.81
+  ],
+  [
+   1792278929,
+   104.99,
+   86.99
   ]
  ],
  "last_run": {
-  "ts": 1792278031,
+  "ts": 1792278929,
   "error": null,
   "markets_scanned": 1589,
-  "candidates": 62,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 1224,
-   "no favorite in 80-95c band": 254,
-   "spread too wide": 48,
+   "too little volume": 1214,
+   "no favorite in 80-95c band": 281,
+   "spread too wide": 22,
+   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
-  "opened": [
-   129
-  ],
-  "settled": [
-   126
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.97,
-    "volume_24h": 7215.48,
-    "score": 0.677
+    "hours_to_close": 17.73,
+    "volume_24h": 7235.6,
+    "score": 0.678
+   },
+   {
+    "label": "Tulsa wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 279125.05,
+    "score": 0.6683
+   },
+   {
+    "label": "Rice wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 351064.04,
+    "score": 0.6683
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.99,
-    "volume_24h": 25261.82,
-    "score": 0.665
+    "hours_to_close": 21.74,
+    "volume_24h": 26836.83,
+    "score": 0.6657
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.97,
-    "volume_24h": 4313.1,
-    "score": 0.6602
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.97,
-    "volume_24h": 57478.91,
-    "score": 0.66
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 17.97,
-    "volume_24h": 4820.33,
-    "score": 0.6538
+    "hours_to_close": 17.73,
+    "volume_24h": 4645.96,
+    "score": 0.6636
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 21.99,
-    "volume_24h": 7534.14,
-    "score": 0.6458
+    "price": 0.94,
+    "hours_to_close": 21.74,
+    "volume_24h": 9023.63,
+    "score": 0.6624
    },
    {
-    "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 29.99,
-    "volume_24h": 5728.74,
-    "score": 0.6402
+    "label": "Louisiana wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 24.74,
+    "volume_24h": 356116.84,
+    "score": 0.6583
    },
    {
     "label": "Troy wins",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.99,
-    "volume_24h": 175178.46,
-    "score": 0.6378
+    "price": 0.94,
+    "hours_to_close": 24.74,
+    "volume_24h": 227956.16,
+    "score": 0.6583
    }
   ],
-  "skipped": {
-   "related-market cap (Gas prices)": 1
-  },
+  "skipped": {},
   "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42

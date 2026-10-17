@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.35,
+   "mark_price": 0.24,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.14,
+   "mark_price": 0.17,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -375,7 +375,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.72,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -437,7 +437,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -465,7 +465,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -482,7 +482,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -6747,17 +6747,22 @@
    1792233072,
    103.98,
    87.84
+  ],
+  [
+   1792233967,
+   103.98,
+   88.01
   ]
  ],
  "last_run": {
-  "ts": 1792233072,
+  "ts": 1792233967,
   "error": null,
   "markets_scanned": 305,
-  "candidates": 17,
+  "candidates": 19,
   "rejections": {
    "too little volume": 179,
-   "no favorite in 80-95c band": 102,
-   "spread too wide": 7
+   "no favorite in 80-95c band": 98,
+   "spread too wide": 9
   },
   "opened": [],
   "settled": [],
@@ -6766,66 +6771,66 @@
    {
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 21.48,
-    "volume_24h": 13452.34,
-    "score": 0.6564
+    "price": 0.92,
+    "hours_to_close": 21.23,
+    "volume_24h": 13662.59,
+    "score": 0.6471
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.46,
+    "hours_to_close": 27.21,
     "volume_24h": 4920.31,
-    "score": 0.6397
+    "score": 0.6401
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 17, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.48,
-    "volume_24h": 1514.16,
-    "score": 0.605
-   },
-   {
-    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.48,
-    "volume_24h": 2250.1,
-    "score": 0.5807
+    "hours_to_close": 21.23,
+    "volume_24h": 1517.16,
+    "score": 0.6057
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 10666.06,
-    "score": 0.5764
+    "score": 0.5771
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Oct 17, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 447.26,
-    "score": 0.5753
+    "score": 0.576
    },
    {
     "label": "Will the maximum temperature be 92-93\u00b0 on Oct 17, 2026? \u2014 92\u00b0 to 93\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 715.29,
-    "score": 0.5706
+    "score": 0.5712
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Oct 17, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.48,
-    "volume_24h": 1323.93,
-    "score": 0.5635
+    "hours_to_close": 20.23,
+    "volume_24h": 1572.71,
+    "score": 0.5698
+   },
+   {
+    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 16, 2026? \u2014 Game goes to extra innings",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.23,
+    "volume_24h": 7362.68,
+    "score": 0.531
    }
   ],
   "skipped": {},

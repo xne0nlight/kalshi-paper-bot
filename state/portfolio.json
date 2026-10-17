@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 18.37,
- "fees_paid": 2.69,
+ "cash": 12.7,
+ "fees_paid": 2.72,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 128,
+ "next_id": 129,
  "open_positions": [
   {
    "id": 99,
@@ -368,7 +368,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -436,46 +436,25 @@
    "opened_ts": 1792271730,
    "close_ts": 1792368000.0,
    "score": 0.6541,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
-   "id": 127,
-   "ticker": "KXNCAAF1H-26OCT16TLSARICE-TLSA",
-   "event_ticker": "KXNCAAF1H-26OCT16TLSARICE",
-   "series": "KXNCAAF1H",
-   "label": "Tulsa wins the 1st half",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 0.94,
-   "opened_ts": 1792272632,
-   "close_ts": 1792368000.0,
-   "score": 0.6356,
-   "mark_price": 0.01,
-   "shadow": {
-    "10": {
-     "ts": 1792274431,
-     "bid": 0.01,
-     "proceeds": 0.0
-    },
-    "15": {
-     "ts": 1792274431,
-     "bid": 0.01,
-     "proceeds": 0.0
-    },
-    "20": {
-     "ts": 1792274431,
-     "bid": 0.01,
-     "proceeds": 0.0
-    },
-    "30": {
-     "ts": 1792274431,
-     "bid": 0.01,
-     "proceeds": 0.0
-    }
-   }
+   "id": 128,
+   "ticker": "KXBTCD-26OCT1817-T79749.99",
+   "event_ticker": "KXBTCD-26OCT1817",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 18, 2026? \u2014 $79,750 or above",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792275329,
+   "close_ts": 1792357200.0,
+   "score": 0.6456,
+   "mark_price": 0.93,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -3007,6 +2986,48 @@
    "result": "YES",
    "closed_ts": 1792272632,
    "won": true
+  },
+  {
+   "id": 127,
+   "ticker": "KXNCAAF1H-26OCT16TLSARICE-TLSA",
+   "event_ticker": "KXNCAAF1H-26OCT16TLSARICE",
+   "series": "KXNCAAF1H",
+   "label": "Tulsa wins the 1st half",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1792272632,
+   "close_ts": 1792368000.0,
+   "score": 0.6356,
+   "shadow": {
+    "10": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "15": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "20": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    },
+    "30": {
+     "ts": 1792274431,
+     "bid": 0.01,
+     "proceeds": 0.0
+    }
+   },
+   "payout": 0.0,
+   "pnl": -0.94,
+   "result": "YES",
+   "closed_ts": 1792275329,
+   "won": false
   }
  ],
  "equity_history": [
@@ -7324,92 +7345,101 @@
    1792274431,
    105.6,
    86.58
+  ],
+  [
+   1792275329,
+   104.66,
+   86.59
   ]
  ],
  "last_run": {
-  "ts": 1792274431,
+  "ts": 1792275329,
   "error": null,
-  "markets_scanned": 1627,
+  "markets_scanned": 1624,
   "candidates": 65,
   "rejections": {
-   "too little volume": 1264,
-   "no favorite in 80-95c band": 251,
-   "spread too wide": 45,
+   "too little volume": 1255,
+   "no favorite in 80-95c band": 261,
+   "spread too wide": 41,
    "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   128
+  ],
+  "settled": [
+   127
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.97,
-    "volume_24h": 6755.09,
-    "score": 0.6713
+    "hours_to_close": 18.73,
+    "volume_24h": 7127.04,
+    "score": 0.6739
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.97,
-    "volume_24h": 3853.71,
-    "score": 0.653
+    "hours_to_close": 18.73,
+    "volume_24h": 4225.66,
+    "score": 0.6569
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.97,
-    "volume_24h": 4347.53,
-    "score": 0.647
+    "hours_to_close": 18.73,
+    "volume_24h": 4719.48,
+    "score": 0.6505
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $79,750 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 22.74,
+    "volume_24h": 5855.69,
+    "score": 0.6456
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.99,
-    "volume_24h": 11389.25,
-    "score": 0.6356
+    "hours_to_close": 25.74,
+    "volume_24h": 12228.75,
+    "score": 0.6362
    },
    {
     "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 18.97,
-    "volume_24h": 20263.53,
-    "score": 0.6341
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.99,
-    "volume_24h": 7383.49,
-    "score": 0.6258
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.99,
-    "volume_24h": 5702.37,
-    "score": 0.6174
+    "hours_to_close": 18.73,
+    "volume_24h": 20712.55,
+    "score": 0.6349
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 22.99,
-    "volume_24h": 4425.24,
-    "score": 0.6159
+    "hours_to_close": 22.74,
+    "volume_24h": 7481.82,
+    "score": 0.6336
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 22.74,
+    "volume_24h": 21899.87,
+    "score": 0.6331
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 5,
   "watch_graded": 0,
-  "api_calls": 44
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

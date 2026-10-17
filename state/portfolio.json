@@ -116,7 +116,7 @@
    "opened_ts": 1792083643,
    "close_ts": 1792213200.0,
    "score": 0.5582,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792188075,
@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.17,
+   "mark_price": 0.2,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -445,7 +445,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -6516,17 +6516,22 @@
    1792197069,
    103.98,
    89.16
+  ],
+  [
+   1792197965,
+   103.98,
+   89.23
   ]
  ],
  "last_run": {
-  "ts": 1792197069,
+  "ts": 1792197965,
   "error": null,
   "markets_scanned": 1208,
   "candidates": 39,
   "rejections": {
-   "too little volume": 971,
-   "no favorite in 80-95c band": 187,
-   "spread too wide": 11
+   "too little volume": 970,
+   "no favorite in 80-95c band": 189,
+   "spread too wide": 10
   },
   "opened": [],
   "settled": [],
@@ -6536,69 +6541,69 @@
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 16.46,
-    "volume_24h": 10373.27,
-    "score": 0.6835
+    "hours_to_close": 16.22,
+    "volume_24h": 10390.8,
+    "score": 0.6845
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.48,
+    "price": 0.95,
+    "hours_to_close": 20.23,
     "volume_24h": 21441.38,
-    "score": 0.6593
+    "score": 0.6801
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.48,
-    "volume_24h": 12242.62,
-    "score": 0.6593
+    "price": 0.94,
+    "hours_to_close": 20.23,
+    "volume_24h": 12267.62,
+    "score": 0.6701
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.48,
-    "volume_24h": 24343.61,
-    "score": 0.6193
+    "price": 0.9,
+    "hours_to_close": 20.23,
+    "volume_24h": 24393.61,
+    "score": 0.6301
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.48,
-    "volume_24h": 2432.04,
-    "score": 0.61
+    "hours_to_close": 31.23,
+    "volume_24h": 2482.04,
+    "score": 0.611
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 20.48,
-    "volume_24h": 18240.16,
-    "score": 0.6093
+    "price": 0.87,
+    "hours_to_close": 20.23,
+    "volume_24h": 18276.93,
+    "score": 0.6001
    },
    {
     "label": "Will the maximum temperature be >84\u00b0 on Oct 17, 2026? \u2014 85\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.48,
+    "hours_to_close": 30.23,
     "volume_24h": 1370.22,
-    "score": 0.5928
+    "score": 0.5932
    },
    {
     "label": "Will the maximum temperature be 66-67\u00b0 on Oct 17, 2026? \u2014 66\u00b0 to 67\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.48,
+    "hours_to_close": 28.23,
     "volume_24h": 1021.68,
-    "score": 0.5866
+    "score": 0.5871
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

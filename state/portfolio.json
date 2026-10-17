@@ -245,7 +245,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.26,
+   "mark_price": 0.19,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -283,7 +283,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -385,7 +385,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -453,7 +453,7 @@
    "opened_ts": 1792269929,
    "close_ts": 1792368000.0,
    "score": 0.6353,
-   "mark_price": 0.93,
+   "mark_price": 0.99,
    "shadow": {}
   }
  ],
@@ -7236,94 +7236,95 @@
    1792269929,
    104.82,
    87.72
+  ],
+  [
+   1792270832,
+   104.82,
+   87.76
   ]
  ],
  "last_run": {
-  "ts": 1792269929,
+  "ts": 1792270832,
   "error": null,
-  "markets_scanned": 1679,
-  "candidates": 55,
+  "markets_scanned": 1650,
+  "candidates": 58,
   "rejections": {
-   "too little volume": 1367,
-   "no favorite in 80-95c band": 239,
-   "spread too wide": 17,
+   "too little volume": 1336,
+   "no favorite in 80-95c band": 240,
+   "spread too wide": 15,
    "favorite is slipping fast": 1
   },
-  "opened": [
-   125
-  ],
-  "settled": [
-   116
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.23,
-    "volume_24h": 6014.0,
-    "score": 0.6635
+    "hours_to_close": 19.97,
+    "volume_24h": 6091.19,
+    "score": 0.6647
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.23,
-    "volume_24h": 3402.62,
-    "score": 0.645
+    "hours_to_close": 19.97,
+    "volume_24h": 3479.81,
+    "score": 0.6465
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.23,
-    "volume_24h": 4090.92,
-    "score": 0.641
-   },
-   {
-    "label": "Ole Miss wins the 1st half",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.24,
-    "volume_24h": 5768.44,
-    "score": 0.6353
+    "hours_to_close": 19.97,
+    "volume_24h": 4168.11,
+    "score": 0.6424
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.24,
-    "volume_24h": 8881.28,
-    "score": 0.6293
+    "hours_to_close": 26.99,
+    "volume_24h": 9225.35,
+    "score": 0.631
+   },
+   {
+    "label": "Missouri wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 26.99,
+    "volume_24h": 1655220.08,
+    "score": 0.6237
+   },
+   {
+    "label": "Ole Miss wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 26.99,
+    "volume_24h": 1339770.29,
+    "score": 0.6237
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 27.24,
-    "volume_24h": 4938.87,
-    "score": 0.6102
-   },
-   {
-    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 20.23,
-    "volume_24h": 19613.23,
-    "score": 0.6101
+    "hours_to_close": 26.99,
+    "volume_24h": 5086.09,
+    "score": 0.6116
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 3580.44,
-    "score": 0.6097
+    "score": 0.6102
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

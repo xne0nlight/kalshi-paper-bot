@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.19,
+   "mark_price": 0.27,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.68,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -330,6 +330,11 @@
      "ts": 1792206079,
      "bid": 0.66,
      "proceeds": 3.86
+    },
+    "30": {
+     "ts": 1792208776,
+     "bid": 0.56,
+     "proceeds": 3.25
     }
    }
   },
@@ -347,7 +352,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.89,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792182672,
@@ -370,7 +375,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.72,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -472,7 +477,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.91,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -506,7 +511,7 @@
    "opened_ts": 1792192565,
    "close_ts": 1792299600.0,
    "score": 0.5604,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -6586,17 +6591,24 @@
    1792207869,
    103.98,
    89.93
+  ],
+  [
+   1792208776,
+   103.98,
+   89.51
   ]
  ],
  "last_run": {
-  "ts": 1792207869,
+  "ts": 1792208776,
   "error": null,
   "markets_scanned": 1395,
-  "candidates": 45,
+  "candidates": 47,
   "rejections": {
-   "too little volume": 1069,
-   "no favorite in 80-95c band": 265,
-   "spread too wide": 16
+   "too little volume": 1068,
+   "no favorite in 80-95c band": 261,
+   "spread too wide": 16,
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -6606,65 +6618,65 @@
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.48,
-    "volume_24h": 29140.8,
-    "score": 0.6894
+    "hours_to_close": 17.23,
+    "volume_24h": 29765.67,
+    "score": 0.6904
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 17.48,
-    "volume_24h": 25162.7,
-    "score": 0.6794
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 17.48,
-    "volume_24h": 30700.85,
-    "score": 0.6494
+    "hours_to_close": 17.23,
+    "volume_24h": 25195.7,
+    "score": 0.6804
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 13.46,
-    "volume_24h": 34473.91,
-    "score": 0.6479
+    "hours_to_close": 13.21,
+    "volume_24h": 35224.6,
+    "score": 0.6493
+   },
+   {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 17.23,
+    "volume_24h": 30700.85,
+    "score": 0.6404
    },
    {
     "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.48,
+    "hours_to_close": 28.23,
     "volume_24h": 4725.58,
-    "score": 0.6365
+    "score": 0.6369
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 17.48,
-    "volume_24h": 22948.0,
-    "score": 0.6294
+    "hours_to_close": 17.23,
+    "volume_24h": 22962.0,
+    "score": 0.6304
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.48,
-    "volume_24h": 3081.75,
-    "score": 0.6226
+    "hours_to_close": 28.23,
+    "volume_24h": 3086.75,
+    "score": 0.6231
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.46,
+    "hours_to_close": 34.21,
     "volume_24h": 4627.72,
-    "score": 0.6168
+    "score": 0.6171
    }
   ],
   "skipped": {},

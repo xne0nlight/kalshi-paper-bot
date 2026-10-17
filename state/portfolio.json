@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.53,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -297,7 +297,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.12,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -437,7 +437,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.72,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -6631,90 +6631,95 @@
    1792214170,
    103.98,
    87.52
+  ],
+  [
+   1792215075,
+   103.98,
+   87.87
   ]
  ],
  "last_run": {
-  "ts": 1792214170,
+  "ts": 1792215075,
   "error": null,
   "markets_scanned": 1426,
-  "candidates": 41,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 1085,
-   "no favorite in 80-95c band": 271,
-   "spread too wide": 28,
-   "nothing for sale at the ask": 1
+   "too little volume": 1083,
+   "no favorite in 80-95c band": 277,
+   "spread too wide": 22,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 15.48,
+    "volume_24h": 34270.44,
+    "score": 0.6678
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 11.71,
-    "volume_24h": 37467.87,
-    "score": 0.6586
+    "hours_to_close": 11.46,
+    "volume_24h": 38057.67,
+    "score": 0.6603
    },
    {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
-    "side": "no",
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
+    "side": "yes",
     "price": 0.91,
-    "hours_to_close": 15.73,
-    "volume_24h": 34077.32,
-    "score": 0.6566
-   },
-   {
-    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 17, 2026? \u2014 64\u00b0 to 65\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.73,
-    "volume_24h": 13047.67,
-    "score": 0.6406
+    "hours_to_close": 15.48,
+    "volume_24h": 24313.07,
+    "score": 0.6578
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.73,
-    "volume_24h": 5946.52,
-    "score": 0.6372
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 15.73,
-    "volume_24h": 24034.5,
-    "score": 0.6366
+    "hours_to_close": 26.48,
+    "volume_24h": 6133.5,
+    "score": 0.6387
    },
    {
     "label": "Will it rain in Washington DC on Oct 17, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 23.73,
-    "volume_24h": 6950.76,
-    "score": 0.6288
+    "hours_to_close": 23.48,
+    "volume_24h": 7024.17,
+    "score": 0.6297
    },
    {
-    "label": "Will it rain in Miami on Oct 17, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.73,
-    "volume_24h": 3588.43,
-    "score": 0.6273
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 17, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 24.48,
+    "volume_24h": 2291.04,
+    "score": 0.6209
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.71,
-    "volume_24h": 4667.72,
-    "score": 0.6194
+    "hours_to_close": 32.46,
+    "volume_24h": 4708.19,
+    "score": 0.6201
+   },
+   {
+    "label": "Ethereum price at Oct 17, 2026 at 5pm EDT? \u2014 $2,450 or above",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 15.48,
+    "volume_24h": 8448.24,
+    "score": 0.5923
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

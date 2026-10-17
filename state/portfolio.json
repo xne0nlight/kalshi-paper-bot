@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.11,
+   "mark_price": 0.1,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -283,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.81,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -355,7 +355,7 @@
    "opened_ts": 1792235729,
    "close_ts": 1792331940.0,
    "score": 0.6411,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -372,7 +372,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.8,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -456,7 +456,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -7154,90 +7154,94 @@
    1792263632,
    107.52,
    91.93
+  ],
+  [
+   1792264529,
+   107.52,
+   91.14
   ]
  ],
  "last_run": {
-  "ts": 1792263632,
+  "ts": 1792264529,
   "error": null,
   "markets_scanned": 869,
-  "candidates": 53,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 580,
-   "no favorite in 80-95c band": 218,
-   "spread too wide": 16,
-   "favorite is slipping fast": 2
+   "too little volume": 575,
+   "no favorite in 80-95c band": 224,
+   "spread too wide": 20
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Western Michigan wins",
+    "label": "Northwestern wins",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 160433.95,
-    "score": 0.66
+    "price": 0.93,
+    "hours_to_close": 28.74,
+    "volume_24h": 1344551.02,
+    "score": 0.6404
    },
    {
-    "label": "Central Michigan wins",
+    "label": "Michigan St. wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 117629.45,
-    "score": 0.66
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.97,
-    "volume_24h": 55878.02,
-    "score": 0.6539
+    "price": 0.93,
+    "hours_to_close": 28.74,
+    "volume_24h": 954609.12,
+    "score": 0.6404
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.97,
-    "volume_24h": 1867.2,
-    "score": 0.6204
+    "hours_to_close": 21.73,
+    "volume_24h": 1881.34,
+    "score": 0.6213
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.99,
-    "volume_24h": 6024.93,
-    "score": 0.6135
+    "hours_to_close": 28.74,
+    "volume_24h": 6096.15,
+    "score": 0.6143
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.97,
+    "hours_to_close": 32.73,
     "volume_24h": 11692.0,
-    "score": 0.6039
+    "score": 0.6042
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.97,
+    "hours_to_close": 32.73,
     "volume_24h": 2038.0,
-    "score": 0.6021
+    "score": 0.6024
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.97,
-    "volume_24h": 920.81,
-    "score": 0.5974
+    "hours_to_close": 21.73,
+    "volume_24h": 934.95,
+    "score": 0.5986
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 28.74,
+    "volume_24h": 3553.1,
+    "score": 0.5968
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

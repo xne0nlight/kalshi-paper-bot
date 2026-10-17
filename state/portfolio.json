@@ -221,7 +221,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.26,
+   "mark_price": 0.24,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -337,7 +337,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.75,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -399,7 +399,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -444,7 +444,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.76,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -6783,95 +6783,96 @@
    1792235729,
    104.31,
    87.68
+  ],
+  [
+   1792236629,
+   104.31,
+   87.5
   ]
  ],
  "last_run": {
-  "ts": 1792235729,
+  "ts": 1792236629,
   "error": null,
   "markets_scanned": 278,
-  "candidates": 11,
+  "candidates": 14,
   "rejections": {
    "too little volume": 172,
    "no favorite in 80-95c band": 85,
-   "spread too wide": 10
+   "spread too wide": 7
   },
-  "opened": [
-   115
-  ],
-  "settled": [
-   95
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.74,
-    "volume_24h": 13973.33,
-    "score": 0.6485
+    "hours_to_close": 20.49,
+    "volume_24h": 14041.59,
+    "score": 0.6493
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 4920.31,
-    "score": 0.6411
+    "score": 0.6416
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 20.74,
-    "volume_24h": 10675.0,
-    "score": 0.6185
+    "hours_to_close": 20.49,
+    "volume_24h": 10745.0,
+    "score": 0.6193
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Oct 17, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.49,
+    "volume_24h": 1719.16,
+    "score": 0.6019
+   },
+   {
+    "label": "Will the maximum temperature be 92-93\u00b0 on Oct 17, 2026? \u2014 92\u00b0 to 93\u00b0",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.74,
-    "volume_24h": 1519.16,
-    "score": 0.6072
+    "hours_to_close": 20.49,
+    "volume_24h": 718.29,
+    "score": 0.5835
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Oct 17, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
-    "volume_24h": 461.26,
-    "score": 0.5784
+    "hours_to_close": 20.49,
+    "volume_24h": 476.26,
+    "score": 0.5802
    },
    {
     "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 20.74,
-    "volume_24h": 6195.68,
-    "score": 0.5529
+    "hours_to_close": 20.49,
+    "volume_24h": 6210.68,
+    "score": 0.5538
    },
    {
     "label": "Will Trump do anything on Oct 17, 2026? \u2014 Yes",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 315.83,
-    "score": 0.5317
-   },
-   {
-    "label": "Will the maximum temperature be 82-83\u00b0 on Oct 17, 2026? \u2014 82\u00b0 to 83\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 20.74,
-    "volume_24h": 1157.24,
-    "score": 0.5283
+    "score": 0.5322
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 18,
-  "api_calls": 44
+  "watch_added": 1,
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

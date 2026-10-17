@@ -297,7 +297,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -360,7 +360,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.7,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -445,7 +445,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -462,7 +462,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -6556,18 +6556,22 @@
    1792204272,
    103.98,
    90.37
+  ],
+  [
+   1792205170,
+   103.98,
+   90.25
   ]
  ],
  "last_run": {
-  "ts": 1792204272,
+  "ts": 1792205170,
   "error": null,
-  "markets_scanned": 1387,
-  "candidates": 41,
+  "markets_scanned": 1389,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 1072,
-   "no favorite in 80-95c band": 257,
-   "spread too wide": 16,
-   "nothing for sale at the ask": 1
+   "too little volume": 1069,
+   "no favorite in 80-95c band": 265,
+   "spread too wide": 13
   },
   "opened": [],
   "settled": [],
@@ -6577,69 +6581,69 @@
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 18.48,
-    "volume_24h": 26239.48,
-    "score": 0.6558
+    "hours_to_close": 18.23,
+    "volume_24h": 26291.7,
+    "score": 0.6567
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 18.48,
-    "volume_24h": 23429.56,
-    "score": 0.6458
+    "price": 0.9,
+    "hours_to_close": 18.23,
+    "volume_24h": 24870.27,
+    "score": 0.6367
+   },
+   {
+    "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.23,
+    "volume_24h": 4724.58,
+    "score": 0.6352
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.48,
+    "hours_to_close": 29.23,
     "volume_24h": 3073.75,
-    "score": 0.6208
+    "score": 0.6212
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.46,
+    "hours_to_close": 35.21,
     "volume_24h": 4601.72,
-    "score": 0.6154
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 18.48,
-    "volume_24h": 63034.94,
-    "score": 0.6058
+    "score": 0.6157
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 14.46,
-    "volume_24h": 32711.59,
-    "score": 0.5926
+    "price": 0.86,
+    "hours_to_close": 14.21,
+    "volume_24h": 32828.62,
+    "score": 0.6139
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 17, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 27.23,
+    "volume_24h": 2253.04,
+    "score": 0.6047
    },
    {
     "label": "Will the maximum temperature be 66-67\u00b0 on Oct 17, 2026? \u2014 66\u00b0 to 67\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.48,
+    "hours_to_close": 26.23,
     "volume_24h": 1038.69,
-    "score": 0.5909
-   },
-   {
-    "label": "Will the maximum temperature be 55-56\u00b0 on Oct 17, 2026? \u2014 55\u00b0 to 56\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.48,
-    "volume_24h": 1292.95,
-    "score": 0.5861
+    "score": 0.5914
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

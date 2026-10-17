@@ -192,7 +192,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792241129,
@@ -215,7 +215,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.17,
+   "mark_price": 0.16,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -276,7 +276,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.59,
+   "mark_price": 0.45,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -292,6 +292,11 @@
      "ts": 1792251030,
      "bid": 0.59,
      "proceeds": 2.86
+    },
+    "30": {
+     "ts": 1792251929,
+     "bid": 0.45,
+     "proceeds": 2.16
     }
    }
   },
@@ -371,7 +376,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -388,7 +393,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.69,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -426,7 +431,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -6952,17 +6957,22 @@
    1792251030,
    104.91,
    86.74
+  ],
+  [
+   1792251929,
+   104.91,
+   85.93
   ]
  ],
  "last_run": {
-  "ts": 1792251030,
+  "ts": 1792251929,
   "error": null,
   "markets_scanned": 403,
   "candidates": 27,
   "rejections": {
-   "too little volume": 255,
-   "no favorite in 80-95c band": 108,
-   "spread too wide": 13
+   "too little volume": 253,
+   "no favorite in 80-95c band": 112,
+   "spread too wide": 11
   },
   "opened": [],
   "settled": [],
@@ -6972,70 +6982,70 @@
     "label": "Charlotte wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.49,
-    "volume_24h": 24271.28,
-    "score": 0.6246
-   },
-   {
-    "label": "Kent St. wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.49,
-    "volume_24h": 6762.83,
-    "score": 0.6118
+    "hours_to_close": 32.24,
+    "volume_24h": 25065.51,
+    "score": 0.6249
    },
    {
     "label": "Temple wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.49,
-    "volume_24h": 5870.42,
-    "score": 0.6072
+    "hours_to_close": 32.24,
+    "volume_24h": 7508.88,
+    "score": 0.6156
+   },
+   {
+    "label": "Kent St. wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.24,
+    "volume_24h": 7054.6,
+    "score": 0.6136
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 32.49,
-    "volume_24h": 1123280.21,
-    "score": 0.5846
+    "hours_to_close": 32.24,
+    "volume_24h": 1283291.11,
+    "score": 0.5849
    },
    {
     "label": "LSU wins",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 32.49,
-    "volume_24h": 300679.03,
-    "score": 0.5846
+    "hours_to_close": 32.24,
+    "volume_24h": 318357.05,
+    "score": 0.5849
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.49,
+    "hours_to_close": 32.24,
     "volume_24h": 2450.53,
-    "score": 0.5788
+    "score": 0.5791
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.49,
+    "hours_to_close": 32.24,
     "volume_24h": 732.4,
-    "score": 0.5695
+    "score": 0.5698
    },
    {
     "label": "Colorado wins",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 32.49,
-    "volume_24h": 19532.83,
-    "score": 0.5646
+    "hours_to_close": 32.24,
+    "volume_24h": 19590.48,
+    "score": 0.5649
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

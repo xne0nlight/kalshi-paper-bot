@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.12,
+   "mark_price": 0.1,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -183,7 +183,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.02,
+   "mark_price": 0.04,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -221,7 +221,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -283,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.65,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -355,7 +355,7 @@
    "opened_ts": 1792235729,
    "close_ts": 1792331940.0,
    "score": 0.6411,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -372,7 +372,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.73,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -422,7 +422,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.5673,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792254631,
@@ -496,7 +496,7 @@
    "opened_ts": 1792257330,
    "close_ts": 1792386000.0,
    "score": 0.6306,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -7098,95 +7098,96 @@
    1792257330,
    107.24,
    91.09
+  ],
+  [
+   1792258231,
+   107.24,
+   91.45
   ]
  ],
  "last_run": {
-  "ts": 1792257330,
+  "ts": 1792258231,
   "error": null,
-  "markets_scanned": 766,
+  "markets_scanned": 759,
   "candidates": 38,
   "rejections": {
-   "too little volume": 526,
-   "no favorite in 80-95c band": 185,
-   "spread too wide": 16,
-   "favorite is slipping fast": 1
+   "too little volume": 514,
+   "no favorite in 80-95c band": 186,
+   "spread too wide": 19,
+   "favorite is slipping fast": 2
   },
-  "opened": [
-   122
-  ],
-  "settled": [
-   108
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 30.49,
+    "volume_24h": 825953.15,
+    "score": 0.6375
+   },
+   {
+    "label": "Florida wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.74,
-    "volume_24h": 5464.87,
-    "score": 0.6306
+    "price": 0.93,
+    "hours_to_close": 30.49,
+    "volume_24h": 2038469.94,
+    "score": 0.6375
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.73,
-    "volume_24h": 6286.37,
-    "score": 0.6255
+    "hours_to_close": 23.47,
+    "volume_24h": 6296.37,
+    "score": 0.6262
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.74,
-    "volume_24h": 7108.72,
-    "score": 0.616
+    "hours_to_close": 30.49,
+    "volume_24h": 6899.82,
+    "score": 0.6155
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.73,
-    "volume_24h": 1344.96,
-    "score": 0.6053
+    "hours_to_close": 23.47,
+    "volume_24h": 1354.96,
+    "score": 0.6062
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.73,
+    "hours_to_close": 34.47,
     "volume_24h": 11692.0,
-    "score": 0.6016
+    "score": 0.6019
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
+    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 23.73,
-    "volume_24h": 9723.09,
-    "score": 0.5997
+    "price": 0.95,
+    "hours_to_close": 34.47,
+    "volume_24h": 2038.0,
+    "score": 0.6001
    },
    {
     "label": "Will average **gas prices** be above $4.2200? \u2014 Above 4.2200",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 34.73,
+    "hours_to_close": 34.47,
     "volume_24h": 2676.57,
-    "score": 0.5986
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 30.74,
-    "volume_24h": 2465.8,
-    "score": 0.5816
+    "score": 0.599
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 6,
+  "watch_added": 3,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

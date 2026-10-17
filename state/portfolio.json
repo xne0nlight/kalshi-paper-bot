@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.85,
- "fees_paid": 2.38,
+ "cash": 10.91,
+ "fees_paid": 2.39,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 116,
+ "next_id": 117,
  "open_positions": [
   {
    "id": 91,
@@ -101,23 +101,6 @@
      "proceeds": 3.02
     }
    }
-  },
-  {
-   "id": 98,
-   "ticker": "KXHIGHCHI-26OCT16-B62.5",
-   "event_ticker": "KXHIGHCHI-26OCT16",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 62-63\u00b0 on Oct 16, 2026? \u2014 62\u00b0 to 63\u00b0",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 0.96,
-   "opened_ts": 1792116968,
-   "close_ts": 1792216800.0,
-   "score": 0.6127,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 99,
@@ -221,7 +204,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.33,
+   "mark_price": 0.35,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -259,7 +242,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -276,7 +259,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.17,
+   "mark_price": 0.18,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -337,7 +320,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.79,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -382,7 +365,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -444,7 +427,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.71,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -512,6 +495,23 @@
    "close_ts": 1792331940.0,
    "score": 0.6411,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 116,
+   "ticker": "KXNCAAFGAME-26OCT16CHARTEM-CHAR",
+   "event_ticker": "KXNCAAFGAME-26OCT16CHARTEM",
+   "series": "KXNCAAFGAME",
+   "label": "Charlotte wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1792239329,
+   "close_ts": 1792368000.0,
+   "score": 0.6303,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -2685,6 +2685,27 @@
    "pnl": 0.33,
    "result": "NO",
    "closed_ts": 1792235729,
+   "won": true
+  },
+  {
+   "id": 98,
+   "ticker": "KXHIGHCHI-26OCT16-B62.5",
+   "event_ticker": "KXHIGHCHI-26OCT16",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 62-63\u00b0 on Oct 16, 2026? \u2014 62\u00b0 to 63\u00b0",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 0.96,
+   "opened_ts": 1792116968,
+   "close_ts": 1792216800.0,
+   "score": 0.6127,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.04,
+   "result": "NO",
+   "closed_ts": 1792239329,
    "won": true
   }
  ],
@@ -6803,90 +6824,99 @@
    1792238431,
    104.31,
    87.6
+  ],
+  [
+   1792239329,
+   104.35,
+   87.65
   ]
  ],
  "last_run": {
-  "ts": 1792238431,
+  "ts": 1792239329,
   "error": null,
   "markets_scanned": 378,
-  "candidates": 23,
+  "candidates": 22,
   "rejections": {
    "too little volume": 237,
-   "no favorite in 80-95c band": 110,
-   "spread too wide": 8
+   "no favorite in 80-95c band": 112,
+   "spread too wide": 7
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   116
+  ],
+  "settled": [
+   98
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.97,
+    "hours_to_close": 25.73,
     "volume_24h": 4920.31,
-    "score": 0.6426
+    "score": 0.6431
    },
    {
     "label": "Charlotte wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 11512.59,
-    "score": 0.63
-   },
-   {
-    "label": "Mississippi St. wins",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 35.99,
-    "volume_24h": 506561.32,
-    "score": 0.58
+    "hours_to_close": 35.74,
+    "volume_24h": 11571.29,
+    "score": 0.6303
    },
    {
     "label": "LSU wins",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 35.99,
-    "volume_24h": 232535.51,
-    "score": 0.57
+    "hours_to_close": 35.74,
+    "volume_24h": 232766.77,
+    "score": 0.5703
    },
    {
     "label": "Louisiana-Monroe wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 35.99,
-    "volume_24h": 14262.42,
-    "score": 0.57
+    "hours_to_close": 35.74,
+    "volume_24h": 14283.95,
+    "score": 0.5703
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 2296.37,
-    "score": 0.5621
+    "score": 0.5624
    },
    {
     "label": "Utah wins",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 35.99,
-    "volume_24h": 10664.49,
-    "score": 0.56
+    "hours_to_close": 35.74,
+    "volume_24h": 10667.16,
+    "score": 0.5603
    },
    {
     "label": "Colorado wins",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 35.99,
-    "volume_24h": 11910.72,
-    "score": 0.56
+    "hours_to_close": 35.74,
+    "volume_24h": 13275.46,
+    "score": 0.5603
+   },
+   {
+    "label": "Texas Tech wins",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 35.74,
+    "volume_24h": 18439.24,
+    "score": 0.5603
    }
   ],
   "skipped": {},
-  "watch_added": 20,
-  "watch_graded": 8,
+  "watch_added": 0,
+  "watch_graded": 25,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

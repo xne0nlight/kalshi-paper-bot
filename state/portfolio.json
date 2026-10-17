@@ -245,7 +245,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.53,
+   "mark_price": 0.47,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -283,7 +283,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -457,7 +457,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -7205,85 +7205,91 @@
    1792268129,
    105.76,
    89.2
+  ],
+  [
+   1792269030,
+   105.76,
+   88.99
   ]
  ],
  "last_run": {
-  "ts": 1792268129,
+  "ts": 1792269030,
   "error": null,
   "markets_scanned": 1683,
-  "candidates": 55,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 1372,
-   "no favorite in 80-95c band": 238,
-   "spread too wide": 18
+   "too little volume": 1371,
+   "no favorite in 80-95c band": 239,
+   "spread too wide": 18,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Virginia Tech wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.49,
+    "volume_24h": 158326.46,
+    "score": 0.6627
+   },
+   {
+    "label": "Georgia Tech wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.49,
+    "volume_24h": 165848.36,
+    "score": 0.6627
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.73,
-    "volume_24h": 4746.01,
-    "score": 0.6543
-   },
-   {
-    "label": "Temple wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.74,
-    "volume_24h": 283937.24,
-    "score": 0.6522
-   },
-   {
-    "label": "Charlotte wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.74,
-    "volume_24h": 685607.66,
-    "score": 0.6522
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.74,
-    "volume_24h": 5642.86,
-    "score": 0.6436
+    "hours_to_close": 20.48,
+    "volume_24h": 5338.65,
+    "score": 0.6589
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.73,
-    "volume_24h": 2121.0,
-    "score": 0.6281
+    "hours_to_close": 20.48,
+    "volume_24h": 2711.64,
+    "score": 0.6368
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.73,
-    "volume_24h": 2688.49,
-    "score": 0.6258
+    "hours_to_close": 20.48,
+    "volume_24h": 3279.34,
+    "score": 0.633
+   },
+   {
+    "label": "UMass wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.49,
+    "volume_24h": 1543760.74,
+    "score": 0.6327
+   },
+   {
+    "label": "Buffalo wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 27.49,
+    "volume_24h": 1358031.41,
+    "score": 0.6327
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.74,
-    "volume_24h": 7481.36,
-    "score": 0.6228
-   },
-   {
-    "label": "Virginia Tech wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 27.74,
-    "volume_24h": 132975.75,
-    "score": 0.6222
+    "hours_to_close": 27.49,
+    "volume_24h": 7800.31,
+    "score": 0.6246
    }
   ],
   "skipped": {},

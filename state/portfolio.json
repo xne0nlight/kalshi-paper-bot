@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.1,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -283,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.57,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -490,7 +490,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.89,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -7139,90 +7139,94 @@
    1792260929,
    107.52,
    90.91
+  ],
+  [
+   1792261829,
+   107.52,
+   91.36
   ]
  ],
  "last_run": {
-  "ts": 1792260929,
+  "ts": 1792261829,
   "error": null,
   "markets_scanned": 855,
-  "candidates": 53,
+  "candidates": 49,
   "rejections": {
-   "too little volume": 578,
-   "no favorite in 80-95c band": 204,
-   "spread too wide": 19,
-   "nothing for sale at the ask": 1
+   "too little volume": 573,
+   "no favorite in 80-95c band": 217,
+   "spread too wide": 16
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.48,
+    "volume_24h": 55776.94,
+    "score": 0.6532
+   },
+   {
+    "label": "Western Michigan wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 29.49,
+    "volume_24h": 144173.11,
+    "score": 0.6292
+   },
+   {
+    "label": "Central Michigan wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 29.49,
+    "volume_24h": 88725.34,
+    "score": 0.6292
+   },
+   {
     "label": "Charlotte wins",
     "side": "no",
+    "price": 0.92,
+    "hours_to_close": 29.49,
+    "volume_24h": 173899.26,
+    "score": 0.6292
+   },
+   {
+    "label": "Temple wins",
+    "side": "yes",
     "price": 0.91,
-    "hours_to_close": 29.74,
-    "volume_24h": 133705.92,
-    "score": 0.6188
+    "hours_to_close": 29.49,
+    "volume_24h": 68115.91,
+    "score": 0.6192
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.49,
     "volume_24h": 7024.85,
-    "score": 0.6173
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 22.73,
-    "volume_24h": 6589.78,
-    "score": 0.6095
-   },
-   {
-    "label": "Temple wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 29.74,
-    "volume_24h": 49955.97,
-    "score": 0.6088
+    "score": 0.6177
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.73,
+    "hours_to_close": 33.48,
     "volume_24h": 11692.0,
-    "score": 0.6029
+    "score": 0.6032
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.73,
+    "hours_to_close": 33.48,
     "volume_24h": 2038.0,
-    "score": 0.6011
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.73,
-    "volume_24h": 639.49,
-    "score": 0.5836
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 29.74,
-    "volume_24h": 2462.92,
-    "score": 0.5831
+    "score": 0.6014
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

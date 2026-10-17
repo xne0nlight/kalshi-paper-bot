@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 23.68,
- "fees_paid": 2.54,
+ "cash": 23.26,
+ "fees_paid": 2.59,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 123,
+ "next_id": 124,
  "open_positions": [
   {
    "id": 99,
@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.12,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -266,7 +266,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792270800.0,
    "score": 0.6491,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -372,7 +372,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.84,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -407,29 +407,6 @@
    "score": 0.6082,
    "mark_price": 0.91,
    "shadow": {}
-  },
-  {
-   "id": 118,
-   "ticker": "KXNCAAF1H-26OCT16FLATEX-TIE",
-   "event_ticker": "KXNCAAF1H-26OCT16FLATEX",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792246528,
-   "close_ts": 1792368000.0,
-   "score": 0.5673,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792254631,
-     "bid": 0.85,
-     "proceeds": 5.04
-    }
-   }
   },
   {
    "id": 119,
@@ -497,6 +474,23 @@
    "close_ts": 1792386000.0,
    "score": 0.6306,
    "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 123,
+   "ticker": "KXTRUMPAPPROVE-26OCT18-E38.4",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT18",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
+   "side": "no",
+   "contracts": 7,
+   "price": 0.91,
+   "fee": 0.05,
+   "cost": 6.42,
+   "opened_ts": 1792260031,
+   "close_ts": 1792342740.0,
+   "score": 0.6174,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -2875,6 +2869,33 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792257330,
+   "won": true
+  },
+  {
+   "id": 118,
+   "ticker": "KXNCAAF1H-26OCT16FLATEX-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT16FLATEX",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792246528,
+   "close_ts": 1792368000.0,
+   "score": 0.5673,
+   "shadow": {
+    "10": {
+     "ts": 1792254631,
+     "bid": 0.85,
+     "proceeds": 5.04
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792260031,
    "won": true
   }
  ],
@@ -7108,91 +7129,99 @@
    1792259130,
    107.24,
    91.39
+  ],
+  [
+   1792260031,
+   107.52,
+   91.21
   ]
  ],
  "last_run": {
-  "ts": 1792259130,
+  "ts": 1792260031,
   "error": null,
-  "markets_scanned": 759,
-  "candidates": 36,
+  "markets_scanned": 861,
+  "candidates": 49,
   "rejections": {
-   "too little volume": 524,
-   "no favorite in 80-95c band": 180,
-   "spread too wide": 16,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 581,
+   "no favorite in 80-95c band": 211,
+   "spread too wide": 18,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   123
+  ],
+  "settled": [
+   118
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.23,
-    "volume_24h": 6296.37,
-    "score": 0.6268
+    "price": 0.91,
+    "hours_to_close": 22.97,
+    "volume_24h": 6301.62,
+    "score": 0.6174
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 7002.75,
-    "score": 0.6163
+    "hours_to_close": 29.99,
+    "volume_24h": 6941.3,
+    "score": 0.6165
    },
    {
     "label": "Yandy D\u00edaz: 2+ RBIs?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 6009.57,
-    "score": 0.6147
+    "score": 0.6152
    },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.23,
-    "volume_24h": 1354.96,
-    "score": 0.6068
+    "hours_to_close": 22.97,
+    "volume_24h": 1360.21,
+    "score": 0.6075
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.23,
+    "hours_to_close": 33.97,
     "volume_24h": 11692.0,
-    "score": 0.6022
+    "score": 0.6025
    },
    {
     "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.23,
+    "hours_to_close": 33.97,
     "volume_24h": 2038.0,
-    "score": 0.6004
+    "score": 0.6007
    },
    {
-    "label": "Texas wins",
+    "label": "South Florida wins",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 30.24,
-    "volume_24h": 929949.04,
-    "score": 0.5879
+    "price": 0.92,
+    "hours_to_close": 29.99,
+    "volume_24h": 2473.72,
+    "score": 0.5829
    },
    {
-    "label": "Florida wins",
+    "label": "Will the maximum temperature be >63\u00b0 on Oct 18, 2026? \u2014 64\u00b0 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 30.24,
-    "volume_24h": 2593684.85,
-    "score": 0.5879
+    "price": 0.95,
+    "hours_to_close": 34.99,
+    "volume_24h": 1182.22,
+    "score": 0.5817
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 13,
   "watch_graded": 0,
   "api_calls": 42
  },

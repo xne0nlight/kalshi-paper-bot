@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.32,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -297,7 +297,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.13,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -437,7 +437,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.79,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -6641,92 +6641,97 @@
    1792215979,
    103.98,
    87.49
+  ],
+  [
+   1792216879,
+   103.98,
+   87.63
   ]
  ],
  "last_run": {
-  "ts": 1792215979,
+  "ts": 1792216879,
   "error": null,
   "markets_scanned": 1426,
-  "candidates": 44,
+  "candidates": 45,
   "rejections": {
    "too little volume": 1080,
-   "no favorite in 80-95c band": 279,
-   "spread too wide": 21,
-   "nothing for sale at the ask": 2
+   "no favorite in 80-95c band": 281,
+   "spread too wide": 19,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be <62\u00b0 on Oct 17, 2026? \u2014 61\u00b0 or below",
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.23,
-    "volume_24h": 24869.79,
-    "score": 0.6718
+    "price": 0.92,
+    "hours_to_close": 14.98,
+    "volume_24h": 35919.84,
+    "score": 0.6701
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 11.21,
-    "volume_24h": 38542.68,
-    "score": 0.662
-   },
-   {
-    "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.23,
-    "volume_24h": 34488.44,
-    "score": 0.6589
+    "hours_to_close": 10.96,
+    "volume_24h": 38827.38,
+    "score": 0.6638
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 15.23,
+    "hours_to_close": 14.98,
     "volume_24h": 24313.07,
-    "score": 0.6589
+    "score": 0.6601
    },
    {
-    "label": "Will it rain in Washington DC on Oct 17, 2026?",
+    "label": "Will it rain in Providence on Oct 17, 2026?",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.23,
-    "volume_24h": 7236.17,
-    "score": 0.6413
+    "price": 0.94,
+    "hours_to_close": 22.98,
+    "volume_24h": 5128.91,
+    "score": 0.6407
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.23,
-    "volume_24h": 6177.51,
-    "score": 0.6295
+    "hours_to_close": 25.98,
+    "volume_24h": 6271.51,
+    "score": 0.6305
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Oct 17, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 2291.04,
-    "score": 0.6215
+    "score": 0.6221
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.21,
+    "hours_to_close": 31.96,
     "volume_24h": 4708.19,
-    "score": 0.6204
+    "score": 0.6208
+   },
+   {
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 17, 2026? \u2014 62\u00b0 to 63\u00b0",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 22.98,
+    "volume_24h": 16058.48,
+    "score": 0.6125
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
-  "api_calls": 43
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

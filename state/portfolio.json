@@ -204,7 +204,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.26,
+   "mark_price": 0.28,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -242,7 +242,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.87,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792241129,
@@ -265,7 +265,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.22,
+   "mark_price": 0.21,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -371,7 +371,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -433,7 +433,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.61,
+   "mark_price": 0.59,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -471,7 +471,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.98,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -6865,17 +6865,22 @@
    1792243829,
    104.35,
    87.12
+  ],
+  [
+   1792244730,
+   104.35,
+   86.73
   ]
  ],
  "last_run": {
-  "ts": 1792243829,
+  "ts": 1792244730,
   "error": null,
   "markets_scanned": 393,
-  "candidates": 25,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 258,
+   "too little volume": 257,
    "no favorite in 80-95c band": 101,
-   "spread too wide": 9
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
@@ -6885,65 +6890,65 @@
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.48,
+    "hours_to_close": 24.23,
     "volume_24h": 4920.31,
-    "score": 0.6458
+    "score": 0.6464
    },
    {
     "label": "Charlotte wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.49,
-    "volume_24h": 13833.0,
-    "score": 0.6319
+    "hours_to_close": 34.24,
+    "volume_24h": 14495.96,
+    "score": 0.6322
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.49,
-    "volume_24h": 711888.08,
-    "score": 0.5719
+    "hours_to_close": 34.24,
+    "volume_24h": 746948.87,
+    "score": 0.5722
    },
    {
     "label": "LSU wins",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 34.49,
-    "volume_24h": 249814.02,
-    "score": 0.5719
+    "hours_to_close": 34.24,
+    "volume_24h": 258771.56,
+    "score": 0.5722
+   },
+   {
+    "label": "Will Donald Trump make between 180 and 199 Truth Social posts the week of Oct 11, 2026? \u2014 180-199",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.23,
+    "volume_24h": 2590.34,
+    "score": 0.5655
    },
    {
     "label": "South Florida wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 34.49,
-    "volume_24h": 2296.37,
-    "score": 0.564
+    "hours_to_close": 34.24,
+    "volume_24h": 2297.46,
+    "score": 0.5643
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.24,
+    "volume_24h": 644.41,
+    "score": 0.5629
    },
    {
     "label": "Utah wins",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 34.49,
-    "volume_24h": 10895.98,
-    "score": 0.5619
-   },
-   {
-    "label": "Colorado wins",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.49,
-    "volume_24h": 14477.21,
-    "score": 0.5619
-   },
-   {
-    "label": "Louisiana-Monroe wins",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.49,
-    "volume_24h": 14351.32,
-    "score": 0.5619
+    "hours_to_close": 34.24,
+    "volume_24h": 11035.41,
+    "score": 0.5622
    }
   ],
   "skipped": {},

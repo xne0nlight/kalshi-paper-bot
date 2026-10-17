@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.59,
- "fees_paid": 2.53,
+ "cash": 23.68,
+ "fees_paid": 2.54,
  "peak_equity": 109.65,
  "day": "2026-10-17",
  "day_start_equity": 103.98,
- "next_id": 122,
+ "next_id": 123,
  "open_positions": [
   {
    "id": 99,
@@ -99,7 +99,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792241129,
@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.14,
+   "mark_price": 0.12,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -183,7 +183,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.01,
+   "mark_price": 0.02,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -206,23 +206,6 @@
      "proceeds": 2.16
     }
    }
-  },
-  {
-   "id": 108,
-   "ticker": "KXTRUMPAPPROVE-26OCT17-U38.5",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT17",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792177281,
-   "close_ts": 1792256340.0,
-   "score": 0.6627,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 109,
@@ -300,7 +283,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.74,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -338,7 +321,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -372,7 +355,7 @@
    "opened_ts": 1792235729,
    "close_ts": 1792331940.0,
    "score": 0.6411,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -389,8 +372,24 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.9,
-   "shadow": {}
+   "mark_price": 0.73,
+   "shadow": {
+    "10": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    },
+    "15": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    },
+    "20": {
+     "ts": 1792257330,
+     "bid": 0.73,
+     "proceeds": 0.71
+    }
+   }
   },
   {
    "id": 117,
@@ -423,7 +422,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.5673,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792254631,
@@ -481,6 +480,23 @@
    "close_ts": 1792360800.0,
    "score": 0.5626,
    "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 122,
+   "ticker": "KXRAINWKND-26OCT17-EWR",
+   "event_ticker": "KXRAINWKND-26OCT17",
+   "series": "KXRAINWKND",
+   "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1792257330,
+   "close_ts": 1792386000.0,
+   "score": 0.6306,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -2838,6 +2854,27 @@
    "pnl": 0.92,
    "result": "NO",
    "closed_ts": 1792254631,
+   "won": true
+  },
+  {
+   "id": 108,
+   "ticker": "KXTRUMPAPPROVE-26OCT17-U38.5",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT17",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792177281,
+   "close_ts": 1792256340.0,
+   "score": 0.6627,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792257330,
    "won": true
   }
  ],
@@ -7056,90 +7093,100 @@
    1792256434,
    106.96,
    91.58
+  ],
+  [
+   1792257330,
+   107.24,
+   91.09
   ]
  ],
  "last_run": {
-  "ts": 1792256434,
+  "ts": 1792257330,
   "error": null,
   "markets_scanned": 766,
-  "candidates": 42,
+  "candidates": 38,
   "rejections": {
-   "too little volume": 529,
-   "no favorite in 80-95c band": 179,
-   "spread too wide": 16
+   "too little volume": 526,
+   "no favorite in 80-95c band": 185,
+   "spread too wide": 16,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   122
+  ],
+  "settled": [
+   108
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 672800.64,
-    "score": 0.6568
-   },
-   {
-    "label": "Florida wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 1489777.6,
-    "score": 0.6568
-   },
    {
     "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 5449.05,
-    "score": 0.6302
+    "hours_to_close": 35.74,
+    "volume_24h": 5464.87,
+    "score": 0.6306
    },
    {
-    "label": "James Madison wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 30.99,
-    "volume_24h": 106881.14,
-    "score": 0.6268
-   },
-   {
-    "label": "Georgia St. wins",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.99,
-    "volume_24h": 321746.9,
-    "score": 0.6268
-   },
-   {
-    "label": "Charlotte wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 30.99,
-    "volume_24h": 30780.18,
-    "score": 0.6168
+    "hours_to_close": 23.73,
+    "volume_24h": 6286.37,
+    "score": 0.6255
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.99,
-    "volume_24h": 7055.5,
-    "score": 0.6154
+    "hours_to_close": 30.74,
+    "volume_24h": 7108.72,
+    "score": 0.616
    },
    {
-    "label": "Temple wins",
+    "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.73,
+    "volume_24h": 1344.96,
+    "score": 0.6053
+   },
+   {
+    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 34.73,
+    "volume_24h": 11692.0,
+    "score": 0.6016
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 23.73,
+    "volume_24h": 9723.09,
+    "score": 0.5997
+   },
+   {
+    "label": "Will average **gas prices** be above $4.2200? \u2014 Above 4.2200",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 30.99,
-    "volume_24h": 9548.05,
-    "score": 0.6153
+    "price": 0.94,
+    "hours_to_close": 34.73,
+    "volume_24h": 2676.57,
+    "score": 0.5986
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 30.74,
+    "volume_24h": 2465.8,
+    "score": 0.5816
    }
   ],
   "skipped": {},
-  "watch_added": 9,
-  "watch_graded": 3,
+  "watch_added": 1,
+  "watch_graded": 6,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

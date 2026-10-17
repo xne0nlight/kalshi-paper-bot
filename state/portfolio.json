@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.4,
+   "mark_price": 0.39,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -314,7 +314,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.14,
+   "mark_price": 0.13,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -420,7 +420,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -437,7 +437,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -6712,91 +6712,95 @@
    1792226779,
    103.98,
    87.75
+  ],
+  [
+   1792227698,
+   103.98,
+   87.65
   ]
  ],
  "last_run": {
-  "ts": 1792226779,
+  "ts": 1792227698,
   "error": null,
-  "markets_scanned": 1426,
-  "candidates": 41,
+  "markets_scanned": 1388,
+  "candidates": 39,
   "rejections": {
-   "too little volume": 1054,
-   "no favorite in 80-95c band": 307,
-   "spread too wide": 22,
-   "nothing for sale at the ask": 1,
-   "favorite is slipping fast": 1
+   "too little volume": 1043,
+   "no favorite in 80-95c band": 285,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 8.21,
-    "volume_24h": 41947.7,
-    "score": 0.7278
-   },
-   {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 12.23,
-    "volume_24h": 50672.08,
-    "score": 0.7052
+    "hours_to_close": 11.97,
+    "volume_24h": 51962.87,
+    "score": 0.7068
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $81,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 12.23,
-    "volume_24h": 59540.43,
-    "score": 0.6852
+    "price": 0.91,
+    "hours_to_close": 11.97,
+    "volume_24h": 59834.68,
+    "score": 0.6768
    },
    {
-    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "label": "Will the maximum temperature be 94-95\u00b0 on Oct 17, 2026? \u2014 94\u00b0 to 95\u00b0",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.23,
-    "volume_24h": 9379.86,
-    "score": 0.6398
+    "price": 0.94,
+    "hours_to_close": 22.97,
+    "volume_24h": 12623.59,
+    "score": 0.6625
+   },
+   {
+    "label": "Ethereum price at Oct 17, 2026 at 5pm EDT? \u2014 $2,410 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 11.97,
+    "volume_24h": 5183.35,
+    "score": 0.6454
+   },
+   {
+    "label": "Will the maximum temperature be <77\u00b0 on Oct 17, 2026? \u2014 76\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.97,
+    "volume_24h": 4309.68,
+    "score": 0.6451
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 17, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 19.97,
+    "volume_24h": 4514.54,
+    "score": 0.645
    },
    {
     "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.21,
+    "hours_to_close": 28.96,
     "volume_24h": 4920.31,
-    "score": 0.6365
+    "score": 0.637
    },
    {
-    "label": "Ethereum price at Oct 17, 2026 at 5pm EDT? \u2014 $2,410 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 12.23,
-    "volume_24h": 5176.15,
-    "score": 0.6338
-   },
-   {
-    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 17, 2026? \u2014 64\u00b0 to 65\u00b0",
+    "label": "Will the maximum temperature be 88-89\u00b0 on Oct 17, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.23,
-    "volume_24h": 21162.02,
-    "score": 0.6301
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 17, 2026? \u2014 38.7%",
-    "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 8.21,
-    "volume_24h": 29756.75,
-    "score": 0.6278
+    "price": 0.9,
+    "hours_to_close": 22.97,
+    "volume_24h": 9485.82,
+    "score": 0.6208
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 44
  },

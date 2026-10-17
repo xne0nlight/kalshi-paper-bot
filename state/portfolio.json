@@ -259,7 +259,7 @@
    "opened_ts": 1792159296,
    "close_ts": 1792245600.0,
    "score": 0.5901,
-   "mark_price": 0.07,
+   "mark_price": 0.1,
    "shadow": {
     "10": {
      "ts": 1792173685,
@@ -337,7 +337,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.4809,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792182672,
@@ -360,7 +360,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.457,
-   "mark_price": 0.68,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792192565,
@@ -422,7 +422,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -462,7 +462,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -6541,17 +6541,22 @@
    1792201567,
    103.98,
    89.56
+  ],
+  [
+   1792202473,
+   103.98,
+   89.73
   ]
  ],
  "last_run": {
-  "ts": 1792201567,
+  "ts": 1792202473,
   "error": null,
-  "markets_scanned": 1208,
-  "candidates": 40,
+  "markets_scanned": 1387,
+  "candidates": 44,
   "rejections": {
-   "too little volume": 966,
-   "no favorite in 80-95c band": 191,
-   "spread too wide": 11
+   "too little volume": 1072,
+   "no favorite in 80-95c band": 251,
+   "spread too wide": 20
   },
   "opened": [],
   "settled": [],
@@ -6561,70 +6566,70 @@
     "label": "Will Trump's RCP approval average be below 38.5 on Oct 17, 2026? \u2014 Below 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.21,
-    "volume_24h": 11601.1,
-    "score": 0.689
-   },
-   {
-    "label": "VisionQuest Rotten Tomatoes score? \u2014 Above 85",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 12.23,
-    "volume_24h": 43110.12,
-    "score": 0.6852
+    "hours_to_close": 14.96,
+    "volume_24h": 11616.04,
+    "score": 0.6902
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.23,
-    "volume_24h": 21540.75,
-    "score": 0.6832
+    "hours_to_close": 18.98,
+    "volume_24h": 22246.0,
+    "score": 0.6841
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 19.23,
-    "volume_24h": 13009.6,
-    "score": 0.6532
+    "hours_to_close": 18.98,
+    "volume_24h": 13061.82,
+    "score": 0.6541
    },
    {
     "label": "Bitcoin price on Oct 17, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 19.23,
-    "volume_24h": 25290.42,
-    "score": 0.6432
+    "hours_to_close": 18.98,
+    "volume_24h": 25778.78,
+    "score": 0.6441
    },
    {
     "label": "Will the maximum temperature be >95\u00b0 on Oct 17, 2026? \u2014 96\u00b0 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.23,
-    "volume_24h": 4549.57,
-    "score": 0.6223
+    "hours_to_close": 29.98,
+    "volume_24h": 4722.58,
+    "score": 0.6239
    },
    {
     "label": "Will the maximum temperature be <88\u00b0 on Oct 17, 2026? \u2014 87\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.23,
-    "volume_24h": 3030.75,
-    "score": 0.6191
+    "hours_to_close": 29.98,
+    "volume_24h": 3035.75,
+    "score": 0.6195
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 17, 2026? \u2014 38.6%",
+    "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 15.21,
-    "volume_24h": 31227.9,
-    "score": 0.619
+    "price": 0.94,
+    "hours_to_close": 35.96,
+    "volume_24h": 4601.72,
+    "score": 0.6148
+   },
+   {
+    "label": "Bitcoin price on Oct 17, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 18.98,
+    "volume_24h": 20851.81,
+    "score": 0.5941
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

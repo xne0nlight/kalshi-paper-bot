@@ -99,7 +99,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5602,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792241129,
@@ -122,7 +122,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.11,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -238,7 +238,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792310400.0,
    "score": 0.5897,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -255,7 +255,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -300,7 +300,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.81,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -406,7 +406,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.6082,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -423,7 +423,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.5673,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792254631,
@@ -7051,92 +7051,95 @@
    1792255529,
    106.96,
    91.56
+  ],
+  [
+   1792256434,
+   106.96,
+   91.58
   ]
  ],
  "last_run": {
-  "ts": 1792255529,
+  "ts": 1792256434,
   "error": null,
-  "markets_scanned": 686,
-  "candidates": 39,
+  "markets_scanned": 766,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 478,
-   "no favorite in 80-95c band": 151,
-   "spread too wide": 16,
-   "favorite is slipping fast": 1,
-   "nothing for sale at the ask": 1
+   "too little volume": 529,
+   "no favorite in 80-95c band": 179,
+   "spread too wide": 16
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Texas wins the 1st half",
+    "label": "Texas wins",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 31.24,
-    "volume_24h": 10016.55,
-    "score": 0.6364
+    "price": 0.95,
+    "hours_to_close": 30.99,
+    "volume_24h": 672800.64,
+    "score": 0.6568
    },
    {
-    "label": "Temple wins",
+    "label": "Florida wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.99,
+    "volume_24h": 1489777.6,
+    "score": 0.6568
+   },
+   {
+    "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 5449.05,
+    "score": 0.6302
+   },
+   {
+    "label": "James Madison wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.24,
-    "volume_24h": 8372.09,
-    "score": 0.6206
+    "hours_to_close": 30.99,
+    "volume_24h": 106881.14,
+    "score": 0.6268
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
+    "label": "Georgia St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 24.23,
-    "volume_24h": 5547.27,
-    "score": 0.6203
+    "hours_to_close": 30.99,
+    "volume_24h": 321746.9,
+    "score": 0.6268
    },
    {
     "label": "Charlotte wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 31.24,
-    "volume_24h": 29213.25,
-    "score": 0.6164
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 31.24,
-    "volume_24h": 628274.54,
-    "score": 0.6064
-   },
-   {
-    "label": "Florida wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 31.24,
-    "volume_24h": 1367799.21,
-    "score": 0.6064
+    "hours_to_close": 30.99,
+    "volume_24h": 30780.18,
+    "score": 0.6168
    },
    {
     "label": "Kent St. wins",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 31.24,
-    "volume_24h": 7108.69,
-    "score": 0.6053
+    "price": 0.92,
+    "hours_to_close": 30.99,
+    "volume_24h": 7055.5,
+    "score": 0.6154
    },
    {
-    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 35.23,
-    "volume_24h": 11692.0,
-    "score": 0.6009
+    "label": "Temple wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 30.99,
+    "volume_24h": 9548.05,
+    "score": 0.6153
    }
   ],
   "skipped": {},
-  "watch_added": 8,
-  "watch_graded": 0,
+  "watch_added": 9,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

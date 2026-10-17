@@ -84,7 +84,7 @@
    "opened_ts": 1792170080,
    "close_ts": 1792299600.0,
    "score": 0.5313,
-   "mark_price": 0.1,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1792191673,
@@ -200,7 +200,7 @@
    "opened_ts": 1792184479,
    "close_ts": 1792299600.0,
    "score": 0.5348,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792188965,
@@ -245,7 +245,7 @@
    "opened_ts": 1792185370,
    "close_ts": 1792303200.0,
    "score": 0.5571,
-   "mark_price": 0.66,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1792219574,
@@ -283,7 +283,7 @@
    "opened_ts": 1792188965,
    "close_ts": 1792306800.0,
    "score": 0.5678,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -334,7 +334,7 @@
    "opened_ts": 1792239329,
    "close_ts": 1792368000.0,
    "score": 0.6303,
-   "mark_price": 0.66,
+   "mark_price": 0.29,
    "shadow": {
     "10": {
      "ts": 1792257330,
@@ -457,7 +457,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -7195,94 +7195,96 @@
    1792266328,
    105.76,
    90.37
+  ],
+  [
+   1792267230,
+   105.76,
+   89.86
   ]
  ],
  "last_run": {
-  "ts": 1792266328,
+  "ts": 1792267230,
   "error": null,
-  "markets_scanned": 849,
-  "candidates": 47,
+  "markets_scanned": 1685,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 569,
-   "no favorite in 80-95c band": 214,
-   "spread too wide": 19
+   "too little volume": 1383,
+   "no favorite in 80-95c band": 229,
+   "spread too wide": 17,
+   "favorite is slipping fast": 1
   },
-  "opened": [
-   124
-  ],
-  "settled": [
-   102
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Texas Tech wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 57261.34,
+    "score": 0.6418
+   },
+   {
+    "label": "Arizona St. wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 236240.24,
+    "score": 0.6418
+   },
    {
     "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.23,
-    "volume_24h": 1947.34,
-    "score": 0.6239
+    "hours_to_close": 20.98,
+    "volume_24h": 1997.73,
+    "score": 0.6254
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.99,
+    "volume_24h": 3029.58,
+    "score": 0.6229
+   },
+   {
+    "label": "Virginia Tech wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 27.99,
+    "volume_24h": 41942.72,
+    "score": 0.6218
+   },
+   {
+    "label": "Georgia Tech wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 27.99,
+    "volume_24h": 72403.85,
+    "score": 0.6218
    },
    {
     "label": "Kent St. wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.24,
-    "volume_24h": 6671.25,
-    "score": 0.6181
+    "hours_to_close": 27.99,
+    "volume_24h": 6717.47,
+    "score": 0.6188
    },
    {
-    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 32.23,
-    "volume_24h": 11692.0,
-    "score": 0.6049
-   },
-   {
-    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 42.6% \u2014 Above 42.6%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.23,
-    "volume_24h": 2038.0,
-    "score": 0.6031
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 28.24,
-    "volume_24h": 3608.86,
-    "score": 0.5981
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 21.23,
-    "volume_24h": 7460.02,
-    "score": 0.5976
-   },
-   {
-    "label": "Tie in the 1st half",
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.24,
-    "volume_24h": 2335.47,
-    "score": 0.594
-   },
-   {
-    "label": "Rutgers wins",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 28.24,
-    "volume_24h": 451112.36,
-    "score": 0.5913
+    "hours_to_close": 20.98,
+    "volume_24h": 2535.59,
+    "score": 0.6132
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 3,
+  "watch_added": 7,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

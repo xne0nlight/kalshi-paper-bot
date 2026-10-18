@@ -374,7 +374,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -391,7 +391,7 @@
    "opened_ts": 1792275329,
    "close_ts": 1792357200.0,
    "score": 0.6456,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -408,7 +408,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -442,7 +442,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -459,8 +459,14 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.85,
-   "shadow": {}
+   "mark_price": 0.84,
+   "shadow": {
+    "10": {
+     "ts": 1792311329,
+     "bid": 0.84,
+     "proceeds": 4.98
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -7752,18 +7758,22 @@
    1792310428,
    106.68,
    88.6
+  ],
+  [
+   1792311329,
+   106.68,
+   88.37
   ]
  ],
  "last_run": {
-  "ts": 1792310428,
+  "ts": 1792311329,
   "error": null,
   "markets_scanned": 5312,
-  "candidates": 51,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 4817,
-   "no favorite in 80-95c band": 411,
-   "spread too wide": 32,
-   "nothing for sale at the ask": 1
+   "too little volume": 4809,
+   "no favorite in 80-95c band": 419,
+   "spread too wide": 34
   },
   "opened": [],
   "settled": [],
@@ -7773,65 +7783,65 @@
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.99,
-    "volume_24h": 20985.88,
-    "score": 0.6906
+    "hours_to_close": 12.74,
+    "volume_24h": 21144.81,
+    "score": 0.692
+   },
+   {
+    "label": "Will average **gas prices** be above $4.2900? \u2014 Above 4.2900",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 19.73,
+    "volume_24h": 23690.81,
+    "score": 0.6816
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 12.99,
-    "volume_24h": 61089.52,
-    "score": 0.6706
-   },
-   {
-    "label": "Will it rain in Tampa on Oct 18, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 5904.51,
-    "score": 0.6606
+    "hours_to_close": 12.74,
+    "volume_24h": 61358.92,
+    "score": 0.672
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.99,
+    "hours_to_close": 29.74,
     "volume_24h": 29494.41,
-    "score": 0.6583
+    "score": 0.6588
    },
    {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "label": "Will it rain in Tampa on Oct 18, 2026?",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.98,
-    "volume_24h": 52749.93,
-    "score": 0.6508
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 5964.14,
+    "score": 0.6517
    },
    {
     "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 29.99,
-    "volume_24h": 20645.4,
-    "score": 0.6383
+    "price": 0.94,
+    "hours_to_close": 29.74,
+    "volume_24h": 20906.42,
+    "score": 0.6488
    },
    {
-    "label": "Will the maximum temperature be >69\u00b0 on Oct 18, 2026? \u2014 70\u00b0 or above",
+    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 18, 2026? \u2014 60\u00b0 to 61\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 2756.87,
-    "score": 0.6331
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 5103.31,
+    "score": 0.6466
    },
    {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,250 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 12.99,
-    "volume_24h": 17740.92,
-    "score": 0.6306
+    "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 12.74,
+    "volume_24h": 7825.84,
+    "score": 0.6441
    }
   ],
   "skipped": {},

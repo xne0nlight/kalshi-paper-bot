@@ -408,7 +408,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -459,7 +459,7 @@
    "opened_ts": 1792294229,
    "close_ts": 1792418400.0,
    "score": 0.6419,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -7619,18 +7619,22 @@
    1792296928,
    105.55,
    88.52
+  ],
+  [
+   1792297829,
+   105.55,
+   88.62
   ]
  ],
  "last_run": {
-  "ts": 1792296928,
+  "ts": 1792297829,
   "error": null,
-  "markets_scanned": 3224,
-  "candidates": 52,
+  "markets_scanned": 3218,
+  "candidates": 56,
   "rejections": {
-   "too little volume": 2756,
-   "no favorite in 80-95c band": 388,
-   "spread too wide": 26,
-   "favorite is slipping fast": 1,
+   "too little volume": 2755,
+   "no favorite in 80-95c band": 383,
+   "spread too wide": 23,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -7638,72 +7642,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.74,
-    "volume_24h": 12007.18,
-    "score": 0.6923
-   },
-   {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 57541.2,
-    "score": 0.6823
+    "hours_to_close": 16.49,
+    "volume_24h": 57689.32,
+    "score": 0.6834
    },
    {
     "label": "Utah wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 1156927.05,
-    "score": 0.6816
+    "hours_to_close": 19.49,
+    "volume_24h": 1193509.7,
+    "score": 0.6824
    },
    {
     "label": "Colorado wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 3230929.22,
-    "score": 0.6816
+    "hours_to_close": 19.49,
+    "volume_24h": 3343212.54,
+    "score": 0.6824
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 16.74,
+    "hours_to_close": 16.49,
     "volume_24h": 5482.51,
-    "score": 0.6728
-   },
-   {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 16.74,
-    "volume_24h": 14508.53,
-    "score": 0.6623
+    "score": 0.6738
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 12.73,
-    "volume_24h": 15307.65,
-    "score": 0.6621
+    "hours_to_close": 12.48,
+    "volume_24h": 18068.89,
+    "score": 0.6637
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 16.49,
+    "volume_24h": 14508.53,
+    "score": 0.6634
+   },
+   {
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.49,
+    "volume_24h": 49208.77,
+    "score": 0.6532
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 33.74,
+    "price": 0.95,
+    "hours_to_close": 33.49,
     "volume_24h": 29497.37,
-    "score": 0.6428
+    "score": 0.6532
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

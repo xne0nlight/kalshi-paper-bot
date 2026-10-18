@@ -203,7 +203,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -220,7 +220,7 @@
    "opened_ts": 1792294229,
    "close_ts": 1792418400.0,
    "score": 0.6419,
-   "mark_price": 0.92,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -237,7 +237,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -254,7 +254,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.94,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -299,7 +299,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.73,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -349,7 +349,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.94,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -7965,95 +7965,98 @@
    1792326629,
    93.49,
    87.22
+  ],
+  [
+   1792327529,
+   93.49,
+   86.99
   ]
  ],
  "last_run": {
-  "ts": 1792326629,
+  "ts": 1792327529,
   "error": null,
   "markets_scanned": 4096,
-  "candidates": 20,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 3918,
-   "no favorite in 80-95c band": 139,
+   "too little volume": 3919,
+   "no favorite in 80-95c band": 141,
    "spread too wide": 18,
-   "favorite is slipping fast": 1
+   "nothing for sale at the ask": 2
   },
-  "opened": [
-   140
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 23319.4,
-    "score": 0.6667
-   },
-   {
-    "label": "OpenAI market share this week? \u2014 Above 18.4%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 48265.03,
-    "score": 0.6667
-   },
-   {
     "label": "OpenAI market share this week? \u2014 Above 18.1%",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 25.49,
-    "volume_24h": 21679.81,
-    "score": 0.6467
-   },
-   {
-    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.49,
-    "volume_24h": 3180.35,
-    "score": 0.6094
+    "hours_to_close": 25.24,
+    "volume_24h": 21879.67,
+    "score": 0.6472
    },
    {
     "label": "Will Trump say \"Nobel\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 1512.53,
-    "score": 0.6052
+    "hours_to_close": 25.24,
+    "volume_24h": 1515.65,
+    "score": 0.6058
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.49,
-    "volume_24h": 2062.25,
-    "score": 0.5953
+    "hours_to_close": 25.24,
+    "volume_24h": 2085.73,
+    "score": 0.5962
    },
    {
-    "label": "Anthropic market share this week? \u2014 Above 4.5%",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 29637.47,
-    "score": 0.5667
+    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 25.24,
+    "volume_24h": 3180.35,
+    "score": 0.5599
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.49,
+    "hours_to_close": 25.24,
     "volume_24h": 4087.82,
-    "score": 0.5476
+    "score": 0.5481
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.74,
+    "volume_24h": 3309.0,
+    "score": 0.5227
+   },
+   {
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 25.24,
+    "volume_24h": 50740.03,
+    "score": 0.4872
+   },
+   {
+    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.24,
+    "volume_24h": 2841.65,
+    "score": 0.4599
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 5,
+   "related-market cap (Oil prices)": 4,
    "tracked only (below bet price floor)": 5
   },
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

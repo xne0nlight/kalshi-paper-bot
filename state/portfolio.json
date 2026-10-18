@@ -425,7 +425,7 @@
    "opened_ts": 1792294229,
    "close_ts": 1792418400.0,
    "score": 0.6419,
-   "mark_price": 0.89,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -442,7 +442,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -7803,85 +7803,90 @@
    1792318530,
    106.68,
    88.53
+  ],
+  [
+   1792319431,
+   106.68,
+   88.56
   ]
  ],
  "last_run": {
-  "ts": 1792318530,
+  "ts": 1792319431,
   "error": null,
-  "markets_scanned": 4062,
-  "candidates": 11,
+  "markets_scanned": 4065,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 3903,
-   "no favorite in 80-95c band": 133,
-   "spread too wide": 15
+   "too little volume": 3906,
+   "no favorite in 80-95c band": 135,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Anthropic market share this week? \u2014 Above 4.5%",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 27.49,
+    "volume_24h": 29609.47,
+    "score": 0.6027
+   },
+   {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 1974.04,
-    "score": 0.5794
+    "score": 0.5799
    },
    {
     "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 3007.43,
-    "score": 0.5531
+    "score": 0.5536
    },
    {
     "label": "Will Trump say \"Epstein\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 7648.64,
-    "score": 0.5435
+    "score": 0.544
    },
    {
     "label": "Will Trump say \"Stupid Question\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.74,
-    "volume_24h": 2983.08,
-    "score": 0.5228
+    "hours_to_close": 27.49,
+    "volume_24h": 2987.94,
+    "score": 0.5234
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 3052.18,
-    "score": 0.5063
+    "score": 0.5066
    },
    {
     "label": "Will the brent crude oil close price be above 111.00 USD/Bbl on October 19, 2026 at 5:00 PM EDT? \u2014 Above $111.00",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 843.0,
-    "score": 0.471
+    "score": 0.4713
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 4078.19,
-    "score": 0.453
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 19, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 32.24,
-    "volume_24h": 552.53,
-    "score": 0.4406
+    "score": 0.4535
    }
   ],
   "skipped": {},

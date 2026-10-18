@@ -300,7 +300,7 @@
    "opened_ts": 1792235729,
    "close_ts": 1792331940.0,
    "score": 0.6411,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -317,7 +317,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.6082,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792280729,
@@ -379,8 +379,14 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.88,
-   "shadow": {}
+   "mark_price": 0.81,
+   "shadow": {
+    "10": {
+     "ts": 1792284330,
+     "bid": 0.81,
+     "proceeds": 0.79
+    }
+   }
   },
   {
    "id": 122,
@@ -430,7 +436,7 @@
    "opened_ts": 1792266328,
    "close_ts": 1792368000.0,
    "score": 0.594,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -464,7 +470,7 @@
    "opened_ts": 1792282534,
    "close_ts": 1792368000.0,
    "score": 0.6377,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   }
  ],
@@ -7448,19 +7454,22 @@
    1792283431,
    105.43,
    88.05
+  ],
+  [
+   1792284330,
+   105.43,
+   88.01
   ]
  ],
  "last_run": {
-  "ts": 1792283431,
+  "ts": 1792284330,
   "error": null,
-  "markets_scanned": 1586,
-  "candidates": 60,
+  "markets_scanned": 1577,
+  "candidates": 59,
   "rejections": {
-   "too little volume": 1201,
-   "no favorite in 80-95c band": 300,
-   "spread too wide": 22,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 1197,
+   "no favorite in 80-95c band": 293,
+   "spread too wide": 28
   },
   "opened": [],
   "settled": [],
@@ -7470,69 +7479,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.47,
-    "volume_24h": 8457.4,
-    "score": 0.688
+    "hours_to_close": 16.23,
+    "volume_24h": 8577.9,
+    "score": 0.6895
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 16.47,
-    "volume_24h": 8521.78,
-    "score": 0.6682
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,250 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 20.24,
+    "volume_24h": 9625.67,
+    "score": 0.6788
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 16.47,
-    "volume_24h": 6246.11,
-    "score": 0.6681
+    "hours_to_close": 16.23,
+    "volume_24h": 6400.13,
+    "score": 0.67
    },
    {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 9625.67,
-    "score": 0.668
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 115251.37,
-    "score": 0.6612
-   },
-   {
-    "label": "Kent St. wins",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 684713.19,
-    "score": 0.6612
+    "price": 0.93,
+    "hours_to_close": 16.23,
+    "volume_24h": 8642.28,
+    "score": 0.6697
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 9875.59,
-    "score": 0.6589
+    "score": 0.6596
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 23.24,
+    "volume_24h": 132315.54,
+    "score": 0.6518
+   },
+   {
+    "label": "Kent St. wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.24,
+    "volume_24h": 734120.37,
+    "score": 0.6518
    },
    {
     "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 16.47,
-    "volume_24h": 23818.22,
-    "score": 0.6434
+    "hours_to_close": 16.23,
+    "volume_24h": 23938.83,
+    "score": 0.6445
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

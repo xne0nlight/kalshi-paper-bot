@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.88,
- "fees_paid": 2.89,
+ "cash": 11.04,
+ "fees_paid": 2.91,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 134,
+ "next_id": 135,
  "open_positions": [
   {
    "id": 99,
@@ -338,29 +338,6 @@
    "shadow": {}
   },
   {
-   "id": 121,
-   "ticker": "KXMLBRBI-26OCT161800TBCLE-TBYDIAZ2-2",
-   "event_ticker": "KXMLBRBI-26OCT161800TBCLE",
-   "series": "KXMLBRBI",
-   "label": "Yandy D\u00edaz: 2+ RBIs?",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.92,
-   "fee": 0.01,
-   "cost": 0.93,
-   "opened_ts": 1792254631,
-   "close_ts": 1792360800.0,
-   "score": 0.5626,
-   "mark_price": 0.83,
-   "shadow": {
-    "10": {
-     "ts": 1792284330,
-     "bid": 0.81,
-     "proceeds": 0.79
-    }
-   }
-  },
-  {
    "id": 122,
    "ticker": "KXRAINWKND-26OCT17-EWR",
    "event_ticker": "KXRAINWKND-26OCT17",
@@ -431,7 +408,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.89,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -465,7 +442,24 @@
    "opened_ts": 1792291528,
    "close_ts": 1792368000.0,
    "score": 0.6771,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
+   "shadow": {}
+  },
+  {
+   "id": 134,
+   "ticker": "KXANTHSHARE-26OCT19-4.5",
+   "event_ticker": "KXANTHSHARE-26OCT19",
+   "series": "KXANTHSHARE",
+   "label": "Anthropic market share this week? \u2014 Above 4.5%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1792294229,
+   "close_ts": 1792418400.0,
+   "score": 0.6419,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -3156,6 +3150,33 @@
    "result": "NO",
    "closed_ts": 1792291528,
    "won": true
+  },
+  {
+   "id": 121,
+   "ticker": "KXMLBRBI-26OCT161800TBCLE-TBYDIAZ2-2",
+   "event_ticker": "KXMLBRBI-26OCT161800TBCLE",
+   "series": "KXMLBRBI",
+   "label": "Yandy D\u00edaz: 2+ RBIs?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1792254631,
+   "close_ts": 1792360800.0,
+   "score": 0.5626,
+   "shadow": {
+    "10": {
+     "ts": 1792284330,
+     "bid": 0.81,
+     "proceeds": 0.79
+    }
+   },
+   "payout": 0.0,
+   "pnl": -0.93,
+   "result": "YES",
+   "closed_ts": 1792294229,
+   "won": false
   }
  ],
  "equity_history": [
@@ -7578,90 +7599,101 @@
    1792293329,
    106.48,
    88.95
+  ],
+  [
+   1792294229,
+   105.55,
+   88.41
   ]
  ],
  "last_run": {
-  "ts": 1792293329,
+  "ts": 1792294229,
   "error": null,
-  "markets_scanned": 2782,
-  "candidates": 62,
+  "markets_scanned": 2764,
+  "candidates": 59,
   "rejections": {
-   "too little volume": 2310,
-   "no favorite in 80-95c band": 382,
-   "spread too wide": 25,
+   "too little volume": 2302,
+   "no favorite in 80-95c band": 379,
+   "spread too wide": 21,
    "nothing for sale at the ask": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   134
+  ],
+  "settled": [
+   121
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.73,
-    "volume_24h": 9627.96,
-    "score": 0.7052
+    "hours_to_close": 13.48,
+    "volume_24h": 9636.58,
+    "score": 0.7066
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 13.73,
-    "volume_24h": 8063.65,
-    "score": 0.6895
+    "hours_to_close": 13.48,
+    "volume_24h": 8099.09,
+    "score": 0.691
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 17.49,
+    "volume_24h": 10739.53,
+    "score": 0.6894
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 13.73,
-    "volume_24h": 9669.59,
-    "score": 0.6854
-   },
-   {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 17.74,
-    "volume_24h": 9960.53,
-    "score": 0.6783
-   },
-   {
-    "label": "Wake Forest wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.74,
-    "volume_24h": 156663.45,
-    "score": 0.6685
+    "hours_to_close": 13.48,
+    "volume_24h": 9678.21,
+    "score": 0.6868
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 17.74,
+    "hours_to_close": 17.49,
     "volume_24h": 5418.95,
-    "score": 0.6685
-   },
-   {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 17.74,
-    "volume_24h": 54969.14,
-    "score": 0.6685
+    "score": 0.6694
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 17.74,
-    "volume_24h": 14035.51,
-    "score": 0.6585
+    "hours_to_close": 17.49,
+    "volume_24h": 14049.51,
+    "score": 0.6594
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 17.49,
+    "volume_24h": 55452.64,
+    "score": 0.6594
+   },
+   {
+    "label": "Utah wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 20.49,
+    "volume_24h": 344672.68,
+    "score": 0.6493
    }
   ],
-  "skipped": {},
-  "watch_added": 5,
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

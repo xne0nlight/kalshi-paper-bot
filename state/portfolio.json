@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 12.84,
- "fees_paid": 3.06,
+ "cash": 9.4,
+ "fees_paid": 3.1,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 141,
+ "next_id": 142,
  "open_positions": [
   {
    "id": 99,
@@ -169,7 +169,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.82,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -237,7 +237,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -254,7 +254,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.75,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -265,6 +265,11 @@
      "ts": 1792323930,
      "bid": 0.76,
      "proceeds": 4.48
+    },
+    "20": {
+     "ts": 1792329328,
+     "bid": 0.68,
+     "proceeds": 3.98
     }
    }
   },
@@ -282,7 +287,7 @@
    "opened_ts": 1792322129,
    "close_ts": 1792418400.0,
    "score": 0.5813,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -299,7 +304,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.77,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -349,7 +354,24 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 141,
+   "ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8-TB",
+   "event_ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8",
+   "series": "KXMLBINNINGWIN",
+   "label": "Tampa Bay scores more in the 8th inning?",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.85,
+   "fee": 0.04,
+   "cost": 3.44,
+   "opened_ts": 1792329328,
+   "close_ts": 1792454400.0,
+   "score": 0.3711,
+   "mark_price": 0.82,
    "shadow": {}
   }
  ],
@@ -7975,94 +7997,100 @@
    1792328429,
    93.49,
    85.88
+  ],
+  [
+   1792329328,
+   93.49,
+   85.56
   ]
  ],
  "last_run": {
-  "ts": 1792328429,
+  "ts": 1792329328,
   "error": null,
   "markets_scanned": 4095,
-  "candidates": 14,
+  "candidates": 17,
   "rejections": {
    "too little volume": 3919,
-   "no favorite in 80-95c band": 144,
-   "spread too wide": 17,
-   "favorite is slipping fast": 1
+   "no favorite in 80-95c band": 142,
+   "spread too wide": 17
   },
-  "opened": [],
+  "opened": [
+   141
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 24.74,
+    "volume_24h": 3276.04,
+    "score": 0.612
+   },
+   {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.99,
+    "hours_to_close": 24.74,
     "volume_24h": 4087.82,
-    "score": 0.5986
+    "score": 0.5992
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.99,
-    "volume_24h": 2085.73,
-    "score": 0.5967
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 2241.85,
+    "score": 0.5696
    },
    {
-    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
+    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.99,
-    "volume_24h": 3191.07,
-    "score": 0.5606
+    "price": 0.89,
+    "hours_to_close": 24.74,
+    "volume_24h": 24076.0,
+    "score": 0.5583
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.49,
+    "hours_to_close": 29.24,
     "volume_24h": 3309.0,
-    "score": 0.5232
-   },
-   {
-    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.99,
-    "volume_24h": 2841.65,
-    "score": 0.4603
+    "score": 0.5236
    },
    {
     "label": "Will Trump say \"Stupid Question\" before Oct 19, 2026?",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 24.99,
-    "volume_24h": 2964.72,
-    "score": 0.4582
+    "price": 0.87,
+    "hours_to_close": 24.74,
+    "volume_24h": 2971.93,
+    "score": 0.4988
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
+    "label": "Will Trump say \"Zacharia\" before Oct 19, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 29.49,
-    "volume_24h": 1647.86,
-    "score": 0.4505
+    "price": 0.83,
+    "hours_to_close": 24.74,
+    "volume_24h": 4349.2,
+    "score": 0.4712
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 29.49,
-    "volume_24h": 578.49,
-    "score": 0.4464
+    "label": "DeepSeek market share this week? \u2014 Above 24.1%",
+    "side": "yes",
+    "price": 0.85,
+    "hours_to_close": 24.74,
+    "volume_24h": 31494.92,
+    "score": 0.4683
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 4,
    "tracked only (below bet price floor)": 4
   },
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 2,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

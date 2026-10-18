@@ -459,7 +459,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -7717,95 +7717,96 @@
    1792304133,
    106.68,
    88.85
+  ],
+  [
+   1792305030,
+   106.68,
+   88.79
   ]
  ],
  "last_run": {
-  "ts": 1792304133,
+  "ts": 1792305030,
   "error": null,
-  "markets_scanned": 4136,
-  "candidates": 48,
+  "markets_scanned": 4166,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 3690,
-   "no favorite in 80-95c band": 372,
-   "spread too wide": 26
+   "too little volume": 3703,
+   "no favorite in 80-95c band": 379,
+   "spread too wide": 32,
+   "favorite is slipping fast": 1,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   136
-  ],
-  "settled": [
-   131
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 15701.98,
-    "score": 0.7012
+    "score": 0.7025
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 6834.12,
-    "score": 0.6689
+    "score": 0.6701
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 20252.58,
-    "score": 0.6612
+    "score": 0.6625
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 60483.03,
-    "score": 0.6612
+    "score": 0.6625
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 29494.41,
-    "score": 0.6556
-   },
-   {
-    "label": "OpenAI market share this week? \u2014 Above 18.4%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.74,
-    "volume_24h": 49489.57,
-    "score": 0.6456
+    "score": 0.656
    },
    {
     "label": "Will it rain in Tampa on Oct 18, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 5738.36,
-    "score": 0.645
+    "score": 0.6456
+   },
+   {
+    "label": "DeepSeek market share this week? \u2014 Above 24.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.49,
+    "volume_24h": 11884.17,
+    "score": 0.636
    },
    {
     "label": "Will the maximum temperature be 82-83\u00b0 on Oct 18, 2026? \u2014 82\u00b0 to 83\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.74,
-    "volume_24h": 4206.68,
-    "score": 0.628
+    "hours_to_close": 25.49,
+    "volume_24h": 4230.71,
+    "score": 0.6287
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 1
-  },
-  "watch_added": 0,
+  "skipped": {},
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 43
  },

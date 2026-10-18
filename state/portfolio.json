@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.04,
- "fees_paid": 2.91,
+ "cash": 11.37,
+ "fees_paid": 2.94,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 135,
+ "next_id": 136,
  "open_positions": [
   {
    "id": 99,
@@ -408,7 +408,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.69,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792298729,
@@ -441,24 +441,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.89,
-   "shadow": {}
-  },
-  {
-   "id": 133,
-   "ticker": "KXNCAAFGAME-26OCT16OHIOSAC-SAC",
-   "event_ticker": "KXNCAAFGAME-26OCT16OHIOSAC",
-   "series": "KXNCAAFGAME",
-   "label": "Sacramento St. wins",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792291528,
-   "close_ts": 1792368000.0,
-   "score": 0.6771,
-   "mark_price": 0.99,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -476,6 +459,23 @@
    "close_ts": 1792418400.0,
    "score": 0.6419,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 135,
+   "ticker": "KXRAIN-26OCT18-TPA",
+   "event_ticker": "KXRAIN-26OCT18",
+   "series": "KXRAIN",
+   "label": "Will it rain in Tampa on Oct 18, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792301429,
+   "close_ts": 1792386000.0,
+   "score": 0.6427,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -3193,6 +3193,27 @@
    "result": "YES",
    "closed_ts": 1792294229,
    "won": false
+  },
+  {
+   "id": 133,
+   "ticker": "KXNCAAFGAME-26OCT16OHIOSAC-SAC",
+   "event_ticker": "KXNCAAFGAME-26OCT16OHIOSAC",
+   "series": "KXNCAAFGAME",
+   "label": "Sacramento St. wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792291528,
+   "close_ts": 1792368000.0,
+   "score": 0.6771,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792301429,
+   "won": true
   }
  ],
  "equity_history": [
@@ -7655,90 +7676,100 @@
    1792300529,
    105.55,
    86.74
+  ],
+  [
+   1792301429,
+   105.83,
+   87.67
   ]
  ],
  "last_run": {
-  "ts": 1792300529,
+  "ts": 1792301429,
   "error": null,
-  "markets_scanned": 3695,
-  "candidates": 53,
+  "markets_scanned": 3693,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 3236,
-   "no favorite in 80-95c band": 378,
-   "spread too wide": 26,
-   "nothing for sale at the ask": 1,
+   "too little volume": 3234,
+   "no favorite in 80-95c band": 372,
+   "spread too wide": 31,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   135
+  ],
+  "settled": [
+   133
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.74,
+    "price": 0.95,
+    "hours_to_close": 15.49,
     "volume_24h": 14656.08,
-    "score": 0.6866
-   },
-   {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 15.74,
-    "volume_24h": 58581.23,
-    "score": 0.6866
+    "score": 0.6977
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 18, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 11.73,
-    "volume_24h": 22982.44,
-    "score": 0.6785
+    "hours_to_close": 11.48,
+    "volume_24h": 23549.63,
+    "score": 0.6802
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 11.73,
+    "hours_to_close": 11.48,
     "volume_24h": 20536.56,
-    "score": 0.6685
+    "score": 0.6702
+   },
+   {
+    "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 15.49,
+    "volume_24h": 5790.62,
+    "score": 0.6699
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 15.49,
+    "volume_24h": 58581.23,
+    "score": 0.6677
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 15.49,
+    "volume_24h": 18552.94,
+    "score": 0.6577
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 29498.41,
-    "score": 0.6542
-   },
-   {
-    "label": "DeepSeek market share this week? \u2014 Above 24.7%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.74,
-    "volume_24h": 11884.17,
-    "score": 0.6442
-   },
-   {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 15.74,
-    "volume_24h": 17341.25,
-    "score": 0.6366
+    "score": 0.6546
    },
    {
     "label": "Will it rain in Tampa on Oct 18, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 5663.6,
-    "score": 0.6321
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 5664.6,
+    "score": 0.6427
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
   "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43

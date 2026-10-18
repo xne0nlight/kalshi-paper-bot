@@ -408,7 +408,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -7732,17 +7732,22 @@
    1792306829,
    106.68,
    88.9
+  ],
+  [
+   1792307730,
+   106.68,
+   89.02
   ]
  ],
  "last_run": {
-  "ts": 1792306829,
+  "ts": 1792307730,
   "error": null,
   "markets_scanned": 4626,
   "candidates": 52,
   "rejections": {
-   "too little volume": 4153,
-   "no favorite in 80-95c band": 393,
-   "spread too wide": 28
+   "too little volume": 4151,
+   "no favorite in 80-95c band": 391,
+   "spread too wide": 32
   },
   "opened": [],
   "settled": [],
@@ -7752,65 +7757,65 @@
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.99,
-    "volume_24h": 15988.7,
-    "score": 0.705
+    "hours_to_close": 13.74,
+    "volume_24h": 16001.07,
+    "score": 0.7064
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 13.99,
-    "volume_24h": 20379.88,
-    "score": 0.675
+    "hours_to_close": 13.74,
+    "volume_24h": 20485.88,
+    "score": 0.6764
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 13.99,
-    "volume_24h": 60551.03,
-    "score": 0.675
+    "hours_to_close": 13.74,
+    "volume_24h": 60982.75,
+    "score": 0.6764
+   },
+   {
+    "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 13.74,
+    "volume_24h": 6963.84,
+    "score": 0.6746
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 29494.41,
-    "score": 0.6568
-   },
-   {
-    "label": "Will it rain in Tampa on Oct 18, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.99,
-    "volume_24h": 5738.89,
-    "score": 0.6469
+    "score": 0.6572
    },
    {
     "label": "OpenAI market share this week? \u2014 Above 18.4%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 49607.03,
-    "score": 0.6468
+    "score": 0.6472
    },
    {
-    "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 13.99,
-    "volume_24h": 6919.84,
-    "score": 0.6331
-   },
-   {
-    "label": "Will the maximum temperature be >69\u00b0 on Oct 18, 2026? \u2014 70\u00b0 or above",
+    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 18, 2026? \u2014 60\u00b0 to 61\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.99,
-    "volume_24h": 2260.87,
-    "score": 0.624
+    "hours_to_close": 21.74,
+    "volume_24h": 3780.17,
+    "score": 0.644
+   },
+   {
+    "label": "Will the maximum temperature be 54-55\u00b0 on Oct 18, 2026? \u2014 54\u00b0 to 55\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.74,
+    "volume_24h": 4690.29,
+    "score": 0.641
    }
   ],
   "skipped": {},

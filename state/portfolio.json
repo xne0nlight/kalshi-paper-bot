@@ -135,7 +135,7 @@
    "opened_ts": 1792275329,
    "close_ts": 1792357200.0,
    "score": 0.6456,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -258,7 +258,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.79,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -291,7 +291,7 @@
    "opened_ts": 1792324831,
    "close_ts": 1792454400.0,
    "score": 0.459,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -393,7 +393,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -8251,17 +8251,23 @@
    1792352728,
    94.46,
    83.05
+  ],
+  [
+   1792353631,
+   94.46,
+   83.09
   ]
  ],
  "last_run": {
-  "ts": 1792352728,
+  "ts": 1792353631,
   "error": null,
-  "markets_scanned": 3691,
-  "candidates": 28,
+  "markets_scanned": 4528,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 3431,
-   "no favorite in 80-95c band": 197,
-   "spread too wide": 35
+   "too little volume": 4244,
+   "no favorite in 80-95c band": 218,
+   "spread too wide": 31,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -8271,69 +8277,69 @@
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 4338.67,
-    "score": 0.6259
+    "score": 0.6265
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.23,
-    "volume_24h": 3501.94,
-    "score": 0.623
+    "hours_to_close": 20.97,
+    "volume_24h": 3666.05,
+    "score": 0.6252
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 19, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.97,
+    "volume_24h": 1634.04,
+    "score": 0.6089
    },
    {
     "label": "Will the maximum temperature be >73\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
-    "volume_24h": 1194.9,
-    "score": 0.583
+    "hours_to_close": 33.99,
+    "volume_24h": 1225.77,
+    "score": 0.5842
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.23,
-    "volume_24h": 508.11,
-    "score": 0.5701
+    "hours_to_close": 20.97,
+    "volume_24h": 605.95,
+    "score": 0.5766
+   },
+   {
+    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 27.99,
+    "volume_24h": 3540.26,
+    "score": 0.558
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 772.69,
-    "score": 0.5497
+    "score": 0.5503
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 1277.27,
-    "score": 0.5361
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.23,
-    "volume_24h": 309.22,
-    "score": 0.514
-   },
-   {
-    "label": "Will the maximum temperature be <75\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or below",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 256.62,
-    "score": 0.513
+    "score": 0.5367
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

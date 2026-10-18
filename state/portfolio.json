@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.37,
- "fees_paid": 2.94,
+ "cash": 12.7,
+ "fees_paid": 2.97,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 136,
+ "next_id": 137,
  "open_positions": [
   {
    "id": 99,
@@ -395,39 +395,6 @@
    "shadow": {}
   },
   {
-   "id": 131,
-   "ticker": "KXNCAAFGAME-26OCT16UTAHCOLO-UTAH",
-   "event_ticker": "KXNCAAFGAME-26OCT16UTAHCOLO",
-   "series": "KXNCAAFGAME",
-   "label": "Utah wins",
-   "side": "yes",
-   "contracts": 7,
-   "price": 0.87,
-   "fee": 0.06,
-   "cost": 6.15,
-   "opened_ts": 1792285234,
-   "close_ts": 1792368000.0,
-   "score": 0.5924,
-   "mark_price": 0.91,
-   "shadow": {
-    "10": {
-     "ts": 1792298729,
-     "bid": 0.75,
-     "proceeds": 5.15
-    },
-    "15": {
-     "ts": 1792299628,
-     "bid": 0.58,
-     "proceeds": 3.94
-    },
-    "20": {
-     "ts": 1792299628,
-     "bid": 0.58,
-     "proceeds": 3.94
-    }
-   }
-  },
-  {
    "id": 132,
    "ticker": "KXHIGHNY-26OCT18-B54.5",
    "event_ticker": "KXHIGHNY-26OCT18",
@@ -475,6 +442,23 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 136,
+   "ticker": "KXOPENSHARE-26OCT19-18.4",
+   "event_ticker": "KXOPENSHARE-26OCT19",
+   "series": "KXOPENSHARE",
+   "label": "OpenAI market share this week? \u2014 Above 18.4%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792304133,
+   "close_ts": 1792418400.0,
+   "score": 0.6456,
    "mark_price": 0.93,
    "shadow": {}
   }
@@ -3213,6 +3197,43 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792301429,
+   "won": true
+  },
+  {
+   "id": 131,
+   "ticker": "KXNCAAFGAME-26OCT16UTAHCOLO-UTAH",
+   "event_ticker": "KXNCAAFGAME-26OCT16UTAHCOLO",
+   "series": "KXNCAAFGAME",
+   "label": "Utah wins",
+   "side": "yes",
+   "contracts": 7,
+   "price": 0.87,
+   "fee": 0.06,
+   "cost": 6.15,
+   "opened_ts": 1792285234,
+   "close_ts": 1792368000.0,
+   "score": 0.5924,
+   "shadow": {
+    "10": {
+     "ts": 1792298729,
+     "bid": 0.75,
+     "proceeds": 5.15
+    },
+    "15": {
+     "ts": 1792299628,
+     "bid": 0.58,
+     "proceeds": 3.94
+    },
+    "20": {
+     "ts": 1792299628,
+     "bid": 0.58,
+     "proceeds": 3.94
+    }
+   },
+   "payout": 7.0,
+   "pnl": 0.85,
+   "result": "YES",
+   "closed_ts": 1792304133,
    "won": true
   }
  ],
@@ -7691,89 +7712,99 @@
    1792303229,
    105.83,
    88.31
+  ],
+  [
+   1792304133,
+   106.68,
+   88.85
   ]
  ],
  "last_run": {
-  "ts": 1792303229,
+  "ts": 1792304133,
   "error": null,
-  "markets_scanned": 4142,
-  "candidates": 49,
+  "markets_scanned": 4136,
+  "candidates": 48,
   "rejections": {
-   "too little volume": 3692,
-   "no favorite in 80-95c band": 369,
-   "spread too wide": 31,
-   "favorite is slipping fast": 1
+   "too little volume": 3690,
+   "no favorite in 80-95c band": 372,
+   "spread too wide": 26
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   136
+  ],
+  "settled": [
+   131
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.99,
+    "hours_to_close": 14.74,
     "volume_24h": 15701.98,
-    "score": 0.7
+    "score": 0.7012
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 14.99,
+    "hours_to_close": 14.74,
     "volume_24h": 6834.12,
-    "score": 0.6676
+    "score": 0.6689
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 14.99,
-    "volume_24h": 20099.08,
-    "score": 0.66
+    "hours_to_close": 14.74,
+    "volume_24h": 20252.58,
+    "score": 0.6612
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 14.99,
-    "volume_24h": 60374.0,
-    "score": 0.66
-   },
-   {
-    "label": "Utah wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 17.99,
-    "volume_24h": 3377951.86,
-    "score": 0.6575
-   },
-   {
-    "label": "Colorado wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 17.99,
-    "volume_24h": 8650267.33,
-    "score": 0.6575
+    "hours_to_close": 14.74,
+    "volume_24h": 60483.03,
+    "score": 0.6612
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 29494.41,
-    "score": 0.6553
+    "score": 0.6556
+   },
+   {
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.74,
+    "volume_24h": 49489.57,
+    "score": 0.6456
    },
    {
     "label": "Will it rain in Tampa on Oct 18, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 5738.36,
-    "score": 0.6443
+    "score": 0.645
+   },
+   {
+    "label": "Will the maximum temperature be 82-83\u00b0 on Oct 18, 2026? \u2014 82\u00b0 to 83\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 25.74,
+    "volume_24h": 4206.68,
+    "score": 0.628
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
   "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43

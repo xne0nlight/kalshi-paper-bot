@@ -203,7 +203,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.05,
+   "mark_price": 0.02,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -393,7 +393,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {}
   },
   {
@@ -8216,89 +8216,94 @@
    1792346429,
    94.46,
    83.85
+  ],
+  [
+   1792347330,
+   94.46,
+   83.63
   ]
  ],
  "last_run": {
-  "ts": 1792346429,
+  "ts": 1792347330,
   "error": null,
   "markets_scanned": 3662,
-  "candidates": 26,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 3448,
-   "no favorite in 80-95c band": 162,
-   "spread too wide": 26
+   "too little volume": 3447,
+   "no favorite in 80-95c band": 166,
+   "spread too wide": 24
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.49,
-    "volume_24h": 3613.67,
-    "score": 0.6157
-   },
-   {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.98,
-    "volume_24h": 3185.6,
-    "score": 0.6152
+    "hours_to_close": 22.73,
+    "volume_24h": 3261.89,
+    "score": 0.6166
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 24.24,
+    "volume_24h": 3613.67,
+    "score": 0.6163
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 836.84,
-    "score": 0.5481
+    "hours_to_close": 24.24,
+    "volume_24h": 786.84,
+    "score": 0.5467
    },
    {
     "label": "Will the maximum temperature be 60-61\u00b0 on Oct 19, 2026? \u2014 60\u00b0 to 61\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 345.84,
-    "score": 0.5417
+    "hours_to_close": 34.74,
+    "volume_24h": 350.84,
+    "score": 0.5425
    },
    {
     "label": "Will the maximum temperature be >73\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.99,
-    "volume_24h": 1182.9,
-    "score": 0.5205
+    "hours_to_close": 35.74,
+    "volume_24h": 1188.9,
+    "score": 0.521
    },
    {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 19, 2026? \u2014 83\u00b0 to 84\u00b0",
+    "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.99,
-    "volume_24h": 537.39,
-    "score": 0.5161
+    "price": 0.93,
+    "hours_to_close": 24.24,
+    "volume_24h": 588.39,
+    "score": 0.5072
+   },
+   {
+    "label": "Will the maximum temperature be <75\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or below",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.74,
+    "volume_24h": 248.62,
+    "score": 0.5001
    },
    {
     "label": "Will the maximum temperature be >67\u00b0 on Oct 19, 2026? \u2014 68\u00b0 or above",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 941.0,
-    "score": 0.4943
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 1592.56,
-    "score": 0.469
+    "score": 0.4946
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

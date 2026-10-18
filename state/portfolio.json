@@ -169,7 +169,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.88,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -325,7 +325,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -393,7 +393,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -410,7 +410,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {}
   }
  ],
@@ -8143,17 +8143,22 @@
    1792340129,
    93.88,
    84.04
+  ],
+  [
+   1792341029,
+   93.88,
+   84.44
   ]
  ],
  "last_run": {
-  "ts": 1792340129,
+  "ts": 1792341029,
   "error": null,
   "markets_scanned": 3360,
-  "candidates": 15,
+  "candidates": 17,
   "rejections": {
    "too little volume": 3239,
-   "no favorite in 80-95c band": 97,
-   "spread too wide": 9
+   "no favorite in 80-95c band": 91,
+   "spread too wide": 13
   },
   "opened": [],
   "settled": [],
@@ -8163,72 +8168,73 @@
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 3619.02,
-    "score": 0.612
+    "score": 0.6125
    },
    {
-    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 31.74,
-    "volume_24h": 2975.91,
-    "score": 0.5062
+    "price": 0.94,
+    "hours_to_close": 24.48,
+    "volume_24h": 2155.2,
+    "score": 0.5589
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 836.84,
-    "score": 0.4944
+    "score": 0.4949
    },
    {
-    "label": "Cleveland scores more in the 8th inning?",
+    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 31.74,
-    "volume_24h": 664.0,
-    "score": 0.4774
+    "price": 0.89,
+    "hours_to_close": 31.49,
+    "volume_24h": 2975.91,
+    "score": 0.4565
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 1592.34,
-    "score": 0.4553
+    "score": 0.4558
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 588.39,
-    "score": 0.4529
+    "score": 0.4534
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 19, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 567.48,
-    "score": 0.4517
+    "score": 0.4522
    },
    {
     "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
     "side": "no",
     "price": 0.8,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 496.85,
-    "score": 0.4174
+    "score": 0.4179
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 4,
-   "tracked only (below bet price floor)": 6
+   "related-market cap (Presidential approval)": 1,
+   "tracked only (below bet price floor)": 7
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

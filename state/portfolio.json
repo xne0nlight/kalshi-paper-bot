@@ -152,7 +152,7 @@
    "opened_ts": 1792275329,
    "close_ts": 1792357200.0,
    "score": 0.6456,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -169,7 +169,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -203,7 +203,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -220,7 +220,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.11,
+   "mark_price": 0.05,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -325,7 +325,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -353,7 +353,7 @@
    "opened_ts": 1792329328,
    "close_ts": 1792454400.0,
    "score": 0.3711,
-   "mark_price": 0.8,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792334735,
@@ -393,7 +393,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -8153,16 +8153,21 @@
    1792341932,
    93.88,
    84.28
+  ],
+  [
+   1792342830,
+   93.88,
+   83.96
   ]
  ],
  "last_run": {
-  "ts": 1792341932,
+  "ts": 1792342830,
   "error": null,
-  "markets_scanned": 3370,
-  "candidates": 14,
+  "markets_scanned": 3494,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 3245,
-   "no favorite in 80-95c band": 87,
+   "too little volume": 3324,
+   "no favorite in 80-95c band": 126,
    "spread too wide": 23,
    "nothing for sale at the ask": 1
   },
@@ -8171,77 +8176,77 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Doing Life be #2 US Netflix Movie on Oct 19, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 34.98,
+    "volume_24h": 6077.58,
+    "score": 0.635
+   },
+   {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 3619.02,
-    "score": 0.6131
+    "score": 0.6136
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.98,
     "volume_24h": 2156.25,
-    "score": 0.5595
+    "score": 0.5601
    },
    {
     "label": "Will the #1 Show on Netflix have at least 25 million views? \u2014 At least 25 million",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.22,
-    "volume_24h": 537.99,
-    "score": 0.5058
+    "hours_to_close": 34.98,
+    "volume_24h": 529.74,
+    "score": 0.5556
+   },
+   {
+    "label": "Will the maximum temperature be 60-61\u00b0 on Oct 19, 2026? \u2014 60\u00b0 to 61\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 345.84,
+    "score": 0.5405
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 836.84,
-    "score": 0.4954
+    "score": 0.4959
    },
    {
-    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+    "label": "Will the maximum temperature be >67\u00b0 on Oct 19, 2026? \u2014 68\u00b0 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 31.24,
-    "volume_24h": 3075.91,
-    "score": 0.458
+    "hours_to_close": 35.99,
+    "volume_24h": 531.0,
+    "score": 0.4945
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
+    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 19, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 588.39,
-    "score": 0.4539
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 19, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 25.74,
-    "volume_24h": 567.71,
-    "score": 0.4528
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
-    "side": "no",
-    "price": 0.81,
-    "hours_to_close": 25.74,
-    "volume_24h": 496.85,
-    "score": 0.4284
+    "price": 0.88,
+    "hours_to_close": 35.99,
+    "volume_24h": 469.39,
+    "score": 0.4804
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 3,
    "related-market cap (Presidential approval)": 1,
-   "tracked only (below bet price floor)": 7
+   "tracked only (below bet price floor)": 8
   },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 9,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

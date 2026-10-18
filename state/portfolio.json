@@ -241,7 +241,7 @@
    "opened_ts": 1792322129,
    "close_ts": 1792418400.0,
    "score": 0.5813,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -258,7 +258,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.78,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -308,7 +308,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.8,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -319,6 +319,11 @@
      "ts": 1792336529,
      "bid": 0.79,
      "proceeds": 3.89
+    },
+    "20": {
+     "ts": 1792357231,
+     "bid": 0.69,
+     "proceeds": 3.37
     }
    }
   },
@@ -336,7 +341,7 @@
    "opened_ts": 1792329328,
    "close_ts": 1792454400.0,
    "score": 0.3711,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792334735,
@@ -393,7 +398,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -410,7 +415,7 @@
    "opened_ts": 1792343730,
    "close_ts": 1792429140.0,
    "score": 0.601,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -8271,17 +8276,22 @@
    1792356330,
    94.46,
    82.53
+  ],
+  [
+   1792357231,
+   94.46,
+   81.75
   ]
  ],
  "last_run": {
-  "ts": 1792356330,
+  "ts": 1792357231,
   "error": null,
   "markets_scanned": 4534,
-  "candidates": 36,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 4247,
-   "no favorite in 80-95c band": 226,
-   "spread too wide": 25
+   "too little volume": 4246,
+   "no favorite in 80-95c band": 230,
+   "spread too wide": 31
   },
   "opened": [],
   "settled": [],
@@ -8291,71 +8301,71 @@
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 19, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.23,
-    "volume_24h": 2870.6,
-    "score": 0.6294
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 21.74,
-    "volume_24h": 4338.67,
-    "score": 0.6285
+    "hours_to_close": 19.97,
+    "volume_24h": 2881.76,
+    "score": 0.6303
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.23,
-    "volume_24h": 2003.44,
-    "score": 0.6177
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.24,
-    "volume_24h": 2079.83,
-    "score": 0.5907
+    "hours_to_close": 19.97,
+    "volume_24h": 2014.6,
+    "score": 0.6187
    },
    {
     "label": "Will the maximum temperature be >73\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 1230.77,
-    "score": 0.5853
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.23,
-    "volume_24h": 4924.53,
-    "score": 0.577
+    "score": 0.5856
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.23,
-    "volume_24h": 1625.7,
-    "score": 0.5709
+    "hours_to_close": 19.97,
+    "volume_24h": 1637.06,
+    "score": 0.5719
    },
    {
-    "label": "Ferro Carril Oeste wins",
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 19.97,
+    "volume_24h": 2885.15,
+    "score": 0.5704
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 19.97,
+    "volume_24h": 6083.69,
+    "score": 0.5647
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.24,
-    "volume_24h": 1118.64,
-    "score": 0.5605
+    "hours_to_close": 21.49,
+    "volume_24h": 772.69,
+    "score": 0.553
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.49,
+    "volume_24h": 4338.67,
+    "score": 0.5492
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -78,8 +78,29 @@
    "opened_ts": 1792253729,
    "close_ts": 1792382340.0,
    "score": 0.6003,
-   "mark_price": 0.93,
-   "shadow": {}
+   "mark_price": 0.01,
+   "shadow": {
+    "10": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "15": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "20": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "30": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    }
+   }
   },
   {
    "id": 120,
@@ -241,7 +262,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -274,7 +295,7 @@
    "opened_ts": 1792324831,
    "close_ts": 1792454400.0,
    "score": 0.459,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -291,7 +312,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.74,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -324,7 +345,7 @@
    "opened_ts": 1792329328,
    "close_ts": 1792454400.0,
    "score": 0.3711,
-   "mark_price": 0.76,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792334735,
@@ -381,7 +402,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.67,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -8348,17 +8369,22 @@
    1792362631,
    94.79,
    82.93
+  ],
+  [
+   1792363529,
+   94.79,
+   78.01
   ]
  ],
  "last_run": {
-  "ts": 1792362631,
+  "ts": 1792363529,
   "error": null,
-  "markets_scanned": 4522,
-  "candidates": 59,
+  "markets_scanned": 4519,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 4152,
-   "no favorite in 80-95c band": 284,
-   "spread too wide": 23,
+   "too little volume": 4144,
+   "no favorite in 80-95c band": 294,
+   "spread too wide": 20,
    "nothing for sale at the ask": 3,
    "favorite is slipping fast": 1
   },
@@ -8367,72 +8393,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $78,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 22.49,
-    "volume_24h": 11431.43,
-    "score": 0.6737
-   },
-   {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 22.49,
-    "volume_24h": 12493.63,
-    "score": 0.6637
+    "hours_to_close": 22.24,
+    "volume_24h": 13637.63,
+    "score": 0.6644
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 4340.6,
-    "score": 0.6536
+    "hours_to_close": 18.23,
+    "volume_24h": 3812.73,
+    "score": 0.6553
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,250 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.24,
+    "volume_24h": 8816.99,
+    "score": 0.6503
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 19, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.47,
-    "volume_24h": 3850.65,
-    "score": 0.6447
+    "hours_to_close": 18.23,
+    "volume_24h": 3957.45,
+    "score": 0.6465
    },
    {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,250 or above",
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 22.49,
-    "volume_24h": 8816.99,
-    "score": 0.6396
+    "hours_to_close": 22.24,
+    "volume_24h": 9196.09,
+    "score": 0.6416
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.47,
-    "volume_24h": 3023.71,
-    "score": 0.6369
+    "hours_to_close": 18.23,
+    "volume_24h": 3184.15,
+    "score": 0.6394
+   },
+   {
+    "label": "Tucuman wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.24,
+    "volume_24h": 7129.73,
+    "score": 0.6361
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.99,
-    "volume_24h": 3232.79,
-    "score": 0.634
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 1448.27,
-    "score": 0.6179
+    "hours_to_close": 19.74,
+    "volume_24h": 3367.29,
+    "score": 0.6361
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

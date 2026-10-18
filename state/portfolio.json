@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 17.61,
- "fees_paid": 3.04,
+ "cash": 12.84,
+ "fees_paid": 3.06,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 140,
+ "next_id": 141,
  "open_positions": [
   {
    "id": 99,
@@ -112,7 +112,7 @@
    "opened_ts": 1792253729,
    "close_ts": 1792382340.0,
    "score": 0.6003,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -169,7 +169,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -203,7 +203,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -237,7 +237,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.88,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -333,6 +333,23 @@
    "close_ts": 1792454400.0,
    "score": 0.459,
    "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 140,
+   "ticker": "KXRT-STRA-42",
+   "event_ticker": "KXRT-STRA",
+   "series": "KXRT",
+   "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792326629,
+   "close_ts": 1792418400.0,
+   "score": 0.6667,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -7943,96 +7960,101 @@
    1792325729,
    93.49,
    87.03
+  ],
+  [
+   1792326629,
+   93.49,
+   87.22
   ]
  ],
  "last_run": {
-  "ts": 1792325729,
+  "ts": 1792326629,
   "error": null,
   "markets_scanned": 4096,
-  "candidates": 16,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 3919,
-   "no favorite in 80-95c band": 142,
+   "too little volume": 3918,
+   "no favorite in 80-95c band": 139,
    "spread too wide": 18,
-   "nothing for sale at the ask": 1
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [
-   112
+  "opened": [
+   140
   ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.49,
+    "volume_24h": 23319.4,
+    "score": 0.6667
+   },
    {
     "label": "OpenAI market share this week? \u2014 Above 18.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 49128.56,
-    "score": 0.6662
+    "hours_to_close": 25.49,
+    "volume_24h": 48265.03,
+    "score": 0.6667
    },
    {
     "label": "OpenAI market share this week? \u2014 Above 18.1%",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 23547.62,
-    "score": 0.6362
+    "price": 0.93,
+    "hours_to_close": 25.49,
+    "volume_24h": 21679.81,
+    "score": 0.6467
    },
    {
     "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 3180.35,
-    "score": 0.6089
+    "score": 0.6094
    },
    {
     "label": "Will Trump say \"Nobel\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 1512.53,
-    "score": 0.6047
+    "score": 0.6052
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 2038.77,
-    "score": 0.5944
+    "hours_to_close": 25.49,
+    "volume_24h": 2062.25,
+    "score": 0.5953
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 29637.47,
-    "score": 0.5662
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 2973.69,
-    "score": 0.5185
+    "score": 0.5667
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.74,
-    "volume_24h": 4047.13,
-    "score": 0.4967
+    "hours_to_close": 25.49,
+    "volume_24h": 4087.82,
+    "score": 0.5476
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 3
+   "tracked only (below bet price floor)": 5
   },
-  "watch_added": 1,
-  "watch_graded": 15,
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

@@ -65,44 +65,6 @@
    "shadow": {}
   },
   {
-   "id": 112,
-   "ticker": "KXHIGHCHI-26OCT17-B55.5",
-   "event_ticker": "KXHIGHCHI-26OCT17",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 55-56\u00b0 on Oct 17, 2026? \u2014 55\u00b0 to 56\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1792185370,
-   "close_ts": 1792303200.0,
-   "score": 0.5571,
-   "mark_price": 0.02,
-   "shadow": {
-    "10": {
-     "ts": 1792219574,
-     "bid": 0.83,
-     "proceeds": 4.1
-    },
-    "15": {
-     "ts": 1792220475,
-     "bid": 0.75,
-     "proceeds": 3.68
-    },
-    "20": {
-     "ts": 1792237530,
-     "bid": 0.73,
-     "proceeds": 3.58
-    },
-    "30": {
-     "ts": 1792243829,
-     "bid": 0.61,
-     "proceeds": 2.96
-    }
-   }
-  },
-  {
    "id": 113,
    "ticker": "KXHIGHTPHX-26OCT17-T84",
    "event_ticker": "KXHIGHTPHX-26OCT17",
@@ -207,7 +169,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -241,7 +203,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -258,7 +220,7 @@
    "opened_ts": 1792294229,
    "close_ts": 1792418400.0,
    "score": 0.6419,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -292,7 +254,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.83,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -337,8 +299,24 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.96,
-   "shadow": {}
+   "mark_price": 0.73,
+   "shadow": {
+    "10": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    },
+    "15": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    },
+    "20": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    }
+   }
   },
   {
    "id": 139,
@@ -3321,6 +3299,48 @@
    "result": "NO",
    "closed_ts": 1792322129,
    "won": true
+  },
+  {
+   "id": 112,
+   "ticker": "KXHIGHCHI-26OCT17-B55.5",
+   "event_ticker": "KXHIGHCHI-26OCT17",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 55-56\u00b0 on Oct 17, 2026? \u2014 55\u00b0 to 56\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1792185370,
+   "close_ts": 1792303200.0,
+   "score": 0.5571,
+   "shadow": {
+    "10": {
+     "ts": 1792219574,
+     "bid": 0.83,
+     "proceeds": 4.1
+    },
+    "15": {
+     "ts": 1792220475,
+     "bid": 0.75,
+     "proceeds": 3.68
+    },
+    "20": {
+     "ts": 1792237530,
+     "bid": 0.73,
+     "proceeds": 3.58
+    },
+    "30": {
+     "ts": 1792243829,
+     "bid": 0.61,
+     "proceeds": 2.96
+    }
+   },
+   "payout": 0.0,
+   "pnl": -4.68,
+   "result": "YES",
+   "closed_ts": 1792325729,
+   "won": false
   }
  ],
  "equity_history": [
@@ -7918,95 +7938,101 @@
    1792324831,
    98.17,
    87.88
+  ],
+  [
+   1792325729,
+   93.49,
+   87.03
   ]
  ],
  "last_run": {
-  "ts": 1792324831,
+  "ts": 1792325729,
   "error": null,
   "markets_scanned": 4096,
-  "candidates": 12,
+  "candidates": 16,
   "rejections": {
    "too little volume": 3919,
    "no favorite in 80-95c band": 142,
-   "spread too wide": 23
+   "spread too wide": 18,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   139
+  "opened": [],
+  "settled": [
+   112
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump say \"Nobel\" before Oct 19, 2026?",
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 1512.53,
-    "score": 0.6041
+    "hours_to_close": 25.74,
+    "volume_24h": 49128.56,
+    "score": 0.6662
    },
    {
-    "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 2037.77,
-    "score": 0.5938
+    "label": "OpenAI market share this week? \u2014 Above 18.1%",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 25.74,
+    "volume_24h": 23547.62,
+    "score": 0.6362
    },
    {
     "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 3177.15,
-    "score": 0.5583
+    "hours_to_close": 25.74,
+    "volume_24h": 3180.35,
+    "score": 0.6089
+   },
+   {
+    "label": "Will Trump say \"Nobel\" before Oct 19, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.74,
+    "volume_24h": 1512.53,
+    "score": 0.6047
+   },
+   {
+    "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 25.74,
+    "volume_24h": 2038.77,
+    "score": 0.5944
+   },
+   {
+    "label": "Anthropic market share this week? \u2014 Above 4.5%",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 25.74,
+    "volume_24h": 29637.47,
+    "score": 0.5662
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 2973.69,
-    "score": 0.5181
+    "score": 0.5185
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 4047.13,
-    "score": 0.4962
-   },
-   {
-    "label": "Will the brent crude oil close price be above 111.00 USD/Bbl on October 19, 2026 at 5:00 PM EDT? \u2014 Above $111.00",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 843.0,
-    "score": 0.4733
-   },
-   {
-    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 35.99,
-    "volume_24h": 2836.12,
-    "score": 0.459
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 30.49,
-    "volume_24h": 1675.65,
-    "score": 0.4494
+    "score": 0.4967
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 2
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 15,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

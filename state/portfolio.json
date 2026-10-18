@@ -152,7 +152,7 @@
    "opened_ts": 1792275329,
    "close_ts": 1792357200.0,
    "score": 0.6456,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -169,7 +169,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -203,7 +203,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -220,7 +220,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.38,
+   "mark_price": 0.23,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -348,7 +348,7 @@
    "opened_ts": 1792329328,
    "close_ts": 1792454400.0,
    "score": 0.3711,
-   "mark_price": 0.75,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792334735,
@@ -371,7 +371,7 @@
    "opened_ts": 1792333829,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -405,7 +405,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.82,
+   "mark_price": 0.79,
    "shadow": {}
   }
  ],
@@ -8108,23 +8108,25 @@
    1792334735,
    93.88,
    84.06
+  ],
+  [
+   1792335629,
+   93.88,
+   83.57
   ]
  ],
  "last_run": {
-  "ts": 1792334735,
+  "ts": 1792335629,
   "error": null,
-  "markets_scanned": 4110,
-  "candidates": 17,
+  "markets_scanned": 3407,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 3925,
-   "no favorite in 80-95c band": 145,
-   "spread too wide": 22,
+   "too little volume": 3288,
+   "no favorite in 80-95c band": 88,
+   "spread too wide": 12,
    "favorite is slipping fast": 1
   },
-  "opened": [
-   143,
-   144
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -8132,72 +8134,72 @@
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.24,
-    "volume_24h": 2508.91,
-    "score": 0.6268
-   },
-   {
-    "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 18, 2026 be above 56.6%? \u2014 Above 56.6%",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.24,
-    "volume_24h": 8750.23,
-    "score": 0.6175
+    "hours_to_close": 22.99,
+    "volume_24h": 2427.19,
+    "score": 0.6263
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 3137.55,
-    "score": 0.6045
+    "score": 0.605
    },
    {
     "label": "Will Trump say \"TDS / Trump Derangement Syndrome\" before Oct 19, 2026?",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.24,
-    "volume_24h": 4183.07,
-    "score": 0.6034
-   },
-   {
-    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
-    "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.24,
-    "volume_24h": 3582.85,
-    "score": 0.5584
+    "hours_to_close": 22.99,
+    "volume_24h": 4273.45,
+    "score": 0.5647
    },
    {
     "label": "Will Trump say \"Stupid Question\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.24,
-    "volume_24h": 3212.67,
-    "score": 0.5048
+    "hours_to_close": 22.99,
+    "volume_24h": 3698.23,
+    "score": 0.56
    },
    {
-    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
     "side": "no",
-    "price": 0.83,
-    "hours_to_close": 23.24,
-    "volume_24h": 25081.29,
-    "score": 0.5018
+    "price": 0.92,
+    "hours_to_close": 22.99,
+    "volume_24h": 3584.25,
+    "score": 0.509
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 835.75,
-    "score": 0.4914
+    "score": 0.4919
+   },
+   {
+    "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 32.99,
+    "volume_24h": 2966.81,
+    "score": 0.4643
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.49,
+    "volume_24h": 1637.92,
+    "score": 0.4538
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 3
+   "tracked only (below bet price floor)": 4
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

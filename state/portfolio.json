@@ -5,8 +5,8 @@
  "cash": 13.14,
  "fees_paid": 2.76,
  "peak_equity": 109.65,
- "day": "2026-10-17",
- "day_start_equity": 103.98,
+ "day": "2026-10-18",
+ "day_start_equity": 104.99,
  "next_id": 130,
  "open_positions": [
   {
@@ -317,7 +317,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.6082,
-   "mark_price": 0.77,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792280729,
@@ -430,7 +430,7 @@
    "opened_ts": 1792266328,
    "close_ts": 1792368000.0,
    "score": 0.594,
-   "mark_price": 0.87,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -447,7 +447,7 @@
    "opened_ts": 1792275329,
    "close_ts": 1792357200.0,
    "score": 0.6456,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -7412,17 +7412,23 @@
    1792280729,
    104.99,
    86.21
+  ],
+  [
+   1792281633,
+   104.99,
+   87.41
   ]
  ],
  "last_run": {
-  "ts": 1792280729,
+  "ts": 1792281633,
   "error": null,
-  "markets_scanned": 1583,
-  "candidates": 72,
+  "markets_scanned": 1590,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 1206,
-   "no favorite in 80-95c band": 279,
+   "too little volume": 1211,
+   "no favorite in 80-95c band": 286,
    "spread too wide": 25,
+   "nothing for sale at the ask": 2,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -7433,70 +7439,70 @@
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.23,
-    "volume_24h": 7630.73,
-    "score": 0.6816
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 39.0 on Oct 18, 2026? \u2014 Above 39.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 17.23,
-    "volume_24h": 4994.18,
-    "score": 0.6678
+    "hours_to_close": 16.97,
+    "volume_24h": 7967.45,
+    "score": 0.684
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.24,
+    "price": 0.95,
+    "hours_to_close": 20.99,
     "volume_24h": 27168.83,
-    "score": 0.6671
+    "score": 0.6778
    },
    {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.24,
-    "volume_24h": 9116.17,
-    "score": 0.6641
+    "price": 0.93,
+    "hours_to_close": 16.97,
+    "volume_24h": 8031.83,
+    "score": 0.6643
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.23,
-    "volume_24h": 5323.79,
-    "score": 0.6599
+    "hours_to_close": 16.97,
+    "volume_24h": 5394.03,
+    "score": 0.6613
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.99,
+    "volume_24h": 77369.57,
+    "score": 0.66
+   },
+   {
+    "label": "Kent St. wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.99,
+    "volume_24h": 549915.58,
+    "score": 0.66
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.99,
+    "volume_24h": 9116.17,
+    "score": 0.6548
    },
    {
     "label": "Will it rain in Newark between Oct 17 and Oct 18, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.24,
+    "hours_to_close": 28.99,
     "volume_24h": 5713.06,
-    "score": 0.6414
-   },
-   {
-    "label": "Will Trump's RCP approval average be below 38.4 on Oct 18, 2026? \u2014 Below 38.4%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.23,
-    "volume_24h": 21562.77,
-    "score": 0.6404
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.24,
-    "volume_24h": 9020.64,
-    "score": 0.6361
+    "score": 0.6418
    }
   ],
   "skipped": {},
-  "watch_added": 10,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -241,7 +241,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.9,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -291,7 +291,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.71,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -364,7 +364,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.65,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -8338,18 +8338,24 @@
    1792360835,
    94.79,
    82.56
+  ],
+  [
+   1792361728,
+   94.79,
+   83.07
   ]
  ],
  "last_run": {
-  "ts": 1792360835,
+  "ts": 1792361728,
   "error": null,
-  "markets_scanned": 4528,
-  "candidates": 35,
+  "markets_scanned": 4525,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 4199,
-   "no favorite in 80-95c band": 263,
-   "spread too wide": 29,
-   "nothing for sale at the ask": 2
+   "too little volume": 4164,
+   "no favorite in 80-95c band": 282,
+   "spread too wide": 20,
+   "nothing for sale at the ask": 3,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -8358,71 +8364,71 @@
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $78,750 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 22.99,
-    "volume_24h": 9898.43,
-    "score": 0.6421
+    "price": 0.95,
+    "hours_to_close": 22.74,
+    "volume_24h": 10495.43,
+    "score": 0.6731
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 12045.63,
+    "score": 0.6531
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.24,
+    "volume_24h": 4340.6,
+    "score": 0.6528
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 19, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.97,
-    "volume_24h": 3435.95,
-    "score": 0.6393
+    "hours_to_close": 18.73,
+    "volume_24h": 3709.29,
+    "score": 0.6426
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,250 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.74,
+    "volume_24h": 8816.99,
+    "score": 0.639
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.24,
+    "volume_24h": 3232.79,
+    "score": 0.6333
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.97,
-    "volume_24h": 2541.95,
-    "score": 0.6295
+    "hours_to_close": 18.73,
+    "volume_24h": 2748.23,
+    "score": 0.6329
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 18.97,
-    "volume_24h": 4386.97,
-    "score": 0.6073
-   },
-   {
-    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,520 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.99,
-    "volume_24h": 1284.87,
-    "score": 0.6056
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.99,
-    "volume_24h": 1257.69,
-    "score": 0.6049
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 22.99,
-    "volume_24h": 11232.63,
-    "score": 0.6024
-   },
-   {
-    "label": "Will the maximum temperature be >73\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 1240.77,
-    "score": 0.5873
+    "hours_to_close": 18.73,
+    "volume_24h": 5183.01,
+    "score": 0.6135
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 6,
+  "watch_added": 15,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

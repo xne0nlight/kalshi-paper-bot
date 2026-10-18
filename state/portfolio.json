@@ -374,7 +374,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -7763,17 +7763,22 @@
    1792311329,
    106.68,
    88.37
+  ],
+  [
+   1792312229,
+   106.68,
+   88.3
   ]
  ],
  "last_run": {
-  "ts": 1792311329,
+  "ts": 1792312229,
   "error": null,
-  "markets_scanned": 5312,
-  "candidates": 50,
+  "markets_scanned": 5314,
+  "candidates": 51,
   "rejections": {
-   "too little volume": 4809,
-   "no favorite in 80-95c band": 419,
-   "spread too wide": 34
+   "too little volume": 4807,
+   "no favorite in 80-95c band": 423,
+   "spread too wide": 33
   },
   "opened": [],
   "settled": [],
@@ -7783,69 +7788,69 @@
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.74,
+    "hours_to_close": 12.49,
     "volume_24h": 21144.81,
-    "score": 0.692
+    "score": 0.6936
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 12.49,
+    "volume_24h": 61358.92,
+    "score": 0.6836
    },
    {
     "label": "Will average **gas prices** be above $4.2900? \u2014 Above 4.2900",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.73,
-    "volume_24h": 23690.81,
-    "score": 0.6816
+    "hours_to_close": 19.48,
+    "volume_24h": 23709.66,
+    "score": 0.6824
    },
    {
-    "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 12.74,
-    "volume_24h": 61358.92,
-    "score": 0.672
+    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.49,
+    "volume_24h": 20906.42,
+    "score": 0.6592
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.49,
     "volume_24h": 29494.41,
-    "score": 0.6588
+    "score": 0.6592
    },
    {
-    "label": "Will it rain in Tampa on Oct 18, 2026?",
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.74,
-    "volume_24h": 5964.14,
-    "score": 0.6517
-   },
-   {
-    "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.74,
-    "volume_24h": 20906.42,
-    "score": 0.6488
+    "price": 0.92,
+    "hours_to_close": 19.48,
+    "volume_24h": 44371.47,
+    "score": 0.6524
    },
    {
     "label": "Will the maximum temperature be 60-61\u00b0 on Oct 18, 2026? \u2014 60\u00b0 to 61\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 5103.31,
-    "score": 0.6466
+    "score": 0.6474
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 12.74,
-    "volume_24h": 7825.84,
-    "score": 0.6441
+    "hours_to_close": 12.49,
+    "volume_24h": 7852.42,
+    "score": 0.6457
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 44
  },

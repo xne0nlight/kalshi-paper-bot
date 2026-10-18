@@ -408,7 +408,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.58,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792298729,
@@ -441,7 +441,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -7650,18 +7650,24 @@
    1792299628,
    105.55,
    85.85
+  ],
+  [
+   1792300529,
+   105.55,
+   86.74
   ]
  ],
  "last_run": {
-  "ts": 1792299628,
+  "ts": 1792300529,
   "error": null,
   "markets_scanned": 3695,
-  "candidates": 50,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 3233,
-   "no favorite in 80-95c band": 381,
-   "spread too wide": 30,
-   "nothing for sale at the ask": 1
+   "too little volume": 3236,
+   "no favorite in 80-95c band": 378,
+   "spread too wide": 26,
+   "nothing for sale at the ask": 1,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -7671,69 +7677,69 @@
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.99,
-    "volume_24h": 14607.53,
-    "score": 0.6855
+    "hours_to_close": 15.74,
+    "volume_24h": 14656.08,
+    "score": 0.6866
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.99,
-    "volume_24h": 58002.87,
-    "score": 0.6855
+    "hours_to_close": 15.74,
+    "volume_24h": 58581.23,
+    "score": 0.6866
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 18, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 11.98,
-    "volume_24h": 22461.82,
-    "score": 0.6768
+    "hours_to_close": 11.73,
+    "volume_24h": 22982.44,
+    "score": 0.6785
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 11.98,
-    "volume_24h": 18536.56,
-    "score": 0.6668
+    "hours_to_close": 11.73,
+    "volume_24h": 20536.56,
+    "score": 0.6685
    },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 29497.37,
-    "score": 0.6539
-   },
-   {
-    "label": "OpenAI market share this week? \u2014 Above 18.4%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 49390.54,
-    "score": 0.6439
+    "hours_to_close": 32.74,
+    "volume_24h": 29498.41,
+    "score": 0.6542
    },
    {
     "label": "DeepSeek market share this week? \u2014 Above 24.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 11884.17,
-    "score": 0.6439
+    "score": 0.6442
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 15.99,
-    "volume_24h": 17328.42,
-    "score": 0.6355
+    "hours_to_close": 15.74,
+    "volume_24h": 17341.25,
+    "score": 0.6366
+   },
+   {
+    "label": "Will it rain in Tampa on Oct 18, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.74,
+    "volume_24h": 5663.6,
+    "score": 0.6321
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

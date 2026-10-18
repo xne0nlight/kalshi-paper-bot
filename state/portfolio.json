@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 28.77,
- "fees_paid": 2.98,
+ "cash": 23.05,
+ "fees_paid": 3.0,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 138,
+ "next_id": 139,
  "open_positions": [
   {
    "id": 99,
@@ -275,7 +275,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.96,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.84,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -316,6 +316,23 @@
    "close_ts": 1792418400.0,
    "score": 0.5813,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 138,
+   "ticker": "KXDEEPSHARE-26OCT19-24.4",
+   "event_ticker": "KXDEEPSHARE-26OCT19",
+   "series": "KXDEEPSHARE",
+   "label": "DeepSeek market share this week? \u2014 Above 24.4%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792323030,
+   "close_ts": 1792418400.0,
+   "score": 0.6646,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -7864,94 +7881,92 @@
    1792322129,
    98.17,
    88.31
+  ],
+  [
+   1792323030,
+   98.17,
+   88.29
   ]
  ],
  "last_run": {
-  "ts": 1792322129,
+  "ts": 1792323030,
   "error": null,
   "markets_scanned": 4065,
-  "candidates": 12,
+  "candidates": 13,
   "rejections": {
-   "too little volume": 3908,
-   "no favorite in 80-95c band": 134,
+   "too little volume": 3909,
+   "no favorite in 80-95c band": 132,
    "spread too wide": 11
   },
   "opened": [
-   137
+   138
   ],
-  "settled": [
-   103,
-   104,
-   105,
-   106,
-   110,
-   114
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "DeepSeek market share this week? \u2014 Above 24.4%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.49,
+    "volume_24h": 20245.16,
+    "score": 0.6646
+   },
    {
     "label": "Anthropic market share this week? \u2014 Above 4.5%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 29609.47,
-    "score": 0.6641
-   },
-   {
-    "label": "OpenAI market share this week? \u2014 Above 18.1%",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 26.74,
-    "volume_24h": 24574.27,
-    "score": 0.6341
+    "score": 0.6646
    },
    {
     "label": "Will Trump say \"Zohran / Mamdani\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.74,
-    "volume_24h": 1974.04,
-    "score": 0.5813
+    "hours_to_close": 26.49,
+    "volume_24h": 1984.48,
+    "score": 0.582
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 3052.18,
-    "score": 0.5577
+    "score": 0.5581
    },
    {
     "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 3062.26,
-    "score": 0.5556
+    "score": 0.5561
+   },
+   {
+    "label": "OpenAI market share this week? \u2014 Above 18.4%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 26.49,
+    "volume_24h": 50060.5,
+    "score": 0.5346
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 578.49,
-    "score": 0.4836
+    "score": 0.484
    },
    {
     "label": "Will the brent crude oil close price be above 111.00 USD/Bbl on October 19, 2026 at 5:00 PM EDT? \u2014 Above $111.00",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 843.0,
-    "score": 0.4723
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 31.24,
-    "volume_24h": 885.65,
-    "score": 0.4675
+    "score": 0.4727
    }
   ],
   "skipped": {
@@ -7959,8 +7974,8 @@
    "tracked only (below bet price floor)": 2
   },
   "watch_added": 0,
-  "watch_graded": 37,
-  "api_calls": 44
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

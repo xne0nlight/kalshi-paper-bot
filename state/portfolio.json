@@ -78,7 +78,7 @@
    "opened_ts": 1792253729,
    "close_ts": 1792382340.0,
    "score": 0.6003,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -135,7 +135,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -220,7 +220,7 @@
    "opened_ts": 1792304133,
    "close_ts": 1792418400.0,
    "score": 0.6456,
-   "mark_price": 0.17,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1792311329,
@@ -258,7 +258,7 @@
    "opened_ts": 1792322129,
    "close_ts": 1792418400.0,
    "score": 0.5813,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792323030,
    "close_ts": 1792418400.0,
    "score": 0.6646,
-   "mark_price": 0.81,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792325729,
@@ -308,7 +308,7 @@
    "opened_ts": 1792324831,
    "close_ts": 1792454400.0,
    "score": 0.459,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -325,7 +325,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -8133,17 +8133,22 @@
    1792338328,
    93.88,
    83.52
+  ],
+  [
+   1792339231,
+   93.88,
+   83.6
   ]
  ],
  "last_run": {
-  "ts": 1792338328,
+  "ts": 1792339231,
   "error": null,
-  "markets_scanned": 3406,
-  "candidates": 16,
+  "markets_scanned": 3360,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 3286,
-   "no favorite in 80-95c band": 94,
-   "spread too wide": 10
+   "too little volume": 3239,
+   "no favorite in 80-95c band": 96,
+   "spread too wide": 11
   },
   "opened": [],
   "settled": [],
@@ -8153,73 +8158,73 @@
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 19, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.74,
-    "volume_24h": 3121.86,
-    "score": 0.6062
-   },
-   {
-    "label": "Will Trump say \"Ceasefire\" before Oct 19, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 3803.1,
-    "score": 0.5829
+    "hours_to_close": 26.49,
+    "volume_24h": 3114.02,
+    "score": 0.6066
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 19, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 836.84,
-    "score": 0.5434
-   },
-   {
-    "label": "Will Trump say \"Stupid Question\" before Oct 19, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 4423.83,
-    "score": 0.5378
+    "score": 0.4939
    },
    {
     "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 2975.91,
-    "score": 0.5054
+    "score": 0.4558
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 1637.92,
-    "score": 0.4552
+    "score": 0.4557
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 19, 2026? \u2014 Above $102.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 588.39,
-    "score": 0.4519
+    "score": 0.4524
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 19, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 567.48,
-    "score": 0.4507
+    "score": 0.4512
+   },
+   {
+    "label": "Cleveland scores more in the 2nd inning?",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 31.99,
+    "volume_24h": 1043.79,
+    "score": 0.4417
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.8,
+    "hours_to_close": 26.49,
+    "volume_24h": 496.85,
+    "score": 0.4169
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 4,
-   "tracked only (below bet price floor)": 4
+   "tracked only (below bet price floor)": 5
   },
   "watch_added": 1,
-  "watch_graded": 0,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

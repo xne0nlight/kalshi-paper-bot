@@ -317,7 +317,7 @@
    "opened_ts": 1792253729,
    "close_ts": 1792382340.0,
    "score": 0.6003,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -374,7 +374,7 @@
    "opened_ts": 1792260031,
    "close_ts": 1792342740.0,
    "score": 0.6174,
-   "mark_price": 0.85,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -408,7 +408,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -425,7 +425,7 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -7614,17 +7614,22 @@
    1792296031,
    105.55,
    87.93
+  ],
+  [
+   1792296928,
+   105.55,
+   88.52
   ]
  ],
  "last_run": {
-  "ts": 1792296031,
+  "ts": 1792296928,
   "error": null,
-  "markets_scanned": 3227,
+  "markets_scanned": 3224,
   "candidates": 52,
   "rejections": {
-   "too little volume": 2762,
-   "no favorite in 80-95c band": 382,
-   "spread too wide": 29,
+   "too little volume": 2756,
+   "no favorite in 80-95c band": 388,
+   "spread too wide": 26,
    "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
@@ -7633,72 +7638,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.97,
-    "volume_24h": 9905.08,
-    "score": 0.7104
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 12.97,
-    "volume_24h": 8381.0,
-    "score": 0.6949
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 12.97,
-    "volume_24h": 9946.71,
-    "score": 0.6905
-   },
-   {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.99,
-    "volume_24h": 12001.18,
-    "score": 0.6813
+    "price": 0.95,
+    "hours_to_close": 16.74,
+    "volume_24h": 12007.18,
+    "score": 0.6923
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.99,
-    "volume_24h": 56537.34,
-    "score": 0.6813
+    "hours_to_close": 16.74,
+    "volume_24h": 57541.2,
+    "score": 0.6823
    },
    {
     "label": "Utah wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 1052151.16,
-    "score": 0.6808
+    "hours_to_close": 19.74,
+    "volume_24h": 1156927.05,
+    "score": 0.6816
    },
    {
     "label": "Colorado wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 2811972.02,
-    "score": 0.6808
+    "hours_to_close": 19.74,
+    "volume_24h": 3230929.22,
+    "score": 0.6816
    },
    {
     "label": "Ethereum price at Oct 18, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 16.99,
+    "hours_to_close": 16.74,
     "volume_24h": 5482.51,
-    "score": 0.6718
+    "score": 0.6728
+   },
+   {
+    "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 16.74,
+    "volume_24h": 14508.53,
+    "score": 0.6623
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 18, 2026? \u2014 38.4%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 12.73,
+    "volume_24h": 15307.65,
+    "score": 0.6621
+   },
+   {
+    "label": "Anthropic market share this week? \u2014 Above 4.5%",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 33.74,
+    "volume_24h": 29497.37,
+    "score": 0.6428
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

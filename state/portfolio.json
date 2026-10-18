@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.21,
- "fees_paid": 2.84,
+ "cash": 13.6,
+ "fees_paid": 2.87,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 132,
+ "next_id": 133,
  "open_positions": [
   {
    "id": 99,
@@ -317,7 +317,7 @@
    "opened_ts": 1792246528,
    "close_ts": 1792368000.0,
    "score": 0.6082,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792280729,
@@ -379,7 +379,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.9,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792284330,
@@ -423,23 +423,6 @@
    "shadow": {}
   },
   {
-   "id": 124,
-   "ticker": "KXNCAAF1H-26OCT16WISUCLA-TIE",
-   "event_ticker": "KXNCAAF1H-26OCT16WISUCLA",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1792266328,
-   "close_ts": 1792368000.0,
-   "score": 0.594,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 128,
    "ticker": "KXBTCD-26OCT1817-T79749.99",
    "event_ticker": "KXBTCD-26OCT1817",
@@ -471,6 +454,23 @@
    "close_ts": 1792368000.0,
    "score": 0.5924,
    "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 132,
+   "ticker": "KXHIGHNY-26OCT18-B54.5",
+   "event_ticker": "KXHIGHNY-26OCT18",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 54-55\u00b0 on Oct 18, 2026? \u2014 54\u00b0 to 55\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1792286129,
+   "close_ts": 1792386000.0,
+   "score": 0.5918,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -3107,6 +3107,27 @@
    "pnl": 0.22,
    "result": "NO",
    "closed_ts": 1792285234,
+   "won": true
+  },
+  {
+   "id": 124,
+   "ticker": "KXNCAAF1H-26OCT16WISUCLA-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT16WISUCLA",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1792266328,
+   "close_ts": 1792368000.0,
+   "score": 0.594,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "NO",
+   "closed_ts": 1792286129,
    "won": true
   }
  ],
@@ -7485,23 +7506,28 @@
    1792285234,
    105.65,
    88.3
+  ],
+  [
+   1792286129,
+   106.04,
+   88.24
   ]
  ],
  "last_run": {
-  "ts": 1792285234,
+  "ts": 1792286129,
   "error": null,
-  "markets_scanned": 1577,
-  "candidates": 54,
+  "markets_scanned": 1574,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 1199,
-   "no favorite in 80-95c band": 293,
+   "too little volume": 1196,
+   "no favorite in 80-95c band": 285,
    "spread too wide": 31
   },
   "opened": [
-   131
+   132
   ],
   "settled": [
-   130
+   124
   ],
   "halt": null,
   "top_candidates": [
@@ -7509,69 +7535,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.97,
-    "volume_24h": 8577.9,
-    "score": 0.6906
+    "hours_to_close": 15.73,
+    "volume_24h": 8643.9,
+    "score": 0.6919
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 12972.91,
-    "score": 0.6808
+    "hours_to_close": 19.74,
+    "volume_24h": 13128.36,
+    "score": 0.6816
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 12989.3,
-    "score": 0.6808
+    "hours_to_close": 19.74,
+    "volume_24h": 13341.38,
+    "score": 0.6816
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.97,
-    "volume_24h": 6413.54,
-    "score": 0.6711
+    "hours_to_close": 15.73,
+    "volume_24h": 6546.59,
+    "score": 0.6729
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 15.97,
-    "volume_24h": 8642.28,
-    "score": 0.6708
-   },
-   {
-    "label": "South Florida wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 22.99,
-    "volume_24h": 133224.32,
-    "score": 0.6624
-   },
-   {
-    "label": "Kent St. wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.99,
-    "volume_24h": 750226.69,
-    "score": 0.6624
+    "hours_to_close": 15.73,
+    "volume_24h": 8708.28,
+    "score": 0.6722
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.99,
-    "volume_24h": 9875.59,
-    "score": 0.6504
+    "hours_to_close": 19.74,
+    "volume_24h": 10251.14,
+    "score": 0.6516
+   },
+   {
+    "label": "South Florida wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.74,
+    "volume_24h": 144892.39,
+    "score": 0.6431
+   },
+   {
+    "label": "Kent St. wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 22.74,
+    "volume_24h": 848189.65,
+    "score": 0.6431
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

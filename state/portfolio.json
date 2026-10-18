@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.6,
- "fees_paid": 2.87,
+ "cash": 13.88,
+ "fees_paid": 2.89,
  "peak_equity": 109.65,
  "day": "2026-10-18",
  "day_start_equity": 104.99,
- "next_id": 133,
+ "next_id": 134,
  "open_positions": [
   {
    "id": 99,
@@ -304,34 +304,6 @@
    "shadow": {}
   },
   {
-   "id": 117,
-   "ticker": "KXNCAAFGAME-26OCT16KENTUSF-KENT",
-   "event_ticker": "KXNCAAFGAME-26OCT16KENTUSF",
-   "series": "KXNCAAFGAME",
-   "label": "Kent St. wins",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.92,
-   "fee": 0.04,
-   "cost": 5.56,
-   "opened_ts": 1792246528,
-   "close_ts": 1792368000.0,
-   "score": 0.6082,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792280729,
-     "bid": 0.77,
-     "proceeds": 4.54
-    },
-    "15": {
-     "ts": 1792280729,
-     "bid": 0.77,
-     "proceeds": 4.54
-    }
-   }
-  },
-  {
    "id": 119,
    "ticker": "KXANTHVSPEND-18OCT26-T41P2",
    "event_ticker": "KXANTHVSPEND-18OCT26",
@@ -379,7 +351,7 @@
    "opened_ts": 1792254631,
    "close_ts": 1792360800.0,
    "score": 0.5626,
-   "mark_price": 0.88,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792284330,
@@ -459,7 +431,7 @@
    "opened_ts": 1792285234,
    "close_ts": 1792368000.0,
    "score": 0.5924,
-   "mark_price": 0.86,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -476,7 +448,24 @@
    "opened_ts": 1792286129,
    "close_ts": 1792386000.0,
    "score": 0.5918,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 133,
+   "ticker": "KXNCAAFGAME-26OCT16OHIOSAC-SAC",
+   "event_ticker": "KXNCAAFGAME-26OCT16OHIOSAC",
+   "series": "KXNCAAFGAME",
+   "label": "Sacramento St. wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792291528,
+   "close_ts": 1792368000.0,
+   "score": 0.6771,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -3134,6 +3123,38 @@
    "pnl": 0.39,
    "result": "NO",
    "closed_ts": 1792286129,
+   "won": true
+  },
+  {
+   "id": 117,
+   "ticker": "KXNCAAFGAME-26OCT16KENTUSF-KENT",
+   "event_ticker": "KXNCAAFGAME-26OCT16KENTUSF",
+   "series": "KXNCAAFGAME",
+   "label": "Kent St. wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1792246528,
+   "close_ts": 1792368000.0,
+   "score": 0.6082,
+   "shadow": {
+    "10": {
+     "ts": 1792280729,
+     "bid": 0.77,
+     "proceeds": 4.54
+    },
+    "15": {
+     "ts": 1792280729,
+     "bid": 0.77,
+     "proceeds": 4.54
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "NO",
+   "closed_ts": 1792291528,
    "won": true
   }
  ],
@@ -7542,90 +7563,99 @@
    1792290630,
    106.04,
    88.69
+  ],
+  [
+   1792291528,
+   106.48,
+   88.86
   ]
  ],
  "last_run": {
-  "ts": 1792290630,
+  "ts": 1792291528,
   "error": null,
-  "markets_scanned": 2346,
-  "candidates": 67,
+  "markets_scanned": 2335,
+  "candidates": 73,
   "rejections": {
-   "too little volume": 1872,
-   "no favorite in 80-95c band": 375,
-   "spread too wide": 30,
+   "too little volume": 1864,
+   "no favorite in 80-95c band": 368,
+   "spread too wide": 28,
    "nothing for sale at the ask": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   133
+  ],
+  "settled": [
+   117
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 18, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.47,
-    "volume_24h": 9503.96,
-    "score": 0.7009
+    "hours_to_close": 14.23,
+    "volume_24h": 9567.96,
+    "score": 0.7024
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 18.49,
-    "volume_24h": 16915.62,
-    "score": 0.6857
+    "hours_to_close": 18.24,
+    "volume_24h": 17056.18,
+    "score": 0.6866
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 18, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.47,
-    "volume_24h": 7750.95,
-    "score": 0.6843
+    "hours_to_close": 14.23,
+    "volume_24h": 7976.83,
+    "score": 0.6865
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 18, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 14.47,
-    "volume_24h": 9545.59,
-    "score": 0.6811
+    "hours_to_close": 14.23,
+    "volume_24h": 9609.59,
+    "score": 0.6825
+   },
+   {
+    "label": "Sacramento St. wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.24,
+    "volume_24h": 327819.3,
+    "score": 0.6771
+   },
+   {
+    "label": "Ohio wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.24,
+    "volume_24h": 50911.84,
+    "score": 0.6771
    },
    {
     "label": "Bitcoin price on Oct 18, 2026? \u2014 $82,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.49,
-    "volume_24h": 13841.77,
-    "score": 0.6757
+    "hours_to_close": 18.24,
+    "volume_24h": 14023.77,
+    "score": 0.6766
    },
    {
     "label": "DeepSeek market share this week? \u2014 Above 24.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 10033.67,
-    "score": 0.6506
-   },
-   {
-    "label": "DeepSeek market share this week? \u2014 Above 23.9%",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 10382.24,
-    "score": 0.6506
-   },
-   {
-    "label": "Anthropic market share this week? \u2014 Above 4.5%",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 35.49,
-    "volume_24h": 30825.37,
-    "score": 0.6406
+    "score": 0.6509
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -105,6 +105,49 @@ python paper_bot.py --reset-weather    # fresh $100 weather account (favorites u
 python paper_bot.py --favorites-only   # run just the favorites bot
 ```
 
+## Sports parlay bot (third tab)
+
+Paper parlays of 2–4 **team-to-win** legs across NFL, college football, NBA and NHL,
+run in **two $100 accounts side by side with the same picks**:
+
+| Account | How the parlay is built | Cost |
+|---|---|---|
+| **Rolling** | Leg 1 is bought as a normal single-game contract with a limit order. If it wins, the whole payout rides on leg 2, and so on. Same payout as a parlay. | ~1–2¢ per leg |
+| **Combo (simulated)** | The same legs bought as one Kalshi combo, locked in up front | ~15% of the stake: what combo bettors actually lost Jan–Apr 2026 |
+
+**How legs are picked.** For each upcoming game, sportsbook moneylines (up to 10
+books, sharp ones like Pinnacle weighted up) are converted into a fair win
+probability with each book's margin removed. A team becomes a leg only if:
+- that fair probability is at least 2 points better than the price we'd pay on Kalshi,
+- the team is between a 35% and 85% chance to win,
+- the books and Kalshi don't disagree wildly (that usually means breaking news).
+
+ESPN adds start times, live status and team records.
+
+**Timing-safe chains.** A leg can only follow a game that has finished and
+settled, e.g. Sunday 1 PM → Sunday night → Monday night. If a later leg no longer
+has an edge, or can't be bought before kickoff, the chain stops and keeps its
+winnings ("banked"). Stakes are quarter-Kelly, max 4% of the account per parlay.
+
+**"Are the sportsbooks beating Kalshi?"** grades every matched game after it ends.
+The whole strategy assumes the books are more accurate. If Kalshi wins that
+comparison, there's no edge to bet.
+
+### Setup: free Odds API key (one time)
+
+1. Sign up at **the-odds-api.com** (free plan, 500 credits/month) and copy your API key.
+2. GitHub → your repo → **Settings → Secrets and variables → Actions → New repository secret**.
+   Name: `ODDS_API_KEY`, value: the key.
+3. Done. The workflow passes it to the bot. Without it the sports tab just says it's waiting for the key.
+
+The bot rations credits automatically: it fetches odds only for leagues with Kalshi
+games coming up, at most every 4 hours, and never spends more than
+(credits left − 20) ÷ (days left in the month) per day.
+
+```
+python paper_bot.py --reset-sports     # fresh $100 sports accounts (others untouched)
+```
+
 ## Shadow stop-loss (logging only)
 
 The bot never sells early; every bet is held to settlement. To find out whether

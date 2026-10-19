@@ -101,6 +101,10 @@ class KalshiPublicAPI:
                 found[m["ticker"]] = m
         return found
 
+    def markets_for_series(self, series_ticker):
+        """All open markets in one series (e.g. every upcoming NFL game)."""
+        return self._paginate("/markets", {"series_ticker": series_ticker, "status": "open", "limit": 1000})
+
     def trades(self, ticker, min_ts=None, max_pages=10):
         """Public trade prints for one market (newest first), optionally after min_ts."""
         params = {"ticker": ticker, "limit": 1000}

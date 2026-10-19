@@ -8,6 +8,25 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import strategy  # noqa: E402
 
+# --- Safety net -----------------------------------------------------------------
+# Every test module imports this file first. Point ALL bots' storage at a throwaway
+# folder before any test runs, so no test can ever touch the real paper accounts
+# or dashboard, even if it forgets to pass its own temp folder.
+import atexit  # noqa: E402
+import shutil  # noqa: E402
+import tempfile  # noqa: E402
+
+import config  # noqa: E402
+import sports_config  # noqa: E402
+import weather_config  # noqa: E402
+
+_SANDBOX = tempfile.mkdtemp(prefix="kalshi-tests-")
+config.STATE_DIR = os.path.join(_SANDBOX, "state")
+config.REPORT_PATH = os.path.join(_SANDBOX, "docs", "index.html")
+weather_config.STATE_DIR = os.path.join(_SANDBOX, "state", "weather")
+sports_config.STATE_DIR = os.path.join(_SANDBOX, "state", "sports")
+atexit.register(shutil.rmtree, _SANDBOX, True)
+
 
 def iso(ts):
     return datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -88,6 +107,11 @@ class FakeKalshi:
         self.calls += 1
         return [m for m in self.markets.values()
                 if m["status"] == "active" and start_ts <= strategy.parse_ts(m["close_time"]) <= end_ts]
+
+    def markets_for_series(self, series_ticker):
+        self.calls += 1
+        return [m for m in self.markets.values()
+                if m["ticker"].startswith(series_ticker + "-") and m["status"] == "active"]
 
     def markets_by_ticker(self, tickers):
         self.calls += 1

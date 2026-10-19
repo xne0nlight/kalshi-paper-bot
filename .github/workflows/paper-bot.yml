@@ -23,6 +23,8 @@ jobs:
 
       - name: Run one trading cycle
         run: python paper_bot.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
 
       - name: Save state and report back to the repo
         if: always()          # save even if the API hiccuped, so the error shows on the report

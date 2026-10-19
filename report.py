@@ -424,9 +424,9 @@ font-weight:600;border:1px solid transparent;border-bottom:0;margin-bottom:-1px;
 .tabbar label .tv{font-weight:500;margin-left:6px}
 .tabbar label:hover{color:var(--ink)}
 .tabpane{display:none}
-#tab-fav:checked ~ .tabbar label[for=tab-fav],#tab-wx:checked ~ .tabbar label[for=tab-wx]{
-background:var(--panel);color:var(--ink);border-color:var(--line)}
-#tab-fav:checked ~ #pane-fav,#tab-wx:checked ~ #pane-wx{display:block}
+#tab-fav:checked ~ .tabbar label[for=tab-fav],#tab-wx:checked ~ .tabbar label[for=tab-wx],
+#tab-sp:checked ~ .tabbar label[for=tab-sp]{background:var(--panel);color:var(--ink);border-color:var(--line)}
+#tab-fav:checked ~ #pane-fav,#tab-wx:checked ~ #pane-wx,#tab-sp:checked ~ #pane-sp{display:block}
 .tabradio{position:absolute;opacity:0;pointer-events:none}
 .goalbar{height:8px;border-radius:4px;background:var(--line);overflow:hidden;margin-top:8px}
 .goalbar span{display:block;height:100%;background:var(--up)}
@@ -441,21 +441,27 @@ background:var(--panel);color:var(--ink);border-color:var(--line)}
 
 TAB_JS = """
 (function(){try{var k='kpb-tab',s=localStorage.getItem(k);
-if(location.hash==='#weather')s='tab-wx';if(location.hash==='#favorites')s='tab-fav';
+if(location.hash==='#weather')s='tab-wx';if(location.hash==='#favorites')s='tab-fav';if(location.hash==='#sports')s='tab-sp';
 if(s&&document.getElementById(s))document.getElementById(s).checked=true;
 document.querySelectorAll('.tabradio').forEach(function(r){r.addEventListener('change',function(){
 try{localStorage.setItem(k,r.id)}catch(e){}})});}catch(e){}})();
 """
 
 
-def build_html(state, watch, now_ts=None, weather_state=None):
-    """Full dashboard page: Favorites tab + Weather tab."""
-    import weather_report  # imported here to avoid a circular import
+def build_html(state, watch, now_ts=None, weather_state=None, sports_state=None):
+    """Full dashboard page: Favorites, Weather and Sports tabs."""
+    import sports_report   # imported here to avoid circular imports
+    import weather_report
     fav_body = favorites_body(state, watch, now_ts)
     wx_body = weather_report.weather_body(weather_state, now_ts)
+    sp_body = sports_report.sports_body(sports_state, now_ts)
+
+    def tab_val(v, start):
+        return (f'<span class="tv {tone(v - start)}">{money(v)}</span>' if v is not None
+                else '<span class="tv">not started</span>')
     fav_val = portfolio.mark_equity(state)
     wx_val = weather_report.account_value(weather_state)
-    wx_label = money(wx_val) if wx_val is not None else "not started"
+    sp_val = sports_report.account_value(sports_state)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -464,20 +470,29 @@ def build_html(state, watch, now_ts=None, weather_state=None):
 <body><div class="wrap">
 <input type="radio" name="tab" id="tab-fav" class="tabradio" checked>
 <input type="radio" name="tab" id="tab-wx" class="tabradio">
+<input type="radio" name="tab" id="tab-sp" class="tabradio">
 <nav class="tabbar">
-  <label for="tab-fav">Favorites bot<span class="tv {tone(fav_val - state['starting_bankroll'])}">{money(fav_val)}</span></label>
-  <label for="tab-wx">Weather bot<span class="tv {tone((wx_val or 0) - (weather_state or {}).get('starting_bankroll', 0))}">{wx_label}</span></label>
+  <label for="tab-fav">Favorites{tab_val(fav_val, state['starting_bankroll'])}</label>
+  <label for="tab-wx">Weather{tab_val(wx_val, (weather_state or {}).get('starting_bankroll', 100))}</label>
+  <label for="tab-sp">Sports parlays{tab_val(sp_val, 100)}</label>
 </nav>
 <div class="tabpane" id="pane-fav">{fav_body}</div>
 <div class="tabpane" id="pane-wx">{wx_body}</div>
+<div class="tabpane" id="pane-sp">{sp_body}</div>
 </div><script>{TAB_JS}</script></body></html>"""
 
 
-def write_report(state, watch, path, now_ts=None, weather_state=None):
-    """Writes the dashboard. If weather_state isn't passed, it's loaded from disk."""
-    if weather_state is None:
+_UNSET = object()
+
+
+def write_report(state, watch, path, now_ts=None, weather_state=_UNSET, sports_state=_UNSET):
+    """Writes the dashboard. Bot states that aren't passed are loaded from disk."""
+    if weather_state is _UNSET:
         import weather_config
         weather_state = portfolio.load_json(os.path.join(weather_config.STATE_DIR, "portfolio.json"), None)
+    if sports_state is _UNSET:
+        import sports_config
+        sports_state = portfolio.load_json(os.path.join(sports_config.STATE_DIR, "portfolio.json"), None)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        f.write(build_html(state, watch, now_ts, weather_state))
+        f.write(build_html(state, watch, now_ts, weather_state, sports_state))

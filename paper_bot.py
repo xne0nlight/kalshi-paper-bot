@@ -160,11 +160,11 @@ def run_all(api, now_ts=None):
     A weather-bot failure is reported on its tab and never affects the favorites bot."""
     now_ts = now_ts or time.time()
     ok = run_cycle(api, now_ts, config.STATE_DIR, config.REPORT_PATH)
-    try:
-        import weather_bot
-        weather_bot.run_cycle(api, now_ts=now_ts)
-    except Exception as e:  # noqa: BLE001
-        print(f"[weather] crashed: {type(e).__name__}: {e}")
+    for name in ("weather_bot", "sports_bot"):
+        try:
+            __import__(name).run_cycle(api, now_ts=now_ts)
+        except Exception as e:  # noqa: BLE001  (one bot failing never stops the others)
+            print(f"[{name.split('_')[0]}] crashed: {type(e).__name__}: {e}")
     state = portfolio.load_state(config.STATE_DIR, now_ts)
     watch = portfolio.load_json(os.path.join(config.STATE_DIR, "watchlist.json"), {"entries": {}})
     report.write_report(state, watch, config.REPORT_PATH, now_ts)
@@ -184,21 +184,25 @@ def _backup(paths, label):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Kalshi paper-trading bots (favorites + weather)")
+    ap = argparse.ArgumentParser(description="Kalshi paper-trading bots (favorites + weather + sports)")
     ap.add_argument("--loop", type=float, metavar="MINUTES", help="repeat every N minutes")
     ap.add_argument("--report", action="store_true", help="rebuild the dashboard only")
     ap.add_argument("--reset", action="store_true", help="start a fresh $100 FAVORITES paper account")
     ap.add_argument("--reset-weather", action="store_true", help="start a fresh $100 WEATHER paper account")
+    ap.add_argument("--reset-sports", action="store_true", help="start fresh $100 SPORTS paper accounts")
     ap.add_argument("--favorites-only", action="store_true", help="skip the weather bot this run")
     args = ap.parse_args()
 
-    if args.reset or args.reset_weather:
+    if args.reset or args.reset_weather or args.reset_sports:
         if args.reset:
             _backup([os.path.join(config.STATE_DIR, f) for f in
                      ("portfolio.json", "watchlist.json", "trade_log.csv")], "favorites")
         if args.reset_weather:
             import weather_config
             _backup([weather_config.STATE_DIR], "weather")
+        if args.reset_sports:
+            import sports_config
+            _backup([sports_config.STATE_DIR], "sports")
         print("Fresh paper account(s) created.")
         return 0
 

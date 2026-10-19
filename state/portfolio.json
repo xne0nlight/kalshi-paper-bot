@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 35.44,
- "fees_paid": 3.36,
+ "cash": 36.72,
+ "fees_paid": 3.38,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 155,
+ "next_id": 156,
  "open_positions": [
-  {
-   "id": 115,
-   "ticker": "KXTRUTHSOCIAL-26OCT17-B209",
-   "event_ticker": "KXTRUTHSOCIAL-26OCT17",
-   "series": "KXTRUTHSOCIAL",
-   "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792235729,
-   "close_ts": 1792331940.0,
-   "score": 0.6411,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 137,
    "ticker": "KXTRUMPSAY-26OCT19-ZOHR",
@@ -74,7 +57,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -112,7 +95,7 @@
    "opened_ts": 1792343730,
    "close_ts": 1792429140.0,
    "score": 0.601,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -180,7 +163,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -265,7 +248,24 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 155,
+   "ticker": "KXDWTSELIMINATION-26OCT21-CWOO",
+   "event_ticker": "KXDWTSELIMINATION-26OCT21",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792425631,
+   "close_ts": 1792555140.0,
+   "score": 0.64,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -3737,6 +3737,27 @@
    "pnl": 0.56,
    "result": "NO",
    "closed_ts": 1792423833,
+   "won": true
+  },
+  {
+   "id": 115,
+   "ticker": "KXTRUTHSOCIAL-26OCT17-B209",
+   "event_ticker": "KXTRUTHSOCIAL-26OCT17",
+   "series": "KXTRUTHSOCIAL",
+   "label": "Will Donald Trump make between 200 and 219 Truth Social posts the week of Oct 11, 2026? \u2014 200-219",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792235729,
+   "close_ts": 1792331940.0,
+   "score": 0.6411,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792425631,
    "won": true
   }
  ],
@@ -8890,92 +8911,101 @@
    1792424996,
    87.28,
    87.59
+  ],
+  [
+   1792425631,
+   87.56,
+   87.62
   ]
  ],
  "last_run": {
-  "ts": 1792424996,
+  "ts": 1792425631,
   "error": null,
-  "markets_scanned": 537,
-  "candidates": 9,
+  "markets_scanned": 1128,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 444,
-   "no favorite in 80-95c band": 73,
-   "spread too wide": 11
+   "too little volume": 1092,
+   "no favorite in 80-95c band": 23,
+   "spread too wide": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   155
+  ],
+  "settled": [
+   115
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.67,
+    "hours_to_close": 35.97,
+    "volume_24h": 13746.41,
+    "score": 0.64
+   },
+   {
+    "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.97,
+    "volume_24h": 14333.09,
+    "score": 0.63
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 26.49,
     "volume_24h": 5215.0,
-    "score": 0.6331
+    "score": 0.6134
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 26.49,
+    "volume_24h": 1106.3,
+    "score": 0.583
    },
    {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.15,
+    "hours_to_close": 24.97,
     "volume_24h": 4125.89,
-    "score": 0.5786
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.67,
-    "volume_24h": 1722.17,
-    "score": 0.577
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 26.67,
-    "volume_24h": 1106.3,
-    "score": 0.5726
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 26.67,
-    "volume_24h": 500.0,
-    "score": 0.5668
+    "score": 0.579
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 26.67,
+    "price": 0.92,
+    "hours_to_close": 26.49,
     "volume_24h": 1020.61,
-    "score": 0.54
+    "score": 0.5603
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 20, 2026? \u2014 Above $100.49",
+    "label": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 26.67,
-    "volume_24h": 422.75,
-    "score": 0.4713
+    "hours_to_close": 35.97,
+    "volume_24h": 13404.2,
+    "score": 0.56
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
+    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 25.15,
-    "volume_24h": 235.47,
-    "score": 0.4554
+    "price": 0.89,
+    "hours_to_close": 26.49,
+    "volume_24h": 1722.17,
+    "score": 0.5474
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 2
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

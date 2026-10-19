@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.44,
+ "cash": 29.44,
  "fees_paid": 3.36,
  "peak_equity": 109.65,
  "day": "2026-10-19",
@@ -82,39 +82,6 @@
    "shadow": {}
   },
   {
-   "id": 140,
-   "ticker": "KXRT-STRA-42",
-   "event_ticker": "KXRT-STRA",
-   "series": "KXRT",
-   "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792326629,
-   "close_ts": 1792418400.0,
-   "score": 0.6667,
-   "mark_price": 0.97,
-   "shadow": {
-    "10": {
-     "ts": 1792333829,
-     "bid": 0.81,
-     "proceeds": 3.99
-    },
-    "15": {
-     "ts": 1792336529,
-     "bid": 0.79,
-     "proceeds": 3.89
-    },
-    "20": {
-     "ts": 1792357231,
-     "bid": 0.69,
-     "proceeds": 3.37
-    }
-   }
-  },
-  {
    "id": 143,
    "ticker": "KXUST7AD-26OCT19-T5.13",
    "event_ticker": "KXUST7AD-26OCT19",
@@ -128,7 +95,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -145,7 +112,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.85,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -183,7 +150,7 @@
    "opened_ts": 1792343730,
    "close_ts": 1792429140.0,
    "score": 0.601,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -336,7 +303,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -3729,6 +3696,43 @@
    "pnl": 0.23,
    "result": "YES",
    "closed_ts": 1792419332,
+   "won": true
+  },
+  {
+   "id": 140,
+   "ticker": "KXRT-STRA-42",
+   "event_ticker": "KXRT-STRA",
+   "series": "KXRT",
+   "label": "Street Fighter Rotten Tomatoes score? \u2014 Above 42",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792326629,
+   "close_ts": 1792418400.0,
+   "score": 0.6667,
+   "shadow": {
+    "10": {
+     "ts": 1792333829,
+     "bid": 0.81,
+     "proceeds": 3.99
+    },
+    "15": {
+     "ts": 1792336529,
+     "bid": 0.79,
+     "proceeds": 3.89
+    },
+    "20": {
+     "ts": 1792357231,
+     "bid": 0.69,
+     "proceeds": 3.37
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1792421135,
    "won": true
   }
  ],
@@ -8857,90 +8861,97 @@
    1792420236,
    86.49,
    81.42
+  ],
+  [
+   1792421135,
+   86.72,
+   81.61
   ]
  ],
  "last_run": {
-  "ts": 1792420236,
+  "ts": 1792421135,
   "error": null,
-  "markets_scanned": 591,
+  "markets_scanned": 584,
   "candidates": 10,
   "rejections": {
-   "too little volume": 482,
-   "no favorite in 80-95c band": 88,
-   "spread too wide": 11
+   "too little volume": 477,
+   "no favorite in 80-95c band": 85,
+   "spread too wide": 12
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   140
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be more than 280 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 280",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 1648.16,
-    "score": 0.615
+    "score": 0.6157
    },
    {
     "label": "Will there be more than 320 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 320",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 6451.01,
-    "score": 0.5894
+    "score": 0.5901
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 500.0,
+    "score": 0.5647
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 1106.3,
-    "score": 0.5601
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.99,
-    "volume_24h": 500.0,
-    "score": 0.5543
+    "score": 0.5606
    },
    {
     "label": "Will there be more than 210 transit calls through the Panama Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 210",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 753.0,
-    "score": 0.5395
+    "score": 0.5402
    },
    {
     "label": "Will there be more than 180 transit calls through the Panama Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 180",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 3163.12,
-    "score": 0.5362
+    "score": 0.5369
    },
    {
     "label": "Will there be more than 290 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 290",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 2932.68,
-    "score": 0.5338
+    "score": 0.5344
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 1020.61,
-    "score": 0.5275
+    "score": 0.5279
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

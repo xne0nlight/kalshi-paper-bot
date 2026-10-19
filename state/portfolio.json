@@ -112,7 +112,7 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
-   "mark_price": 0.71,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792435531,
@@ -298,7 +298,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -315,7 +315,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -366,7 +366,7 @@
    "opened_ts": 1792436431,
    "close_ts": 1792522740.0,
    "score": 0.4628,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -383,8 +383,14 @@
    "opened_ts": 1792437330,
    "close_ts": 1792558800.0,
    "score": 0.4839,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.77,
+   "shadow": {
+    "10": {
+     "ts": 1792438233,
+     "bid": 0.77,
+     "proceeds": 0.75
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -9146,21 +9152,24 @@
    1792437330,
    88.02,
    85.58
+  ],
+  [
+   1792438233,
+   88.02,
+   85.81
   ]
  ],
  "last_run": {
-  "ts": 1792437330,
+  "ts": 1792438233,
   "error": null,
-  "markets_scanned": 1449,
-  "candidates": 23,
+  "markets_scanned": 1529,
+  "candidates": 19,
   "rejections": {
-   "too little volume": 1302,
-   "no favorite in 80-95c band": 119,
-   "spread too wide": 5
+   "too little volume": 1380,
+   "no favorite in 80-95c band": 126,
+   "spread too wide": 4
   },
-  "opened": [
-   163
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -9168,65 +9177,65 @@
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.73,
-    "volume_24h": 15617.28,
-    "score": 0.6442
+    "hours_to_close": 32.47,
+    "volume_24h": 15530.1,
+    "score": 0.6446
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 5447.8,
-    "score": 0.642
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 39.2 on Oct 20, 2026? \u2014 Above 39.2%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.73,
-    "volume_24h": 4510.76,
-    "score": 0.6398
+    "score": 0.6427
    },
    {
     "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.47,
     "volume_24h": 13703.94,
-    "score": 0.6142
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.24,
-    "volume_24h": 1106.3,
-    "score": 0.6001
+    "score": 0.6146
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.24,
+    "price": 0.92,
+    "hours_to_close": 22.99,
     "volume_24h": 2270.17,
-    "score": 0.5835
+    "score": 0.5942
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 22.99,
+    "volume_24h": 1028.07,
+    "score": 0.5884
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 20, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.73,
+    "hours_to_close": 21.47,
     "volume_24h": 989.2,
-    "score": 0.5804
+    "score": 0.5811
    },
    {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 21.73,
-    "volume_24h": 4573.57,
-    "score": 0.5803
+    "hours_to_close": 21.47,
+    "volume_24h": 4573.6,
+    "score": 0.581
+   },
+   {
+    "label": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 32.47,
+    "volume_24h": 13216.71,
+    "score": 0.5546
    }
   ],
   "skipped": {},

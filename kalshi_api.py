@@ -101,6 +101,13 @@ class KalshiPublicAPI:
                 found[m["ticker"]] = m
         return found
 
+    def trades(self, ticker, min_ts=None, max_pages=10):
+        """Public trade prints for one market (newest first), optionally after min_ts."""
+        params = {"ticker": ticker, "limit": 1000}
+        if min_ts:
+            params["min_ts"] = int(min_ts)
+        return self._paginate("/markets/trades", params, key="trades", max_pages=max_pages)
+
     def historical_market(self, ticker):
         """Markets settled a while ago move to the historical archive."""
         try:

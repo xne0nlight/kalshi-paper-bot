@@ -238,7 +238,7 @@ def _table(headers, rows, empty):
     return f'<div class="table-wrap"><table><thead><tr>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 
-def build_html(state, watch, now_ts=None):
+def favorites_body(state, watch, now_ts=None):
     import time
     now_ts = now_ts or time.time()
     start = state["starting_bankroll"]
@@ -377,14 +377,8 @@ def build_html(state, watch, now_ts=None):
            f"spread ≤ {config.MAX_SPREAD * 100:.0f}¢ · ≥ {config.MIN_VOLUME_24H} contracts/day · "
            f"daily stop {config.DAILY_STOP_LOSS:.0%}, drawdown brake {config.MAX_DRAWDOWN_HALT:.0%}")
 
-    return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="300">
-<title>Kalshi Paper Bot</title><style>{CSS}</style></head>
-<body><div class="wrap">
-<header>
-  <div><h1>Kalshi Paper Bot <span class="badge">PAPER MONEY</span></h1>
+    return f"""<header>
+  <div><h1>Favorites bot <span class="badge">PAPER MONEY</span></h1>
   <div class="muted">Imaginary {money(start)} · started {fmt_dt(state['created_ts'])} · day {days:.1f}</div></div>
   <div class="muted">Last run {fmt_dt(run.get('ts'))}<br>Book value {money(book)}</div>
 </header>
@@ -420,11 +414,70 @@ def build_html(state, watch, now_ts=None):
   <section class="panel"><h2>Top-ranked right now</h2><ul class="bars">{top}</ul></section>
 </div>
 <footer>{esc(cfg)}<br>Fills are simulated at the best ask with Kalshi's taker fee and held to
-settlement. Real fills can be worse. Not financial advice — it's a robot with imaginary money.</footer>
-</div></body></html>"""
+settlement. Real fills can be worse. Not financial advice — it's a robot with imaginary money.</footer>"""
 
 
-def write_report(state, watch, path, now_ts=None):
+TAB_CSS = """
+.tabbar{display:flex;gap:6px;margin:0 0 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.tabbar label{cursor:pointer;padding:10px 16px;border-radius:10px 10px 0 0;color:var(--muted);
+font-weight:600;border:1px solid transparent;border-bottom:0;margin-bottom:-1px;user-select:none}
+.tabbar label .tv{font-weight:500;margin-left:6px}
+.tabbar label:hover{color:var(--ink)}
+.tabpane{display:none}
+#tab-fav:checked ~ .tabbar label[for=tab-fav],#tab-wx:checked ~ .tabbar label[for=tab-wx]{
+background:var(--panel);color:var(--ink);border-color:var(--line)}
+#tab-fav:checked ~ #pane-fav,#tab-wx:checked ~ #pane-wx{display:block}
+.tabradio{position:absolute;opacity:0;pointer-events:none}
+.goalbar{height:8px;border-radius:4px;background:var(--line);overflow:hidden;margin-top:8px}
+.goalbar span{display:block;height:100%;background:var(--up)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.card{border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:13px}
+.card b{font-size:14px}
+.mini{width:100%;border-collapse:collapse;font-size:12px;min-width:0;margin-top:6px}
+.mini td{padding:2px 4px;border:0}
+.mbar{display:inline-block;height:6px;border-radius:3px;background:var(--accent);vertical-align:middle}
+.mbar.mk{background:var(--muted);opacity:.6}
+"""
+
+TAB_JS = """
+(function(){try{var k='kpb-tab',s=localStorage.getItem(k);
+if(location.hash==='#weather')s='tab-wx';if(location.hash==='#favorites')s='tab-fav';
+if(s&&document.getElementById(s))document.getElementById(s).checked=true;
+document.querySelectorAll('.tabradio').forEach(function(r){r.addEventListener('change',function(){
+try{localStorage.setItem(k,r.id)}catch(e){}})});}catch(e){}})();
+"""
+
+
+def build_html(state, watch, now_ts=None, weather_state=None):
+    """Full dashboard page: Favorites tab + Weather tab."""
+    import weather_report  # imported here to avoid a circular import
+    fav_body = favorites_body(state, watch, now_ts)
+    wx_body = weather_report.weather_body(weather_state, now_ts)
+    fav_val = portfolio.mark_equity(state)
+    wx_val = weather_report.account_value(weather_state)
+    wx_label = money(wx_val) if wx_val is not None else "not started"
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>Kalshi Paper Bots</title><style>{CSS}{TAB_CSS}</style></head>
+<body><div class="wrap">
+<input type="radio" name="tab" id="tab-fav" class="tabradio" checked>
+<input type="radio" name="tab" id="tab-wx" class="tabradio">
+<nav class="tabbar">
+  <label for="tab-fav">Favorites bot<span class="tv {tone(fav_val - state['starting_bankroll'])}">{money(fav_val)}</span></label>
+  <label for="tab-wx">Weather bot<span class="tv {tone((wx_val or 0) - (weather_state or {}).get('starting_bankroll', 0))}">{wx_label}</span></label>
+</nav>
+<div class="tabpane" id="pane-fav">{fav_body}</div>
+<div class="tabpane" id="pane-wx">{wx_body}</div>
+</div><script>{TAB_JS}</script></body></html>"""
+
+
+def write_report(state, watch, path, now_ts=None, weather_state=None):
+    """Writes the dashboard. If weather_state isn't passed, it's loaded from disk."""
+    if weather_state is None:
+        import weather_config
+        weather_state = portfolio.load_json(os.path.join(weather_config.STATE_DIR, "portfolio.json"), None)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        f.write(build_html(state, watch, now_ts))
+        f.write(build_html(state, watch, now_ts, weather_state))

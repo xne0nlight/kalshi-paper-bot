@@ -49,6 +49,22 @@ class FakeKalshi:
     def __init__(self):
         self.markets = {}
         self.calls = 0
+        self.trade_prints = {}   # ticker -> list of trade dicts
+
+    def add_trade(self, ticker, ts, taker, yes_price, count):
+        self.trade_prints.setdefault(ticker, []).append({
+            "trade_id": f"t{len(self.trade_prints.get(ticker, []))}", "ticker": ticker,
+            "count_fp": f"{count:.2f}", "yes_price_dollars": f"{yes_price:.4f}",
+            "no_price_dollars": f"{1 - yes_price:.4f}", "taker_outcome_side": taker,
+            "taker_book_side": "bid", "created_time": iso(ts) if isinstance(ts, (int, float)) else ts,
+            "is_block_trade": False})
+
+    def trades(self, ticker, min_ts=None, max_pages=10):
+        self.calls += 1
+        out = self.trade_prints.get(ticker, [])
+        if min_ts:
+            out = [t for t in out if strategy.parse_ts(t["created_time"]) > min_ts]
+        return list(reversed(out))
 
     def add(self, *args, **kwargs):
         m = make_market(*args, **kwargs)

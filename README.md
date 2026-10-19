@@ -53,6 +53,58 @@ Week 2 simulation (bets drawn from week 1's real prices): about **+8.5%** in a
 week if week 1's edge was real, about **−3%** if prices are simply fair, and
 roughly 1 week in 11 ending down 20%+ in the no-edge case.
 
+## Weather bot (second tab on the dashboard)
+
+A separate $100 paper account that trades Kalshi's daily **high and low
+temperature** markets with **resting limit orders only** (maker orders; weather
+markets currently charge makers no fee). It runs in the same scheduled job as the
+favorites bot (`python paper_bot.py` runs both) and keeps its own state in
+`state/weather/`.
+
+**How it decides.** For each city-day it builds a probability for every
+temperature bracket from free professional data:
+
+| Source | What it adds |
+|---|---|
+| Open-Meteo Ensemble API: ECMWF (51 runs) + GFS (31 runs) | The forecast spread: the share of runs in each bracket |
+| Open-Meteo: National Blend of Models (NBM) | The blended forecast NWS forecasters start from |
+| Open-Meteo Historical Forecast API + Iowa Environmental Mesonet climate reports | Each station's bias: how far forecasts usually miss the official reading |
+| NWS api.weather.gov | Station location/time zone, and today's readings so far (a high can't come in below what's already been seen) |
+
+Each market's rules name its official NWS station (e.g. `CLINYC` = Central Park),
+so the bot looks up the right station automatically. It also uses the NWS
+"climate day" (midnight to midnight local **standard** time, so 1 AM to 12:59 AM
+during daylight time), not the calendar day.
+
+**Three strategies, scored separately:**
+1. **Longshot NO:** in the evening before (2 PM to midnight local), bid on NO for
+   brackets whose YES is 1–4¢ and that the forecast also gives ≤3%. This is the
+   best-documented weather edge.
+2. **Favorite maker:** bid on a strong favorite (80–95¢) when the forecast says
+   it's at least 3 points better than the price.
+3. **Model edge (experimental):** the forecast beats the market price by 12+
+   points and both ensembles agree.
+
+Orders always sit at or above the current best bid; lowball orders behind the book
+only fill when the news has turned against you.
+
+**Paper fills are honest.** A resting order only counts as filled when a real
+public Kalshi trade prints at our price or better after we posted. A trade exactly
+at our price fills only half its size, since we may not be first in line.
+
+**Sizing and brakes (in `weather_config.py`):** half-Kelly, max 10% per market,
+25% per city-day, 90% total. The bot stops placing bets once the account reaches
+**$150 (the goal, locked in)** or drops to $50.
+
+**"Is the forecast beating the market?"** grades the bot's day-before probability
+against the market's price on every bracket after it settles. If the market keeps
+winning, keep the model as a filter only.
+
+```
+python paper_bot.py --reset-weather    # fresh $100 weather account (favorites untouched)
+python paper_bot.py --favorites-only   # run just the favorites bot
+```
+
 ## Shadow stop-loss (logging only)
 
 The bot never sells early; every bet is held to settlement. To find out whether
@@ -99,7 +151,7 @@ Needs Python 3.10+. No packages to install.
 python paper_bot.py               # one cycle (do this first to confirm it can reach Kalshi)
 python paper_bot.py --loop 15     # keep running, every 15 min (PC must stay awake)
 python paper_bot.py --report      # rebuild the dashboard from saved state
-python paper_bot.py --reset       # back up the old run and start fresh at $100
+python paper_bot.py --reset       # back up the FAVORITES run and start fresh at $100
 ```
 
 Dashboard: `docs/index.html`. Every trade is also logged to

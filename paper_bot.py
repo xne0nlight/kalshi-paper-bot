@@ -153,19 +153,51 @@ def run_cycle(api, now_ts=None, state_dir=config.STATE_DIR, report_path=config.R
     return ok
 
 
+def run_all(api, now_ts=None):
+    """One scheduled run: favorites bot, then weather bot, then one combined dashboard.
+    A weather-bot failure is reported on its tab and never affects the favorites bot."""
+    now_ts = now_ts or time.time()
+    ok = run_cycle(api, now_ts)
+    try:
+        import weather_bot
+        weather_bot.run_cycle(api, now_ts=now_ts)
+    except Exception as e:  # noqa: BLE001
+        print(f"[weather] crashed: {type(e).__name__}: {e}")
+    state = portfolio.load_state(config.STATE_DIR, now_ts)
+    watch = portfolio.load_json(os.path.join(config.STATE_DIR, "watchlist.json"), {"entries": {}})
+    report.write_report(state, watch, config.REPORT_PATH, now_ts)
+    return ok
+
+
+def _backup(paths, label):
+    backup = f"{config.STATE_DIR}_backup_{label}_{int(time.time())}"
+    moved = False
+    for p in paths:
+        if os.path.exists(p):
+            os.makedirs(backup, exist_ok=True)
+            shutil.move(p, os.path.join(backup, os.path.basename(p)))
+            moved = True
+    if moved:
+        print(f"Old state moved to {backup}")
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Kalshi paper-trading bot")
+    ap = argparse.ArgumentParser(description="Kalshi paper-trading bots (favorites + weather)")
     ap.add_argument("--loop", type=float, metavar="MINUTES", help="repeat every N minutes")
-    ap.add_argument("--report", action="store_true", help="rebuild the report only")
-    ap.add_argument("--reset", action="store_true", help="start a fresh $100 paper account")
+    ap.add_argument("--report", action="store_true", help="rebuild the dashboard only")
+    ap.add_argument("--reset", action="store_true", help="start a fresh $100 FAVORITES paper account")
+    ap.add_argument("--reset-weather", action="store_true", help="start a fresh $100 WEATHER paper account")
+    ap.add_argument("--favorites-only", action="store_true", help="skip the weather bot this run")
     args = ap.parse_args()
 
-    if args.reset:
-        if os.path.isdir(config.STATE_DIR):
-            backup = f"{config.STATE_DIR}_backup_{int(time.time())}"
-            shutil.move(config.STATE_DIR, backup)
-            print(f"Old state moved to {backup}")
-        print("Fresh paper account created.")
+    if args.reset or args.reset_weather:
+        if args.reset:
+            _backup([os.path.join(config.STATE_DIR, f) for f in
+                     ("portfolio.json", "watchlist.json", "trade_log.csv")], "favorites")
+        if args.reset_weather:
+            import weather_config
+            _backup([weather_config.STATE_DIR], "weather")
+        print("Fresh paper account(s) created.")
         return 0
 
     if args.report:
@@ -177,15 +209,16 @@ def main():
         return 0
 
     api = KalshiPublicAPI()
+    once = (lambda: run_cycle(api)) if args.favorites_only else (lambda: run_all(api))
     if args.loop:
         print(f"Running every {args.loop:g} minutes. Ctrl+C to stop.")
         while True:
             try:
-                run_cycle(api)
+                once()
             except Exception as e:  # never let one bad cycle kill an unattended loop
                 print(f"  Unexpected error, will retry next cycle: {type(e).__name__}: {e}")
             time.sleep(args.loop * 60)
-    return 0 if run_cycle(api) else 1
+    return 0 if once() else 1
 
 
 if __name__ == "__main__":

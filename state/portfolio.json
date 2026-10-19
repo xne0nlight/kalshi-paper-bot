@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 36.72,
- "fees_paid": 3.38,
+ "cash": 31.95,
+ "fees_paid": 3.4,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 156,
+ "next_id": 157,
  "open_positions": [
   {
    "id": 137,
@@ -57,7 +57,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -266,6 +266,23 @@
    "close_ts": 1792555140.0,
    "score": 0.64,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 156,
+   "ticker": "KXHIGHNY-26OCT20-T65",
+   "event_ticker": "KXHIGHNY-26OCT20",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792429233,
+   "close_ts": 1792558800.0,
+   "score": 0.5297,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -8931,19 +8948,26 @@
    1792428330,
    87.56,
    87.89
+  ],
+  [
+   1792429233,
+   87.56,
+   87.86
   ]
  ],
  "last_run": {
-  "ts": 1792428330,
+  "ts": 1792429233,
   "error": null,
-  "markets_scanned": 1128,
+  "markets_scanned": 1252,
   "candidates": 13,
   "rejections": {
-   "too little volume": 1091,
-   "no favorite in 80-95c band": 23,
-   "spread too wide": 1
+   "too little volume": 1182,
+   "no favorite in 80-95c band": 55,
+   "spread too wide": 2
   },
-  "opened": [],
+  "opened": [
+   156
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -8951,73 +8975,72 @@
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.23,
-    "volume_24h": 13898.96,
-    "score": 0.6409
+    "hours_to_close": 34.97,
+    "volume_24h": 13818.49,
+    "score": 0.6413
    },
    {
     "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.23,
-    "volume_24h": 14546.06,
-    "score": 0.6309
+    "hours_to_close": 34.97,
+    "volume_24h": 14867.09,
+    "score": 0.6313
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.74,
+    "price": 0.89,
+    "hours_to_close": 25.49,
     "volume_24h": 5215.0,
-    "score": 0.615
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 1106.3,
-    "score": 0.5945
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 1020.61,
-    "score": 0.5719
+    "score": 0.5855
    },
    {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.97,
     "volume_24h": 4125.89,
-    "score": 0.5707
+    "score": 0.5712
    },
    {
     "label": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 35.23,
-    "volume_24h": 13207.93,
-    "score": 0.5609
+    "hours_to_close": 34.97,
+    "volume_24h": 14051.86,
+    "score": 0.5613
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 25.49,
+    "volume_24h": 1020.61,
+    "score": 0.5424
+   },
+   {
+    "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 247.77,
+    "score": 0.5297
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.74,
+    "price": 0.86,
+    "hours_to_close": 25.49,
     "volume_24h": 1722.17,
-    "score": 0.5489
+    "score": 0.5194
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 2,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Presidential approval)": 3
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

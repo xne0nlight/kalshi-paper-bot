@@ -74,7 +74,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -180,7 +180,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.97,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -265,7 +265,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   }
  ],
@@ -8885,93 +8885,96 @@
    1792423833,
    87.28,
    87.54
+  ],
+  [
+   1792424996,
+   87.28,
+   87.59
   ]
  ],
  "last_run": {
-  "ts": 1792423833,
+  "ts": 1792424996,
   "error": null,
   "markets_scanned": 537,
-  "candidates": 8,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 446,
+   "too little volume": 444,
    "no favorite in 80-95c band": 73,
-   "spread too wide": 10
+   "spread too wide": 11
   },
   "opened": [],
-  "settled": [
-   119
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 26.99,
-    "volume_24h": 2214.0,
-    "score": 0.6146
+    "price": 0.94,
+    "hours_to_close": 26.67,
+    "volume_24h": 5215.0,
+    "score": 0.6331
    },
    {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.47,
+    "hours_to_close": 25.15,
     "volume_24h": 4125.89,
-    "score": 0.5779
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 26.99,
-    "volume_24h": 1106.3,
-    "score": 0.552
+    "score": 0.5786
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 26.99,
-    "volume_24h": 281.17,
-    "score": 0.5374
+    "price": 0.92,
+    "hours_to_close": 26.67,
+    "volume_24h": 1722.17,
+    "score": 0.577
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
+    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 26.99,
-    "volume_24h": 1020.61,
-    "score": 0.5194
+    "price": 0.93,
+    "hours_to_close": 26.67,
+    "volume_24h": 1106.3,
+    "score": 0.5726
    },
    {
     "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 26.99,
+    "price": 0.95,
+    "hours_to_close": 26.67,
     "volume_24h": 500.0,
-    "score": 0.5061
+    "score": 0.5668
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 26.67,
+    "volume_24h": 1020.61,
+    "score": 0.54
    },
    {
     "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 20, 2026? \u2014 Above $100.49",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 26.99,
+    "price": 0.86,
+    "hours_to_close": 26.67,
     "volume_24h": 422.75,
-    "score": 0.4907
+    "score": 0.4713
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.47,
+    "hours_to_close": 25.15,
     "volume_24h": 235.47,
-    "score": 0.4548
+    "score": 0.4554
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 2
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

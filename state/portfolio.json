@@ -190,7 +190,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -295,7 +295,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.79,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -362,7 +362,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.72,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -412,7 +412,7 @@
    "opened_ts": 1792343730,
    "close_ts": 1792472400.0,
    "score": 0.5408,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -429,7 +429,7 @@
    "opened_ts": 1792358128,
    "close_ts": 1792443600.0,
    "score": 0.6038,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -463,7 +463,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -8456,18 +8456,23 @@
    1792370730,
    95.91,
    79.42
+  ],
+  [
+   1792371631,
+   95.91,
+   79.16
   ]
  ],
  "last_run": {
-  "ts": 1792370730,
+  "ts": 1792371631,
   "error": null,
-  "markets_scanned": 4541,
-  "candidates": 64,
+  "markets_scanned": 4598,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 4132,
-   "no favorite in 80-95c band": 320,
-   "spread too wide": 23,
-   "nothing for sale at the ask": 1,
+   "too little volume": 4149,
+   "no favorite in 80-95c band": 345,
+   "spread too wide": 26,
+   "nothing for sale at the ask": 2,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -8475,72 +8480,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 18256.23,
-    "score": 0.68
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.23,
+    "hours_to_close": 15.97,
     "volume_24h": 5289.3,
-    "score": 0.6737
+    "score": 0.6748
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.23,
-    "volume_24h": 5024.34,
-    "score": 0.6721
+    "hours_to_close": 15.97,
+    "volume_24h": 5258.89,
+    "score": 0.6746
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 28119.63,
-    "score": 0.66
+    "price": 0.94,
+    "hours_to_close": 19.99,
+    "volume_24h": 28160.63,
+    "score": 0.6708
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.23,
+    "hours_to_close": 15.97,
     "volume_24h": 5357.38,
-    "score": 0.6542
+    "score": 0.6552
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 16.23,
-    "volume_24h": 6990.08,
-    "score": 0.6528
+    "hours_to_close": 15.97,
+    "volume_24h": 7094.53,
+    "score": 0.6544
+   },
+   {
+    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,320 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 19.99,
+    "volume_24h": 6036.72,
+    "score": 0.6444
    },
    {
     "label": "Will the copper close price be above 6.58 USD/Lbs on October 19, 2026 at 5:00 PM EDT? \u2014 Above $6.58",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 20.24,
+    "hours_to_close": 19.99,
     "volume_24h": 14710.22,
-    "score": 0.64
+    "score": 0.6408
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 16.23,
-    "volume_24h": 8422.21,
-    "score": 0.6389
+    "hours_to_close": 15.97,
+    "volume_24h": 8643.21,
+    "score": 0.6408
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 13,
   "watch_graded": 0,
   "api_calls": 42
  },

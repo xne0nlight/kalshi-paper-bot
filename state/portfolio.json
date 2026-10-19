@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.92,
- "fees_paid": 3.23,
+ "cash": 14.96,
+ "fees_paid": 3.24,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 149,
+ "next_id": 150,
  "open_positions": [
   {
    "id": 99,
@@ -245,7 +245,7 @@
    "opened_ts": 1792322129,
    "close_ts": 1792418400.0,
    "score": 0.5813,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -282,23 +282,6 @@
    }
   },
   {
-   "id": 139,
-   "ticker": "KXMLBEXTRAS-26OCT172000TBCLE-EXTRAS",
-   "event_ticker": "KXMLBEXTRAS-26OCT172000TBCLE",
-   "series": "KXMLBEXTRAS",
-   "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 5.44,
-   "opened_ts": 1792324831,
-   "close_ts": 1792454400.0,
-   "score": 0.459,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 140,
    "ticker": "KXRT-STRA-42",
    "event_ticker": "KXRT-STRA",
@@ -312,7 +295,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.75,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -379,7 +362,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.68,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -446,7 +429,7 @@
    "opened_ts": 1792358128,
    "close_ts": 1792443600.0,
    "score": 0.6038,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -463,6 +446,23 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 149,
+   "ticker": "KXNETFLIXRANKMOVIERUNNERUP-26OCT19-DOI",
+   "event_ticker": "KXNETFLIXRANKMOVIERUNNERUP-26OCT19",
+   "series": "KXNETFLIXRANKMOVIERUNNERUP",
+   "label": "Will Doing Life be #2 US Netflix Movie on Oct 19, 2026?",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 0.96,
+   "opened_ts": 1792368929,
+   "close_ts": 1792468740.0,
+   "score": 0.6544,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -3582,6 +3582,27 @@
    "pnl": 0.56,
    "result": "NO",
    "closed_ts": 1792368036,
+   "won": true
+  },
+  {
+   "id": 139,
+   "ticker": "KXMLBEXTRAS-26OCT172000TBCLE-EXTRAS",
+   "event_ticker": "KXMLBEXTRAS-26OCT172000TBCLE",
+   "series": "KXMLBEXTRAS",
+   "label": "Will there be extra innings in the Tampa Bay vs Cleveland game originally scheduled for Oct 17, 2026? \u2014 Game goes to extra innings",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1792324831,
+   "close_ts": 1792454400.0,
+   "score": 0.459,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1792368929,
    "won": true
   }
  ],
@@ -8420,24 +8441,30 @@
    1792368036,
    95.35,
    79.08
+  ],
+  [
+   1792368929,
+   95.91,
+   79.43
   ]
  ],
  "last_run": {
-  "ts": 1792368036,
+  "ts": 1792368929,
   "error": null,
-  "markets_scanned": 4511,
-  "candidates": 57,
+  "markets_scanned": 4525,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 4113,
-   "no favorite in 80-95c band": 312,
-   "spread too wide": 27,
-   "favorite is slipping fast": 2
+   "too little volume": 4115,
+   "no favorite in 80-95c band": 319,
+   "spread too wide": 25,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 2
   },
   "opened": [
-   148
+   149
   ],
   "settled": [
-   141
+   139
   ],
   "halt": null,
   "top_candidates": [
@@ -8445,73 +8472,73 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.97,
+    "hours_to_close": 16.73,
     "volume_24h": 5131.12,
-    "score": 0.6697
-   },
-   {
-    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,520 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 6029.56,
-    "score": 0.6613
+    "score": 0.6707
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.99,
-    "volume_24h": 17659.49,
-    "score": 0.6578
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 20.99,
-    "volume_24h": 20169.25,
-    "score": 0.6378
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 16.97,
-    "volume_24h": 8336.68,
-    "score": 0.6355
-   },
-   {
-    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,320 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 20.99,
-    "volume_24h": 6005.72,
-    "score": 0.6212
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 18256.23,
+    "score": 0.6685
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.97,
+    "hours_to_close": 16.73,
     "volume_24h": 4615.96,
-    "score": 0.6162
+    "score": 0.6672
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 20.74,
+    "volume_24h": 21119.25,
+    "score": 0.6585
+   },
+   {
+    "label": "Will Doing Life be #2 US Netflix Movie on Oct 19, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.73,
+    "volume_24h": 7856.6,
+    "score": 0.6544
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.97,
-    "volume_24h": 6857.08,
-    "score": 0.6091
+    "hours_to_close": 16.73,
+    "volume_24h": 5277.38,
+    "score": 0.6516
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.24,
+    "volume_24h": 2331.88,
+    "score": 0.6392
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 16.73,
+    "volume_24h": 8342.21,
+    "score": 0.6365
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 4
+   "related-market cap (Crypto)": 2
   },
-  "watch_added": 4,
-  "watch_graded": 117,
-  "api_calls": 45
+  "watch_added": 5,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

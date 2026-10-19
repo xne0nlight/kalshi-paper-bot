@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.99,
- "fees_paid": 3.55,
+ "cash": 15.41,
+ "fees_paid": 3.58,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 161,
+ "next_id": 162,
  "open_positions": [
   {
    "id": 143,
@@ -40,7 +40,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.95,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -112,7 +112,7 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -317,6 +317,23 @@
    "close_ts": 1792562400.0,
    "score": 0.5229,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 161,
+   "ticker": "KXHIGHTMIN-26OCT20-B67.5",
+   "event_ticker": "KXHIGHTMIN-26OCT20",
+   "series": "KXHIGHTMIN",
+   "label": "Will the maximum temperature be 67-68\u00b0 on Oct 20, 2026? \u2014 67\u00b0 to 68\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1792433732,
+   "close_ts": 1792562400.0,
+   "score": 0.4847,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -9054,20 +9071,25 @@
    1792432830,
    88.02,
    87.09
+  ],
+  [
+   1792433732,
+   88.02,
+   86.92
   ]
  ],
  "last_run": {
-  "ts": 1792432830,
+  "ts": 1792433732,
   "error": null,
   "markets_scanned": 1422,
-  "candidates": 16,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 1296,
+   "too little volume": 1291,
    "no favorite in 80-95c band": 108,
-   "spread too wide": 2
+   "spread too wide": 5
   },
   "opened": [
-   160
+   161
   ],
   "settled": [],
   "halt": null,
@@ -9076,65 +9098,65 @@
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.98,
-    "volume_24h": 14769.52,
-    "score": 0.6425
+    "hours_to_close": 33.72,
+    "volume_24h": 14950.59,
+    "score": 0.6429
    },
    {
     "label": "Will Trump's RCP approval average be above 39.2 on Oct 20, 2026? \u2014 Above 39.2%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.98,
+    "hours_to_close": 22.72,
     "volume_24h": 4192.82,
-    "score": 0.6242
+    "score": 0.6248
    },
    {
     "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 33.98,
-    "volume_24h": 14368.75,
-    "score": 0.6225
+    "price": 0.91,
+    "hours_to_close": 33.72,
+    "volume_24h": 13743.0,
+    "score": 0.6129
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.24,
+    "volume_24h": 5436.0,
+    "score": 0.5896
    },
    {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 22.98,
-    "volume_24h": 4488.71,
-    "score": 0.5764
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 24.49,
-    "volume_24h": 5436.0,
-    "score": 0.559
+    "hours_to_close": 22.72,
+    "volume_24h": 4561.32,
+    "score": 0.5775
    },
    {
     "label": "Will Jackson Olson and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 33.98,
-    "volume_24h": 12704.16,
-    "score": 0.5525
+    "hours_to_close": 33.72,
+    "volume_24h": 13038.31,
+    "score": 0.5529
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 20, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.98,
+    "hours_to_close": 22.72,
     "volume_24h": 425.51,
-    "score": 0.5497
+    "score": 0.5504
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 20, 2026? \u2014 Above $95.99",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 24.49,
-    "volume_24h": 245.49,
-    "score": 0.5283
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 20, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 279.08,
+    "score": 0.5239
    }
   ],
   "skipped": {},

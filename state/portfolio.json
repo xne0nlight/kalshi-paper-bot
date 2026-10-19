@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.69,
- "fees_paid": 3.21,
+ "cash": 9.92,
+ "fees_paid": 3.23,
  "peak_equity": 109.65,
- "day": "2026-10-18",
- "day_start_equity": 104.99,
- "next_id": 148,
+ "day": "2026-10-19",
+ "day_start_equity": 94.79,
+ "next_id": 149,
  "open_positions": [
   {
    "id": 99,
@@ -295,7 +295,7 @@
    "opened_ts": 1792324831,
    "close_ts": 1792454400.0,
    "score": 0.459,
-   "mark_price": 0.93,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -328,29 +328,6 @@
      "ts": 1792357231,
      "bid": 0.69,
      "proceeds": 3.37
-    }
-   }
-  },
-  {
-   "id": 141,
-   "ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8-TB",
-   "event_ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8",
-   "series": "KXMLBINNINGWIN",
-   "label": "Tampa Bay scores more in the 8th inning?",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.85,
-   "fee": 0.04,
-   "cost": 3.44,
-   "opened_ts": 1792329328,
-   "close_ts": 1792454400.0,
-   "score": 0.3711,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792334735,
-     "bid": 0.75,
-     "proceeds": 2.94
     }
    }
   },
@@ -402,7 +379,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.7,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -469,7 +446,24 @@
    "opened_ts": 1792358128,
    "close_ts": 1792443600.0,
    "score": 0.6038,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 148,
+   "ticker": "KXHIGHTOKC-26OCT19-T73",
+   "event_ticker": "KXHIGHTOKC-26OCT19",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be >73\u00b0 on Oct 19, 2026? \u2014 74\u00b0 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792368036,
+   "close_ts": 1792476000.0,
+   "score": 0.591,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -3561,6 +3555,33 @@
    "pnl": 0.33,
    "result": "YES",
    "closed_ts": 1792358128,
+   "won": true
+  },
+  {
+   "id": 141,
+   "ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8-TB",
+   "event_ticker": "KXMLBINNINGWIN-26OCT172000TBCLE-8",
+   "series": "KXMLBINNINGWIN",
+   "label": "Tampa Bay scores more in the 8th inning?",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.85,
+   "fee": 0.04,
+   "cost": 3.44,
+   "opened_ts": 1792329328,
+   "close_ts": 1792454400.0,
+   "score": 0.3711,
+   "shadow": {
+    "10": {
+     "ts": 1792334735,
+     "bid": 0.75,
+     "proceeds": 2.94
+    }
+   },
+   "payout": 4.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1792368036,
    "won": true
   }
  ],
@@ -8394,92 +8415,103 @@
    1792367130,
    94.79,
    78.89
+  ],
+  [
+   1792368036,
+   95.35,
+   79.08
   ]
  ],
  "last_run": {
-  "ts": 1792367130,
+  "ts": 1792368036,
   "error": null,
-  "markets_scanned": 4512,
-  "candidates": 59,
+  "markets_scanned": 4511,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 4117,
-   "no favorite in 80-95c band": 311,
-   "spread too wide": 24,
-   "favorite is slipping fast": 1
+   "too little volume": 4113,
+   "no favorite in 80-95c band": 312,
+   "spread too wide": 27,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   148
+  ],
+  "settled": [
+   141
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 10977.06,
-    "score": 0.6771
-   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.22,
+    "hours_to_close": 16.97,
     "volume_24h": 5131.12,
-    "score": 0.6687
+    "score": 0.6697
+   },
+   {
+    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,520 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 6029.56,
+    "score": 0.6613
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $79,750 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 17659.49,
-    "score": 0.6571
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 19, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 3909.29,
-    "score": 0.6443
+    "score": 0.6578
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 20169.25,
-    "score": 0.6371
+    "score": 0.6378
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 17.22,
+    "hours_to_close": 16.97,
     "volume_24h": 8336.68,
-    "score": 0.6345
+    "score": 0.6355
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 19, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 1790.84,
-    "score": 0.6189
+    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,320 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 20.99,
+    "volume_24h": 6005.72,
+    "score": 0.6212
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.22,
+    "hours_to_close": 16.97,
     "volume_24h": 4615.96,
-    "score": 0.6152
+    "score": 0.6162
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.97,
+    "volume_24h": 6857.08,
+    "score": 0.6091
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 4
+  },
   "watch_added": 4,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_graded": 117,
+  "api_calls": 45
  },
  "shadow_since": 1791904549,
  "phase": {

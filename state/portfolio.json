@@ -57,7 +57,7 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792435531,
@@ -90,7 +90,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -226,7 +226,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792515540.0,
    "score": 0.5718,
-   "mark_price": 0.46,
+   "mark_price": 0.5,
    "shadow": {
     "10": {
      "ts": 1792440030,
@@ -264,7 +264,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.8,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -281,7 +281,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -9286,99 +9286,96 @@
    1792444532,
    88.9,
    85.42
+  ],
+  [
+   1792445430,
+   88.9,
+   85.69
   ]
  ],
  "last_run": {
-  "ts": 1792444532,
+  "ts": 1792445430,
   "error": null,
-  "markets_scanned": 4692,
-  "candidates": 32,
+  "markets_scanned": 4702,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 4457,
-   "no favorite in 80-95c band": 184,
-   "spread too wide": 19
+   "too little volume": 4463,
+   "no favorite in 80-95c band": 185,
+   "spread too wide": 18
   },
-  "opened": [
-   164,
-   165,
-   166
-  ],
-  "settled": [
-   144,
-   147,
-   162
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 20, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.72,
-    "volume_24h": 9780.99,
-    "score": 0.6709
+    "hours_to_close": 19.47,
+    "volume_24h": 11628.45,
+    "score": 0.6724
    },
    {
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.72,
+    "hours_to_close": 30.47,
     "volume_24h": 15022.73,
-    "score": 0.6472
+    "score": 0.6476
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 20, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.72,
-    "volume_24h": 3831.71,
-    "score": 0.6304
+    "hours_to_close": 19.47,
+    "volume_24h": 5361.36,
+    "score": 0.6421
    },
    {
     "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.72,
-    "volume_24h": 13485.23,
-    "score": 0.6272
-   },
-   {
-    "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.74,
-    "volume_24h": 1702.32,
-    "score": 0.598
+    "hours_to_close": 30.47,
+    "volume_24h": 13285.93,
+    "score": 0.6276
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 1453.72,
-    "score": 0.5978
+    "hours_to_close": 23.49,
+    "volume_24h": 1465.72,
+    "score": 0.5987
    },
    {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,750 or above",
+    "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 950.72,
-    "score": 0.574
+    "price": 0.95,
+    "hours_to_close": 31.49,
+    "volume_24h": 1702.32,
+    "score": 0.5984
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 19.47,
+    "volume_24h": 7965.88,
+    "score": 0.595
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 23.74,
-    "volume_24h": 970.1,
-    "score": 0.5647
+    "hours_to_close": 23.49,
+    "volume_24h": 1970.1,
+    "score": 0.5883
    }
   ],
   "skipped": {},
   "watch_added": 2,
-  "watch_graded": 70,
-  "api_calls": 44
+  "watch_graded": 15,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

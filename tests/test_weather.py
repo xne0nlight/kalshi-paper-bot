@@ -345,17 +345,24 @@ class TestDashboard(Base):
         import weather_bot
         orig = weather_bot.run_cycle
         weather_bot.run_cycle = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("boom"))
-        old = (paper_bot.config.STATE_DIR, paper_bot.config.REPORT_PATH)
+        old = (paper_bot.config.STATE_DIR, paper_bot.config.REPORT_PATH, wc.STATE_DIR)
+        real = [os.path.abspath(p) for p in old]
         try:
             paper_bot.config.STATE_DIR = os.path.join(self.dir, "state")
             paper_bot.config.REPORT_PATH = os.path.join(self.dir, "docs", "index.html")
+            wc.STATE_DIR = os.path.join(self.dir, "state", "weather")
             self.api.add("KXA-26OCT20-A", NOW + 5 * H, 0.89, 0.90)
+            before = {p: os.path.getmtime(p) for p in real if os.path.exists(p)}
             ok = paper_bot.run_all(self.api, NOW)
             self.assertTrue(ok)
             self.assertTrue(os.path.exists(paper_bot.config.REPORT_PATH))
+            fav = portfolio.load_json(os.path.join(self.dir, "state", "portfolio.json"), None)
+            self.assertEqual(len(fav["open_positions"]), 1)                  # bet landed in the TEMP account
+            for p, t in before.items():                                      # ...and nothing real was touched
+                self.assertEqual(os.path.getmtime(p), t, f"test modified real file {p}")
         finally:
             weather_bot.run_cycle = orig
-            paper_bot.config.STATE_DIR, paper_bot.config.REPORT_PATH = old
+            paper_bot.config.STATE_DIR, paper_bot.config.REPORT_PATH, wc.STATE_DIR = old
 
 
 if __name__ == "__main__":

@@ -91,8 +91,10 @@ def update_watchlist(api, watch, candidates, now_ts):
     return added, graded
 
 
-def run_cycle(api, now_ts=None, state_dir=config.STATE_DIR, report_path=config.REPORT_PATH,
-              verbose=True):
+def run_cycle(api, now_ts=None, state_dir=None, report_path=None, verbose=True):
+    # folders are looked up at call time (not import time) so tests can't touch real state
+    state_dir = state_dir or config.STATE_DIR
+    report_path = report_path or config.REPORT_PATH
     now_ts = now_ts or time.time()
     os.makedirs(state_dir, exist_ok=True)
     log_path = os.path.join(state_dir, "trade_log.csv")
@@ -157,7 +159,7 @@ def run_all(api, now_ts=None):
     """One scheduled run: favorites bot, then weather bot, then one combined dashboard.
     A weather-bot failure is reported on its tab and never affects the favorites bot."""
     now_ts = now_ts or time.time()
-    ok = run_cycle(api, now_ts)
+    ok = run_cycle(api, now_ts, config.STATE_DIR, config.REPORT_PATH)
     try:
         import weather_bot
         weather_bot.run_cycle(api, now_ts=now_ts)

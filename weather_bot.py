@@ -415,7 +415,8 @@ def update_scorecard(state, api, snapshots, now_ts, run):
 # ---------------------------------------------------------------------------
 # The cycle
 # ---------------------------------------------------------------------------
-def run_cycle(api, data=None, now_ts=None, state_dir=wc.STATE_DIR, verbose=True):
+def run_cycle(api, data=None, now_ts=None, state_dir=None, verbose=True):
+    state_dir = state_dir or wc.STATE_DIR   # looked up at call time, not import time
     now_ts = now_ts or time.time()
     os.makedirs(state_dir, exist_ok=True)
     sp, cp = os.path.join(state_dir, "portfolio.json"), os.path.join(state_dir, "cache.json")

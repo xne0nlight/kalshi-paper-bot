@@ -190,7 +190,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -295,7 +295,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.91,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -345,7 +345,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -362,7 +362,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.59,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -463,7 +463,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -8496,19 +8496,24 @@
    1792377930,
    95.91,
    79.95
+  ],
+  [
+   1792378829,
+   95.91,
+   79.73
   ]
  ],
  "last_run": {
-  "ts": 1792377930,
+  "ts": 1792378829,
   "error": null,
-  "markets_scanned": 4871,
-  "candidates": 78,
+  "markets_scanned": 4873,
+  "candidates": 74,
   "rejections": {
-   "too little volume": 4241,
-   "no favorite in 80-95c band": 492,
-   "spread too wide": 56,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 2
+   "too little volume": 4237,
+   "no favorite in 80-95c band": 502,
+   "spread too wide": 57,
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -8518,69 +8523,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.22,
-    "volume_24h": 7556.55,
-    "score": 0.6947
+    "hours_to_close": 13.98,
+    "volume_24h": 7591.09,
+    "score": 0.6962
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.22,
-    "volume_24h": 7624.24,
-    "score": 0.685
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.24,
-    "volume_24h": 8433.95,
-    "score": 0.6811
+    "hours_to_close": 13.98,
+    "volume_24h": 7658.78,
+    "score": 0.6864
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.24,
+    "hours_to_close": 17.99,
     "volume_24h": 18538.44,
-    "score": 0.6766
+    "score": 0.6775
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 17.99,
+    "volume_24h": 29292.64,
+    "score": 0.6575
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 14.22,
-    "volume_24h": 11225.74,
-    "score": 0.6538
+    "hours_to_close": 13.98,
+    "volume_24h": 11300.39,
+    "score": 0.6551
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.22,
-    "volume_24h": 9480.52,
-    "score": 0.6421
+    "hours_to_close": 13.98,
+    "volume_24h": 9515.06,
+    "score": 0.6435
    },
    {
     "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 30",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 6647.16,
-    "score": 0.6389
+    "score": 0.6392
    },
    {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 18.24,
-    "volume_24h": 4404.86,
-    "score": 0.6299
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 17.99,
+    "volume_24h": 60065.37,
+    "score": 0.6275
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -324,7 +324,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.64,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -430,7 +430,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -8647,90 +8647,94 @@
    1792400429,
    90.35,
    80.2
+  ],
+  [
+   1792401330,
+   90.35,
+   80.21
   ]
  ],
  "last_run": {
-  "ts": 1792400429,
+  "ts": 1792401330,
   "error": null,
-  "markets_scanned": 4453,
-  "candidates": 89,
+  "markets_scanned": 603,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 3803,
-   "no favorite in 80-95c band": 500,
-   "spread too wide": 60,
-   "favorite is slipping fast": 1
+   "too little volume": 464,
+   "no favorite in 80-95c band": 102,
+   "spread too wide": 15
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the copper close price be above 6.58 USD/Lbs on October 19, 2026 at 5:00 PM EDT? \u2014 Above $6.58",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 14806.92,
-    "score": 0.7167
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 13744.35,
-    "score": 0.7167
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 97857.99,
-    "score": 0.7167
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 22265.04,
-    "score": 0.6867
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 47043.59,
-    "score": 0.6867
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 11.99,
-    "volume_24h": 19691.81,
-    "score": 0.6667
-   },
-   {
     "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 30",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 11444.29,
-    "score": 0.6618
+    "score": 0.6622
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 19, 2026? \u2014 Above $94.99",
+    "label": "Will there be more than 160 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 160",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 9.49,
-    "volume_24h": 939.74,
-    "score": 0.6586
+    "hours_to_close": 27.74,
+    "volume_24h": 2437.0,
+    "score": 0.6163
+   },
+   {
+    "label": "Will there be more than 280 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 280",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 1648.16,
+    "score": 0.6035
+   },
+   {
+    "label": "Will October 17 be the day with the most transit calls through the Strait of Hormuz (10/12 - 10/18)?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 1567.0,
+    "score": 0.6019
+   },
+   {
+    "label": "Will there be more than 170 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 170",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 27.74,
+    "volume_24h": 6495.82,
+    "score": 0.5882
+   },
+   {
+    "label": "Will there be more than 25 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 25",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 27.74,
+    "volume_24h": 8934.0,
+    "score": 0.5786
+   },
+   {
+    "label": "Will October 18 be the day with the most transit calls through the Strait of Hormuz (10/12 - 10/18)?",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 27.74,
+    "volume_24h": 9727.6,
+    "score": 0.5613
+   },
+   {
+    "label": "Will the highest single-day number of transit calls through the Strait of Hormuz be more than 6 from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 6",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.74,
+    "volume_24h": 5133.0,
+    "score": 0.5605
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

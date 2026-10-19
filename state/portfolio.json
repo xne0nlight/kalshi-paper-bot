@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.56,
- "fees_paid": 3.67,
+ "cash": 9.65,
+ "fees_paid": 3.68,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 167,
+ "next_id": 168,
  "open_positions": [
-  {
-   "id": 143,
-   "ticker": "KXUST7AD-26OCT19-T5.13",
-   "event_ticker": "KXUST7AD-26OCT19",
-   "series": "KXUST7AD",
-   "label": "Will the 7Y U.S. Treasury yield be above 5.13% on Oct 19, 2026? \u2014 5.14% or above",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.92,
-   "fee": 0.01,
-   "cost": 0.93,
-   "opened_ts": 1792334735,
-   "close_ts": 1792438200.0,
-   "score": 0.4216,
-   "mark_price": 0.97,
-   "shadow": {}
-  },
   {
    "id": 146,
    "ticker": "KXHIGHTEWR-26OCT19-B60.5",
@@ -90,7 +73,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -264,7 +247,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -298,7 +281,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -400,6 +383,23 @@
    "close_ts": 1792562400.0,
    "score": 0.5423,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 167,
+   "ticker": "KXGOLDD-26OCT2017-T4041",
+   "event_ticker": "KXGOLDD-26OCT2017",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 4041 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4041",
+   "side": "yes",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1792448129,
+   "close_ts": 1792530000.0,
+   "score": 0.6221,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -4018,6 +4018,27 @@
    "pnl": 0.37,
    "result": "NO",
    "closed_ts": 1792444532,
+   "won": true
+  },
+  {
+   "id": 143,
+   "ticker": "KXUST7AD-26OCT19-T5.13",
+   "event_ticker": "KXUST7AD-26OCT19",
+   "series": "KXUST7AD",
+   "label": "Will the 7Y U.S. Treasury yield be above 5.13% on Oct 19, 2026? \u2014 5.14% or above",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1792334735,
+   "close_ts": 1792438200.0,
+   "score": 0.4216,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.07,
+   "result": "NO",
+   "closed_ts": 1792448129,
    "won": true
   }
  ],
@@ -9301,90 +9322,100 @@
    1792447233,
    88.9,
    85.82
+  ],
+  [
+   1792448129,
+   88.97,
+   85.82
   ]
  ],
  "last_run": {
-  "ts": 1792447233,
+  "ts": 1792448129,
   "error": null,
   "markets_scanned": 4702,
-  "candidates": 46,
+  "candidates": 59,
   "rejections": {
-   "too little volume": 4453,
-   "no favorite in 80-95c band": 184,
-   "spread too wide": 19
+   "too little volume": 4423,
+   "no favorite in 80-95c band": 205,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   167
+  ],
+  "settled": [
+   143
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.49,
-    "volume_24h": 5567.8,
-    "score": 0.6602
-   },
    {
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.97,
-    "volume_24h": 15341.33,
-    "score": 0.6584
+    "hours_to_close": 29.73,
+    "volume_24h": 14674.76,
+    "score": 0.6588
+   },
+   {
+    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 12192.49,
+    "score": 0.6531
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.24,
+    "volume_24h": 5647.8,
+    "score": 0.6514
    },
    {
     "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.97,
-    "volume_24h": 14274.66,
-    "score": 0.6484
+    "hours_to_close": 29.73,
+    "volume_24h": 14296.14,
+    "score": 0.6488
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 20, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 18.97,
-    "volume_24h": 14438.99,
-    "score": 0.6441
-   },
-   {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 22.99,
-    "volume_24h": 12187.09,
-    "score": 0.6424
+    "hours_to_close": 18.73,
+    "volume_24h": 14684.48,
+    "score": 0.6449
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 20, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 18.97,
-    "volume_24h": 5772.28,
-    "score": 0.6362
+    "hours_to_close": 18.73,
+    "volume_24h": 7288.99,
+    "score": 0.6446
    },
    {
-    "label": "Will it rain in Las Vegas on Oct 20, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 5696.75,
-    "score": 0.6242
+    "label": "Will the gold close price be above 4041 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4041",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 22.74,
+    "volume_24h": 2089.0,
+    "score": 0.6221
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 2942.17,
-    "score": 0.6194
+    "score": 0.6202
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 14,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

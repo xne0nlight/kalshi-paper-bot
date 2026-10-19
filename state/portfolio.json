@@ -95,7 +95,7 @@
    "opened_ts": 1792358128,
    "close_ts": 1792443600.0,
    "score": 0.6038,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -112,7 +112,7 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
-   "mark_price": 0.8,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792435531,
@@ -264,7 +264,7 @@
    "opened_ts": 1792429233,
    "close_ts": 1792558800.0,
    "score": 0.5297,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -281,8 +281,24 @@
    "opened_ts": 1792430131,
    "close_ts": 1792515540.0,
    "score": 0.5718,
-   "mark_price": 0.81,
-   "shadow": {}
+   "mark_price": 0.66,
+   "shadow": {
+    "10": {
+     "ts": 1792440030,
+     "bid": 0.66,
+     "proceeds": 3.22
+    },
+    "15": {
+     "ts": 1792440030,
+     "bid": 0.66,
+     "proceeds": 3.22
+    },
+    "20": {
+     "ts": 1792440030,
+     "bid": 0.66,
+     "proceeds": 3.22
+    }
+   }
   },
   {
    "id": 158,
@@ -298,7 +314,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -315,7 +331,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.85,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -332,7 +348,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -383,12 +399,17 @@
    "opened_ts": 1792437330,
    "close_ts": 1792558800.0,
    "score": 0.4839,
-   "mark_price": 0.77,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1792438233,
      "bid": 0.77,
      "proceeds": 0.75
+    },
+    "15": {
+     "ts": 1792440030,
+     "bid": 0.7,
+     "proceeds": 0.68
     }
    }
   }
@@ -9162,16 +9183,21 @@
    1792439132,
    88.02,
    86.29
+  ],
+  [
+   1792440030,
+   88.02,
+   85.79
   ]
  ],
  "last_run": {
-  "ts": 1792439132,
+  "ts": 1792440030,
   "error": null,
-  "markets_scanned": 1529,
-  "candidates": 22,
+  "markets_scanned": 4946,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 1361,
-   "no favorite in 80-95c band": 136,
+   "too little volume": 4753,
+   "no favorite in 80-95c band": 155,
    "spread too wide": 10
   },
   "opened": [],
@@ -9182,70 +9208,70 @@
     "label": "Will Trump's RCP approval average be above 39.2 on Oct 20, 2026? \u2014 Above 39.2%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.22,
-    "volume_24h": 10028.42,
-    "score": 0.6671
+    "hours_to_close": 20.97,
+    "volume_24h": 11587.43,
+    "score": 0.6679
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 20, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.97,
+    "volume_24h": 5471.25,
+    "score": 0.6482
    },
    {
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.22,
+    "hours_to_close": 31.97,
     "volume_24h": 15382.57,
-    "score": 0.6449
+    "score": 0.6453
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.74,
-    "volume_24h": 5447.8,
-    "score": 0.6333
-   },
-   {
-    "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 32.22,
-    "volume_24h": 13068.39,
-    "score": 0.6149
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
-    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 22.74,
-    "volume_24h": 1028.07,
-    "score": 0.589
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.74,
-    "volume_24h": 2270.17,
-    "score": 0.5848
+    "hours_to_close": 22.49,
+    "volume_24h": 5447.8,
+    "score": 0.6439
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 20, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.22,
-    "volume_24h": 3184.21,
-    "score": 0.5699
+    "hours_to_close": 20.97,
+    "volume_24h": 5499.01,
+    "score": 0.6384
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 20, 2026? \u2014 Above $95.49",
-    "side": "yes",
+    "label": "Will Tatyana Ali and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 31.97,
+    "volume_24h": 13068.39,
+    "score": 0.6153
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
+    "side": "no",
     "price": 0.92,
-    "hours_to_close": 22.74,
-    "volume_24h": 977.81,
-    "score": 0.5674
+    "hours_to_close": 22.49,
+    "volume_24h": 2270.17,
+    "score": 0.5954
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 22.49,
+    "volume_24h": 1028.07,
+    "score": 0.5896
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 9,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

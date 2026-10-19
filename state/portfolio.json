@@ -257,7 +257,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -307,7 +307,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -324,7 +324,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.46,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -413,7 +413,7 @@
    "opened_ts": 1792368036,
    "close_ts": 1792476000.0,
    "score": 0.591,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -8587,18 +8587,23 @@
    1792389630,
    90.35,
    79.67
+  ],
+  [
+   1792390530,
+   90.35,
+   79.78
   ]
  ],
  "last_run": {
-  "ts": 1792389630,
+  "ts": 1792390530,
   "error": null,
   "markets_scanned": 4440,
-  "candidates": 84,
+  "candidates": 85,
   "rejections": {
-   "too little volume": 3821,
-   "no favorite in 80-95c band": 482,
-   "spread too wide": 51,
-   "favorite is slipping fast": 2
+   "too little volume": 3816,
+   "no favorite in 80-95c band": 484,
+   "spread too wide": 52,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
@@ -8608,69 +8613,69 @@
     "label": "Will the copper close price be above 6.60 USD/Lbs on October 19, 2026 at 5:00 PM EDT? \u2014 Above $6.60",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.99,
-    "volume_24h": 12043.82,
-    "score": 0.7
+    "hours_to_close": 14.74,
+    "volume_24h": 12044.72,
+    "score": 0.7012
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.99,
-    "volume_24h": 25318.01,
-    "score": 0.7
+    "hours_to_close": 14.74,
+    "volume_24h": 25334.24,
+    "score": 0.7012
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.99,
-    "volume_24h": 32302.55,
-    "score": 0.68
+    "price": 0.94,
+    "hours_to_close": 14.74,
+    "volume_24h": 32458.05,
+    "score": 0.6912
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 12.24,
+    "volume_24h": 4799.98,
+    "score": 0.6812
    },
    {
     "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 14.99,
+    "price": 0.92,
+    "hours_to_close": 14.74,
     "volume_24h": 9312.55,
-    "score": 0.6577
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 14.99,
-    "volume_24h": 18950.77,
-    "score": 0.65
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 14.99,
-    "volume_24h": 77777.71,
-    "score": 0.65
+    "score": 0.6689
    },
    {
     "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 30",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 6444.29,
-    "score": 0.6425
+    "hours_to_close": 30.74,
+    "volume_24h": 11444.29,
+    "score": 0.6572
    },
    {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,500 or above",
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 14.99,
-    "volume_24h": 2389.83,
-    "score": 0.6334
+    "price": 0.9,
+    "hours_to_close": 14.74,
+    "volume_24h": 18950.77,
+    "score": 0.6512
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 14.74,
+    "volume_24h": 77800.98,
+    "score": 0.6512
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

@@ -190,7 +190,7 @@
    "opened_ts": 1792301429,
    "close_ts": 1792386000.0,
    "score": 0.6427,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -295,7 +295,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -362,7 +362,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.7,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -429,7 +429,7 @@
    "opened_ts": 1792358128,
    "close_ts": 1792443600.0,
    "score": 0.6038,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -8471,17 +8471,22 @@
    1792373430,
    95.91,
    79.71
+  ],
+  [
+   1792374330,
+   95.91,
+   79.65
   ]
  ],
  "last_run": {
-  "ts": 1792373430,
+  "ts": 1792374330,
   "error": null,
   "markets_scanned": 4598,
-  "candidates": 81,
+  "candidates": 79,
   "rejections": {
-   "too little volume": 4136,
-   "no favorite in 80-95c band": 352,
-   "spread too wide": 27,
+   "too little volume": 4130,
+   "no favorite in 80-95c band": 355,
+   "spread too wide": 32,
    "nothing for sale at the ask": 2
   },
   "opened": [],
@@ -8489,68 +8494,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,320 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 11478.81,
-    "score": 0.6824
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 19, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 15.48,
-    "volume_24h": 5571.63,
-    "score": 0.6787
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 19, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.48,
-    "volume_24h": 5289.3,
-    "score": 0.677
+    "hours_to_close": 15.23,
+    "volume_24h": 7403.48,
+    "score": 0.6892
    },
    {
-    "label": "Will the copper close price be above 6.58 USD/Lbs on October 19, 2026 at 5:00 PM EDT? \u2014 Above $6.58",
+    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,320 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 14747.59,
-    "score": 0.6724
-   },
-   {
-    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 35203.11,
-    "score": 0.6724
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.48,
-    "volume_24h": 5357.38,
-    "score": 0.6575
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 19, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.48,
-    "volume_24h": 7107.58,
-    "score": 0.6567
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 11478.81,
+    "score": 0.6832
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,250 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 19.49,
-    "volume_24h": 7531.68,
-    "score": 0.6532
+    "hours_to_close": 19.24,
+    "volume_24h": 8395.72,
+    "score": 0.6575
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 39.1 on Oct 19, 2026? \u2014 Above 39.1%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 15.23,
+    "volume_24h": 10757.39,
+    "score": 0.6489
+   },
+   {
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,500 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 19.24,
+    "volume_24h": 18471.83,
+    "score": 0.6432
+   },
+   {
+    "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 30",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.24,
+    "volume_24h": 6647.16,
+    "score": 0.6376
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 19, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.23,
+    "volume_24h": 7471.56,
+    "score": 0.6295
+   },
+   {
+    "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,520 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 6356.87,
+    "score": 0.6184
    }
   ],
   "skipped": {},

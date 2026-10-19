@@ -257,7 +257,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.83,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -324,7 +324,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.57,
+   "mark_price": 0.5,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -8602,17 +8602,22 @@
    1792392330,
    90.35,
    79.78
+  ],
+  [
+   1792393230,
+   90.35,
+   79.04
   ]
  ],
  "last_run": {
-  "ts": 1792392330,
+  "ts": 1792393230,
   "error": null,
-  "markets_scanned": 4470,
-  "candidates": 92,
+  "markets_scanned": 4481,
+  "candidates": 84,
   "rejections": {
-   "too little volume": 3832,
-   "no favorite in 80-95c band": 489,
-   "spread too wide": 52,
+   "too little volume": 3841,
+   "no favorite in 80-95c band": 497,
+   "spread too wide": 54,
    "favorite is slipping fast": 5
   },
   "opened": [],
@@ -8620,72 +8625,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Oct 19, 2026? \u2014 Above $99.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 11.49,
+    "volume_24h": 6957.83,
+    "score": 0.7082
+   },
+   {
     "label": "Will the copper close price be above 6.60 USD/Lbs on October 19, 2026 at 5:00 PM EDT? \u2014 Above $6.60",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 12044.72,
-    "score": 0.7037
+    "score": 0.705
    },
    {
     "label": "Bitcoin price on Oct 19, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 33458.05,
-    "score": 0.7037
+    "hours_to_close": 13.99,
+    "volume_24h": 33598.05,
+    "score": 0.705
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Oct 19, 2026? \u2014 Above $99.99",
+    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 19, 2026? \u2014 Above $99.49",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 11.74,
-    "volume_24h": 6934.35,
-    "score": 0.6864
+    "price": 0.91,
+    "hours_to_close": 11.49,
+    "volume_24h": 8904.87,
+    "score": 0.6763
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Oct 19, 2026? \u2014 Above $100.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.74,
-    "volume_24h": 4952.98,
-    "score": 0.6855
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 19, 2026? \u2014 Above $100.49",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.74,
-    "volume_24h": 4426.0,
-    "score": 0.6818
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 13.99,
+    "volume_24h": 87155.68,
+    "score": 0.675
    },
    {
     "label": "Ethereum price at Oct 19, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 9312.55,
-    "score": 0.6714
+    "score": 0.6727
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 19, 2026? \u2014 Above $99.49",
+    "label": "Bitcoin price on Oct 19, 2026? \u2014 $84,250 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 11.74,
-    "volume_24h": 8904.87,
-    "score": 0.6646
+    "price": 0.91,
+    "hours_to_close": 13.99,
+    "volume_24h": 19060.88,
+    "score": 0.665
    },
    {
     "label": "Will there be more than 30 transit calls through the Strait of Hormuz from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 30",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.24,
+    "hours_to_close": 29.99,
     "volume_24h": 11444.29,
-    "score": 0.6579
+    "score": 0.6583
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

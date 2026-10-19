@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 15.21,
- "fees_paid": 3.34,
+ "cash": 24.44,
+ "fees_paid": 3.36,
  "peak_equity": 109.65,
  "day": "2026-10-19",
  "day_start_equity": 94.79,
- "next_id": 154,
+ "next_id": 155,
  "open_positions": [
   {
    "id": 115,
@@ -65,61 +65,6 @@
    }
   },
   {
-   "id": 134,
-   "ticker": "KXANTHSHARE-26OCT19-4.5",
-   "event_ticker": "KXANTHSHARE-26OCT19",
-   "series": "KXANTHSHARE",
-   "label": "Anthropic market share this week? \u2014 Above 4.5%",
-   "side": "yes",
-   "contracts": 3,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 2.84,
-   "opened_ts": 1792294229,
-   "close_ts": 1792418400.0,
-   "score": 0.6419,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 136,
-   "ticker": "KXOPENSHARE-26OCT19-18.4",
-   "event_ticker": "KXOPENSHARE-26OCT19",
-   "series": "KXOPENSHARE",
-   "label": "OpenAI market share this week? \u2014 Above 18.4%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1792304133,
-   "close_ts": 1792418400.0,
-   "score": 0.6456,
-   "mark_price": 0.01,
-   "shadow": {
-    "10": {
-     "ts": 1792311329,
-     "bid": 0.84,
-     "proceeds": 4.98
-    },
-    "15": {
-     "ts": 1792323930,
-     "bid": 0.76,
-     "proceeds": 4.48
-    },
-    "20": {
-     "ts": 1792329328,
-     "bid": 0.68,
-     "proceeds": 3.98
-    },
-    "30": {
-     "ts": 1792330230,
-     "bid": 0.55,
-     "proceeds": 3.19
-    }
-   }
-  },
-  {
    "id": 137,
    "ticker": "KXTRUMPSAY-26OCT19-ZOHR",
    "event_ticker": "KXTRUMPSAY-26OCT19",
@@ -135,39 +80,6 @@
    "score": 0.5813,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 138,
-   "ticker": "KXDEEPSHARE-26OCT19-24.4",
-   "event_ticker": "KXDEEPSHARE-26OCT19",
-   "series": "KXDEEPSHARE",
-   "label": "DeepSeek market share this week? \u2014 Above 24.4%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1792323030,
-   "close_ts": 1792418400.0,
-   "score": 0.6646,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792325729,
-     "bid": 0.73,
-     "proceeds": 4.29
-    },
-    "15": {
-     "ts": 1792325729,
-     "bid": 0.73,
-     "proceeds": 4.29
-    },
-    "20": {
-     "ts": 1792325729,
-     "bid": 0.73,
-     "proceeds": 4.29
-    }
-   }
   },
   {
    "id": 140,
@@ -203,23 +115,6 @@
    }
   },
   {
-   "id": 142,
-   "ticker": "KXOPENSOURCESHARE-26OCT19-T56.6",
-   "event_ticker": "KXOPENSOURCESHARE-26OCT19",
-   "series": "KXOPENSOURCESHARE",
-   "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 18, 2026 be above 56.6%? \u2014 Above 56.6%",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792333829,
-   "close_ts": 1792418400.0,
-   "score": 0.6667,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 143,
    "ticker": "KXUST7AD-26OCT19-T5.13",
    "event_ticker": "KXUST7AD-26OCT19",
@@ -250,7 +145,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.78,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -425,6 +320,23 @@
    "close_ts": 1792501200.0,
    "score": 0.532,
    "mark_price": 0.89,
+   "shadow": {}
+  },
+  {
+   "id": 154,
+   "ticker": "KXWTI-26OCT2014-T93.49",
+   "event_ticker": "KXWTI-26OCT2014",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 93.49 USD/Bbl on Oct 20, 2026? \u2014 Above $93.49",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792419332,
+   "close_ts": 1792521000.0,
+   "score": 0.5865,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -3696,6 +3608,127 @@
    "pnl": 0.33,
    "result": "YES",
    "closed_ts": 1792415732,
+   "won": true
+  },
+  {
+   "id": 134,
+   "ticker": "KXANTHSHARE-26OCT19-4.5",
+   "event_ticker": "KXANTHSHARE-26OCT19",
+   "series": "KXANTHSHARE",
+   "label": "Anthropic market share this week? \u2014 Above 4.5%",
+   "side": "yes",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1792294229,
+   "close_ts": 1792418400.0,
+   "score": 0.6419,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.16,
+   "result": "YES",
+   "closed_ts": 1792419332,
+   "won": true
+  },
+  {
+   "id": 136,
+   "ticker": "KXOPENSHARE-26OCT19-18.4",
+   "event_ticker": "KXOPENSHARE-26OCT19",
+   "series": "KXOPENSHARE",
+   "label": "OpenAI market share this week? \u2014 Above 18.4%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792304133,
+   "close_ts": 1792418400.0,
+   "score": 0.6456,
+   "shadow": {
+    "10": {
+     "ts": 1792311329,
+     "bid": 0.84,
+     "proceeds": 4.98
+    },
+    "15": {
+     "ts": 1792323930,
+     "bid": 0.76,
+     "proceeds": 4.48
+    },
+    "20": {
+     "ts": 1792329328,
+     "bid": 0.68,
+     "proceeds": 3.98
+    },
+    "30": {
+     "ts": 1792330230,
+     "bid": 0.55,
+     "proceeds": 3.19
+    }
+   },
+   "payout": 0.0,
+   "pnl": -5.67,
+   "result": "YES",
+   "closed_ts": 1792419332,
+   "won": false
+  },
+  {
+   "id": 138,
+   "ticker": "KXDEEPSHARE-26OCT19-24.4",
+   "event_ticker": "KXDEEPSHARE-26OCT19",
+   "series": "KXDEEPSHARE",
+   "label": "DeepSeek market share this week? \u2014 Above 24.4%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1792323030,
+   "close_ts": 1792418400.0,
+   "score": 0.6646,
+   "shadow": {
+    "10": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    },
+    "15": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    },
+    "20": {
+     "ts": 1792325729,
+     "bid": 0.73,
+     "proceeds": 4.29
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792419332,
+   "won": true
+  },
+  {
+   "id": 142,
+   "ticker": "KXOPENSOURCESHARE-26OCT19-T56.6",
+   "event_ticker": "KXOPENSOURCESHARE-26OCT19",
+   "series": "KXOPENSOURCESHARE",
+   "label": "Will Open vs. Closed Token Volume (open weights share) for Oct 18, 2026 be above 56.6%? \u2014 Above 56.6%",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792333829,
+   "close_ts": 1792418400.0,
+   "score": 0.6667,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "YES",
+   "closed_ts": 1792419332,
    "won": true
   }
  ],
@@ -8814,66 +8847,104 @@
    1792418430,
    91.49,
    81.27
+  ],
+  [
+   1792419332,
+   86.49,
+   81.42
   ]
  ],
  "last_run": {
-  "ts": 1792418430,
+  "ts": 1792419332,
   "error": null,
-  "markets_scanned": 573,
-  "candidates": 5,
+  "markets_scanned": 591,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 463,
-   "no favorite in 80-95c band": 90,
-   "spread too wide": 15
+   "too little volume": 480,
+   "no favorite in 80-95c band": 88,
+   "spread too wide": 11
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   154
+  ],
+  "settled": [
+   134,
+   136,
+   138,
+   142
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be more than 280 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 280",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 1648.16,
-    "score": 0.6137
+    "score": 0.6144
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 26.72,
+    "volume_24h": 4074.8,
+    "score": 0.5949
    },
    {
     "label": "Will there be more than 320 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 320",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 22.99,
-    "volume_24h": 6407.76,
-    "score": 0.5879
+    "hours_to_close": 22.74,
+    "volume_24h": 6414.76,
+    "score": 0.5886
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 93.49 USD/Bbl on Oct 20, 2026? \u2014 Above $93.49",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 1005.0,
+    "score": 0.5865
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 28.24,
+    "volume_24h": 1106.3,
+    "score": 0.5496
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 28.24,
+    "volume_24h": 500.0,
+    "score": 0.5438
    },
    {
     "label": "Will there be more than 210 transit calls through the Panama Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 210",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 753.0,
-    "score": 0.5382
+    "score": 0.5389
    },
    {
     "label": "Will there be more than 180 transit calls through the Panama Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 180",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 3163.12,
-    "score": 0.535
-   },
-   {
-    "label": "Will there be more than 290 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 290",
-    "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 22.99,
-    "volume_24h": 2932.68,
-    "score": 0.5325
+    "score": 0.5356
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 4,
+  "skipped": {
+   "related-market cap (Presidential approval)": 1
+  },
+  "watch_added": 2,
+  "watch_graded": 33,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

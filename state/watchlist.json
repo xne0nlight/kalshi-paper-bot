@@ -13898,7 +13898,7 @@
    "series": "KXANTHVSPEND",
    "seen_ts": 1792252831,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 11692,
    "spread": 0.01,
    "group": null,
@@ -13940,7 +13940,7 @@
    "series": "KXANTHVSPEND",
    "seen_ts": 1792252831,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 482,
    "spread": 0.01,
    "group": null,
@@ -14094,7 +14094,7 @@
    "series": "KXANTHVSPEND",
    "seen_ts": 1792255529,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 2038,
    "spread": 0.01,
    "group": null,
@@ -15536,7 +15536,7 @@
    "series": "KXANTHVREQ",
    "seen_ts": 1792274431,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 820,
    "spread": 0.03,
    "group": null,
@@ -16010,7 +16010,7 @@
    "series": "KXANTHVSPEND",
    "seen_ts": 1792282534,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 589,
    "spread": 0.03,
    "group": null,
@@ -16576,7 +16576,7 @@
    "series": "KXMOONVSPEND",
    "seen_ts": 1792291528,
    "close_ts": 1792382340.0,
-   "won": null,
+   "won": true,
    "vol24": 1049,
    "spread": 0.03,
    "group": null,
@@ -19704,7 +19704,7 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
    "last_price": 0.94,
-   "last_ts": 1792422031
+   "last_ts": 1792422932
   },
   "KXWTI-26OCT2014-T93.49": {
    "side": "yes",
@@ -19938,7 +19938,7 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
    "last_price": 0.91,
-   "last_ts": 1792422031
+   "last_ts": 1792422932
   },
   "KXWTI-26OCT2014-T94.99": {
    "side": "yes",
@@ -19952,7 +19952,7 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
    "last_price": 0.87,
-   "last_ts": 1792422031
+   "last_ts": 1792422932
   },
   "KXWTI-26OCT2014-T102.49": {
    "side": "no",
@@ -19979,8 +19979,8 @@
    "spread": 0.01,
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 20, 2026? \u2014 Above $100.49",
-   "last_price": 0.89,
-   "last_ts": 1792422031
+   "last_price": 0.9,
+   "last_ts": 1792422932
   },
   "KXBABELMANDEBWEEKLY-26OCT18-T180": {
    "side": "yes",
@@ -20008,7 +20008,7 @@
    "group": "Presidential approval",
    "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
    "last_price": 0.91,
-   "last_ts": 1792422031
+   "last_ts": 1792422932
   },
   "KXWTI-26OCT2014-T93.99": {
    "side": "yes",
@@ -20022,7 +20022,31 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
    "last_price": 0.94,
-   "last_ts": 1792422031
+   "last_ts": 1792422932
+  },
+  "KXWTI-26OCT2014-T101.99": {
+   "side": "no",
+   "price": 0.95,
+   "series": "KXWTI",
+   "seen_ts": 1792422932,
+   "close_ts": 1792521000.0,
+   "won": null,
+   "vol24": 214,
+   "spread": 0.01,
+   "group": "Oil prices",
+   "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99"
+  },
+  "KXTRUMPAPPROVE-26OCT20-E38.7": {
+   "side": "no",
+   "price": 0.88,
+   "series": "KXTRUMPAPPROVE",
+   "seen_ts": 1792422932,
+   "close_ts": 1792515540.0,
+   "won": null,
+   "vol24": 235,
+   "spread": 0.03,
+   "group": "Presidential approval",
+   "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%"
   }
  }
 }

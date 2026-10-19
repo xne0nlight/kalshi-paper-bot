@@ -183,7 +183,7 @@
    "opened_ts": 1792326629,
    "close_ts": 1792418400.0,
    "score": 0.6667,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792333829,
@@ -233,7 +233,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792438200.0,
    "score": 0.4216,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -250,7 +250,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.63,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -8799,95 +8799,98 @@
    1792415732,
    91.49,
    80.92
+  ],
+  [
+   1792416629,
+   91.49,
+   81.0
   ]
  ],
  "last_run": {
-  "ts": 1792415732,
+  "ts": 1792416629,
   "error": null,
   "markets_scanned": 598,
-  "candidates": 15,
+  "candidates": 14,
   "rejections": {
    "too little volume": 460,
-   "no favorite in 80-95c band": 109,
-   "spread too wide": 14
+   "no favorite in 80-95c band": 107,
+   "spread too wide": 17
   },
   "opened": [],
-  "settled": [
-   120
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be more than 160 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 160",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 2437.0,
-    "score": 0.6246
+    "score": 0.6252
    },
    {
     "label": "Will there be more than 280 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 280",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 1648.16,
-    "score": 0.6119
+    "score": 0.6125
    },
    {
     "label": "Will there be more than 170 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 170",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 6495.82,
-    "score": 0.5966
+    "score": 0.5972
    },
    {
     "label": "Will October 17 be the day with the most transit calls through the Strait of Hormuz (10/12 - 10/18)?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 767.0,
-    "score": 0.587
+    "score": 0.5876
    },
    {
     "label": "Will the highest single-day number of transit calls through the Strait of Hormuz be more than 6 from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 6",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 1718.0,
-    "score": 0.5833
+    "score": 0.5839
    },
    {
     "label": "Will there be more than 320 transit calls through the Suez Canal from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 320",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 5600.69,
-    "score": 0.5817
+    "score": 0.5823
    },
    {
     "label": "Will October 15 be the day with the most transit calls through the Strait of Hormuz (10/12 - 10/18)?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 645.9,
-    "score": 0.5614
+    "score": 0.562
    },
    {
-    "label": "Will October 12 be the day with the most transit calls through the Strait of Hormuz (10/12 - 10/18)?",
+    "label": "Will there be more than 210 transit calls through the Bab el-Mandeb Strait from Oct 12, 2026 to Oct 18, 2026? \u2014 Above 210",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 500.0,
-    "score": 0.5531
+    "price": 0.9,
+    "hours_to_close": 23.49,
+    "volume_24h": 1302.0,
+    "score": 0.5548
    }
   ],
   "skipped": {
    "related-market cap (Strait of Hormuz)": 5
   },
   "watch_added": 0,
-  "watch_graded": 12,
-  "api_calls": 43
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

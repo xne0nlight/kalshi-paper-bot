@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 29.44,
+ "cash": 35.44,
  "fees_paid": 3.36,
  "peak_equity": 109.65,
  "day": "2026-10-19",
@@ -25,44 +25,6 @@
    "score": 0.6411,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 119,
-   "ticker": "KXANTHVSPEND-18OCT26-T41P2",
-   "event_ticker": "KXANTHVSPEND-18OCT26",
-   "series": "KXANTHVSPEND",
-   "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 5.44,
-   "opened_ts": 1792253729,
-   "close_ts": 1792382340.0,
-   "score": 0.6003,
-   "mark_price": 0.02,
-   "shadow": {
-    "10": {
-     "ts": 1792363529,
-     "bid": 0.01,
-     "proceeds": 0.05
-    },
-    "15": {
-     "ts": 1792363529,
-     "bid": 0.01,
-     "proceeds": 0.05
-    },
-    "20": {
-     "ts": 1792363529,
-     "bid": 0.01,
-     "proceeds": 0.05
-    },
-    "30": {
-     "ts": 1792363529,
-     "bid": 0.01,
-     "proceeds": 0.05
-    }
-   }
   },
   {
    "id": 137,
@@ -112,7 +74,7 @@
    "opened_ts": 1792334735,
    "close_ts": 1792443600.0,
    "score": 0.3621,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792360835,
@@ -218,7 +180,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -3733,6 +3695,48 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1792421135,
+   "won": true
+  },
+  {
+   "id": 119,
+   "ticker": "KXANTHVSPEND-18OCT26-T41P2",
+   "event_ticker": "KXANTHVSPEND-18OCT26",
+   "series": "KXANTHVSPEND",
+   "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 41.2% \u2014 Above 41.2%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1792253729,
+   "close_ts": 1792382340.0,
+   "score": 0.6003,
+   "shadow": {
+    "10": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "15": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "20": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    },
+    "30": {
+     "ts": 1792363529,
+     "bid": 0.01,
+     "proceeds": 0.05
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1792423833,
    "won": true
   }
  ],
@@ -8876,10 +8880,15 @@
    1792422932,
    86.72,
    81.71
+  ],
+  [
+   1792423833,
+   87.28,
+   87.54
   ]
  ],
  "last_run": {
-  "ts": 1792422932,
+  "ts": 1792423833,
   "error": null,
   "markets_scanned": 537,
   "candidates": 8,
@@ -8889,79 +8898,81 @@
    "spread too wide": 10
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   119
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.24,
-    "volume_24h": 500.0,
-    "score": 0.5557
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.99,
+    "volume_24h": 2214.0,
+    "score": 0.6146
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 25.47,
+    "volume_24h": 4125.89,
+    "score": 0.5779
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.49 USD/Bbl on Oct 20, 2026? \u2014 Above $94.49",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 1106.3,
-    "score": 0.5515
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 214.0,
-    "score": 0.5381
+    "score": 0.552
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 281.17,
-    "score": 0.537
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 20, 2026? \u2014 Above $100.49",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 422.75,
-    "score": 0.5102
+    "score": 0.5374
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 20, 2026? \u2014 Above $94.99",
     "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 27.24,
+    "price": 0.88,
+    "hours_to_close": 26.99,
     "volume_24h": 1020.61,
-    "score": 0.5089
+    "score": 0.5194
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
+    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 20, 2026? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 26.99,
+    "volume_24h": 500.0,
+    "score": 0.5061
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 20, 2026? \u2014 Above $100.49",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.72,
-    "volume_24h": 4125.89,
-    "score": 0.4974
+    "price": 0.88,
+    "hours_to_close": 26.99,
+    "volume_24h": 422.75,
+    "score": 0.4907
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 25.72,
+    "price": 0.86,
+    "hours_to_close": 25.47,
     "volume_24h": 235.47,
-    "score": 0.3742
+    "score": 0.4548
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 2
   },
-  "watch_added": 2,
-  "watch_graded": 6,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

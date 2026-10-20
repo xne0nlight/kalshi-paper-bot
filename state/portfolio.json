@@ -74,7 +74,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.83,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -129,7 +129,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -162,7 +162,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.92,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -257,7 +257,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -314,7 +314,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.94,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -331,7 +331,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -365,7 +365,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.87,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -382,7 +382,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.8,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -10000,90 +10000,95 @@
    1792525533,
    91.75,
    91.09
+  ],
+  [
+   1792526433,
+   91.75,
+   91.6
   ]
  ],
  "last_run": {
-  "ts": 1792525533,
+  "ts": 1792526433,
   "error": null,
-  "markets_scanned": 670,
-  "candidates": 24,
+  "markets_scanned": 4313,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 523,
-   "no favorite in 80-95c band": 118,
-   "spread too wide": 5
+   "too little volume": 4140,
+   "no favorite in 80-95c band": 135,
+   "spread too wide": 6
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Boston on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.24,
-    "volume_24h": 2914.69,
-    "score": 0.5934
-   },
-   {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
-    "volume_24h": 1150.65,
-    "score": 0.5831
+    "hours_to_close": 35.99,
+    "volume_24h": 4815.17,
+    "score": 0.6262
+   },
+   {
+    "label": "Will it rain in Denver on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.99,
+    "volume_24h": 1652.04,
+    "score": 0.5926
    },
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 3926.08,
-    "score": 0.5731
+    "score": 0.5734
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
+    "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.22,
-    "volume_24h": 1228.95,
-    "score": 0.5489
+    "price": 0.95,
+    "hours_to_close": 32.99,
+    "volume_24h": 2914.69,
+    "score": 0.5637
+   },
+   {
+    "label": "Will it rain in Los Angeles on Oct 21, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 3117.06,
+    "score": 0.5621
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.22,
-    "volume_24h": 348.06,
-    "score": 0.5479
+    "hours_to_close": 20.97,
+    "volume_24h": 398.06,
+    "score": 0.5529
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.97,
+    "volume_24h": 1278.95,
+    "score": 0.5509
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.22,
-    "volume_24h": 203.87,
-    "score": 0.5405
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 21.22,
-    "volume_24h": 3822.97,
-    "score": 0.5358
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 409.46,
-    "score": 0.5282
+    "hours_to_close": 20.97,
+    "volume_24h": 253.87,
+    "score": 0.5483
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 5,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -247,7 +247,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.7,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -275,7 +275,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -427,7 +427,7 @@
    "opened_ts": 1792448129,
    "close_ts": 1792530000.0,
    "score": 0.6221,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   }
  ],
@@ -9525,17 +9525,22 @@
    1792478732,
    88.97,
    87.01
+  ],
+  [
+   1792479634,
+   88.97,
+   87.23
   ]
  ],
  "last_run": {
-  "ts": 1792478732,
+  "ts": 1792479634,
   "error": null,
-  "markets_scanned": 4561,
-  "candidates": 77,
+  "markets_scanned": 4552,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 4091,
-   "no favorite in 80-95c band": 358,
-   "spread too wide": 34,
+   "too little volume": 4087,
+   "no favorite in 80-95c band": 356,
+   "spread too wide": 38,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -9543,72 +9548,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 10.22,
-    "volume_24h": 49142.46,
-    "score": 0.7094
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 20, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 10.22,
-    "volume_24h": 31758.28,
-    "score": 0.7094
+    "price": 0.95,
+    "hours_to_close": 11.49,
+    "volume_24h": 12596.07,
+    "score": 0.7201
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 10561.04,
-    "score": 0.6937
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.74,
-    "volume_24h": 5922.88,
-    "score": 0.6913
+    "score": 0.695
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 20, 2026? \u2014 Above $95.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 11.74,
+    "hours_to_close": 11.49,
     "volume_24h": 4233.04,
-    "score": 0.6904
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.2 on Oct 20, 2026? \u2014 39.2%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 10.22,
-    "volume_24h": 56814.63,
-    "score": 0.6894
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 10.22,
-    "volume_24h": 31443.92,
-    "score": 0.6894
+    "score": 0.6921
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.24,
+    "price": 0.95,
+    "hours_to_close": 13.99,
     "volume_24h": 6428.77,
-    "score": 0.6794
+    "score": 0.6907
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 11.49,
+    "volume_24h": 5922.88,
+    "score": 0.683
+   },
+   {
+    "label": "Will the copper close price be above 6.56 USD/Lbs on October 20, 2026 at 5:00 PM EDT? \u2014 Above $6.56",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 13.99,
+    "volume_24h": 3104.74,
+    "score": 0.667
+   },
+   {
+    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 13.99,
+    "volume_24h": 14854.64,
+    "score": 0.665
+   },
+   {
+    "label": "Will the gold close price be above 4081 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4081",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 13.99,
+    "volume_24h": 3210.9,
+    "score": 0.6581
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

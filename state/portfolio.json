@@ -247,12 +247,17 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.74,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1792469730,
      "bid": 0.75,
      "proceeds": 4.42
+    },
+    "15": {
+     "ts": 1792476932,
+     "bid": 0.7,
+     "proceeds": 4.11
     }
    }
   },
@@ -270,7 +275,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -304,7 +309,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -359,7 +364,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -9505,17 +9510,23 @@
    1792476033,
    88.97,
    87.51
+  ],
+  [
+   1792476932,
+   88.97,
+   87.05
   ]
  ],
  "last_run": {
-  "ts": 1792476033,
+  "ts": 1792476932,
   "error": null,
   "markets_scanned": 4531,
   "candidates": 73,
   "rejections": {
-   "too little volume": 4074,
-   "no favorite in 80-95c band": 349,
-   "spread too wide": 34,
+   "too little volume": 4069,
+   "no favorite in 80-95c band": 348,
+   "spread too wide": 39,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -9526,69 +9537,69 @@
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 20, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 10.97,
-    "volume_24h": 48959.99,
-    "score": 0.7037
+    "hours_to_close": 10.72,
+    "volume_24h": 49077.42,
+    "score": 0.7056
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 20, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 10.97,
+    "hours_to_close": 10.72,
     "volume_24h": 31689.96,
-    "score": 0.7037
+    "score": 0.7056
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.99,
+    "hours_to_close": 14.74,
     "volume_24h": 6428.77,
-    "score": 0.6857
+    "score": 0.6869
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.2 on Oct 20, 2026? \u2014 39.2%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 10.97,
+    "hours_to_close": 10.72,
     "volume_24h": 56745.01,
-    "score": 0.6837
+    "score": 0.6856
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 20, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 10.97,
-    "volume_24h": 31108.75,
-    "score": 0.6837
+    "hours_to_close": 10.72,
+    "volume_24h": 31349.37,
+    "score": 0.6856
    },
    {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
+    "label": "Bitcoin price on Oct 20, 2026? \u2014 $79,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.99,
-    "volume_24h": 8640.58,
-    "score": 0.6753
+    "price": 0.95,
+    "hours_to_close": 14.74,
+    "volume_24h": 5214.13,
+    "score": 0.68
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 12.49,
-    "volume_24h": 12593.07,
-    "score": 0.6736
+    "hours_to_close": 12.24,
+    "volume_24h": 12596.07,
+    "score": 0.6751
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 20, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 10.97,
-    "volume_24h": 41070.59,
-    "score": 0.6637
+    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 14.74,
+    "volume_24h": 10452.04,
+    "score": 0.6712
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 12.16,
- "fees_paid": 4.03,
+ "cash": 9.39,
+ "fees_paid": 4.05,
  "peak_equity": 109.65,
  "day": "2026-10-20",
  "day_start_equity": 88.97,
- "next_id": 177,
+ "next_id": 178,
  "open_positions": [
   {
    "id": 154,
@@ -40,7 +40,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -74,7 +74,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.92,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -267,23 +267,6 @@
    }
   },
   {
-   "id": 167,
-   "ticker": "KXGOLDD-26OCT2017-T4041",
-   "event_ticker": "KXGOLDD-26OCT2017",
-   "series": "KXGOLDD",
-   "label": "Will the gold close price be above 4041 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4041",
-   "side": "yes",
-   "contracts": 2,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 1.91,
-   "opened_ts": 1792448129,
-   "close_ts": 1792530000.0,
-   "score": 0.6221,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 169,
    "ticker": "KXRAIN-26OCT21-PVD",
    "event_ticker": "KXRAIN-26OCT21",
@@ -331,7 +314,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -348,7 +331,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.83,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -382,7 +365,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.74,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -405,7 +388,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -423,6 +406,23 @@
    "close_ts": 1792648800.0,
    "score": 0.5275,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 177,
+   "ticker": "KXHIGHLAX-26OCT21-B69.5",
+   "event_ticker": "KXHIGHLAX-26OCT21",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792530034,
+   "close_ts": 1792656000.0,
+   "score": 0.6274,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -4288,6 +4288,27 @@
    "pnl": 0.04,
    "result": "YES",
    "closed_ts": 1792523734,
+   "won": true
+  },
+  {
+   "id": 167,
+   "ticker": "KXGOLDD-26OCT2017-T4041",
+   "event_ticker": "KXGOLDD-26OCT2017",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 4041 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4041",
+   "side": "yes",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1792448129,
+   "close_ts": 1792530000.0,
+   "score": 0.6221,
+   "shadow": {},
+   "payout": 2.0,
+   "pnl": 0.09,
+   "result": "YES",
+   "closed_ts": 1792530034,
    "won": true
   }
  ],
@@ -10026,91 +10047,100 @@
    1792529134,
    91.75,
    91.22
+  ],
+  [
+   1792530034,
+   91.84,
+   91.57
   ]
  ],
  "last_run": {
-  "ts": 1792529134,
+  "ts": 1792530034,
   "error": null,
-  "markets_scanned": 3851,
-  "candidates": 34,
+  "markets_scanned": 3853,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 3651,
-   "no favorite in 80-95c band": 159,
-   "spread too wide": 7
+   "too little volume": 3646,
+   "no favorite in 80-95c band": 165,
+   "spread too wide": 10
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   177
+  ],
+  "settled": [
+   167
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 4815.17,
-    "score": 0.6271
+    "score": 0.6274
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.99,
     "volume_24h": 1548.07,
-    "score": 0.6087
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 24.24,
-    "volume_24h": 1240.08,
-    "score": 0.6015
+    "score": 0.6093
    },
    {
     "label": "Will it rain in Los Angeles on Oct 21, 2026?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 3158.68,
-    "score": 0.5934
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.22,
-    "volume_24h": 835.37,
-    "score": 0.5893
+    "score": 0.5937
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 20.22,
+    "hours_to_close": 19.97,
     "volume_24h": 4650.66,
+    "score": 0.5859
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 19.97,
+    "volume_24h": 979.56,
     "score": 0.5852
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 3963.9,
-    "score": 0.5848
+    "score": 0.5851
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.22,
-    "volume_24h": 979.56,
-    "score": 0.5844
+    "hours_to_close": 19.97,
+    "volume_24h": 835.37,
+    "score": 0.58
+   },
+   {
+    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 21, 2026? \u2014 68\u00b0 to 69\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.99,
+    "volume_24h": 792.86,
+    "score": 0.5713
    }
   ],
   "skipped": {},
-  "watch_added": 7,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 3,
+  "watch_graded": 24,
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

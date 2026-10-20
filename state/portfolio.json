@@ -40,7 +40,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -365,7 +365,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -382,7 +382,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -10005,17 +10005,22 @@
    1792526433,
    91.75,
    91.6
+  ],
+  [
+   1792527334,
+   91.75,
+   91.65
   ]
  ],
  "last_run": {
-  "ts": 1792526433,
+  "ts": 1792527334,
   "error": null,
-  "markets_scanned": 4313,
-  "candidates": 32,
+  "markets_scanned": 3851,
+  "candidates": 33,
   "rejections": {
-   "too little volume": 4140,
-   "no favorite in 80-95c band": 135,
-   "spread too wide": 6
+   "too little volume": 3665,
+   "no favorite in 80-95c band": 148,
+   "spread too wide": 5
   },
   "opened": [],
   "settled": [],
@@ -10025,69 +10030,69 @@
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 4815.17,
-    "score": 0.6262
-   },
-   {
-    "label": "Will it rain in Denver on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 1652.04,
-    "score": 0.5926
-   },
-   {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 32.99,
-    "volume_24h": 3926.08,
-    "score": 0.5734
+    "score": 0.6265
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 2914.69,
-    "score": 0.5637
+    "score": 0.6141
+   },
+   {
+    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 32.74,
+    "volume_24h": 3927.08,
+    "score": 0.5738
    },
    {
     "label": "Will it rain in Los Angeles on Oct 21, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 3117.06,
-    "score": 0.5621
+    "hours_to_close": 35.74,
+    "volume_24h": 3151.44,
+    "score": 0.5627
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.97,
-    "volume_24h": 398.06,
-    "score": 0.5529
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.97,
-    "volume_24h": 1278.95,
-    "score": 0.5509
+    "hours_to_close": 20.72,
+    "volume_24h": 490.28,
+    "score": 0.5604
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.97,
-    "volume_24h": 253.87,
-    "score": 0.5483
+    "hours_to_close": 20.72,
+    "volume_24h": 346.09,
+    "score": 0.5591
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.72,
+    "volume_24h": 1371.17,
+    "score": 0.5539
+   },
+   {
+    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 32.74,
+    "volume_24h": 1402.22,
+    "score": 0.5502
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 2,
   "watch_graded": 1,
   "api_calls": 42
  },

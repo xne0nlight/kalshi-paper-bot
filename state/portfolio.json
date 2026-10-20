@@ -57,7 +57,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -179,7 +179,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -331,7 +331,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -399,7 +399,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.82,
+   "mark_price": 0.79,
    "shadow": {}
   },
   {
@@ -9944,90 +9944,95 @@
    1792519234,
    91.71,
    89.48
+  ],
+  [
+   1792520135,
+   91.71,
+   89.34
   ]
  ],
  "last_run": {
-  "ts": 1792519234,
+  "ts": 1792520135,
   "error": null,
   "markets_scanned": 561,
-  "candidates": 11,
+  "candidates": 15,
   "rejections": {
    "too little volume": 460,
    "no favorite in 80-95c band": 83,
-   "spread too wide": 7
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Boston on Oct 21, 2026?",
+    "label": "Will it rain in Oklahoma City on Oct 21, 2026?",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 2574.4,
-    "score": 0.607
+    "price": 0.92,
+    "hours_to_close": 35.74,
+    "volume_24h": 1810.85,
+    "score": 0.5647
+   },
+   {
+    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 34.74,
+    "volume_24h": 3546.81,
+    "score": 0.5378
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 342.15,
-    "score": 0.5202
+    "hours_to_close": 35.74,
+    "volume_24h": 352.15,
+    "score": 0.5214
    },
    {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.99,
-    "volume_24h": 1064.79,
-    "score": 0.5183
+    "label": "Abu Dhabi wins",
+    "side": "yes",
+    "price": 0.82,
+    "hours_to_close": 22.24,
+    "volume_24h": 4352.72,
+    "score": 0.5173
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 22.97,
-    "volume_24h": 1813.63,
-    "score": 0.5069
+    "hours_to_close": 22.72,
+    "volume_24h": 2043.87,
+    "score": 0.5114
    },
    {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.99,
-    "volume_24h": 3329.11,
-    "score": 0.5054
+    "price": 0.95,
+    "hours_to_close": 34.74,
+    "volume_24h": 2796.27,
+    "score": 0.5101
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 21, 2026? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 24.24,
+    "volume_24h": 457.13,
+    "score": 0.509
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 34.99,
-    "volume_24h": 424.66,
-    "score": 0.4884
-   },
-   {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 34.99,
-    "volume_24h": 345.37,
-    "score": 0.4617
-   },
-   {
-    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 34.99,
-    "volume_24h": 3408.32,
-    "score": 0.4562
+    "hours_to_close": 34.74,
+    "volume_24h": 431.66,
+    "score": 0.4893
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

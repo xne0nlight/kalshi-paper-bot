@@ -184,7 +184,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.92,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -9781,26 +9781,40 @@
    1792512034,
    91.15,
    89.4
+  ],
+  [
+   1792512933,
+   91.15,
+   89.25
   ]
  ],
  "last_run": {
-  "ts": 1792512034,
+  "ts": 1792512933,
   "error": null,
   "markets_scanned": 269,
-  "candidates": 0,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 255,
-   "no favorite in 80-95c band": 12,
-   "spread too wide": 2
+   "too little volume": 254,
+   "no favorite in 80-95c band": 13,
+   "spread too wide": 1
   },
   "opened": [],
-  "settled": [
-   168
-  ],
+  "settled": [],
   "halt": null,
-  "top_candidates": [],
-  "skipped": {},
-  "watch_added": 0,
+  "top_candidates": [
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 24.72,
+    "volume_24h": 309.3,
+    "score": 0.4152
+   }
+  ],
+  "skipped": {
+   "related-market cap (Presidential approval)": 1
+  },
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -91,7 +91,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.7,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -146,7 +146,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -274,7 +274,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -348,7 +348,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -365,7 +365,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.83,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -399,7 +399,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.79,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -9959,90 +9959,95 @@
    1792521934,
    91.71,
    89.82
+  ],
+  [
+   1792522833,
+   91.71,
+   88.88
   ]
  ],
  "last_run": {
-  "ts": 1792521934,
+  "ts": 1792522833,
   "error": null,
-  "markets_scanned": 568,
-  "candidates": 19,
+  "markets_scanned": 595,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 458,
-   "no favorite in 80-95c band": 88,
-   "spread too wide": 3
+   "too little volume": 466,
+   "no favorite in 80-95c band": 105,
+   "spread too wide": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 21, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 457.13,
-    "score": 0.5702
-   },
-   {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 2812.27,
-    "score": 0.5509
+    "score": 0.5512
    },
    {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+    "label": "Will it rain in Denver on Oct 21, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.24,
-    "volume_24h": 1091.65,
-    "score": 0.5301
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 1141.73,
+    "score": 0.5294
    },
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 3582.9,
-    "score": 0.5288
+    "score": 0.5291
    },
    {
     "label": "Will it rain in Oklahoma City on Oct 21, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 1890.73,
-    "score": 0.5267
+    "score": 0.527
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 21, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 219.0,
-    "score": 0.5263
+    "score": 0.5269
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 22.22,
-    "volume_24h": 2112.45,
-    "score": 0.5138
+    "hours_to_close": 21.97,
+    "volume_24h": 2371.11,
+    "score": 0.5182
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 837.26,
-    "score": 0.4999
+    "score": 0.5005
+   },
+   {
+    "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 33.99,
+    "volume_24h": 625.67,
+    "score": 0.4923
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 5,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

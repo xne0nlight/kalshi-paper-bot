@@ -40,7 +40,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.64,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -145,6 +145,11 @@
      "ts": 1792509335,
      "bid": 0.64,
      "proceeds": 3.74
+    },
+    "30": {
+     "ts": 1792510235,
+     "bid": 0.56,
+     "proceeds": 3.25
     }
    }
   },
@@ -212,7 +217,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -347,7 +352,7 @@
    "opened_ts": 1792507535,
    "close_ts": 1792590300.0,
    "score": 0.5431,
-   "mark_price": 0.94,
+   "mark_price": 0.99,
    "shadow": {}
   }
  ],
@@ -9757,16 +9762,21 @@
    1792509335,
    90.54,
    89.41
+  ],
+  [
+   1792510235,
+   90.54,
+   89.48
   ]
  ],
  "last_run": {
-  "ts": 1792509335,
+  "ts": 1792510235,
   "error": null,
   "markets_scanned": 318,
   "candidates": 0,
   "rejections": {
-   "too little volume": 294,
-   "no favorite in 80-95c band": 19,
+   "too little volume": 292,
+   "no favorite in 80-95c band": 21,
    "spread too wide": 5
   },
   "opened": [],

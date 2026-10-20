@@ -74,7 +74,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -257,7 +257,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -297,7 +297,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -382,8 +382,14 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.79,
-   "shadow": {}
+   "mark_price": 0.74,
+   "shadow": {
+    "10": {
+     "ts": 1792529134,
+     "bid": 0.74,
+     "proceeds": 4.35
+    }
+   }
   },
   {
    "id": 175,
@@ -399,7 +405,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -10015,17 +10021,22 @@
    1792528234,
    91.75,
    91.61
+  ],
+  [
+   1792529134,
+   91.75,
+   91.22
   ]
  ],
  "last_run": {
-  "ts": 1792528234,
+  "ts": 1792529134,
   "error": null,
   "markets_scanned": 3851,
-  "candidates": 33,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 3661,
-   "no favorite in 80-95c band": 151,
-   "spread too wide": 6
+   "too little volume": 3651,
+   "no favorite in 80-95c band": 159,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -10035,69 +10046,69 @@
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 4815.17,
-    "score": 0.6268
+    "score": 0.6271
    },
    {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 32.49,
-    "volume_24h": 3927.08,
-    "score": 0.5741
+    "price": 0.95,
+    "hours_to_close": 24.24,
+    "volume_24h": 1548.07,
+    "score": 0.6087
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $80,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.24,
+    "volume_24h": 1240.08,
+    "score": 0.6015
    },
    {
     "label": "Will it rain in Los Angeles on Oct 21, 2026?",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 3151.44,
-    "score": 0.563
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.47,
-    "volume_24h": 518.06,
-    "score": 0.563
+    "hours_to_close": 35.24,
+    "volume_24h": 3158.68,
+    "score": 0.5934
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.47,
-    "volume_24h": 373.87,
-    "score": 0.5624
+    "hours_to_close": 20.22,
+    "volume_24h": 835.37,
+    "score": 0.5893
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 20.47,
-    "volume_24h": 4161.37,
-    "score": 0.5508
+    "price": 0.88,
+    "hours_to_close": 20.22,
+    "volume_24h": 4650.66,
+    "score": 0.5852
    },
    {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+    "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 1402.22,
-    "score": 0.5506
+    "hours_to_close": 32.24,
+    "volume_24h": 3963.9,
+    "score": 0.5848
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 20.47,
-    "volume_24h": 1398.95,
-    "score": 0.5453
+    "price": 0.93,
+    "hours_to_close": 20.22,
+    "volume_24h": 979.56,
+    "score": 0.5844
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

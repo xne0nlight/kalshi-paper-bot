@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.39,
- "fees_paid": 4.05,
+ "cash": 9.48,
+ "fees_paid": 4.06,
  "peak_equity": 109.65,
  "day": "2026-10-20",
  "day_start_equity": 88.97,
- "next_id": 178,
+ "next_id": 179,
  "open_positions": [
   {
    "id": 154,
@@ -204,29 +204,6 @@
    }
   },
   {
-   "id": 164,
-   "ticker": "KXBTCD-26OCT2017-T79999.99",
-   "event_ticker": "KXBTCD-26OCT2017",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
-   "side": "yes",
-   "contracts": 2,
-   "price": 0.94,
-   "fee": 0.01,
-   "cost": 1.89,
-   "opened_ts": 1792444532,
-   "close_ts": 1792530000.0,
-   "score": 0.5978,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792458930,
-     "bid": 0.81,
-     "proceeds": 1.59
-    }
-   }
-  },
-  {
    "id": 165,
    "ticker": "KXHIGHLAX-26OCT20-B73.5",
    "event_ticker": "KXHIGHLAX-26OCT20",
@@ -280,7 +257,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.88,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -314,7 +291,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -422,6 +399,23 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 178,
+   "ticker": "KXBTCD-26OCT2117-T84999.99",
+   "event_ticker": "KXBTCD-26OCT2117",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1792530934,
+   "close_ts": 1792616400.0,
+   "score": 0.6109,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -4309,6 +4303,33 @@
    "pnl": 0.09,
    "result": "YES",
    "closed_ts": 1792530034,
+   "won": true
+  },
+  {
+   "id": 164,
+   "ticker": "KXBTCD-26OCT2017-T79999.99",
+   "event_ticker": "KXBTCD-26OCT2017",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
+   "side": "yes",
+   "contracts": 2,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 1.89,
+   "opened_ts": 1792444532,
+   "close_ts": 1792530000.0,
+   "score": 0.5978,
+   "shadow": {
+    "10": {
+     "ts": 1792458930,
+     "bid": 0.81,
+     "proceeds": 1.59
+    }
+   },
+   "payout": 2.0,
+   "pnl": 0.11,
+   "result": "YES",
+   "closed_ts": 1792530934,
    "won": true
   }
  ],
@@ -10052,23 +10073,29 @@
    1792530034,
    91.84,
    91.57
+  ],
+  [
+   1792530934,
+   91.95,
+   91.54
   ]
  ],
  "last_run": {
-  "ts": 1792530034,
+  "ts": 1792530934,
   "error": null,
   "markets_scanned": 3853,
-  "candidates": 32,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 3646,
-   "no favorite in 80-95c band": 165,
-   "spread too wide": 10
+   "too little volume": 3624,
+   "no favorite in 80-95c band": 175,
+   "spread too wide": 13,
+   "nothing for sale at the ask": 1
   },
   "opened": [
-   177
+   178
   ],
   "settled": [
-   167
+   164
   ],
   "halt": null,
   "top_candidates": [
@@ -10076,71 +10103,71 @@
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 4815.17,
-    "score": 0.6274
+    "score": 0.6277
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 1548.07,
-    "score": 0.6093
+    "hours_to_close": 23.74,
+    "volume_24h": 1600.07,
+    "score": 0.6109
    },
    {
-    "label": "Will it rain in Los Angeles on Oct 21, 2026?",
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $80,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 3158.68,
-    "score": 0.5937
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 798.0,
+    "score": 0.5883
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 19.97,
-    "volume_24h": 4650.66,
-    "score": 0.5859
+    "hours_to_close": 19.72,
+    "volume_24h": 4714.48,
+    "score": 0.5872
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.97,
-    "volume_24h": 979.56,
-    "score": 0.5852
+    "hours_to_close": 19.72,
+    "volume_24h": 990.07,
+    "score": 0.5863
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 31.99,
-    "volume_24h": 3963.9,
-    "score": 0.5851
+    "price": 0.9,
+    "hours_to_close": 31.74,
+    "volume_24h": 4862.4,
+    "score": 0.5822
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.97,
-    "volume_24h": 835.37,
-    "score": 0.58
+    "hours_to_close": 19.72,
+    "volume_24h": 846.38,
+    "score": 0.5812
    },
    {
-    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 21, 2026? \u2014 68\u00b0 to 69\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 792.86,
-    "score": 0.5713
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 23.74,
+    "volume_24h": 781.69,
+    "score": 0.5676
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 24,
-  "api_calls": 44
+  "watch_added": 6,
+  "watch_graded": 38,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

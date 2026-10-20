@@ -5,8 +5,8 @@
  "cash": 9.65,
  "fees_paid": 3.68,
  "peak_equity": 109.65,
- "day": "2026-10-19",
- "day_start_equity": 94.79,
+ "day": "2026-10-20",
+ "day_start_equity": 88.97,
  "next_id": 168,
  "open_positions": [
   {
@@ -73,7 +73,7 @@
    "opened_ts": 1792368929,
    "close_ts": 1792468740.0,
    "score": 0.6544,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -175,7 +175,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -209,7 +209,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792515540.0,
    "score": 0.5718,
-   "mark_price": 0.51,
+   "mark_price": 0.5,
    "shadow": {
     "10": {
      "ts": 1792440030,
@@ -281,7 +281,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -382,7 +382,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -9357,91 +9357,95 @@
    1792453529,
    88.97,
    85.84
+  ],
+  [
+   1792454433,
+   88.97,
+   85.93
   ]
  ],
  "last_run": {
-  "ts": 1792453529,
+  "ts": 1792454433,
   "error": null,
-  "markets_scanned": 4743,
-  "candidates": 60,
+  "markets_scanned": 4745,
+  "candidates": 63,
   "rejections": {
    "too little volume": 4426,
-   "no favorite in 80-95c band": 238,
-   "spread too wide": 17,
-   "nothing for sale at the ask": 2
+   "no favorite in 80-95c band": 240,
+   "spread too wide": 16
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 10862.8,
+    "score": 0.6857
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 20, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.23,
-    "volume_24h": 16577.41,
-    "score": 0.6804
+    "hours_to_close": 16.97,
+    "volume_24h": 16905.17,
+    "score": 0.6814
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 12192.49,
-    "score": 0.6571
+    "score": 0.6578
    },
    {
     "label": "Will it rain in Los Angeles on Oct 20, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 12423.17,
-    "score": 0.6549
-   },
-   {
-    "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.23,
-    "volume_24h": 17041.58,
-    "score": 0.6514
+    "score": 0.6553
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 20, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.74,
+    "hours_to_close": 18.49,
     "volume_24h": 4722.87,
-    "score": 0.6404
+    "score": 0.6413
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 20, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 17.23,
-    "volume_24h": 9000.25,
-    "score": 0.637
+    "hours_to_close": 16.97,
+    "volume_24h": 9328.01,
+    "score": 0.6391
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 10862.8,
-    "score": 0.6349
+    "price": 0.92,
+    "hours_to_close": 27.97,
+    "volume_24h": 17052.45,
+    "score": 0.6318
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 2222.19,
-    "score": 0.6281
+    "score": 0.6288
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 11,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

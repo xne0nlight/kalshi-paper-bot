@@ -292,7 +292,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.71,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -380,7 +380,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -9586,90 +9586,29 @@
    1792486833,
    88.97,
    87.15
+  ],
+  [
+   1792487732,
+   88.97,
+   87.21
   ]
  ],
  "last_run": {
-  "ts": 1792486833,
+  "ts": 1792487732,
   "error": null,
-  "markets_scanned": 4299,
-  "candidates": 61,
+  "markets_scanned": 384,
+  "candidates": 0,
   "rejections": {
-   "too little volume": 3814,
-   "no favorite in 80-95c band": 382,
-   "spread too wide": 40,
-   "favorite is slipping fast": 2
+   "too little volume": 360,
+   "no favorite in 80-95c band": 16,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [
-   {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.99,
-    "volume_24h": 23135.52,
-    "score": 0.7067
-   },
-   {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $79,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 5377.49,
-    "score": 0.6965
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 20, 2026? \u2014 Above $96.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 9.49,
-    "volume_24h": 2578.63,
-    "score": 0.6914
-   },
-   {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 11435.7,
-    "score": 0.6867
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 20, 2026? \u2014 Above $97.49",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 9.49,
-    "volume_24h": 3879.41,
-    "score": 0.6847
-   },
-   {
-    "label": "Will the gold close price be above 4171 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4171",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 3365.6,
-    "score": 0.6813
-   },
-   {
-    "label": "Will the copper close price be above 6.56 USD/Lbs on October 20, 2026 at 5:00 PM EDT? \u2014 Above $6.56",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 3106.74,
-    "score": 0.6787
-   },
-   {
-    "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.97,
-    "volume_24h": 16832.28,
-    "score": 0.6741
-   }
-  ],
+  "top_candidates": [],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

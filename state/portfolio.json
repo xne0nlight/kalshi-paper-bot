@@ -74,7 +74,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.73,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -257,7 +257,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -297,7 +297,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.85,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -348,7 +348,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -9990,94 +9990,95 @@
    1792523734,
    91.75,
    90.17
+  ],
+  [
+   1792524634,
+   91.75,
+   90.68
   ]
  ],
  "last_run": {
-  "ts": 1792523734,
+  "ts": 1792524634,
   "error": null,
-  "markets_scanned": 595,
-  "candidates": 22,
+  "markets_scanned": 670,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 455,
+   "too little volume": 528,
    "no favorite in 80-95c band": 116,
-   "spread too wide": 2
+   "spread too wide": 3
   },
-  "opened": [
-   176
-  ],
-  "settled": [
-   149
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.74,
-    "volume_24h": 2812.27,
-    "score": 0.5515
+    "price": 0.93,
+    "hours_to_close": 33.49,
+    "volume_24h": 2814.61,
+    "score": 0.5919
+   },
+   {
+    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 33.49,
+    "volume_24h": 3586.04,
+    "score": 0.5698
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 21, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 21.47,
+    "volume_24h": 1155.39,
+    "score": 0.5462
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.72,
+    "hours_to_close": 21.47,
     "volume_24h": 242.84,
-    "score": 0.5348
-   },
-   {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 33.74,
-    "volume_24h": 3582.9,
-    "score": 0.5294
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.74,
-    "volume_24h": 409.46,
-    "score": 0.5275
-   },
-   {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 21, 2026? \u2014 79\u00b0 to 80\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.74,
-    "volume_24h": 370.87,
-    "score": 0.5243
-   },
-   {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.74,
-    "volume_24h": 1120.65,
-    "score": 0.5216
+    "score": 0.5355
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 21.72,
-    "volume_24h": 2475.03,
-    "score": 0.5203
+    "hours_to_close": 21.47,
+    "volume_24h": 3475.03,
+    "score": 0.532
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.49,
+    "volume_24h": 409.46,
+    "score": 0.5279
+   },
+   {
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 21, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.49,
+    "volume_24h": 370.87,
+    "score": 0.5246
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.49 USD/Bbl on Oct 21, 2026? \u2014 Above $101.49",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 219.0,
-    "score": 0.5175
+    "score": 0.5181
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 2,
+  "watch_added": 3,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

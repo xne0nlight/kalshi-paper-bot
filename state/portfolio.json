@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 38.26,
- "fees_paid": 3.73,
+ "cash": 21.33,
+ "fees_paid": 3.89,
  "peak_equity": 109.65,
  "day": "2026-10-20",
  "day_start_equity": 88.97,
- "next_id": 169,
+ "next_id": 174,
  "open_positions": [
   {
    "id": 149,
@@ -129,7 +129,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.56,
+   "mark_price": 0.59,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -184,7 +184,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -217,7 +217,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.9,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -295,7 +295,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792569600.0,
    "score": 0.5539,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -312,7 +312,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -336,6 +336,91 @@
    "close_ts": 1792530000.0,
    "score": 0.6221,
    "mark_price": 0.99,
+   "shadow": {}
+  },
+  {
+   "id": 169,
+   "ticker": "KXRAIN-26OCT21-PVD",
+   "event_ticker": "KXRAIN-26OCT21",
+   "series": "KXRAIN",
+   "label": "Will it rain in Providence on Oct 21, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.9,
+   "fee": 0.01,
+   "cost": 0.91,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.557,
+   "mark_price": 0.89,
+   "shadow": {}
+  },
+  {
+   "id": 170,
+   "ticker": "KXHIGHPHIL-26OCT21-T68",
+   "event_ticker": "KXHIGHPHIL-26OCT21",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.5281,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 171,
+   "ticker": "KXHIGHMIA-26OCT21-B87.5",
+   "event_ticker": "KXHIGHMIA-26OCT21",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.9,
+   "fee": 0.01,
+   "cost": 0.91,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4753,
+   "mark_price": 0.89,
+   "shadow": {}
+  },
+  {
+   "id": 172,
+   "ticker": "KXHIGHTATL-26OCT21-B74.5",
+   "event_ticker": "KXHIGHTATL-26OCT21",
+   "series": "KXHIGHTATL",
+   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.87,
+   "fee": 0.05,
+   "cost": 5.27,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4646,
+   "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 173,
+   "ticker": "KXHIGHNY-26OCT21-B59.5",
+   "event_ticker": "KXHIGHNY-26OCT21",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4432,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -9796,35 +9881,100 @@
    1792514735,
    91.15,
    89.79
+  ],
+  [
+   1792515634,
+   91.15,
+   90.07
   ]
  ],
  "last_run": {
-  "ts": 1792514735,
+  "ts": 1792515634,
   "error": null,
-  "markets_scanned": 269,
-  "candidates": 1,
+  "markets_scanned": 393,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 253,
-   "no favorite in 80-95c band": 14,
+   "too little volume": 342,
+   "no favorite in 80-95c band": 41,
    "spread too wide": 1
   },
-  "opened": [],
+  "opened": [
+   169,
+   170,
+   171,
+   172,
+   173
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
+    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.99,
+    "volume_24h": 2667.7,
+    "score": 0.557
+   },
+   {
+    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 436.87,
+    "score": 0.5281
+   },
+   {
+    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.99,
+    "volume_24h": 216.37,
+    "score": 0.4753
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 24.22,
-    "volume_24h": 310.3,
-    "score": 0.3765
+    "hours_to_close": 35.99,
+    "volume_24h": 391.62,
+    "score": 0.4646
+   },
+   {
+    "label": "Will it rain in Boston on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 2419.47,
+    "score": 0.4638
+   },
+   {
+    "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 35.99,
+    "volume_24h": 375.66,
+    "score": 0.4432
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 21, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 35.99,
+    "volume_24h": 429.67,
+    "score": 0.4376
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 23.97,
+    "volume_24h": 428.35,
+    "score": 0.4275
    }
   ],
-  "skipped": {
-   "related-market cap (Presidential approval)": 1
-  },
-  "watch_added": 0,
+  "skipped": {},
+  "watch_added": 8,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -40,7 +40,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.72,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -174,7 +174,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -207,7 +207,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -262,7 +262,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -342,7 +342,7 @@
    "opened_ts": 1792507535,
    "close_ts": 1792590300.0,
    "score": 0.5431,
-   "mark_price": 0.87,
+   "mark_price": 0.81,
    "shadow": {}
   }
  ],
@@ -9742,43 +9742,40 @@
    1792507535,
    90.54,
    89.2
+  ],
+  [
+   1792508434,
+   90.54,
+   88.85
   ]
  ],
  "last_run": {
-  "ts": 1792507535,
+  "ts": 1792508434,
   "error": null,
-  "markets_scanned": 416,
-  "candidates": 2,
+  "markets_scanned": 318,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 384,
-   "no favorite in 80-95c band": 27,
+   "too little volume": 293,
+   "no favorite in 80-95c band": 21,
    "spread too wide": 3
   },
-  "opened": [
-   168
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "TitanFlow wins",
+    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 21, 2026? \u2014 Above $99.49",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.99,
-    "volume_24h": 5518.65,
-    "score": 0.5431
-   },
-   {
-    "label": "Donstu Esports wins",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 22.99,
-    "volume_24h": 6911.49,
-    "score": 0.5404
+    "price": 0.92,
+    "hours_to_close": 27.49,
+    "volume_24h": 345.04,
+    "score": 0.5231
    }
   ],
-  "skipped": {},
-  "watch_added": 2,
+  "skipped": {
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

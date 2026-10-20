@@ -292,7 +292,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -370,7 +370,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -9546,18 +9546,23 @@
    1792481433,
    88.97,
    87.35
+  ],
+  [
+   1792482332,
+   88.97,
+   87.28
   ]
  ],
  "last_run": {
-  "ts": 1792481433,
+  "ts": 1792482332,
   "error": null,
   "markets_scanned": 4552,
-  "candidates": 71,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 4083,
-   "no favorite in 80-95c band": 363,
-   "spread too wide": 31,
-   "nothing for sale at the ask": 2,
+   "too little volume": 4080,
+   "no favorite in 80-95c band": 364,
+   "spread too wide": 41,
+   "nothing for sale at the ask": 3,
    "favorite is slipping fast": 2
   },
   "opened": [],
@@ -9565,68 +9570,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 10.99,
-    "volume_24h": 12596.07,
-    "score": 0.6936
-   },
-   {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $79,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 13.49,
+    "hours_to_close": 13.24,
     "volume_24h": 5214.13,
-    "score": 0.6865
+    "score": 0.6879
    },
    {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 10587.1,
-    "score": 0.6777
-   },
-   {
-    "label": "Will the copper close price be above 6.56 USD/Lbs on October 20, 2026 at 5:00 PM EDT? \u2014 Above $6.56",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.49,
-    "volume_24h": 3106.74,
-    "score": 0.6697
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 10.74,
+    "volume_24h": 12596.07,
+    "score": 0.6854
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,250 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 13.49,
+    "price": 0.95,
+    "hours_to_close": 13.24,
     "volume_24h": 3067.03,
-    "score": 0.6593
+    "score": 0.6707
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 13.49,
-    "volume_24h": 20532.77,
-    "score": 0.6577
+    "price": 0.91,
+    "hours_to_close": 13.24,
+    "volume_24h": 20663.77,
+    "score": 0.6691
    },
    {
-    "label": "Will the gold close price be above 4081 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4081",
+    "label": "Will the WTI crude oil settlement price be above 102.49 USD/Bbl on Oct 20, 2026? \u2014 Above $102.49",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 10.74,
+    "volume_24h": 1264.96,
+    "score": 0.6481
+   },
+   {
+    "label": "Will the gold close price be above 4071 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4071",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 13.49,
-    "volume_24h": 3210.9,
-    "score": 0.6508
+    "price": 0.94,
+    "hours_to_close": 13.24,
+    "volume_24h": 1698.52,
+    "score": 0.6414
+   },
+   {
+    "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 20.22,
+    "volume_24h": 15834.62,
+    "score": 0.6401
    },
    {
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,250 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 13.49,
-    "volume_24h": 14854.64,
-    "score": 0.6477
+    "price": 0.88,
+    "hours_to_close": 13.24,
+    "volume_24h": 14868.47,
+    "score": 0.6391
    }
   ],
   "skipped": {},

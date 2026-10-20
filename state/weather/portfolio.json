@@ -2,9 +2,9 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 10.08,
+ "cash": 10.03,
  "fees_paid": 0.0,
- "next_id": 172,
+ "next_id": 175,
  "orders": [
   {
    "ticker": "KXLOWTSDF-26OCT20-B38.5",
@@ -26,7 +26,7 @@
    "contracts": 10,
    "filled": 0.0,
    "placed_ts": 1792432830,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 9.1
   },
   {
@@ -49,7 +49,7 @@
    "contracts": 1,
    "filled": 0.0,
    "placed_ts": 1792461635,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 0.95
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 11,
    "filled": 0.0,
    "placed_ts": 1792467930,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 9.9
   },
   {
@@ -95,77 +95,8 @@
    "contracts": 1,
    "filled": 0.0,
    "placed_ts": 1792473332,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 0.1
-  },
-  {
-   "ticker": "KXLOWTEWR-26OCT20-B46.5",
-   "event_ticker": "KXLOWTEWR-26OCT20",
-   "series": "KXLOWTEWR",
-   "kind": "low",
-   "code": "EWR",
-   "date": "2026-10-20",
-   "label": "EWR low 46\u201347\u00b0 10-20",
-   "side": "yes",
-   "close_ts": 1792558800.0,
-   "q_model": 0.983,
-   "mid": 0.53,
-   "strategy": "edge",
-   "price": 0.12,
-   "edge": 0.863,
-   "q_used": 0.7565,
-   "id": 163,
-   "contracts": 3,
-   "filled": 0.0,
-   "placed_ts": 1792479634,
-   "checked_ts": 1792481433,
-   "reserved": 0.36
-  },
-  {
-   "ticker": "KXLOWTSAN-26OCT20-B60.5",
-   "event_ticker": "KXLOWTSAN-26OCT20",
-   "series": "KXLOWTSAN",
-   "kind": "low",
-   "code": "SAN",
-   "date": "2026-10-20",
-   "label": "SAN low 60\u201361\u00b0 10-20",
-   "side": "no",
-   "close_ts": 1792569600.0,
-   "q_model": 0.9964,
-   "mid": 0.93,
-   "strategy": "favorite",
-   "price": 0.9,
-   "edge": 0.0964,
-   "q_used": 0.9632,
-   "id": 165,
-   "contracts": 11,
-   "filled": 0.0,
-   "placed_ts": 1792480534,
-   "checked_ts": 1792481433,
-   "reserved": 9.9
-  },
-  {
-   "ticker": "KXLOWTSATX-26OCT20-T55",
-   "event_ticker": "KXLOWTSATX-26OCT20",
-   "series": "KXLOWTSATX",
-   "kind": "low",
-   "code": "SAT",
-   "date": "2026-10-20",
-   "label": "SAT low \u226454\u00b0 10-20",
-   "side": "no",
-   "close_ts": 1792562400.0,
-   "q_model": 0.9992,
-   "mid": 0.945,
-   "strategy": "favorite",
-   "price": 0.92,
-   "edge": 0.0792,
-   "q_used": 0.9721,
-   "id": 167,
-   "contracts": 9,
-   "filled": 0.0,
-   "placed_ts": 1792480534,
-   "checked_ts": 1792481433,
-   "reserved": 8.28
   },
   {
    "ticker": "KXLOWTSDF-26OCT20-B40.5",
@@ -187,7 +118,7 @@
    "contracts": 10,
    "filled": 0.0,
    "placed_ts": 1792481433,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 9.1
   },
   {
@@ -210,30 +141,76 @@
    "contracts": 6,
    "filled": 0.0,
    "placed_ts": 1792481433,
-   "checked_ts": 1792481433,
+   "checked_ts": 1792482332,
    "reserved": 5.4
   },
   {
-   "ticker": "KXLOWTSAN-26OCT20-T65",
+   "ticker": "KXLOWTSAN-26OCT20-B60.5",
    "event_ticker": "KXLOWTSAN-26OCT20",
    "series": "KXLOWTSAN",
    "kind": "low",
    "code": "SAN",
    "date": "2026-10-20",
-   "label": "SAN low \u226566\u00b0 10-20",
-   "side": "yes",
+   "label": "SAN low 60\u201361\u00b0 10-20",
+   "side": "no",
    "close_ts": 1792569600.0,
-   "q_model": 0.7085,
-   "mid": 0.42,
+   "q_model": 0.9964,
+   "mid": 0.91,
+   "strategy": "favorite",
+   "price": 0.86,
+   "edge": 0.1364,
+   "q_used": 0.9532,
+   "id": 172,
+   "contracts": 11,
+   "filled": 0.0,
+   "placed_ts": 1792482332,
+   "checked_ts": 1792482332,
+   "reserved": 9.46
+  },
+  {
+   "ticker": "KXLOWTSAN-26OCT20-B62.5",
+   "event_ticker": "KXLOWTSAN-26OCT20",
+   "series": "KXLOWTSAN",
+   "kind": "low",
+   "code": "SAN",
+   "date": "2026-10-20",
+   "label": "SAN low 62\u201363\u00b0 10-20",
+   "side": "no",
+   "close_ts": 1792569600.0,
+   "q_model": 0.95,
+   "mid": 0.895,
+   "strategy": "favorite",
+   "price": 0.83,
+   "edge": 0.12,
+   "q_used": 0.9225,
+   "id": 173,
+   "contracts": 11,
+   "filled": 0.0,
+   "placed_ts": 1792482332,
+   "checked_ts": 1792482332,
+   "reserved": 9.13
+  },
+  {
+   "ticker": "KXLOWTEWR-26OCT20-B46.5",
+   "event_ticker": "KXLOWTEWR-26OCT20",
+   "series": "KXLOWTEWR",
+   "kind": "low",
+   "code": "EWR",
+   "date": "2026-10-20",
+   "label": "EWR low 46\u201347\u00b0 10-20",
+   "side": "yes",
+   "close_ts": 1792558800.0,
+   "q_model": 0.983,
+   "mid": 0.535,
    "strategy": "edge",
    "price": 0.13,
-   "edge": 0.5785,
-   "q_used": 0.5643,
-   "id": 171,
+   "edge": 0.853,
+   "q_used": 0.759,
+   "id": 174,
    "contracts": 2,
    "filled": 0.0,
-   "placed_ts": 1792481433,
-   "checked_ts": 1792481433,
+   "placed_ts": 1792482332,
+   "checked_ts": 1792482332,
    "reserved": 0.26
   }
  ],
@@ -254,7 +231,7 @@
    "contracts": 2.0,
    "cost": 1.66,
    "opened_ts": 1792432830,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "avg_price": 0.83
   },
   {
@@ -292,7 +269,7 @@
    "contracts": 0.5,
    "cost": 0.17,
    "opened_ts": 1792441835,
-   "mark_price": 0.35,
+   "mark_price": 0.4,
    "avg_price": 0.34
   },
   {
@@ -349,7 +326,7 @@
    "contracts": 1.5,
    "cost": 0.57,
    "opened_ts": 1792449030,
-   "mark_price": 0.36,
+   "mark_price": 0.35,
    "avg_price": 0.38
   },
   {
@@ -387,7 +364,7 @@
    "contracts": 2.0,
    "cost": 0.66,
    "opened_ts": 1792457129,
-   "mark_price": 0.24,
+   "mark_price": 0.23,
    "avg_price": 0.33
   },
   {
@@ -463,7 +440,7 @@
    "contracts": 1.0,
    "cost": 0.82,
    "opened_ts": 1792467030,
-   "mark_price": 0.32,
+   "mark_price": 0.35,
    "avg_price": 0.82
   },
   {
@@ -653,7 +630,7 @@
    "contracts": 11.0,
    "cost": 9.79,
    "opened_ts": 1792481433,
-   "mark_price": 0.81,
+   "mark_price": 0.88,
    "avg_price": 0.89
   }
  ],
@@ -943,28 +920,33 @@
    1792481433,
    100.0,
    98.275
+  ],
+  [
+   1792482332,
+   100.0,
+   99.085
   ]
  ],
  "forecast_log": {
   "SAN|2026-10-20|low": {
    "fc": 66.49,
    "var": 2.69,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SAN|2026-10-20|high": {
    "fc": 79.24,
    "var": 5.0,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SEA|2026-10-20|low": {
    "fc": 46.25,
    "var": 0.62,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SEA|2026-10-20|high": {
    "fc": 60.48,
    "var": 1.12,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "PHX|2026-10-20|low": {
    "fc": 72.43,
@@ -979,32 +961,32 @@
   "LAS|2026-10-20|low": {
    "fc": 63.91,
    "var": 2.92,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "LAS|2026-10-20|high": {
    "fc": 78.02,
    "var": 2.23,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "LAX|2026-10-20|low": {
    "fc": 65.09,
    "var": 5.01,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "LAX|2026-10-20|high": {
    "fc": 81.15,
    "var": 11.67,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SFO|2026-10-20|low": {
    "fc": 53.22,
    "var": 1.03,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SFO|2026-10-20|high": {
    "fc": 68.3,
    "var": 7.3,
-   "ts": 1792481433
+   "ts": 1792482332
   },
   "SAT|2026-10-20|low": {
    "fc": 60.71,
@@ -1203,19 +1185,19 @@
    },
    "KXLOWTSFO-26OCT20-B54.5": {
     "q": 0.3333498215212244,
-    "mkt": 0.38,
+    "mkt": 0.365,
     "kind": "low",
     "close_ts": 1792569600.0
    },
    "KXLOWTSFO-26OCT20-B52.5": {
     "q": 0.08138780602739455,
-    "mkt": 0.46,
+    "mkt": 0.47,
     "kind": "low",
     "close_ts": 1792569600.0
    },
    "KXLOWTSFO-26OCT20-B50.5": {
     "q": 0.007471901149071904,
-    "mkt": 0.10500000000000001,
+    "mkt": 0.085,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1227,7 +1209,7 @@
    },
    "KXLOWTSEA-26OCT20-T46": {
     "q": 0.8018333051188405,
-    "mkt": 0.5,
+    "mkt": 0.48,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1263,7 +1245,7 @@
    },
    "KXLOWTSAN-26OCT20-T65": {
     "q": 0.7085393796587828,
-    "mkt": 0.42,
+    "mkt": 0.425,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1281,13 +1263,13 @@
    },
    "KXLOWTSAN-26OCT20-B62.5": {
     "q": 0.04998160855127452,
-    "mkt": 0.075,
+    "mkt": 0.105,
     "kind": "low",
     "close_ts": 1792569600.0
    },
    "KXLOWTSAN-26OCT20-B60.5": {
     "q": 0.0035754231197197917,
-    "mkt": 0.07,
+    "mkt": 0.09,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1299,7 +1281,7 @@
    },
    "KXLOWTLV-26OCT20-T65": {
     "q": 0.3414641792602541,
-    "mkt": 0.175,
+    "mkt": 0.17,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1311,13 +1293,13 @@
    },
    "KXLOWTLV-26OCT20-B64.5": {
     "q": 0.3327645183572161,
-    "mkt": 0.41000000000000003,
+    "mkt": 0.43000000000000005,
     "kind": "low",
     "close_ts": 1792569600.0
    },
    "KXLOWTLV-26OCT20-B62.5": {
     "q": 0.25909815926541996,
-    "mkt": 0.38,
+    "mkt": 0.37,
     "kind": "low",
     "close_ts": 1792569600.0
    },
@@ -1467,7 +1449,7 @@
    },
    "KXHIGHTSAN-26OCT20-B78.5": {
     "q": 0.2086669806066465,
-    "mkt": 0.30500000000000005,
+    "mkt": 0.31000000000000005,
     "kind": "high",
     "close_ts": 1792569600.0
    },
@@ -1497,7 +1479,7 @@
    },
    "KXHIGHTLV-26OCT20-B83.5": {
     "q": 0.049420584041178314,
-    "mkt": 0.22,
+    "mkt": 0.225,
     "kind": "high",
     "close_ts": 1792569600.0
    },
@@ -1509,7 +1491,7 @@
    },
    "KXHIGHTLV-26OCT20-B79.5": {
     "q": 0.3653867161347002,
-    "mkt": 0.045,
+    "mkt": 0.04,
     "kind": "high",
     "close_ts": 1792569600.0
    },
@@ -2921,64 +2903,46 @@
   "totals": {}
  },
  "last_run": {
-  "ts": 1792481433,
+  "ts": 1792482332,
   "error": null,
   "errors": [],
-  "fills": [
-   {
-    "ticker": "KXHIGHTPHX-26OCT20-B90.5",
-    "side": "yes",
-    "qty": 0.25,
-    "price": 0.09,
-    "strategy": "edge"
-   },
-   {
-    "ticker": "KXHIGHTPHX-26OCT20-B90.5",
-    "side": "yes",
-    "qty": 0.75,
-    "price": 0.09,
-    "strategy": "edge"
-   },
-   {
-    "ticker": "KXLOWTAUS-26OCT20-T51",
-    "side": "no",
-    "qty": 11.0,
-    "price": 0.89,
-    "strategy": "favorite"
-   }
-  ],
+  "fills": [],
   "settled": [],
   "cancelled": [
    {
-    "ticker": "KXLOWTSATX-26OCT20-B55.5",
-    "reason": "reprice 0.81->0.76"
+    "ticker": "KXLOWTEWR-26OCT20-B46.5",
+    "reason": "reprice 0.12->0.13"
    },
    {
-    "ticker": "KXLOWTSDF-26OCT20-B40.5",
-    "reason": "reprice 0.90->0.91"
+    "ticker": "KXLOWTSAN-26OCT20-B60.5",
+    "reason": "reprice 0.90->0.86"
+   },
+   {
+    "ticker": "KXLOWTSATX-26OCT20-T55",
+    "reason": "reprice 0.92->0.93"
    },
    {
     "ticker": "KXLOWTSAN-26OCT20-T65",
-    "reason": "reprice 0.11->0.13"
+    "reason": "reprice 0.13->0.12"
    }
   ],
   "placed": [
    {
-    "ticker": "KXLOWTSDF-26OCT20-B40.5",
+    "ticker": "KXLOWTSAN-26OCT20-B60.5",
     "side": "no",
-    "price": 0.91,
-    "contracts": 10,
+    "price": 0.86,
+    "contracts": 11,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXLOWTLAX-26OCT20-B61.5",
+    "ticker": "KXLOWTSAN-26OCT20-B62.5",
     "side": "no",
-    "price": 0.9,
-    "contracts": 6,
+    "price": 0.83,
+    "contracts": 11,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXLOWTSAN-26OCT20-T65",
+    "ticker": "KXLOWTEWR-26OCT20-B46.5",
     "side": "yes",
     "price": 0.13,
     "contracts": 2,
@@ -3023,20 +2987,20 @@
      {
       "label": "50\u201351\u00b0",
       "q": 0.007,
-      "bid": 0.07,
+      "bid": 0.03,
       "ask": 0.14
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.081,
       "bid": 0.37,
-      "ask": 0.55
+      "ask": 0.57
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.333,
       "bid": 0.28,
-      "ask": 0.48
+      "ask": 0.45
      },
      {
       "label": "\u226556\u00b0",
@@ -3100,8 +3064,8 @@
      {
       "label": "\u226547\u00b0",
       "q": 0.802,
-      "bid": 0.4,
-      "ask": 0.6
+      "bid": 0.39,
+      "ask": 0.57
      }
     ]
    },
@@ -3142,13 +3106,13 @@
       "label": "60\u201361\u00b0",
       "q": 0.004,
       "bid": 0.03,
-      "ask": 0.11
+      "ask": 0.15
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.05,
       "bid": 0.03,
-      "ask": 0.12
+      "ask": 0.18
      },
      {
       "label": "64\u201365\u00b0",
@@ -3159,8 +3123,8 @@
      {
       "label": "\u226566\u00b0",
       "q": 0.709,
-      "bid": 0.12,
-      "ask": 0.72
+      "bid": 0.11,
+      "ask": 0.74
      }
     ]
    },
@@ -3206,20 +3170,20 @@
      {
       "label": "62\u201363\u00b0",
       "q": 0.259,
-      "bid": 0.28,
-      "ask": 0.48
+      "bid": 0.27,
+      "ask": 0.47
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.333,
-      "bid": 0.31,
-      "ask": 0.51
+      "bid": 0.33,
+      "ask": 0.53
      },
      {
       "label": "\u226566\u00b0",
       "q": 0.341,
       "bid": 0.11,
-      "ask": 0.24
+      "ask": 0.23
      }
     ]
    },
@@ -3437,7 +3401,7 @@
       "label": "78\u201379\u00b0",
       "q": 0.209,
       "bid": 0.28,
-      "ask": 0.33
+      "ask": 0.34
      },
      {
       "label": "80\u201381\u00b0",
@@ -3489,7 +3453,7 @@
      {
       "label": "79\u201380\u00b0",
       "q": 0.365,
-      "bid": 0.04,
+      "bid": 0.03,
       "ask": 0.05
      },
      {
@@ -3501,7 +3465,7 @@
      {
       "label": "83\u201384\u00b0",
       "q": 0.049,
-      "bid": 0.21,
+      "bid": 0.22,
       "ask": 0.23
      },
      {
@@ -3619,14 +3583,14 @@
      {
       "label": "68\u201369\u00b0",
       "q": 0.173,
-      "bid": 0.11,
-      "ask": 0.19
+      "bid": 0.13,
+      "ask": 0.23
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.241,
-      "bid": 0.3,
-      "ask": 0.38
+      "bid": 0.29,
+      "ask": 0.37
      },
      {
       "label": "\u226572\u00b0",
@@ -3667,19 +3631,19 @@
       "label": "40\u201341\u00b0",
       "q": 0.016,
       "bid": 0.08,
-      "ask": 0.27
+      "ask": 0.26
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.121,
-      "bid": 0.2,
-      "ask": 0.4
+      "bid": 0.14,
+      "ask": 0.34
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.305,
-      "bid": 0.19,
-      "ask": 0.39
+      "bid": 0.25,
+      "ask": 0.45
      },
      {
       "label": "46\u201347\u00b0",
@@ -3838,7 +3802,7 @@
       "label": "\u226454\u00b0",
       "q": 0.001,
       "bid": 0.02,
-      "ask": 0.09
+      "ask": 0.08
      },
      {
       "label": "55\u201356\u00b0",
@@ -3903,13 +3867,13 @@
       "label": "46\u201347\u00b0",
       "q": 0.021,
       "bid": 0.03,
-      "ask": 0.22
+      "ask": 0.29
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.059,
       "bid": 0.05,
-      "ask": 0.28
+      "ask": 0.26
      },
      {
       "label": "50\u201351\u00b0",
@@ -3920,8 +3884,8 @@
      {
       "label": "52\u201353\u00b0",
       "q": 0.475,
-      "bid": 0.1,
-      "ask": 0.46
+      "bid": 0.08,
+      "ask": 0.5
      },
      {
       "label": "\u226554\u00b0",
@@ -3968,19 +3932,19 @@
       "label": "60\u201361\u00b0",
       "q": 0.192,
       "bid": 0.22,
-      "ask": 0.35
+      "ask": 0.33
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.411,
       "bid": 0.43,
-      "ask": 0.56
+      "ask": 0.54
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.293,
       "bid": 0.11,
-      "ask": 0.24
+      "ask": 0.26
      },
      {
       "label": "\u226566\u00b0",
@@ -4032,8 +3996,8 @@
      {
       "label": "44\u201345\u00b0",
       "q": 0.255,
-      "bid": 0.38,
-      "ask": 0.52
+      "bid": 0.41,
+      "ask": 0.47
      },
      {
       "label": "46\u201347\u00b0",
@@ -4060,7 +4024,7 @@
      "p90": 63.2
     },
     "nbm": 59.3,
-    "observed": 64.4,
+    "observed": 62.6,
     "bias": -0.14,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -4080,29 +4044,29 @@
       "label": "55\u201356\u00b0",
       "q": 0.075,
       "bid": 0.02,
-      "ask": 0.22
+      "ask": 0.23
      },
      {
       "label": "57\u201358\u00b0",
-      "q": 0.236,
-      "bid": 0.06,
-      "ask": 0.51
+      "q": 0.237,
+      "bid": 0.05,
+      "ask": 0.52
      },
      {
       "label": "59\u201360\u00b0",
-      "q": 0.285,
+      "q": 0.289,
       "bid": 0.03,
       "ask": 0.58
      },
      {
       "label": "61\u201362\u00b0",
-      "q": 0.209,
+      "q": 0.244,
       "bid": 0.03,
       "ask": 0.23
      },
      {
       "label": "\u226563\u00b0",
-      "q": 0.184,
+      "q": 0.143,
       "bid": 0.01,
       "ask": 0.03
      }
@@ -4150,20 +4114,20 @@
      {
       "label": "53\u201354\u00b0",
       "q": 0.042,
-      "bid": 0.04,
-      "ask": 0.23
+      "bid": 0.09,
+      "ask": 0.25
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.077,
-      "bid": 0.23,
-      "ask": 0.5
+      "bid": 0.3,
+      "ask": 0.48
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.868,
       "bid": 0.18,
-      "ask": 0.38
+      "ask": 0.37
      }
     ]
    },
@@ -4204,19 +4168,19 @@
       "label": "44\u201345\u00b0",
       "q": 0.296,
       "bid": 0.3,
-      "ask": 0.49
+      "ask": 0.58
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.133,
-      "bid": 0.09,
-      "ask": 0.45
+      "bid": 0.07,
+      "ask": 0.32
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.349,
       "bid": 0.04,
-      "ask": 0.37
+      "ask": 0.34
      },
      {
       "label": "\u226550\u00b0",
@@ -4250,32 +4214,32 @@
      {
       "label": "\u226450\u00b0",
       "q": 0.015,
-      "bid": 0.08,
-      "ask": 0.19
+      "bid": 0.06,
+      "ask": 0.12
      },
      {
       "label": "51\u201352\u00b0",
       "q": 0.051,
       "bid": 0.15,
-      "ask": 0.25
+      "ask": 0.3
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.136,
-      "bid": 0.36,
-      "ask": 0.47
+      "bid": 0.42,
+      "ask": 0.52
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.291,
-      "bid": 0.24,
-      "ask": 0.35
+      "bid": 0.1,
+      "ask": 0.21
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.507,
-      "bid": 0.02,
-      "ask": 0.04
+      "bid": null,
+      "ask": 0.01
      },
      {
       "label": "\u226559\u00b0",
@@ -4433,14 +4397,14 @@
      {
       "label": "77\u201378\u00b0",
       "q": 0.194,
-      "bid": 0.63,
+      "bid": 0.62,
       "ask": 0.65
      },
      {
       "label": "79\u201380\u00b0",
       "q": 0.116,
-      "bid": 0.1,
-      "ask": 0.11
+      "bid": 0.13,
+      "ask": 0.14
      },
      {
       "label": "81\u201382\u00b0",
@@ -4504,8 +4468,8 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.199,
-      "bid": 0.73,
-      "ask": 0.76
+      "bid": 0.76,
+      "ask": 0.77
      },
      {
       "label": "71\u201372\u00b0",
@@ -4557,7 +4521,7 @@
      {
       "label": "82\u201383\u00b0",
       "q": 0.295,
-      "bid": 0.59,
+      "bid": 0.58,
       "ask": 0.62
      },
      {
@@ -4610,8 +4574,8 @@
      {
       "label": "77\u201378\u00b0",
       "q": 0.256,
-      "bid": 0.16,
-      "ask": 0.17
+      "bid": 0.17,
+      "ask": 0.18
      },
      {
       "label": "79\u201380\u00b0",
@@ -4622,14 +4586,14 @@
      {
       "label": "81\u201382\u00b0",
       "q": 0.194,
-      "bid": 0.12,
-      "ask": 0.13
+      "bid": 0.09,
+      "ask": 0.1
      },
      {
       "label": "83\u201384\u00b0",
       "q": 0.022,
-      "bid": 0.01,
-      "ask": 0.02
+      "bid": 0.02,
+      "ask": 0.04
      },
      {
       "label": "\u226585\u00b0",
@@ -4675,8 +4639,8 @@
      {
       "label": "67\u201368\u00b0",
       "q": 0.407,
-      "bid": 0.51,
-      "ask": 0.52
+      "bid": 0.53,
+      "ask": 0.54
      },
      {
       "label": "69\u201370\u00b0",
@@ -4740,7 +4704,7 @@
      {
       "label": "85\u201386\u00b0",
       "q": 0.236,
-      "bid": 0.28,
+      "bid": 0.27,
       "ask": 0.29
      },
      {
@@ -4787,8 +4751,8 @@
      {
       "label": "40\u201341\u00b0",
       "q": 0.018,
-      "bid": 0.5,
-      "ask": 0.68
+      "bid": 0.05,
+      "ask": 0.65
      },
      {
       "label": "42\u201343\u00b0",
@@ -4858,20 +4822,20 @@
      {
       "label": "42\u201343\u00b0",
       "q": 0.03,
-      "bid": 0.06,
-      "ask": 0.26
+      "bid": 0.05,
+      "ask": 0.25
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.177,
-      "bid": 0.32,
-      "ask": 0.52
+      "bid": 0.34,
+      "ask": 0.54
      },
      {
       "label": "\u226546\u00b0",
       "q": 0.789,
-      "bid": 0.32,
-      "ask": 0.48
+      "bid": 0.3,
+      "ask": 0.47
      }
     ]
    },
@@ -4923,8 +4887,8 @@
      {
       "label": "49\u201350\u00b0",
       "q": 0.516,
-      "bid": 0.17,
-      "ask": 0.41
+      "bid": 0.18,
+      "ask": 0.39
      },
      {
       "label": "\u226551\u00b0",
@@ -4970,14 +4934,14 @@
      {
       "label": "48\u201349\u00b0",
       "q": 0.242,
-      "bid": 0.24,
-      "ask": 0.44
+      "bid": 0.26,
+      "ask": 0.46
      },
      {
       "label": "50\u201351\u00b0",
       "q": 0.413,
-      "bid": 0.45,
-      "ask": 0.67
+      "bid": 0.41,
+      "ask": 0.64
      },
      {
       "label": "52\u201353\u00b0",
@@ -5029,7 +4993,7 @@
      {
       "label": "71\u201372\u00b0",
       "q": 0.294,
-      "bid": 0.2,
+      "bid": 0.25,
       "ask": 0.55
      },
      {
@@ -5088,7 +5052,7 @@
      {
       "label": "46\u201347\u00b0",
       "q": 0.983,
-      "bid": 0.11,
+      "bid": 0.12,
       "ask": 0.95
      },
      {
@@ -5153,7 +5117,7 @@
      {
       "label": "48\u201349\u00b0",
       "q": 0.83,
-      "bid": 0.76,
+      "bid": 0.78,
       "ask": 0.79
      },
      {
@@ -5195,19 +5159,19 @@
       "label": "\u226441\u00b0",
       "q": 0.001,
       "bid": 0.06,
-      "ask": 0.25
+      "ask": 0.27
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.044,
-      "bid": 0.35,
-      "ask": 0.61
+      "bid": 0.29,
+      "ask": 0.6
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.955,
       "bid": 0.04,
-      "ask": 0.27
+      "ask": 0.43
      },
      {
       "label": "46\u201347\u00b0",
@@ -5278,13 +5242,13 @@
       "label": "44\u201345\u00b0",
       "q": 0.253,
       "bid": 0.05,
-      "ask": 0.34
+      "ask": 0.37
      },
      {
       "label": "\u226546\u00b0",
       "q": 0.671,
       "bid": 0.65,
-      "ask": 0.92
+      "ask": 0.93
      }
     ]
    },
@@ -5325,13 +5289,13 @@
       "label": "68\u201369\u00b0",
       "q": 0.255,
       "bid": 0.17,
-      "ask": 0.41
+      "ask": 0.44
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.044,
-      "bid": 0.54,
-      "ask": 0.56
+      "bid": 0.55,
+      "ask": 0.58
      },
      {
       "label": "72\u201373\u00b0",
@@ -5371,7 +5335,7 @@
      {
       "label": "\u226467\u00b0",
       "q": 0.033,
-      "bid": 0.01,
+      "bid": null,
       "ask": 0.02
      },
      {
@@ -5401,8 +5365,8 @@
      {
       "label": "\u226576\u00b0",
       "q": 0.057,
-      "bid": 0.08,
-      "ask": 0.18
+      "bid": 0.07,
+      "ask": 0.17
      }
     ]
    },
@@ -5448,8 +5412,8 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.1,
-      "bid": 0.61,
-      "ask": 0.64
+      "bid": 0.63,
+      "ask": 0.65
      },
      {
       "label": "71\u201372\u00b0",
@@ -5508,7 +5472,7 @@
       "label": "71\u201372\u00b0",
       "q": 0.151,
       "bid": 0.4,
-      "ask": 0.46
+      "ask": 0.47
      },
      {
       "label": "73\u201374\u00b0",
@@ -5684,13 +5648,13 @@
      {
       "label": "70\u201371\u00b0",
       "q": 0.302,
-      "bid": 0.39,
+      "bid": 0.4,
       "ask": 0.42
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.05,
-      "bid": 0.51,
+      "bid": 0.5,
       "ask": 0.53
      },
      {
@@ -5796,14 +5760,14 @@
      {
       "label": "83\u201384\u00b0",
       "q": 0.409,
-      "bid": 0.31,
-      "ask": 0.32
+      "bid": 0.33,
+      "ask": 0.34
      },
      {
       "label": "85\u201386\u00b0",
       "q": 0.167,
-      "bid": 0.64,
-      "ask": 0.65
+      "bid": 0.59,
+      "ask": 0.6
      },
      {
       "label": "87\u201388\u00b0",
@@ -5821,7 +5785,7 @@
    }
   ],
   "halt": null,
-  "candidates": 105,
+  "candidates": 106,
   "health": {
    "nws_observations": {
     "ok": 38,
@@ -5829,7 +5793,7 @@
     "last_error": null
    }
   },
-  "seconds": 29.7
+  "seconds": 33.2
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

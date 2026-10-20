@@ -91,7 +91,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.61,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -146,7 +146,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -274,7 +274,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -314,7 +314,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.89,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -399,7 +399,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -9939,93 +9939,94 @@
    1792518335,
    91.71,
    89.41
+  ],
+  [
+   1792519234,
+   91.71,
+   89.48
   ]
  ],
  "last_run": {
-  "ts": 1792518335,
+  "ts": 1792519234,
   "error": null,
-  "markets_scanned": 393,
-  "candidates": 9,
+  "markets_scanned": 561,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 337,
-   "no favorite in 80-95c band": 44,
-   "spread too wide": 3
+   "too little volume": 460,
+   "no favorite in 80-95c band": 83,
+   "spread too wide": 7
   },
-  "opened": [
-   175
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 35.24,
-    "volume_24h": 3329.11,
-    "score": 0.5651
-   },
-   {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 2574.4,
-    "score": 0.5567
+    "score": 0.607
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 342.15,
+    "score": 0.5202
    },
    {
     "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.24,
-    "volume_24h": 1063.79,
-    "score": 0.518
+    "hours_to_close": 34.99,
+    "volume_24h": 1064.79,
+    "score": 0.5183
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 23.22,
+    "hours_to_close": 22.97,
     "volume_24h": 1813.63,
-    "score": 0.5063
+    "score": 0.5069
+   },
+   {
+    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 34.99,
+    "volume_24h": 3329.11,
+    "score": 0.5054
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 424.66,
-    "score": 0.4881
+    "score": 0.4884
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 21, 2026? \u2014 38.9%",
+    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 23.22,
-    "volume_24h": 362.45,
-    "score": 0.4339
-   },
-   {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 35.24,
-    "volume_24h": 410.62,
-    "score": 0.427
+    "hours_to_close": 34.99,
+    "volume_24h": 345.37,
+    "score": 0.4617
    },
    {
     "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
     "side": "no",
-    "price": 0.83,
-    "hours_to_close": 35.24,
-    "volume_24h": 3395.32,
-    "score": 0.3957
+    "price": 0.84,
+    "hours_to_close": 34.99,
+    "volume_24h": 3408.32,
+    "score": 0.4562
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 1,
+  "skipped": {},
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

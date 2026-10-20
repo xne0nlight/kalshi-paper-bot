@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 37.65,
- "fees_paid": 3.68,
+ "cash": 32.26,
+ "fees_paid": 3.73,
  "peak_equity": 109.65,
  "day": "2026-10-20",
  "day_start_equity": 88.97,
- "next_id": 168,
+ "next_id": 169,
  "open_positions": [
   {
    "id": 149,
@@ -40,7 +40,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.8,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -157,7 +157,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -174,7 +174,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -326,6 +326,23 @@
    "close_ts": 1792530000.0,
    "score": 0.6221,
    "mark_price": 0.99,
+   "shadow": {}
+  },
+  {
+   "id": 168,
+   "ticker": "KXCS2GAME-26OCT190945TITDON-TIT",
+   "event_ticker": "KXCS2GAME-26OCT190945TITDON",
+   "series": "KXCS2GAME",
+   "label": "TitanFlow wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1792507535,
+   "close_ts": 1792590300.0,
+   "score": 0.5431,
+   "mark_price": 0.87,
    "shadow": {}
   }
  ],
@@ -9720,35 +9737,48 @@
    1792506634,
    90.54,
    89.8
+  ],
+  [
+   1792507535,
+   90.54,
+   89.2
   ]
  ],
  "last_run": {
-  "ts": 1792506634,
+  "ts": 1792507535,
   "error": null,
   "markets_scanned": 416,
-  "candidates": 1,
+  "candidates": 2,
   "rejections": {
-   "too little volume": 388,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 2
+   "too little volume": 384,
+   "no favorite in 80-95c band": 27,
+   "spread too wide": 3
   },
-  "opened": [],
+  "opened": [
+   168
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 21, 2026? \u2014 Above $99.49",
+    "label": "TitanFlow wins",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 27.99,
-    "volume_24h": 285.04,
-    "score": 0.506
+    "price": 0.89,
+    "hours_to_close": 22.99,
+    "volume_24h": 5518.65,
+    "score": 0.5431
+   },
+   {
+    "label": "Donstu Esports wins",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 22.99,
+    "volume_24h": 6911.49,
+    "score": 0.5404
    }
   ],
-  "skipped": {
-   "related-market cap (Oil prices)": 1
-  },
-  "watch_added": 1,
+  "skipped": {},
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

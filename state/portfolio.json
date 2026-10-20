@@ -40,7 +40,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -291,7 +291,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -342,12 +342,17 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.76,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1792529134,
      "bid": 0.74,
      "proceeds": 4.35
+    },
+    "15": {
+     "ts": 1792537232,
+     "bid": 0.7,
+     "proceeds": 4.11
     }
    }
   },
@@ -365,7 +370,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -399,7 +404,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -10108,17 +10113,22 @@
    1792536334,
    91.95,
    91.8
+  ],
+  [
+   1792537232,
+   91.95,
+   91.39
   ]
  ],
  "last_run": {
-  "ts": 1792536334,
+  "ts": 1792537232,
   "error": null,
-  "markets_scanned": 3853,
-  "candidates": 54,
+  "markets_scanned": 3858,
+  "candidates": 52,
   "rejections": {
-   "too little volume": 3575,
-   "no favorite in 80-95c band": 203,
-   "spread too wide": 20,
+   "too little volume": 3576,
+   "no favorite in 80-95c band": 210,
+   "spread too wide": 19,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -10129,69 +10139,69 @@
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 3450.57,
-    "score": 0.6397
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 1527.84,
-    "score": 0.6132
+    "score": 0.6404
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.24,
-    "volume_24h": 5044.97,
-    "score": 0.6112
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.22,
-    "volume_24h": 1661.43,
-    "score": 0.6082
+    "price": 0.94,
+    "hours_to_close": 32.99,
+    "volume_24h": 5155.6,
+    "score": 0.6223
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,500 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 22.24,
+    "price": 0.9,
+    "hours_to_close": 21.99,
     "volume_24h": 8217.25,
-    "score": 0.608
+    "score": 0.6186
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 21.99,
+    "volume_24h": 2313.15,
+    "score": 0.6174
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.22,
-    "volume_24h": 1624.74,
-    "score": 0.6075
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 2313.15,
-    "score": 0.6067
+    "hours_to_close": 17.97,
+    "volume_24h": 1624.88,
+    "score": 0.6084
    },
    {
     "label": "Will it rain in Denver on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 2223.02,
-    "score": 0.606
+    "score": 0.6063
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.99,
+    "volume_24h": 2063.4,
+    "score": 0.6054
+   },
+   {
+    "label": "Will the copper close price be above 6.78 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.78",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 2077.0,
+    "score": 0.5938
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

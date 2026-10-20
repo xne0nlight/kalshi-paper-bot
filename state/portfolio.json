@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 14.65,
+ "cash": 16.65,
  "fees_paid": 3.68,
  "peak_equity": 109.65,
  "day": "2026-10-20",
  "day_start_equity": 88.97,
  "next_id": 168,
  "open_positions": [
-  {
-   "id": 146,
-   "ticker": "KXHIGHTEWR-26OCT19-B60.5",
-   "event_ticker": "KXHIGHTEWR-26OCT19",
-   "series": "KXHIGHTEWR",
-   "label": "Will the maximum temperature be 60-61\u00b0 on Oct 19, 2026? \u2014 60\u00b0 to 61\u00b0",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 1.91,
-   "opened_ts": 1792343730,
-   "close_ts": 1792472400.0,
-   "score": 0.5408,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 149,
    "ticker": "KXNETFLIXRANKMOVIERUNNERUP-26OCT19-DOI",
@@ -142,7 +125,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -214,7 +197,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.77,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -242,7 +225,7 @@
    "opened_ts": 1792431031,
    "close_ts": 1792558800.0,
    "score": 0.3881,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -259,7 +242,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -292,7 +275,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.86,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -347,7 +330,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -370,7 +353,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792569600.0,
    "score": 0.5539,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -4087,6 +4070,27 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1792498534,
+   "won": true
+  },
+  {
+   "id": 146,
+   "ticker": "KXHIGHTEWR-26OCT19-B60.5",
+   "event_ticker": "KXHIGHTEWR-26OCT19",
+   "series": "KXHIGHTEWR",
+   "label": "Will the maximum temperature be 60-61\u00b0 on Oct 19, 2026? \u2014 60\u00b0 to 61\u00b0",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1792343730,
+   "close_ts": 1792472400.0,
+   "score": 0.5408,
+   "shadow": {},
+   "payout": 2.0,
+   "pnl": 0.09,
+   "result": "NO",
+   "closed_ts": 1792504834,
    "won": true
   }
  ],
@@ -9685,25 +9689,32 @@
    1792503932,
    89.2,
    89.13
+  ],
+  [
+   1792504834,
+   89.29,
+   89.74
   ]
  ],
  "last_run": {
-  "ts": 1792503932,
+  "ts": 1792504834,
   "error": null,
-  "markets_scanned": 368,
+  "markets_scanned": 398,
   "candidates": 0,
   "rejections": {
-   "too little volume": 345,
+   "too little volume": 374,
    "no favorite in 80-95c band": 21,
-   "spread too wide": 2
+   "spread too wide": 3
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   146
+  ],
   "halt": null,
   "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

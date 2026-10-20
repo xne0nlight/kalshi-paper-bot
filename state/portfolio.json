@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 32.26,
+ "cash": 38.26,
  "fees_paid": 3.73,
  "peak_equity": 109.65,
  "day": "2026-10-20",
@@ -129,7 +129,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.55,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -184,7 +184,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -335,23 +335,6 @@
    "opened_ts": 1792448129,
    "close_ts": 1792530000.0,
    "score": 0.6221,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 168,
-   "ticker": "KXCS2GAME-26OCT190945TITDON-TIT",
-   "event_ticker": "KXCS2GAME-26OCT190945TITDON",
-   "series": "KXCS2GAME",
-   "label": "TitanFlow wins",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.89,
-   "fee": 0.05,
-   "cost": 5.39,
-   "opened_ts": 1792507535,
-   "close_ts": 1792590300.0,
-   "score": 0.5431,
    "mark_price": 0.99,
    "shadow": {}
   }
@@ -4134,6 +4117,27 @@
    "pnl": 0.56,
    "result": "NO",
    "closed_ts": 1792505735,
+   "won": true
+  },
+  {
+   "id": 168,
+   "ticker": "KXCS2GAME-26OCT190945TITDON-TIT",
+   "event_ticker": "KXCS2GAME-26OCT190945TITDON",
+   "series": "KXCS2GAME",
+   "label": "TitanFlow wins",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1792507535,
+   "close_ts": 1792590300.0,
+   "score": 0.5431,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.61,
+   "result": "NO",
+   "closed_ts": 1792512034,
    "won": true
   }
  ],
@@ -9772,20 +9776,27 @@
    1792511133,
    90.54,
    89.47
+  ],
+  [
+   1792512034,
+   91.15,
+   89.4
   ]
  ],
  "last_run": {
-  "ts": 1792511133,
+  "ts": 1792512034,
   "error": null,
-  "markets_scanned": 318,
+  "markets_scanned": 269,
   "candidates": 0,
   "rejections": {
-   "too little volume": 291,
-   "no favorite in 80-95c band": 22,
-   "spread too wide": 5
+   "too little volume": 255,
+   "no favorite in 80-95c band": 12,
+   "spread too wide": 2
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   168
+  ],
   "halt": null,
   "top_candidates": [],
   "skipped": {},

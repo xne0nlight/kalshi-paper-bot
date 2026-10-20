@@ -91,7 +91,7 @@
    "opened_ts": 1792430131,
    "close_ts": 1792558800.0,
    "score": 0.4553,
-   "mark_price": 0.64,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1792469730,
@@ -146,7 +146,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -179,7 +179,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -274,7 +274,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792562400.0,
    "score": 0.5423,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -331,7 +331,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -348,7 +348,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -382,7 +382,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -399,7 +399,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.83,
+   "mark_price": 0.8,
    "shadow": {}
   }
  ],
@@ -9912,96 +9912,97 @@
    1792516538,
    91.71,
    90.09
+  ],
+  [
+   1792517433,
+   91.71,
+   89.73
   ]
  ],
  "last_run": {
-  "ts": 1792516538,
+  "ts": 1792517433,
   "error": null,
   "markets_scanned": 393,
-  "candidates": 9,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 342,
-   "no favorite in 80-95c band": 41,
-   "spread too wide": 1
+   "too little volume": 339,
+   "no favorite in 80-95c band": 44,
+   "spread too wide": 2
   },
-  "opened": [
-   174
-  ],
-  "settled": [
-   157
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 3329.11,
-    "score": 0.5645
+    "score": 0.5648
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 2419.47,
-    "score": 0.5041
-   },
-   {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 35.74,
-    "volume_24h": 219.37,
-    "score": 0.486
-   },
-   {
-    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 465.87,
-    "score": 0.4805
+    "score": 0.5044
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 23.72,
-    "volume_24h": 659.45,
-    "score": 0.4721
+    "hours_to_close": 23.47,
+    "volume_24h": 1730.24,
+    "score": 0.5041
    },
    {
-    "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+    "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 35.74,
-    "volume_24h": 375.66,
-    "score": 0.4435
+    "price": 0.89,
+    "hours_to_close": 35.49,
+    "volume_24h": 566.79,
+    "score": 0.4972
    },
    {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 21, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 35.74,
-    "volume_24h": 434.67,
-    "score": 0.4382
+    "price": 0.88,
+    "hours_to_close": 35.49,
+    "volume_24h": 286.37,
+    "score": 0.465
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 35.74,
-    "volume_24h": 409.62,
-    "score": 0.4263
+    "hours_to_close": 35.49,
+    "volume_24h": 410.62,
+    "score": 0.4267
+   },
+   {
+    "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.49,
+    "volume_24h": 376.66,
+    "score": 0.4139
+   },
+   {
+    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 35.49,
+    "volume_24h": 3291.32,
+    "score": 0.3944
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,
-  "watch_graded": 9,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

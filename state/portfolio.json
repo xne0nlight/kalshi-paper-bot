@@ -292,7 +292,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.78,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -303,6 +303,11 @@
      "ts": 1792483233,
      "bid": 0.75,
      "proceeds": 3.68
+    },
+    "20": {
+     "ts": 1792485934,
+     "bid": 0.72,
+     "proceeds": 3.52
     }
    }
   },
@@ -320,7 +325,7 @@
    "opened_ts": 1792433732,
    "close_ts": 1792562400.0,
    "score": 0.4847,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -375,7 +380,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -9571,19 +9576,24 @@
    1792485033,
    88.97,
    87.58
+  ],
+  [
+   1792485934,
+   88.97,
+   87.35
   ]
  ],
  "last_run": {
-  "ts": 1792485033,
+  "ts": 1792485934,
   "error": null,
   "markets_scanned": 4559,
-  "candidates": 60,
+  "candidates": 61,
   "rejections": {
-   "too little volume": 4082,
-   "no favorite in 80-95c band": 372,
+   "too little volume": 4076,
+   "no favorite in 80-95c band": 376,
    "spread too wide": 43,
-   "nothing for sale at the ask": 1,
-   "favorite is slipping fast": 1
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -9593,69 +9603,69 @@
     "label": "Bitcoin price on Oct 20, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 12.49,
-    "volume_24h": 21979.77,
-    "score": 0.7036
+    "hours_to_close": 12.24,
+    "volume_24h": 22047.52,
+    "score": 0.7051
    },
    {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $79,750 or above",
+    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 20, 2026? \u2014 Above $96.99",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 5221.13,
-    "score": 0.6924
+    "hours_to_close": 9.74,
+    "volume_24h": 2448.63,
+    "score": 0.6876
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 20, 2026? \u2014 Above $101.99",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 9.99,
-    "volume_24h": 12596.07,
-    "score": 0.6913
-   },
-   {
-    "label": "Will the gold close price be above 4171 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4171",
-    "side": "no",
+    "label": "Will the copper close price be above 6.58 USD/Lbs on October 20, 2026 at 5:00 PM EDT? \u2014 Above $6.58",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 3365.6,
-    "score": 0.6781
+    "hours_to_close": 12.24,
+    "volume_24h": 4018.47,
+    "score": 0.6854
+   },
+   {
+    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 12.24,
+    "volume_24h": 10935.7,
+    "score": 0.6851
    },
    {
     "label": "Will the copper close price be above 6.56 USD/Lbs on October 20, 2026 at 5:00 PM EDT? \u2014 Above $6.56",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.49,
+    "hours_to_close": 12.24,
     "volume_24h": 3106.74,
-    "score": 0.6755
-   },
-   {
-    "label": "Bitcoin price on Oct 20, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 12.49,
-    "volume_24h": 10935.7,
-    "score": 0.6736
+    "score": 0.6771
    },
    {
     "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.47,
-    "volume_24h": 16158.73,
-    "score": 0.6724
+    "hours_to_close": 19.22,
+    "volume_24h": 16832.28,
+    "score": 0.6733
    },
    {
     "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 20, 2026? \u2014 Above $96.49",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 9.99,
+    "hours_to_close": 9.74,
     "volume_24h": 1723.58,
-    "score": 0.6641
+    "score": 0.6662
+   },
+   {
+    "label": "Will the gold close price be above 4071 USD/t.oz on October 20, 2026 at 5:00 PM EDT? \u2014 Above $4071",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 12.24,
+    "volume_24h": 1698.52,
+    "score": 0.6474
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

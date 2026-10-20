@@ -40,7 +40,7 @@
    "opened_ts": 1792419332,
    "close_ts": 1792521000.0,
    "score": 0.5865,
-   "mark_price": 0.99,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -174,7 +174,7 @@
    "opened_ts": 1792432830,
    "close_ts": 1792562400.0,
    "score": 0.5229,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792481433,
@@ -262,7 +262,7 @@
    "opened_ts": 1792444532,
    "close_ts": 1792530000.0,
    "score": 0.5978,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792458930,
@@ -9715,30 +9715,41 @@
    1792505735,
    90.54,
    90.03
+  ],
+  [
+   1792506634,
+   90.54,
+   89.8
   ]
  ],
  "last_run": {
-  "ts": 1792505735,
+  "ts": 1792506634,
   "error": null,
   "markets_scanned": 416,
-  "candidates": 0,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 390,
-   "no favorite in 80-95c band": 23,
-   "spread too wide": 3
+   "too little volume": 388,
+   "no favorite in 80-95c band": 25,
+   "spread too wide": 2
   },
   "opened": [],
-  "settled": [
-   150,
-   151,
-   152,
-   153
-  ],
+  "settled": [],
   "halt": null,
-  "top_candidates": [],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 28,
+  "top_candidates": [
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 21, 2026? \u2014 Above $99.49",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 27.99,
+    "volume_24h": 285.04,
+    "score": 0.506
+   }
+  ],
+  "skipped": {
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

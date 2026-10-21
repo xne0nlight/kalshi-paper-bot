@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 40.18,
+ "cash": 45.18,
  "fees_paid": 4.11,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
  "next_id": 182,
  "open_positions": [
-  {
-   "id": 165,
-   "ticker": "KXHIGHLAX-26OCT20-B73.5",
-   "event_ticker": "KXHIGHLAX-26OCT20",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 73-74\u00b0 on Oct 20, 2026? \u2014 73\u00b0 to 74\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1792444532,
-   "close_ts": 1792569600.0,
-   "score": 0.5539,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 169,
    "ticker": "KXRAIN-26OCT21-PVD",
@@ -57,7 +40,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.64,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -107,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.72,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -145,7 +128,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -234,7 +217,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -251,7 +234,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -268,7 +251,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -4480,6 +4463,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792584956,
+   "won": true
+  },
+  {
+   "id": 165,
+   "ticker": "KXHIGHLAX-26OCT20-B73.5",
+   "event_ticker": "KXHIGHLAX-26OCT20",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Oct 20, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792444532,
+   "close_ts": 1792569600.0,
+   "score": 0.5539,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792592157,
    "won": true
   }
  ],
@@ -10563,36 +10567,52 @@
    1792591258,
    93.98,
    91.75
+  ],
+  [
+   1792592157,
+   94.26,
+   93.04
   ]
  ],
  "last_run": {
-  "ts": 1792591258,
+  "ts": 1792592157,
   "error": null,
   "markets_scanned": 333,
-  "candidates": 1,
+  "candidates": 2,
   "rejections": {
    "too little volume": 320,
-   "no favorite in 80-95c band": 11,
-   "spread too wide": 1
+   "no favorite in 80-95c band": 9,
+   "spread too wide": 2
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   165
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 22, 2026? \u2014 Above $93.99",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 28.48,
+    "price": 0.93,
+    "hours_to_close": 28.23,
     "volume_24h": 363.13,
-    "score": 0.463
+    "score": 0.4334
+   },
+   {
+    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 25.72,
+    "volume_24h": 821.0,
+    "score": 0.3548
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 1,
+   "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,
-  "watch_graded": 4,
+  "watch_graded": 15,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

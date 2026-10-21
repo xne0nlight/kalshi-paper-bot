@@ -40,7 +40,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -73,7 +73,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.71,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -145,7 +145,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.71,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -200,7 +200,7 @@
    "opened_ts": 1792523734,
    "close_ts": 1792648800.0,
    "score": 0.5275,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -234,7 +234,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.72,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1792593958,
@@ -267,7 +267,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.94,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -10608,44 +10608,40 @@
    1792595756,
    94.26,
    92.87
+  ],
+  [
+   1792596659,
+   94.26,
+   92.73
   ]
  ],
  "last_run": {
-  "ts": 1792595756,
+  "ts": 1792596659,
   "error": null,
   "markets_scanned": 309,
-  "candidates": 2,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 291,
-   "no favorite in 80-95c band": 12,
-   "spread too wide": 4
+   "too little volume": 289,
+   "no favorite in 80-95c band": 13,
+   "spread too wide": 6
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 22, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 27.23,
-    "volume_24h": 363.13,
-    "score": 0.4553
-   },
-   {
-    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
+    "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 24.72,
-    "volume_24h": 821.0,
-    "score": 0.357
+    "price": 0.91,
+    "hours_to_close": 25.47,
+    "volume_24h": 313.92,
+    "score": 0.5141
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

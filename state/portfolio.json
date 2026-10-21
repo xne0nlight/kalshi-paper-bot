@@ -240,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -290,7 +290,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.64,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -328,7 +328,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -451,7 +451,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -10412,85 +10412,90 @@
    1792574156,
    92.46,
    91.72
+  ],
+  [
+   1792575057,
+   92.46,
+   91.59
   ]
  ],
  "last_run": {
-  "ts": 1792574156,
+  "ts": 1792575057,
   "error": null,
   "markets_scanned": 684,
-  "candidates": 32,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 428,
-   "no favorite in 80-95c band": 213,
-   "spread too wide": 11
+   "too little volume": 426,
+   "no favorite in 80-95c band": 214,
+   "spread too wide": 10
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Boston on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.73,
-    "volume_24h": 9265.24,
-    "score": 0.6791
-   },
-   {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.73,
-    "volume_24h": 8279.37,
-    "score": 0.6555
+    "hours_to_close": 19.48,
+    "volume_24h": 8455.52,
+    "score": 0.6569
    },
    {
     "label": "Will the maximum temperature be 78-79\u00b0 on Oct 21, 2026? \u2014 78\u00b0 to 79\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.73,
-    "volume_24h": 1918.96,
-    "score": 0.622
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.73,
-    "volume_24h": 1583.47,
-    "score": 0.6131
-   },
-   {
-    "label": "Will the maximum temperature be 78-79\u00b0 on Oct 21, 2026? \u2014 78\u00b0 to 79\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.73,
+    "price": 0.93,
+    "hours_to_close": 19.48,
     "volume_24h": 3347.45,
-    "score": 0.606
+    "score": 0.6268
    },
    {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
+    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.73,
-    "volume_24h": 1151.4,
-    "score": 0.5927
+    "price": 0.92,
+    "hours_to_close": 19.48,
+    "volume_24h": 4060.78,
+    "score": 0.6231
    },
    {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
+    "label": "Will the maximum temperature be 78-79\u00b0 on Oct 21, 2026? \u2014 78\u00b0 to 79\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 19.73,
-    "volume_24h": 2851.19,
-    "score": 0.5907
+    "price": 0.95,
+    "hours_to_close": 21.48,
+    "volume_24h": 1918.96,
+    "score": 0.6227
    },
    {
     "label": "Will it rain in Miami on Oct 21, 2026?",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 19.73,
+    "price": 0.89,
+    "hours_to_close": 19.48,
     "volume_24h": 9621.75,
-    "score": 0.5903
+    "score": 0.6212
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 22.48,
+    "volume_24h": 1587.47,
+    "score": 0.6038
+   },
+   {
+    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 21, 2026? \u2014 84\u00b0 to 85\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 21.48,
+    "volume_24h": 4194.33,
+    "score": 0.5981
+   },
+   {
+    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 22.48,
+    "volume_24h": 7657.97,
+    "score": 0.595
    }
   ],
   "skipped": {},

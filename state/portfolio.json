@@ -240,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -324,7 +324,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.85,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -341,7 +341,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.65,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -374,7 +374,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -391,7 +391,7 @@
    "opened_ts": 1792523734,
    "close_ts": 1792648800.0,
    "score": 0.5275,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -408,7 +408,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -10235,94 +10235,95 @@
    1792550754,
    92.18,
    91.7
+  ],
+  [
+   1792551658,
+   92.18,
+   92.31
   ]
  ],
  "last_run": {
-  "ts": 1792550754,
+  "ts": 1792551658,
   "error": null,
-  "markets_scanned": 4019,
+  "markets_scanned": 4021,
   "candidates": 64,
   "rejections": {
-   "too little volume": 3666,
-   "no favorite in 80-95c band": 267,
-   "spread too wide": 22
+   "too little volume": 3667,
+   "no favorite in 80-95c band": 270,
+   "spread too wide": 20
   },
-  "opened": [
-   179
-  ],
-  "settled": [
-   154
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will it rain in Boston on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.98,
+    "volume_24h": 8812.13,
+    "score": 0.6615
+   },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.24,
+    "hours_to_close": 17.98,
     "volume_24h": 4074.66,
-    "score": 0.6474
+    "score": 0.6483
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 15.48,
+    "volume_24h": 3053.16,
+    "score": 0.6391
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 18.24,
+    "hours_to_close": 17.98,
     "volume_24h": 9668.7,
-    "score": 0.6356
+    "score": 0.6365
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.74,
+    "hours_to_close": 15.48,
     "volume_24h": 1763.21,
-    "score": 0.6301
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 15.74,
-    "volume_24h": 3053.16,
-    "score": 0.628
+    "score": 0.6312
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.24,
-    "volume_24h": 2146.45,
-    "score": 0.6265
+    "hours_to_close": 17.98,
+    "volume_24h": 2156.45,
+    "score": 0.6276
    },
    {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.24,
-    "volume_24h": 3880.78,
-    "score": 0.6143
+    "price": 0.92,
+    "hours_to_close": 25.98,
+    "volume_24h": 7547.45,
+    "score": 0.6265
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 18.24,
+    "hours_to_close": 17.98,
     "volume_24h": 4843.19,
-    "score": 0.613
-   },
-   {
-    "label": "Will it rain in Denver on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.24,
-    "volume_24h": 2872.19,
-    "score": 0.6107
+    "score": 0.614
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 21,
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

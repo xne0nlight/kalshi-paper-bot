@@ -73,7 +73,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.73,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -128,7 +128,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -145,7 +145,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.68,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -200,7 +200,7 @@
    "opened_ts": 1792523734,
    "close_ts": 1792648800.0,
    "score": 0.5275,
-   "mark_price": 0.96,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -217,7 +217,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -234,12 +234,22 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.85,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792593958,
      "bid": 0.85,
      "proceeds": 1.68
+    },
+    "15": {
+     "ts": 1792594861,
+     "bid": 0.72,
+     "proceeds": 1.41
+    },
+    "20": {
+     "ts": 1792594861,
+     "bid": 0.72,
+     "proceeds": 1.41
     }
    }
   },
@@ -257,7 +267,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -10588,16 +10598,21 @@
    1792593958,
    94.26,
    93.04
+  ],
+  [
+   1792594861,
+   94.26,
+   93.14
   ]
  ],
  "last_run": {
-  "ts": 1792593958,
+  "ts": 1792594861,
   "error": null,
-  "markets_scanned": 333,
+  "markets_scanned": 309,
   "candidates": 1,
   "rejections": {
-   "too little volume": 313,
-   "no favorite in 80-95c band": 16,
+   "too little volume": 291,
+   "no favorite in 80-95c band": 14,
    "spread too wide": 3
   },
   "opened": [],
@@ -10607,10 +10622,10 @@
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
     "side": "no",
-    "price": 0.81,
-    "hours_to_close": 25.22,
+    "price": 0.82,
+    "hours_to_close": 24.97,
     "volume_24h": 821.0,
-    "score": 0.3959
+    "score": 0.3564
    }
   ],
   "skipped": {

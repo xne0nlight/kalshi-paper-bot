@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.48,
- "fees_paid": 4.06,
+ "cash": 9.76,
+ "fees_paid": 4.08,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 179,
+ "next_id": 180,
  "open_positions": [
-  {
-   "id": 154,
-   "ticker": "KXWTI-26OCT2014-T93.49",
-   "event_ticker": "KXWTI-26OCT2014",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 93.49 USD/Bbl on Oct 20, 2026? \u2014 Above $93.49",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792419332,
-   "close_ts": 1792521000.0,
-   "score": 0.5865,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 155,
    "ticker": "KXDWTSELIMINATION-26OCT21-CWOO",
@@ -257,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -308,7 +291,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.75,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -425,7 +408,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -443,6 +426,23 @@
    "close_ts": 1792616400.0,
    "score": 0.6109,
    "mark_price": 0.96,
+   "shadow": {}
+  },
+  {
+   "id": 179,
+   "ticker": "KXWTI-26OCT2114-T95.99",
+   "event_ticker": "KXWTI-26OCT2114",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792550754,
+   "close_ts": 1792607400.0,
+   "score": 0.6301,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -4356,6 +4356,27 @@
    "pnl": 0.11,
    "result": "YES",
    "closed_ts": 1792530934,
+   "won": true
+  },
+  {
+   "id": 154,
+   "ticker": "KXWTI-26OCT2014-T93.49",
+   "event_ticker": "KXWTI-26OCT2014",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 93.49 USD/Bbl on Oct 20, 2026? \u2014 Above $93.49",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792419332,
+   "close_ts": 1792521000.0,
+   "score": 0.5865,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "YES",
+   "closed_ts": 1792550754,
    "won": true
   }
  ],
@@ -10209,90 +10230,99 @@
    1792549857,
    91.95,
    91.73
+  ],
+  [
+   1792550754,
+   92.18,
+   91.7
   ]
  ],
  "last_run": {
-  "ts": 1792549857,
+  "ts": 1792550754,
   "error": null,
   "markets_scanned": 4019,
   "candidates": 64,
   "rejections": {
-   "too little volume": 3672,
-   "no favorite in 80-95c band": 261,
+   "too little volume": 3666,
+   "no favorite in 80-95c band": 267,
    "spread too wide": 22
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   179
+  ],
+  "settled": [
+   154
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.48,
-    "volume_24h": 5476.51,
-    "score": 0.6662
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 29.48,
-    "volume_24h": 5775.83,
-    "score": 0.6413
-   },
-   {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 18.48,
-    "volume_24h": 4051.18,
-    "score": 0.6363
+    "price": 0.94,
+    "hours_to_close": 18.24,
+    "volume_24h": 4074.66,
+    "score": 0.6474
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 18.48,
-    "volume_24h": 9418.65,
-    "score": 0.6338
+    "hours_to_close": 18.24,
+    "volume_24h": 9668.7,
+    "score": 0.6356
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.98,
+    "hours_to_close": 15.74,
     "volume_24h": 1763.21,
-    "score": 0.629
+    "score": 0.6301
    },
    {
-    "label": "Will it rain in Los Angeles on Oct 21, 2026?",
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 29.48,
-    "volume_24h": 3926.44,
-    "score": 0.6287
-   },
-   {
-    "label": "Will the copper close price be above 6.80 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.80",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.48,
-    "volume_24h": 1369.27,
-    "score": 0.621
+    "price": 0.92,
+    "hours_to_close": 15.74,
+    "volume_24h": 3053.16,
+    "score": 0.628
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.48,
-    "volume_24h": 1847.95,
-    "score": 0.6208
+    "hours_to_close": 18.24,
+    "volume_24h": 2146.45,
+    "score": 0.6265
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 26.24,
+    "volume_24h": 3880.78,
+    "score": 0.6143
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 18.24,
+    "volume_24h": 4843.19,
+    "score": 0.613
+   },
+   {
+    "label": "Will it rain in Denver on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 28.24,
+    "volume_24h": 2872.19,
+    "score": 0.6107
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 21,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.04,
- "fees_paid": 4.1,
+ "cash": 9.18,
+ "fees_paid": 4.11,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 181,
+ "next_id": 182,
  "open_positions": [
   {
    "id": 156,
@@ -132,44 +132,6 @@
    "shadow": {}
   },
   {
-   "id": 163,
-   "ticker": "KXRAIN-26OCT20-WPB",
-   "event_ticker": "KXRAIN-26OCT20",
-   "series": "KXRAIN",
-   "label": "Will it rain in West Palm Beach on Oct 20, 2026?",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.88,
-   "fee": 0.01,
-   "cost": 0.89,
-   "opened_ts": 1792437330,
-   "close_ts": 1792558800.0,
-   "score": 0.4839,
-   "mark_price": 0.07,
-   "shadow": {
-    "10": {
-     "ts": 1792438233,
-     "bid": 0.77,
-     "proceeds": 0.75
-    },
-    "15": {
-     "ts": 1792440030,
-     "bid": 0.7,
-     "proceeds": 0.68
-    },
-    "20": {
-     "ts": 1792442729,
-     "bid": 0.66,
-     "proceeds": 0.64
-    },
-    "30": {
-     "ts": 1792456230,
-     "bid": 0.58,
-     "proceeds": 0.56
-    }
-   }
-  },
-  {
    "id": 165,
    "ticker": "KXHIGHLAX-26OCT20-B73.5",
    "event_ticker": "KXHIGHLAX-26OCT20",
@@ -290,7 +252,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.61,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -417,7 +379,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -451,7 +413,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -469,6 +431,23 @@
    "close_ts": 1792616400.0,
    "score": 0.6166,
    "mark_price": 0.98,
+   "shadow": {}
+  },
+  {
+   "id": 181,
+   "ticker": "KXCBDTURKEY-26OCT22-HOLD",
+   "event_ticker": "KXCBDTURKEY-26OCT22",
+   "series": "KXCBDTURKEY",
+   "label": "Will the Central Bank of the Republic of T\u00fcrkiye maintain the current rate at the October Monetary Policy Committee Meeting? \u2014 Maintain current rate",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.85,
+   "fee": 0.01,
+   "cost": 0.86,
+   "opened_ts": 1792580458,
+   "close_ts": 1792666740.0,
+   "score": 0.4581,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -4425,6 +4404,48 @@
    "result": "NO",
    "closed_ts": 1792555256,
    "won": true
+  },
+  {
+   "id": 163,
+   "ticker": "KXRAIN-26OCT20-WPB",
+   "event_ticker": "KXRAIN-26OCT20",
+   "series": "KXRAIN",
+   "label": "Will it rain in West Palm Beach on Oct 20, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.88,
+   "fee": 0.01,
+   "cost": 0.89,
+   "opened_ts": 1792437330,
+   "close_ts": 1792558800.0,
+   "score": 0.4839,
+   "shadow": {
+    "10": {
+     "ts": 1792438233,
+     "bid": 0.77,
+     "proceeds": 0.75
+    },
+    "15": {
+     "ts": 1792440030,
+     "bid": 0.7,
+     "proceeds": 0.68
+    },
+    "20": {
+     "ts": 1792442729,
+     "bid": 0.66,
+     "proceeds": 0.64
+    },
+    "30": {
+     "ts": 1792456230,
+     "bid": 0.58,
+     "proceeds": 0.56
+    }
+   },
+   "payout": 0.0,
+   "pnl": -0.89,
+   "result": "YES",
+   "closed_ts": 1792580458,
+   "won": false
   }
  ],
  "equity_history": [
@@ -10442,90 +10463,43 @@
    1792579555,
    92.46,
    92.29
+  ],
+  [
+   1792580458,
+   91.57,
+   92.04
   ]
  ],
  "last_run": {
-  "ts": 1792579555,
+  "ts": 1792580458,
   "error": null,
-  "markets_scanned": 541,
-  "candidates": 24,
+  "markets_scanned": 331,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 360,
-   "no favorite in 80-95c band": 149,
-   "spread too wide": 8
+   "too little volume": 309,
+   "no favorite in 80-95c band": 20,
+   "spread too wide": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   181
+  ],
+  "settled": [
+   163
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "label": "Will the Central Bank of the Republic of T\u00fcrkiye maintain the current rate at the October Monetary Policy Committee Meeting? \u2014 Maintain current rate",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 19.23,
-    "volume_24h": 6790.9,
-    "score": 0.6206
-   },
-   {
-    "label": "Will the maximum temperature be <77\u00b0 on Oct 21, 2026? \u2014 76\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.23,
-    "volume_24h": 1377.07,
-    "score": 0.6187
-   },
-   {
-    "label": "Will it rain in Los Angeles on Oct 21, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.23,
-    "volume_24h": 7756.39,
-    "score": 0.6088
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.23,
-    "volume_24h": 1587.47,
-    "score": 0.6072
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 21, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.23,
-    "volume_24h": 2501.91,
-    "score": 0.5981
-   },
-   {
-    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 21, 2026? \u2014 84\u00b0 to 85\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.23,
-    "volume_24h": 4966.52,
-    "score": 0.5973
-   },
-   {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 21.23,
-    "volume_24h": 10070.95,
-    "score": 0.5971
-   },
-   {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 21.23,
-    "volume_24h": 1229.4,
-    "score": 0.5889
+    "price": 0.85,
+    "hours_to_close": 23.97,
+    "volume_24h": 320.82,
+    "score": 0.4581
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

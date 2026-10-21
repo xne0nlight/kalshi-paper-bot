@@ -73,7 +73,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.75,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -217,7 +217,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -10603,32 +10603,46 @@
    1792594861,
    94.26,
    93.14
+  ],
+  [
+   1792595756,
+   94.26,
+   92.87
   ]
  ],
  "last_run": {
-  "ts": 1792594861,
+  "ts": 1792595756,
   "error": null,
   "markets_scanned": 309,
-  "candidates": 1,
+  "candidates": 2,
   "rejections": {
    "too little volume": 291,
-   "no favorite in 80-95c band": 14,
-   "spread too wide": 3
+   "no favorite in 80-95c band": 12,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 22, 2026? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.23,
+    "volume_24h": 363.13,
+    "score": 0.4553
+   },
+   {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
     "side": "no",
     "price": 0.82,
-    "hours_to_close": 24.97,
+    "hours_to_close": 24.72,
     "volume_24h": 821.0,
-    "score": 0.3564
+    "score": 0.357
    }
   ],
   "skipped": {
+   "related-market cap (Oil prices)": 1,
    "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,

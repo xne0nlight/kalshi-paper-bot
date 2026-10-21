@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.76,
- "fees_paid": 4.08,
+ "cash": 10.04,
+ "fees_paid": 4.1,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 180,
+ "next_id": 181,
  "open_positions": [
-  {
-   "id": 155,
-   "ticker": "KXDWTSELIMINATION-26OCT21-CWOO",
-   "event_ticker": "KXDWTSELIMINATION-26OCT21",
-   "series": "KXDWTSELIMINATION",
-   "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1792425631,
-   "close_ts": 1792555140.0,
-   "score": 0.64,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 156,
    "ticker": "KXHIGHNY-26OCT20-T65",
@@ -291,7 +274,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.75,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -341,7 +324,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.66,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -374,7 +357,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -442,6 +425,23 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 180,
+   "ticker": "KXCOPPERD-26OCT2117-T6.80",
+   "event_ticker": "KXCOPPERD-26OCT2117",
+   "series": "KXCOPPERD",
+   "label": "Will the copper close price be above 6.80 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.80",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792555256,
+   "close_ts": 1792616400.0,
+   "score": 0.6166,
    "mark_price": 0.93,
    "shadow": {}
   }
@@ -4377,6 +4377,27 @@
    "pnl": 0.23,
    "result": "YES",
    "closed_ts": 1792550754,
+   "won": true
+  },
+  {
+   "id": 155,
+   "ticker": "KXDWTSELIMINATION-26OCT21-CWOO",
+   "event_ticker": "KXDWTSELIMINATION-26OCT21",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Connor Wood and their partner be eliminated from Dancing with the Stars Season 35 before Oct 21, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792425631,
+   "close_ts": 1792555140.0,
+   "score": 0.64,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792555256,
    "won": true
   }
  ],
@@ -10255,90 +10276,99 @@
    1792554356,
    92.18,
    92.33
+  ],
+  [
+   1792555256,
+   92.46,
+   92.19
   ]
  ],
  "last_run": {
-  "ts": 1792554356,
+  "ts": 1792555256,
   "error": null,
-  "markets_scanned": 4021,
-  "candidates": 74,
+  "markets_scanned": 4055,
+  "candidates": 72,
   "rejections": {
-   "too little volume": 3658,
-   "no favorite in 80-95c band": 272,
-   "spread too wide": 17
+   "too little volume": 3669,
+   "no favorite in 80-95c band": 293,
+   "spread too wide": 21
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   180
+  ],
+  "settled": [
+   155
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 8897.4,
-    "score": 0.6634
+    "score": 0.664
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 14.48,
+    "volume_24h": 3103.26,
+    "score": 0.6544
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 12.97,
+    "volume_24h": 16652.05,
+    "score": 0.6507
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 16.98,
+    "volume_24h": 9686.7,
+    "score": 0.6503
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 21, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 14.48,
+    "volume_24h": 2014.27,
+    "score": 0.6503
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.23,
+    "hours_to_close": 16.98,
     "volume_24h": 3187.39,
-    "score": 0.6432
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.23,
-    "volume_24h": 9686.7,
-    "score": 0.6393
+    "score": 0.6441
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 14.73,
+    "hours_to_close": 14.48,
     "volume_24h": 1793.21,
-    "score": 0.6353
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 14.73,
-    "volume_24h": 3103.16,
-    "score": 0.6332
-   },
-   {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.23,
-    "volume_24h": 7755.18,
-    "score": 0.629
+    "score": 0.6366
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 17.23,
-    "volume_24h": 5143.19,
-    "score": 0.6187
-   },
-   {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.23,
-    "volume_24h": 5581.53,
-    "score": 0.6182
+    "hours_to_close": 16.98,
+    "volume_24h": 5493.19,
+    "score": 0.6219
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

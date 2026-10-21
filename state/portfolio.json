@@ -280,7 +280,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.58,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -296,6 +296,11 @@
      "ts": 1792547154,
      "bid": 0.65,
      "proceeds": 3.8
+    },
+    "30": {
+     "ts": 1792568755,
+     "bid": 0.53,
+     "proceeds": 3.07
     }
    }
   },
@@ -330,7 +335,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.6,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -431,7 +436,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -10357,89 +10362,94 @@
    1792567856,
    92.46,
    91.49
+  ],
+  [
+   1792568755,
+   92.46,
+   91.3
   ]
  ],
  "last_run": {
-  "ts": 1792567856,
+  "ts": 1792568755,
   "error": null,
   "markets_scanned": 3648,
-  "candidates": 79,
+  "candidates": 77,
   "rejections": {
    "too little volume": 3201,
-   "no favorite in 80-95c band": 340,
-   "spread too wide": 28
+   "no favorite in 80-95c band": 344,
+   "spread too wide": 26
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 13.23,
+    "volume_24h": 8609.85,
+    "score": 0.7043
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 9.47,
-    "volume_24h": 19247.77,
-    "score": 0.6958
+    "hours_to_close": 9.22,
+    "volume_24h": 19271.34,
+    "score": 0.698
    },
    {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 13.48,
-    "volume_24h": 7410.85,
-    "score": 0.688
+    "price": 0.92,
+    "hours_to_close": 13.23,
+    "volume_24h": 19260.08,
+    "score": 0.6792
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 21, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 9.47,
-    "volume_24h": 26024.04,
-    "score": 0.6758
+    "hours_to_close": 9.22,
+    "volume_24h": 26041.89,
+    "score": 0.678
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 10.73,
+    "volume_24h": 2289.52,
+    "score": 0.6775
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 9265.24,
-    "score": 0.6739
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.48,
-    "volume_24h": 3448.08,
-    "score": 0.6731
+    "score": 0.6746
    },
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.48,
-    "volume_24h": 8039.1,
-    "score": 0.6693
+    "hours_to_close": 21.23,
+    "volume_24h": 8070.37,
+    "score": 0.6701
    },
    {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,500 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 13.48,
-    "volume_24h": 17750.08,
-    "score": 0.6678
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
-    "side": "yes",
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,750 or above",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 10.98,
-    "volume_24h": 2289.52,
-    "score": 0.6656
+    "hours_to_close": 13.23,
+    "volume_24h": 3448.08,
+    "score": 0.6645
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

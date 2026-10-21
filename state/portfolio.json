@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.44,
- "fees_paid": 4.44,
+ "cash": 9.77,
+ "fees_paid": 4.47,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 191,
+ "next_id": 192,
  "open_positions": [
   {
    "id": 169,
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.09,
+   "mark_price": 0.13,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -230,23 +230,6 @@
      "proceeds": 3.78
     }
    }
-  },
-  {
-   "id": 180,
-   "ticker": "KXCOPPERD-26OCT2117-T6.80",
-   "event_ticker": "KXCOPPERD-26OCT2117",
-   "series": "KXCOPPERD",
-   "label": "Will the copper close price be above 6.80 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.80",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1792555256,
-   "close_ts": 1792616400.0,
-   "score": 0.6166,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 181,
@@ -448,7 +431,24 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 191,
+   "ticker": "KXHIGHLAX-26OCT22-B66.5",
+   "event_ticker": "KXHIGHLAX-26OCT22",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 66-67\u00b0 on Oct 22, 2026? \u2014 66\u00b0 to 67\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1792619125,
+   "close_ts": 1792742400.0,
+   "score": 0.571,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -4694,6 +4694,27 @@
    "pnl": 0.09,
    "result": "NO",
    "closed_ts": 1792617327,
+   "won": true
+  },
+  {
+   "id": 180,
+   "ticker": "KXCOPPERD-26OCT2117-T6.80",
+   "event_ticker": "KXCOPPERD-26OCT2117",
+   "series": "KXCOPPERD",
+   "label": "Will the copper close price be above 6.80 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.80",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792555256,
+   "close_ts": 1792616400.0,
+   "score": 0.6166,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792619125,
    "won": true
   }
  ],
@@ -10927,89 +10948,98 @@
    1792618225,
    95.08,
    89.94
+  ],
+  [
+   1792619125,
+   95.36,
+   90.16
   ]
  ],
  "last_run": {
-  "ts": 1792618225,
+  "ts": 1792619125,
   "error": null,
-  "markets_scanned": 4007,
-  "candidates": 40,
+  "markets_scanned": 4017,
+  "candidates": 42,
   "rejections": {
    "too little volume": 3789,
-   "no favorite in 80-95c band": 168,
+   "no favorite in 80-95c band": 176,
    "spread too wide": 10
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   191
+  ],
+  "settled": [
+   180
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.48,
-    "volume_24h": 3552.15,
-    "score": 0.6387
+    "hours_to_close": 19.23,
+    "volume_24h": 3570.58,
+    "score": 0.6397
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $86,750 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.24,
+    "volume_24h": 3429.2,
+    "score": 0.637
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
-    "volume_24h": 1631.65,
-    "score": 0.6234
+    "hours_to_close": 19.23,
+    "volume_24h": 1765.8,
+    "score": 0.6268
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,000 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 23.49,
-    "volume_24h": 5791.51,
-    "score": 0.6134
+    "price": 0.92,
+    "hours_to_close": 23.24,
+    "volume_24h": 5810.34,
+    "score": 0.6241
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $82,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.49,
-    "volume_24h": 1436.39,
-    "score": 0.588
+    "price": 0.94,
+    "hours_to_close": 23.24,
+    "volume_24h": 1439.39,
+    "score": 0.5987
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 19.48,
-    "volume_24h": 3878.99,
-    "score": 0.5816
+    "hours_to_close": 19.23,
+    "volume_24h": 4147.7,
+    "score": 0.5846
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 19.23,
+    "volume_24h": 2221.01,
+    "score": 0.5743
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
+    "hours_to_close": 19.23,
     "volume_24h": 342.7,
-    "score": 0.5726
-   },
-   {
-    "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.49,
-    "volume_24h": 943.88,
-    "score": 0.5677
-   },
-   {
-    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 22, 2026? \u2014 66\u00b0 to 67\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 974.19,
-    "score": 0.566
+    "score": 0.5735
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 4,
   "watch_graded": 3,
   "api_calls": 42
  },

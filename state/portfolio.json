@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 45.18,
- "fees_paid": 4.11,
+ "cash": 35.69,
+ "fees_paid": 4.23,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 182,
+ "next_id": 185,
  "open_positions": [
   {
    "id": 169,
@@ -40,7 +40,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.66,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -145,7 +145,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.63,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -170,23 +170,6 @@
    }
   },
   {
-   "id": 175,
-   "ticker": "KXTRUMPAPPROVE-26OCT21-E38.9",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT21",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 21, 2026? \u2014 38.9%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.87,
-   "fee": 0.05,
-   "cost": 5.27,
-   "opened_ts": 1792518335,
-   "close_ts": 1792601940.0,
-   "score": 0.4339,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 176,
    "ticker": "KXHIGHTMIN-26OCT21-B69.5",
    "event_ticker": "KXHIGHTMIN-26OCT21",
@@ -200,7 +183,7 @@
    "opened_ts": 1792523734,
    "close_ts": 1792648800.0,
    "score": 0.5275,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -234,7 +217,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.76,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792593958,
@@ -267,7 +250,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -313,6 +296,57 @@
    "close_ts": 1792666740.0,
    "score": 0.4581,
    "mark_price": 0.84,
+   "shadow": {}
+  },
+  {
+   "id": 182,
+   "ticker": "KXTRUMPAPPROVE-26OCT22-U37.9",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT22",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792602059,
+   "close_ts": 1792688340.0,
+   "score": 0.5739,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 183,
+   "ticker": "KXHIGHTBOS-26OCT22-T64",
+   "event_ticker": "KXHIGHTBOS-26OCT22",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be >64\u00b0 on Oct 22, 2026? \u2014 65\u00b0 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.88,
+   "fee": 0.05,
+   "cost": 5.33,
+   "opened_ts": 1792602059,
+   "close_ts": 1792731600.0,
+   "score": 0.4891,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 184,
+   "ticker": "KXHIGHMIA-26OCT22-B86.5",
+   "event_ticker": "KXHIGHMIA-26OCT22",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 86-87\u00b0 on Oct 22, 2026? \u2014 86\u00b0 to 87\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1792602059,
+   "close_ts": 1792731600.0,
+   "score": 0.4734,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -4500,6 +4534,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1792592157,
+   "won": true
+  },
+  {
+   "id": 175,
+   "ticker": "KXTRUMPAPPROVE-26OCT21-E38.9",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT21",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 21, 2026? \u2014 38.9%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.87,
+   "fee": 0.05,
+   "cost": 5.27,
+   "opened_ts": 1792518335,
+   "close_ts": 1792601940.0,
+   "score": 0.4339,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.73,
+   "result": "NO",
+   "closed_ts": 1792602059,
    "won": true
   }
  ],
@@ -10638,68 +10693,101 @@
    1792601157,
    94.26,
    92.44
+  ],
+  [
+   1792602059,
+   94.99,
+   92.22
   ]
  ],
  "last_run": {
-  "ts": 1792601157,
+  "ts": 1792602059,
   "error": null,
-  "markets_scanned": 434,
-  "candidates": 5,
+  "markets_scanned": 559,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 397,
-   "no favorite in 80-95c band": 28,
-   "spread too wide": 4
+   "too little volume": 482,
+   "no favorite in 80-95c band": 66,
+   "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   182,
+   183,
+   184
+  ],
+  "settled": [
+   175
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 520.93,
-    "score": 0.5733
+    "score": 0.5739
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 262.71,
-    "score": 0.5511
+    "score": 0.5517
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 3273.74,
-    "score": 0.5431
+    "score": 0.5437
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 227.87,
-    "score": 0.5365
+    "score": 0.537
+   },
+   {
+    "label": "Will the maximum temperature be >64\u00b0 on Oct 22, 2026? \u2014 65\u00b0 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 35.98,
+    "volume_24h": 612.0,
+    "score": 0.4891
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.97,
+    "volume_24h": 645.97,
+    "score": 0.4809
+   },
+   {
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 22, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.98,
+    "volume_24h": 277.87,
+    "score": 0.4734
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.22,
+    "hours_to_close": 23.97,
     "volume_24h": 249.64,
-    "score": 0.4394
+    "score": 0.44
    }
   ],
-  "skipped": {
-   "related-market cap (Presidential approval)": 5
-  },
-  "watch_added": 0,
-  "watch_graded": 0,
+  "skipped": {},
+  "watch_added": 2,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

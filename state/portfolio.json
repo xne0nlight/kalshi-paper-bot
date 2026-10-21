@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 20.15,
- "fees_paid": 4.34,
+ "cash": 14.99,
+ "fees_paid": 4.4,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
- "next_id": 188,
+ "next_id": 189,
  "open_positions": [
   {
    "id": 169,
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.25,
+   "mark_price": 0.23,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -217,7 +217,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792593958,
@@ -424,7 +424,30 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.78,
+   "mark_price": 0.75,
+   "shadow": {
+    "10": {
+     "ts": 1792610156,
+     "bid": 0.75,
+     "proceeds": 4.42
+    }
+   }
+  },
+  {
+   "id": 188,
+   "ticker": "KXHIGHTPHX-26OCT22-B81.5",
+   "event_ticker": "KXHIGHTPHX-26OCT22",
+   "series": "KXHIGHTPHX",
+   "label": "Will the maximum temperature be 81-82\u00b0 on Oct 22, 2026? \u2014 81\u00b0 to 82\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1792610156,
+   "close_ts": 1792738800.0,
+   "score": 0.388,
+   "mark_price": 0.83,
    "shadow": {}
   }
  ],
@@ -10816,92 +10839,99 @@
    1792609260,
    94.99,
    86.58
+  ],
+  [
+   1792610156,
+   94.99,
+   86.12
   ]
  ],
  "last_run": {
-  "ts": 1792609260,
+  "ts": 1792610156,
   "error": null,
   "markets_scanned": 769,
-  "candidates": 16,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 631,
-   "no favorite in 80-95c band": 115,
-   "spread too wide": 7
+   "too little volume": 623,
+   "no favorite in 80-95c band": 122,
+   "spread too wide": 6
   },
-  "opened": [],
+  "opened": [
+   188
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.97,
-    "volume_24h": 3283.14,
-    "score": 0.5988
+    "price": 0.93,
+    "hours_to_close": 21.72,
+    "volume_24h": 3283.24,
+    "score": 0.6195
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.97,
-    "volume_24h": 817.92,
-    "score": 0.5936
+    "hours_to_close": 21.72,
+    "volume_24h": 849.19,
+    "score": 0.5955
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
+    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.97,
-    "volume_24h": 278.34,
-    "score": 0.5585
+    "price": 0.88,
+    "hours_to_close": 21.72,
+    "volume_24h": 2931.22,
+    "score": 0.5658
    },
    {
-    "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.98,
-    "volume_24h": 929.88,
-    "score": 0.5539
+    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 22, 2026? \u2014 Above $94.99",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 23.23,
+    "volume_24h": 1287.6,
+    "score": 0.5651
    },
    {
     "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 22, 2026? \u2014 Above $93.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.48,
-    "volume_24h": 363.13,
-    "score": 0.5533
+    "hours_to_close": 23.23,
+    "volume_24h": 435.13,
+    "score": 0.5598
    },
    {
-    "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
+    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 21.97,
-    "volume_24h": 2056.59,
-    "score": 0.5436
+    "price": 0.95,
+    "hours_to_close": 21.72,
+    "volume_24h": 278.34,
+    "score": 0.5592
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 22, 2026? \u2014 Above $94.99",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.48,
-    "volume_24h": 772.38,
-    "score": 0.5379
+    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 22, 2026? \u2014 Above $102.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.23,
+    "volume_24h": 312.81,
+    "score": 0.5591
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
+    "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.97,
-    "volume_24h": 240.98,
-    "score": 0.5339
+    "hours_to_close": 34.73,
+    "volume_24h": 929.88,
+    "score": 0.5542
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3,
+   "related-market cap (Oil prices)": 5,
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 4,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

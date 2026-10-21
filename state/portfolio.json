@@ -23,7 +23,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -40,7 +40,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -128,7 +128,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4432,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -145,7 +145,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.67,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -234,8 +234,14 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.9,
-   "shadow": {}
+   "mark_price": 0.85,
+   "shadow": {
+    "10": {
+     "ts": 1792593958,
+     "bid": 0.85,
+     "proceeds": 1.68
+    }
+   }
   },
   {
    "id": 179,
@@ -251,7 +257,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -10577,17 +10583,22 @@
    1792593057,
    94.26,
    92.96
+  ],
+  [
+   1792593958,
+   94.26,
+   93.04
   ]
  ],
  "last_run": {
-  "ts": 1792593057,
+  "ts": 1792593958,
   "error": null,
   "markets_scanned": 333,
   "candidates": 1,
   "rejections": {
-   "too little volume": 318,
-   "no favorite in 80-95c band": 12,
-   "spread too wide": 2
+   "too little volume": 313,
+   "no favorite in 80-95c band": 16,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
@@ -10596,10 +10607,10 @@
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 25.47,
+    "price": 0.81,
+    "hours_to_close": 25.22,
     "volume_24h": 821.0,
-    "score": 0.3554
+    "score": 0.3959
    }
   ],
   "skipped": {

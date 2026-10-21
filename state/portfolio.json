@@ -2,85 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.18,
+ "cash": 25.18,
  "fees_paid": 4.11,
  "peak_equity": 109.65,
  "day": "2026-10-21",
  "day_start_equity": 91.95,
  "next_id": 182,
  "open_positions": [
-  {
-   "id": 156,
-   "ticker": "KXHIGHNY-26OCT20-T65",
-   "event_ticker": "KXHIGHNY-26OCT20",
-   "series": "KXHIGHNY",
-   "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792429233,
-   "close_ts": 1792558800.0,
-   "score": 0.5297,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 158,
-   "ticker": "KXHIGHTBOS-26OCT20-B63.5",
-   "event_ticker": "KXHIGHTBOS-26OCT20",
-   "series": "KXHIGHTBOS",
-   "label": "Will the maximum temperature be 63-64\u00b0 on Oct 20, 2026? \u2014 63\u00b0 to 64\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.86,
-   "fee": 0.06,
-   "cost": 5.22,
-   "opened_ts": 1792430131,
-   "close_ts": 1792558800.0,
-   "score": 0.4553,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792469730,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "15": {
-     "ts": 1792476932,
-     "bid": 0.7,
-     "proceeds": 4.11
-    },
-    "20": {
-     "ts": 1792509335,
-     "bid": 0.64,
-     "proceeds": 3.74
-    },
-    "30": {
-     "ts": 1792510235,
-     "bid": 0.56,
-     "proceeds": 3.25
-    }
-   }
-  },
-  {
-   "id": 159,
-   "ticker": "KXHIGHPHIL-26OCT20-B68.5",
-   "event_ticker": "KXHIGHPHIL-26OCT20",
-   "series": "KXHIGHPHIL",
-   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 20, 2026? \u2014 68\u00b0 to 69\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.91,
-   "fee": 0.03,
-   "cost": 4.58,
-   "opened_ts": 1792431031,
-   "close_ts": 1792558800.0,
-   "score": 0.3881,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 160,
    "ticker": "KXHIGHTDAL-26OCT20-B77.5",
@@ -307,7 +235,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.61,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -379,7 +307,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -396,7 +324,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -430,7 +358,7 @@
    "opened_ts": 1792555256,
    "close_ts": 1792616400.0,
    "score": 0.6166,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -4446,6 +4374,90 @@
    "result": "YES",
    "closed_ts": 1792580458,
    "won": false
+  },
+  {
+   "id": 156,
+   "ticker": "KXHIGHNY-26OCT20-T65",
+   "event_ticker": "KXHIGHNY-26OCT20",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be <65\u00b0 on Oct 20, 2026? \u2014 64\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792429233,
+   "close_ts": 1792558800.0,
+   "score": 0.5297,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1792581358,
+   "won": true
+  },
+  {
+   "id": 158,
+   "ticker": "KXHIGHTBOS-26OCT20-B63.5",
+   "event_ticker": "KXHIGHTBOS-26OCT20",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be 63-64\u00b0 on Oct 20, 2026? \u2014 63\u00b0 to 64\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1792430131,
+   "close_ts": 1792558800.0,
+   "score": 0.4553,
+   "shadow": {
+    "10": {
+     "ts": 1792469730,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "15": {
+     "ts": 1792476932,
+     "bid": 0.7,
+     "proceeds": 4.11
+    },
+    "20": {
+     "ts": 1792509335,
+     "bid": 0.64,
+     "proceeds": 3.74
+    },
+    "30": {
+     "ts": 1792510235,
+     "bid": 0.56,
+     "proceeds": 3.25
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.78,
+   "result": "NO",
+   "closed_ts": 1792581358,
+   "won": true
+  },
+  {
+   "id": 159,
+   "ticker": "KXHIGHPHIL-26OCT20-B68.5",
+   "event_ticker": "KXHIGHPHIL-26OCT20",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 20, 2026? \u2014 68\u00b0 to 69\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1792431031,
+   "close_ts": 1792558800.0,
+   "score": 0.3881,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.42,
+   "result": "NO",
+   "closed_ts": 1792581358,
+   "won": true
   }
  ],
  "equity_history": [
@@ -10468,10 +10480,15 @@
    1792580458,
    91.57,
    92.04
+  ],
+  [
+   1792581358,
+   93.0,
+   92.38
   ]
  ],
  "last_run": {
-  "ts": 1792580458,
+  "ts": 1792581358,
   "error": null,
   "markets_scanned": 331,
   "candidates": 1,
@@ -10480,11 +10497,11 @@
    "no favorite in 80-95c band": 20,
    "spread too wide": 1
   },
-  "opened": [
-   181
-  ],
+  "opened": [],
   "settled": [
-   163
+   156,
+   158,
+   159
   ],
   "halt": null,
   "top_candidates": [
@@ -10492,14 +10509,14 @@
     "label": "Will the Central Bank of the Republic of T\u00fcrkiye maintain the current rate at the October Monetary Policy Committee Meeting? \u2014 Maintain current rate",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 23.97,
+    "hours_to_close": 23.72,
     "volume_24h": 320.82,
-    "score": 0.4581
+    "score": 0.4587
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 11,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

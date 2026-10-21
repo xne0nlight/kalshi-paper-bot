@@ -40,7 +40,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -257,7 +257,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -274,7 +274,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -308,7 +308,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {}
   },
   {
@@ -342,7 +342,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.66,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -10143,17 +10143,22 @@
    1792540833,
    91.95,
    91.25
+  ],
+  [
+   1792541733,
+   91.95,
+   91.17
   ]
  ],
  "last_run": {
-  "ts": 1792540833,
+  "ts": 1792541733,
   "error": null,
-  "markets_scanned": 3889,
-  "candidates": 51,
+  "markets_scanned": 3904,
+  "candidates": 58,
   "rejections": {
-   "too little volume": 3588,
-   "no favorite in 80-95c band": 221,
-   "spread too wide": 28,
+   "too little volume": 3595,
+   "no favorite in 80-95c band": 230,
+   "spread too wide": 20,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -10164,69 +10169,69 @@
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 3471.57,
-    "score": 0.6434
+    "score": 0.6441
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 5205.5,
-    "score": 0.634
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 2440.72,
-    "score": 0.6319
-   },
-   {
-    "label": "Will it rain in Los Angeles on Oct 21, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 3456.01,
-    "score": 0.6207
+    "hours_to_close": 31.74,
+    "volume_24h": 5206.5,
+    "score": 0.6344
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,500 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 20.99,
-    "volume_24h": 9879.01,
-    "score": 0.6174
+    "hours_to_close": 20.74,
+    "volume_24h": 12230.69,
+    "score": 0.6185
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.97,
-    "volume_24h": 1682.22,
-    "score": 0.6134
-   },
-   {
-    "label": "Will it rain in Denver on Oct 21, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 2477.06,
-    "score": 0.6113
+    "hours_to_close": 16.72,
+    "volume_24h": 1694.73,
+    "score": 0.6146
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 2339.97,
-    "score": 0.6105
+    "score": 0.6112
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Oct 21, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.74,
+    "volume_24h": 2117.96,
+    "score": 0.6082
+   },
+   {
+    "label": "Will the copper close price be above 6.80 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.80",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 1333.0,
+    "score": 0.6029
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 18.24,
+    "volume_24h": 986.26,
+    "score": 0.6012
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

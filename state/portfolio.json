@@ -40,7 +40,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.18,
+   "mark_price": 0.3,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -217,7 +217,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.81,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1792593958,
@@ -424,7 +424,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   }
  ],
@@ -10801,21 +10801,24 @@
    1792606556,
    94.99,
    85.86
+  ],
+  [
+   1792607458,
+   94.99,
+   86.41
   ]
  ],
  "last_run": {
-  "ts": 1792606556,
+  "ts": 1792607458,
   "error": null,
   "markets_scanned": 742,
-  "candidates": 13,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 617,
-   "no favorite in 80-95c band": 108,
-   "spread too wide": 4
+   "too little volume": 616,
+   "no favorite in 80-95c band": 109,
+   "spread too wide": 5
   },
-  "opened": [
-   187
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -10823,72 +10826,72 @@
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 22.72,
+    "hours_to_close": 22.47,
     "volume_24h": 3283.14,
-    "score": 0.5969
+    "score": 0.5975
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.72,
-    "volume_24h": 810.11,
-    "score": 0.5913
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.72,
-    "volume_24h": 278.34,
-    "score": 0.5566
-   },
-   {
-    "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.73,
-    "volume_24h": 929.88,
-    "score": 0.553
+    "hours_to_close": 22.47,
+    "volume_24h": 817.92,
+    "score": 0.5923
    },
    {
     "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 22.72,
+    "hours_to_close": 22.47,
     "volume_24h": 1084.29,
-    "score": 0.5108
+    "score": 0.5614
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.47,
+    "volume_24h": 278.34,
+    "score": 0.5572
+   },
+   {
+    "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.48,
+    "volume_24h": 929.88,
+    "score": 0.5533
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 22, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.73,
+    "hours_to_close": 34.48,
     "volume_24h": 321.87,
-    "score": 0.5097
+    "score": 0.51
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.72,
+    "hours_to_close": 22.47,
     "volume_24h": 307.69,
-    "score": 0.4998
+    "score": 0.5005
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.72,
+    "hours_to_close": 22.47,
     "volume_24h": 239.98,
-    "score": 0.4918
+    "score": 0.4924
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 1,
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

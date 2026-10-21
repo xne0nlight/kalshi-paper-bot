@@ -830,26 +830,15 @@
    ]
   },
   "americanfootball_nfl": {
-   "ts": 1792466129,
+   "ts": 1792570556,
    "events": [
-    {
-     "start_ts": 1792455379.0,
-     "home": "San Francisco 49ers",
-     "away": "Washington Commanders",
-     "fair": {
-      "San Francisco 49ers": 0.8406,
-      "Washington Commanders": 0.1594
-     },
-     "books": 7,
-     "sharp": true
-    },
     {
      "start_ts": 1792714500.0,
      "home": "Chicago Bears",
      "away": "New England Patriots",
      "fair": {
-      "Chicago Bears": 0.5968,
-      "New England Patriots": 0.4032
+      "Chicago Bears": 0.5953,
+      "New England Patriots": 0.4047
      },
      "books": 9,
      "sharp": true
@@ -859,10 +848,21 @@
      "home": "New Orleans Saints",
      "away": "Pittsburgh Steelers",
      "fair": {
-      "New Orleans Saints": 0.3711,
-      "Pittsburgh Steelers": 0.6289
+      "New Orleans Saints": 0.3782,
+      "Pittsburgh Steelers": 0.6218
      },
      "books": 8,
+     "sharp": true
+    },
+    {
+     "start_ts": 1792947600.0,
+     "home": "Atlanta Falcons",
+     "away": "San Francisco 49ers",
+     "fair": {
+      "Atlanta Falcons": 0.3833,
+      "San Francisco 49ers": 0.6167
+     },
+     "books": 9,
      "sharp": true
     },
     {
@@ -870,10 +870,10 @@
      "home": "Baltimore Ravens",
      "away": "Cincinnati Bengals",
      "fair": {
-      "Baltimore Ravens": 0.5854,
-      "Cincinnati Bengals": 0.4146
+      "Baltimore Ravens": 0.5746,
+      "Cincinnati Bengals": 0.4254
      },
-     "books": 8,
+     "books": 9,
      "sharp": true
     },
     {
@@ -881,8 +881,8 @@
      "home": "Carolina Panthers",
      "away": "Tampa Bay Buccaneers",
      "fair": {
-      "Carolina Panthers": 0.602,
-      "Tampa Bay Buccaneers": 0.398
+      "Carolina Panthers": 0.6127,
+      "Tampa Bay Buccaneers": 0.3873
      },
      "books": 9,
      "sharp": true
@@ -892,8 +892,8 @@
      "home": "Tennessee Titans",
      "away": "Cleveland Browns",
      "fair": {
-      "Cleveland Browns": 0.537,
-      "Tennessee Titans": 0.463
+      "Cleveland Browns": 0.5373,
+      "Tennessee Titans": 0.4627
      },
      "books": 9,
      "sharp": true
@@ -903,8 +903,8 @@
      "home": "Houston Texans",
      "away": "New York Giants",
      "fair": {
-      "Houston Texans": 0.7909,
-      "New York Giants": 0.2091
+      "Houston Texans": 0.7986,
+      "New York Giants": 0.2014
      },
      "books": 8,
      "sharp": true
@@ -914,8 +914,8 @@
      "home": "Minnesota Vikings",
      "away": "Indianapolis Colts",
      "fair": {
-      "Indianapolis Colts": 0.2981,
-      "Minnesota Vikings": 0.7019
+      "Indianapolis Colts": 0.2887,
+      "Minnesota Vikings": 0.7113
      },
      "books": 9,
      "sharp": true
@@ -925,8 +925,8 @@
      "home": "New York Jets",
      "away": "Miami Dolphins",
      "fair": {
-      "Miami Dolphins": 0.3275,
-      "New York Jets": 0.6725
+      "Miami Dolphins": 0.3298,
+      "New York Jets": 0.6702
      },
      "books": 9,
      "sharp": true
@@ -936,8 +936,8 @@
      "home": "Arizona Cardinals",
      "away": "Denver Broncos",
      "fair": {
-      "Arizona Cardinals": 0.3387,
-      "Denver Broncos": 0.6613
+      "Arizona Cardinals": 0.3406,
+      "Denver Broncos": 0.6594
      },
      "books": 9,
      "sharp": true
@@ -947,10 +947,10 @@
      "home": "Detroit Lions",
      "away": "Green Bay Packers",
      "fair": {
-      "Detroit Lions": 0.6069,
-      "Green Bay Packers": 0.3931
+      "Detroit Lions": 0.6146,
+      "Green Bay Packers": 0.3854
      },
-     "books": 8,
+     "books": 9,
      "sharp": true
     },
     {
@@ -958,8 +958,8 @@
      "home": "Las Vegas Raiders",
      "away": "Los Angeles Rams",
      "fair": {
-      "Las Vegas Raiders": 0.3465,
-      "Los Angeles Rams": 0.6535
+      "Las Vegas Raiders": 0.3477,
+      "Los Angeles Rams": 0.6523
      },
      "books": 9,
      "sharp": true
@@ -969,8 +969,8 @@
      "home": "Seattle Seahawks",
      "away": "Kansas City Chiefs",
      "fair": {
-      "Kansas City Chiefs": 0.4388,
-      "Seattle Seahawks": 0.5612
+      "Kansas City Chiefs": 0.4296,
+      "Seattle Seahawks": 0.5704
      },
      "books": 9,
      "sharp": true
@@ -980,11 +980,165 @@
      "home": "Philadelphia Eagles",
      "away": "Dallas Cowboys",
      "fair": {
-      "Dallas Cowboys": 0.6621,
-      "Philadelphia Eagles": 0.3379
+      "Dallas Cowboys": 0.6526,
+      "Philadelphia Eagles": 0.3474
      },
-     "books": 6,
+     "books": 9,
      "sharp": true
+    },
+    {
+     "start_ts": 1793319300.0,
+     "home": "Green Bay Packers",
+     "away": "Carolina Panthers",
+     "fair": {
+      "Carolina Panthers": 0.4142,
+      "Green Bay Packers": 0.5858
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Dallas Cowboys",
+     "away": "Arizona Cardinals",
+     "fair": {
+      "Arizona Cardinals": 0.2761,
+      "Dallas Cowboys": 0.7239
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Tampa Bay Buccaneers",
+     "away": "Atlanta Falcons",
+     "fair": {
+      "Atlanta Falcons": 0.4818,
+      "Tampa Bay Buccaneers": 0.5182
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Buffalo Bills",
+     "away": "Baltimore Ravens",
+     "fair": {
+      "Baltimore Ravens": 0.4231,
+      "Buffalo Bills": 0.5769
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Cincinnati Bengals",
+     "away": "Tennessee Titans",
+     "fair": {
+      "Cincinnati Bengals": 0.8231,
+      "Tennessee Titans": 0.1769
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Pittsburgh Steelers",
+     "away": "Cleveland Browns",
+     "fair": {
+      "Cleveland Browns": 0.3523,
+      "Pittsburgh Steelers": 0.6477
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Detroit Lions",
+     "away": "Minnesota Vikings",
+     "fair": {
+      "Detroit Lions": 0.5894,
+      "Minnesota Vikings": 0.4106
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "Jacksonville Jaguars",
+     "away": "Indianapolis Colts",
+     "fair": {
+      "Indianapolis Colts": 0.2392,
+      "Jacksonville Jaguars": 0.7608
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793556000.0,
+     "home": "New York Jets",
+     "away": "Las Vegas Raiders",
+     "fair": {
+      "Las Vegas Raiders": 0.4896,
+      "New York Jets": 0.5104
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793567100.0,
+     "home": "Los Angeles Rams",
+     "away": "Los Angeles Chargers",
+     "fair": {
+      "Los Angeles Chargers": 0.2417,
+      "Los Angeles Rams": 0.7583
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793568300.0,
+     "home": "Denver Broncos",
+     "away": "Kansas City Chiefs",
+     "fair": {
+      "Denver Broncos": 0.4682,
+      "Kansas City Chiefs": 0.5318
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793568300.0,
+     "home": "Miami Dolphins",
+     "away": "New England Patriots",
+     "fair": {
+      "Miami Dolphins": 0.2211,
+      "New England Patriots": 0.7789
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793582400.0,
+     "home": "Washington Commanders",
+     "away": "Philadelphia Eagles",
+     "fair": {
+      "Philadelphia Eagles": 0.3682,
+      "Washington Commanders": 0.6318
+     },
+     "books": 2,
+     "sharp": false
+    },
+    {
+     "start_ts": 1793668800.0,
+     "home": "Seattle Seahawks",
+     "away": "Chicago Bears",
+     "fair": {
+      "Chicago Bears": 0.4018,
+      "Seattle Seahawks": 0.5982
+     },
+     "books": 2,
+     "sharp": false
     }
    ]
   }
@@ -1490,7 +1644,7 @@
    ]
   },
   "NHL|20261021": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792625400.0,
@@ -1537,7 +1691,7 @@
    ]
   },
   "NBA|20261021": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792623600.0,
@@ -1773,7 +1927,7 @@
    ]
   },
   "NCAAF|20261021": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792627200.0,
@@ -1799,7 +1953,7 @@
    ]
   },
   "NHL|20261022": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792710000.0,
@@ -2056,7 +2210,7 @@
    ]
   },
   "NCAAF|20261022": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792710000.0,
@@ -2124,7 +2278,7 @@
    ]
   },
   "NBA|20261022": {
-   "ts": 1792568755,
+   "ts": 1792570556,
    "games": [
     {
      "start_ts": 1792710000.0,
@@ -2169,6 +2323,36 @@
      }
     }
    ]
+  },
+  "NFL|20261021": {
+   "ts": 1792570556,
+   "games": []
+  },
+  "NFL|20261022": {
+   "ts": 1792570556,
+   "games": [
+    {
+     "start_ts": 1792714500.0,
+     "state": "pre",
+     "detail": "10/22 - 8:15 PM EDT",
+     "home": "Chicago Bears",
+     "away": "New England Patriots",
+     "teams": {
+      "home": {
+       "name": "Chicago Bears",
+       "short": "Bears",
+       "abbr": "CHI",
+       "record": "4-2"
+      },
+      "away": {
+       "name": "New England Patriots",
+       "short": "Patriots",
+       "abbr": "NE",
+       "record": "4-2"
+      }
+     }
+    }
+   ]
   }
  },
  "credits": {
@@ -2176,8 +2360,8 @@
   "by_day": {
    "2026-10-19": 8,
    "2026-10-20": 19,
-   "2026-10-21": 6
+   "2026-10-21": 7
   },
-  "remaining": 467
+  "remaining": 466
  }
 }

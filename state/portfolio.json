@@ -240,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.73,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -451,7 +451,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -468,7 +468,7 @@
    "opened_ts": 1792555256,
    "close_ts": 1792616400.0,
    "score": 0.6166,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   }
  ],
@@ -10387,85 +10387,90 @@
    1792569658,
    92.46,
    90.08
+  ],
+  [
+   1792570556,
+   92.46,
+   90.78
   ]
  ],
  "last_run": {
-  "ts": 1792569658,
+  "ts": 1792570556,
   "error": null,
   "markets_scanned": 3637,
-  "candidates": 66,
+  "candidates": 69,
   "rejections": {
-   "too little volume": 3202,
-   "no favorite in 80-95c band": 338,
-   "spread too wide": 31
+   "too little volume": 3199,
+   "no favorite in 80-95c band": 339,
+   "spread too wide": 30
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 12.98,
-    "volume_24h": 8609.85,
-    "score": 0.7057
-   },
-   {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 12.98,
-    "volume_24h": 20835.93,
-    "score": 0.6806
+    "hours_to_close": 12.73,
+    "volume_24h": 20888.15,
+    "score": 0.6821
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.98,
+    "hours_to_close": 20.73,
     "volume_24h": 9265.24,
-    "score": 0.6753
+    "score": 0.6761
    },
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.98,
+    "hours_to_close": 20.73,
     "volume_24h": 8072.24,
-    "score": 0.6709
+    "score": 0.6716
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 10.23,
+    "volume_24h": 2289.52,
+    "score": 0.6713
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 12.98,
-    "volume_24h": 3448.08,
-    "score": 0.6659
+    "hours_to_close": 12.73,
+    "volume_24h": 3474.9,
+    "score": 0.6677
    },
    {
-    "label": "Ethereum price at Oct 21, 2026 at 5pm EDT? \u2014 $2,390 or above",
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 12.98,
-    "volume_24h": 2493.22,
-    "score": 0.6654
+    "price": 0.91,
+    "hours_to_close": 10.23,
+    "volume_24h": 4372.83,
+    "score": 0.6624
    },
    {
-    "label": "Will the copper close price be above 6.78 USD/Lbs on October 21, 2026 at 5:00 PM EDT? \u2014 Above $6.78",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.98,
-    "volume_24h": 2077.0,
-    "score": 0.6594
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
+    "label": "Will the brent crude oil close price be above 103 USD/Bbl on October 21, 2026 at 5:00 PM EDT? \u2014 Above $103",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 10.48,
-    "volume_24h": 2289.52,
-    "score": 0.6594
+    "hours_to_close": 12.73,
+    "volume_24h": 3277.02,
+    "score": 0.6558
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,750 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 12.73,
+    "volume_24h": 12199.52,
+    "score": 0.6521
    }
   ],
   "skipped": {},

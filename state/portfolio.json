@@ -40,7 +40,7 @@
    "opened_ts": 1792425631,
    "close_ts": 1792555140.0,
    "score": 0.64,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -257,7 +257,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -291,7 +291,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4753,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -308,7 +308,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.71,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -319,6 +319,11 @@
      "ts": 1792546256,
      "bid": 0.71,
      "proceeds": 4.17
+    },
+    "20": {
+     "ts": 1792547154,
+     "bid": 0.65,
+     "proceeds": 3.8
     }
    }
   },
@@ -386,7 +391,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -10184,85 +10189,90 @@
    1792546256,
    91.95,
    90.73
+  ],
+  [
+   1792547154,
+   91.95,
+   90.51
   ]
  ],
  "last_run": {
-  "ts": 1792546256,
+  "ts": 1792547154,
   "error": null,
   "markets_scanned": 3936,
-  "candidates": 69,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 3611,
-   "no favorite in 80-95c band": 240,
-   "spread too wide": 16
+   "too little volume": 3604,
+   "no favorite in 80-95c band": 247,
+   "spread too wide": 15
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.23,
+    "volume_24h": 10345.79,
+    "score": 0.6832
+   },
+   {
     "label": "Will Trump's RCP approval average be below 38.6 on Oct 21, 2026? \u2014 Below 38.6%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.47,
-    "volume_24h": 4767.26,
-    "score": 0.6637
+    "hours_to_close": 15.22,
+    "volume_24h": 4881.11,
+    "score": 0.6656
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.48,
-    "volume_24h": 3672.74,
-    "score": 0.6498
+    "hours_to_close": 19.23,
+    "volume_24h": 3674.3,
+    "score": 0.6506
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.48,
+    "hours_to_close": 30.23,
     "volume_24h": 5347.23,
-    "score": 0.6372
+    "score": 0.6376
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 21, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 15.47,
-    "volume_24h": 2662.66,
-    "score": 0.6347
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 16.98,
-    "volume_24h": 1690.52,
-    "score": 0.6335
+    "hours_to_close": 15.22,
+    "volume_24h": 2746.88,
+    "score": 0.6369
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Oct 21, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 15.47,
-    "volume_24h": 2549.17,
-    "score": 0.6333
+    "hours_to_close": 15.22,
+    "volume_24h": 2634.46,
+    "score": 0.6355
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.49 USD/Bbl on Oct 21, 2026? \u2014 Above $95.49",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 16.73,
+    "volume_24h": 1690.52,
+    "score": 0.6345
    },
    {
     "label": "Will it rain in Los Angeles on Oct 21, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.48,
-    "volume_24h": 3776.24,
-    "score": 0.6258
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.48,
-    "volume_24h": 2049.0,
-    "score": 0.6208
+    "hours_to_close": 30.23,
+    "volume_24h": 3802.45,
+    "score": 0.6265
    }
   ],
   "skipped": {},

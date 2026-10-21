@@ -240,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1792562460,
@@ -290,7 +290,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.63,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -345,7 +345,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.59,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -417,7 +417,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -434,7 +434,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -10437,17 +10437,22 @@
    1792578657,
    92.46,
    92.36
+  ],
+  [
+   1792579555,
+   92.46,
+   92.29
   ]
  ],
  "last_run": {
-  "ts": 1792578657,
+  "ts": 1792579555,
   "error": null,
   "markets_scanned": 541,
   "candidates": 24,
   "rejections": {
-   "too little volume": 364,
-   "no favorite in 80-95c band": 147,
-   "spread too wide": 6
+   "too little volume": 360,
+   "no favorite in 80-95c band": 149,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
@@ -10457,65 +10462,65 @@
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.48,
-    "volume_24h": 6740.9,
-    "score": 0.6196
+    "hours_to_close": 19.23,
+    "volume_24h": 6790.9,
+    "score": 0.6206
    },
    {
     "label": "Will the maximum temperature be <77\u00b0 on Oct 21, 2026? \u2014 76\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
+    "hours_to_close": 19.23,
     "volume_24h": 1377.07,
-    "score": 0.6178
+    "score": 0.6187
    },
    {
     "label": "Will it rain in Los Angeles on Oct 21, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.48,
-    "volume_24h": 7634.25,
-    "score": 0.6076
+    "hours_to_close": 21.23,
+    "volume_24h": 7756.39,
+    "score": 0.6088
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 1587.47,
-    "score": 0.6065
-   },
-   {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.48,
-    "volume_24h": 2144.96,
-    "score": 0.6023
+    "score": 0.6072
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Oct 21, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 19.48,
-    "volume_24h": 2457.03,
-    "score": 0.5967
+    "hours_to_close": 19.23,
+    "volume_24h": 2501.91,
+    "score": 0.5981
+   },
+   {
+    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 21, 2026? \u2014 84\u00b0 to 85\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.23,
+    "volume_24h": 4966.52,
+    "score": 0.5973
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 21.48,
-    "volume_24h": 9777.79,
-    "score": 0.5957
+    "hours_to_close": 21.23,
+    "volume_24h": 10070.95,
+    "score": 0.5971
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 21, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.48,
+    "hours_to_close": 21.23,
     "volume_24h": 1229.4,
-    "score": 0.5882
+    "score": 0.5889
    }
   ],
   "skipped": {},

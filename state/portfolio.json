@@ -291,7 +291,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.74,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -341,7 +341,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.68,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -374,7 +374,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -10245,17 +10245,22 @@
    1792552555,
    92.18,
    92.39
+  ],
+  [
+   1792553458,
+   92.18,
+   92.27
   ]
  ],
  "last_run": {
-  "ts": 1792552555,
+  "ts": 1792553458,
   "error": null,
   "markets_scanned": 4021,
-  "candidates": 66,
+  "candidates": 67,
   "rejections": {
-   "too little volume": 3664,
+   "too little volume": 3662,
    "no favorite in 80-95c band": 269,
-   "spread too wide": 21,
+   "spread too wide": 22,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -10265,70 +10270,70 @@
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 21, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.72,
-    "volume_24h": 5743.71,
-    "score": 0.6884
+    "price": 0.94,
+    "hours_to_close": 13.47,
+    "volume_24h": 5866.62,
+    "score": 0.6805
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.73,
+    "hours_to_close": 25.48,
     "volume_24h": 8897.4,
-    "score": 0.6624
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.73,
-    "volume_24h": 4076.22,
-    "score": 0.6493
-   },
-   {
-    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.73,
-    "volume_24h": 9671.7,
-    "score": 0.6374
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 15.23,
-    "volume_24h": 1793.21,
-    "score": 0.6329
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 15.23,
-    "volume_24h": 3103.16,
-    "score": 0.6308
+    "score": 0.6629
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.73,
-    "volume_24h": 2156.45,
-    "score": 0.6285
+    "hours_to_close": 17.48,
+    "volume_24h": 3187.39,
+    "score": 0.6422
    },
    {
-    "label": "Will it rain in Providence on Oct 21, 2026?",
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,250 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 17.48,
+    "volume_24h": 9686.7,
+    "score": 0.6384
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 14.98,
+    "volume_24h": 1793.21,
+    "score": 0.6341
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 21, 2026? \u2014 Above $96.49",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 14.98,
+    "volume_24h": 3103.16,
+    "score": 0.632
+   },
+   {
+    "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 17.48,
+    "volume_24h": 5143.19,
+    "score": 0.6178
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.73,
-    "volume_24h": 7573.56,
-    "score": 0.6271
+    "hours_to_close": 25.48,
+    "volume_24h": 5530.53,
+    "score": 0.6174
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

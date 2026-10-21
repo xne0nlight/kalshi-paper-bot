@@ -23,7 +23,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -90,7 +90,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.13,
+   "mark_price": 0.12,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -279,7 +279,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -319,7 +319,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.5,
+   "mark_price": 0.51,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -397,7 +397,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -448,7 +448,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -10953,94 +10953,95 @@
    1792619125,
    95.36,
    90.16
+  ],
+  [
+   1792620027,
+   95.36,
+   90.28
   ]
  ],
  "last_run": {
-  "ts": 1792619125,
+  "ts": 1792620027,
   "error": null,
   "markets_scanned": 4017,
   "candidates": 42,
   "rejections": {
-   "too little volume": 3789,
-   "no favorite in 80-95c band": 176,
-   "spread too wide": 10
+   "too little volume": 3788,
+   "no favorite in 80-95c band": 174,
+   "spread too wide": 13
   },
-  "opened": [
-   191
-  ],
-  "settled": [
-   180
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.23,
+    "hours_to_close": 18.98,
     "volume_24h": 3570.58,
-    "score": 0.6397
+    "score": 0.6405
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $86,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 3429.2,
-    "score": 0.637
-   },
-   {
-    "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.23,
-    "volume_24h": 1765.8,
-    "score": 0.6268
+    "score": 0.6376
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 23.24,
-    "volume_24h": 5810.34,
-    "score": 0.6241
+    "hours_to_close": 22.99,
+    "volume_24h": 7406.77,
+    "score": 0.6327
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.98,
+    "volume_24h": 1765.8,
+    "score": 0.6276
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $82,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 1439.39,
-    "score": 0.5987
+    "score": 0.5993
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Oct 22, 2026? \u2014 Above $101.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.49,
+    "volume_24h": 1068.26,
+    "score": 0.5964
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 19.23,
-    "volume_24h": 4147.7,
-    "score": 0.5846
+    "price": 0.93,
+    "hours_to_close": 18.98,
+    "volume_24h": 4174.87,
+    "score": 0.5856
    },
    {
     "label": "Will Trump's RCP approval average be above 38.5 on Oct 22, 2026? \u2014 Above 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 19.23,
-    "volume_24h": 2221.01,
-    "score": 0.5743
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.23,
-    "volume_24h": 342.7,
-    "score": 0.5735
+    "hours_to_close": 18.98,
+    "volume_24h": 2246.52,
+    "score": 0.5755
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 3,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

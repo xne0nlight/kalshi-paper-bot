@@ -240,7 +240,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.5281,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -274,7 +274,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.4646,
-   "mark_price": 0.73,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792542633,
@@ -357,7 +357,7 @@
    "opened_ts": 1792518335,
    "close_ts": 1792601940.0,
    "score": 0.4339,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -442,7 +442,7 @@
    "opened_ts": 1792555256,
    "close_ts": 1792616400.0,
    "score": 0.6166,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -10296,17 +10296,22 @@
    1792557955,
    92.46,
    92.32
+  ],
+  [
+   1792558859,
+   92.46,
+   92.42
   ]
  ],
  "last_run": {
-  "ts": 1792557955,
+  "ts": 1792558859,
   "error": null,
-  "markets_scanned": 4055,
-  "candidates": 74,
+  "markets_scanned": 4003,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 3653,
-   "no favorite in 80-95c band": 309,
-   "spread too wide": 19
+   "too little volume": 3600,
+   "no favorite in 80-95c band": 308,
+   "spread too wide": 20
   },
   "opened": [],
   "settled": [],
@@ -10316,69 +10321,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 21, 2026? \u2014 38.8%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.22,
-    "volume_24h": 24078.33,
-    "score": 0.7153
+    "hours_to_close": 11.97,
+    "volume_24h": 24291.34,
+    "score": 0.7169
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 21, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 12.22,
-    "volume_24h": 17101.79,
-    "score": 0.6753
+    "hours_to_close": 11.97,
+    "volume_24h": 17341.01,
+    "score": 0.6769
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 21, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 13.73,
-    "volume_24h": 4195.83,
-    "score": 0.6681
+    "hours_to_close": 13.48,
+    "volume_24h": 4170.83,
+    "score": 0.6693
    },
    {
     "label": "Will it rain in Boston on Oct 21, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 9186.06,
-    "score": 0.6667
+    "score": 0.6673
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.23,
+    "hours_to_close": 15.98,
     "volume_24h": 4426.22,
-    "score": 0.6579
+    "score": 0.659
    },
    {
     "label": "Will it rain in Providence on Oct 21, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.23,
-    "volume_24h": 7776.76,
-    "score": 0.6513
-   },
-   {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 24.23,
-    "volume_24h": 5666.8,
-    "score": 0.651
+    "hours_to_close": 23.98,
+    "volume_24h": 7828.1,
+    "score": 0.6521
    },
    {
     "label": "Bitcoin price on Oct 21, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 16.23,
+    "hours_to_close": 15.98,
     "volume_24h": 3584.71,
-    "score": 0.651
+    "score": 0.6521
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 21, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.98,
+    "volume_24h": 5697.8,
+    "score": 0.6517
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

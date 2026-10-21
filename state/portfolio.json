@@ -145,7 +145,7 @@
    "opened_ts": 1792516538,
    "close_ts": 1792645200.0,
    "score": 0.4241,
-   "mark_price": 0.68,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1792529134,
@@ -217,7 +217,7 @@
    "opened_ts": 1792530034,
    "close_ts": 1792656000.0,
    "score": 0.6274,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -234,7 +234,7 @@
    "opened_ts": 1792530934,
    "close_ts": 1792616400.0,
    "score": 0.6109,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792550754,
    "close_ts": 1792607400.0,
    "score": 0.6301,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792587659,
@@ -10572,47 +10572,41 @@
    1792592157,
    94.26,
    93.04
+  ],
+  [
+   1792593057,
+   94.26,
+   92.96
   ]
  ],
  "last_run": {
-  "ts": 1792592157,
+  "ts": 1792593057,
   "error": null,
   "markets_scanned": 333,
-  "candidates": 2,
+  "candidates": 1,
   "rejections": {
-   "too little volume": 320,
-   "no favorite in 80-95c band": 9,
+   "too little volume": 318,
+   "no favorite in 80-95c band": 12,
    "spread too wide": 2
   },
   "opened": [],
-  "settled": [
-   165
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI crude oil settlement price be above 93.99 USD/Bbl on Oct 22, 2026? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 28.23,
-    "volume_24h": 363.13,
-    "score": 0.4334
-   },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 22, 2026 be above 7.33%? \u2014 Above 7.33%",
     "side": "no",
     "price": 0.82,
-    "hours_to_close": 25.72,
+    "hours_to_close": 25.47,
     "volume_24h": 821.0,
-    "score": 0.3548
+    "score": 0.3554
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1,
    "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,
-  "watch_graded": 15,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -327,7 +327,7 @@
    "contracts": 1.0,
    "cost": 0.38,
    "opened_ts": 1792603858,
-   "mark_price": 0.29,
+   "mark_price": 0.28,
    "avg_price": 0.38
   },
   {
@@ -346,7 +346,7 @@
    "contracts": 12.0,
    "cost": 9.72,
    "opened_ts": 1792603858,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "avg_price": 0.81
   },
   {
@@ -384,7 +384,7 @@
    "contracts": 1.0,
    "cost": 0.26,
    "opened_ts": 1792607458,
-   "mark_price": 0.16,
+   "mark_price": 0.17,
    "avg_price": 0.26
   },
   {
@@ -517,7 +517,7 @@
    "contracts": 1.0,
    "cost": 0.21,
    "opened_ts": 1792660526,
-   "mark_price": 0.2,
+   "mark_price": 0.29,
    "avg_price": 0.21
   }
  ],
@@ -2671,6 +2671,11 @@
    1792667726,
    97.28,
    100.81
+  ],
+  [
+   1792668627,
+   97.28,
+   101.02
   ]
  ],
  "forecast_log": {
@@ -6321,56 +6326,11 @@
   }
  },
  "last_run": {
-  "ts": 1792667726,
+  "ts": 1792668627,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXHIGHTDC-26OCT21-B70.5",
-    "pnl": 2.04
-   },
-   {
-    "ticker": "KXHIGHNY-26OCT21-B63.5",
-    "pnl": 0.32
-   },
-   {
-    "ticker": "KXLOWTDC-26OCT21-B44.5",
-    "pnl": 0.18
-   },
-   {
-    "ticker": "KXHIGHTTTN-26OCT21-B66.5",
-    "pnl": -9.72
-   },
-   {
-    "ticker": "KXHIGHTEWR-26OCT21-B66.5",
-    "pnl": 2.28
-   },
-   {
-    "ticker": "KXLOWTBOS-26OCT21-B51.5",
-    "pnl": -0.09
-   },
-   {
-    "ticker": "KXHIGHMIA-26OCT21-B83.5",
-    "pnl": 0.86
-   },
-   {
-    "ticker": "KXHIGHTTTN-26OCT21-B62.5",
-    "pnl": -0.09
-   },
-   {
-    "ticker": "KXHIGHTDC-26OCT21-B68.5",
-    "pnl": -0.34
-   },
-   {
-    "ticker": "KXHIGHTDC-26OCT21-B66.5",
-    "pnl": -0.16
-   },
-   {
-    "ticker": "KXLOWTBOS-26OCT21-B49.5",
-    "pnl": -0.13
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -6378,7 +6338,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 35.2
+  "seconds": 29.7
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

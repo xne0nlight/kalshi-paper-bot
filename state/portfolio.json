@@ -217,7 +217,7 @@
    "opened_ts": 1792580458,
    "close_ts": 1792666740.0,
    "score": 0.4581,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -274,7 +274,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4734,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -409,7 +409,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.48,
+   "mark_price": 0.55,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -11151,17 +11151,22 @@
    1792646125,
    95.64,
    86.8
+  ],
+  [
+   1792647026,
+   95.64,
+   87.01
   ]
  ],
  "last_run": {
-  "ts": 1792646125,
+  "ts": 1792647026,
   "error": null,
-  "markets_scanned": 3741,
-  "candidates": 73,
+  "markets_scanned": 3751,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 3336,
-   "no favorite in 80-95c band": 292,
-   "spread too wide": 39,
+   "too little volume": 3344,
+   "no favorite in 80-95c band": 291,
+   "spread too wide": 40,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -11169,72 +11174,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 15.49,
+    "volume_24h": 12613.72,
+    "score": 0.6977
+   },
+   {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.73,
-    "volume_24h": 4850.7,
-    "score": 0.6949
+    "hours_to_close": 11.48,
+    "volume_24h": 4969.05,
+    "score": 0.6974
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.73,
-    "volume_24h": 5717.67,
-    "score": 0.6903
+    "hours_to_close": 11.48,
+    "volume_24h": 5856.13,
+    "score": 0.6927
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.49,
+    "volume_24h": 45900.87,
+    "score": 0.6877
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.74,
-    "volume_24h": 21883.6,
-    "score": 0.6866
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 15.74,
-    "volume_24h": 11946.26,
-    "score": 0.6866
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.73,
-    "volume_24h": 2012.89,
-    "score": 0.6663
+    "price": 0.92,
+    "hours_to_close": 15.49,
+    "volume_24h": 23274.75,
+    "score": 0.6677
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 15.74,
-    "volume_24h": 14963.26,
-    "score": 0.6566
+    "price": 0.92,
+    "hours_to_close": 15.49,
+    "volume_24h": 16422.21,
+    "score": 0.6677
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 11.48,
+    "volume_24h": 2131.34,
+    "score": 0.6598
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 11.73,
-    "volume_24h": 2285.39,
-    "score": 0.6504
-   },
-   {
-    "label": "Ethereum price at Oct 22, 2026 at 5pm EDT? \u2014 $2,370 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 15.74,
-    "volume_24h": 2402.42,
-    "score": 0.6501
+    "hours_to_close": 11.48,
+    "volume_24h": 2403.74,
+    "score": 0.6537
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -233,7 +233,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792763940.0,
    "score": 0.5322,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -250,7 +250,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -301,7 +301,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -402,7 +402,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.66,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -11807,18 +11807,24 @@
    1792709126,
    86.77,
    85.65
+  ],
+  [
+   1792710026,
+   86.77,
+   85.69
   ]
  ],
  "last_run": {
-  "ts": 1792709126,
+  "ts": 1792710026,
   "error": null,
   "markets_scanned": 4643,
-  "candidates": 48,
+  "candidates": 47,
   "rejections": {
-   "too little volume": 4276,
-   "no favorite in 80-95c band": 266,
-   "spread too wide": 45,
-   "favorite is slipping fast": 8
+   "too little volume": 4272,
+   "no favorite in 80-95c band": 277,
+   "spread too wide": 40,
+   "favorite is slipping fast": 6,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -11828,73 +11834,73 @@
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 23, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.23,
-    "volume_24h": 14638.47,
-    "score": 0.6867
+    "hours_to_close": 17.98,
+    "volume_24h": 14679.55,
+    "score": 0.6876
+   },
+   {
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 15442.53,
+    "score": 0.675
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 20082.86,
-    "score": 0.6744
+    "hours_to_close": 21.99,
+    "volume_24h": 20087.86,
+    "score": 0.675
    },
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 8023.45,
-    "score": 0.6672
+    "score": 0.6679
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 21324.37,
-    "score": 0.6644
+    "hours_to_close": 21.99,
+    "volume_24h": 21318.66,
+    "score": 0.665
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 18.23,
-    "volume_24h": 12433.83,
-    "score": 0.6567
+    "hours_to_close": 17.98,
+    "volume_24h": 12474.91,
+    "score": 0.6576
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 18.23,
-    "volume_24h": 7193.56,
-    "score": 0.626
+    "hours_to_close": 17.98,
+    "volume_24h": 7281.98,
+    "score": 0.6273
    },
    {
     "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 23, 2026? \u2014 Above $95.99",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 4280.0,
-    "score": 0.6239
-   },
-   {
-    "label": "Will the maximum temperature be 61-62\u00b0 on Oct 23, 2026? \u2014 61\u00b0 to 62\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 2536.91,
-    "score": 0.6133
+    "score": 0.6247
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 12,
-   "tracked only (below bet price floor)": 9
+   "related-market cap (Oil prices)": 10,
+   "tracked only (below bet price floor)": 10
   },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

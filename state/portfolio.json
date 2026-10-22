@@ -291,7 +291,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.41,
+   "mark_price": 0.39,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -329,7 +329,7 @@
    "opened_ts": 1792605662,
    "close_ts": 1792735200.0,
    "score": 0.5527,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -369,7 +369,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -409,7 +409,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.71,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -442,7 +442,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -11081,91 +11081,94 @@
    1792634425,
    95.64,
    88.75
+  ],
+  [
+   1792635326,
+   95.64,
+   88.59
   ]
  ],
  "last_run": {
-  "ts": 1792634425,
+  "ts": 1792635326,
   "error": null,
   "markets_scanned": 4092,
-  "candidates": 66,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 3766,
-   "no favorite in 80-95c band": 248,
-   "spread too wide": 10,
-   "favorite is slipping fast": 1,
-   "nothing for sale at the ask": 1
+   "too little volume": 3758,
+   "no favorite in 80-95c band": 256,
+   "spread too wide": 16
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.99,
-    "volume_24h": 7576.66,
-    "score": 0.675
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 18.74,
+    "volume_24h": 8079.67,
+    "score": 0.6679
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.98,
-    "volume_24h": 4671.39,
-    "score": 0.6653
+    "hours_to_close": 14.73,
+    "volume_24h": 4824.33,
+    "score": 0.6676
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.98,
-    "volume_24h": 2866.63,
-    "score": 0.6594
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.99,
-    "volume_24h": 3280.87,
-    "score": 0.6477
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 14.98,
-    "volume_24h": 12476.83,
-    "score": 0.6401
+    "hours_to_close": 14.73,
+    "volume_24h": 3116.52,
+    "score": 0.6634
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,250 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 4211.13,
-    "score": 0.6359
+    "price": 0.94,
+    "hours_to_close": 18.74,
+    "volume_24h": 4310.68,
+    "score": 0.6475
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,000 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 18.74,
+    "volume_24h": 7558.38,
+    "score": 0.6458
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,500 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 18.74,
+    "volume_24h": 5607.82,
+    "score": 0.636
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.98,
-    "volume_24h": 951.08,
-    "score": 0.6235
+    "hours_to_close": 14.73,
+    "volume_24h": 1106.62,
+    "score": 0.6297
    },
    {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,000 or above",
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 18.99,
-    "volume_24h": 7140.55,
-    "score": 0.6231
+    "price": 0.89,
+    "hours_to_close": 18.74,
+    "volume_24h": 29313.73,
+    "score": 0.6249
    }
   ],
   "skipped": {},
-  "watch_added": 8,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

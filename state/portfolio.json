@@ -251,7 +251,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -274,7 +274,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4734,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.71,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -419,7 +419,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.38,
+   "mark_price": 0.49,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -457,7 +457,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -474,7 +474,7 @@
    "opened_ts": 1792632626,
    "close_ts": 1792693800.0,
    "score": 0.598,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   }
  ],
@@ -11196,92 +11196,25 @@
    1792652426,
    95.64,
    86.19
+  ],
+  [
+   1792653327,
+   95.64,
+   86.81
   ]
  ],
  "last_run": {
-  "ts": 1792652426,
-  "error": null,
-  "markets_scanned": 3801,
-  "candidates": 29,
-  "rejections": {
-   "too little volume": 3355,
-   "no favorite in 80-95c band": 344,
-   "spread too wide": 72,
-   "nothing for sale at the ask": 1
-  },
+  "ts": 1792653327,
+  "error": "KalshiAPIError: HTTP 503: {\"error\":{\"code\":\"service_unavailable\",\"message\":\"service_unavailable\"}}",
+  "markets_scanned": 0,
+  "candidates": 0,
+  "rejections": {},
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $80,750 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 13.99,
-    "volume_24h": 5654.04,
-    "score": 0.6165
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 13.99,
-    "volume_24h": 34225.73,
-    "score": 0.605
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.99,
-    "volume_24h": 12903.51,
-    "score": 0.605
-   },
-   {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 22, 2026? \u2014 79\u00b0 to 80\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 1185.38,
-    "score": 0.6006
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,250 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 13.99,
-    "volume_24h": 50258.76,
-    "score": 0.595
-   },
-   {
-    "label": "Will James Talarico be the top ActBlue fundraiser on Oct 23 at 10:00 AM ET?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.98,
-    "volume_24h": 6425.37,
-    "score": 0.5924
-   },
-   {
-    "label": "Will the maximum temperature be 67-68\u00b0 on Oct 22, 2026? \u2014 67\u00b0 to 68\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.99,
-    "volume_24h": 3478.13,
-    "score": 0.5906
-   },
-   {
-    "label": "Will the 10Y U.S. Treasury yield be above 5.15% on Oct 22, 2026? \u2014 5.16% or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.49,
-    "volume_24h": 220.24,
-    "score": 0.5894
-   }
-  ],
+  "top_candidates": [],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
-  "api_calls": 43
+  "api_calls": 5
  },
  "shadow_since": 1791904549,
  "phase": {

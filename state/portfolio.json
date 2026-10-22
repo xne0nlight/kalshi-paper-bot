@@ -217,7 +217,7 @@
    "opened_ts": 1792580458,
    "close_ts": 1792666740.0,
    "score": 0.4581,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.73,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -419,7 +419,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.22,
+   "mark_price": 0.23,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -457,7 +457,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -474,7 +474,7 @@
    "opened_ts": 1792632626,
    "close_ts": 1792693800.0,
    "score": 0.598,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792656926,
@@ -11277,17 +11277,22 @@
    1792664127,
    95.64,
    86.7
+  ],
+  [
+   1792665024,
+   95.64,
+   86.8
   ]
  ],
  "last_run": {
-  "ts": 1792664127,
+  "ts": 1792665024,
   "error": null,
   "markets_scanned": 1619,
-  "candidates": 28,
+  "candidates": 24,
   "rejections": {
    "too little volume": 1447,
-   "no favorite in 80-95c band": 101,
-   "spread too wide": 40,
+   "no favorite in 80-95c band": 97,
+   "spread too wide": 48,
    "favorite is slipping fast": 3
   },
   "opened": [],
@@ -11298,65 +11303,65 @@
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $85,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 22859.48,
-    "score": 0.6515
+    "score": 0.6519
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 26572.35,
-    "score": 0.6415
+    "score": 0.6419
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 34.74,
+    "price": 0.93,
+    "hours_to_close": 34.49,
     "volume_24h": 7518.04,
-    "score": 0.6123
+    "score": 0.6226
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 34.74,
-    "volume_24h": 42072.95,
-    "score": 0.5915
+    "hours_to_close": 34.49,
+    "volume_24h": 43006.27,
+    "score": 0.5919
    },
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 3546.41,
-    "score": 0.5778
+    "score": 0.5781
    },
    {
-    "label": "Will the WTI crude oil settlement price be between 95.00 and 95.99 USD/Bbl on Oct 23, 2026? \u2014 $95.00 to $95.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.24,
-    "volume_24h": 833.82,
-    "score": 0.564
-   },
-   {
-    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.74,
-    "volume_24h": 3173.14,
-    "score": 0.5631
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 34.49,
+    "volume_24h": 2610.41,
+    "score": 0.5681
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 34.74,
-    "volume_24h": 3954.44,
-    "score": 0.5613
+    "hours_to_close": 34.49,
+    "volume_24h": 4477.01,
+    "score": 0.5657
+   },
+   {
+    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 28.49,
+    "volume_24h": 3173.14,
+    "score": 0.5635
    }
   ],
   "skipped": {},

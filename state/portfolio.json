@@ -40,7 +40,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.76,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -85,7 +85,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.42,
+   "mark_price": 0.41,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -190,7 +190,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.59,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -228,7 +228,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.05,
+   "mark_price": 0.03,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -384,7 +384,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -11550,18 +11550,23 @@
    1792684828,
    93.18,
    86.98
+  ],
+  [
+   1792685728,
+   93.18,
+   86.86
   ]
  ],
  "last_run": {
-  "ts": 1792684828,
+  "ts": 1792685728,
   "error": null,
   "markets_scanned": 1564,
-  "candidates": 23,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 1396,
-   "no favorite in 80-95c band": 122,
-   "spread too wide": 20,
-   "favorite is slipping fast": 3
+   "too little volume": 1391,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 19,
+   "favorite is slipping fast": 4
   },
   "opened": [],
   "settled": [],
@@ -11571,76 +11576,76 @@
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 14228.98,
-    "score": 0.66
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 27436.58,
-    "score": 0.66
+    "score": 0.6604
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 28.99,
-    "volume_24h": 35204.7,
-    "score": 0.65
+    "hours_to_close": 28.74,
+    "volume_24h": 34990.13,
+    "score": 0.6504
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.99,
-    "volume_24h": 10657.91,
-    "score": 0.65
+    "hours_to_close": 28.74,
+    "volume_24h": 10733.97,
+    "score": 0.6504
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.99,
-    "volume_24h": 31542.81,
-    "score": 0.6
+    "price": 0.9,
+    "hours_to_close": 28.74,
+    "volume_24h": 31361.36,
+    "score": 0.6104
    },
    {
     "label": "Will the gold close price be above 4134.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4134.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 1640.35,
-    "score": 0.5912
-   },
-   {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.99,
-    "volume_24h": 1395.3,
-    "score": 0.5759
+    "score": 0.5916
    },
    {
     "label": "Will the silver close price be above 56.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $56.99",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.99,
+    "price": 0.94,
+    "hours_to_close": 28.74,
     "volume_24h": 1317.61,
-    "score": 0.574
+    "score": 0.5845
+   },
+   {
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 28.74,
+    "volume_24h": 1249.28,
+    "score": 0.5827
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 28.74,
+    "volume_24h": 31889.69,
+    "score": 0.5304
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 6,
+   "related-market cap (Crypto)": 5,
    "related-market cap (Precious metals)": 1,
-   "related-market cap (Presidential approval)": 3,
-   "tracked only (below bet price floor)": 3,
-   "related-market cap (Oil prices)": 7
+   "tracked only (below bet price floor)": 2,
+   "related-market cap (Oil prices)": 7,
+   "related-market cap (Presidential approval)": 3
   },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

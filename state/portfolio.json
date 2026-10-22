@@ -2,173 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.81,
- "fees_paid": 4.48,
+ "cash": 9.97,
+ "fees_paid": 4.65,
  "peak_equity": 109.65,
  "day": "2026-10-22",
  "day_start_equity": 95.36,
- "next_id": 193,
+ "next_id": 198,
  "open_positions": [
-  {
-   "id": 169,
-   "ticker": "KXRAIN-26OCT21-PVD",
-   "event_ticker": "KXRAIN-26OCT21",
-   "series": "KXRAIN",
-   "label": "Will it rain in Providence on Oct 21, 2026?",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.9,
-   "fee": 0.01,
-   "cost": 0.91,
-   "opened_ts": 1792515634,
-   "close_ts": 1792645200.0,
-   "score": 0.557,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 170,
-   "ticker": "KXHIGHPHIL-26OCT21-T68",
-   "event_ticker": "KXHIGHPHIL-26OCT21",
-   "series": "KXHIGHPHIL",
-   "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1792515634,
-   "close_ts": 1792645200.0,
-   "score": 0.5281,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792562460,
-     "bid": 0.82,
-     "proceeds": 4.04
-    },
-    "15": {
-     "ts": 1792569658,
-     "bid": 0.73,
-     "proceeds": 3.58
-    },
-    "20": {
-     "ts": 1792569658,
-     "bid": 0.73,
-     "proceeds": 3.58
-    }
-   }
-  },
-  {
-   "id": 171,
-   "ticker": "KXHIGHMIA-26OCT21-B87.5",
-   "event_ticker": "KXHIGHMIA-26OCT21",
-   "series": "KXHIGHMIA",
-   "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.9,
-   "fee": 0.01,
-   "cost": 0.91,
-   "opened_ts": 1792515634,
-   "close_ts": 1792645200.0,
-   "score": 0.4753,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 172,
-   "ticker": "KXHIGHTATL-26OCT21-B74.5",
-   "event_ticker": "KXHIGHTATL-26OCT21",
-   "series": "KXHIGHTATL",
-   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.87,
-   "fee": 0.05,
-   "cost": 5.27,
-   "opened_ts": 1792515634,
-   "close_ts": 1792645200.0,
-   "score": 0.4646,
-   "mark_price": 0.07,
-   "shadow": {
-    "10": {
-     "ts": 1792542633,
-     "bid": 0.77,
-     "proceeds": 4.54
-    },
-    "15": {
-     "ts": 1792546256,
-     "bid": 0.71,
-     "proceeds": 4.17
-    },
-    "20": {
-     "ts": 1792547154,
-     "bid": 0.65,
-     "proceeds": 3.8
-    },
-    "30": {
-     "ts": 1792568755,
-     "bid": 0.53,
-     "proceeds": 3.07
-    }
-   }
-  },
-  {
-   "id": 173,
-   "ticker": "KXHIGHNY-26OCT21-B59.5",
-   "event_ticker": "KXHIGHNY-26OCT21",
-   "series": "KXHIGHNY",
-   "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.85,
-   "fee": 0.06,
-   "cost": 5.16,
-   "opened_ts": 1792515634,
-   "close_ts": 1792645200.0,
-   "score": 0.4432,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 174,
-   "ticker": "KXHIGHTEWR-26OCT21-B66.5",
-   "event_ticker": "KXHIGHTEWR-26OCT21",
-   "series": "KXHIGHTEWR",
-   "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.86,
-   "fee": 0.06,
-   "cost": 5.22,
-   "opened_ts": 1792516538,
-   "close_ts": 1792645200.0,
-   "score": 0.4241,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792529134,
-     "bid": 0.74,
-     "proceeds": 4.35
-    },
-    "15": {
-     "ts": 1792537232,
-     "bid": 0.7,
-     "proceeds": 4.11
-    },
-    "20": {
-     "ts": 1792540833,
-     "bid": 0.66,
-     "proceeds": 3.86
-    },
-    "30": {
-     "ts": 1792569658,
-     "bid": 0.54,
-     "proceeds": 3.13
-    }
-   }
-  },
   {
    "id": 176,
    "ticker": "KXHIGHTMIN-26OCT21-B69.5",
@@ -274,7 +114,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4734,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -291,7 +131,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.13,
+   "mark_price": 0.15,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -346,7 +186,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.75,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -369,7 +209,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.87,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -386,7 +226,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.74,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -419,7 +259,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.22,
+   "mark_price": 0.2,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -492,6 +332,91 @@
      "proceeds": 0.65
     }
    }
+  },
+  {
+   "id": 193,
+   "ticker": "KXGENERICBALLOTVOTEHUB-26OCT23-T8.1",
+   "event_ticker": "KXGENERICBALLOTVOTEHUB-26OCT23",
+   "series": "KXGENERICBALLOTVOTEHUB",
+   "label": "Above 8.1%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1792667726,
+   "close_ts": 1792763940.0,
+   "score": 0.5322,
+   "mark_price": 0.85,
+   "shadow": {}
+  },
+  {
+   "id": 194,
+   "ticker": "KXGOLDW-26OCT2317-T4154.99",
+   "event_ticker": "KXGOLDW-26OCT2317",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4154.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4154.99",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4522,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 195,
+   "ticker": "KXCBDECISIONRUSSIA-26OCT23-C25",
+   "event_ticker": "KXCBDECISIONRUSSIA-26OCT23",
+   "series": "KXCBDECISIONRUSSIA",
+   "label": "Will the Bank of Russia cut 1-25bps at the October Board of Directors\u2019 key rate meeting? \u2014 Cut 1-25bps",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.9,
+   "fee": 0.03,
+   "cost": 3.63,
+   "opened_ts": 1792667726,
+   "close_ts": 1792751340.0,
+   "score": 0.4501,
+   "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 196,
+   "ticker": "KXXRPD-26OCT2317-T1.3799",
+   "event_ticker": "KXXRPD-26OCT2317",
+   "series": "KXXRPD",
+   "label": "Ripple price at Oct 23, 2026 at 5pm EDT? \u2014 $1.37991 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4307,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 197,
+   "ticker": "KXCOPPERW-26OCT2317-T6.66",
+   "event_ticker": "KXCOPPERW-26OCT2317",
+   "series": "KXCOPPERW",
+   "label": "Will the copper close price be above 6.66 USD/Lbs on October 23, 2026 at 5:00 PM EDT? \u2014 Above $6.66",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 3.78,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4194,
+   "mark_price": 0.91,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -4789,6 +4714,190 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1792632626,
+   "won": true
+  },
+  {
+   "id": 169,
+   "ticker": "KXRAIN-26OCT21-PVD",
+   "event_ticker": "KXRAIN-26OCT21",
+   "series": "KXRAIN",
+   "label": "Will it rain in Providence on Oct 21, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.9,
+   "fee": 0.01,
+   "cost": 0.91,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.557,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.09,
+   "result": "NO",
+   "closed_ts": 1792667726,
+   "won": true
+  },
+  {
+   "id": 170,
+   "ticker": "KXHIGHPHIL-26OCT21-T68",
+   "event_ticker": "KXHIGHPHIL-26OCT21",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be >68\u00b0 on Oct 21, 2026? \u2014 69\u00b0 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.5281,
+   "shadow": {
+    "10": {
+     "ts": 1792562460,
+     "bid": 0.82,
+     "proceeds": 4.04
+    },
+    "15": {
+     "ts": 1792569658,
+     "bid": 0.73,
+     "proceeds": 3.58
+    },
+    "20": {
+     "ts": 1792569658,
+     "bid": 0.73,
+     "proceeds": 3.58
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "NO",
+   "closed_ts": 1792667726,
+   "won": true
+  },
+  {
+   "id": 171,
+   "ticker": "KXHIGHMIA-26OCT21-B87.5",
+   "event_ticker": "KXHIGHMIA-26OCT21",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 87-88\u00b0 on Oct 21, 2026? \u2014 87\u00b0 to 88\u00b0",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.9,
+   "fee": 0.01,
+   "cost": 0.91,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4753,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.09,
+   "result": "NO",
+   "closed_ts": 1792667726,
+   "won": true
+  },
+  {
+   "id": 172,
+   "ticker": "KXHIGHTATL-26OCT21-B74.5",
+   "event_ticker": "KXHIGHTATL-26OCT21",
+   "series": "KXHIGHTATL",
+   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 21, 2026? \u2014 74\u00b0 to 75\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.87,
+   "fee": 0.05,
+   "cost": 5.27,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4646,
+   "shadow": {
+    "10": {
+     "ts": 1792542633,
+     "bid": 0.77,
+     "proceeds": 4.54
+    },
+    "15": {
+     "ts": 1792546256,
+     "bid": 0.71,
+     "proceeds": 4.17
+    },
+    "20": {
+     "ts": 1792547154,
+     "bid": 0.65,
+     "proceeds": 3.8
+    },
+    "30": {
+     "ts": 1792568755,
+     "bid": 0.53,
+     "proceeds": 3.07
+    }
+   },
+   "payout": 0.0,
+   "pnl": -5.27,
+   "result": "YES",
+   "closed_ts": 1792667726,
+   "won": false
+  },
+  {
+   "id": 173,
+   "ticker": "KXHIGHNY-26OCT21-B59.5",
+   "event_ticker": "KXHIGHNY-26OCT21",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 59-60\u00b0 on Oct 21, 2026? \u2014 59\u00b0 to 60\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1792515634,
+   "close_ts": 1792645200.0,
+   "score": 0.4432,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.84,
+   "result": "NO",
+   "closed_ts": 1792667726,
+   "won": true
+  },
+  {
+   "id": 174,
+   "ticker": "KXHIGHTEWR-26OCT21-B66.5",
+   "event_ticker": "KXHIGHTEWR-26OCT21",
+   "series": "KXHIGHTEWR",
+   "label": "Will the maximum temperature be 66-67\u00b0 on Oct 21, 2026? \u2014 66\u00b0 to 67\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1792516538,
+   "close_ts": 1792645200.0,
+   "score": 0.4241,
+   "shadow": {
+    "10": {
+     "ts": 1792529134,
+     "bid": 0.74,
+     "proceeds": 4.35
+    },
+    "15": {
+     "ts": 1792537232,
+     "bid": 0.7,
+     "proceeds": 4.11
+    },
+    "20": {
+     "ts": 1792540833,
+     "bid": 0.66,
+     "proceeds": 3.86
+    },
+    "30": {
+     "ts": 1792569658,
+     "bid": 0.54,
+     "proceeds": 3.13
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.78,
+   "result": "NO",
+   "closed_ts": 1792667726,
    "won": true
   }
  ],
@@ -11292,91 +11401,114 @@
    1792666829,
    95.64,
    86.56
+  ],
+  [
+   1792667726,
+   92.49,
+   85.66
   ]
  ],
  "last_run": {
-  "ts": 1792666829,
+  "ts": 1792667726,
   "error": null,
   "markets_scanned": 1630,
-  "candidates": 27,
+  "candidates": 29,
   "rejections": {
-   "too little volume": 1457,
-   "no favorite in 80-95c band": 121,
-   "spread too wide": 23,
-   "favorite is slipping fast": 2
+   "too little volume": 1456,
+   "no favorite in 80-95c band": 120,
+   "spread too wide": 22,
+   "favorite is slipping fast": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   193,
+   194,
+   195,
+   196,
+   197
+  ],
+  "settled": [
+   169,
+   170,
+   171,
+   172,
+   173,
+   174
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 26681.35,
-    "score": 0.6425
+    "price": 0.93,
+    "hours_to_close": 33.74,
+    "volume_24h": 26482.58,
+    "score": 0.6328
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 7518.04,
-    "score": 0.6232
+    "hours_to_close": 33.74,
+    "volume_24h": 7503.46,
+    "score": 0.6235
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.99,
-    "volume_24h": 43986.24,
-    "score": 0.6025
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 33.99,
-    "volume_24h": 15845.21,
-    "score": 0.5925
+    "hours_to_close": 33.74,
+    "volume_24h": 45166.24,
+    "score": 0.6028
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 4476.01,
-    "score": 0.5763
+    "score": 0.5767
    },
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 2610.41,
-    "score": 0.5688
-   },
-   {
-    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 27.99,
-    "volume_24h": 3173.14,
-    "score": 0.5644
+    "score": 0.5691
    },
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 3546.41,
-    "score": 0.5488
+    "price": 0.94,
+    "hours_to_close": 33.74,
+    "volume_24h": 3594.41,
+    "score": 0.5595
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 33.74,
+    "volume_24h": 38524.01,
+    "score": 0.5528
+   },
+   {
+    "label": "Above 8.1%",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 26.73,
+    "volume_24h": 2752.09,
+    "score": 0.5322
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 1,
+  "skipped": {
+   "related-market cap (Crypto)": 8,
+   "related-market cap (Oil prices)": 6,
+   "related-market cap (Presidential approval)": 3,
+   "tracked only (below bet price floor)": 2
+  },
+  "watch_added": 2,
+  "watch_graded": 22,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

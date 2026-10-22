@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 14.97,
- "fees_paid": 4.65,
+ "cash": 11.25,
+ "fees_paid": 4.67,
  "peak_equity": 109.65,
  "day": "2026-10-22",
  "day_start_equity": 95.36,
- "next_id": 198,
+ "next_id": 199,
  "open_positions": [
   {
    "id": 177,
@@ -24,23 +24,6 @@
    "close_ts": 1792656000.0,
    "score": 0.6274,
    "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 181,
-   "ticker": "KXCBDTURKEY-26OCT22-HOLD",
-   "event_ticker": "KXCBDTURKEY-26OCT22",
-   "series": "KXCBDTURKEY",
-   "label": "Will the Central Bank of the Republic of T\u00fcrkiye maintain the current rate at the October Monetary Policy Committee Meeting? \u2014 Maintain current rate",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.85,
-   "fee": 0.01,
-   "cost": 0.86,
-   "opened_ts": 1792580458,
-   "close_ts": 1792666740.0,
-   "score": 0.4581,
-   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -74,7 +57,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -114,7 +97,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.35,
+   "mark_price": 0.38,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -169,7 +152,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.63,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -252,7 +235,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.15,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -290,7 +273,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -357,7 +340,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -391,7 +374,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -408,7 +391,24 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 198,
+   "ticker": "KXTRUMPVH-26OCT23-T37.4",
+   "event_ticker": "KXTRUMPVH-26OCT23",
+   "series": "KXTRUMPVH",
+   "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792674025,
+   "close_ts": 1792763940.0,
+   "score": 0.597,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -4912,6 +4912,27 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1792671326,
+   "won": true
+  },
+  {
+   "id": 181,
+   "ticker": "KXCBDTURKEY-26OCT22-HOLD",
+   "event_ticker": "KXCBDTURKEY-26OCT22",
+   "series": "KXCBDTURKEY",
+   "label": "Will the Central Bank of the Republic of T\u00fcrkiye maintain the current rate at the October Monetary Policy Committee Meeting? \u2014 Maintain current rate",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.85,
+   "fee": 0.01,
+   "cost": 0.86,
+   "opened_ts": 1792580458,
+   "close_ts": 1792666740.0,
+   "score": 0.4581,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1792674025,
    "won": true
   }
  ],
@@ -11450,95 +11471,104 @@
    1792673127,
    92.81,
    86.3
+  ],
+  [
+   1792674025,
+   92.95,
+   86.51
   ]
  ],
  "last_run": {
-  "ts": 1792673127,
+  "ts": 1792674025,
   "error": null,
-  "markets_scanned": 1632,
-  "candidates": 29,
+  "markets_scanned": 1625,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 1459,
-   "no favorite in 80-95c band": 126,
-   "spread too wide": 15,
-   "favorite is slipping fast": 3
+   "too little volume": 1452,
+   "no favorite in 80-95c band": 122,
+   "spread too wide": 23,
+   "favorite is slipping fast": 4
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   198
+  ],
+  "settled": [
+   181
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 31.99,
+    "volume_24h": 14230.98,
+    "score": 0.6553
+   },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
-    "volume_24h": 30054.24,
-    "score": 0.6449
+    "hours_to_close": 31.99,
+    "volume_24h": 30059.24,
+    "score": 0.6453
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 32.24,
+    "price": 0.93,
+    "hours_to_close": 31.99,
     "volume_24h": 4503.72,
-    "score": 0.6189
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 32.24,
-    "volume_24h": 12342.37,
-    "score": 0.6149
+    "score": 0.6093
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 41938.92,
-    "score": 0.6049
+    "score": 0.6053
+   },
+   {
+    "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.98,
+    "volume_24h": 7185.64,
+    "score": 0.597
    },
    {
     "label": "Bitcoin price range on Oct 23, 2026? \u2014 $83,500 to 83,999.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 1639.08,
-    "score": 0.586
+    "score": 0.5864
    },
    {
     "label": "Will the WTI crude oil settlement price be between 95.00 and 95.99 USD/Bbl on Oct 23, 2026? \u2014 $95.00 to $95.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.49,
     "volume_24h": 833.82,
-    "score": 0.5679
+    "score": 0.5683
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 32.24,
-    "volume_24h": 37827.56,
-    "score": 0.5649
-   },
-   {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.24,
-    "volume_24h": 3671.0,
-    "score": 0.5423
+    "hours_to_close": 31.99,
+    "volume_24h": 37810.55,
+    "score": 0.5653
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 11,
-   "related-market cap (Oil prices)": 11,
+   "related-market cap (Crypto)": 7,
+   "related-market cap (Oil prices)": 9,
    "tracked only (below bet price floor)": 2
   },
   "watch_added": 2,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

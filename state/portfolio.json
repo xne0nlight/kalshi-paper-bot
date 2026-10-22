@@ -217,7 +217,7 @@
    "opened_ts": 1792580458,
    "close_ts": 1792666740.0,
    "score": 0.4581,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -234,7 +234,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792688340.0,
    "score": 0.5739,
-   "mark_price": 0.91,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -274,7 +274,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4734,
-   "mark_price": 0.92,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -291,7 +291,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.11,
+   "mark_price": 0.13,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -346,7 +346,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.76,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -369,7 +369,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.71,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -419,7 +419,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.21,
+   "mark_price": 0.18,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -457,7 +457,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -474,7 +474,7 @@
    "opened_ts": 1792632626,
    "close_ts": 1792693800.0,
    "score": 0.598,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792656926,
@@ -11252,89 +11252,95 @@
    1792659626,
    95.64,
    85.66
+  ],
+  [
+   1792660526,
+   95.64,
+   86.56
   ]
  ],
  "last_run": {
-  "ts": 1792659626,
+  "ts": 1792660526,
   "error": null,
-  "markets_scanned": 4952,
-  "candidates": 45,
+  "markets_scanned": 1611,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 4381,
-   "no favorite in 80-95c band": 415,
-   "spread too wide": 111
+   "too little volume": 1441,
+   "no favorite in 80-95c band": 94,
+   "spread too wide": 51,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Ethereum price at Oct 22, 2026 at 5pm EDT? \u2014 $2,490 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 5680.61,
-    "score": 0.6983
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 4661.83,
-    "score": 0.6619
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 22, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 9.49,
-    "volume_24h": 1251.92,
-    "score": 0.6579
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 22, 2026? \u2014 Above $96.99",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 9.49,
-    "volume_24h": 6008.58,
-    "score": 0.649
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 11.99,
-    "volume_24h": 46587.93,
-    "score": 0.6467
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 11.99,
-    "volume_24h": 12903.51,
-    "score": 0.6367
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $83,250 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 11.99,
-    "volume_24h": 83945.6,
-    "score": 0.6267
-   },
-   {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 26245.94,
-    "score": 0.62
+    "score": 0.6203
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.74,
+    "volume_24h": 40441.98,
+    "score": 0.6003
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 35.74,
+    "volume_24h": 7518.04,
+    "score": 0.591
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 35.74,
+    "volume_24h": 3954.44,
+    "score": 0.5801
+   },
+   {
+    "label": "Bitcoin price range on Oct 23, 2026? \u2014 $83,500 to 83,999.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.74,
+    "volume_24h": 830.58,
+    "score": 0.5693
+   },
+   {
+    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 29.74,
+    "volume_24h": 3174.14,
+    "score": 0.5614
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 35.74,
+    "volume_24h": 37406.69,
+    "score": 0.5503
+   },
+   {
+    "label": "Above 8.1%",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 28.73,
+    "volume_24h": 3755.2,
+    "score": 0.5386
    }
   ],
   "skipped": {},
-  "watch_added": 9,
+  "watch_added": 11,
   "watch_graded": 0,
   "api_calls": 43
  },

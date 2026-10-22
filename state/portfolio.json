@@ -23,7 +23,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792688340.0,
    "score": 0.5739,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -40,7 +40,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -80,7 +80,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.42,
+   "mark_price": 0.41,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -118,7 +118,7 @@
    "opened_ts": 1792605662,
    "close_ts": 1792735200.0,
    "score": 0.5527,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -135,7 +135,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.73,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -185,7 +185,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.66,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -201,6 +201,11 @@
      "ts": 1792650626,
      "bid": 0.73,
      "proceeds": 3.58
+    },
+    "30": {
+     "ts": 1792679428,
+     "bid": 0.53,
+     "proceeds": 2.56
     }
    }
   },
@@ -306,7 +311,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792763940.0,
    "score": 0.5322,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -374,7 +379,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.9,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -391,7 +396,7 @@
    "opened_ts": 1792674025,
    "close_ts": 1792763940.0,
    "score": 0.597,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -11505,98 +11510,101 @@
    1792678526,
    93.18,
    86.47
+  ],
+  [
+   1792679428,
+   93.18,
+   85.82
   ]
  ],
  "last_run": {
-  "ts": 1792678526,
+  "ts": 1792679428,
   "error": null,
   "markets_scanned": 1672,
-  "candidates": 32,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 1486,
-   "no favorite in 80-95c band": 135,
-   "spread too wide": 15,
-   "favorite is slipping fast": 4
+   "too little volume": 1484,
+   "no favorite in 80-95c band": 137,
+   "spread too wide": 21,
+   "favorite is slipping fast": 3
   },
   "opened": [],
-  "settled": [
-   177
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 14227.98,
-    "score": 0.6572
+    "score": 0.6575
+   },
+   {
+    "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.48,
+    "volume_24h": 7415.79,
+    "score": 0.6515
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 30.49,
+    "volume_24h": 29683.45,
+    "score": 0.6475
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 10612.94,
-    "score": 0.6372
+    "hours_to_close": 30.49,
+    "volume_24h": 10640.66,
+    "score": 0.6375
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.74,
-    "volume_24h": 38058.6,
-    "score": 0.6272
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 29683.45,
-    "score": 0.6072
+    "hours_to_close": 30.49,
+    "volume_24h": 37691.82,
+    "score": 0.6275
    },
    {
     "label": "Will the gold close price be above 4134.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4134.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 1648.55,
-    "score": 0.5885
+    "score": 0.5888
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be between 96.00 and 96.99 USD/Bbl on Oct 23, 2026? \u2014 $96.00 to $96.99",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.99,
+    "volume_24h": 4835.6,
+    "score": 0.5881
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 30.74,
-    "volume_24h": 38480.18,
-    "score": 0.5772
-   },
-   {
-    "label": "Will the silver close price be above 56.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $56.99",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 30.74,
-    "volume_24h": 1197.35,
-    "score": 0.548
-   },
-   {
-    "label": "Bitcoin price range on Oct 23, 2026? \u2014 $83,500 to 83,999.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 1279.78,
-    "score": 0.5402
+    "hours_to_close": 30.49,
+    "volume_24h": 38464.37,
+    "score": 0.5775
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 11,
-   "related-market cap (Precious metals)": 1,
-   "related-market cap (Oil prices)": 12,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Crypto)": 8,
+   "related-market cap (Oil prices)": 10,
+   "tracked only (below bet price floor)": 3,
+   "related-market cap (Precious metals)": 1
   },
-  "watch_added": 3,
-  "watch_graded": 17,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

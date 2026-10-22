@@ -23,7 +23,7 @@
    "opened_ts": 1792515634,
    "close_ts": 1792645200.0,
    "score": 0.557,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -409,7 +409,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.77,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -420,6 +420,11 @@
      "ts": 1792633526,
      "bid": 0.77,
      "proceeds": 1.51
+    },
+    "20": {
+     "ts": 1792634425,
+     "bid": 0.71,
+     "proceeds": 1.39
     }
    }
   },
@@ -454,7 +459,7 @@
    "opened_ts": 1792632626,
    "close_ts": 1792693800.0,
    "score": 0.598,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   }
  ],
@@ -11071,90 +11076,96 @@
    1792633526,
    95.64,
    88.93
+  ],
+  [
+   1792634425,
+   95.64,
+   88.75
   ]
  ],
  "last_run": {
-  "ts": 1792633526,
+  "ts": 1792634425,
   "error": null,
-  "markets_scanned": 4015,
+  "markets_scanned": 4092,
   "candidates": 66,
   "rejections": {
-   "too little volume": 3703,
-   "no favorite in 80-95c band": 241,
-   "spread too wide": 4,
-   "favorite is slipping fast": 1
+   "too little volume": 3766,
+   "no favorite in 80-95c band": 248,
+   "spread too wide": 10,
+   "favorite is slipping fast": 1,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.99,
+    "volume_24h": 7576.66,
+    "score": 0.675
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.23,
-    "volume_24h": 4630.66,
-    "score": 0.6639
+    "hours_to_close": 14.98,
+    "volume_24h": 4671.39,
+    "score": 0.6653
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.23,
-    "volume_24h": 2825.9,
-    "score": 0.6578
+    "hours_to_close": 14.98,
+    "volume_24h": 2866.63,
+    "score": 0.6594
    },
    {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,500 or above",
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 18.99,
+    "volume_24h": 3280.87,
+    "score": 0.6477
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 22, 2026? \u2014 38.2%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 14.98,
+    "volume_24h": 12476.83,
+    "score": 0.6401
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.24,
-    "volume_24h": 7576.66,
-    "score": 0.6542
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 2406.57,
-    "score": 0.6368
+    "hours_to_close": 18.99,
+    "volume_24h": 4211.13,
+    "score": 0.6359
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.23,
-    "volume_24h": 910.15,
-    "score": 0.6209
+    "hours_to_close": 14.98,
+    "volume_24h": 951.08,
+    "score": 0.6235
    },
    {
-    "label": "Bitcoin price range on Oct 22, 2026? \u2014 $84,500 to 84,749.99",
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $85,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 1656.39,
-    "score": 0.6146
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.23,
-    "volume_24h": 1256.43,
-    "score": 0.6114
-   },
-   {
-    "label": "Will the maximum temperature be 66-67\u00b0 on Oct 22, 2026? \u2014 66\u00b0 to 67\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 2309.81,
-    "score": 0.6102
+    "price": 0.9,
+    "hours_to_close": 18.99,
+    "volume_24h": 7140.55,
+    "score": 0.6231
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 8,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -202,7 +202,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.75,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -235,7 +235,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.16,
+   "mark_price": 0.13,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -273,7 +273,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -340,7 +340,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.92,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -391,7 +391,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -11486,18 +11486,23 @@
    1792675829,
    92.95,
    86.76
+  ],
+  [
+   1792676727,
+   92.95,
+   86.68
   ]
  ],
  "last_run": {
-  "ts": 1792675829,
+  "ts": 1792676727,
   "error": null,
-  "markets_scanned": 1625,
+  "markets_scanned": 1624,
   "candidates": 27,
   "rejections": {
-   "too little volume": 1446,
-   "no favorite in 80-95c band": 133,
-   "spread too wide": 14,
-   "favorite is slipping fast": 5
+   "too little volume": 1447,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 19,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
@@ -11507,74 +11512,74 @@
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.49,
+    "hours_to_close": 31.24,
     "volume_24h": 14230.98,
-    "score": 0.656
+    "score": 0.6564
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.49,
-    "volume_24h": 30108.24,
-    "score": 0.646
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 5330.31,
-    "score": 0.6155
+    "price": 0.95,
+    "hours_to_close": 31.24,
+    "volume_24h": 30938.24,
+    "score": 0.6564
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 31.49,
-    "volume_24h": 42287.08,
-    "score": 0.606
+    "price": 0.92,
+    "hours_to_close": 31.24,
+    "volume_24h": 42315.66,
+    "score": 0.6264
    },
    {
     "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.48,
-    "volume_24h": 7175.36,
-    "score": 0.5881
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be between 96.00 and 96.99 USD/Bbl on Oct 23, 2026? \u2014 $96.00 to $96.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.99,
-    "volume_24h": 4831.33,
-    "score": 0.5763
+    "hours_to_close": 24.23,
+    "volume_24h": 7234.66,
+    "score": 0.5889
    },
    {
     "label": "Will the WTI crude oil settlement price be between 95.00 and 95.99 USD/Bbl on Oct 23, 2026? \u2014 $95.00 to $95.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 833.82,
-    "score": 0.5691
+    "score": 0.5696
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 31.49,
-    "volume_24h": 38413.77,
-    "score": 0.566
+    "hours_to_close": 31.24,
+    "volume_24h": 38434.93,
+    "score": 0.5664
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 5330.31,
+    "score": 0.5659
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 95.99 USD/Bbl on Oct 23, 2026? \u2014 Above $95.99",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 28.74,
+    "volume_24h": 4075.0,
+    "score": 0.5412
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 9,
+   "related-market cap (Crypto)": 10,
    "related-market cap (Oil prices)": 11,
    "tracked only (below bet price floor)": 1,
-   "related-market cap (Presidential approval)": 1
+   "related-market cap (Precious metals)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -369,7 +369,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -457,7 +457,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -11211,20 +11211,97 @@
    1792655127,
    95.64,
    86.19
+  ],
+  [
+   1792656025,
+   95.64,
+   86.07
   ]
  ],
  "last_run": {
-  "ts": 1792655127,
-  "error": "KalshiAPIError: HTTP 503: {\"error\":{\"code\":\"service_unavailable\",\"message\":\"service_unavailable\"}}",
-  "markets_scanned": 0,
-  "candidates": 0,
-  "rejections": {},
+  "ts": 1792656025,
+  "error": null,
+  "markets_scanned": 4014,
+  "candidates": 17,
+  "rejections": {
+   "too little volume": 3561,
+   "no favorite in 80-95c band": 349,
+   "spread too wide": 86,
+   "nothing for sale at the ask": 1
+  },
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [],
+  "top_candidates": [
+   {
+    "label": "Will the 10Y U.S. Treasury yield be above 5.15% on Oct 22, 2026? \u2014 5.16% or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 11.49,
+    "volume_24h": 220.24,
+    "score": 0.5959
+   },
+   {
+    "label": "Will James Talarico be the top ActBlue fundraiser on Oct 23 at 10:00 AM ET?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 29.98,
+    "volume_24h": 6425.37,
+    "score": 0.594
+   },
+   {
+    "label": "Will the maximum temperature be 67-68\u00b0 on Oct 22, 2026? \u2014 67\u00b0 to 68\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 20.99,
+    "volume_24h": 3478.13,
+    "score": 0.5934
+   },
+   {
+    "label": "Will the maximum temperature be 72-73\u00b0 on Oct 22, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 577.48,
+    "score": 0.5822
+   },
+   {
+    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 30.99,
+    "volume_24h": 3653.95,
+    "score": 0.564
+   },
+   {
+    "label": "Above 8.1%",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 29.98,
+    "volume_24h": 3879.2,
+    "score": 0.5375
+   },
+   {
+    "label": "Will the President's approval rating be below 37.8 according to RealClearPolitics? \u2014 Below 37.8",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 30.99,
+    "volume_24h": 4912.73,
+    "score": 0.5336
+   },
+   {
+    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 22, 2026? \u2014 87\u00b0 to 88\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.99,
+    "volume_24h": 219.93,
+    "score": 0.5308
+   }
+  ],
   "skipped": {},
-  "api_calls": 5
+  "watch_added": 0,
+  "watch_graded": 0,
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

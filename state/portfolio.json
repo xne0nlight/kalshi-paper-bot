@@ -217,7 +217,7 @@
    "opened_ts": 1792580458,
    "close_ts": 1792666740.0,
    "score": 0.4581,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -346,7 +346,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.77,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -474,8 +474,24 @@
    "opened_ts": 1792632626,
    "close_ts": 1792693800.0,
    "score": 0.598,
-   "mark_price": 0.95,
-   "shadow": {}
+   "mark_price": 0.67,
+   "shadow": {
+    "10": {
+     "ts": 1792656926,
+     "bid": 0.67,
+     "proceeds": 0.65
+    },
+    "15": {
+     "ts": 1792656926,
+     "bid": 0.67,
+     "proceeds": 0.65
+    },
+    "20": {
+     "ts": 1792656926,
+     "bid": 0.67,
+     "proceeds": 0.65
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -11216,17 +11232,22 @@
    1792656025,
    95.64,
    86.07
+  ],
+  [
+   1792656926,
+   95.64,
+   85.6
   ]
  ],
  "last_run": {
-  "ts": 1792656025,
+  "ts": 1792656926,
   "error": null,
   "markets_scanned": 4014,
-  "candidates": 17,
+  "candidates": 11,
   "rejections": {
    "too little volume": 3561,
-   "no favorite in 80-95c band": 349,
-   "spread too wide": 86,
+   "no favorite in 80-95c band": 359,
+   "spread too wide": 82,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -11237,71 +11258,71 @@
     "label": "Will the 10Y U.S. Treasury yield be above 5.15% on Oct 22, 2026? \u2014 5.16% or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.49,
+    "hours_to_close": 11.24,
     "volume_24h": 220.24,
-    "score": 0.5959
+    "score": 0.5977
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 23 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.98,
+    "hours_to_close": 29.73,
     "volume_24h": 6425.37,
-    "score": 0.594
+    "score": 0.5944
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Oct 22, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 3478.13,
-    "score": 0.5934
-   },
-   {
-    "label": "Will the maximum temperature be 72-73\u00b0 on Oct 22, 2026? \u2014 72\u00b0 to 73\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 577.48,
-    "score": 0.5822
-   },
-   {
-    "label": "Will the President's approval rating be between 37.8 and 38.0 according to RealClearPolitics? \u2014 37.8 to 38.0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 30.99,
-    "volume_24h": 3653.95,
-    "score": 0.564
+    "score": 0.5941
    },
    {
     "label": "Above 8.1%",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 29.98,
+    "hours_to_close": 29.73,
     "volume_24h": 3879.2,
-    "score": 0.5375
+    "score": 0.5379
    },
    {
-    "label": "Will the President's approval rating be below 37.8 according to RealClearPolitics? \u2014 Below 37.8",
+    "label": "Will the maximum temperature be 72-73\u00b0 on Oct 22, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 577.48,
+    "score": 0.5329
+   },
+   {
+    "label": "Will the President's approval rating be between 38.7 and 38.9 according to RealClearPolitics? \u2014 38.7 to 38.9",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 30.74,
+    "volume_24h": 3766.03,
+    "score": 0.5254
+   },
+   {
+    "label": "Will it rain in Phoenix on Oct 22, 2026?",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 22.74,
+    "volume_24h": 11799.36,
+    "score": 0.5131
+   },
+   {
+    "label": "Will the maximum temperature be 81-82\u00b0 on Oct 22, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 30.99,
-    "volume_24h": 4912.73,
-    "score": 0.5336
-   },
-   {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 22, 2026? \u2014 87\u00b0 to 88\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 21.99,
-    "volume_24h": 219.93,
-    "score": 0.5308
+    "hours_to_close": 22.74,
+    "volume_24h": 1420.66,
+    "score": 0.5095
    }
   ],
   "skipped": {},
   "watch_added": 0,
   "watch_graded": 0,
-  "api_calls": 44
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

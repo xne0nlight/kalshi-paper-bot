@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.25,
+ "cash": 16.25,
  "fees_paid": 4.67,
  "peak_equity": 109.65,
  "day": "2026-10-22",
  "day_start_equity": 95.36,
  "next_id": 199,
  "open_positions": [
-  {
-   "id": 177,
-   "ticker": "KXHIGHLAX-26OCT21-B69.5",
-   "event_ticker": "KXHIGHLAX-26OCT21",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792530034,
-   "close_ts": 1792656000.0,
-   "score": 0.6274,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 182,
    "ticker": "KXTRUMPAPPROVE-26OCT22-U37.9",
@@ -40,7 +23,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792688340.0,
    "score": 0.5739,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -57,7 +40,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.89,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -152,7 +135,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.8,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -185,7 +168,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -202,7 +185,7 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.69,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792627225,
@@ -235,7 +218,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.14,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -273,7 +256,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -340,7 +323,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -374,7 +357,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -391,7 +374,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -4933,6 +4916,27 @@
    "pnl": 0.14,
    "result": "NO",
    "closed_ts": 1792674025,
+   "won": true
+  },
+  {
+   "id": 177,
+   "ticker": "KXHIGHLAX-26OCT21-B69.5",
+   "event_ticker": "KXHIGHLAX-26OCT21",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 69-70\u00b0 on Oct 21, 2026? \u2014 69\u00b0 to 70\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792530034,
+   "close_ts": 1792656000.0,
+   "score": 0.6274,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1792678526,
    "won": true
   }
  ],
@@ -11496,96 +11500,103 @@
    1792677627,
    92.95,
    87.33
+  ],
+  [
+   1792678526,
+   93.18,
+   86.47
   ]
  ],
  "last_run": {
-  "ts": 1792677627,
+  "ts": 1792678526,
   "error": null,
-  "markets_scanned": 1654,
-  "candidates": 29,
+  "markets_scanned": 1672,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 1475,
-   "no favorite in 80-95c band": 127,
-   "spread too wide": 21,
-   "favorite is slipping fast": 2
+   "too little volume": 1486,
+   "no favorite in 80-95c band": 135,
+   "spread too wide": 15,
+   "favorite is slipping fast": 4
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   177
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,290 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 14230.98,
-    "score": 0.6568
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 30.99,
-    "volume_24h": 41649.88,
-    "score": 0.6168
+    "hours_to_close": 30.74,
+    "volume_24h": 14227.98,
+    "score": 0.6572
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.99,
-    "volume_24h": 5330.31,
-    "score": 0.6163
+    "hours_to_close": 30.74,
+    "volume_24h": 10612.94,
+    "score": 0.6372
    },
    {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 to 2,529.99",
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 20070.22,
-    "score": 0.6068
+    "price": 0.92,
+    "hours_to_close": 30.74,
+    "volume_24h": 38058.6,
+    "score": 0.6272
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.74,
+    "volume_24h": 29683.45,
+    "score": 0.6072
+   },
+   {
+    "label": "Will the gold close price be above 4134.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4134.99",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.99,
-    "volume_24h": 30838.24,
-    "score": 0.5968
+    "hours_to_close": 30.74,
+    "volume_24h": 1648.55,
+    "score": 0.5885
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 30.74,
+    "volume_24h": 38480.18,
+    "score": 0.5772
+   },
+   {
+    "label": "Will the silver close price be above 56.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $56.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 30.74,
+    "volume_24h": 1197.35,
+    "score": 0.548
    },
    {
     "label": "Bitcoin price range on Oct 23, 2026? \u2014 $83,500 to 83,999.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 1279.78,
-    "score": 0.5898
-   },
-   {
-    "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.98,
-    "volume_24h": 7234.66,
-    "score": 0.5895
-   },
-   {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 30.99,
-    "volume_24h": 5581.76,
-    "score": 0.5878
+    "score": 0.5402
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 9,
+   "related-market cap (Crypto)": 11,
    "related-market cap (Precious metals)": 1,
-   "related-market cap (Oil prices)": 11,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Oil prices)": 12,
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 2,
-  "watch_graded": 4,
+  "watch_added": 3,
+  "watch_graded": 17,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

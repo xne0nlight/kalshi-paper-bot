@@ -217,7 +217,7 @@
    "opened_ts": 1792580458,
    "close_ts": 1792666740.0,
    "score": 0.4581,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -386,12 +386,17 @@
    "opened_ts": 1792611955,
    "close_ts": 1792731600.0,
    "score": 0.5728,
-   "mark_price": 0.8,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792627225,
      "bid": 0.83,
      "proceeds": 4.1
+    },
+    "15": {
+     "ts": 1792647925,
+     "bid": 0.76,
+     "proceeds": 3.73
     }
    }
   },
@@ -409,7 +414,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.55,
+   "mark_price": 0.49,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -11156,16 +11161,21 @@
    1792647026,
    95.64,
    87.01
+  ],
+  [
+   1792647925,
+   95.64,
+   86.68
   ]
  ],
  "last_run": {
-  "ts": 1792647026,
+  "ts": 1792647925,
   "error": null,
   "markets_scanned": 3751,
-  "candidates": 75,
+  "candidates": 74,
   "rejections": {
-   "too little volume": 3344,
-   "no favorite in 80-95c band": 291,
+   "too little volume": 3333,
+   "no favorite in 80-95c band": 303,
    "spread too wide": 40,
    "nothing for sale at the ask": 1
   },
@@ -11174,72 +11184,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 15.49,
-    "volume_24h": 12613.72,
-    "score": 0.6977
-   },
-   {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.48,
-    "volume_24h": 4969.05,
-    "score": 0.6974
+    "hours_to_close": 11.23,
+    "volume_24h": 5124.07,
+    "score": 0.7001
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 15.24,
+    "volume_24h": 45911.91,
+    "score": 0.6989
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.48,
-    "volume_24h": 5856.13,
-    "score": 0.6927
+    "hours_to_close": 11.23,
+    "volume_24h": 6011.15,
+    "score": 0.6953
    },
    {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.49,
-    "volume_24h": 45900.87,
-    "score": 0.6877
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.49,
-    "volume_24h": 23274.75,
-    "score": 0.6677
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 15.49,
-    "volume_24h": 16422.21,
-    "score": 0.6677
+    "price": 0.94,
+    "hours_to_close": 15.24,
+    "volume_24h": 12613.72,
+    "score": 0.6889
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 11.48,
-    "volume_24h": 2131.34,
-    "score": 0.6598
+    "hours_to_close": 11.23,
+    "volume_24h": 3965.36,
+    "score": 0.6818
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.24,
+    "volume_24h": 23625.19,
+    "score": 0.6789
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,250 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 15.24,
+    "volume_24h": 17415.16,
+    "score": 0.6589
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 22, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 11.48,
-    "volume_24h": 2403.74,
-    "score": 0.6537
+    "hours_to_close": 11.23,
+    "volume_24h": 2558.76,
+    "score": 0.6575
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

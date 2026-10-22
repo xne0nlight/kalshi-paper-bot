@@ -251,7 +251,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4891,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792603858,
@@ -274,7 +274,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792731600.0,
    "score": 0.4734,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -291,7 +291,7 @@
    "opened_ts": 1792602959,
    "close_ts": 1792703040.0,
    "score": 0.555,
-   "mark_price": 0.39,
+   "mark_price": 0.38,
    "shadow": {
     "10": {
      "ts": 1792604756,
@@ -346,7 +346,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.77,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -11101,91 +11101,95 @@
    1792637131,
    95.64,
    88.46
+  ],
+  [
+   1792638025,
+   95.64,
+   88.29
   ]
  ],
  "last_run": {
-  "ts": 1792637131,
+  "ts": 1792638025,
   "error": null,
-  "markets_scanned": 4152,
-  "candidates": 60,
+  "markets_scanned": 4170,
+  "candidates": 63,
   "rejections": {
-   "too little volume": 3796,
-   "no favorite in 80-95c band": 275,
+   "too little volume": 3805,
+   "no favorite in 80-95c band": 282,
    "spread too wide": 19,
-   "favorite is slipping fast": 1,
-   "nothing for sale at the ask": 1
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 17.99,
+    "volume_24h": 31439.55,
+    "score": 0.6775
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.1 on Oct 22, 2026? \u2014 38.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.22,
+    "hours_to_close": 13.98,
     "volume_24h": 4877.24,
-    "score": 0.6705
+    "score": 0.6717
    },
    {
     "label": "Will Trump's RCP approval average be below 37.9 on Oct 22, 2026? \u2014 Below 37.9%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.22,
+    "hours_to_close": 13.98,
     "volume_24h": 3218.57,
-    "score": 0.6669
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,750 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.24,
-    "volume_24h": 31379.55,
-    "score": 0.6666
+    "score": 0.6682
    },
    {
     "label": "Will the WTI crude oil settlement price be above 94.99 USD/Bbl on Oct 22, 2026? \u2014 Above $94.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.74,
-    "volume_24h": 3184.21,
-    "score": 0.6493
+    "hours_to_close": 15.49,
+    "volume_24h": 3708.21,
+    "score": 0.6554
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $80,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 18.24,
+    "hours_to_close": 17.99,
     "volume_24h": 3070.05,
-    "score": 0.6482
+    "score": 0.6491
+   },
+   {
+    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,500 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 17.99,
+    "volume_24h": 14383.02,
+    "score": 0.6475
    },
    {
     "label": "Bitcoin price on Oct 22, 2026? \u2014 $81,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 18.24,
-    "volume_24h": 5559.37,
-    "score": 0.6375
-   },
-   {
-    "label": "Bitcoin price on Oct 22, 2026? \u2014 $84,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 18.24,
-    "volume_24h": 14192.99,
-    "score": 0.6366
+    "hours_to_close": 17.99,
+    "volume_24h": 6973.4,
+    "score": 0.6458
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.0 on Oct 22, 2026? \u2014 38.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.22,
-    "volume_24h": 1162.75,
-    "score": 0.6338
+    "hours_to_close": 13.98,
+    "volume_24h": 1163.05,
+    "score": 0.6351
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

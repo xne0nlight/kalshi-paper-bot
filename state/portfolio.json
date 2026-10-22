@@ -74,7 +74,7 @@
    "opened_ts": 1792602059,
    "close_ts": 1792688340.0,
    "score": 0.5739,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1792606556,
    "close_ts": 1792735200.0,
    "score": 0.3272,
-   "mark_price": 0.76,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792610156,
@@ -209,7 +209,7 @@
    "opened_ts": 1792610156,
    "close_ts": 1792738800.0,
    "score": 0.388,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -259,7 +259,7 @@
    "opened_ts": 1792617327,
    "close_ts": 1792702800.0,
    "score": 0.585,
-   "mark_price": 0.18,
+   "mark_price": 0.19,
    "shadow": {
     "10": {
      "ts": 1792633526,
@@ -297,7 +297,7 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -347,7 +347,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792763940.0,
    "score": 0.5322,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -364,7 +364,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -11411,17 +11411,22 @@
    1792668627,
    92.49,
    85.8
+  ],
+  [
+   1792669527,
+   92.49,
+   85.8
   ]
  ],
  "last_run": {
-  "ts": 1792668627,
+  "ts": 1792669527,
   "error": null,
   "markets_scanned": 1630,
-  "candidates": 31,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 1456,
-   "no favorite in 80-95c band": 120,
-   "spread too wide": 20,
+   "too little volume": 1455,
+   "no favorite in 80-95c band": 121,
+   "spread too wide": 24,
    "favorite is slipping fast": 3
   },
   "opened": [],
@@ -11432,72 +11437,72 @@
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.49,
-    "volume_24h": 29076.58,
-    "score": 0.6432
+    "hours_to_close": 33.24,
+    "volume_24h": 29213.53,
+    "score": 0.6435
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 33.49,
-    "volume_24h": 7503.46,
-    "score": 0.6138
+    "hours_to_close": 33.24,
+    "volume_24h": 12315.46,
+    "score": 0.6235
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 45066.25,
-    "score": 0.6032
+    "score": 0.6035
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 4476.01,
-    "score": 0.577
+    "score": 0.5773
    },
    {
     "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 33.49,
+    "price": 0.9,
+    "hours_to_close": 33.24,
     "volume_24h": 2609.37,
-    "score": 0.5694
-   },
-   {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.49,
-    "volume_24h": 3594.41,
-    "score": 0.5599
+    "score": 0.5598
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 38524.01,
-    "score": 0.5532
+    "score": 0.5535
    },
    {
-    "label": "Bitcoin price range on Oct 23, 2026? \u2014 $83,500 to 83,999.99",
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.49,
-    "volume_24h": 1639.08,
-    "score": 0.5443
+    "price": 0.93,
+    "hours_to_close": 33.24,
+    "volume_24h": 3694.31,
+    "score": 0.5511
+   },
+   {
+    "label": "Will the brent crude oil close price be above 102.99 USD/Bbl on October 23, 2026 at 5:00 PM EDT? \u2014 Above $102.99",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 33.24,
+    "volume_24h": 419.18,
+    "score": 0.5203
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 9,
    "related-market cap (Oil prices)": 9,
-   "related-market cap (Presidential approval)": 3,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Presidential approval)": 1,
+   "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,
   "watch_graded": 0,

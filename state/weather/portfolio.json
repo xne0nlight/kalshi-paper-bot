@@ -156,7 +156,7 @@
    "contracts": 0.48,
    "cost": 0.408,
    "opened_ts": 1792685728,
-   "mark_price": 0.52,
+   "mark_price": 0.77,
    "avg_price": 0.85
   },
   {
@@ -194,7 +194,7 @@
    "contracts": 1.0,
    "cost": 0.4,
    "opened_ts": 1792692929,
-   "mark_price": 0.32,
+   "mark_price": 0.31,
    "avg_price": 0.4
   },
   {
@@ -213,7 +213,7 @@
    "contracts": 0.5,
    "cost": 0.075,
    "opened_ts": 1792701025,
-   "mark_price": 0.11,
+   "mark_price": 0.13,
    "avg_price": 0.15
   },
   {
@@ -384,7 +384,7 @@
    "contracts": 10.0,
    "cost": 8.4,
    "opened_ts": 1792741527,
-   "mark_price": 0.76,
+   "mark_price": 0.69,
    "avg_price": 0.84
   },
   {
@@ -422,7 +422,7 @@
    "contracts": 1.0,
    "cost": 0.1,
    "opened_ts": 1792744227,
-   "mark_price": 0.1,
+   "mark_price": 0.09,
    "avg_price": 0.1
   },
   {
@@ -441,7 +441,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1792744227,
-   "mark_price": 0.35,
+   "mark_price": 0.37,
    "avg_price": 0.09
   },
   {
@@ -460,7 +460,7 @@
    "contracts": 1.0,
    "cost": 0.81,
    "opened_ts": 1792746924,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "avg_price": 0.81
   }
  ],
@@ -3704,6 +3704,11 @@
    1792760427,
    104.195,
    103.9916
+  ],
+  [
+   1792761327,
+   104.195,
+   103.4116
   ]
  ],
  "forecast_log": {
@@ -5210,42 +5215,6 @@
     "kind": "low",
     "close_ts": 1792738800.0
    },
-   "KXLOWTDEN-26OCT22-T53": {
-    "q": 0.9309469548345847,
-    "mkt": 0.6,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
-   "KXLOWTDEN-26OCT22-T46": {
-    "q": 2.2122831314226894e-08,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
-   "KXLOWTDEN-26OCT22-B52.5": {
-    "q": 0.0605475020699852,
-    "mkt": 0.2,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
-   "KXLOWTDEN-26OCT22-B50.5": {
-    "q": 0.00819346965171621,
-    "mkt": 0.10500000000000001,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
-   "KXLOWTDEN-26OCT22-B48.5": {
-    "q": 0.000308568164272064,
-    "mkt": 0.035,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
-   "KXLOWTDEN-26OCT22-B46.5": {
-    "q": 3.4831566113364273e-06,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1792738800.0
-   },
    "KXHIGHTPHX-26OCT22-T86": {
     "q": 0.0645045290055202,
     "mkt": 0.265,
@@ -5279,42 +5248,6 @@
    "KXHIGHTPHX-26OCT22-B79.5": {
     "q": 0.16837279508179503,
     "mkt": 0.055,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-T80": {
-    "q": 0.010507769242830624,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-T73": {
-    "q": 0.29798296539469304,
-    "mkt": 0.515,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-B79.5": {
-    "q": 0.034171039150437385,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-B77.5": {
-    "q": 0.10534372927061873,
-    "mkt": 0.055,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-B75.5": {
-    "q": 0.24848005807669282,
-    "mkt": 0.135,
-    "kind": "high",
-    "close_ts": 1792738800.0
-   },
-   "KXHIGHDEN-26OCT22-B73.5": {
-    "q": 0.3035144388647282,
-    "mkt": 0.28500000000000003,
     "kind": "high",
     "close_ts": 1792738800.0
    },
@@ -7085,24 +7018,24 @@
   },
   "totals": {
    "all": {
-    "n": 774,
-    "model": 114.1821057578679,
-    "market": 73.40467500000008
+    "n": 786,
+    "model": 114.83861100731767,
+    "market": 74.41592500000009
    },
    "low": {
-    "n": 384,
-    "model": 60.08576845577812,
-    "market": 41.37767500000002
+    "n": 390,
+    "model": 60.09427000700303,
+    "market": 41.59077500000001
    },
    "high": {
-    "n": 390,
-    "model": 54.09633730208986,
-    "market": 32.02700000000006
+    "n": 396,
+    "model": 54.744341000314705,
+    "market": 32.825150000000065
    }
   }
  },
  "last_run": {
-  "ts": 1792760427,
+  "ts": 1792761327,
   "error": null,
   "errors": [],
   "fills": [],
@@ -7114,7 +7047,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 35.6
+  "seconds": 37.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

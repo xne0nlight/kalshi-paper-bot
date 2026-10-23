@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 20.78,
+ "cash": 24.78,
  "fees_paid": 4.89,
  "peak_equity": 109.65,
  "day": "2026-10-23",
@@ -78,23 +78,6 @@
    "shadow": {}
   },
   {
-   "id": 195,
-   "ticker": "KXCBDECISIONRUSSIA-26OCT23-C25",
-   "event_ticker": "KXCBDECISIONRUSSIA-26OCT23",
-   "series": "KXCBDECISIONRUSSIA",
-   "label": "Will the Bank of Russia cut 1-25bps at the October Board of Directors\u2019 key rate meeting? \u2014 Cut 1-25bps",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.9,
-   "fee": 0.03,
-   "cost": 3.63,
-   "opened_ts": 1792667726,
-   "close_ts": 1792751340.0,
-   "score": 0.4501,
-   "mark_price": 0.86,
-   "shadow": {}
-  },
-  {
    "id": 196,
    "ticker": "KXXRPD-26OCT2317-T1.3799",
    "event_ticker": "KXXRPD-26OCT2317",
@@ -142,7 +125,7 @@
    "opened_ts": 1792674025,
    "close_ts": 1792763940.0,
    "score": 0.597,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792721725,
@@ -199,7 +182,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.45,
+   "mark_price": 0.29,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -237,7 +220,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.39,
+   "mark_price": 0.42,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -275,7 +258,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -5177,6 +5160,27 @@
    "pnl": 0.84,
    "result": "NO",
    "closed_ts": 1792757725,
+   "won": true
+  },
+  {
+   "id": 195,
+   "ticker": "KXCBDECISIONRUSSIA-26OCT23-C25",
+   "event_ticker": "KXCBDECISIONRUSSIA-26OCT23",
+   "series": "KXCBDECISIONRUSSIA",
+   "label": "Will the Bank of Russia cut 1-25bps at the October Board of Directors\u2019 key rate meeting? \u2014 Cut 1-25bps",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.9,
+   "fee": 0.03,
+   "cost": 3.63,
+   "opened_ts": 1792667726,
+   "close_ts": 1792751340.0,
+   "score": 0.4501,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.37,
+   "result": "NO",
+   "closed_ts": 1792761327,
    "won": true
   }
  ],
@@ -12200,41 +12204,49 @@
    1792760427,
    83.64,
    83.38
+  ],
+  [
+   1792761327,
+   84.01,
+   83.23
   ]
  ],
  "last_run": {
-  "ts": 1792760427,
+  "ts": 1792761327,
   "error": null,
   "markets_scanned": 45,
   "candidates": 2,
   "rejections": {
-   "too little volume": 34,
-   "no favorite in 80-95c band": 9
+   "too little volume": 33,
+   "no favorite in 80-95c band": 9,
+   "spread too wide": 1
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   195
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 28.99,
-    "volume_24h": 2576.09,
-    "score": 0.5458
+    "hours_to_close": 28.74,
+    "volume_24h": 2612.34,
+    "score": 0.5467
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 28.99,
-    "volume_24h": 720.82,
-    "score": 0.4544
+    "hours_to_close": 28.74,
+    "volume_24h": 715.27,
+    "score": 0.4546
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

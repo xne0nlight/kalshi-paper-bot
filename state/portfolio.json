@@ -325,7 +325,7 @@
    "opened_ts": 1792688426,
    "close_ts": 1792818000.0,
    "score": 0.4997,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -375,7 +375,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.58,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -12004,17 +12004,22 @@
    1792738826,
    86.81,
    85.96
+  ],
+  [
+   1792739725,
+   86.81,
+   85.93
   ]
  ],
  "last_run": {
-  "ts": 1792738826,
+  "ts": 1792739725,
   "error": null,
   "markets_scanned": 4433,
-  "candidates": 58,
+  "candidates": 66,
   "rejections": {
-   "too little volume": 3963,
-   "no favorite in 80-95c band": 342,
-   "spread too wide": 66,
+   "too little volume": 3962,
+   "no favorite in 80-95c band": 347,
+   "spread too wide": 54,
    "favorite is slipping fast": 4
   },
   "opened": [],
@@ -12025,73 +12030,73 @@
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 23, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 11.49,
-    "volume_24h": 10466.18,
-    "score": 0.71
+    "hours_to_close": 11.24,
+    "volume_24h": 10666.18,
+    "score": 0.7118
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 13.99,
-    "volume_24h": 50815.67,
-    "score": 0.705
+    "hours_to_close": 13.74,
+    "volume_24h": 52645.19,
+    "score": 0.7064
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 9.98,
+    "hours_to_close": 9.73,
     "volume_24h": 13901.5,
-    "score": 0.7014
+    "score": 0.7035
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 13.74,
+    "volume_24h": 16234.91,
+    "score": 0.6964
+   },
+   {
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 13.74,
+    "volume_24h": 9113.46,
+    "score": 0.6933
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 9.98,
-    "volume_24h": 8642.22,
-    "score": 0.6767
+    "hours_to_close": 9.73,
+    "volume_24h": 8650.77,
+    "score": 0.6788
    },
    {
     "label": "Will the WTI crude oil settlement price be between 97.00 and 97.99 USD/Bbl on Oct 23, 2026? \u2014 $97.00 to $97.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.49,
+    "hours_to_close": 11.24,
     "volume_24h": 2633.05,
-    "score": 0.6766
+    "score": 0.6783
    },
    {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.99,
-    "volume_24h": 16199.68,
-    "score": 0.675
-   },
-   {
-    "label": "Will the silver close price be above 55.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $55.99",
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 23, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.99,
-    "volume_24h": 1451.33,
-    "score": 0.6422
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Oct 23, 2026? \u2014 Above $103.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 11.49,
-    "volume_24h": 1616.57,
-    "score": 0.6407
+    "hours_to_close": 21.74,
+    "volume_24h": 5671.31,
+    "score": 0.6572
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 4,
-   "related-market cap (Precious metals)": 1,
-   "tracked only (below bet price floor)": 9
+   "related-market cap (Crypto)": 8,
+   "related-market cap (Precious metals)": 2,
+   "tracked only (below bet price floor)": 7
   },
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

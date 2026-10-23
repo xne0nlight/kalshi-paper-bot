@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.37,
- "fees_paid": 5.02,
+ "cash": 15.44,
+ "fees_paid": 5.1,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 211,
+ "next_id": 213,
  "open_positions": [
   {
    "id": 191,
@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.32,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -163,7 +163,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -180,7 +180,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -283,6 +283,40 @@
    "close_ts": 1792904400.0,
    "score": 0.5233,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 211,
+   "ticker": "KXHIGHTMIN-26OCT24-B78.5",
+   "event_ticker": "KXHIGHTMIN-26OCT24",
+   "series": "KXHIGHTMIN",
+   "label": "Will the maximum temperature be 78-79\u00b0 on Oct 24, 2026? \u2014 78\u00b0 to 79\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1792778428,
+   "close_ts": 1792908000.0,
+   "score": 0.5185,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 212,
+   "ticker": "KXHIGHTDAL-26OCT24-B86.5",
+   "event_ticker": "KXHIGHTDAL-26OCT24",
+   "series": "KXHIGHTDAL",
+   "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.86,
+   "fee": 0.05,
+   "cost": 4.35,
+   "opened_ts": 1792778428,
+   "close_ts": 1792908000.0,
+   "score": 0.4438,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -12383,91 +12417,99 @@
    1792777528,
    81.37,
    81.97
+  ],
+  [
+   1792778428,
+   81.37,
+   81.97
   ]
  ],
  "last_run": {
-  "ts": 1792777528,
+  "ts": 1792778428,
   "error": null,
-  "markets_scanned": 282,
-  "candidates": 8,
+  "markets_scanned": 450,
+  "candidates": 13,
   "rejections": {
-   "too little volume": 232,
-   "no favorite in 80-95c band": 39,
-   "spread too wide": 3
+   "too little volume": 369,
+   "no favorite in 80-95c band": 67,
+   "spread too wide": 1
   },
-  "opened": [],
+  "opened": [
+   211,
+   212
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 24, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.23,
-    "volume_24h": 2944.7,
-    "score": 0.632
-   },
-   {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.24,
-    "volume_24h": 4216.24,
-    "score": 0.6013
+    "hours_to_close": 23.99,
+    "volume_24h": 3600.12,
+    "score": 0.5968
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 933.15,
-    "score": 0.5737
+    "score": 0.574
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.98,
+    "volume_24h": 8292.32,
+    "score": 0.5664
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 24, 2026? \u2014 38.4%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.98,
+    "volume_24h": 3214.29,
+    "score": 0.5355
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.24,
-    "volume_24h": 581.6,
-    "score": 0.5283
+    "price": 0.91,
+    "hours_to_close": 34.99,
+    "volume_24h": 732.6,
+    "score": 0.5261
+   },
+   {
+    "label": "Will the maximum temperature be 78-79\u00b0 on Oct 24, 2026? \u2014 78\u00b0 to 79\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 600.57,
+    "score": 0.5185
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.98,
+    "volume_24h": 3157.58,
+    "score": 0.5149
    },
    {
     "label": "Tie is the result",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 24.24,
-    "volume_24h": 1471.66,
-    "score": 0.507
-   },
-   {
-    "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
-    "side": "yes",
     "price": 0.86,
-    "hours_to_close": 24.24,
-    "volume_24h": 220.7,
-    "score": 0.4554
-   },
-   {
-    "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 24.24,
-    "volume_24h": 249.78,
-    "score": 0.4394
-   },
-   {
-    "label": "Over 2.5 1H goals scored",
-    "side": "no",
-    "price": 0.82,
-    "hours_to_close": 24.24,
-    "volume_24h": 315.11,
-    "score": 0.3269
+    "hours_to_close": 23.99,
+    "volume_24h": 1471.66,
+    "score": 0.4676
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 1
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 29.14,
- "fees_paid": 5.0,
+ "cash": 24.37,
+ "fees_paid": 5.02,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 210,
+ "next_id": 211,
  "open_positions": [
   {
    "id": 191,
@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.26,
+   "mark_price": 0.28,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -163,7 +163,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -180,7 +180,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.93,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792864800.0,
    "score": 0.5525,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.86,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -265,7 +265,24 @@
    "opened_ts": 1792775727,
    "close_ts": 1792864800.0,
    "score": 0.4442,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
+   "shadow": {}
+  },
+  {
+   "id": 210,
+   "ticker": "KXHIGHMIA-26OCT24-B86.5",
+   "event_ticker": "KXHIGHMIA-26OCT24",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792776627,
+   "close_ts": 1792904400.0,
+   "score": 0.5233,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -12356,87 +12373,96 @@
    1792775727,
    81.37,
    82.0
+  ],
+  [
+   1792776627,
+   81.37,
+   82.04
   ]
  ],
  "last_run": {
-  "ts": 1792775727,
+  "ts": 1792776627,
   "error": null,
   "markets_scanned": 282,
-  "candidates": 7,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 238,
-   "no favorite in 80-95c band": 36,
-   "spread too wide": 1
+   "too little volume": 236,
+   "no favorite in 80-95c band": 38
   },
   "opened": [
-   208,
-   209
+   210
   ],
-  "settled": [
-   201
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.48,
+    "volume_24h": 4465.16,
+    "score": 0.605
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.73,
-    "volume_24h": 2340.99,
-    "score": 0.5934
+    "price": 0.94,
+    "hours_to_close": 23.48,
+    "volume_24h": 2436.43,
+    "score": 0.5653
    },
    {
     "label": "Al-Khaleej wins",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 24.74,
-    "volume_24h": 3630.98,
-    "score": 0.5753
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.73,
-    "volume_24h": 4406.02,
-    "score": 0.564
+    "price": 0.91,
+    "hours_to_close": 24.49,
+    "volume_24h": 3768.49,
+    "score": 0.5471
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 581.6,
-    "score": 0.5277
+    "score": 0.528
+   },
+   {
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.49,
+    "volume_24h": 929.15,
+    "score": 0.5233
    },
    {
     "label": "Tie is the result",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 24.74,
-    "volume_24h": 906.51,
-    "score": 0.4801
+    "price": 0.85,
+    "hours_to_close": 24.49,
+    "volume_24h": 1465.44,
+    "score": 0.5063
    },
    {
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 24.74,
+    "price": 0.86,
+    "hours_to_close": 24.49,
     "volume_24h": 220.7,
-    "score": 0.4442
+    "score": 0.4548
    },
    {
     "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 249.77,
-    "score": 0.4383
+    "score": 0.4388
    }
   ],
   "skipped": {},
   "watch_added": 1,
-  "watch_graded": 4,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

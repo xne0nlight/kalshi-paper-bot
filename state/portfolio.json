@@ -125,7 +125,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.08,
+   "mark_price": 0.03,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -163,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.39,
+   "mark_price": 0.48,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -218,7 +218,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.89,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -252,7 +252,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.84,
+   "mark_price": 0.82,
    "shadow": {}
   }
  ],
@@ -12246,16 +12246,21 @@
    1792765827,
    85.91,
    82.28
+  ],
+  [
+   1792766726,
+   85.91,
+   81.71
   ]
  ],
  "last_run": {
-  "ts": 1792765827,
+  "ts": 1792766726,
   "error": null,
   "markets_scanned": 63,
-  "candidates": 2,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 50,
-   "no favorite in 80-95c band": 10,
+   "too little volume": 47,
+   "no favorite in 80-95c band": 12,
    "spread too wide": 1
   },
   "opened": [],
@@ -12266,21 +12271,31 @@
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 27.49,
-    "volume_24h": 3742.78,
-    "score": 0.5607
+    "hours_to_close": 27.24,
+    "volume_24h": 3786.28,
+    "score": 0.5615
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 26.23,
+    "volume_24h": 519.15,
+    "score": 0.5589
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 27.49,
+    "hours_to_close": 27.24,
     "volume_24h": 597.79,
-    "score": 0.451
+    "score": 0.4515
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
+  "skipped": {
+   "related-market cap (Presidential approval)": 1
+  },
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

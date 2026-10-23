@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.04,
+   "mark_price": 0.03,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -163,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.23,
+   "mark_price": 0.27,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -218,7 +218,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -12276,16 +12276,21 @@
    1792771227,
    85.91,
    81.69
+  ],
+  [
+   1792772127,
+   85.91,
+   82.02
   ]
  ],
  "last_run": {
-  "ts": 1792771227,
+  "ts": 1792772127,
   "error": null,
   "markets_scanned": 158,
-  "candidates": 5,
+  "candidates": 6,
   "rejections": {
    "too little volume": 137,
-   "no favorite in 80-95c band": 15,
+   "no favorite in 80-95c band": 14,
    "spread too wide": 1
   },
   "opened": [],
@@ -12293,51 +12298,59 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be below 38.4 on Oct 24, 2026? \u2014 Below 38.4%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 24.73,
+    "volume_24h": 4450.81,
+    "score": 0.642
+   },
+   {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 25.99,
-    "volume_24h": 3641.61,
-    "score": 0.5627
+    "hours_to_close": 25.74,
+    "volume_24h": 3626.61,
+    "score": 0.5631
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 24.98,
-    "volume_24h": 2821.44,
-    "score": 0.5066
+    "hours_to_close": 24.73,
+    "volume_24h": 2842.45,
+    "score": 0.5074
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 24.98,
-    "volume_24h": 1635.76,
-    "score": 0.4788
+    "price": 0.89,
+    "hours_to_close": 24.73,
+    "volume_24h": 1642.05,
+    "score": 0.4995
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 25.99,
-    "volume_24h": 645.11,
-    "score": 0.4564
+    "hours_to_close": 25.74,
+    "volume_24h": 625.11,
+    "score": 0.4559
    },
    {
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.84,
-    "hours_to_close": 25.99,
-    "volume_24h": 221.22,
-    "score": 0.4316
+    "hours_to_close": 25.74,
+    "volume_24h": 220.7,
+    "score": 0.4321
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 2,
-   "related-market cap (Presidential approval)": 1
+   "related-market cap (Presidential approval)": 2,
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

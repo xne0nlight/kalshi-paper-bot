@@ -375,7 +375,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.53,
+   "mark_price": 0.5,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -413,7 +413,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   }
  ],
@@ -11959,18 +11959,24 @@
    1792730726,
    86.81,
    86.04
+  ],
+  [
+   1792731626,
+   86.81,
+   86.0
   ]
  ],
  "last_run": {
-  "ts": 1792730726,
+  "ts": 1792731626,
   "error": null,
-  "markets_scanned": 4391,
-  "candidates": 62,
+  "markets_scanned": 4410,
+  "candidates": 56,
   "rejections": {
-   "too little volume": 3947,
-   "no favorite in 80-95c band": 326,
-   "spread too wide": 48,
-   "favorite is slipping fast": 8
+   "too little volume": 3964,
+   "no favorite in 80-95c band": 328,
+   "spread too wide": 55,
+   "favorite is slipping fast": 6,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -11980,71 +11986,71 @@
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 12.23,
-    "volume_24h": 13467.66,
-    "score": 0.6852
+    "hours_to_close": 11.98,
+    "volume_24h": 13595.63,
+    "score": 0.6868
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 16.24,
-    "volume_24h": 15133.68,
-    "score": 0.6744
-   },
-   {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 16.24,
-    "volume_24h": 8948.25,
-    "score": 0.6708
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 15135.68,
+    "score": 0.6855
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 12.23,
-    "volume_24h": 8404.9,
-    "score": 0.6596
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 16.24,
-    "volume_24h": 44998.52,
-    "score": 0.6544
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 16.24,
-    "volume_24h": 41166.95,
-    "score": 0.6444
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be between 97.00 and 97.99 USD/Bbl on Oct 23, 2026? \u2014 $97.00 to $97.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 13.74,
-    "volume_24h": 2526.63,
-    "score": 0.6416
+    "hours_to_close": 11.98,
+    "volume_24h": 8447.68,
+    "score": 0.6613
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 23, 2026? \u2014 Above $97.99",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 13.74,
-    "volume_24h": 9428.0,
-    "score": 0.6345
+    "price": 0.89,
+    "hours_to_close": 13.49,
+    "volume_24h": 9476.51,
+    "score": 0.646
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 15.99,
+    "volume_24h": 45539.52,
+    "score": 0.6455
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Oct 23, 2026? \u2014 Above $103.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 13.49,
+    "volume_24h": 1616.57,
+    "score": 0.6384
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 41153.95,
+    "score": 0.6355
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 23, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 11.98,
+    "volume_24h": 9551.77,
+    "score": 0.6353
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 7,
+   "related-market cap (Crypto)": 4,
    "related-market cap (Precious metals)": 2,
-   "tracked only (below bet price floor)": 9
+   "tracked only (below bet price floor)": 7
   },
   "watch_added": 0,
   "watch_graded": 0,

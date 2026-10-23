@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.78,
+ "cash": 41.78,
  "fees_paid": 4.89,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
  "next_id": 207,
  "open_positions": [
-  {
-   "id": 188,
-   "ticker": "KXHIGHTPHX-26OCT22-B81.5",
-   "event_ticker": "KXHIGHTPHX-26OCT22",
-   "series": "KXHIGHTPHX",
-   "label": "Will the maximum temperature be 81-82\u00b0 on Oct 22, 2026? \u2014 81\u00b0 to 82\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.85,
-   "fee": 0.06,
-   "cost": 5.16,
-   "opened_ts": 1792610156,
-   "close_ts": 1792738800.0,
-   "score": 0.388,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
   {
    "id": 191,
    "ticker": "KXHIGHLAX-26OCT22-B66.5",
@@ -44,23 +27,6 @@
    "shadow": {}
   },
   {
-   "id": 193,
-   "ticker": "KXGENERICBALLOTVOTEHUB-26OCT23-T8.1",
-   "event_ticker": "KXGENERICBALLOTVOTEHUB-26OCT23",
-   "series": "KXGENERICBALLOTVOTEHUB",
-   "label": "Above 8.1%",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.86,
-   "fee": 0.06,
-   "cost": 5.22,
-   "opened_ts": 1792667726,
-   "close_ts": 1792763940.0,
-   "score": 0.5322,
-   "mark_price": 0.96,
-   "shadow": {}
-  },
-  {
    "id": 194,
    "ticker": "KXGOLDW-26OCT2317-T4154.99",
    "event_ticker": "KXGOLDW-26OCT2317",
@@ -74,7 +40,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4522,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -108,31 +74,8 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
-  },
-  {
-   "id": 198,
-   "ticker": "KXTRUMPVH-26OCT23-T37.4",
-   "event_ticker": "KXTRUMPVH-26OCT23",
-   "series": "KXTRUMPVH",
-   "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1792674025,
-   "close_ts": 1792763940.0,
-   "score": 0.597,
-   "mark_price": 0.97,
-   "shadow": {
-    "10": {
-     "ts": 1792721725,
-     "bid": 0.84,
-     "proceeds": 4.15
-    }
-   }
   },
   {
    "id": 199,
@@ -182,7 +125,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.21,
+   "mark_price": 0.3,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -220,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.42,
+   "mark_price": 0.39,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -309,7 +252,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -5181,6 +5124,75 @@
    "pnl": 0.37,
    "result": "NO",
    "closed_ts": 1792761327,
+   "won": true
+  },
+  {
+   "id": 188,
+   "ticker": "KXHIGHTPHX-26OCT22-B81.5",
+   "event_ticker": "KXHIGHTPHX-26OCT22",
+   "series": "KXHIGHTPHX",
+   "label": "Will the maximum temperature be 81-82\u00b0 on Oct 22, 2026? \u2014 81\u00b0 to 82\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1792610156,
+   "close_ts": 1792738800.0,
+   "score": 0.388,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.84,
+   "result": "NO",
+   "closed_ts": 1792764925,
+   "won": true
+  },
+  {
+   "id": 193,
+   "ticker": "KXGENERICBALLOTVOTEHUB-26OCT23-T8.1",
+   "event_ticker": "KXGENERICBALLOTVOTEHUB-26OCT23",
+   "series": "KXGENERICBALLOTVOTEHUB",
+   "label": "Above 8.1%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1792667726,
+   "close_ts": 1792763940.0,
+   "score": 0.5322,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.78,
+   "result": "YES",
+   "closed_ts": 1792764925,
+   "won": true
+  },
+  {
+   "id": 198,
+   "ticker": "KXTRUMPVH-26OCT23-T37.4",
+   "event_ticker": "KXTRUMPVH-26OCT23",
+   "series": "KXTRUMPVH",
+   "label": "Will Donald Trump's VoteHub approval polling average be above 37.4% at 10:00 AM ET on Oct 23, 2026? \u2014 Above 37.4%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792674025,
+   "close_ts": 1792763940.0,
+   "score": 0.597,
+   "shadow": {
+    "10": {
+     "ts": 1792721725,
+     "bid": 0.84,
+     "proceeds": 4.15
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1792764925,
    "won": true
   }
  ],
@@ -12224,42 +12236,51 @@
    1792764028,
    84.01,
    82.39
+  ],
+  [
+   1792764925,
+   85.91,
+   83.45
   ]
  ],
  "last_run": {
-  "ts": 1792764028,
+  "ts": 1792764925,
   "error": null,
-  "markets_scanned": 45,
+  "markets_scanned": 63,
   "candidates": 2,
   "rejections": {
-   "too little volume": 33,
+   "too little volume": 50,
    "no favorite in 80-95c band": 9,
-   "spread too wide": 1
+   "spread too wide": 2
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   188,
+   193,
+   198
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 3742.78,
-    "score": 0.5598
+    "score": 0.5602
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 27.99,
-    "volume_24h": 603.04,
-    "score": 0.4504
+    "hours_to_close": 27.74,
+    "volume_24h": 597.79,
+    "score": 0.4505
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 15,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

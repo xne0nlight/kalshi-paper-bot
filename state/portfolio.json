@@ -285,7 +285,7 @@
    "opened_ts": 1792674025,
    "close_ts": 1792763940.0,
    "score": 0.597,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792721725,
@@ -375,7 +375,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.6,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -12044,94 +12044,96 @@
    1792746026,
    86.81,
    85.99
+  ],
+  [
+   1792746924,
+   86.81,
+   86.02
   ]
  ],
  "last_run": {
-  "ts": 1792746026,
+  "ts": 1792746924,
   "error": null,
-  "markets_scanned": 4433,
-  "candidates": 58,
+  "markets_scanned": 237,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 3944,
-   "no favorite in 80-95c band": 366,
-   "spread too wide": 64,
-   "favorite is slipping fast": 1
+   "no favorite in 80-95c band": 121,
+   "too little volume": 94,
+   "spread too wide": 6
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
+    "label": "Will it rain in Denver on Oct 23, 2026?",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 7.98,
-    "volume_24h": 13966.13,
-    "score": 0.7203
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 43585.79,
-    "score": 0.7167
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 11.99,
-    "volume_24h": 16765.45,
-    "score": 0.7067
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 7.98,
-    "volume_24h": 8676.44,
-    "score": 0.6956
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 23, 2026? \u2014 Above $97.99",
-    "side": "yes",
     "price": 0.91,
-    "hours_to_close": 9.49,
-    "volume_24h": 10672.2,
-    "score": 0.6955
+    "hours_to_close": 21.74,
+    "volume_24h": 6021.76,
+    "score": 0.6192
    },
    {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 53725.56,
-    "score": 0.6867
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.49 USD/Bbl on Oct 23, 2026? \u2014 Above $97.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 9.49,
-    "volume_24h": 1336.62,
-    "score": 0.67
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Oct 23, 2026? \u2014 Above $102.99",
+    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 23, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 9.49,
-    "volume_24h": 1932.99,
-    "score": 0.662
+    "hours_to_close": 20.74,
+    "volume_24h": 2518.76,
+    "score": 0.6136
+   },
+   {
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 23, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.74,
+    "volume_24h": 1154.87,
+    "score": 0.6082
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 23, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 20.74,
+    "volume_24h": 2687.43,
+    "score": 0.5857
+   },
+   {
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 23, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.74,
+    "volume_24h": 1025.43,
+    "score": 0.5844
+   },
+   {
+    "label": "Will it rain in Los Angeles on Oct 23, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 11085.43,
+    "score": 0.5531
+   },
+   {
+    "label": "Will the maximum temperature be <73\u00b0 on Oct 23, 2026? \u2014 72\u00b0 or below",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.74,
+    "volume_24h": 1233.12,
+    "score": 0.5504
+   },
+   {
+    "label": "Al-Khaleej wins",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 32.74,
+    "volume_24h": 2478.1,
+    "score": 0.5488
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 6,
-   "related-market cap (Precious metals)": 2,
-   "tracked only (below bet price floor)": 13
+   "tracked only (below bet price floor)": 5
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

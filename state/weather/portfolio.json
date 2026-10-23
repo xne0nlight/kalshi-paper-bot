@@ -2,56 +2,10 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 9.932,
+ "cash": 9.952,
  "fees_paid": 0.0,
- "next_id": 571,
+ "next_id": 574,
  "orders": [
-  {
-   "ticker": "KXHIGHCHI-26OCT23-B69.5",
-   "event_ticker": "KXHIGHCHI-26OCT23",
-   "series": "KXHIGHCHI",
-   "kind": "high",
-   "code": "MDW",
-   "date": "2026-10-23",
-   "label": "MDW high 69\u201370\u00b0 10-23",
-   "side": "yes",
-   "close_ts": 1792821600.0,
-   "q_model": 0.4688,
-   "mid": 0.105,
-   "strategy": "edge",
-   "price": 0.1,
-   "edge": 0.3688,
-   "q_used": 0.2869,
-   "id": 560,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1792738826,
-   "checked_ts": 1792743325,
-   "reserved": 0.1
-  },
-  {
-   "ticker": "KXLOWTSEA-26OCT23-B44.5",
-   "event_ticker": "KXLOWTSEA-26OCT23",
-   "series": "KXLOWTSEA",
-   "kind": "low",
-   "code": "SEA",
-   "date": "2026-10-23",
-   "label": "SEA low 44\u201345\u00b0 10-23",
-   "side": "yes",
-   "close_ts": 1792828800.0,
-   "q_model": 0.4467,
-   "mid": 0.155,
-   "strategy": "edge",
-   "price": 0.09,
-   "edge": 0.3567,
-   "q_used": 0.3009,
-   "id": 564,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1792739725,
-   "checked_ts": 1792743325,
-   "reserved": 0.09
-  },
   {
    "ticker": "KXLOWTSDF-26OCT23-T46",
    "event_ticker": "KXLOWTSDF-26OCT23",
@@ -72,7 +26,7 @@
    "contracts": 6,
    "filled": 0.0,
    "placed_ts": 1792740625,
-   "checked_ts": 1792743325,
+   "checked_ts": 1792744227,
    "reserved": 0.6
   },
   {
@@ -95,31 +49,54 @@
    "contracts": 10,
    "filled": 0.0,
    "placed_ts": 1792742429,
-   "checked_ts": 1792743325,
+   "checked_ts": 1792744227,
    "reserved": 8.4
   },
   {
-   "ticker": "KXLOWTSATX-26OCT23-B56.5",
-   "event_ticker": "KXLOWTSATX-26OCT23",
-   "series": "KXLOWTSATX",
+   "ticker": "KXLOWTSEA-26OCT23-B38.5",
+   "event_ticker": "KXLOWTSEA-26OCT23",
+   "series": "KXLOWTSEA",
    "kind": "low",
-   "code": "SAT",
+   "code": "SEA",
    "date": "2026-10-23",
-   "label": "SAT low 56\u201357\u00b0 10-23",
+   "label": "SEA low 38\u201339\u00b0 10-23",
+   "side": "no",
+   "close_ts": 1792828800.0,
+   "q_model": 0.9994,
+   "mid": 0.91,
+   "strategy": "favorite",
+   "price": 0.85,
+   "edge": 0.1494,
+   "q_used": 0.9547,
+   "id": 571,
+   "contracts": 11,
+   "filled": 0.0,
+   "placed_ts": 1792744227,
+   "checked_ts": 1792744227,
+   "reserved": 9.35
+  },
+  {
+   "ticker": "KXLOWTOKC-26OCT23-B52.5",
+   "event_ticker": "KXLOWTOKC-26OCT23",
+   "series": "KXLOWTOKC",
+   "kind": "low",
+   "code": "OKC",
+   "date": "2026-10-23",
+   "label": "OKC low 52\u201353\u00b0 10-23",
    "side": "no",
    "close_ts": 1792821600.0,
-   "q_model": 0.9892,
-   "mid": 0.81,
-   "strategy": "favorite",
-   "price": 0.81,
-   "edge": 0.1792,
-   "q_used": 0.8996,
-   "id": 569,
-   "contracts": 12,
+   "q_model": 0.9798,
+   "mid": 0.33,
+   "strategy": "edge",
+   "price": 0.17,
+   "edge": 0.8098,
+   "q_used": 0.6549,
+   "id": 572,
+   "contracts": 2,
    "filled": 0.0,
-   "placed_ts": 1792743325,
-   "checked_ts": 1792743325,
-   "reserved": 9.72
+   "placed_ts": 1792744227,
+   "checked_ts": 1792744227,
+   "reserved": 0.34
   },
   {
    "ticker": "KXLOWTNOLA-26OCT23-B58.5",
@@ -132,17 +109,17 @@
    "side": "yes",
    "close_ts": 1792821600.0,
    "q_model": 0.8155,
-   "mid": 0.265,
+   "mid": 0.19,
    "strategy": "edge",
-   "price": 0.09,
-   "edge": 0.7255,
-   "q_used": 0.5403,
-   "id": 570,
+   "price": 0.1,
+   "edge": 0.7155,
+   "q_used": 0.5028,
+   "id": 573,
    "contracts": 1,
    "filled": 0.0,
-   "placed_ts": 1792743325,
-   "checked_ts": 1792743325,
-   "reserved": 0.09
+   "placed_ts": 1792744227,
+   "checked_ts": 1792744227,
+   "reserved": 0.1
   }
  ],
  "positions": [
@@ -466,7 +443,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1792682126,
-   "mark_price": 0.06,
+   "mark_price": 0.08,
    "avg_price": 0.37
   },
   {
@@ -542,7 +519,7 @@
    "contracts": 0.48,
    "cost": 0.408,
    "opened_ts": 1792685728,
-   "mark_price": 0.79,
+   "mark_price": 0.85,
    "avg_price": 0.85
   },
   {
@@ -580,7 +557,7 @@
    "contracts": 1.0,
    "cost": 0.4,
    "opened_ts": 1792692929,
-   "mark_price": 0.44,
+   "mark_price": 0.41,
    "avg_price": 0.4
   },
   {
@@ -599,7 +576,7 @@
    "contracts": 0.5,
    "cost": 0.075,
    "opened_ts": 1792701025,
-   "mark_price": 0.12,
+   "mark_price": 0.13,
    "avg_price": 0.15
   },
   {
@@ -637,7 +614,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1792727126,
-   "mark_price": 0.11,
+   "mark_price": 0.13,
    "avg_price": 0.08
   },
   {
@@ -675,7 +652,7 @@
    "contracts": 2.0,
    "cost": 0.48,
    "opened_ts": 1792736126,
-   "mark_price": 0.23,
+   "mark_price": 0.22,
    "avg_price": 0.24
   },
   {
@@ -713,7 +690,7 @@
    "contracts": 2.0,
    "cost": 0.52,
    "opened_ts": 1792737925,
-   "mark_price": 0.21,
+   "mark_price": 0.29,
    "avg_price": 0.26
   },
   {
@@ -751,7 +728,7 @@
    "contracts": 1.0,
    "cost": 0.81,
    "opened_ts": 1792740625,
-   "mark_price": 0.81,
+   "mark_price": 0.69,
    "avg_price": 0.81
   },
   {
@@ -770,7 +747,7 @@
    "contracts": 10.0,
    "cost": 8.4,
    "opened_ts": 1792741527,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "avg_price": 0.84
   },
   {
@@ -789,8 +766,46 @@
    "contracts": 1.0,
    "cost": 0.15,
    "opened_ts": 1792742429,
-   "mark_price": 0.12,
+   "mark_price": 0.06,
    "avg_price": 0.15
+  },
+  {
+   "ticker": "KXHIGHCHI-26OCT23-B69.5",
+   "event_ticker": "KXHIGHCHI-26OCT23",
+   "series": "KXHIGHCHI",
+   "kind": "high",
+   "code": "MDW",
+   "date": "2026-10-23",
+   "label": "MDW high 69\u201370\u00b0 10-23",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792821600.0,
+   "q_model": 0.4688,
+   "id": 560,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1792744227,
+   "mark_price": 0.1,
+   "avg_price": 0.1
+  },
+  {
+   "ticker": "KXLOWTSEA-26OCT23-B44.5",
+   "event_ticker": "KXLOWTSEA-26OCT23",
+   "series": "KXLOWTSEA",
+   "kind": "low",
+   "code": "SEA",
+   "date": "2026-10-23",
+   "label": "SEA low 44\u201345\u00b0 10-23",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792828800.0,
+   "q_model": 0.4467,
+   "id": 564,
+   "contracts": 1.0,
+   "cost": 0.09,
+   "opened_ts": 1792744227,
+   "mark_price": 0.09,
+   "avg_price": 0.09
   }
  ],
  "closed": [
@@ -3639,6 +3654,11 @@
    1792743325,
    98.885,
    99.9712
+  ],
+  [
+   1792744227,
+   98.885,
+   100.075
   ]
  ],
  "forecast_log": {
@@ -8225,33 +8245,62 @@
   }
  },
  "last_run": {
-  "ts": 1792743325,
+  "ts": 1792744227,
   "error": null,
   "errors": [],
-  "fills": [],
+  "fills": [
+   {
+    "ticker": "KXHIGHCHI-26OCT23-B69.5",
+    "side": "yes",
+    "qty": 1.0,
+    "price": 0.1,
+    "strategy": "edge"
+   },
+   {
+    "ticker": "KXLOWTSEA-26OCT23-B44.5",
+    "side": "yes",
+    "qty": 0.5,
+    "price": 0.09,
+    "strategy": "edge"
+   },
+   {
+    "ticker": "KXLOWTSEA-26OCT23-B44.5",
+    "side": "yes",
+    "qty": 0.5,
+    "price": 0.09,
+    "strategy": "edge"
+   }
+  ],
   "settled": [],
   "cancelled": [
    {
-    "ticker": "KXLOWTSAN-26OCT23-B54.5",
-    "reason": "reprice 0.91->0.80"
+    "ticker": "KXLOWTSATX-26OCT23-B56.5",
+    "reason": "reprice 0.81->0.75"
    },
    {
-    "ticker": "KXLOWTOKC-26OCT23-B52.5",
-    "reason": "reprice 0.25->0.16"
+    "ticker": "KXLOWTNOLA-26OCT23-B58.5",
+    "reason": "reprice 0.09->0.10"
    }
   ],
   "placed": [
    {
-    "ticker": "KXLOWTSATX-26OCT23-B56.5",
+    "ticker": "KXLOWTSEA-26OCT23-B38.5",
     "side": "no",
-    "price": 0.81,
-    "contracts": 12,
+    "price": 0.85,
+    "contracts": 11,
     "strategy": "favorite"
+   },
+   {
+    "ticker": "KXLOWTOKC-26OCT23-B52.5",
+    "side": "no",
+    "price": 0.17,
+    "contracts": 2,
+    "strategy": "edge"
    },
    {
     "ticker": "KXLOWTNOLA-26OCT23-B58.5",
     "side": "yes",
-    "price": 0.09,
+    "price": 0.1,
     "contracts": 1,
     "strategy": "edge"
    }
@@ -8294,20 +8343,20 @@
      {
       "label": "52\u201353\u00b0",
       "q": 0.006,
-      "bid": 0.02,
-      "ask": 0.32
+      "bid": 0.03,
+      "ask": 0.3
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.072,
-      "bid": 0.12,
-      "ask": 0.6
+      "bid": 0.15,
+      "ask": 0.58
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.291,
-      "bid": 0.2,
-      "ask": 0.68
+      "bid": 0.23,
+      "ask": 0.64
      },
      {
       "label": "\u226558\u00b0",
@@ -8348,7 +8397,7 @@
       "label": "38\u201339\u00b0",
       "q": 0.001,
       "bid": 0.02,
-      "ask": 0.17
+      "ask": 0.16
      },
      {
       "label": "40\u201341\u00b0",
@@ -8359,20 +8408,20 @@
      {
       "label": "42\u201343\u00b0",
       "q": 0.24,
-      "bid": 0.26,
-      "ask": 0.74
+      "bid": 0.28,
+      "ask": 0.73
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.447,
-      "bid": 0.08,
+      "bid": 0.09,
       "ask": 0.52
      },
      {
       "label": "\u226546\u00b0",
       "q": 0.284,
-      "bid": 0.01,
-      "ask": 0.02
+      "bid": null,
+      "ask": 0.01
      }
     ]
    },
@@ -8387,7 +8436,7 @@
      "p90": 64.4
     },
     "nbm": 59.8,
-    "observed": null,
+    "observed": 64.4,
     "bias": 0.49,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -8417,20 +8466,20 @@
      },
      {
       "label": "58\u201359\u00b0",
-      "q": 0.25,
+      "q": 0.251,
       "bid": 0.02,
       "ask": 0.46
      },
      {
       "label": "60\u201361\u00b0",
-      "q": 0.245,
+      "q": 0.247,
       "bid": 0.02,
       "ask": 0.63
      },
      {
       "label": "\u226562\u00b0",
-      "q": 0.391,
-      "bid": 0.06,
+      "q": 0.389,
+      "bid": 0.07,
       "ask": 0.74
      }
     ]
@@ -8446,7 +8495,7 @@
      "p90": 57.2
     },
     "nbm": 53.9,
-    "observed": null,
+    "observed": 59.0,
     "bias": 0.81,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -8478,19 +8527,19 @@
       "label": "51\u201352\u00b0",
       "q": 0.27,
       "bid": 0.02,
-      "ask": 0.05
+      "ask": 0.04
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.256,
-      "bid": 0.27,
-      "ask": 0.34
+      "bid": 0.25,
+      "ask": 0.37
      },
      {
       "label": "\u226555\u00b0",
       "q": 0.408,
-      "bid": 0.61,
-      "ask": 0.73
+      "bid": 0.57,
+      "ask": 0.71
      }
     ]
    },
@@ -8543,13 +8592,13 @@
       "label": "58\u201359\u00b0",
       "q": 0.194,
       "bid": 0.14,
-      "ask": 0.53
+      "ask": 0.51
      },
      {
       "label": "\u226560\u00b0",
       "q": 0.772,
-      "bid": 0.38,
-      "ask": 0.78
+      "bid": 0.37,
+      "ask": 0.77
      }
     ]
    },
@@ -8642,20 +8691,20 @@
      {
       "label": "55\u201356\u00b0",
       "q": 0.455,
-      "bid": 0.15,
-      "ask": 0.16
+      "bid": 0.14,
+      "ask": 0.15
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.29,
-      "bid": 0.59,
-      "ask": 0.6
+      "bid": 0.6,
+      "ask": 0.61
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.05,
-      "bid": 0.14,
-      "ask": 0.15
+      "bid": 0.17,
+      "ask": 0.19
      },
      {
       "label": "61\u201362\u00b0",
@@ -8682,7 +8731,7 @@
      "p90": 72.9
     },
     "nbm": 69.9,
-    "observed": null,
+    "observed": 64.4,
     "bias": -0.24,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -8702,19 +8751,19 @@
       "label": "68\u201369\u00b0",
       "q": 0.209,
       "bid": 0.01,
-      "ask": 0.04
+      "ask": 0.02
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.333,
-      "bid": 0.4,
-      "ask": 0.46
+      "bid": 0.32,
+      "ask": 0.44
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.276,
-      "bid": 0.57,
-      "ask": 0.58
+      "bid": 0.59,
+      "ask": 0.6
      },
      {
       "label": "74\u201375\u00b0",
@@ -8741,7 +8790,7 @@
      "p90": 70.2
     },
     "nbm": 69.4,
-    "observed": null,
+    "observed": 60.8,
     "bias": 0.79,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -8766,20 +8815,20 @@
      {
       "label": "68\u201369\u00b0",
       "q": 0.295,
-      "bid": 0.1,
-      "ask": 0.11
+      "bid": 0.09,
+      "ask": 0.1
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.169,
-      "bid": 0.78,
-      "ask": 0.79
+      "bid": 0.7,
+      "ask": 0.71
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.05,
-      "bid": 0.08,
-      "ask": 0.09
+      "bid": 0.16,
+      "ask": 0.17
      },
      {
       "label": "\u226574\u00b0",
@@ -8825,14 +8874,14 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.302,
-      "bid": 0.11,
-      "ask": 0.12
+      "bid": 0.13,
+      "ask": 0.14
      },
      {
       "label": "71\u201372\u00b0",
       "q": 0.43,
-      "bid": 0.63,
-      "ask": 0.65
+      "bid": 0.62,
+      "ask": 0.64
      },
      {
       "label": "73\u201374\u00b0",
@@ -8885,7 +8934,7 @@
       "label": "59\u201360\u00b0",
       "q": 0.054,
       "bid": 0.02,
-      "ask": 0.12
+      "ask": 0.11
      },
      {
       "label": "61\u201362\u00b0",
@@ -8896,14 +8945,14 @@
      {
       "label": "63\u201364\u00b0",
       "q": 0.277,
-      "bid": 0.33,
-      "ask": 0.41
+      "bid": 0.42,
+      "ask": 0.53
      },
      {
       "label": "\u226565\u00b0",
       "q": 0.439,
-      "bid": 0.47,
-      "ask": 0.58
+      "bid": 0.41,
+      "ask": 0.5
      }
     ]
    },
@@ -8932,7 +8981,7 @@
       "label": "\u226450\u00b0",
       "q": 0.001,
       "bid": 0.03,
-      "ask": 0.1
+      "ask": 0.13
      },
      {
       "label": "51\u201352\u00b0",
@@ -8943,26 +8992,26 @@
      {
       "label": "53\u201354\u00b0",
       "q": 0.064,
-      "bid": 0.07,
+      "bid": 0.09,
       "ask": 0.56
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.214,
       "bid": 0.04,
-      "ask": 0.31
+      "ask": 0.32
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.37,
-      "bid": 0.11,
-      "ask": 0.27
+      "bid": 0.3,
+      "ask": 0.63
      },
      {
       "label": "\u226559\u00b0",
       "q": 0.34,
-      "bid": 0.08,
-      "ask": 0.25
+      "bid": 0.23,
+      "ask": 0.57
      }
     ]
    },
@@ -9002,26 +9051,26 @@
      {
       "label": "77\u201378\u00b0",
       "q": 0.27,
-      "bid": 0.03,
-      "ask": 0.04
+      "bid": 0.05,
+      "ask": 0.06
      },
      {
       "label": "79\u201380\u00b0",
       "q": 0.403,
-      "bid": 0.15,
-      "ask": 0.16
+      "bid": 0.26,
+      "ask": 0.3
      },
      {
       "label": "81\u201382\u00b0",
       "q": 0.21,
-      "bid": 0.62,
-      "ask": 0.63
+      "bid": 0.43,
+      "ask": 0.44
      },
      {
       "label": "\u226583\u00b0",
       "q": 0.042,
-      "bid": 0.17,
-      "ask": 0.19
+      "bid": 0.28,
+      "ask": 0.31
      }
     ]
    },
@@ -9036,7 +9085,7 @@
      "p90": 78.2
     },
     "nbm": 77.2,
-    "observed": 62.6,
+    "observed": 62.959999999999994,
     "bias": 0.46,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -9055,14 +9104,14 @@
      {
       "label": "76\u201377\u00b0",
       "q": 0.414,
-      "bid": 0.27,
-      "ask": 0.28
+      "bid": 0.3,
+      "ask": 0.31
      },
      {
       "label": "78\u201379\u00b0",
       "q": 0.374,
-      "bid": 0.62,
-      "ask": 0.63
+      "bid": 0.58,
+      "ask": 0.59
      },
      {
       "label": "80\u201381\u00b0",
@@ -9121,25 +9170,25 @@
       "label": "56\u201357\u00b0",
       "q": 0.011,
       "bid": 0.18,
-      "ask": 0.2
+      "ask": 0.26
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.04,
-      "bid": 0.08,
-      "ask": 0.51
+      "bid": 0.07,
+      "ask": 0.41
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.077,
-      "bid": 0.05,
-      "ask": 0.71
+      "bid": 0.15,
+      "ask": 0.58
      },
      {
       "label": "\u226562\u00b0",
       "q": 0.871,
-      "bid": 0.05,
-      "ask": 0.39
+      "bid": 0.06,
+      "ask": 0.29
      }
     ]
    },
@@ -9179,14 +9228,14 @@
      {
       "label": "52\u201353\u00b0",
       "q": 0.02,
-      "bid": 0.46,
-      "ask": 0.85
+      "bid": 0.5,
+      "ask": 0.84
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.157,
-      "bid": 0.04,
-      "ask": 0.39
+      "bid": 0.06,
+      "ask": 0.48
      },
      {
       "label": "56\u201357\u00b0",
@@ -9232,20 +9281,20 @@
      {
       "label": "54\u201355\u00b0",
       "q": 0.004,
-      "bid": 0.07,
+      "bid": 0.14,
       "ask": 0.29
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.181,
-      "bid": 0.21,
+      "bid": 0.35,
       "ask": 0.48
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.815,
-      "bid": 0.08,
-      "ask": 0.45
+      "bid": 0.09,
+      "ask": 0.29
      },
      {
       "label": "60\u201361\u00b0",
@@ -9298,25 +9347,25 @@
       "label": "53\u201354\u00b0",
       "q": 0.009,
       "bid": 0.03,
-      "ask": 0.09
+      "ask": 0.08
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.073,
-      "bid": 0.13,
+      "bid": 0.2,
       "ask": 0.59
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.263,
-      "bid": 0.24,
-      "ask": 0.6
+      "bid": 0.26,
+      "ask": 0.56
      },
      {
       "label": "\u226559\u00b0",
       "q": 0.654,
-      "bid": 0.05,
-      "ask": 0.19
+      "bid": null,
+      "ask": 0.01
      }
     ]
    },
@@ -9362,7 +9411,7 @@
      {
       "label": "57\u201358\u00b0",
       "q": 0.037,
-      "bid": 0.05,
+      "bid": 0.06,
       "ask": 0.28
      },
      {
@@ -9374,7 +9423,7 @@
      {
       "label": "\u226561\u00b0",
       "q": 0.761,
-      "bid": 0.06,
+      "bid": 0.08,
       "ask": 0.21
      }
     ]
@@ -9427,14 +9476,14 @@
      {
       "label": "57\u201358\u00b0",
       "q": 0.031,
-      "bid": 0.07,
-      "ask": 0.31
+      "bid": 0.08,
+      "ask": 0.27
      },
      {
       "label": "\u226559\u00b0",
       "q": 0.963,
-      "bid": 0.54,
-      "ask": 0.78
+      "bid": 0.75,
+      "ask": 0.81
      }
     ]
    },
@@ -9469,19 +9518,19 @@
       "label": "45\u201346\u00b0",
       "q": 0.021,
       "bid": 0.02,
-      "ask": 0.05
+      "ask": 0.09
      },
      {
       "label": "47\u201348\u00b0",
       "q": 0.16,
-      "bid": 0.19,
-      "ask": 0.42
+      "bid": 0.08,
+      "ask": 0.34
      },
      {
       "label": "49\u201350\u00b0",
       "q": 0.317,
-      "bid": 0.59,
-      "ask": 0.66
+      "bid": 0.21,
+      "ask": 0.46
      },
      {
       "label": "51\u201352\u00b0",
@@ -9528,24 +9577,24 @@
       "label": "50\u201351\u00b0",
       "q": 0.007,
       "bid": 0.06,
-      "ask": 0.21
+      "ask": 0.15
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.032,
-      "bid": 0.29,
-      "ask": 0.69
+      "bid": 0.26,
+      "ask": 0.62
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.085,
-      "bid": 0.18,
-      "ask": 0.44
+      "bid": 0.22,
+      "ask": 0.49
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.202,
-      "bid": 0.07,
+      "bid": 0.09,
       "ask": 0.18
      },
      {
@@ -9592,14 +9641,14 @@
      {
       "label": "85\u201386\u00b0",
       "q": 0.385,
-      "bid": 0.41,
-      "ask": 0.44
+      "bid": 0.45,
+      "ask": 0.46
      },
      {
       "label": "87\u201388\u00b0",
       "q": 0.146,
       "bid": 0.02,
-      "ask": 0.04
+      "ask": 0.03
      },
      {
       "label": "89\u201390\u00b0",
@@ -9704,14 +9753,14 @@
      {
       "label": "79\u201380\u00b0",
       "q": 0.32,
-      "bid": 0.32,
+      "bid": 0.28,
       "ask": 0.33
      },
      {
       "label": "81\u201382\u00b0",
       "q": 0.142,
-      "bid": 0.55,
-      "ask": 0.56
+      "bid": 0.58,
+      "ask": 0.59
      },
      {
       "label": "83\u201384\u00b0",
@@ -9757,14 +9806,14 @@
      {
       "label": "\u226472\u00b0",
       "q": 0.418,
-      "bid": 0.12,
-      "ask": 0.13
+      "bid": 0.13,
+      "ask": 0.14
      },
      {
       "label": "73\u201374\u00b0",
       "q": 0.364,
-      "bid": 0.4,
-      "ask": 0.41
+      "bid": 0.42,
+      "ask": 0.43
      },
      {
       "label": "75\u201376\u00b0",
@@ -9834,8 +9883,8 @@
      {
       "label": "87\u201388\u00b0",
       "q": 0.279,
-      "bid": 0.29,
-      "ask": 0.32
+      "bid": 0.31,
+      "ask": 0.34
      },
      {
       "label": "89\u201390\u00b0",
@@ -9947,7 +9996,7 @@
       "label": "71\u201372\u00b0",
       "q": 0.279,
       "bid": 0.66,
-      "ask": 0.68
+      "ask": 0.67
      },
      {
       "label": "73\u201374\u00b0",
@@ -10000,13 +10049,13 @@
       "label": "84\u201385\u00b0",
       "q": 0.241,
       "bid": 0.06,
-      "ask": 0.07
+      "ask": 0.08
      },
      {
       "label": "86\u201387\u00b0",
       "q": 0.428,
-      "bid": 0.77,
-      "ask": 0.78
+      "bid": 0.78,
+      "ask": 0.8
      },
      {
       "label": "88\u201389\u00b0",
@@ -10039,7 +10088,7 @@
      "p90": 45.5
     },
     "nbm": 38.8,
-    "observed": 51.8,
+    "observed": 48.92,
     "bias": -0.99,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -10059,31 +10108,31 @@
       "label": "34\u201335\u00b0",
       "q": 0.016,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.11
      },
      {
       "label": "36\u201337\u00b0",
       "q": 0.047,
-      "bid": 0.02,
-      "ask": 0.13
+      "bid": 0.06,
+      "ask": 0.26
      },
      {
       "label": "38\u201339\u00b0",
       "q": 0.059,
-      "bid": 0.24,
-      "ask": 0.44
+      "bid": 0.33,
+      "ask": 0.53
      },
      {
       "label": "40\u201341\u00b0",
       "q": 0.094,
-      "bid": 0.29,
-      "ask": 0.45
+      "bid": 0.14,
+      "ask": 0.34
      },
      {
       "label": "\u226542\u00b0",
       "q": 0.781,
-      "bid": 0.12,
-      "ask": 0.32
+      "bid": 0.06,
+      "ask": 0.26
      }
     ]
    },
@@ -10189,19 +10238,19 @@
       "label": "42\u201343\u00b0",
       "q": 0.175,
       "bid": 0.03,
-      "ask": 0.09
+      "ask": 0.13
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.353,
-      "bid": 0.32,
-      "ask": 0.52
+      "bid": 0.34,
+      "ask": 0.51
      },
      {
       "label": "\u226546\u00b0",
       "q": 0.442,
-      "bid": 0.42,
-      "ask": 0.6
+      "bid": 0.43,
+      "ask": 0.61
      }
     ]
    },
@@ -10216,7 +10265,7 @@
      "p90": 51.1
     },
     "nbm": 46.5,
-    "observed": 55.04,
+    "observed": 51.98,
     "bias": 0.73,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -10241,26 +10290,26 @@
      {
       "label": "43\u201344\u00b0",
       "q": 0.16,
-      "bid": 0.03,
-      "ask": 0.09
+      "bid": 0.02,
+      "ask": 0.08
      },
      {
       "label": "45\u201346\u00b0",
       "q": 0.325,
-      "bid": 0.05,
-      "ask": 0.24
+      "bid": 0.14,
+      "ask": 0.37
      },
      {
       "label": "47\u201348\u00b0",
-      "q": 0.166,
-      "bid": 0.48,
-      "ask": 0.6
+      "q": 0.167,
+      "bid": 0.56,
+      "ask": 0.59
      },
      {
       "label": "\u226549\u00b0",
-      "q": 0.334,
+      "q": 0.333,
       "bid": 0.17,
-      "ask": 0.27
+      "ask": 0.25
      }
     ]
    },
@@ -10275,7 +10324,7 @@
      "p90": 75.8
     },
     "nbm": 70.9,
-    "observed": 73.4,
+    "observed": 73.04,
     "bias": 0.35,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -10299,27 +10348,27 @@
      },
      {
       "label": "67\u201368\u00b0",
-      "q": 0.174,
+      "q": 0.175,
       "bid": 0.03,
-      "ask": 0.06
+      "ask": 0.05
      },
      {
       "label": "69\u201370\u00b0",
-      "q": 0.296,
-      "bid": 0.05,
-      "ask": 0.33
+      "q": 0.298,
+      "bid": 0.11,
+      "ask": 0.26
      },
      {
       "label": "71\u201372\u00b0",
-      "q": 0.177,
-      "bid": 0.59,
-      "ask": 0.8
+      "q": 0.186,
+      "bid": 0.75,
+      "ask": 0.81
      },
      {
       "label": "\u226573\u00b0",
-      "q": 0.325,
-      "bid": 0.02,
-      "ask": 0.08
+      "q": 0.314,
+      "bid": null,
+      "ask": 0.01
      }
     ]
    },
@@ -10334,7 +10383,7 @@
      "p90": 50.7
     },
     "nbm": 45.6,
-    "observed": 51.8,
+    "observed": 51.08,
     "bias": 0.52,
     "bias_src": "history 28d",
     "kernel_sd": 1.3,
@@ -10353,14 +10402,14 @@
      {
       "label": "38\u201339\u00b0",
       "q": 0.0,
-      "bid": 0.01,
+      "bid": 0.02,
       "ask": 0.03
      },
      {
       "label": "40\u201341\u00b0",
       "q": 0.002,
       "bid": 0.02,
-      "ask": 0.09
+      "ask": 0.08
      },
      {
       "label": "42\u201343\u00b0",
@@ -10371,13 +10420,13 @@
      {
       "label": "44\u201345\u00b0",
       "q": 0.232,
-      "bid": 0.27,
-      "ask": 0.47
+      "bid": 0.24,
+      "ask": 0.44
      },
      {
       "label": "\u226546\u00b0",
       "q": 0.727,
-      "bid": 0.37,
+      "bid": 0.39,
       "ask": 0.56
      }
     ]
@@ -10430,8 +10479,8 @@
      {
       "label": "47\u201348\u00b0",
       "q": 0.416,
-      "bid": 0.43,
-      "ask": 0.82
+      "bid": 0.48,
+      "ask": 0.86
      },
      {
       "label": "\u226549\u00b0",
@@ -10483,20 +10532,20 @@
      {
       "label": "40\u201341\u00b0",
       "q": 0.042,
-      "bid": 0.14,
-      "ask": 0.25
+      "bid": 0.19,
+      "ask": 0.3
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.195,
-      "bid": 0.41,
-      "ask": 0.51
+      "bid": 0.36,
+      "ask": 0.47
      },
      {
       "label": "\u226544\u00b0",
       "q": 0.758,
       "bid": 0.2,
-      "ask": 0.37
+      "ask": 0.36
      }
     ]
    },
@@ -10548,14 +10597,14 @@
      {
       "label": "51\u201352\u00b0",
       "q": 0.346,
-      "bid": 0.27,
-      "ask": 0.61
+      "bid": 0.19,
+      "ask": 0.49
      },
      {
       "label": "\u226553\u00b0",
       "q": 0.379,
-      "bid": 0.08,
-      "ask": 0.4
+      "bid": 0.22,
+      "ask": 0.59
      }
     ]
    },
@@ -10590,19 +10639,19 @@
       "label": "58\u201359\u00b0",
       "q": 0.393,
       "bid": 0.01,
-      "ask": 0.03
+      "ask": 0.02
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.33,
-      "bid": 0.58,
+      "bid": 0.6,
       "ask": 0.72
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.122,
       "bid": 0.21,
-      "ask": 0.37
+      "ask": 0.34
      },
      {
       "label": "64\u201365\u00b0",
@@ -10666,7 +10715,7 @@
      {
       "label": "76\u201377\u00b0",
       "q": 0.061,
-      "bid": 0.04,
+      "bid": 0.05,
       "ask": 0.07
      },
      {
@@ -10713,19 +10762,19 @@
      {
       "label": "59\u201360\u00b0",
       "q": 0.415,
-      "bid": 0.04,
+      "bid": 0.03,
       "ask": 0.05
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.208,
-      "bid": 0.72,
-      "ask": 0.77
+      "bid": 0.73,
+      "ask": 0.78
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.047,
-      "bid": 0.11,
+      "bid": 0.13,
       "ask": 0.14
      },
      {
@@ -10767,19 +10816,19 @@
       "label": "62\u201363\u00b0",
       "q": 0.405,
       "bid": 0.05,
-      "ask": 0.07
+      "ask": 0.06
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.219,
-      "bid": 0.61,
+      "bid": 0.6,
       "ask": 0.62
      },
      {
       "label": "66\u201367\u00b0",
       "q": 0.071,
-      "bid": 0.35,
-      "ask": 0.36
+      "bid": 0.36,
+      "ask": 0.38
      },
      {
       "label": "68\u201369\u00b0",
@@ -10896,14 +10945,14 @@
      {
       "label": "72\u201373\u00b0",
       "q": 0.292,
-      "bid": 0.47,
-      "ask": 0.48
+      "bid": 0.45,
+      "ask": 0.46
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.12,
-      "bid": 0.48,
-      "ask": 0.49
+      "bid": 0.51,
+      "ask": 0.52
      },
      {
       "label": "\u226576\u00b0",
@@ -10962,7 +11011,7 @@
       "label": "65\u201366\u00b0",
       "q": 0.099,
       "bid": 0.08,
-      "ask": 0.1
+      "ask": 0.09
      },
      {
       "label": "\u226567\u00b0",
@@ -11015,7 +11064,7 @@
       "label": "61\u201362\u00b0",
       "q": 0.027,
       "bid": 0.15,
-      "ask": 0.17
+      "ask": 0.16
      },
      {
       "label": "63\u201364\u00b0",
@@ -11062,7 +11111,7 @@
       "label": "79\u201380\u00b0",
       "q": 0.266,
       "bid": 0.05,
-      "ask": 0.06
+      "ask": 0.08
      },
      {
       "label": "81\u201382\u00b0",
@@ -11079,7 +11128,7 @@
      {
       "label": "85\u201386\u00b0",
       "q": 0.04,
-      "bid": 0.04,
+      "bid": 0.03,
       "ask": 0.05
      },
      {
@@ -11092,7 +11141,7 @@
    }
   ],
   "halt": null,
-  "candidates": 114,
+  "candidates": 111,
   "health": {
    "nws_observations": {
     "ok": 48,
@@ -11100,7 +11149,7 @@
     "last_error": null
    }
   },
-  "seconds": 29.1
+  "seconds": 34.5
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

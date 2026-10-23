@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.98,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -163,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.48,
+   "mark_price": 0.44,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -201,7 +201,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -218,7 +218,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -12251,16 +12251,21 @@
    1792766726,
    85.91,
    81.71
+  ],
+  [
+   1792767625,
+   85.91,
+   81.51
   ]
  ],
  "last_run": {
-  "ts": 1792766726,
+  "ts": 1792767625,
   "error": null,
-  "markets_scanned": 63,
-  "candidates": 3,
+  "markets_scanned": 48,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 47,
-   "no favorite in 80-95c band": 12,
+   "too little volume": 30,
+   "no favorite in 80-95c band": 13,
    "spread too wide": 1
   },
   "opened": [],
@@ -12271,29 +12276,37 @@
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 27.24,
-    "volume_24h": 3786.28,
-    "score": 0.5615
+    "hours_to_close": 26.99,
+    "volume_24h": 3777.73,
+    "score": 0.562
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 26.23,
-    "volume_24h": 519.15,
-    "score": 0.5589
+    "price": 0.9,
+    "hours_to_close": 25.98,
+    "volume_24h": 522.16,
+    "score": 0.5196
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 597.79,
-    "score": 0.4515
+    "score": 0.4519
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 25.98,
+    "volume_24h": 230.25,
+    "score": 0.443
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 1
+   "related-market cap (Presidential approval)": 2
   },
   "watch_added": 1,
   "watch_graded": 0,

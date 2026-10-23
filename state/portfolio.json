@@ -234,7 +234,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792751340.0,
    "score": 0.4501,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -325,7 +325,7 @@
    "opened_ts": 1792688426,
    "close_ts": 1792818000.0,
    "score": 0.4997,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -375,7 +375,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.57,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -12009,18 +12009,24 @@
    1792739725,
    86.81,
    85.93
+  ],
+  [
+   1792740625,
+   86.81,
+   85.87
   ]
  ],
  "last_run": {
-  "ts": 1792739725,
+  "ts": 1792740625,
   "error": null,
   "markets_scanned": 4433,
-  "candidates": 66,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 3962,
-   "no favorite in 80-95c band": 347,
-   "spread too wide": 54,
-   "favorite is slipping fast": 4
+   "too little volume": 3959,
+   "no favorite in 80-95c band": 351,
+   "spread too wide": 56,
+   "favorite is slipping fast": 4,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -12030,71 +12036,71 @@
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 23, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 11.24,
-    "volume_24h": 10666.18,
-    "score": 0.7118
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.74,
-    "volume_24h": 52645.19,
-    "score": 0.7064
+    "hours_to_close": 10.99,
+    "volume_24h": 10669.46,
+    "score": 0.7136
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 9.73,
+    "hours_to_close": 9.48,
     "volume_24h": 13901.5,
-    "score": 0.7035
+    "score": 0.7057
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 13.74,
-    "volume_24h": 16234.91,
-    "score": 0.6964
+    "hours_to_close": 13.49,
+    "volume_24h": 16235.91,
+    "score": 0.6977
    },
    {
-    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 13.74,
-    "volume_24h": 9113.46,
-    "score": 0.6933
+    "hours_to_close": 13.49,
+    "volume_24h": 52886.12,
+    "score": 0.6977
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 9.73,
+    "hours_to_close": 9.48,
     "volume_24h": 8650.77,
-    "score": 0.6788
+    "score": 0.681
    },
    {
     "label": "Will the WTI crude oil settlement price be between 97.00 and 97.99 USD/Bbl on Oct 23, 2026? \u2014 $97.00 to $97.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 11.24,
+    "hours_to_close": 10.99,
     "volume_24h": 2633.05,
-    "score": 0.6783
+    "score": 0.6801
    },
    {
     "label": "Will the maximum temperature be 79-80\u00b0 on Oct 23, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 5671.31,
-    "score": 0.6572
+    "score": 0.6579
+   },
+   {
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 13.49,
+    "volume_24h": 9113.46,
+    "score": 0.6547
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 8,
+   "related-market cap (Crypto)": 7,
    "related-market cap (Precious metals)": 2,
-   "tracked only (below bet price floor)": 7
+   "tracked only (below bet price floor)": 11
   },
   "watch_added": 1,
   "watch_graded": 0,

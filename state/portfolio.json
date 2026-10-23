@@ -158,7 +158,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -232,7 +232,7 @@
    "opened_ts": 1792688426,
    "close_ts": 1792818000.0,
    "score": 0.4997,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -282,7 +282,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.5,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -354,7 +354,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792864800.0,
    "score": 0.5525,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -12152,100 +12152,97 @@
    1792754175,
    82.41,
    83.85
+  ],
+  [
+   1792755027,
+   82.41,
+   83.83
   ]
  ],
  "last_run": {
-  "ts": 1792754175,
+  "ts": 1792755027,
   "error": null,
   "markets_scanned": 98,
-  "candidates": 8,
+  "candidates": 9,
   "rejections": {
    "too little volume": 47,
-   "no favorite in 80-95c band": 40,
+   "no favorite in 80-95c band": 39,
    "spread too wide": 3
   },
-  "opened": [
-   204,
-   205,
-   206
-  ],
-  "settled": [
-   183,
-   184,
-   189
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will it rain in Los Angeles on Oct 23, 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.73,
-    "volume_24h": 13643.04,
-    "score": 0.6586
+    "price": 0.92,
+    "hours_to_close": 20.49,
+    "volume_24h": 13646.39,
+    "score": 0.6493
+   },
+   {
+    "label": "Will the maximum temperature be <65\u00b0 on Oct 23, 2026? \u2014 64\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.49,
+    "volume_24h": 1485.02,
+    "score": 0.6172
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 23, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.73,
-    "volume_24h": 5446.2,
-    "score": 0.6088
+    "hours_to_close": 20.49,
+    "volume_24h": 5716.98,
+    "score": 0.6111
    },
    {
     "label": "Al-Khaleej wins",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 30.73,
+    "price": 0.88,
+    "hours_to_close": 30.49,
     "volume_24h": 2532.33,
-    "score": 0.5525
+    "score": 0.5428
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Oct 23, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 20.73,
-    "volume_24h": 950.7,
-    "score": 0.502
+    "hours_to_close": 20.49,
+    "volume_24h": 951.7,
+    "score": 0.5027
+   },
+   {
+    "label": "Will the maximum temperature be 55-56\u00b0 on Oct 23, 2026? \u2014 55\u00b0 to 56\u00b0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 20.49,
+    "volume_24h": 1094.05,
+    "score": 0.4972
    },
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Oct 23, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 20.73,
+    "hours_to_close": 20.49,
     "volume_24h": 1057.22,
-    "score": 0.4954
+    "score": 0.4961
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 23, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.81,
-    "hours_to_close": 20.73,
-    "volume_24h": 1265.34,
-    "score": 0.4713
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 30.73,
-    "volume_24h": 720.82,
-    "score": 0.4516
-   },
-   {
-    "label": "Will the maximum temperature be 55-56\u00b0 on Oct 23, 2026? \u2014 55\u00b0 to 56\u00b0",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 20.73,
-    "volume_24h": 1094.05,
-    "score": 0.4165
+    "hours_to_close": 20.49,
+    "volume_24h": 1268.34,
+    "score": 0.472
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 2
   },
   "watch_added": 1,
-  "watch_graded": 11,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

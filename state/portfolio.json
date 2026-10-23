@@ -2,63 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.78,
+ "cash": 20.78,
  "fees_paid": 4.89,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
  "next_id": 207,
  "open_positions": [
-  {
-   "id": 186,
-   "ticker": "KXHIGHTOKC-26OCT22-T83",
-   "event_ticker": "KXHIGHTOKC-26OCT22",
-   "series": "KXHIGHTOKC",
-   "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1792605662,
-   "close_ts": 1792735200.0,
-   "score": 0.5527,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 187,
-   "ticker": "KXHIGHCHI-26OCT22-B70.5",
-   "event_ticker": "KXHIGHCHI-26OCT22",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 22, 2026? \u2014 70\u00b0 to 71\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.85,
-   "fee": 0.06,
-   "cost": 5.16,
-   "opened_ts": 1792606556,
-   "close_ts": 1792735200.0,
-   "score": 0.3272,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792610156,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "15": {
-     "ts": 1792672227,
-     "bid": 0.65,
-     "proceeds": 3.8
-    },
-    "20": {
-     "ts": 1792672227,
-     "bid": 0.65,
-     "proceeds": 3.8
-    }
-   }
-  },
   {
    "id": 188,
    "ticker": "KXHIGHTPHX-26OCT22-B81.5",
@@ -249,7 +199,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.64,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -265,6 +215,11 @@
      "ts": 1792701926,
      "bid": 0.68,
      "proceeds": 3.32
+    },
+    "30": {
+     "ts": 1792757725,
+     "bid": 0.57,
+     "proceeds": 2.76
     }
    }
   },
@@ -282,7 +237,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.45,
+   "mark_price": 0.44,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -337,7 +292,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -371,7 +326,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -5164,6 +5119,64 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1792754175,
+   "won": true
+  },
+  {
+   "id": 186,
+   "ticker": "KXHIGHTOKC-26OCT22-T83",
+   "event_ticker": "KXHIGHTOKC-26OCT22",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be >83\u00b0 on Oct 22, 2026? \u2014 84\u00b0 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1792605662,
+   "close_ts": 1792735200.0,
+   "score": 0.5527,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "NO",
+   "closed_ts": 1792757725,
+   "won": true
+  },
+  {
+   "id": 187,
+   "ticker": "KXHIGHCHI-26OCT22-B70.5",
+   "event_ticker": "KXHIGHCHI-26OCT22",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 22, 2026? \u2014 70\u00b0 to 71\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1792606556,
+   "close_ts": 1792735200.0,
+   "score": 0.3272,
+   "shadow": {
+    "10": {
+     "ts": 1792610156,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "15": {
+     "ts": 1792672227,
+     "bid": 0.65,
+     "proceeds": 3.8
+    },
+    "20": {
+     "ts": 1792672227,
+     "bid": 0.65,
+     "proceeds": 3.8
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.84,
+   "result": "NO",
+   "closed_ts": 1792757725,
    "won": true
   }
  ],
@@ -12167,10 +12180,15 @@
    1792756825,
    82.41,
    83.74
+  ],
+  [
+   1792757725,
+   83.64,
+   83.63
   ]
  ],
  "last_run": {
-  "ts": 1792756825,
+  "ts": 1792757725,
   "error": null,
   "markets_scanned": 30,
   "candidates": 2,
@@ -12179,29 +12197,32 @@
    "no favorite in 80-95c band": 9
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   186,
+   187
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 29.99,
+    "hours_to_close": 29.74,
     "volume_24h": 2568.57,
-    "score": 0.5041
+    "score": 0.5045
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 29.99,
+    "hours_to_close": 29.74,
     "volume_24h": 720.82,
-    "score": 0.4527
+    "score": 0.4531
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 12,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

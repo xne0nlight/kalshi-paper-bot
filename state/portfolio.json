@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.99,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.28,
+   "mark_price": 0.32,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -163,7 +163,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -180,7 +180,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792864800.0,
    "score": 0.5525,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.92,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -282,7 +282,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -12378,90 +12378,96 @@
    1792776627,
    81.37,
    82.04
+  ],
+  [
+   1792777528,
+   81.37,
+   81.97
   ]
  ],
  "last_run": {
-  "ts": 1792776627,
+  "ts": 1792777528,
   "error": null,
   "markets_scanned": 282,
   "candidates": 8,
   "rejections": {
-   "too little volume": 236,
-   "no favorite in 80-95c band": 38
+   "too little volume": 232,
+   "no favorite in 80-95c band": 39,
+   "spread too wide": 3
   },
-  "opened": [
-   210
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 24, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.48,
-    "volume_24h": 4465.16,
-    "score": 0.605
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.48,
-    "volume_24h": 2436.43,
-    "score": 0.5653
+    "price": 0.95,
+    "hours_to_close": 23.23,
+    "volume_24h": 2944.7,
+    "score": 0.632
    },
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 3768.49,
-    "score": 0.5471
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.49,
-    "volume_24h": 581.6,
-    "score": 0.528
+    "hours_to_close": 24.24,
+    "volume_24h": 4216.24,
+    "score": 0.6013
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 929.15,
-    "score": 0.5233
+    "hours_to_close": 35.24,
+    "volume_24h": 933.15,
+    "score": 0.5737
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.24,
+    "volume_24h": 581.6,
+    "score": 0.5283
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 24.49,
-    "volume_24h": 1465.44,
-    "score": 0.5063
+    "hours_to_close": 24.24,
+    "volume_24h": 1471.66,
+    "score": 0.507
    },
    {
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 24.49,
+    "hours_to_close": 24.24,
     "volume_24h": 220.7,
-    "score": 0.4548
+    "score": 0.4554
    },
    {
     "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 24.49,
-    "volume_24h": 249.77,
-    "score": 0.4388
+    "hours_to_close": 24.24,
+    "volume_24h": 249.78,
+    "score": 0.4394
+   },
+   {
+    "label": "Over 2.5 1H goals scored",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 24.24,
+    "volume_24h": 315.11,
+    "score": 0.3269
    }
   ],
-  "skipped": {},
-  "watch_added": 1,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.45,
- "fees_paid": 5.26,
+ "cash": 15.05,
+ "fees_paid": 5.31,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 219,
+ "next_id": 221,
  "open_positions": [
   {
    "id": 191,
@@ -24,57 +24,6 @@
    "close_ts": 1792742400.0,
    "score": 0.571,
    "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 194,
-   "ticker": "KXGOLDW-26OCT2317-T4154.99",
-   "event_ticker": "KXGOLDW-26OCT2317",
-   "series": "KXGOLDW",
-   "label": "Will the gold close price be above 4154.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4154.99",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792667726,
-   "close_ts": 1792789200.0,
-   "score": 0.4522,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 196,
-   "ticker": "KXXRPD-26OCT2317-T1.3799",
-   "event_ticker": "KXXRPD-26OCT2317",
-   "series": "KXXRPD",
-   "label": "Ripple price at Oct 23, 2026 at 5pm EDT? \u2014 $1.37991 or above",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 5.44,
-   "opened_ts": 1792667726,
-   "close_ts": 1792789200.0,
-   "score": 0.4307,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 197,
-   "ticker": "KXCOPPERW-26OCT2317-T6.66",
-   "event_ticker": "KXCOPPERW-26OCT2317",
-   "series": "KXCOPPERW",
-   "label": "Will the copper close price be above 6.66 USD/Lbs on October 23, 2026 at 5:00 PM EDT? \u2014 Above $6.66",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 3.78,
-   "opened_ts": 1792667726,
-   "close_ts": 1792789200.0,
-   "score": 0.4194,
-   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +74,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -148,23 +97,6 @@
      "proceeds": 0.5
     }
    }
-  },
-  {
-   "id": 203,
-   "ticker": "KXETHD-26OCT2317-T2489.99",
-   "event_ticker": "KXETHD-26OCT2317",
-   "series": "KXETHD",
-   "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 0.96,
-   "opened_ts": 1792725324,
-   "close_ts": 1792789200.0,
-   "score": 0.6867,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 204,
@@ -197,8 +129,29 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.81,
-   "shadow": {}
+   "mark_price": 0.38,
+   "shadow": {
+    "10": {
+     "ts": 1792790128,
+     "bid": 0.38,
+     "proceeds": 1.09
+    },
+    "15": {
+     "ts": 1792790128,
+     "bid": 0.38,
+     "proceeds": 1.09
+    },
+    "20": {
+     "ts": 1792790128,
+     "bid": 0.38,
+     "proceeds": 1.09
+    },
+    "30": {
+     "ts": 1792790128,
+     "bid": 0.38,
+     "proceeds": 1.09
+    }
+   }
   },
   {
    "id": 207,
@@ -214,7 +167,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -231,7 +184,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -299,7 +252,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -368,6 +321,40 @@
    "close_ts": 1792904400.0,
    "score": 0.5084,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 219,
+   "ticker": "KXBTCD-26OCT2417-T82249.99",
+   "event_ticker": "KXBTCD-26OCT2417",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,250 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1792790128,
+   "close_ts": 1792875600.0,
+   "score": 0.6302,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 220,
+   "ticker": "KXHIGHTSEA-26OCT24-T54",
+   "event_ticker": "KXHIGHTSEA-26OCT24",
+   "series": "KXHIGHTSEA",
+   "label": "Will the maximum temperature be <54\u00b0 on Oct 24, 2026? \u2014 53\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1792790128,
+   "close_ts": 1792915200.0,
+   "score": 0.4234,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -5440,6 +5427,90 @@
    "pnl": 0.51,
    "result": "NO",
    "closed_ts": 1792786527,
+   "won": true
+  },
+  {
+   "id": 194,
+   "ticker": "KXGOLDW-26OCT2317-T4154.99",
+   "event_ticker": "KXGOLDW-26OCT2317",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4154.99 USD/t.oz on October 23, 2026 at 5:00 PM EDT? \u2014 Above $4154.99",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4522,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1792790128,
+   "won": true
+  },
+  {
+   "id": 196,
+   "ticker": "KXXRPD-26OCT2317-T1.3799",
+   "event_ticker": "KXXRPD-26OCT2317",
+   "series": "KXXRPD",
+   "label": "Ripple price at Oct 23, 2026 at 5pm EDT? \u2014 $1.37991 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4307,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1792790128,
+   "won": true
+  },
+  {
+   "id": 197,
+   "ticker": "KXCOPPERW-26OCT2317-T6.66",
+   "event_ticker": "KXCOPPERW-26OCT2317",
+   "series": "KXCOPPERW",
+   "label": "Will the copper close price be above 6.66 USD/Lbs on October 23, 2026 at 5:00 PM EDT? \u2014 Above $6.66",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 3.78,
+   "opened_ts": 1792667726,
+   "close_ts": 1792789200.0,
+   "score": 0.4194,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1792790128,
+   "won": true
+  },
+  {
+   "id": 203,
+   "ticker": "KXETHD-26OCT2317-T2489.99",
+   "event_ticker": "KXETHD-26OCT2317",
+   "series": "KXETHD",
+   "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,490 or above",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 0.96,
+   "opened_ts": 1792725324,
+   "close_ts": 1792789200.0,
+   "score": 0.6867,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.04,
+   "result": "NO",
+   "closed_ts": 1792790128,
    "won": true
   }
  ],
@@ -12623,90 +12694,107 @@
    1792789225,
    83.04,
    84.97
+  ],
+  [
+   1792790128,
+   84.09,
+   83.76
   ]
  ],
  "last_run": {
-  "ts": 1792789225,
+  "ts": 1792790128,
   "error": null,
   "markets_scanned": 1284,
-  "candidates": 22,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 1155,
-   "no favorite in 80-95c band": 101,
-   "spread too wide": 6
+   "too little volume": 1141,
+   "no favorite in 80-95c band": 117,
+   "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   219,
+   220
+  ],
+  "settled": [
+   194,
+   196,
+   197,
+   203
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 7687.37,
-    "score": 0.6515
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 5563.57,
-    "score": 0.6509
-   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
-    "volume_24h": 13844.7,
-    "score": 0.6308
+    "hours_to_close": 19.73,
+    "volume_24h": 14328.01,
+    "score": 0.6816
    },
    {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,250 or above",
     "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.74,
+    "volume_24h": 5347.14,
+    "score": 0.6302
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,500 or above",
+    "side": "yes",
     "price": 0.92,
-    "hours_to_close": 23.99,
-    "volume_24h": 5142.7,
-    "score": 0.6184
+    "hours_to_close": 23.74,
+    "volume_24h": 5829.03,
+    "score": 0.623
    },
    {
     "label": "Will it rain in Seattle on Oct 24, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 5667.12,
-    "score": 0.6127
+    "hours_to_close": 34.74,
+    "volume_24h": 5667.9,
+    "score": 0.6131
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 19.98,
-    "volume_24h": 5964.06,
-    "score": 0.604
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,500 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.99,
-    "volume_24h": 4682.04,
-    "score": 0.5953
+    "hours_to_close": 19.73,
+    "volume_24h": 7274.59,
+    "score": 0.6113
    },
    {
     "label": "Ethereum price at Oct 24, 2026 at 5pm EDT? \u2014 $2,440 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.99,
-    "volume_24h": 3693.63,
-    "score": 0.5876
+    "hours_to_close": 23.74,
+    "volume_24h": 3828.63,
+    "score": 0.5893
+   },
+   {
+    "label": "Ethereum price at Oct 24, 2026 at 5pm EDT? \u2014 $2,360 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 23.74,
+    "volume_24h": 4272.15,
+    "score": 0.5829
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 24, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.74,
+    "volume_24h": 728.46,
+    "score": 0.5663
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 29,
+  "skipped": {
+   "related-market cap (Crypto)": 3,
+   "series cap": 2,
+   "tracked only (below bet price floor)": 2
+  },
+  "watch_added": 2,
+  "watch_graded": 39,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

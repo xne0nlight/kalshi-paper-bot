@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.99,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.77,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -197,7 +197,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -299,7 +299,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -350,7 +350,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.88,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -367,7 +367,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792904400.0,
    "score": 0.5084,
-   "mark_price": 0.92,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -12613,90 +12613,94 @@
    1792787426,
    83.04,
    84.91
+  ],
+  [
+   1792788325,
+   83.04,
+   85.01
   ]
  ],
  "last_run": {
-  "ts": 1792787426,
+  "ts": 1792788325,
   "error": null,
   "markets_scanned": 1284,
-  "candidates": 24,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 1160,
-   "no favorite in 80-95c band": 97,
-   "spread too wide": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 1158,
+   "no favorite in 80-95c band": 100,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,000 or above",
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 24.49,
-    "volume_24h": 4733.71,
-    "score": 0.6445
+    "hours_to_close": 24.24,
+    "volume_24h": 7687.37,
+    "score": 0.6609
    },
    {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 5122.4,
-    "score": 0.6371
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 24.49,
-    "volume_24h": 7382.77,
-    "score": 0.629
+    "price": 0.95,
+    "hours_to_close": 24.24,
+    "volume_24h": 5547.94,
+    "score": 0.6503
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.48,
-    "volume_24h": 5574.55,
-    "score": 0.6203
+    "hours_to_close": 20.23,
+    "volume_24h": 5915.44,
+    "score": 0.623
+   },
+   {
+    "label": "Will it rain in Seattle on Oct 24, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.24,
+    "volume_24h": 5284.25,
+    "score": 0.6101
    },
    {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 5055.0,
-    "score": 0.6067
+    "hours_to_close": 24.24,
+    "volume_24h": 5129.6,
+    "score": 0.6077
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,500 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 24.24,
+    "volume_24h": 4209.41,
+    "score": 0.5913
    },
    {
     "label": "Ethereum price at Oct 24, 2026 at 5pm EDT? \u2014 $2,440 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.49,
+    "hours_to_close": 24.24,
     "volume_24h": 3631.37,
-    "score": 0.5859
-   },
-   {
-    "label": "Will it rain in Seattle on Oct 24, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 35.49,
-    "volume_24h": 4442.3,
-    "score": 0.5642
+    "score": 0.5865
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 24, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 677.16,
-    "score": 0.563
+    "hours_to_close": 35.24,
+    "volume_24h": 728.46,
+    "score": 0.5656
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

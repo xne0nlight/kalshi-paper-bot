@@ -74,7 +74,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.98,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -163,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.45,
+   "mark_price": 0.41,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -218,7 +218,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -252,7 +252,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -12261,15 +12261,20 @@
    1792768527,
    85.91,
    81.82
+  ],
+  [
+   1792769431,
+   85.91,
+   81.69
   ]
  ],
  "last_run": {
-  "ts": 1792768527,
+  "ts": 1792769431,
   "error": null,
   "markets_scanned": 48,
-  "candidates": 3,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 30,
+   "too little volume": 29,
    "no favorite in 80-95c band": 13,
    "spread too wide": 2
   },
@@ -12281,32 +12286,41 @@
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 26.74,
-    "volume_24h": 3891.21,
-    "score": 0.5634
+    "hours_to_close": 26.49,
+    "volume_24h": 3634.36,
+    "score": 0.5617
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 26.74,
-    "volume_24h": 608.29,
-    "score": 0.453
+    "hours_to_close": 26.49,
+    "volume_24h": 634.61,
+    "score": 0.4549
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 25.73,
+    "price": 0.86,
+    "hours_to_close": 25.47,
     "volume_24h": 230.25,
-    "score": 0.4435
+    "score": 0.454
+   },
+   {
+    "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 26.49,
+    "volume_24h": 221.22,
+    "score": 0.4306
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 1
+   "related-market cap (Presidential approval)": 1,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
-  "watch_graded": 5,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

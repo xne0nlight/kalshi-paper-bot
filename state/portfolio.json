@@ -234,7 +234,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792751340.0,
    "score": 0.4501,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -251,7 +251,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -308,7 +308,7 @@
    "opened_ts": 1792688426,
    "close_ts": 1792818000.0,
    "score": 0.5153,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -375,7 +375,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.58,
+   "mark_price": 0.59,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -12059,16 +12059,21 @@
    1792748724,
    86.81,
    86.25
+  ],
+  [
+   1792749627,
+   86.81,
+   86.3
   ]
  ],
  "last_run": {
-  "ts": 1792748724,
+  "ts": 1792749627,
   "error": null,
-  "markets_scanned": 237,
-  "candidates": 17,
+  "markets_scanned": 129,
+  "candidates": 11,
   "rejections": {
-   "no favorite in 80-95c band": 122,
-   "too little volume": 92,
+   "too little volume": 59,
+   "no favorite in 80-95c band": 53,
    "spread too wide": 6
   },
   "opened": [],
@@ -12076,68 +12081,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 23, 2026? \u2014 84\u00b0 to 85\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 2518.76,
-    "score": 0.6151
-   },
-   {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 23, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 5276.14,
-    "score": 0.5935
-   },
-   {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 23, 2026? \u2014 77\u00b0 to 78\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 1025.43,
-    "score": 0.5859
-   },
-   {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 23, 2026? \u2014 86\u00b0 to 87\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 1228.75,
-    "score": 0.5818
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 23, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.24,
-    "volume_24h": 2693.9,
-    "score": 0.5773
+    "score": 0.5942
    },
    {
     "label": "Will it rain in Denver on Oct 23, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.24,
-    "volume_24h": 6220.92,
-    "score": 0.5616
+    "price": 0.92,
+    "hours_to_close": 20.99,
+    "volume_24h": 6285.92,
+    "score": 0.5827
    },
    {
-    "label": "Will the maximum temperature be <73\u00b0 on Oct 23, 2026? \u2014 72\u00b0 or below",
+    "label": "Will it rain in Los Angeles on Oct 23, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 20.24,
-    "volume_24h": 1239.12,
-    "score": 0.552
+    "hours_to_close": 21.99,
+    "volume_24h": 11364.43,
+    "score": 0.565
    },
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 2493.09,
-    "score": 0.5497
+    "score": 0.55
+   },
+   {
+    "label": "Will the maximum temperature be 80-81\u00b0 on Oct 23, 2026? \u2014 80\u00b0 to 81\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 20.99,
+    "volume_24h": 1188.05,
+    "score": 0.5484
+   },
+   {
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 23, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 20.99,
+    "volume_24h": 3150.19,
+    "score": 0.5302
+   },
+   {
+    "label": "Will the maximum temperature be 55-56\u00b0 on Oct 23, 2026? \u2014 55\u00b0 to 56\u00b0",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 21.99,
+    "volume_24h": 1088.18,
+    "score": 0.5028
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 23, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 21.99,
+    "volume_24h": 910.48,
+    "score": 0.497
    }
   ],
   "skipped": {

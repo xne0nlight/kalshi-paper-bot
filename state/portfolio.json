@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.46,
- "fees_paid": 5.18,
+ "cash": 8.69,
+ "fees_paid": 5.2,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 216,
+ "next_id": 217,
  "open_positions": [
   {
    "id": 191,
@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.6,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.84,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -248,36 +248,8 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.88,
+   "mark_price": 0.91,
    "shadow": {}
-  },
-  {
-   "id": 209,
-   "ticker": "KXSAUDIPLTOTAL-26OCT22AASKHA-2",
-   "event_ticker": "KXSAUDIPLTOTAL-26OCT22AASKHA",
-   "series": "KXSAUDIPLTOTAL",
-   "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.85,
-   "fee": 0.05,
-   "cost": 4.3,
-   "opened_ts": 1792775727,
-   "close_ts": 1792864800.0,
-   "score": 0.4442,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792779327,
-     "bid": 0.69,
-     "proceeds": 3.37
-    },
-    "15": {
-     "ts": 1792779327,
-     "bid": 0.69,
-     "proceeds": 3.37
-    }
-   }
   },
   {
    "id": 210,
@@ -362,6 +334,23 @@
    "close_ts": 1792911600.0,
    "score": 0.4792,
    "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 216,
+   "ticker": "KXHIGHTNOLA-26OCT24-B76.5",
+   "event_ticker": "KXHIGHTNOLA-26OCT24",
+   "series": "KXHIGHTNOLA",
+   "label": "Will the maximum temperature be 76-77\u00b0 on Oct 24, 2026? \u2014 76\u00b0 to 77\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792784726,
+   "close_ts": 1792908000.0,
+   "score": 0.5265,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -5381,6 +5370,38 @@
    "pnl": 0.46,
    "result": "YES",
    "closed_ts": 1792782025,
+   "won": true
+  },
+  {
+   "id": 209,
+   "ticker": "KXSAUDIPLTOTAL-26OCT22AASKHA-2",
+   "event_ticker": "KXSAUDIPLTOTAL-26OCT22AASKHA",
+   "series": "KXSAUDIPLTOTAL",
+   "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.85,
+   "fee": 0.05,
+   "cost": 4.3,
+   "opened_ts": 1792775727,
+   "close_ts": 1792864800.0,
+   "score": 0.4442,
+   "shadow": {
+    "10": {
+     "ts": 1792779327,
+     "bid": 0.69,
+     "proceeds": 3.37
+    },
+    "15": {
+     "ts": 1792779327,
+     "bid": 0.69,
+     "proceeds": 3.37
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.7,
+   "result": "YES",
+   "closed_ts": 1792784726,
    "won": true
   }
  ],
@@ -12534,78 +12555,79 @@
    1792783827,
    81.83,
    83.95
+  ],
+  [
+   1792784726,
+   82.53,
+   84.3
   ]
  ],
  "last_run": {
-  "ts": 1792783827,
+  "ts": 1792784726,
   "error": null,
   "markets_scanned": 469,
-  "candidates": 7,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 378,
-   "no favorite in 80-95c band": 82,
-   "nothing for sale at the ask": 1,
-   "spread too wide": 1
+   "too little volume": 376,
+   "no favorite in 80-95c band": 81,
+   "spread too wide": 5,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   216
+  ],
+  "settled": [
+   209
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.48,
-    "volume_24h": 4840.49,
-    "score": 0.5928
+    "price": 0.92,
+    "hours_to_close": 21.23,
+    "volume_24h": 4999.99,
+    "score": 0.6246
    },
    {
-    "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
+    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 22.49,
-    "volume_24h": 3343.98,
-    "score": 0.548
+    "hours_to_close": 33.24,
+    "volume_24h": 875.65,
+    "score": 0.5342
    },
    {
-    "label": "Al Ahli Saudi wins by more than 2.5 goals?",
-    "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 22.49,
-    "volume_24h": 3011.67,
-    "score": 0.5346
+    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 24, 2026? \u2014 76\u00b0 to 77\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.24,
+    "volume_24h": 210.12,
+    "score": 0.5265
    },
    {
     "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 491.54,
-    "score": 0.5225
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.49,
-    "volume_24h": 808.65,
-    "score": 0.5213
+    "score": 0.5229
    },
    {
     "label": "Will the maximum temperature be >82\u00b0 on Oct 24, 2026? \u2014 83\u00b0 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.49,
-    "volume_24h": 742.86,
-    "score": 0.496
+    "hours_to_close": 35.24,
+    "volume_24h": 765.86,
+    "score": 0.4973
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.49,
-    "volume_24h": 283.82,
-    "score": 0.486
+    "hours_to_close": 34.24,
+    "volume_24h": 293.21,
+    "score": 0.4873
    }
   ],
   "skipped": {},

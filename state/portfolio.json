@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792763940.0,
    "score": 0.5322,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -91,7 +91,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -108,7 +108,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -182,7 +182,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.29,
+   "mark_price": 0.19,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -220,7 +220,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.42,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -258,7 +258,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.94,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -12209,10 +12209,15 @@
    1792761327,
    84.01,
    83.23
+  ],
+  [
+   1792762227,
+   84.01,
+   82.77
   ]
  ],
  "last_run": {
-  "ts": 1792761327,
+  "ts": 1792762227,
   "error": null,
   "markets_scanned": 45,
   "candidates": 2,
@@ -12222,31 +12227,29 @@
    "spread too wide": 1
   },
   "opened": [],
-  "settled": [
-   195
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 28.74,
-    "volume_24h": 2612.34,
-    "score": 0.5467
+    "hours_to_close": 28.49,
+    "volume_24h": 3742.78,
+    "score": 0.5589
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 28.74,
+    "hours_to_close": 28.49,
     "volume_24h": 715.27,
-    "score": 0.4546
+    "score": 0.455
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 4,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

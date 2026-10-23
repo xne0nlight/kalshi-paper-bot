@@ -284,7 +284,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -301,7 +301,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4194,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -318,7 +318,7 @@
    "opened_ts": 1792674025,
    "close_ts": 1792763940.0,
    "score": 0.597,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792721725,
@@ -11888,18 +11888,23 @@
    1792721725,
    86.77,
    85.63
+  ],
+  [
+   1792722625,
+   86.77,
+   85.65
   ]
  ],
  "last_run": {
-  "ts": 1792721725,
+  "ts": 1792722625,
   "error": null,
   "markets_scanned": 4384,
-  "candidates": 51,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 3960,
+   "too little volume": 3958,
    "no favorite in 80-95c band": 313,
-   "spread too wide": 48,
-   "favorite is slipping fast": 12
+   "spread too wide": 50,
+   "favorite is slipping fast": 9
   },
   "opened": [],
   "settled": [],
@@ -11909,70 +11914,70 @@
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 23, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.73,
-    "volume_24h": 15266.77,
-    "score": 0.7013
+    "hours_to_close": 14.48,
+    "volume_24h": 15305.52,
+    "score": 0.7026
+   },
+   {
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 31711.24,
+    "score": 0.6857
    },
    {
     "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,500 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 15410.08,
-    "score": 0.6849
-   },
-   {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 30918.0,
-    "score": 0.6849
+    "price": 0.94,
+    "hours_to_close": 18.49,
+    "volume_24h": 15419.56,
+    "score": 0.6757
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 23, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 14.73,
-    "volume_24h": 13087.95,
-    "score": 0.6713
+    "hours_to_close": 14.48,
+    "volume_24h": 13126.7,
+    "score": 0.6726
    },
    {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $79,500 or above",
+    "label": "Ethereum price at Oct 23, 2026 at 5pm EDT? \u2014 $2,330 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 18.74,
-    "volume_24h": 31494.24,
-    "score": 0.6549
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 10571.17,
+    "score": 0.6657
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 23, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 14.73,
-    "volume_24h": 7735.13,
-    "score": 0.643
+    "hours_to_close": 14.48,
+    "volume_24h": 7778.32,
+    "score": 0.6444
    },
    {
-    "label": "Bitcoin price on Oct 23, 2026? \u2014 $83,000 or above",
-    "side": "no",
+    "label": "Bitcoin price on Oct 23, 2026? \u2014 $80,000 or above",
+    "side": "yes",
     "price": 0.9,
-    "hours_to_close": 18.74,
-    "volume_24h": 36648.41,
-    "score": 0.6349
+    "hours_to_close": 18.49,
+    "volume_24h": 47602.49,
+    "score": 0.6357
    },
    {
     "label": "Will the maximum temperature be 61-62\u00b0 on Oct 23, 2026? \u2014 61\u00b0 to 62\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.74,
-    "volume_24h": 3538.94,
-    "score": 0.6303
+    "hours_to_close": 26.49,
+    "volume_24h": 3569.94,
+    "score": 0.6311
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 7,
-   "tracked only (below bet price floor)": 9,
+   "related-market cap (Oil prices)": 9,
+   "tracked only (below bet price floor)": 7,
    "related-market cap (Precious metals)": 1
   },
   "watch_added": 1,

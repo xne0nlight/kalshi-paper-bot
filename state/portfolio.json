@@ -57,7 +57,7 @@
    "opened_ts": 1792667726,
    "close_ts": 1792789200.0,
    "score": 0.4307,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.56,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -265,7 +265,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -316,7 +316,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -12560,78 +12560,98 @@
    1792784726,
    82.53,
    84.3
+  ],
+  [
+   1792785626,
+   82.53,
+   84.57
   ]
  ],
  "last_run": {
-  "ts": 1792784726,
+  "ts": 1792785626,
   "error": null,
-  "markets_scanned": 469,
-  "candidates": 6,
+  "markets_scanned": 1298,
+  "candidates": 13,
   "rejections": {
-   "too little volume": 376,
-   "no favorite in 80-95c band": 81,
-   "spread too wide": 5,
+   "too little volume": 1189,
+   "no favorite in 80-95c band": 93,
+   "spread too wide": 2,
    "nothing for sale at the ask": 1
   },
-  "opened": [
-   216
-  ],
-  "settled": [
-   209
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.23,
-    "volume_24h": 4999.99,
-    "score": 0.6246
+    "hours_to_close": 20.98,
+    "volume_24h": 5153.16,
+    "score": 0.6263
+   },
+   {
+    "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.99,
+    "volume_24h": 1130.63,
+    "score": 0.549
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.24,
-    "volume_24h": 875.65,
-    "score": 0.5342
+    "hours_to_close": 32.99,
+    "volume_24h": 1017.35,
+    "score": 0.5394
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 24, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 538.32,
+    "score": 0.5349
+   },
+   {
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.99,
+    "volume_24h": 994.67,
+    "score": 0.5287
    },
    {
     "label": "Will the maximum temperature be 76-77\u00b0 on Oct 24, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 210.12,
-    "score": 0.5265
+    "score": 0.5268
    },
    {
     "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 491.54,
-    "score": 0.5229
+    "score": 0.5232
    },
    {
     "label": "Will the maximum temperature be >82\u00b0 on Oct 24, 2026? \u2014 83\u00b0 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.24,
+    "price": 0.94,
+    "hours_to_close": 34.99,
     "volume_24h": 765.86,
-    "score": 0.4973
-   },
-   {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.24,
-    "volume_24h": 293.21,
-    "score": 0.4873
+    "score": 0.5076
    }
   ],
-  "skipped": {},
-  "watch_added": 1,
+  "skipped": {
+   "series cap": 2,
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

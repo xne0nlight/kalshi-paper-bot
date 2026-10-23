@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.69,
- "fees_paid": 5.2,
+ "cash": 8.45,
+ "fees_paid": 5.26,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 217,
+ "next_id": 219,
  "open_positions": [
   {
    "id": 191,
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.73,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -184,23 +184,6 @@
    "shadow": {}
   },
   {
-   "id": 205,
-   "ticker": "KXSAUDIPLGAME-26OCT22AASKHA-KHA",
-   "event_ticker": "KXSAUDIPLGAME-26OCT22AASKHA",
-   "series": "KXSAUDIPLGAME",
-   "label": "Al-Khaleej wins",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.89,
-   "fee": 0.04,
-   "cost": 4.49,
-   "opened_ts": 1792754175,
-   "close_ts": 1792864800.0,
-   "score": 0.5525,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 206,
    "ticker": "KXHIGHTSEA-26OCT23-B59.5",
    "event_ticker": "KXHIGHTSEA-26OCT23",
@@ -214,7 +197,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.89,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -248,7 +231,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -265,7 +248,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -351,6 +334,40 @@
    "close_ts": 1792908000.0,
    "score": 0.5265,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 217,
+   "ticker": "KXRAIN-26OCT24-SEA",
+   "event_ticker": "KXRAIN-26OCT24",
+   "series": "KXRAIN",
+   "label": "Will it rain in Seattle on Oct 24, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.85,
+   "fee": 0.05,
+   "cost": 4.3,
+   "opened_ts": 1792786527,
+   "close_ts": 1792915200.0,
+   "score": 0.5154,
+   "mark_price": 0.84,
+   "shadow": {}
+  },
+  {
+   "id": 218,
+   "ticker": "KXLOWTNYC-26OCT24-T46",
+   "event_ticker": "KXLOWTNYC-26OCT24",
+   "series": "KXLOWTNYC",
+   "label": "Will the minimum temperature be >46\u00b0 on Oct 24, 2026? \u2014 47\u00b0 or above",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1792786527,
+   "close_ts": 1792904400.0,
+   "score": 0.5084,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -5402,6 +5419,27 @@
    "pnl": 0.7,
    "result": "YES",
    "closed_ts": 1792784726,
+   "won": true
+  },
+  {
+   "id": 205,
+   "ticker": "KXSAUDIPLGAME-26OCT22AASKHA-KHA",
+   "event_ticker": "KXSAUDIPLGAME-26OCT22AASKHA",
+   "series": "KXSAUDIPLGAME",
+   "label": "Al-Khaleej wins",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.89,
+   "fee": 0.04,
+   "cost": 4.49,
+   "opened_ts": 1792754175,
+   "close_ts": 1792864800.0,
+   "score": 0.5525,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.51,
+   "result": "NO",
+   "closed_ts": 1792786527,
    "won": true
   }
  ],
@@ -12565,94 +12603,104 @@
    1792785626,
    82.53,
    84.57
+  ],
+  [
+   1792786527,
+   83.04,
+   84.73
   ]
  ],
  "last_run": {
-  "ts": 1792785626,
+  "ts": 1792786527,
   "error": null,
-  "markets_scanned": 1298,
-  "candidates": 13,
+  "markets_scanned": 1284,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 1189,
-   "no favorite in 80-95c band": 93,
-   "spread too wide": 2,
+   "too little volume": 1165,
+   "no favorite in 80-95c band": 94,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   217,
+   218
+  ],
+  "settled": [
+   205
+  ],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.74,
+    "volume_24h": 5122.4,
+    "score": 0.6365
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 2783.71,
+    "score": 0.6267
+   },
+   {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.98,
-    "volume_24h": 5153.16,
-    "score": 0.6263
+    "price": 0.91,
+    "hours_to_close": 20.73,
+    "volume_24h": 5515.69,
+    "score": 0.6192
    },
    {
-    "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 1130.63,
-    "score": 0.549
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,250 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 24.74,
+    "volume_24h": 6582.77,
+    "score": 0.6147
    },
    {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.99,
-    "volume_24h": 1017.35,
-    "score": 0.5394
+    "hours_to_close": 24.74,
+    "volume_24h": 5055.0,
+    "score": 0.6061
    },
    {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 24, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "label": "Ethereum price at Oct 24, 2026 at 5pm EDT? \u2014 $2,440 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 538.32,
-    "score": 0.5349
+    "price": 0.9,
+    "hours_to_close": 24.74,
+    "volume_24h": 3631.37,
+    "score": 0.5853
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 994.67,
-    "score": 0.5287
+    "hours_to_close": 32.74,
+    "volume_24h": 1073.82,
+    "score": 0.5816
    },
    {
-    "label": "Will the maximum temperature be 76-77\u00b0 on Oct 24, 2026? \u2014 76\u00b0 to 77\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 210.12,
-    "score": 0.5268
-   },
-   {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.99,
-    "volume_24h": 491.54,
-    "score": 0.5232
-   },
-   {
-    "label": "Will the maximum temperature be >82\u00b0 on Oct 24, 2026? \u2014 83\u00b0 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.99,
-    "volume_24h": 765.86,
-    "score": 0.5076
+    "hours_to_close": 35.74,
+    "volume_24h": 1137.63,
+    "score": 0.5495
    }
   ],
   "skipped": {
+   "related-market cap (Crypto)": 6,
    "series cap": 2,
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 5,
-  "watch_graded": 0,
+  "watch_added": 11,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

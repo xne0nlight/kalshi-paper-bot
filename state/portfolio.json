@@ -125,7 +125,7 @@
    "opened_ts": 1792689328,
    "close_ts": 1792774740.0,
    "score": 0.5291,
-   "mark_price": 0.02,
+   "mark_price": 0.01,
    "shadow": {
     "10": {
      "ts": 1792701926,
@@ -163,7 +163,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.26,
+   "mark_price": 0.27,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -201,7 +201,7 @@
    "opened_ts": 1792725324,
    "close_ts": 1792789200.0,
    "score": 0.6867,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -252,7 +252,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   }
  ],
@@ -12286,65 +12286,62 @@
    1792773032,
    85.91,
    81.95
+  ],
+  [
+   1792773928,
+   85.91,
+   81.95
   ]
  ],
  "last_run": {
-  "ts": 1792773032,
+  "ts": 1792773928,
   "error": null,
   "markets_scanned": 158,
-  "candidates": 5,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 136,
-   "no favorite in 80-95c band": 16,
-   "spread too wide": 1
+   "too little volume": 135,
+   "no favorite in 80-95c band": 17,
+   "spread too wide": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.23,
+    "volume_24h": 4074.72,
+    "score": 0.5802
+   },
+   {
     "label": "Al-Khaleej wins",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 25.49,
-    "volume_24h": 3498.25,
-    "score": 0.5625
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 24.47,
-    "volume_24h": 3037.88,
-    "score": 0.5101
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 24.47,
-    "volume_24h": 1729.42,
-    "score": 0.4618
+    "hours_to_close": 25.24,
+    "volume_24h": 3563.12,
+    "score": 0.5636
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 25.49,
-    "volume_24h": 625.11,
-    "score": 0.4564
+    "hours_to_close": 25.24,
+    "volume_24h": 628.55,
+    "score": 0.4571
    },
    {
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.84,
-    "hours_to_close": 25.49,
+    "hours_to_close": 25.24,
     "volume_24h": 220.7,
-    "score": 0.4326
+    "score": 0.4331
    }
   ],
   "skipped": {
-   "related-market cap (Presidential approval)": 2,
+   "related-market cap (Presidential approval)": 1,
    "tracked only (below bet price floor)": 1
   },
   "watch_added": 0,

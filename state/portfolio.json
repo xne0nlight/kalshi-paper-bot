@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 15.44,
- "fees_paid": 5.1,
+ "cash": 10.9,
+ "fees_paid": 5.14,
  "peak_equity": 109.65,
  "day": "2026-10-23",
  "day_start_equity": 86.77,
- "next_id": 213,
+ "next_id": 214,
  "open_positions": [
   {
    "id": 191,
@@ -125,7 +125,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.44,
+   "mark_price": 0.5,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -180,7 +180,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.6088,
-   "mark_price": 0.98,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792864800.0,
    "score": 0.5525,
-   "mark_price": 0.93,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1792754175,
    "close_ts": 1792828800.0,
    "score": 0.502,
-   "mark_price": 0.86,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -265,7 +265,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792864800.0,
    "score": 0.4442,
-   "mark_price": 0.69,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792779327,
@@ -328,6 +328,23 @@
    "close_ts": 1792908000.0,
    "score": 0.4438,
    "mark_price": 0.85,
+   "shadow": {}
+  },
+  {
+   "id": 213,
+   "ticker": "KXSAUDIPL1H-26OCT22AASKHA-AAS",
+   "event_ticker": "KXSAUDIPL1H-26OCT22AASKHA",
+   "series": "KXSAUDIPL1H",
+   "label": "Al Ahli Saudi wins 1st Half",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1792780227,
+   "close_ts": 1792864800.0,
+   "score": 0.6212,
+   "mark_price": 0.89,
    "shadow": {}
   }
  ],
@@ -12438,20 +12455,27 @@
    1792779327,
    81.37,
    81.36
+  ],
+  [
+   1792780227,
+   81.37,
+   82.2
   ]
  ],
  "last_run": {
-  "ts": 1792779327,
+  "ts": 1792780227,
   "error": null,
   "markets_scanned": 452,
-  "candidates": 7,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 369,
-   "no favorite in 80-95c band": 67,
-   "spread too wide": 7,
-   "nothing for sale at the ask": 2
+   "too little volume": 367,
+   "no favorite in 80-95c band": 71,
+   "spread too wide": 2,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
+  "opened": [
+   213
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -12459,61 +12483,71 @@
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 24, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.73,
-    "volume_24h": 3214.29,
-    "score": 0.6361
+    "hours_to_close": 22.48,
+    "volume_24h": 7917.96,
+    "score": 0.6661
+   },
+   {
+    "label": "Tie is the result",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 17823.33,
+    "score": 0.6412
+   },
+   {
+    "label": "Al Ahli Saudi wins 1st Half",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 23.49,
+    "volume_24h": 19748.54,
+    "score": 0.6212
+   },
+   {
+    "label": "Al Ahli Saudi wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 23.49,
+    "volume_24h": 81827.72,
+    "score": 0.6112
+   },
+   {
+    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.49,
+    "volume_24h": 933.67,
+    "score": 0.5747
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.73,
-    "volume_24h": 3315.11,
-    "score": 0.6172
+    "hours_to_close": 22.48,
+    "volume_24h": 3854.24,
+    "score": 0.5727
    },
    {
-    "label": "Al-Khaleej wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 8563.9,
-    "score": 0.6156
-   },
-   {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.74,
-    "volume_24h": 933.15,
-    "score": 0.5743
+    "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 1802.37,
+    "score": 0.5554
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Oct 24, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 759.96,
-    "score": 0.5276
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.74,
-    "volume_24h": 3848.6,
-    "score": 0.4895
-   },
-   {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 35.74,
-    "volume_24h": 280.82,
-    "score": 0.4441
+    "score": 0.528
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

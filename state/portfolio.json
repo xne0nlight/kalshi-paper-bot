@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -226,7 +226,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -283,7 +283,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792936800.0,
    "score": 0.6641,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -300,8 +300,19 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.84,
-   "shadow": {}
+   "mark_price": 0.76,
+   "shadow": {
+    "10": {
+     "ts": 1792878326,
+     "bid": 0.76,
+     "proceeds": 2.24
+    },
+    "15": {
+     "ts": 1792878326,
+     "bid": 0.76,
+     "proceeds": 2.24
+    }
+   }
   },
   {
    "id": 228,
@@ -385,7 +396,7 @@
    "opened_ts": 1792877426,
    "close_ts": 1792987140.0,
    "score": 0.6576,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -13541,96 +13552,97 @@
    1792877426,
    87.29,
    89.95
+  ],
+  [
+   1792878326,
+   87.29,
+   89.56
   ]
  ],
  "last_run": {
-  "ts": 1792877426,
+  "ts": 1792878326,
   "error": null,
-  "markets_scanned": 1680,
-  "candidates": 56,
+  "markets_scanned": 1674,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 1352,
+   "too little volume": 1343,
    "no favorite in 80-95c band": 261,
-   "spread too wide": 10,
+   "spread too wide": 12,
    "favorite is slipping fast": 1
   },
-  "opened": [
-   234
-  ],
-  "settled": [
-   227
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
+    "label": "Will average **gas prices** be above $4.2800? \u2014 Above 4.2800",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.48,
-    "volume_24h": 90507.76,
-    "score": 0.6576
+    "hours_to_close": 30.23,
+    "volume_24h": 71899.13,
+    "score": 0.658
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.49,
-    "volume_24h": 4853.6,
-    "score": 0.6477
+    "hours_to_close": 23.24,
+    "volume_24h": 5506.84,
+    "score": 0.6524
+   },
+   {
+    "label": "Oklahoma wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 26.24,
+    "volume_24h": 593162.16,
+    "score": 0.6251
+   },
+   {
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 26.24,
+    "volume_24h": 838439.78,
+    "score": 0.6251
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.49,
-    "volume_24h": 7157.09,
-    "score": 0.6237
+    "hours_to_close": 26.24,
+    "volume_24h": 7177.45,
+    "score": 0.6243
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.48,
-    "volume_24h": 5897.93,
-    "score": 0.6152
+    "hours_to_close": 19.23,
+    "volume_24h": 5923.95,
+    "score": 0.6162
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.48,
-    "volume_24h": 7888.69,
-    "score": 0.6147
-   },
-   {
-    "label": "UCLA wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 26.49,
-    "volume_24h": 1175516.87,
-    "score": 0.6146
-   },
-   {
-    "label": "Michigan St. wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 26.49,
-    "volume_24h": 1622898.69,
-    "score": 0.6146
+    "hours_to_close": 19.23,
+    "volume_24h": 7926.98,
+    "score": 0.6157
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.49,
-    "volume_24h": 6691.42,
-    "score": 0.6081
+    "price": 0.89,
+    "hours_to_close": 23.24,
+    "volume_24h": 7683.72,
+    "score": 0.6032
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 4,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

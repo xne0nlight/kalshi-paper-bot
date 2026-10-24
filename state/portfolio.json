@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.99,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -148,7 +148,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -203,7 +203,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -311,7 +311,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792936800.0,
    "score": 0.6641,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -13241,16 +13241,22 @@
    1792856725,
    85.61,
    86.87
+  ],
+  [
+   1792857625,
+   85.61,
+   86.71
   ]
  ],
  "last_run": {
-  "ts": 1792856725,
+  "ts": 1792857625,
   "error": null,
-  "markets_scanned": 373,
-  "candidates": 28,
+  "markets_scanned": 721,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 242,
-   "no favorite in 80-95c band": 103
+   "too little volume": 503,
+   "no favorite in 80-95c band": 174,
+   "spread too wide": 13
   },
   "opened": [],
   "settled": [],
@@ -13260,69 +13266,69 @@
     "label": "Miami (FL) wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 32.24,
-    "volume_24h": 345116.61,
-    "score": 0.6349
+    "hours_to_close": 31.99,
+    "volume_24h": 370084.3,
+    "score": 0.6353
    },
    {
     "label": "Pittsburgh wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.24,
-    "volume_24h": 1573797.48,
-    "score": 0.6249
+    "hours_to_close": 31.99,
+    "volume_24h": 1724170.83,
+    "score": 0.6253
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 3625.11,
-    "score": 0.6242
+    "score": 0.6248
    },
    {
     "label": "SMU wins",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 32.24,
-    "volume_24h": 44317.22,
-    "score": 0.6049
+    "hours_to_close": 31.99,
+    "volume_24h": 67123.88,
+    "score": 0.6053
    },
    {
     "label": "California wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.24,
-    "volume_24h": 434955.11,
-    "score": 0.6049
+    "hours_to_close": 31.99,
+    "volume_24h": 485010.46,
+    "score": 0.6053
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 3370.22,
-    "score": 0.5995
+    "score": 0.5999
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 2607.48,
-    "score": 0.5911
+    "score": 0.5915
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 3818.01,
-    "score": 0.5859
+    "score": 0.5864
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

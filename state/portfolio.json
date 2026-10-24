@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -260,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.84,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -317,7 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -401,7 +401,7 @@
    "opened_ts": 1792862128,
    "close_ts": 1792947540.0,
    "score": 0.6279,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -13354,90 +13354,95 @@
    1792869327,
    85.9,
    88.12
+  ],
+  [
+   1792870227,
+   85.9,
+   88.5
   ]
  ],
  "last_run": {
-  "ts": 1792869327,
+  "ts": 1792870227,
   "error": null,
-  "markets_scanned": 901,
-  "candidates": 44,
+  "markets_scanned": 897,
+  "candidates": 45,
   "rejections": {
-   "too little volume": 607,
-   "no favorite in 80-95c band": 234,
-   "spread too wide": 15,
-   "nothing for sale at the ask": 1
+   "too little volume": 609,
+   "no favorite in 80-95c band": 231,
+   "spread too wide": 10,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Texas Tech wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 2509916.32,
-    "score": 0.6604
-   },
-   {
-    "label": "Cincinnati wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 1907396.9,
-    "score": 0.6604
-   },
-   {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.74,
-    "volume_24h": 14679.32,
-    "score": 0.6404
+    "hours_to_close": 28.49,
+    "volume_24h": 15341.75,
+    "score": 0.6409
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.73,
-    "volume_24h": 4308.13,
-    "score": 0.6383
+    "price": 0.92,
+    "hours_to_close": 32.48,
+    "volume_24h": 65079.41,
+    "score": 0.6246
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.74,
+    "hours_to_close": 28.49,
     "volume_24h": 6008.07,
-    "score": 0.6139
+    "score": 0.6143
    },
    {
-    "label": "Tie in the 1st half",
+    "label": "Western Michigan wins",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.74,
-    "volume_24h": 2841.94,
-    "score": 0.6095
+    "price": 0.9,
+    "hours_to_close": 28.49,
+    "volume_24h": 536550.87,
+    "score": 0.6109
+   },
+   {
+    "label": "Toledo wins",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 28.49,
+    "volume_24h": 596002.44,
+    "score": 0.6109
+   },
+   {
+    "label": "Oregon wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 28.49,
+    "volume_24h": 57292.37,
+    "score": 0.6009
    },
    {
     "label": "Illinois wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 28.74,
-    "volume_24h": 198317.99,
-    "score": 0.6004
+    "hours_to_close": 28.49,
+    "volume_24h": 215451.89,
+    "score": 0.6009
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.73,
+    "hours_to_close": 21.48,
     "volume_24h": 4420.57,
-    "score": 0.5992
+    "score": 0.5998
    }
   ],
   "skipped": {},
-  "watch_added": 7,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

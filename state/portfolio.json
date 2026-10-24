@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.92,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -260,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.92,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -317,7 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -334,7 +334,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.69,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1792873825,
@@ -13484,99 +13484,97 @@
    1792874724,
    86.71,
    88.52
+  ],
+  [
+   1792875628,
+   86.71,
+   88.61
   ]
  ],
  "last_run": {
-  "ts": 1792874724,
+  "ts": 1792875628,
   "error": null,
-  "markets_scanned": 1704,
-  "candidates": 47,
+  "markets_scanned": 1698,
+  "candidates": 52,
   "rejections": {
-   "too little volume": 1392,
-   "no favorite in 80-95c band": 250,
-   "spread too wide": 13,
-   "nothing for sale at the ask": 1,
+   "too little volume": 1388,
+   "no favorite in 80-95c band": 248,
+   "spread too wide": 9,
    "favorite is slipping fast": 1
   },
-  "opened": [
-   231,
-   232
-  ],
-  "settled": [
-   229,
-   230
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.23,
-    "volume_24h": 7607.45,
-    "score": 0.6512
+    "hours_to_close": 19.98,
+    "volume_24h": 7687.45,
+    "score": 0.6523
+   },
+   {
+    "label": "UCLA wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 26.99,
+    "volume_24h": 538432.75,
+    "score": 0.6237
+   },
+   {
+    "label": "Michigan St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 26.99,
+    "volume_24h": 852302.55,
+    "score": 0.6237
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 7157.09,
-    "score": 0.6223
+    "score": 0.6228
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.23,
-    "volume_24h": 5634.2,
-    "score": 0.6114
+    "hours_to_close": 19.98,
+    "volume_24h": 5714.2,
+    "score": 0.6126
+   },
+   {
+    "label": "Oklahoma wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 457143.92,
+    "score": 0.6037
+   },
+   {
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 537479.79,
+    "score": 0.6037
    },
    {
     "label": "Will the maximum temperature be 68-69\u00b0 on Oct 25, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 1561.64,
-    "score": 0.5845
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.24,
-    "volume_24h": 1395.74,
-    "score": 0.5791
-   },
-   {
-    "label": "Tennessee wins the 1st half",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 27.24,
-    "volume_24h": 67508.14,
-    "score": 0.5732
-   },
-   {
-    "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.24,
-    "volume_24h": 1190.0,
-    "score": 0.5701
-   },
-   {
-    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 25, 2026? \u2014 70\u00b0 to 71\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.24,
-    "volume_24h": 668.22,
-    "score": 0.5654
+    "score": 0.5848
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 7,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

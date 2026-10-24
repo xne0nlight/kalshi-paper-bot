@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.85,
- "fees_paid": 5.57,
+ "cash": 9.08,
+ "fees_paid": 5.59,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 234,
+ "next_id": 235,
  "open_positions": [
   {
    "id": 191,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.95,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -300,41 +300,8 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.89,
+   "mark_price": 0.84,
    "shadow": {}
-  },
-  {
-   "id": 227,
-   "ticker": "KXNCAAF1H-26OCT23TENNSCAR-TIE",
-   "event_ticker": "KXNCAAF1H-26OCT23TENNSCAR",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 3.74,
-   "opened_ts": 1792851325,
-   "close_ts": 1792972800.0,
-   "score": 0.5973,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792873825,
-     "bid": 0.82,
-     "proceeds": 3.23
-    },
-    "15": {
-     "ts": 1792874724,
-     "bid": 0.69,
-     "proceeds": 2.7
-    },
-    "20": {
-     "ts": 1792874724,
-     "bid": 0.69,
-     "proceeds": 2.7
-    }
-   }
   },
   {
    "id": 228,
@@ -401,7 +368,24 @@
    "opened_ts": 1792876525,
    "close_ts": 1792962000.0,
    "score": 0.6356,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 234,
+   "ticker": "KXAAAGASW-26OCT26-4.3000",
+   "event_ticker": "KXAAAGASW-26OCT26",
+   "series": "KXAAAGASW",
+   "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792877426,
+   "close_ts": 1792987140.0,
+   "score": 0.6576,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -5847,6 +5831,43 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1792876525,
+   "won": true
+  },
+  {
+   "id": 227,
+   "ticker": "KXNCAAF1H-26OCT23TENNSCAR-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT23TENNSCAR",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 3.74,
+   "opened_ts": 1792851325,
+   "close_ts": 1792972800.0,
+   "score": 0.5973,
+   "shadow": {
+    "10": {
+     "ts": 1792873825,
+     "bid": 0.82,
+     "proceeds": 3.23
+    },
+    "15": {
+     "ts": 1792874724,
+     "bid": 0.69,
+     "proceeds": 2.7
+    },
+    "20": {
+     "ts": 1792874724,
+     "bid": 0.69,
+     "proceeds": 2.7
+    }
+   },
+   "payout": 4.0,
+   "pnl": 0.26,
+   "result": "NO",
+   "closed_ts": 1792877426,
    "won": true
   }
  ],
@@ -13515,96 +13536,101 @@
    1792876525,
    87.03,
    89.93
+  ],
+  [
+   1792877426,
+   87.29,
+   89.95
   ]
  ],
  "last_run": {
-  "ts": 1792876525,
+  "ts": 1792877426,
   "error": null,
-  "markets_scanned": 1692,
+  "markets_scanned": 1680,
   "candidates": 56,
   "rejections": {
-   "too little volume": 1366,
-   "no favorite in 80-95c band": 259,
+   "too little volume": 1352,
+   "no favorite in 80-95c band": 261,
    "spread too wide": 10,
-   "nothing for sale at the ask": 1
+   "favorite is slipping fast": 1
   },
   "opened": [
-   233
+   234
   ],
   "settled": [
-   219
+   227
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 25, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 4638.42,
-    "score": 0.6356
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.48,
+    "volume_24h": 90507.76,
+    "score": 0.6576
    },
    {
-    "label": "Old Dominion wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.74,
-    "volume_24h": 32823.09,
-    "score": 0.6341
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $78,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.49,
+    "volume_24h": 4853.6,
+    "score": 0.6477
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 7157.09,
-    "score": 0.6232
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.73,
-    "volume_24h": 4561.1,
-    "score": 0.6161
+    "score": 0.6237
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.73,
-    "volume_24h": 5813.14,
-    "score": 0.614
+    "hours_to_close": 19.48,
+    "volume_24h": 5897.93,
+    "score": 0.6152
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.73,
-    "volume_24h": 7803.9,
-    "score": 0.6136
+    "hours_to_close": 19.48,
+    "volume_24h": 7888.69,
+    "score": 0.6147
    },
    {
-    "label": "OpenAI market share this week? \u2014 Above 17.7%",
+    "label": "UCLA wins",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.73,
-    "volume_24h": 2313.8,
-    "score": 0.6095
+    "price": 0.9,
+    "hours_to_close": 26.49,
+    "volume_24h": 1175516.87,
+    "score": 0.6146
    },
    {
-    "label": "Southern Miss wins",
+    "label": "Michigan St. wins",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 26.74,
-    "volume_24h": 13918.19,
-    "score": 0.6041
+    "price": 0.9,
+    "hours_to_close": 26.49,
+    "volume_24h": 1622898.69,
+    "score": 0.6146
+   },
+   {
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 23.49,
+    "volume_24h": 6691.42,
+    "score": 0.6081
    }
   ],
   "skipped": {},
-  "watch_added": 9,
-  "watch_graded": 27,
-  "api_calls": 43
+  "watch_added": 6,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

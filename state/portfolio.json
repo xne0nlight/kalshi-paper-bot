@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.87,
- "fees_paid": 5.48,
+ "cash": 9.1,
+ "fees_paid": 5.5,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 229,
+ "next_id": 230,
  "open_positions": [
   {
    "id": 191,
@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -97,7 +97,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -300,7 +300,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792936800.0,
    "score": 0.6641,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -317,7 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -338,39 +338,6 @@
    "shadow": {}
   },
   {
-   "id": 226,
-   "ticker": "KXNCAAFGAME-26OCT23CALSMU-SMU",
-   "event_ticker": "KXNCAAFGAME-26OCT23CALSMU",
-   "series": "KXNCAAFGAME",
-   "label": "SMU wins",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 4.54,
-   "opened_ts": 1792851325,
-   "close_ts": 1792972800.0,
-   "score": 0.6028,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1792859425,
-     "bid": 0.78,
-     "proceeds": 3.83
-    },
-    "15": {
-     "ts": 1792862128,
-     "bid": 0.67,
-     "proceeds": 3.27
-    },
-    "20": {
-     "ts": 1792862128,
-     "bid": 0.67,
-     "proceeds": 3.27
-    }
-   }
-  },
-  {
    "id": 227,
    "ticker": "KXNCAAF1H-26OCT23TENNSCAR-TIE",
    "event_ticker": "KXNCAAF1H-26OCT23TENNSCAR",
@@ -384,7 +351,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -402,6 +369,23 @@
    "close_ts": 1792947540.0,
    "score": 0.6279,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 229,
+   "ticker": "KXNCAAF1H-26OCT23OREILL-ILL",
+   "event_ticker": "KXNCAAF1H-26OCT23OREILL",
+   "series": "KXNCAAF1H",
+   "label": "Illinois wins the 1st half",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792871125,
+   "close_ts": 1792972800.0,
+   "score": 0.6211,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -5726,6 +5710,43 @@
    "pnl": 0.29,
    "result": "NO",
    "closed_ts": 1792862128,
+   "won": true
+  },
+  {
+   "id": 226,
+   "ticker": "KXNCAAFGAME-26OCT23CALSMU-SMU",
+   "event_ticker": "KXNCAAFGAME-26OCT23CALSMU",
+   "series": "KXNCAAFGAME",
+   "label": "SMU wins",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1792851325,
+   "close_ts": 1792972800.0,
+   "score": 0.6028,
+   "shadow": {
+    "10": {
+     "ts": 1792859425,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1792862128,
+     "bid": 0.67,
+     "proceeds": 3.27
+    },
+    "20": {
+     "ts": 1792862128,
+     "bid": 0.67,
+     "proceeds": 3.27
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.46,
+   "result": "YES",
+   "closed_ts": 1792871125,
    "won": true
   }
  ],
@@ -13359,90 +13380,98 @@
    1792870227,
    85.9,
    88.5
+  ],
+  [
+   1792871125,
+   86.36,
+   88.37
   ]
  ],
  "last_run": {
-  "ts": 1792870227,
+  "ts": 1792871125,
   "error": null,
-  "markets_scanned": 897,
-  "candidates": 45,
+  "markets_scanned": 891,
+  "candidates": 48,
   "rejections": {
-   "too little volume": 609,
-   "no favorite in 80-95c band": 231,
-   "spread too wide": 10,
-   "nothing for sale at the ask": 2
+   "too little volume": 603,
+   "no favorite in 80-95c band": 228,
+   "spread too wide": 12
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   229
+  ],
+  "settled": [
+   226
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.49,
-    "volume_24h": 15341.75,
-    "score": 0.6409
+    "price": 0.92,
+    "hours_to_close": 28.24,
+    "volume_24h": 20328.19,
+    "score": 0.6313
    },
    {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "label": "Illinois wins the 1st half",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.48,
-    "volume_24h": 65079.41,
-    "score": 0.6246
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 2903.22,
+    "score": 0.6211
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.49,
+    "hours_to_close": 28.24,
     "volume_24h": 6008.07,
-    "score": 0.6143
-   },
-   {
-    "label": "Western Michigan wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 28.49,
-    "volume_24h": 536550.87,
-    "score": 0.6109
-   },
-   {
-    "label": "Toledo wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 28.49,
-    "volume_24h": 596002.44,
-    "score": 0.6109
+    "score": 0.6147
    },
    {
     "label": "Oregon wins",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 28.49,
-    "volume_24h": 57292.37,
-    "score": 0.6009
+    "price": 0.9,
+    "hours_to_close": 28.24,
+    "volume_24h": 108000.9,
+    "score": 0.6113
    },
    {
     "label": "Illinois wins",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.49,
-    "volume_24h": 215451.89,
-    "score": 0.6009
+    "price": 0.9,
+    "hours_to_close": 28.24,
+    "volume_24h": 312065.4,
+    "score": 0.6113
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 21.48,
-    "volume_24h": 4420.57,
-    "score": 0.5998
+    "hours_to_close": 21.23,
+    "volume_24h": 5311.12,
+    "score": 0.6065
+   },
+   {
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 32.23,
+    "volume_24h": 72640.61,
+    "score": 0.6049
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.23,
+    "volume_24h": 5823.85,
+    "score": 0.5995
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

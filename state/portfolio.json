@@ -131,7 +131,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -226,7 +226,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792875600.0,
    "score": 0.6302,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.67,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1792859425,
@@ -378,7 +378,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -13308,96 +13308,95 @@
    1792862128,
    85.9,
    87.17
+  ],
+  [
+   1792863027,
+   85.9,
+   86.84
   ]
  ],
  "last_run": {
-  "ts": 1792862128,
+  "ts": 1792863027,
   "error": null,
   "markets_scanned": 861,
-  "candidates": 32,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 590,
-   "no favorite in 80-95c band": 219,
+   "too little volume": 585,
+   "no favorite in 80-95c band": 225,
    "spread too wide": 20
   },
-  "opened": [
-   228
-  ],
-  "settled": [
-   208
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Western Michigan wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 180480.92,
-    "score": 0.6472
+    "label": "Cincinnati wins the 1st half",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 30.49,
+    "volume_24h": 11666.17,
+    "score": 0.6575
    },
    {
-    "label": "Toledo wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 342705.98,
-    "score": 0.6472
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.48,
+    "volume_24h": 60805.49,
+    "score": 0.6519
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.73,
+    "hours_to_close": 23.48,
     "volume_24h": 3652.93,
-    "score": 0.6279
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 3479.36,
-    "score": 0.6028
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.73,
-    "volume_24h": 59104.22,
-    "score": 0.6016
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 2460.51,
-    "score": 0.5915
+    "score": 0.6285
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.73,
+    "hours_to_close": 23.48,
     "volume_24h": 3819.01,
-    "score": 0.5893
+    "score": 0.5899
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 1598.0,
-    "score": 0.5874
+    "score": 0.5878
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 25, 2026? \u2014 39.0%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.48,
+    "volume_24h": 1331.79,
+    "score": 0.5856
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 30.49,
+    "volume_24h": 3005.46,
+    "score": 0.5784
+   },
+   {
+    "label": "UCLA wins",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 30.49,
+    "volume_24h": 80321.91,
+    "score": 0.5775
    }
   ],
-  "skipped": {
-   "series cap": 2
-  },
-  "watch_added": 5,
-  "watch_graded": 2,
+  "skipped": {},
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

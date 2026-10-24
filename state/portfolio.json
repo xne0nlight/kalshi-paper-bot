@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.65,
- "fees_paid": 5.46,
+ "cash": 8.87,
+ "fees_paid": 5.48,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 228,
+ "next_id": 229,
  "open_positions": [
   {
    "id": 191,
@@ -48,23 +48,6 @@
      "proceeds": 4.04
     }
    }
-  },
-  {
-   "id": 208,
-   "ticker": "KXTRUMPAPPROVE-26OCT24-E38.9",
-   "event_ticker": "KXTRUMPAPPROVE-26OCT24",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.92,
-   "fee": 0.03,
-   "cost": 3.71,
-   "opened_ts": 1792775727,
-   "close_ts": 1792861140.0,
-   "score": 0.5934,
-   "mark_price": 0.98,
-   "shadow": {}
   },
   {
    "id": 210,
@@ -114,7 +97,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -131,7 +114,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -148,7 +131,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -203,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -260,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -277,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -345,7 +328,7 @@
    "opened_ts": 1792844126,
    "close_ts": 1792972800.0,
    "score": 0.6203,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -362,12 +345,22 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.83,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1792859425,
      "bid": 0.78,
      "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1792862128,
+     "bid": 0.67,
+     "proceeds": 3.27
+    },
+    "20": {
+     "ts": 1792862128,
+     "bid": 0.67,
+     "proceeds": 3.27
     }
    }
   },
@@ -386,6 +379,23 @@
    "close_ts": 1792972800.0,
    "score": 0.5973,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 228,
+   "ticker": "KXTRUMPAPPROVE-26OCT25-E38.5",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT25",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 3.78,
+   "opened_ts": 1792862128,
+   "close_ts": 1792947540.0,
+   "score": 0.6279,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -5689,6 +5699,27 @@
    "pnl": 0.42,
    "result": "NO",
    "closed_ts": 1792851325,
+   "won": true
+  },
+  {
+   "id": 208,
+   "ticker": "KXTRUMPAPPROVE-26OCT24-E38.9",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT24",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 24, 2026? \u2014 38.9%",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 3.71,
+   "opened_ts": 1792775727,
+   "close_ts": 1792861140.0,
+   "score": 0.5934,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.29,
+   "result": "NO",
+   "closed_ts": 1792862128,
    "won": true
   }
  ],
@@ -13272,91 +13303,101 @@
    1792861225,
    85.61,
    87.59
+  ],
+  [
+   1792862128,
+   85.9,
+   87.17
   ]
  ],
  "last_run": {
-  "ts": 1792861225,
+  "ts": 1792862128,
   "error": null,
   "markets_scanned": 861,
-  "candidates": 35,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 596,
-   "no favorite in 80-95c band": 213,
-   "spread too wide": 15,
-   "favorite is slipping fast": 2
+   "too little volume": 590,
+   "no favorite in 80-95c band": 219,
+   "spread too wide": 20
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   228
+  ],
+  "settled": [
+   208
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Western Michigan wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 30.74,
+    "volume_24h": 180480.92,
+    "score": 0.6472
+   },
+   {
+    "label": "Toledo wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 30.74,
+    "volume_24h": 342705.98,
+    "score": 0.6472
+   },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.98,
-    "volume_24h": 3626.11,
-    "score": 0.627
-   },
-   {
-    "label": "Toledo wins the 1st half",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.99,
-    "volume_24h": 14486.64,
-    "score": 0.6068
+    "hours_to_close": 23.73,
+    "volume_24h": 3652.93,
+    "score": 0.6279
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 3479.36,
-    "score": 0.6024
+    "score": 0.6028
+   },
+   {
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 34.73,
+    "volume_24h": 59104.22,
+    "score": 0.6016
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 30.74,
+    "volume_24h": 2460.51,
+    "score": 0.5915
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.98,
+    "hours_to_close": 23.73,
     "volume_24h": 3819.01,
-    "score": 0.5887
+    "score": 0.5893
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 1598.0,
-    "score": 0.5871
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 25, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.98,
-    "volume_24h": 1331.79,
-    "score": 0.5844
-   },
-   {
-    "label": "UCLA wins",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 30.99,
-    "volume_24h": 79241.26,
-    "score": 0.5768
-   },
-   {
-    "label": "Michigan St. wins",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 30.99,
-    "volume_24h": 28793.57,
-    "score": 0.5768
+    "score": 0.5874
    }
   ],
-  "skipped": {},
-  "watch_added": 8,
-  "watch_graded": 5,
+  "skipped": {
+   "series cap": 2
+  },
+  "watch_added": 5,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

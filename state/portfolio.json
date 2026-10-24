@@ -314,7 +314,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -354,7 +354,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792875600.0,
    "score": 0.6302,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -405,7 +405,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   }
  ],
@@ -12905,86 +12905,90 @@
    1792818024,
    84.09,
    85.45
+  ],
+  [
+   1792818925,
+   84.09,
+   85.44
   ]
  ],
  "last_run": {
-  "ts": 1792818024,
+  "ts": 1792818925,
   "error": null,
   "markets_scanned": 1522,
-  "candidates": 33,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 1229,
-   "no favorite in 80-95c band": 230,
-   "spread too wide": 29,
-   "nothing for sale at the ask": 1
+   "too little volume": 1224,
+   "no favorite in 80-95c band": 229,
+   "spread too wide": 27
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 24, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 11.73,
+    "volume_24h": 40268.34,
+    "score": 0.7185
+   },
+   {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,750 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.99,
-    "volume_24h": 29166.35,
-    "score": 0.6855
+    "price": 0.95,
+    "hours_to_close": 15.74,
+    "volume_24h": 33752.16,
+    "score": 0.6966
    },
    {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $79,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.99,
-    "volume_24h": 27873.91,
-    "score": 0.6855
+    "hours_to_close": 15.74,
+    "volume_24h": 27893.5,
+    "score": 0.6866
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 15.74,
+    "volume_24h": 62197.54,
+    "score": 0.6466
    },
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 13648.32,
-    "score": 0.6439
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 15.99,
-    "volume_24h": 57612.89,
-    "score": 0.6355
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 15.99,
-    "volume_24h": 78786.51,
-    "score": 0.6355
+    "score": 0.6442
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 7597.4,
-    "score": 0.6349
+    "hours_to_close": 32.74,
+    "volume_24h": 7664.46,
+    "score": 0.6355
    },
    {
     "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 3114.64,
-    "score": 0.632
+    "hours_to_close": 23.74,
+    "volume_24h": 3134.64,
+    "score": 0.6328
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 24, 2026? \u2014 38.8%",
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 11.98,
-    "volume_24h": 38402.74,
-    "score": 0.6168
+    "price": 0.88,
+    "hours_to_close": 15.74,
+    "volume_24h": 80218.37,
+    "score": 0.6266
    }
   ],
   "skipped": {},

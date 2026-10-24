@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.1,
- "fees_paid": 5.5,
+ "cash": 9.15,
+ "fees_paid": 5.51,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 230,
+ "next_id": 231,
  "open_positions": [
   {
    "id": 191,
@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -97,7 +97,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.87,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.95,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -260,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -317,24 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.94,
-   "shadow": {}
-  },
-  {
-   "id": 225,
-   "ticker": "KXNCAAFGAME-26OCT23PITTMIA-PITT",
-   "event_ticker": "KXNCAAFGAME-26OCT23PITTMIA",
-   "series": "KXNCAAFGAME",
-   "label": "Pittsburgh wins",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.92,
-   "fee": 0.01,
-   "cost": 0.93,
-   "opened_ts": 1792844126,
-   "close_ts": 1792972800.0,
-   "score": 0.6203,
-   "mark_price": 0.99,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -351,7 +334,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -368,7 +351,7 @@
    "opened_ts": 1792862128,
    "close_ts": 1792947540.0,
    "score": 0.6279,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -385,7 +368,24 @@
    "opened_ts": 1792871125,
    "close_ts": 1792972800.0,
    "score": 0.6211,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
+   "shadow": {}
+  },
+  {
+   "id": 230,
+   "ticker": "KXNCAAFGAME-26OCT23AKRKENT-KENT",
+   "event_ticker": "KXNCAAFGAME-26OCT23AKRKENT",
+   "series": "KXNCAAFGAME",
+   "label": "Kent St. wins",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1792872027,
+   "close_ts": 1792972800.0,
+   "score": 0.6518,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -5747,6 +5747,27 @@
    "pnl": 0.46,
    "result": "YES",
    "closed_ts": 1792871125,
+   "won": true
+  },
+  {
+   "id": 225,
+   "ticker": "KXNCAAFGAME-26OCT23PITTMIA-PITT",
+   "event_ticker": "KXNCAAFGAME-26OCT23PITTMIA",
+   "series": "KXNCAAFGAME",
+   "label": "Pittsburgh wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1792844126,
+   "close_ts": 1792972800.0,
+   "score": 0.6203,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.07,
+   "result": "NO",
+   "closed_ts": 1792872027,
    "won": true
   }
  ],
@@ -13385,93 +13406,99 @@
    1792871125,
    86.36,
    88.37
+  ],
+  [
+   1792872027,
+   86.43,
+   88.85
   ]
  ],
  "last_run": {
-  "ts": 1792871125,
+  "ts": 1792872027,
   "error": null,
-  "markets_scanned": 891,
-  "candidates": 48,
+  "markets_scanned": 1715,
+  "candidates": 60,
   "rejections": {
-   "too little volume": 603,
-   "no favorite in 80-95c band": 228,
-   "spread too wide": 12
+   "too little volume": 1408,
+   "no favorite in 80-95c band": 234,
+   "spread too wide": 12,
+   "nothing for sale at the ask": 1
   },
   "opened": [
-   229
+   230
   ],
   "settled": [
-   226
+   225
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 28.24,
-    "volume_24h": 20328.19,
-    "score": 0.6313
-   },
-   {
-    "label": "Illinois wins the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 2903.22,
-    "score": 0.6211
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 28.24,
-    "volume_24h": 6008.07,
-    "score": 0.6147
-   },
-   {
-    "label": "Oregon wins",
+    "label": "Kent St. wins",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 28.24,
-    "volume_24h": 108000.9,
-    "score": 0.6113
+    "price": 0.94,
+    "hours_to_close": 27.99,
+    "volume_24h": 201406.05,
+    "score": 0.6518
    },
    {
-    "label": "Illinois wins",
+    "label": "Akron wins",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 28.24,
-    "volume_24h": 312065.4,
-    "score": 0.6113
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.23,
-    "volume_24h": 5311.12,
-    "score": 0.6065
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 32.23,
-    "volume_24h": 72640.61,
-    "score": 0.6049
+    "price": 0.94,
+    "hours_to_close": 27.99,
+    "volume_24h": 161015.97,
+    "score": 0.6518
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.23,
-    "volume_24h": 5823.85,
-    "score": 0.5995
+    "hours_to_close": 20.98,
+    "volume_24h": 5841.09,
+    "score": 0.6503
+   },
+   {
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.98,
+    "volume_24h": 74764.24,
+    "score": 0.6453
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.99,
+    "volume_24h": 6008.07,
+    "score": 0.6152
+   },
+   {
+    "label": "Oregon wins",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 27.99,
+    "volume_24h": 124214.37,
+    "score": 0.6118
+   },
+   {
+    "label": "Illinois wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.99,
+    "volume_24h": 352742.69,
+    "score": 0.6118
+   },
+   {
+    "label": "Miami (OH) wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.99,
+    "volume_24h": 317159.02,
+    "score": 0.6118
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 15,
   "watch_graded": 0,
   "api_calls": 42
  },

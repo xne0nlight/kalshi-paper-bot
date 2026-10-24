@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -203,7 +203,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.86,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -277,7 +277,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -294,7 +294,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792844126,
    "close_ts": 1792972800.0,
    "score": 0.6203,
-   "mark_price": 0.95,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -362,8 +362,14 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.78,
+   "shadow": {
+    "10": {
+     "ts": 1792859425,
+     "bid": 0.78,
+     "proceeds": 3.83
+    }
+   }
   },
   {
    "id": 227,
@@ -13251,89 +13257,94 @@
    1792858528,
    85.61,
    86.96
+  ],
+  [
+   1792859425,
+   85.61,
+   86.74
   ]
  ],
  "last_run": {
-  "ts": 1792858528,
+  "ts": 1792859425,
   "error": null,
   "markets_scanned": 721,
-  "candidates": 29,
+  "candidates": 35,
   "rejections": {
    "too little volume": 497,
-   "no favorite in 80-95c band": 181,
-   "spread too wide": 14
+   "no favorite in 80-95c band": 172,
+   "spread too wide": 17
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Rutgers wins",
+    "label": "Pittsburgh wins",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 31.74,
-    "volume_24h": 73556.84,
-    "score": 0.6256
+    "price": 0.94,
+    "hours_to_close": 31.49,
+    "volume_24h": 2338140.31,
+    "score": 0.646
    },
    {
-    "label": "Northwestern wins",
+    "label": "Miami (FL) wins",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.74,
-    "volume_24h": 51998.59,
-    "score": 0.6256
+    "price": 0.94,
+    "hours_to_close": 31.49,
+    "volume_24h": 645124.32,
+    "score": 0.646
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.73,
+    "hours_to_close": 24.48,
     "volume_24h": 3625.11,
-    "score": 0.6253
+    "score": 0.6259
    },
    {
-    "label": "Tie in the 1st half",
+    "label": "Pittsburgh wins the 1st half",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.74,
-    "volume_24h": 3381.96,
-    "score": 0.6003
+    "price": 0.95,
+    "hours_to_close": 31.49,
+    "volume_24h": 3846.3,
+    "score": 0.6249
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.74,
-    "volume_24h": 2636.83,
-    "score": 0.5922
+    "label": "Miami (FL) wins the 1st half",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 31.49,
+    "volume_24h": 6712.96,
+    "score": 0.613
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
+    "label": "Rutgers wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.73,
-    "volume_24h": 3818.01,
-    "score": 0.587
+    "hours_to_close": 31.49,
+    "volume_24h": 101201.93,
+    "score": 0.606
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.74,
-    "volume_24h": 1598.0,
-    "score": 0.5859
-   },
-   {
-    "label": "SMU wins",
+    "label": "Northwestern wins",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 31.74,
-    "volume_24h": 72429.44,
-    "score": 0.5856
+    "price": 0.9,
+    "hours_to_close": 31.49,
+    "volume_24h": 58068.19,
+    "score": 0.606
+   },
+   {
+    "label": "Western Michigan wins the 1st half",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.49,
+    "volume_24h": 9209.22,
+    "score": 0.6033
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

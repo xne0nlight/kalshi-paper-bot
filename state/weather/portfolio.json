@@ -479,7 +479,7 @@
    "contracts": 11.0,
    "cost": 9.57,
    "opened_ts": 1792774829,
-   "mark_price": 0.24,
+   "mark_price": 0.23,
    "avg_price": 0.87
   },
   {
@@ -498,7 +498,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1792775727,
-   "mark_price": 0.05,
+   "mark_price": 0.06,
    "avg_price": 0.09
   },
   {
@@ -536,7 +536,7 @@
    "contracts": 4.5,
    "cost": 3.87,
    "opened_ts": 1792776627,
-   "mark_price": 0.29,
+   "mark_price": 0.31,
    "avg_price": 0.86
   },
   {
@@ -745,7 +745,7 @@
    "contracts": 1.0,
    "cost": 0.85,
    "opened_ts": 1792819825,
-   "mark_price": 0.64,
+   "mark_price": 0.63,
    "avg_price": 0.85
   },
   {
@@ -840,7 +840,7 @@
    "contracts": 4.0,
    "cost": 3.44,
    "opened_ts": 1792830627,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "avg_price": 0.86
   },
   {
@@ -4554,6 +4554,11 @@
    1792833325,
    102.06,
    86.7462
+  ],
+  [
+   1792834224,
+   102.06,
+   86.7662
   ]
  ],
  "forecast_log": {
@@ -9464,32 +9469,19 @@
   }
  },
  "last_run": {
-  "ts": 1792833325,
+  "ts": 1792834224,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTSDF-26OCT24-B40.5",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTDAL-26OCT24-B56.5",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTSFO-26OCT24-B54.5",
-    "reason": "no longer qualifies"
-   }
-  ],
+  "cancelled": [],
   "placed": [],
   "markets": 0,
   "events": [],
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 41.8
+  "seconds": 32.9
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

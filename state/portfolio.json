@@ -275,7 +275,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -330,7 +330,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.89,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -387,7 +387,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -404,7 +404,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -421,7 +421,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.83,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -13036,17 +13036,22 @@
    1792838725,
    84.09,
    86.1
+  ],
+  [
+   1792839626,
+   84.09,
+   85.89
   ]
  ],
  "last_run": {
-  "ts": 1792838725,
+  "ts": 1792839626,
   "error": null,
-  "markets_scanned": 296,
-  "candidates": 14,
+  "markets_scanned": 272,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 208,
-   "no favorite in 80-95c band": 67,
-   "spread too wide": 7
+   "too little volume": 200,
+   "no favorite in 80-95c band": 58,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
@@ -13055,66 +13060,66 @@
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.24,
-    "volume_24h": 13879.74,
-    "score": 0.6532
+    "price": 0.95,
+    "hours_to_close": 26.99,
+    "volume_24h": 13880.67,
+    "score": 0.6637
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 7678.0,
-    "score": 0.6446
+    "score": 0.645
    },
    {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "label": "Will the maximum temperature be <54\u00b0 on Oct 24, 2026? \u2014 53\u00b0 or below",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 2424.71,
-    "score": 0.6139
-   },
-   {
-    "label": "Will it rain in Albuquerque on Oct 24, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 5671.0,
-    "score": 0.6016
-   },
-   {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 24, 2026? \u2014 74\u00b0 to 75\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.24,
-    "volume_24h": 4257.5,
-    "score": 0.5993
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 956.0,
+    "score": 0.6014
    },
    {
     "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 21.24,
-    "volume_24h": 8659.94,
-    "score": 0.5924
+    "hours_to_close": 20.99,
+    "volume_24h": 8669.01,
+    "score": 0.5931
    },
    {
-    "label": "Will the maximum temperature be <54\u00b0 on Oct 24, 2026? \u2014 53\u00b0 or below",
+    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 24, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.24,
-    "volume_24h": 946.0,
-    "score": 0.5903
+    "hours_to_close": 20.99,
+    "volume_24h": 658.44,
+    "score": 0.5792
    },
    {
-    "label": "Will the maximum temperature be 59-60\u00b0 on Oct 24, 2026? \u2014 59\u00b0 to 60\u00b0",
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 20.24,
-    "volume_24h": 2846.5,
-    "score": 0.5791
+    "price": 0.93,
+    "hours_to_close": 20.99,
+    "volume_24h": 569.61,
+    "score": 0.5645
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Oct 24, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.99,
+    "volume_24h": 4258.29,
+    "score": 0.53
+   },
+   {
+    "label": "Will the maximum temperature be 58-59\u00b0 on Oct 24, 2026? \u2014 58\u00b0 to 59\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 20.99,
+    "volume_24h": 951.58,
+    "score": 0.5112
    }
   ],
   "skipped": {},

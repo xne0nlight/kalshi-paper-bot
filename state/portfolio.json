@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.86,
- "fees_paid": 5.39,
+ "cash": 8.93,
+ "fees_paid": 5.4,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 225,
+ "next_id": 226,
  "open_positions": [
   {
    "id": 191,
@@ -25,44 +25,6 @@
    "score": 0.571,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 202,
-   "ticker": "KXRAIN-26OCT23-MIN",
-   "event_ticker": "KXRAIN-26OCT23",
-   "series": "KXRAIN",
-   "label": "Will it rain in Minneapolis on Oct 23, 2026?",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.86,
-   "fee": 0.01,
-   "cost": 0.87,
-   "opened_ts": 1792693825,
-   "close_ts": 1792821600.0,
-   "score": 0.4973,
-   "mark_price": 0.98,
-   "shadow": {
-    "10": {
-     "ts": 1792699227,
-     "bid": 0.76,
-     "proceeds": 0.74
-    },
-    "15": {
-     "ts": 1792703726,
-     "bid": 0.65,
-     "proceeds": 0.63
-    },
-    "20": {
-     "ts": 1792703726,
-     "bid": 0.65,
-     "proceeds": 0.63
-    },
-    "30": {
-     "ts": 1792720826,
-     "bid": 0.52,
-     "proceeds": 0.5
-    }
-   }
   },
   {
    "id": 204,
@@ -133,7 +95,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -156,7 +118,7 @@
    "opened_ts": 1792775727,
    "close_ts": 1792861140.0,
    "score": 0.5934,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -190,7 +152,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -207,7 +169,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -241,7 +203,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.86,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -370,7 +332,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -422,6 +384,23 @@
    "close_ts": 1792915200.0,
    "score": 0.6307,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 225,
+   "ticker": "KXNCAAFGAME-26OCT23PITTMIA-PITT",
+   "event_ticker": "KXNCAAFGAME-26OCT23PITTMIA",
+   "series": "KXNCAAFGAME",
+   "label": "Pittsburgh wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1792844126,
+   "close_ts": 1792972800.0,
+   "score": 0.6203,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -5620,6 +5599,48 @@
    "pnl": 0.07,
    "result": "NO",
    "closed_ts": 1792840525,
+   "won": true
+  },
+  {
+   "id": 202,
+   "ticker": "KXRAIN-26OCT23-MIN",
+   "event_ticker": "KXRAIN-26OCT23",
+   "series": "KXRAIN",
+   "label": "Will it rain in Minneapolis on Oct 23, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.86,
+   "fee": 0.01,
+   "cost": 0.87,
+   "opened_ts": 1792693825,
+   "close_ts": 1792821600.0,
+   "score": 0.4973,
+   "shadow": {
+    "10": {
+     "ts": 1792699227,
+     "bid": 0.76,
+     "proceeds": 0.74
+    },
+    "15": {
+     "ts": 1792703726,
+     "bid": 0.65,
+     "proceeds": 0.63
+    },
+    "20": {
+     "ts": 1792703726,
+     "bid": 0.65,
+     "proceeds": 0.63
+    },
+    "30": {
+     "ts": 1792720826,
+     "bid": 0.52,
+     "proceeds": 0.5
+    }
+   },
+   "payout": 1.0,
+   "pnl": 0.13,
+   "result": "NO",
+   "closed_ts": 1792844126,
    "won": true
   }
  ],
@@ -13103,90 +13124,98 @@
    1792843225,
    84.6,
    86.19
+  ],
+  [
+   1792844126,
+   84.73,
+   86.34
   ]
  ],
  "last_run": {
-  "ts": 1792843225,
+  "ts": 1792844126,
   "error": null,
   "markets_scanned": 355,
   "candidates": 25,
   "rejections": {
-   "too little volume": 250,
-   "no favorite in 80-95c band": 79,
-   "spread too wide": 1
+   "too little volume": 249,
+   "no favorite in 80-95c band": 81
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   225
+  ],
+  "settled": [
+   202
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 13140.3,
-    "score": 0.6656
+    "hours_to_close": 25.74,
+    "volume_24h": 12447.26,
+    "score": 0.6662
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 7678.0,
-    "score": 0.647
+    "score": 0.6476
    },
    {
     "label": "Pittsburgh wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 935134.1,
-    "score": 0.62
+    "hours_to_close": 35.74,
+    "volume_24h": 948778.42,
+    "score": 0.6203
    },
    {
     "label": "Miami (FL) wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 161175.81,
-    "score": 0.62
-   },
-   {
-    "label": "California wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 35.99,
-    "volume_24h": 77397.71,
-    "score": 0.6
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.99,
-    "volume_24h": 2607.48,
-    "score": 0.5962
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 3466.16,
-    "score": 0.5955
+    "hours_to_close": 35.74,
+    "volume_24h": 165946.26,
+    "score": 0.6203
    },
    {
     "label": "SMU wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 5452.24,
-    "score": 0.5903
+    "hours_to_close": 35.74,
+    "volume_24h": 29473.53,
+    "score": 0.6103
+   },
+   {
+    "label": "California wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 35.74,
+    "volume_24h": 78816.81,
+    "score": 0.6003
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 2607.48,
+    "score": 0.5965
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.74,
+    "volume_24h": 3466.16,
+    "score": 0.5958
    }
   ],
   "skipped": {},
-  "watch_added": 23,
-  "watch_graded": 1,
+  "watch_added": 0,
+  "watch_graded": 12,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.92,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -226,7 +226,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792875600.0,
    "score": 0.6302,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.68,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1792859425,
@@ -13323,91 +13323,95 @@
    1792864827,
    85.9,
    86.62
+  ],
+  [
+   1792865728,
+   85.9,
+   87.01
   ]
  ],
  "last_run": {
-  "ts": 1792864827,
+  "ts": 1792865728,
   "error": null,
-  "markets_scanned": 1000,
-  "candidates": 30,
+  "markets_scanned": 997,
+  "candidates": 33,
   "rejections": {
-   "too little volume": 707,
-   "no favorite in 80-95c band": 246,
-   "spread too wide": 16,
-   "favorite is slipping fast": 1
+   "too little volume": 700,
+   "no favorite in 80-95c band": 249,
+   "spread too wide": 15
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Western Michigan wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 29.99,
-    "volume_24h": 212751.87,
-    "score": 0.6583
-   },
-   {
-    "label": "Toledo wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 29.99,
-    "volume_24h": 395575.37,
-    "score": 0.6583
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.98,
-    "volume_24h": 3652.93,
-    "score": 0.6297
+    "hours_to_close": 22.73,
+    "volume_24h": 3774.64,
+    "score": 0.6314
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 29.99,
-    "volume_24h": 6473.77,
-    "score": 0.6242
+    "hours_to_close": 29.74,
+    "volume_24h": 6614.68,
+    "score": 0.6253
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 29.99,
+    "hours_to_close": 29.74,
     "volume_24h": 3486.07,
-    "score": 0.604
+    "score": 0.6044
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 22.98,
-    "volume_24h": 3819.01,
-    "score": 0.5911
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.99,
-    "volume_24h": 1598.0,
-    "score": 0.5886
+    "hours_to_close": 22.73,
+    "volume_24h": 3887.08,
+    "score": 0.5923
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 25, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.98,
-    "volume_24h": 1351.79,
-    "score": 0.5873
+    "hours_to_close": 22.73,
+    "volume_24h": 1419.86,
+    "score": 0.5895
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 29.74,
+    "volume_24h": 1598.0,
+    "score": 0.589
+   },
+   {
+    "label": "UCLA wins",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 29.74,
+    "volume_24h": 81343.12,
+    "score": 0.5788
+   },
+   {
+    "label": "Michigan St. wins",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 29.74,
+    "volume_24h": 34038.35,
+    "score": 0.5788
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 10,
+  "watch_added": 5,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

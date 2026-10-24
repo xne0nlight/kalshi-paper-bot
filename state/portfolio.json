@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.44,
- "fees_paid": 5.35,
+ "cash": 8.86,
+ "fees_paid": 5.39,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 223,
+ "next_id": 225,
  "open_positions": [
   {
    "id": 191,
@@ -23,40 +23,6 @@
    "opened_ts": 1792619125,
    "close_ts": 1792742400.0,
    "score": 0.571,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 199,
-   "ticker": "KXHIGHTATL-26OCT23-B70.5",
-   "event_ticker": "KXHIGHTATL-26OCT23",
-   "series": "KXHIGHTATL",
-   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 23, 2026? \u2014 70\u00b0 to 71\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.92,
-   "fee": 0.04,
-   "cost": 5.56,
-   "opened_ts": 1792688426,
-   "close_ts": 1792818000.0,
-   "score": 0.5153,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 200,
-   "ticker": "KXHIGHPHIL-26OCT23-B59.5",
-   "event_ticker": "KXHIGHPHIL-26OCT23",
-   "series": "KXHIGHPHIL",
-   "label": "Will the maximum temperature be 59-60\u00b0 on Oct 23, 2026? \u2014 59\u00b0 to 60\u00b0",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.92,
-   "fee": 0.01,
-   "cost": 0.93,
-   "opened_ts": 1792688426,
-   "close_ts": 1792818000.0,
-   "score": 0.4997,
    "mark_price": 0.99,
    "shadow": {}
   },
@@ -207,7 +173,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -313,7 +279,7 @@
    "opened_ts": 1792784726,
    "close_ts": 1792908000.0,
    "score": 0.5265,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -330,7 +296,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -370,7 +336,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792875600.0,
    "score": 0.6302,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -404,7 +370,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -421,7 +387,41 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.88,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 223,
+   "ticker": "KXTRUMPACT-26OCT18-T7",
+   "event_ticker": "KXTRUMPACT-26OCT18",
+   "series": "KXTRUMPACT",
+   "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792840525,
+   "close_ts": 1792936800.0,
+   "score": 0.6641,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 224,
+   "ticker": "KXHIGHTSFO-26OCT24-B74.5",
+   "event_ticker": "KXHIGHTSFO-26OCT24",
+   "series": "KXHIGHTSFO",
+   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 24, 2026? \u2014 74\u00b0 to 75\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 2.81,
+   "opened_ts": 1792840525,
+   "close_ts": 1792915200.0,
+   "score": 0.6307,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -5578,6 +5578,48 @@
    "pnl": 0.04,
    "result": "NO",
    "closed_ts": 1792790128,
+   "won": true
+  },
+  {
+   "id": 199,
+   "ticker": "KXHIGHTATL-26OCT23-B70.5",
+   "event_ticker": "KXHIGHTATL-26OCT23",
+   "series": "KXHIGHTATL",
+   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 23, 2026? \u2014 70\u00b0 to 71\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1792688426,
+   "close_ts": 1792818000.0,
+   "score": 0.5153,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "NO",
+   "closed_ts": 1792840525,
+   "won": true
+  },
+  {
+   "id": 200,
+   "ticker": "KXHIGHPHIL-26OCT23-B59.5",
+   "event_ticker": "KXHIGHPHIL-26OCT23",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 59-60\u00b0 on Oct 23, 2026? \u2014 59\u00b0 to 60\u00b0",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1792688426,
+   "close_ts": 1792818000.0,
+   "score": 0.4997,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.07,
+   "result": "NO",
+   "closed_ts": 1792840525,
    "won": true
   }
  ],
@@ -13041,90 +13083,101 @@
    1792839626,
    84.09,
    85.89
+  ],
+  [
+   1792840525,
+   84.6,
+   86.13
   ]
  ],
  "last_run": {
-  "ts": 1792839626,
+  "ts": 1792840525,
   "error": null,
   "markets_scanned": 272,
   "candidates": 10,
   "rejections": {
    "too little volume": 200,
-   "no favorite in 80-95c band": 58,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 59,
+   "spread too wide": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   223,
+   224
+  ],
+  "settled": [
+   199,
+   200
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.99,
-    "volume_24h": 13880.67,
-    "score": 0.6637
+    "hours_to_close": 26.74,
+    "volume_24h": 13896.3,
+    "score": 0.6641
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.99,
+    "hours_to_close": 26.74,
     "volume_24h": 7678.0,
-    "score": 0.645
-   },
-   {
-    "label": "Will the maximum temperature be <54\u00b0 on Oct 24, 2026? \u2014 53\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 956.0,
-    "score": 0.6014
-   },
-   {
-    "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 20.99,
-    "volume_24h": 8669.01,
-    "score": 0.5931
-   },
-   {
-    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 24, 2026? \u2014 68\u00b0 to 69\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.99,
-    "volume_24h": 658.44,
-    "score": 0.5792
-   },
-   {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.99,
-    "volume_24h": 569.61,
-    "score": 0.5645
+    "score": 0.6455
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Oct 24, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 4258.29,
-    "score": 0.53
+    "score": 0.6307
+   },
+   {
+    "label": "Will the maximum temperature be <54\u00b0 on Oct 24, 2026? \u2014 53\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.74,
+    "volume_24h": 957.0,
+    "score": 0.6021
+   },
+   {
+    "label": "Will the maximum temperature be >78\u00b0 on Oct 24, 2026? \u2014 79\u00b0 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 20.74,
+    "volume_24h": 8756.59,
+    "score": 0.5942
+   },
+   {
+    "label": "Will the maximum temperature be 77-78\u00b0 on Oct 24, 2026? \u2014 77\u00b0 to 78\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.74,
+    "volume_24h": 608.61,
+    "score": 0.5674
+   },
+   {
+    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 24, 2026? \u2014 68\u00b0 to 69\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 20.74,
+    "volume_24h": 666.1,
+    "score": 0.5603
    },
    {
     "label": "Will the maximum temperature be 58-59\u00b0 on Oct 24, 2026? \u2014 58\u00b0 to 59\u00b0",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.99,
-    "volume_24h": 951.58,
-    "score": 0.5112
+    "price": 0.9,
+    "hours_to_close": 20.74,
+    "volume_24h": 961.58,
+    "score": 0.5523
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 13,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

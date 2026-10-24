@@ -95,7 +95,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -203,7 +203,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.89,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -241,7 +241,7 @@
    "opened_ts": 1792784726,
    "close_ts": 1792908000.0,
    "score": 0.5265,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -349,7 +349,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -13154,16 +13154,21 @@
    1792848625,
    84.73,
    86.5
+  ],
+  [
+   1792849525,
+   84.73,
+   86.63
   ]
  ],
  "last_run": {
-  "ts": 1792848625,
+  "ts": 1792849525,
   "error": null,
   "markets_scanned": 370,
-  "candidates": 23,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 261,
-   "no favorite in 80-95c band": 86
+   "too little volume": 259,
+   "no favorite in 80-95c band": 87
   },
   "opened": [],
   "settled": [],
@@ -13173,69 +13178,69 @@
     "label": "Pittsburgh wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.49,
-    "volume_24h": 1044226.76,
-    "score": 0.6219
+    "hours_to_close": 34.24,
+    "volume_24h": 1088647.65,
+    "score": 0.6222
    },
    {
     "label": "Miami (FL) wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.49,
-    "volume_24h": 206865.9,
-    "score": 0.6219
+    "hours_to_close": 34.24,
+    "volume_24h": 212783.05,
+    "score": 0.6222
    },
    {
     "label": "SMU wins",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 34.49,
-    "volume_24h": 30175.0,
-    "score": 0.6119
+    "price": 0.9,
+    "hours_to_close": 34.24,
+    "volume_24h": 31949.09,
+    "score": 0.6022
    },
    {
     "label": "California wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.49,
-    "volume_24h": 193018.17,
-    "score": 0.6019
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 2607.48,
-    "score": 0.5981
+    "hours_to_close": 34.24,
+    "volume_24h": 198147.41,
+    "score": 0.6022
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 3362.0,
-    "score": 0.5964
+    "score": 0.5967
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.24,
+    "volume_24h": 2607.48,
+    "score": 0.5884
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 1598.0,
-    "score": 0.5821
+    "score": 0.5825
    },
    {
     "label": "Rutgers wins",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.49,
-    "volume_24h": 33408.41,
-    "score": 0.5719
+    "hours_to_close": 34.24,
+    "volume_24h": 35884.43,
+    "score": 0.5722
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

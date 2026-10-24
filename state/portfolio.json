@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -317,7 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -334,8 +334,14 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.91,
-   "shadow": {}
+   "mark_price": 0.82,
+   "shadow": {
+    "10": {
+     "ts": 1792873825,
+     "bid": 0.82,
+     "proceeds": 3.23
+    }
+   }
   },
   {
    "id": 228,
@@ -368,7 +374,7 @@
    "opened_ts": 1792871125,
    "close_ts": 1792972800.0,
    "score": 0.6211,
-   "mark_price": 0.91,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -13416,90 +13422,95 @@
    1792872926,
    86.43,
    89.17
+  ],
+  [
+   1792873825,
+   86.43,
+   89.23
   ]
  ],
  "last_run": {
-  "ts": 1792872926,
+  "ts": 1792873825,
   "error": null,
   "markets_scanned": 1713,
-  "candidates": 48,
+  "candidates": 46,
   "rejections": {
-   "too little volume": 1403,
-   "no favorite in 80-95c band": 251,
-   "spread too wide": 9,
-   "favorite is slipping fast": 2
+   "too little volume": 1400,
+   "no favorite in 80-95c band": 254,
+   "spread too wide": 10,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.73,
-    "volume_24h": 71534.0,
-    "score": 0.6557
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.73,
-    "volume_24h": 7457.7,
-    "score": 0.649
+    "hours_to_close": 20.48,
+    "volume_24h": 7565.69,
+    "score": 0.6502
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 27.49,
+    "volume_24h": 3463.9,
+    "score": 0.6182
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 6008.07,
-    "score": 0.6156
+    "score": 0.6161
    },
    {
-    "label": "Tennessee wins the 1st half",
+    "label": "Eastern Michigan wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.74,
-    "volume_24h": 53939.21,
-    "score": 0.6122
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.73,
-    "volume_24h": 4118.66,
-    "score": 0.6097
+    "hours_to_close": 27.49,
+    "volume_24h": 13924.79,
+    "score": 0.6127
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.73,
-    "volume_24h": 5484.45,
-    "score": 0.609
+    "hours_to_close": 20.48,
+    "volume_24h": 5592.44,
+    "score": 0.6104
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.74,
-    "volume_24h": 21916.68,
-    "score": 0.5922
+    "label": "Ohio wins",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 27.49,
+    "volume_24h": 7743.92,
+    "score": 0.6044
    },
    {
-    "label": "Illinois wins the 1st half",
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.74,
-    "volume_24h": 8226.85,
-    "score": 0.5859
+    "price": 0.9,
+    "hours_to_close": 20.48,
+    "volume_24h": 4231.65,
+    "score": 0.6013
+   },
+   {
+    "label": "Racing Club wins",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 26.49,
+    "volume_24h": 17433.85,
+    "score": 0.5846
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

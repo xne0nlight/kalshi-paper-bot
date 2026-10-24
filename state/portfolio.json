@@ -203,7 +203,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.84,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -258,7 +258,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -349,7 +349,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.5006,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -13129,94 +13129,96 @@
    1792844126,
    84.73,
    86.34
+  ],
+  [
+   1792845026,
+   84.73,
+   86.43
   ]
  ],
  "last_run": {
-  "ts": 1792844126,
+  "ts": 1792845026,
   "error": null,
   "markets_scanned": 355,
   "candidates": 25,
   "rejections": {
    "too little volume": 249,
-   "no favorite in 80-95c band": 81
+   "no favorite in 80-95c band": 80,
+   "spread too wide": 1
   },
-  "opened": [
-   225
-  ],
-  "settled": [
-   202
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 12447.26,
-    "score": 0.6662
+    "hours_to_close": 25.49,
+    "volume_24h": 12508.86,
+    "score": 0.6667
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.74,
-    "volume_24h": 7678.0,
-    "score": 0.6476
+    "hours_to_close": 25.49,
+    "volume_24h": 7756.49,
+    "score": 0.6484
    },
    {
     "label": "Pittsburgh wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
-    "volume_24h": 948778.42,
-    "score": 0.6203
+    "hours_to_close": 35.49,
+    "volume_24h": 963542.87,
+    "score": 0.6206
    },
    {
     "label": "Miami (FL) wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.74,
-    "volume_24h": 165946.26,
-    "score": 0.6203
+    "hours_to_close": 35.49,
+    "volume_24h": 167543.56,
+    "score": 0.6206
    },
    {
     "label": "SMU wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 35.74,
-    "volume_24h": 29473.53,
-    "score": 0.6103
+    "hours_to_close": 35.49,
+    "volume_24h": 30521.94,
+    "score": 0.6106
    },
    {
     "label": "California wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.74,
-    "volume_24h": 78816.81,
-    "score": 0.6003
+    "hours_to_close": 35.49,
+    "volume_24h": 79034.57,
+    "score": 0.6006
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 2607.48,
-    "score": 0.5965
+    "score": 0.5968
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 3466.16,
-    "score": 0.5958
+    "score": 0.5961
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 12,
-  "api_calls": 43
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

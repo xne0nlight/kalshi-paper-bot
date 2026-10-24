@@ -156,7 +156,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1792772127,
-   "mark_price": 0.21,
+   "mark_price": 0.28,
    "avg_price": 0.09
   },
   {
@@ -194,7 +194,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1792775727,
-   "mark_price": 0.09,
+   "mark_price": 0.08,
    "avg_price": 0.09
   },
   {
@@ -232,7 +232,7 @@
    "contracts": 4.5,
    "cost": 3.87,
    "opened_ts": 1792776627,
-   "mark_price": 0.79,
+   "mark_price": 0.78,
    "avg_price": 0.86
   },
   {
@@ -251,7 +251,7 @@
    "contracts": 10.0,
    "cost": 8.6,
    "opened_ts": 1792776627,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "avg_price": 0.86
   },
   {
@@ -327,7 +327,7 @@
    "contracts": 11.0,
    "cost": 9.02,
    "opened_ts": 1792792826,
-   "mark_price": 0.02,
+   "mark_price": 0.01,
    "avg_price": 0.82
   },
   {
@@ -346,7 +346,7 @@
    "contracts": 1.0,
    "cost": 0.41,
    "opened_ts": 1792793726,
-   "mark_price": 0.52,
+   "mark_price": 0.53,
    "avg_price": 0.41
   },
   {
@@ -536,7 +536,7 @@
    "contracts": 4.0,
    "cost": 3.44,
    "opened_ts": 1792830627,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "avg_price": 0.86
   },
   {
@@ -4678,6 +4678,11 @@
    1792844126,
    103.562,
    87.1615
+  ],
+  [
+   1792845026,
+   103.562,
+   87.0165
   ]
  ],
  "forecast_log": {
@@ -8436,56 +8441,11 @@
   }
  },
  "last_run": {
-  "ts": 1792844126,
+  "ts": 1792845026,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXLOWTHOU-26OCT23-T60",
-    "pnl": -0.37
-   },
-   {
-    "ticker": "KXHIGHTDAL-26OCT23-B86.5",
-    "pnl": 0.475
-   },
-   {
-    "ticker": "KXLOWTNOLA-26OCT23-B54.5",
-    "pnl": -0.85
-   },
-   {
-    "ticker": "KXLOWTAUS-26OCT23-B50.5",
-    "pnl": 0.072
-   },
-   {
-    "ticker": "KXLOWTHOU-26OCT23-B57.5",
-    "pnl": 1.2
-   },
-   {
-    "ticker": "KXHIGHTNOLA-26OCT23-B81.5",
-    "pnl": -0.4
-   },
-   {
-    "ticker": "KXHIGHTMIN-26OCT23-T73",
-    "pnl": -0.075
-   },
-   {
-    "ticker": "KXLOWTOKC-26OCT23-T57",
-    "pnl": -0.12
-   },
-   {
-    "ticker": "KXLOWTMIN-26OCT23-T58",
-    "pnl": -0.22
-   },
-   {
-    "ticker": "KXHIGHCHI-26OCT23-B69.5",
-    "pnl": -0.1
-   },
-   {
-    "ticker": "KXHIGHCHI-26OCT23-B73.5",
-    "pnl": 0.19
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -8493,7 +8453,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 31.0
+  "seconds": 32.7
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

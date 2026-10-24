@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.86,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.4438,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -148,7 +148,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -186,7 +186,7 @@
    "opened_ts": 1792784726,
    "close_ts": 1792908000.0,
    "score": 0.5265,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792875600.0,
    "score": 0.6302,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -311,7 +311,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792936800.0,
    "score": 0.6641,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792844126,
    "close_ts": 1792972800.0,
    "score": 0.6203,
-   "mark_price": 0.92,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -362,7 +362,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.78,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1792859425,
@@ -13262,89 +13262,95 @@
    1792859425,
    85.61,
    86.74
+  ],
+  [
+   1792860325,
+   85.61,
+   87.16
   ]
  ],
  "last_run": {
-  "ts": 1792859425,
+  "ts": 1792860325,
   "error": null,
   "markets_scanned": 721,
-  "candidates": 35,
+  "candidates": 29,
   "rejections": {
-   "too little volume": 497,
-   "no favorite in 80-95c band": 172,
-   "spread too wide": 17
+   "too little volume": 494,
+   "no favorite in 80-95c band": 180,
+   "spread too wide": 16,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Pittsburgh wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.49,
-    "volume_24h": 2338140.31,
-    "score": 0.646
-   },
-   {
-    "label": "Miami (FL) wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 31.49,
-    "volume_24h": 645124.32,
-    "score": 0.646
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.48,
+    "hours_to_close": 24.23,
     "volume_24h": 3625.11,
-    "score": 0.6259
+    "score": 0.6264
    },
    {
-    "label": "Pittsburgh wins the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 3846.3,
-    "score": 0.6249
-   },
-   {
-    "label": "Miami (FL) wins the 1st half",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.49,
-    "volume_24h": 6712.96,
-    "score": 0.613
-   },
-   {
-    "label": "Rutgers wins",
+    "label": "Western Michigan wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 31.49,
-    "volume_24h": 101201.93,
-    "score": 0.606
+    "hours_to_close": 31.24,
+    "volume_24h": 144075.07,
+    "score": 0.6064
    },
    {
-    "label": "Northwestern wins",
+    "label": "Toledo wins",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 31.49,
-    "volume_24h": 58068.19,
-    "score": 0.606
+    "hours_to_close": 31.24,
+    "volume_24h": 286635.44,
+    "score": 0.6064
    },
    {
-    "label": "Western Michigan wins the 1st half",
+    "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 9209.22,
-    "score": 0.6033
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 3479.36,
+    "score": 0.602
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 2636.83,
+    "score": 0.593
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 24.23,
+    "volume_24h": 3818.01,
+    "score": 0.5881
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.24,
+    "volume_24h": 1598.0,
+    "score": 0.5867
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 25, 2026? \u2014 39.0%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 24.23,
+    "volume_24h": 1330.79,
+    "score": 0.5838
    }
   ],
   "skipped": {},
-  "watch_added": 7,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

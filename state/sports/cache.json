@@ -2283,54 +2283,12 @@
    ]
   },
   "NCAAF|20261023": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
-    {
-     "start_ts": 1792796400.0,
-     "state": "in",
-     "detail": "2:54 - 4th",
-     "home": "Virginia Cavaliers",
-     "away": "Duke Blue Devils",
-     "teams": {
-      "home": {
-       "name": "Virginia Cavaliers",
-       "short": "Virginia",
-       "abbr": "UVA",
-       "record": "4-3"
-      },
-      "away": {
-       "name": "Duke Blue Devils",
-       "short": "Duke",
-       "abbr": "DUKE",
-       "record": "4-2"
-      }
-     }
-    },
-    {
-     "start_ts": 1792796400.0,
-     "state": "in",
-     "detail": "4:38 - 4th",
-     "home": "UConn Huskies",
-     "away": "Massachusetts Minutemen",
-     "teams": {
-      "home": {
-       "name": "UConn Huskies",
-       "short": "UConn",
-       "abbr": "CONN",
-       "record": "3-3"
-      },
-      "away": {
-       "name": "Massachusetts Minutemen",
-       "short": "UMass",
-       "abbr": "MASS",
-       "record": "4-3"
-      }
-     }
-    },
     {
      "start_ts": 1792801800.0,
      "state": "in",
-     "detail": "0:06 - 2nd",
+     "detail": "9:23 - 3rd",
      "home": "Tulsa Golden Hurricane",
      "away": "Army Black Knights",
      "teams": {
@@ -2351,7 +2309,7 @@
     {
      "start_ts": 1792803600.0,
      "state": "in",
-     "detail": "8:40 - 2nd",
+     "detail": "Halftime",
      "home": "Wyoming Cowboys",
      "away": "Air Force Falcons",
      "teams": {
@@ -2371,8 +2329,8 @@
     },
     {
      "start_ts": 1792809000.0,
-     "state": "pre",
-     "detail": "10/23 - 10:30 PM EDT",
+     "state": "in",
+     "detail": "10:34 - 1st",
      "home": "Stanford Cardinal",
      "away": "NC State Wolfpack",
      "teams": {
@@ -2389,11 +2347,53 @@
        "record": "3-3"
       }
      }
+    },
+    {
+     "start_ts": 1792796400.0,
+     "state": "post",
+     "detail": "Final",
+     "home": "Virginia Cavaliers",
+     "away": "Duke Blue Devils",
+     "teams": {
+      "home": {
+       "name": "Virginia Cavaliers",
+       "short": "Virginia",
+       "abbr": "UVA",
+       "record": "4-4"
+      },
+      "away": {
+       "name": "Duke Blue Devils",
+       "short": "Duke",
+       "abbr": "DUKE",
+       "record": "5-2"
+      }
+     }
+    },
+    {
+     "start_ts": 1792796400.0,
+     "state": "post",
+     "detail": "Final",
+     "home": "UConn Huskies",
+     "away": "Massachusetts Minutemen",
+     "teams": {
+      "home": {
+       "name": "UConn Huskies",
+       "short": "UConn",
+       "abbr": "CONN",
+       "record": "4-3"
+      },
+      "away": {
+       "name": "Massachusetts Minutemen",
+       "short": "UMass",
+       "abbr": "MASS",
+       "record": "4-4"
+      }
+     }
     }
    ]
   },
   "NBA|20261023": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
     {
      "start_ts": 1792785600.0,
@@ -2523,8 +2523,8 @@
     },
     {
      "start_ts": 1792800000.0,
-     "state": "in",
-     "detail": "11:58 - 4th",
+     "state": "post",
+     "detail": "Final",
      "home": "Miami Heat",
      "away": "Detroit Pistons",
      "teams": {
@@ -2532,20 +2532,20 @@
        "name": "Miami Heat",
        "short": "Heat",
        "abbr": "MIA",
-       "record": "0-1"
+       "record": "0-2"
       },
       "away": {
        "name": "Detroit Pistons",
        "short": "Pistons",
        "abbr": "DET",
-       "record": "1-0"
+       "record": "2-0"
       }
      }
     },
     {
      "start_ts": 1792805400.0,
      "state": "in",
-     "detail": "4:40 - 1st",
+     "detail": "1:21 - 2nd",
      "home": "San Antonio Spurs",
      "away": "Houston Rockets",
      "teams": {
@@ -2566,7 +2566,7 @@
     {
      "start_ts": 1792805400.0,
      "state": "in",
-     "detail": "2:23 - 1st",
+     "detail": "Halftime",
      "home": "Utah Jazz",
      "away": "New Orleans Pelicans",
      "teams": {
@@ -2586,8 +2586,8 @@
     },
     {
      "start_ts": 1792807200.0,
-     "state": "pre",
-     "detail": "10/23 - 10:00 PM EDT",
+     "state": "in",
+     "detail": "End of 1st",
      "home": "Golden State Warriors",
      "away": "Memphis Grizzlies",
      "teams": {
@@ -2607,8 +2607,8 @@
     },
     {
      "start_ts": 1792807200.0,
-     "state": "pre",
-     "detail": "10/23 - 10:00 PM EDT",
+     "state": "in",
+     "detail": "9:08 - 2nd",
      "home": "Los Angeles Lakers",
      "away": "LA Clippers",
      "teams": {
@@ -2628,8 +2628,8 @@
     },
     {
      "start_ts": 1792807200.0,
-     "state": "pre",
-     "detail": "10/23 - 10:00 PM EDT",
+     "state": "in",
+     "detail": "11:22 - 2nd",
      "home": "Sacramento Kings",
      "away": "Portland Trail Blazers",
      "teams": {
@@ -2650,12 +2650,12 @@
    ]
   },
   "NHL|20261023": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
     {
      "start_ts": 1792800000.0,
-     "state": "in",
-     "detail": "End of 2nd",
+     "state": "post",
+     "detail": "Final",
      "home": "Chicago Blackhawks",
      "away": "Montreal Canadiens",
      "teams": {
@@ -2663,20 +2663,20 @@
        "name": "Chicago Blackhawks",
        "short": "Blackhawks",
        "abbr": "CHI",
-       "record": "3-6-0"
+       "record": "3-7-0"
       },
       "away": {
        "name": "Montreal Canadiens",
        "short": "Canadiens",
        "abbr": "MTL",
-       "record": "4-3-2"
+       "record": "5-3-2"
       }
      }
     },
     {
      "start_ts": 1792803600.0,
      "state": "in",
-     "detail": "End of 1st",
+     "detail": "4:48 - 2nd",
      "home": "Colorado Avalanche",
      "away": "Tampa Bay Lightning",
      "teams": {
@@ -2697,11 +2697,11 @@
    ]
   },
   "NFL|20261023": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": []
   },
   "NBA|20261024": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
     {
      "start_ts": 1792879200.0,
@@ -2720,7 +2720,7 @@
        "name": "Miami Heat",
        "short": "Heat",
        "abbr": "MIA",
-       "record": "0-1"
+       "record": "0-2"
       }
      }
     },
@@ -2874,7 +2874,7 @@
    ]
   },
   "NCAAF|20261024": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
     {
      "start_ts": 1792857600.0,
@@ -3803,7 +3803,7 @@
    ]
   },
   "NHL|20261024": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": [
     {
      "start_ts": 1792861200.0,
@@ -4060,7 +4060,7 @@
    ]
   },
   "NFL|20261024": {
-   "ts": 1792807232,
+   "ts": 1792809925,
    "games": []
   }
  },

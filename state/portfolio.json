@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.92,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.89,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -260,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.91,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -317,7 +317,7 @@
    "opened_ts": 1792840525,
    "close_ts": 1792915200.0,
    "score": 0.6307,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -334,7 +334,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -351,7 +351,7 @@
    "opened_ts": 1792862128,
    "close_ts": 1792947540.0,
    "score": 0.6279,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -368,7 +368,7 @@
    "opened_ts": 1792871125,
    "close_ts": 1792972800.0,
    "score": 0.6211,
-   "mark_price": 0.97,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -385,7 +385,7 @@
    "opened_ts": 1792872027,
    "close_ts": 1792972800.0,
    "score": 0.6518,
-   "mark_price": 0.93,
+   "mark_price": 0.99,
    "shadow": {}
   }
  ],
@@ -13411,94 +13411,95 @@
    1792872027,
    86.43,
    88.85
+  ],
+  [
+   1792872926,
+   86.43,
+   89.17
   ]
  ],
  "last_run": {
-  "ts": 1792872027,
+  "ts": 1792872926,
   "error": null,
-  "markets_scanned": 1715,
-  "candidates": 60,
+  "markets_scanned": 1713,
+  "candidates": 48,
   "rejections": {
-   "too little volume": 1408,
-   "no favorite in 80-95c band": 234,
-   "spread too wide": 12,
-   "nothing for sale at the ask": 1
+   "too little volume": 1403,
+   "no favorite in 80-95c band": 251,
+   "spread too wide": 9,
+   "favorite is slipping fast": 2
   },
-  "opened": [
-   230
-  ],
-  "settled": [
-   225
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Kent St. wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.99,
-    "volume_24h": 201406.05,
-    "score": 0.6518
-   },
-   {
-    "label": "Akron wins",
+    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.99,
-    "volume_24h": 161015.97,
-    "score": 0.6518
+    "price": 0.95,
+    "hours_to_close": 31.73,
+    "volume_24h": 71534.0,
+    "score": 0.6557
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.98,
-    "volume_24h": 5841.09,
-    "score": 0.6503
-   },
-   {
-    "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.98,
-    "volume_24h": 74764.24,
-    "score": 0.6453
+    "price": 0.93,
+    "hours_to_close": 20.73,
+    "volume_24h": 7457.7,
+    "score": 0.649
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 6008.07,
-    "score": 0.6152
+    "score": 0.6156
    },
    {
-    "label": "Oregon wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 27.99,
-    "volume_24h": 124214.37,
-    "score": 0.6118
-   },
-   {
-    "label": "Illinois wins",
+    "label": "Tennessee wins the 1st half",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.99,
-    "volume_24h": 352742.69,
-    "score": 0.6118
+    "hours_to_close": 27.74,
+    "volume_24h": 53939.21,
+    "score": 0.6122
    },
    {
-    "label": "Miami (OH) wins",
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 20.73,
+    "volume_24h": 4118.66,
+    "score": 0.6097
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.99,
-    "volume_24h": 317159.02,
-    "score": 0.6118
+    "hours_to_close": 20.73,
+    "volume_24h": 5484.45,
+    "score": 0.609
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.74,
+    "volume_24h": 21916.68,
+    "score": 0.5922
+   },
+   {
+    "label": "Illinois wins the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.74,
+    "volume_24h": 8226.85,
+    "score": 0.5859
    }
   ],
   "skipped": {},
-  "watch_added": 15,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

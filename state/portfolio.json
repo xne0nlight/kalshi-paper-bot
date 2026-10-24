@@ -80,7 +80,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -148,7 +148,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.95,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -203,7 +203,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -13231,88 +13231,93 @@
    1792854926,
    85.61,
    87.05
+  ],
+  [
+   1792855825,
+   85.61,
+   86.93
   ]
  ],
  "last_run": {
-  "ts": 1792854926,
+  "ts": 1792855825,
   "error": null,
   "markets_scanned": 373,
-  "candidates": 28,
+  "candidates": 29,
   "rejections": {
-   "too little volume": 247,
-   "no favorite in 80-95c band": 98
+   "too little volume": 244,
+   "no favorite in 80-95c band": 100
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Miami (FL) wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 32.49,
+    "volume_24h": 322781.85,
+    "score": 0.6346
+   },
+   {
     "label": "Pittsburgh wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.74,
-    "volume_24h": 1359639.96,
-    "score": 0.6242
-   },
-   {
-    "label": "Miami (FL) wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 32.74,
-    "volume_24h": 310299.99,
-    "score": 0.6242
+    "hours_to_close": 32.49,
+    "volume_24h": 1404732.73,
+    "score": 0.6246
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.73,
-    "volume_24h": 3087.11,
-    "score": 0.6179
+    "hours_to_close": 25.48,
+    "volume_24h": 3625.11,
+    "score": 0.6237
    },
    {
     "label": "SMU wins",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 32.74,
-    "volume_24h": 42603.27,
-    "score": 0.6042
+    "hours_to_close": 32.49,
+    "volume_24h": 43331.42,
+    "score": 0.6046
    },
    {
     "label": "California wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.74,
-    "volume_24h": 412721.97,
-    "score": 0.6042
+    "hours_to_close": 32.49,
+    "volume_24h": 422972.49,
+    "score": 0.6046
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 3370.22,
-    "score": 0.5988
+    "score": 0.5991
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 2607.48,
-    "score": 0.5904
+    "score": 0.5908
    },
    {
-    "label": "Tie in the 1st half",
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.74,
-    "volume_24h": 1598.0,
-    "score": 0.5845
+    "price": 0.9,
+    "hours_to_close": 25.48,
+    "volume_24h": 3818.01,
+    "score": 0.5854
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

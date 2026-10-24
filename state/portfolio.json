@@ -74,7 +74,7 @@
    "opened_ts": 1792693825,
    "close_ts": 1792821600.0,
    "score": 0.4973,
-   "mark_price": 0.97,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792699227,
@@ -201,7 +201,7 @@
    "opened_ts": 1792776627,
    "close_ts": 1792904400.0,
    "score": 0.5233,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -269,7 +269,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.86,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -320,7 +320,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792904400.0,
    "score": 0.5084,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1792793726,
@@ -12879,90 +12879,95 @@
    1792815326,
    84.09,
    85.67
+  ],
+  [
+   1792816227,
+   84.09,
+   85.55
   ]
  ],
  "last_run": {
-  "ts": 1792815326,
+  "ts": 1792816227,
   "error": null,
   "markets_scanned": 1503,
-  "candidates": 40,
+  "candidates": 37,
   "rejections": {
-   "too little volume": 1220,
-   "no favorite in 80-95c band": 220,
-   "spread too wide": 21,
-   "nothing for sale at the ask": 2
+   "too little volume": 1218,
+   "no favorite in 80-95c band": 221,
+   "spread too wide": 26,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $79,750 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 27346.75,
-    "score": 0.6823
-   },
-   {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,750 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 16.74,
+    "price": 0.94,
+    "hours_to_close": 16.49,
     "volume_24h": 22859.31,
-    "score": 0.6623
+    "score": 0.6834
    },
    {
     "label": "Will there be at least 7 presidential actions in the week of Oct 18, 2026? \u2014 At least 7",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 13634.9,
-    "score": 0.6428
+    "score": 0.6432
    },
    {
     "label": "Will there be at least 8 presidential actions in the week of Oct 18, 2026? \u2014 At least 8",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 7597.4,
-    "score": 0.6339
+    "score": 0.6342
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $79,750 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 16.49,
+    "volume_24h": 27424.91,
+    "score": 0.6334
+   },
+   {
+    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 16.49,
+    "volume_24h": 52172.83,
+    "score": 0.6234
    },
    {
     "label": "Bitcoin price on Oct 24, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 16.74,
+    "price": 0.88,
+    "hours_to_close": 16.49,
     "volume_24h": 77920.17,
-    "score": 0.6323
+    "score": 0.6234
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.8 on Oct 24, 2026? \u2014 38.8%",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 12.73,
-    "volume_24h": 37954.27,
-    "score": 0.6121
+    "hours_to_close": 12.48,
+    "volume_24h": 38141.01,
+    "score": 0.6137
    },
    {
-    "label": "Will the maximum temperature be 86-87\u00b0 on Oct 24, 2026? \u2014 86\u00b0 to 87\u00b0",
+    "label": "Will the maximum temperature be >60\u00b0 on Oct 24, 2026? \u2014 61\u00b0 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.74,
-    "volume_24h": 3052.06,
-    "score": 0.6097
-   },
-   {
-    "label": "Bitcoin price on Oct 24, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 16.74,
-    "volume_24h": 52172.73,
-    "score": 0.6023
+    "price": 0.94,
+    "hours_to_close": 26.49,
+    "volume_24h": 1743.78,
+    "score": 0.5978
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

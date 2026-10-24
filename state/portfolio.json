@@ -40,7 +40,7 @@
    "opened_ts": 1792774829,
    "close_ts": 1792904400.0,
    "score": 0.5274,
-   "mark_price": 0.94,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1792819825,
@@ -80,7 +80,7 @@
    "opened_ts": 1792778428,
    "close_ts": 1792908000.0,
    "score": 0.5185,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.5041,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1792782025,
    "close_ts": 1792911600.0,
    "score": 0.4792,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1792818024,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -243,7 +243,7 @@
    "opened_ts": 1792790128,
    "close_ts": 1792915200.0,
    "score": 0.4234,
-   "mark_price": 0.95,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -328,7 +328,7 @@
    "opened_ts": 1792844126,
    "close_ts": 1792972800.0,
    "score": 0.6203,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.6028,
-   "mark_price": 0.66,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1792859425,
@@ -378,7 +378,7 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -13313,85 +13313,90 @@
    1792863027,
    85.9,
    86.84
+  ],
+  [
+   1792863925,
+   85.9,
+   86.45
   ]
  ],
  "last_run": {
-  "ts": 1792863027,
+  "ts": 1792863925,
   "error": null,
-  "markets_scanned": 861,
-  "candidates": 31,
+  "markets_scanned": 858,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 585,
-   "no favorite in 80-95c band": 225,
-   "spread too wide": 20
+   "too little volume": 588,
+   "no favorite in 80-95c band": 227,
+   "spread too wide": 15
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Cincinnati wins the 1st half",
+    "label": "Western Michigan wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.24,
+    "volume_24h": 210563.46,
+    "score": 0.6579
+   },
+   {
+    "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.49,
-    "volume_24h": 11666.17,
-    "score": 0.6575
+    "hours_to_close": 30.24,
+    "volume_24h": 388580.88,
+    "score": 0.6579
    },
    {
     "label": "Will average **gas prices** be above $4.3000? \u2014 Above 4.3000",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.48,
-    "volume_24h": 60805.49,
-    "score": 0.6519
+    "hours_to_close": 34.23,
+    "volume_24h": 61567.62,
+    "score": 0.6522
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.48,
+    "hours_to_close": 23.23,
     "volume_24h": 3652.93,
-    "score": 0.6285
+    "score": 0.6291
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 30.24,
+    "volume_24h": 6450.29,
+    "score": 0.6237
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 30.24,
+    "volume_24h": 3486.07,
+    "score": 0.6036
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.48,
+    "hours_to_close": 23.23,
     "volume_24h": 3819.01,
-    "score": 0.5899
+    "score": 0.5905
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 1598.0,
-    "score": 0.5878
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Oct 25, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.48,
-    "volume_24h": 1331.79,
-    "score": 0.5856
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 30.49,
-    "volume_24h": 3005.46,
-    "score": 0.5784
-   },
-   {
-    "label": "UCLA wins",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 30.49,
-    "volume_24h": 80321.91,
-    "score": 0.5775
+    "score": 0.5882
    }
   ],
   "skipped": {},

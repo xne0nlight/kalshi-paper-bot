@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.15,
- "fees_paid": 5.51,
+ "cash": 9.57,
+ "fees_paid": 5.55,
  "peak_equity": 109.65,
  "day": "2026-10-24",
  "day_start_equity": 84.09,
- "next_id": 231,
+ "next_id": 233,
  "open_positions": [
   {
    "id": 191,
@@ -260,7 +260,7 @@
    "opened_ts": 1792791925,
    "close_ts": 1792904400.0,
    "score": 0.512,
-   "mark_price": 0.95,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1792868425,
@@ -334,12 +334,22 @@
    "opened_ts": 1792851325,
    "close_ts": 1792972800.0,
    "score": 0.5973,
-   "mark_price": 0.82,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1792873825,
      "bid": 0.82,
      "proceeds": 3.23
+    },
+    "15": {
+     "ts": 1792874724,
+     "bid": 0.69,
+     "proceeds": 2.7
+    },
+    "20": {
+     "ts": 1792874724,
+     "bid": 0.69,
+     "proceeds": 2.7
     }
    }
   },
@@ -361,37 +371,37 @@
    "shadow": {}
   },
   {
-   "id": 229,
-   "ticker": "KXNCAAF1H-26OCT23OREILL-ILL",
-   "event_ticker": "KXNCAAF1H-26OCT23OREILL",
+   "id": 231,
+   "ticker": "KXNCAAF1H-26OCT23USCWIS-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT23USCWIS",
    "series": "KXNCAAF1H",
-   "label": "Illinois wins the 1st half",
+   "label": "Tie in the 1st half",
    "side": "no",
    "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1792871125,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 4.63,
+   "opened_ts": 1792874724,
    "close_ts": 1792972800.0,
-   "score": 0.6211,
-   "mark_price": 0.99,
+   "score": 0.6223,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
-   "id": 230,
-   "ticker": "KXNCAAFGAME-26OCT23AKRKENT-KENT",
-   "event_ticker": "KXNCAAFGAME-26OCT23AKRKENT",
-   "series": "KXNCAAFGAME",
-   "label": "Kent St. wins",
-   "side": "yes",
+   "id": 232,
+   "ticker": "KXHIGHNY-26OCT25-B68.5",
+   "event_ticker": "KXHIGHNY-26OCT25",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 68-69\u00b0 on Oct 25, 2026? \u2014 68\u00b0 to 69\u00b0",
+   "side": "no",
    "contracts": 1,
    "price": 0.94,
    "fee": 0.01,
    "cost": 0.95,
-   "opened_ts": 1792872027,
-   "close_ts": 1792972800.0,
-   "score": 0.6518,
-   "mark_price": 0.99,
+   "opened_ts": 1792874724,
+   "close_ts": 1792990800.0,
+   "score": 0.5845,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -5774,6 +5784,48 @@
    "pnl": 0.07,
    "result": "NO",
    "closed_ts": 1792872027,
+   "won": true
+  },
+  {
+   "id": 229,
+   "ticker": "KXNCAAF1H-26OCT23OREILL-ILL",
+   "event_ticker": "KXNCAAF1H-26OCT23OREILL",
+   "series": "KXNCAAF1H",
+   "label": "Illinois wins the 1st half",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792871125,
+   "close_ts": 1792972800.0,
+   "score": 0.6211,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1792874724,
+   "won": true
+  },
+  {
+   "id": 230,
+   "ticker": "KXNCAAFGAME-26OCT23AKRKENT-KENT",
+   "event_ticker": "KXNCAAFGAME-26OCT23AKRKENT",
+   "series": "KXNCAAFGAME",
+   "label": "Kent St. wins",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1792872027,
+   "close_ts": 1792972800.0,
+   "score": 0.6518,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.05,
+   "result": "YES",
+   "closed_ts": 1792874724,
    "won": true
   }
  ],
@@ -13427,90 +13479,102 @@
    1792873825,
    86.43,
    89.23
+  ],
+  [
+   1792874724,
+   86.71,
+   88.52
   ]
  ],
  "last_run": {
-  "ts": 1792873825,
+  "ts": 1792874724,
   "error": null,
-  "markets_scanned": 1713,
-  "candidates": 46,
+  "markets_scanned": 1704,
+  "candidates": 47,
   "rejections": {
-   "too little volume": 1400,
-   "no favorite in 80-95c band": 254,
-   "spread too wide": 10,
-   "favorite is slipping fast": 3
+   "too little volume": 1392,
+   "no favorite in 80-95c band": 250,
+   "spread too wide": 13,
+   "nothing for sale at the ask": 1,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   231,
+   232
+  ],
+  "settled": [
+   229,
+   230
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.48,
-    "volume_24h": 7565.69,
-    "score": 0.6502
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.49,
-    "volume_24h": 3463.9,
-    "score": 0.6182
+    "hours_to_close": 20.23,
+    "volume_24h": 7607.45,
+    "score": 0.6512
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 6008.07,
-    "score": 0.6161
-   },
-   {
-    "label": "Eastern Michigan wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 27.49,
-    "volume_24h": 13924.79,
-    "score": 0.6127
+    "hours_to_close": 27.24,
+    "volume_24h": 7157.09,
+    "score": 0.6223
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 20.48,
-    "volume_24h": 5592.44,
-    "score": 0.6104
+    "hours_to_close": 20.23,
+    "volume_24h": 5634.2,
+    "score": 0.6114
    },
    {
-    "label": "Ohio wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 27.49,
-    "volume_24h": 7743.92,
-    "score": 0.6044
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
+    "label": "Will the maximum temperature be 68-69\u00b0 on Oct 25, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.48,
-    "volume_24h": 4231.65,
-    "score": 0.6013
+    "price": 0.94,
+    "hours_to_close": 32.24,
+    "volume_24h": 1561.64,
+    "score": 0.5845
    },
    {
-    "label": "Racing Club wins",
+    "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 26.49,
-    "volume_24h": 17433.85,
-    "score": 0.5846
+    "price": 0.93,
+    "hours_to_close": 27.24,
+    "volume_24h": 1395.74,
+    "score": 0.5791
+   },
+   {
+    "label": "Tennessee wins the 1st half",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 27.24,
+    "volume_24h": 67508.14,
+    "score": 0.5732
+   },
+   {
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 24.24,
+    "volume_24h": 1190.0,
+    "score": 0.5701
+   },
+   {
+    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 25, 2026? \u2014 70\u00b0 to 71\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.24,
+    "volume_24h": 668.22,
+    "score": 0.5654
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

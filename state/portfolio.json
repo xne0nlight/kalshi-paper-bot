@@ -412,7 +412,7 @@
    "opened_ts": 1792890924,
    "close_ts": 1793001600.0,
    "score": 0.6079,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -13674,17 +13674,23 @@
    1792892726,
    87.66,
    89.34
+  ],
+  [
+   1792893625,
+   87.66,
+   89.29
   ]
  ],
  "last_run": {
-  "ts": 1792892726,
+  "ts": 1792893625,
   "error": null,
-  "markets_scanned": 1577,
+  "markets_scanned": 2219,
   "candidates": 53,
   "rejections": {
-   "too little volume": 1242,
-   "no favorite in 80-95c band": 260,
-   "spread too wide": 22
+   "too little volume": 1824,
+   "no favorite in 80-95c band": 306,
+   "spread too wide": 35,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -13694,69 +13700,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.23,
+    "hours_to_close": 14.98,
     "volume_24h": 9248.54,
-    "score": 0.6864
-   },
-   {
-    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 8765.26,
-    "score": 0.6789
+    "score": 0.6876
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.24,
+    "hours_to_close": 18.99,
     "volume_24h": 6389.62,
-    "score": 0.6686
+    "score": 0.6694
    },
    {
-    "label": "North Carolina wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 120847.24,
-    "score": 0.6644
-   },
-   {
-    "label": "Syracuse wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 294440.83,
-    "score": 0.6644
-   },
-   {
-    "label": "Toronto Nationals wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 25.24,
-    "volume_24h": 141755.37,
-    "score": 0.6572
-   },
-   {
-    "label": "Vancouver Knights wins",
+    "label": "Vanderbilt wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.24,
-    "volume_24h": 127850.07,
-    "score": 0.6472
+    "hours_to_close": 21.99,
+    "volume_24h": 1151421.38,
+    "score": 0.655
+   },
+   {
+    "label": "Kentucky wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 21.99,
+    "volume_24h": 931300.74,
+    "score": 0.655
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 19.24,
+    "hours_to_close": 18.99,
     "volume_24h": 8105.25,
-    "score": 0.6464
+    "score": 0.6472
+   },
+   {
+    "label": "North Carolina wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 124124.75,
+    "score": 0.645
+   },
+   {
+    "label": "Syracuse wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 316109.71,
+    "score": 0.645
+   },
+   {
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 18.99,
+    "volume_24h": 10845.82,
+    "score": 0.644
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 13,
   "watch_graded": 0,
   "api_calls": 42
  },

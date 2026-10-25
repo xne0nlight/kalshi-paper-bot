@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.95,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -355,7 +355,7 @@
    "opened_ts": 1792874724,
    "close_ts": 1792990800.0,
    "score": 0.5845,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -412,7 +412,7 @@
    "opened_ts": 1792890924,
    "close_ts": 1793001600.0,
    "score": 0.6079,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -13684,17 +13684,23 @@
    1792894526,
    87.66,
    89.33
+  ],
+  [
+   1792895425,
+   87.66,
+   89.12
   ]
  ],
  "last_run": {
-  "ts": 1792894526,
+  "ts": 1792895425,
   "error": null,
-  "markets_scanned": 2219,
-  "candidates": 61,
+  "markets_scanned": 2215,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 1817,
-   "no favorite in 80-95c band": 310,
-   "spread too wide": 31
+   "too little volume": 1810,
+   "no favorite in 80-95c band": 319,
+   "spread too wide": 28,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -13704,69 +13710,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.73,
+    "hours_to_close": 14.48,
     "volume_24h": 9248.54,
-    "score": 0.6888
+    "score": 0.69
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 9047.25,
-    "score": 0.6716
+    "hours_to_close": 18.49,
+    "volume_24h": 9054.87,
+    "score": 0.6725
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 6524.08,
-    "score": 0.671
+    "hours_to_close": 18.49,
+    "volume_24h": 6527.58,
+    "score": 0.6718
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 18.74,
+    "hours_to_close": 18.49,
     "volume_24h": 11952.82,
-    "score": 0.6549
+    "score": 0.6557
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 14.73,
-    "volume_24h": 6349.39,
-    "score": 0.6465
+    "hours_to_close": 14.48,
+    "volume_24h": 6351.39,
+    "score": 0.6478
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 14.73,
+    "hours_to_close": 14.48,
     "volume_24h": 7454.42,
-    "score": 0.6418
+    "score": 0.643
    },
    {
     "label": "Ethereum price at Oct 25, 2026 at 5pm EDT? \u2014 $2,310 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 18.74,
+    "price": 0.93,
+    "hours_to_close": 18.49,
     "volume_24h": 3547.05,
-    "score": 0.6211
+    "score": 0.632
    },
    {
-    "label": "Klara and the Sun Rotten Tomatoes score? \u2014 Above 27",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 6396.71,
-    "score": 0.6158
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,750 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 18.49,
+    "volume_24h": 11914.15,
+    "score": 0.6257
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

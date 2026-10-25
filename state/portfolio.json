@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.08,
- "fees_paid": 5.59,
+ "cash": 9.31,
+ "fees_paid": 5.61,
  "peak_equity": 109.65,
  "day": "2026-10-25",
  "day_start_equity": 87.29,
- "next_id": 235,
+ "next_id": 236,
  "open_positions": [
   {
    "id": 191,
@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.97,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -342,23 +342,6 @@
    "shadow": {}
   },
   {
-   "id": 231,
-   "ticker": "KXNCAAF1H-26OCT23USCWIS-TIE",
-   "event_ticker": "KXNCAAF1H-26OCT23USCWIS",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.92,
-   "fee": 0.03,
-   "cost": 4.63,
-   "opened_ts": 1792874724,
-   "close_ts": 1792972800.0,
-   "score": 0.6223,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 232,
    "ticker": "KXHIGHNY-26OCT25-B68.5",
    "event_ticker": "KXHIGHNY-26OCT25",
@@ -406,7 +389,7 @@
    "opened_ts": 1792877426,
    "close_ts": 1792987140.0,
    "score": 0.6576,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1792885525,
@@ -414,6 +397,23 @@
      "proceeds": 4.15
     }
    }
+  },
+  {
+   "id": 235,
+   "ticker": "KXRAIN-26OCT25-SEA",
+   "event_ticker": "KXRAIN-26OCT25",
+   "series": "KXRAIN",
+   "label": "Will it rain in Seattle on Oct 25, 2026?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1792890924,
+   "close_ts": 1793001600.0,
+   "score": 0.6079,
+   "mark_price": 0.94,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -5895,6 +5895,27 @@
    "pnl": 0.26,
    "result": "NO",
    "closed_ts": 1792877426,
+   "won": true
+  },
+  {
+   "id": 231,
+   "ticker": "KXNCAAF1H-26OCT23USCWIS-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT23USCWIS",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 4.63,
+   "opened_ts": 1792874724,
+   "close_ts": 1792972800.0,
+   "score": 0.6223,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.37,
+   "result": "NO",
+   "closed_ts": 1792890924,
    "won": true
   }
  ],
@@ -13638,91 +13659,99 @@
    1792890026,
    87.29,
    89.51
+  ],
+  [
+   1792890924,
+   87.66,
+   89.24
   ]
  ],
  "last_run": {
-  "ts": 1792890026,
+  "ts": 1792890924,
   "error": null,
-  "markets_scanned": 1589,
-  "candidates": 39,
+  "markets_scanned": 1577,
+  "candidates": 52,
   "rejections": {
    "too little volume": 1248,
-   "no favorite in 80-95c band": 272,
-   "spread too wide": 27,
-   "nothing for sale at the ask": 2,
-   "favorite is slipping fast": 1
+   "no favorite in 80-95c band": 255,
+   "spread too wide": 21,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   235
+  ],
+  "settled": [
+   231
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.98,
-    "volume_24h": 8755.75,
-    "score": 0.6812
+    "hours_to_close": 15.73,
+    "volume_24h": 8980.3,
+    "score": 0.6832
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.99,
+    "hours_to_close": 19.74,
     "volume_24h": 8208.65,
-    "score": 0.6744
+    "score": 0.6751
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,250 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.99,
-    "volume_24h": 5641.97,
-    "score": 0.6522
-   },
-   {
-    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 19.99,
-    "volume_24h": 7619.34,
-    "score": 0.6419
+    "hours_to_close": 19.74,
+    "volume_24h": 5749.27,
+    "score": 0.6536
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 19.99,
-    "volume_24h": 9666.19,
-    "score": 0.6397
-   },
-   {
-    "label": "Ethereum price at Oct 25, 2026 at 5pm EDT? \u2014 $2,430 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 2713.47,
-    "score": 0.6383
+    "hours_to_close": 19.74,
+    "volume_24h": 9712.77,
+    "score": 0.6406
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 15.98,
-    "volume_24h": 5721.6,
-    "score": 0.6374
+    "hours_to_close": 15.73,
+    "volume_24h": 5955.55,
+    "score": 0.6398
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 25, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 15.98,
-    "volume_24h": 7153.14,
-    "score": 0.6346
+    "hours_to_close": 15.73,
+    "volume_24h": 7377.69,
+    "score": 0.6368
+   },
+   {
+    "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 19.74,
+    "volume_24h": 7629.34,
+    "score": 0.6328
+   },
+   {
+    "label": "Will the maximum temperature be <64\u00b0 on Oct 25, 2026? \u2014 63\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 2081.52,
+    "score": 0.6111
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -186,7 +186,7 @@
    "opened_ts": 1792786527,
    "close_ts": 1792915200.0,
    "score": 0.5154,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -412,7 +412,7 @@
    "opened_ts": 1792890924,
    "close_ts": 1793001600.0,
    "score": 0.6079,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -13669,15 +13669,20 @@
    1792891825,
    87.66,
    89.24
+  ],
+  [
+   1792892726,
+   87.66,
+   89.34
   ]
  ],
  "last_run": {
-  "ts": 1792891825,
+  "ts": 1792892726,
   "error": null,
   "markets_scanned": 1577,
-  "candidates": 48,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 1247,
+   "too little volume": 1242,
    "no favorite in 80-95c band": 260,
    "spread too wide": 22
   },
@@ -13689,69 +13694,69 @@
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 25, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.48,
-    "volume_24h": 9114.42,
-    "score": 0.6848
+    "hours_to_close": 15.23,
+    "volume_24h": 9248.54,
+    "score": 0.6864
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 8286.83,
-    "score": 0.6763
+    "hours_to_close": 19.24,
+    "volume_24h": 8765.26,
+    "score": 0.6789
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,250 or above",
     "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 6389.62,
+    "score": 0.6686
+   },
+   {
+    "label": "North Carolina wins",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 5752.62,
-    "score": 0.6544
+    "hours_to_close": 22.24,
+    "volume_24h": 120847.24,
+    "score": 0.6644
+   },
+   {
+    "label": "Syracuse wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 22.24,
+    "volume_24h": 294440.83,
+    "score": 0.6644
+   },
+   {
+    "label": "Toronto Nationals wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 25.24,
+    "volume_24h": 141755.37,
+    "score": 0.6572
+   },
+   {
+    "label": "Vancouver Knights wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 25.24,
+    "volume_24h": 127850.07,
+    "score": 0.6472
    },
    {
     "label": "Bitcoin price on Oct 25, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 19.49,
-    "volume_24h": 7699.2,
-    "score": 0.6439
-   },
-   {
-    "label": "Oklahoma St. wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 22.49,
-    "volume_24h": 413151.09,
-    "score": 0.6437
-   },
-   {
-    "label": "Colorado wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.49,
-    "volume_24h": 1315539.92,
-    "score": 0.6437
-   },
-   {
-    "label": "Bitcoin price on Oct 25, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.49,
-    "volume_24h": 9799.77,
-    "score": 0.6417
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Oct 25, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.48,
-    "volume_24h": 5955.55,
-    "score": 0.6409
+    "hours_to_close": 19.24,
+    "volume_24h": 8105.25,
+    "score": 0.6464
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 40.05,
- "fees_paid": 5.9,
+ "cash": 17.99,
+ "fees_paid": 6.06,
  "peak_equity": 109.65,
  "day": "2026-10-26",
  "day_start_equity": 87.66,
- "next_id": 245,
+ "next_id": 250,
  "open_positions": [
   {
    "id": 191,
@@ -125,7 +125,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.75,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -183,6 +183,91 @@
    "close_ts": 1793159940.0,
    "score": 0.5896,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 245,
+   "ticker": "KXHIGHNY-26OCT27-B62.5",
+   "event_ticker": "KXHIGHNY-26OCT27",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 3.82,
+   "opened_ts": 1793034025,
+   "close_ts": 1793163600.0,
+   "score": 0.5264,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 246,
+   "ticker": "KXHIGHMIA-26OCT27-B79.5",
+   "event_ticker": "KXHIGHMIA-26OCT27",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 4.63,
+   "opened_ts": 1793034025,
+   "close_ts": 1793163600.0,
+   "score": 0.5195,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 247,
+   "ticker": "KXRAIN-26OCT27-WPB",
+   "event_ticker": "KXRAIN-26OCT27",
+   "series": "KXRAIN",
+   "label": "Will it rain in West Palm Beach on Oct 27, 2026?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793034025,
+   "close_ts": 1793163600.0,
+   "score": 0.5084,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 248,
+   "ticker": "KXHIGHTBOS-26OCT27-B53.5",
+   "event_ticker": "KXHIGHTBOS-26OCT27",
+   "series": "KXHIGHTBOS",
+   "label": "Will the maximum temperature be 53-54\u00b0 on Oct 27, 2026? \u2014 53\u00b0 to 54\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1793034025,
+   "close_ts": 1793163600.0,
+   "score": 0.4852,
+   "mark_price": 0.89,
+   "shadow": {}
+  },
+  {
+   "id": 249,
+   "ticker": "KXHIGHPHIL-26OCT27-B64.5",
+   "event_ticker": "KXHIGHPHIL-26OCT27",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 64-65\u00b0 on Oct 27, 2026? \u2014 64\u00b0 to 65\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.85,
+   "fee": 0.05,
+   "cost": 4.3,
+   "opened_ts": 1793034025,
+   "close_ts": 1793163600.0,
+   "score": 0.3421,
+   "mark_price": 0.82,
    "shadow": {}
   }
  ],
@@ -14024,19 +14109,30 @@
    1793033125,
    85.98,
    84.87
+  ],
+  [
+   1793034025,
+   85.98,
+   84.48
   ]
  ],
  "last_run": {
-  "ts": 1793033125,
+  "ts": 1793034025,
   "error": null,
-  "markets_scanned": 277,
-  "candidates": 11,
+  "markets_scanned": 401,
+  "candidates": 19,
   "rejections": {
-   "too little volume": 231,
-   "no favorite in 80-95c band": 34,
-   "spread too wide": 1
+   "too little volume": 323,
+   "no favorite in 80-95c band": 57,
+   "spread too wide": 2
   },
-  "opened": [],
+  "opened": [
+   245,
+   246,
+   247,
+   248,
+   249
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -14044,69 +14140,69 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 26.99,
-    "volume_24h": 43091.02,
-    "score": 0.6136
+    "hours_to_close": 26.74,
+    "volume_24h": 43102.05,
+    "score": 0.6141
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.99,
-    "volume_24h": 113863.81,
-    "score": 0.6136
+    "hours_to_close": 26.74,
+    "volume_24h": 120804.91,
+    "score": 0.6141
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.23,
+    "hours_to_close": 34.98,
     "volume_24h": 1686.43,
-    "score": 0.593
+    "score": 0.5933
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 26.99,
-    "volume_24h": 15688.72,
-    "score": 0.5636
+    "hours_to_close": 26.74,
+    "volume_24h": 16145.59,
+    "score": 0.5641
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 3066.39,
-    "score": 0.561
+    "score": 0.5616
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 1146.65,
-    "score": 0.549
+    "score": 0.5495
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.23,
-    "volume_24h": 1574.74,
-    "score": 0.5393
+    "hours_to_close": 23.98,
+    "volume_24h": 1575.74,
+    "score": 0.5399
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.23,
-    "volume_24h": 954.38,
-    "score": 0.523
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 1041.21,
+    "score": 0.5264
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

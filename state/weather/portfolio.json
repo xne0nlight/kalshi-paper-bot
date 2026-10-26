@@ -2,180 +2,11 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 10.618,
+ "cash": 90.048,
  "fees_paid": 0.0,
  "next_id": 893,
- "orders": [
-  {
-   "ticker": "KXLOWTSAN-26OCT25-B55.5",
-   "event_ticker": "KXLOWTSAN-26OCT25",
-   "series": "KXLOWTSAN",
-   "kind": "low",
-   "code": "SAN",
-   "date": "2026-10-25",
-   "label": "SAN low 55\u201356\u00b0 10-25",
-   "side": "no",
-   "close_ts": 1793001600.0,
-   "q_model": 0.9931,
-   "mid": 0.92,
-   "strategy": "longshot",
-   "price": 0.87,
-   "edge": 0.1231,
-   "q_used": 0.9566,
-   "id": 889,
-   "contracts": 12,
-   "filled": 0.0,
-   "placed_ts": 1792900825,
-   "checked_ts": 1792901726,
-   "reserved": 10.44
-  },
-  {
-   "ticker": "KXLOWTSFO-26OCT25-B49.5",
-   "event_ticker": "KXLOWTSFO-26OCT25",
-   "series": "KXLOWTSFO",
-   "kind": "low",
-   "code": "SFO",
-   "date": "2026-10-25",
-   "label": "SFO low 49\u201350\u00b0 10-25",
-   "side": "no",
-   "close_ts": 1793001600.0,
-   "q_model": 0.9978,
-   "mid": 0.93,
-   "strategy": "longshot",
-   "price": 0.9,
-   "edge": 0.0978,
-   "q_used": 0.9639,
-   "id": 890,
-   "contracts": 11,
-   "filled": 0.0,
-   "placed_ts": 1792900825,
-   "checked_ts": 1792901726,
-   "reserved": 9.9
-  },
-  {
-   "ticker": "KXHIGHTNOLA-26OCT25-B77.5",
-   "event_ticker": "KXHIGHTNOLA-26OCT25",
-   "series": "KXHIGHTNOLA",
-   "kind": "high",
-   "code": "MSY",
-   "date": "2026-10-25",
-   "label": "MSY high 77\u201378\u00b0 10-25",
-   "side": "no",
-   "close_ts": 1792994400.0,
-   "q_model": 0.8022,
-   "mid": 0.315,
-   "strategy": "edge",
-   "price": 0.31,
-   "edge": 0.4922,
-   "q_used": 0.5586,
-   "id": 891,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1792900825,
-   "checked_ts": 1792901726,
-   "reserved": 0.31
-  },
-  {
-   "ticker": "KXLOWTOKC-26OCT25-T59",
-   "event_ticker": "KXLOWTOKC-26OCT25",
-   "series": "KXLOWTOKC",
-   "kind": "low",
-   "code": "OKC",
-   "date": "2026-10-25",
-   "label": "OKC low \u226560\u00b0 10-25",
-   "side": "no",
-   "close_ts": 1792994400.0,
-   "q_model": 0.9994,
-   "mid": 0.92,
-   "strategy": "longshot",
-   "price": 0.87,
-   "edge": 0.1294,
-   "q_used": 0.9597,
-   "id": 892,
-   "contracts": 12,
-   "filled": 0.0,
-   "placed_ts": 1792901726,
-   "checked_ts": 1792901726,
-   "reserved": 10.44
-  }
- ],
+ "orders": [],
  "positions": [
-  {
-   "ticker": "KXLOWTSATX-26OCT24-T63",
-   "event_ticker": "KXLOWTSATX-26OCT24",
-   "series": "KXLOWTSATX",
-   "kind": "low",
-   "code": "SAT",
-   "date": "2026-10-24",
-   "label": "SAT low \u226564\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.8077,
-   "id": 597,
-   "contracts": 5.0,
-   "cost": 0.75,
-   "opened_ts": 1792768527,
-   "mark_price": 0.02,
-   "avg_price": 0.15
-  },
-  {
-   "ticker": "KXHIGHTSATX-26OCT24-T84",
-   "event_ticker": "KXHIGHTSATX-26OCT24",
-   "series": "KXHIGHTSATX",
-   "kind": "high",
-   "code": "SAT",
-   "date": "2026-10-24",
-   "label": "SAT high \u226483\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.407,
-   "id": 625,
-   "contracts": 1.0,
-   "cost": 0.09,
-   "opened_ts": 1792772127,
-   "mark_price": 0.14,
-   "avg_price": 0.09
-  },
-  {
-   "ticker": "KXLOWTNOLA-26OCT24-B56.5",
-   "event_ticker": "KXLOWTNOLA-26OCT24",
-   "series": "KXLOWTNOLA",
-   "kind": "low",
-   "code": "MSY",
-   "date": "2026-10-24",
-   "label": "MSY low 56\u201357\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792908000.0,
-   "q_model": 0.9959,
-   "id": 632,
-   "contracts": 11.0,
-   "cost": 9.57,
-   "opened_ts": 1792774829,
-   "mark_price": 0.64,
-   "avg_price": 0.87
-  },
-  {
-   "ticker": "KXHIGHCHI-26OCT24-B68.5",
-   "event_ticker": "KXHIGHCHI-26OCT24",
-   "series": "KXHIGHCHI",
-   "kind": "high",
-   "code": "MDW",
-   "date": "2026-10-24",
-   "label": "MDW high 68\u201369\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.3791,
-   "id": 629,
-   "contracts": 1.0,
-   "cost": 0.09,
-   "opened_ts": 1792775727,
-   "mark_price": 0.03,
-   "avg_price": 0.09
-  },
   {
    "ticker": "KXHIGHTLV-26OCT24-B75.5",
    "event_ticker": "KXHIGHTLV-26OCT24",
@@ -194,139 +25,6 @@
    "opened_ts": 1792775727,
    "mark_price": 0.99,
    "avg_price": 0.25
-  },
-  {
-   "ticker": "KXLOWTAUS-26OCT24-B51.5",
-   "event_ticker": "KXLOWTAUS-26OCT24",
-   "series": "KXLOWTAUS",
-   "kind": "low",
-   "code": "AUS",
-   "date": "2026-10-24",
-   "label": "AUS low 51\u201352\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792908000.0,
-   "q_model": 0.9929,
-   "id": 644,
-   "contracts": 4.5,
-   "cost": 3.87,
-   "opened_ts": 1792776627,
-   "mark_price": 0.98,
-   "avg_price": 0.86
-  },
-  {
-   "ticker": "KXLOWTMIN-26OCT24-T50",
-   "event_ticker": "KXLOWTMIN-26OCT24",
-   "series": "KXLOWTMIN",
-   "kind": "low",
-   "code": "MSP",
-   "date": "2026-10-24",
-   "label": "MSP low \u226449\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792908000.0,
-   "q_model": 0.9916,
-   "id": 645,
-   "contracts": 10.0,
-   "cost": 8.6,
-   "opened_ts": 1792776627,
-   "mark_price": 0.9,
-   "avg_price": 0.86
-  },
-  {
-   "ticker": "KXHIGHTEWR-26OCT24-B60.5",
-   "event_ticker": "KXHIGHTEWR-26OCT24",
-   "series": "KXHIGHTEWR",
-   "kind": "high",
-   "code": "EWR",
-   "date": "2026-10-24",
-   "label": "EWR high 60\u201361\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792904400.0,
-   "q_model": 0.35,
-   "id": 648,
-   "contracts": 1.0,
-   "cost": 0.08,
-   "opened_ts": 1792776627,
-   "mark_price": 0.02,
-   "avg_price": 0.08
-  },
-  {
-   "ticker": "KXLOWTTTN-26OCT24-T35",
-   "event_ticker": "KXLOWTTTN-26OCT24",
-   "series": "KXLOWTTTN",
-   "kind": "low",
-   "code": "TTN",
-   "date": "2026-10-24",
-   "label": "TTN low \u226536\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792904400.0,
-   "q_model": 0.8781,
-   "id": 676,
-   "contracts": 0.5,
-   "cost": 0.18,
-   "opened_ts": 1792787426,
-   "mark_price": 0.03,
-   "avg_price": 0.36
-  },
-  {
-   "ticker": "KXHIGHTPHX-26OCT24-B77.5",
-   "event_ticker": "KXHIGHTPHX-26OCT24",
-   "series": "KXHIGHTPHX",
-   "kind": "high",
-   "code": "PHX",
-   "date": "2026-10-24",
-   "label": "PHX high 77\u201378\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792911600.0,
-   "q_model": 0.3356,
-   "id": 668,
-   "contracts": 0.05,
-   "cost": 0.004,
-   "opened_ts": 1792792826,
-   "mark_price": 0.99,
-   "avg_price": 0.08
-  },
-  {
-   "ticker": "KXLOWTTTN-26OCT24-B32.5",
-   "event_ticker": "KXLOWTTTN-26OCT24",
-   "series": "KXLOWTTTN",
-   "kind": "low",
-   "code": "TTN",
-   "date": "2026-10-24",
-   "label": "TTN low 32\u201333\u00b0 10-24",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1792904400.0,
-   "q_model": 0.9748,
-   "id": 686,
-   "contracts": 11.0,
-   "cost": 9.02,
-   "opened_ts": 1792792826,
-   "mark_price": 0.02,
-   "avg_price": 0.82
-  },
-  {
-   "ticker": "KXLOWTSFO-26OCT24-B52.5",
-   "event_ticker": "KXLOWTSFO-26OCT24",
-   "series": "KXLOWTSFO",
-   "kind": "low",
-   "code": "SFO",
-   "date": "2026-10-24",
-   "label": "SFO low 52\u201353\u00b0 10-24",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1792915200.0,
-   "q_model": 0.9301,
-   "id": 687,
-   "contracts": 1.0,
-   "cost": 0.41,
-   "opened_ts": 1792793726,
-   "mark_price": 0.99,
-   "avg_price": 0.41
   },
   {
    "ticker": "KXHIGHTLV-26OCT24-B73.5",
@@ -348,234 +46,6 @@
    "avg_price": 0.12
   },
   {
-   "ticker": "KXHIGHAUS-26OCT24-B85.5",
-   "event_ticker": "KXHIGHAUS-26OCT24",
-   "series": "KXHIGHAUS",
-   "kind": "high",
-   "code": "AUS",
-   "date": "2026-10-24",
-   "label": "AUS high 85\u201386\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.3594,
-   "id": 692,
-   "contracts": 1.0,
-   "cost": 0.13,
-   "opened_ts": 1792798227,
-   "mark_price": 0.25,
-   "avg_price": 0.13
-  },
-  {
-   "ticker": "KXHIGHAUS-26OCT24-B87.5",
-   "event_ticker": "KXHIGHAUS-26OCT24",
-   "series": "KXHIGHAUS",
-   "kind": "high",
-   "code": "AUS",
-   "date": "2026-10-24",
-   "label": "AUS high 87\u201388\u00b0 10-24",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.6372,
-   "id": 710,
-   "contracts": 3.0,
-   "cost": 0.63,
-   "opened_ts": 1792814426,
-   "mark_price": 0.01,
-   "avg_price": 0.21
-  },
-  {
-   "ticker": "KXLOWTSEA-26OCT24-T41",
-   "event_ticker": "KXLOWTSEA-26OCT24",
-   "series": "KXLOWTSEA",
-   "kind": "low",
-   "code": "SEA",
-   "date": "2026-10-24",
-   "label": "SEA low \u226542\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792915200.0,
-   "q_model": 0.5621,
-   "id": 708,
-   "contracts": 1.0,
-   "cost": 0.14,
-   "opened_ts": 1792815326,
-   "mark_price": 0.14,
-   "avg_price": 0.14
-  },
-  {
-   "ticker": "KXLOWTSATX-26OCT24-B58.5",
-   "event_ticker": "KXLOWTSATX-26OCT24",
-   "series": "KXLOWTSATX",
-   "kind": "low",
-   "code": "SAT",
-   "date": "2026-10-24",
-   "label": "SAT low 58\u201359\u00b0 10-24",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1792908000.0,
-   "q_model": 0.9915,
-   "id": 719,
-   "contracts": 1.0,
-   "cost": 0.85,
-   "opened_ts": 1792819825,
-   "mark_price": 0.99,
-   "avg_price": 0.85
-  },
-  {
-   "ticker": "KXLOWTHOU-26OCT24-T63",
-   "event_ticker": "KXLOWTHOU-26OCT24",
-   "series": "KXLOWTHOU",
-   "kind": "low",
-   "code": "HOU",
-   "date": "2026-10-24",
-   "label": "HOU low \u226564\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.8192,
-   "id": 724,
-   "contracts": 2.0,
-   "cost": 0.38,
-   "opened_ts": 1792821627,
-   "mark_price": 0.03,
-   "avg_price": 0.19
-  },
-  {
-   "ticker": "KXLOWTAUS-26OCT24-T58",
-   "event_ticker": "KXLOWTAUS-26OCT24",
-   "series": "KXLOWTAUS",
-   "kind": "low",
-   "code": "AUS",
-   "date": "2026-10-24",
-   "label": "AUS low \u226559\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792908000.0,
-   "q_model": 0.5097,
-   "id": 726,
-   "contracts": 1.0,
-   "cost": 0.1,
-   "opened_ts": 1792824324,
-   "mark_price": 0.1,
-   "avg_price": 0.1
-  },
-  {
-   "ticker": "KXLOWTOKC-26OCT24-T51",
-   "event_ticker": "KXLOWTOKC-26OCT24",
-   "series": "KXLOWTOKC",
-   "kind": "low",
-   "code": "OKC",
-   "date": "2026-10-24",
-   "label": "OKC low \u226450\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792908000.0,
-   "q_model": 0.9988,
-   "id": 731,
-   "contracts": 10.0,
-   "cost": 8.8,
-   "opened_ts": 1792829725,
-   "mark_price": 0.98,
-   "avg_price": 0.88
-  },
-  {
-   "ticker": "KXLOWTEWR-26OCT24-T41",
-   "event_ticker": "KXLOWTEWR-26OCT24",
-   "series": "KXLOWTEWR",
-   "kind": "low",
-   "code": "EWR",
-   "date": "2026-10-24",
-   "label": "EWR low \u226542\u00b0 10-24",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792904400.0,
-   "q_model": 0.7394,
-   "id": 733,
-   "contracts": 1.0,
-   "cost": 0.1,
-   "opened_ts": 1792829725,
-   "mark_price": 0.1,
-   "avg_price": 0.1
-  },
-  {
-   "ticker": "KXLOWTLV-26OCT24-B54.5",
-   "event_ticker": "KXLOWTLV-26OCT24",
-   "series": "KXLOWTLV",
-   "kind": "low",
-   "code": "LAS",
-   "date": "2026-10-24",
-   "label": "LAS low 54\u201355\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792915200.0,
-   "q_model": 0.9683,
-   "id": 734,
-   "contracts": 4.0,
-   "cost": 3.44,
-   "opened_ts": 1792830627,
-   "mark_price": 0.98,
-   "avg_price": 0.86
-  },
-  {
-   "ticker": "KXHIGHNY-26OCT24-B63.5",
-   "event_ticker": "KXHIGHNY-26OCT24",
-   "series": "KXHIGHNY",
-   "kind": "high",
-   "code": "NYC",
-   "date": "2026-10-24",
-   "label": "NYC high 63\u201364\u00b0 10-24",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792904400.0,
-   "q_model": 0.9297,
-   "id": 735,
-   "contracts": 4.0,
-   "cost": 3.32,
-   "opened_ts": 1792831525,
-   "mark_price": 0.99,
-   "avg_price": 0.83
-  },
-  {
-   "ticker": "KXLOWTDEN-26OCT25-T42",
-   "event_ticker": "KXLOWTDEN-26OCT25",
-   "series": "KXLOWTDEN",
-   "kind": "low",
-   "code": "DEN",
-   "date": "2026-10-25",
-   "label": "DEN low \u226543\u00b0 10-25",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792998000.0,
-   "q_model": 0.6441,
-   "id": 778,
-   "contracts": 6.0,
-   "cost": 0.72,
-   "opened_ts": 1792858528,
-   "mark_price": 0.02,
-   "avg_price": 0.12
-  },
-  {
-   "ticker": "KXHIGHDEN-26OCT25-T56",
-   "event_ticker": "KXHIGHDEN-26OCT25",
-   "series": "KXHIGHDEN",
-   "kind": "high",
-   "code": "DEN",
-   "date": "2026-10-25",
-   "label": "DEN high \u226455\u00b0 10-25",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1792998000.0,
-   "q_model": 0.9708,
-   "id": 781,
-   "contracts": 1.0,
-   "cost": 0.45,
-   "opened_ts": 1792860325,
-   "mark_price": 0.79,
-   "avg_price": 0.45
-  },
-  {
    "ticker": "KXHIGHTPHX-26OCT25-B84.5",
    "event_ticker": "KXHIGHTPHX-26OCT25",
    "series": "KXHIGHTPHX",
@@ -593,44 +63,6 @@
    "opened_ts": 1792865728,
    "mark_price": 0.84,
    "avg_price": 0.82
-  },
-  {
-   "ticker": "KXHIGHNY-26OCT25-B68.5",
-   "event_ticker": "KXHIGHNY-26OCT25",
-   "series": "KXHIGHNY",
-   "kind": "high",
-   "code": "NYC",
-   "date": "2026-10-25",
-   "label": "NYC high 68\u201369\u00b0 10-25",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1792990800.0,
-   "q_model": 0.985,
-   "id": 809,
-   "contracts": 10.0,
-   "cost": 9.5,
-   "opened_ts": 1792868425,
-   "mark_price": 0.93,
-   "avg_price": 0.95
-  },
-  {
-   "ticker": "KXHIGHDEN-26OCT25-B56.5",
-   "event_ticker": "KXHIGHDEN-26OCT25",
-   "series": "KXHIGHDEN",
-   "kind": "high",
-   "code": "DEN",
-   "date": "2026-10-25",
-   "label": "DEN high 56\u201357\u00b0 10-25",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1792998000.0,
-   "q_model": 0.9562,
-   "id": 816,
-   "contracts": 1.0,
-   "cost": 0.83,
-   "opened_ts": 1792873825,
-   "mark_price": 0.77,
-   "avg_price": 0.83
   },
   {
    "ticker": "KXLOWTMIN-26OCT25-T49",
@@ -671,61 +103,23 @@
    "avg_price": 0.27
   },
   {
-   "ticker": "KXHIGHTDC-26OCT25-T66",
-   "event_ticker": "KXHIGHTDC-26OCT25",
-   "series": "KXHIGHTDC",
-   "kind": "high",
-   "code": "DCA",
-   "date": "2026-10-25",
-   "label": "DCA high \u226465\u00b0 10-25",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792990800.0,
-   "q_model": 0.4732,
-   "id": 862,
-   "contracts": 1.0,
-   "cost": 0.1,
-   "opened_ts": 1792887324,
-   "mark_price": 0.1,
-   "avg_price": 0.1
-  },
-  {
-   "ticker": "KXLOWTNOLA-26OCT25-T60",
-   "event_ticker": "KXLOWTNOLA-26OCT25",
-   "series": "KXLOWTNOLA",
+   "ticker": "KXLOWTSFO-26OCT25-B49.5",
+   "event_ticker": "KXLOWTSFO-26OCT25",
+   "series": "KXLOWTSFO",
    "kind": "low",
-   "code": "MSY",
+   "code": "SFO",
    "date": "2026-10-25",
-   "label": "MSY low \u226561\u00b0 10-25",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1792994400.0,
-   "q_model": 0.8344,
-   "id": 865,
-   "contracts": 1.0,
-   "cost": 0.3,
-   "opened_ts": 1792887324,
-   "mark_price": 0.08,
-   "avg_price": 0.3
-  },
-  {
-   "ticker": "KXHIGHTTTN-26OCT25-B66.5",
-   "event_ticker": "KXHIGHTTTN-26OCT25",
-   "series": "KXHIGHTTTN",
-   "kind": "high",
-   "code": "TTN",
-   "date": "2026-10-25",
-   "label": "TTN high 66\u201367\u00b0 10-25",
+   "label": "SFO low 49\u201350\u00b0 10-25",
    "side": "no",
-   "strategy": "edge",
-   "close_ts": 1792990800.0,
-   "q_model": 0.5089,
-   "id": 870,
-   "contracts": 1.0,
-   "cost": 0.16,
-   "opened_ts": 1792900825,
-   "mark_price": 0.1,
-   "avg_price": 0.16
+   "strategy": "longshot",
+   "close_ts": 1793001600.0,
+   "q_model": 0.9978,
+   "id": 890,
+   "contracts": 11.0,
+   "cost": 9.9,
+   "opened_ts": 1793023122,
+   "mark_price": 0.9,
+   "avg_price": 0.9
   }
  ],
  "closed": [
@@ -2683,6 +2077,673 @@
    "result": "YES",
    "closed_ts": 1792862128,
    "won": true
+  },
+  {
+   "ticker": "KXLOWTSATX-26OCT24-T63",
+   "event_ticker": "KXLOWTSATX-26OCT24",
+   "series": "KXLOWTSATX",
+   "kind": "low",
+   "code": "SAT",
+   "date": "2026-10-24",
+   "label": "SAT low \u226564\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.8077,
+   "id": 597,
+   "contracts": 5.0,
+   "cost": 0.75,
+   "opened_ts": 1792768527,
+   "avg_price": 0.15,
+   "payout": 0.0,
+   "pnl": -0.75,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTSATX-26OCT24-T84",
+   "event_ticker": "KXHIGHTSATX-26OCT24",
+   "series": "KXHIGHTSATX",
+   "kind": "high",
+   "code": "SAT",
+   "date": "2026-10-24",
+   "label": "SAT high \u226483\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.407,
+   "id": 625,
+   "contracts": 1.0,
+   "cost": 0.09,
+   "opened_ts": 1792772127,
+   "avg_price": 0.09,
+   "payout": 0.0,
+   "pnl": -0.09,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTNOLA-26OCT24-B56.5",
+   "event_ticker": "KXLOWTNOLA-26OCT24",
+   "series": "KXLOWTNOLA",
+   "kind": "low",
+   "code": "MSY",
+   "date": "2026-10-24",
+   "label": "MSY low 56\u201357\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792908000.0,
+   "q_model": 0.9959,
+   "id": 632,
+   "contracts": 11.0,
+   "cost": 9.57,
+   "opened_ts": 1792774829,
+   "avg_price": 0.87,
+   "payout": 11.0,
+   "pnl": 1.43,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHCHI-26OCT24-B68.5",
+   "event_ticker": "KXHIGHCHI-26OCT24",
+   "series": "KXHIGHCHI",
+   "kind": "high",
+   "code": "MDW",
+   "date": "2026-10-24",
+   "label": "MDW high 68\u201369\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.3791,
+   "id": 629,
+   "contracts": 1.0,
+   "cost": 0.09,
+   "opened_ts": 1792775727,
+   "avg_price": 0.09,
+   "payout": 0.0,
+   "pnl": -0.09,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTAUS-26OCT24-B51.5",
+   "event_ticker": "KXLOWTAUS-26OCT24",
+   "series": "KXLOWTAUS",
+   "kind": "low",
+   "code": "AUS",
+   "date": "2026-10-24",
+   "label": "AUS low 51\u201352\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792908000.0,
+   "q_model": 0.9929,
+   "id": 644,
+   "contracts": 4.5,
+   "cost": 3.87,
+   "opened_ts": 1792776627,
+   "avg_price": 0.86,
+   "payout": 4.5,
+   "pnl": 0.63,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTMIN-26OCT24-T50",
+   "event_ticker": "KXLOWTMIN-26OCT24",
+   "series": "KXLOWTMIN",
+   "kind": "low",
+   "code": "MSP",
+   "date": "2026-10-24",
+   "label": "MSP low \u226449\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792908000.0,
+   "q_model": 0.9916,
+   "id": 645,
+   "contracts": 10.0,
+   "cost": 8.6,
+   "opened_ts": 1792776627,
+   "avg_price": 0.86,
+   "payout": 10.0,
+   "pnl": 1.4,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTEWR-26OCT24-B60.5",
+   "event_ticker": "KXHIGHTEWR-26OCT24",
+   "series": "KXHIGHTEWR",
+   "kind": "high",
+   "code": "EWR",
+   "date": "2026-10-24",
+   "label": "EWR high 60\u201361\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792904400.0,
+   "q_model": 0.35,
+   "id": 648,
+   "contracts": 1.0,
+   "cost": 0.08,
+   "opened_ts": 1792776627,
+   "avg_price": 0.08,
+   "payout": 0.0,
+   "pnl": -0.08,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTTTN-26OCT24-T35",
+   "event_ticker": "KXLOWTTTN-26OCT24",
+   "series": "KXLOWTTTN",
+   "kind": "low",
+   "code": "TTN",
+   "date": "2026-10-24",
+   "label": "TTN low \u226536\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792904400.0,
+   "q_model": 0.8781,
+   "id": 676,
+   "contracts": 0.5,
+   "cost": 0.18,
+   "opened_ts": 1792787426,
+   "avg_price": 0.36,
+   "payout": 0.0,
+   "pnl": -0.18,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTPHX-26OCT24-B77.5",
+   "event_ticker": "KXHIGHTPHX-26OCT24",
+   "series": "KXHIGHTPHX",
+   "kind": "high",
+   "code": "PHX",
+   "date": "2026-10-24",
+   "label": "PHX high 77\u201378\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792911600.0,
+   "q_model": 0.3356,
+   "id": 668,
+   "contracts": 0.05,
+   "cost": 0.004,
+   "opened_ts": 1792792826,
+   "avg_price": 0.08,
+   "payout": 0.05,
+   "pnl": 0.046,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTTTN-26OCT24-B32.5",
+   "event_ticker": "KXLOWTTTN-26OCT24",
+   "series": "KXLOWTTTN",
+   "kind": "low",
+   "code": "TTN",
+   "date": "2026-10-24",
+   "label": "TTN low 32\u201333\u00b0 10-24",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1792904400.0,
+   "q_model": 0.9748,
+   "id": 686,
+   "contracts": 11.0,
+   "cost": 9.02,
+   "opened_ts": 1792792826,
+   "avg_price": 0.82,
+   "payout": 0.0,
+   "pnl": -9.02,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTSFO-26OCT24-B52.5",
+   "event_ticker": "KXLOWTSFO-26OCT24",
+   "series": "KXLOWTSFO",
+   "kind": "low",
+   "code": "SFO",
+   "date": "2026-10-24",
+   "label": "SFO low 52\u201353\u00b0 10-24",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1792915200.0,
+   "q_model": 0.9301,
+   "id": 687,
+   "contracts": 1.0,
+   "cost": 0.41,
+   "opened_ts": 1792793726,
+   "avg_price": 0.41,
+   "payout": 1.0,
+   "pnl": 0.59,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHAUS-26OCT24-B85.5",
+   "event_ticker": "KXHIGHAUS-26OCT24",
+   "series": "KXHIGHAUS",
+   "kind": "high",
+   "code": "AUS",
+   "date": "2026-10-24",
+   "label": "AUS high 85\u201386\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.3594,
+   "id": 692,
+   "contracts": 1.0,
+   "cost": 0.13,
+   "opened_ts": 1792798227,
+   "avg_price": 0.13,
+   "payout": 0.0,
+   "pnl": -0.13,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHAUS-26OCT24-B87.5",
+   "event_ticker": "KXHIGHAUS-26OCT24",
+   "series": "KXHIGHAUS",
+   "kind": "high",
+   "code": "AUS",
+   "date": "2026-10-24",
+   "label": "AUS high 87\u201388\u00b0 10-24",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.6372,
+   "id": 710,
+   "contracts": 3.0,
+   "cost": 0.63,
+   "opened_ts": 1792814426,
+   "avg_price": 0.21,
+   "payout": 0.0,
+   "pnl": -0.63,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTSEA-26OCT24-T41",
+   "event_ticker": "KXLOWTSEA-26OCT24",
+   "series": "KXLOWTSEA",
+   "kind": "low",
+   "code": "SEA",
+   "date": "2026-10-24",
+   "label": "SEA low \u226542\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792915200.0,
+   "q_model": 0.5621,
+   "id": 708,
+   "contracts": 1.0,
+   "cost": 0.14,
+   "opened_ts": 1792815326,
+   "avg_price": 0.14,
+   "payout": 0.0,
+   "pnl": -0.14,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTSATX-26OCT24-B58.5",
+   "event_ticker": "KXLOWTSATX-26OCT24",
+   "series": "KXLOWTSATX",
+   "kind": "low",
+   "code": "SAT",
+   "date": "2026-10-24",
+   "label": "SAT low 58\u201359\u00b0 10-24",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1792908000.0,
+   "q_model": 0.9915,
+   "id": 719,
+   "contracts": 1.0,
+   "cost": 0.85,
+   "opened_ts": 1792819825,
+   "avg_price": 0.85,
+   "payout": 1.0,
+   "pnl": 0.15,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTHOU-26OCT24-T63",
+   "event_ticker": "KXLOWTHOU-26OCT24",
+   "series": "KXLOWTHOU",
+   "kind": "low",
+   "code": "HOU",
+   "date": "2026-10-24",
+   "label": "HOU low \u226564\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.8192,
+   "id": 724,
+   "contracts": 2.0,
+   "cost": 0.38,
+   "opened_ts": 1792821627,
+   "avg_price": 0.19,
+   "payout": 0.0,
+   "pnl": -0.38,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTAUS-26OCT24-T58",
+   "event_ticker": "KXLOWTAUS-26OCT24",
+   "series": "KXLOWTAUS",
+   "kind": "low",
+   "code": "AUS",
+   "date": "2026-10-24",
+   "label": "AUS low \u226559\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792908000.0,
+   "q_model": 0.5097,
+   "id": 726,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1792824324,
+   "avg_price": 0.1,
+   "payout": 0.0,
+   "pnl": -0.1,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTOKC-26OCT24-T51",
+   "event_ticker": "KXLOWTOKC-26OCT24",
+   "series": "KXLOWTOKC",
+   "kind": "low",
+   "code": "OKC",
+   "date": "2026-10-24",
+   "label": "OKC low \u226450\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792908000.0,
+   "q_model": 0.9988,
+   "id": 731,
+   "contracts": 10.0,
+   "cost": 8.8,
+   "opened_ts": 1792829725,
+   "avg_price": 0.88,
+   "payout": 10.0,
+   "pnl": 1.2,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTEWR-26OCT24-T41",
+   "event_ticker": "KXLOWTEWR-26OCT24",
+   "series": "KXLOWTEWR",
+   "kind": "low",
+   "code": "EWR",
+   "date": "2026-10-24",
+   "label": "EWR low \u226542\u00b0 10-24",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792904400.0,
+   "q_model": 0.7394,
+   "id": 733,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1792829725,
+   "avg_price": 0.1,
+   "payout": 0.0,
+   "pnl": -0.1,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTLV-26OCT24-B54.5",
+   "event_ticker": "KXLOWTLV-26OCT24",
+   "series": "KXLOWTLV",
+   "kind": "low",
+   "code": "LAS",
+   "date": "2026-10-24",
+   "label": "LAS low 54\u201355\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792915200.0,
+   "q_model": 0.9683,
+   "id": 734,
+   "contracts": 4.0,
+   "cost": 3.44,
+   "opened_ts": 1792830627,
+   "avg_price": 0.86,
+   "payout": 4.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHNY-26OCT24-B63.5",
+   "event_ticker": "KXHIGHNY-26OCT24",
+   "series": "KXHIGHNY",
+   "kind": "high",
+   "code": "NYC",
+   "date": "2026-10-24",
+   "label": "NYC high 63\u201364\u00b0 10-24",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792904400.0,
+   "q_model": 0.9297,
+   "id": 735,
+   "contracts": 4.0,
+   "cost": 3.32,
+   "opened_ts": 1792831525,
+   "avg_price": 0.83,
+   "payout": 4.0,
+   "pnl": 0.68,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTDEN-26OCT25-T42",
+   "event_ticker": "KXLOWTDEN-26OCT25",
+   "series": "KXLOWTDEN",
+   "kind": "low",
+   "code": "DEN",
+   "date": "2026-10-25",
+   "label": "DEN low \u226543\u00b0 10-25",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792998000.0,
+   "q_model": 0.6441,
+   "id": 778,
+   "contracts": 6.0,
+   "cost": 0.72,
+   "opened_ts": 1792858528,
+   "avg_price": 0.12,
+   "payout": 0.0,
+   "pnl": -0.72,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHDEN-26OCT25-T56",
+   "event_ticker": "KXHIGHDEN-26OCT25",
+   "series": "KXHIGHDEN",
+   "kind": "high",
+   "code": "DEN",
+   "date": "2026-10-25",
+   "label": "DEN high \u226455\u00b0 10-25",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1792998000.0,
+   "q_model": 0.9708,
+   "id": 781,
+   "contracts": 1.0,
+   "cost": 0.45,
+   "opened_ts": 1792860325,
+   "avg_price": 0.45,
+   "payout": 1.0,
+   "pnl": 0.55,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHNY-26OCT25-B68.5",
+   "event_ticker": "KXHIGHNY-26OCT25",
+   "series": "KXHIGHNY",
+   "kind": "high",
+   "code": "NYC",
+   "date": "2026-10-25",
+   "label": "NYC high 68\u201369\u00b0 10-25",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1792990800.0,
+   "q_model": 0.985,
+   "id": 809,
+   "contracts": 10.0,
+   "cost": 9.5,
+   "opened_ts": 1792868425,
+   "avg_price": 0.95,
+   "payout": 10.0,
+   "pnl": 0.5,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHDEN-26OCT25-B56.5",
+   "event_ticker": "KXHIGHDEN-26OCT25",
+   "series": "KXHIGHDEN",
+   "kind": "high",
+   "code": "DEN",
+   "date": "2026-10-25",
+   "label": "DEN high 56\u201357\u00b0 10-25",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1792998000.0,
+   "q_model": 0.9562,
+   "id": 816,
+   "contracts": 1.0,
+   "cost": 0.83,
+   "opened_ts": 1792873825,
+   "avg_price": 0.83,
+   "payout": 1.0,
+   "pnl": 0.17,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTDC-26OCT25-T66",
+   "event_ticker": "KXHIGHTDC-26OCT25",
+   "series": "KXHIGHTDC",
+   "kind": "high",
+   "code": "DCA",
+   "date": "2026-10-25",
+   "label": "DCA high \u226465\u00b0 10-25",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792990800.0,
+   "q_model": 0.4732,
+   "id": 862,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1792887324,
+   "avg_price": 0.1,
+   "payout": 0.0,
+   "pnl": -0.1,
+   "result": "NO",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTNOLA-26OCT25-T60",
+   "event_ticker": "KXLOWTNOLA-26OCT25",
+   "series": "KXLOWTNOLA",
+   "kind": "low",
+   "code": "MSY",
+   "date": "2026-10-25",
+   "label": "MSY low \u226561\u00b0 10-25",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1792994400.0,
+   "q_model": 0.8344,
+   "id": 865,
+   "contracts": 1.0,
+   "cost": 0.3,
+   "opened_ts": 1792887324,
+   "avg_price": 0.3,
+   "payout": 1.0,
+   "pnl": 0.7,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTTTN-26OCT25-B66.5",
+   "event_ticker": "KXHIGHTTTN-26OCT25",
+   "series": "KXHIGHTTTN",
+   "kind": "high",
+   "code": "TTN",
+   "date": "2026-10-25",
+   "label": "TTN high 66\u201367\u00b0 10-25",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1792990800.0,
+   "q_model": 0.5089,
+   "id": 870,
+   "contracts": 1.0,
+   "cost": 0.16,
+   "opened_ts": 1792900825,
+   "avg_price": 0.16,
+   "payout": 0.0,
+   "pnl": -0.16,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTNOLA-26OCT25-B77.5",
+   "event_ticker": "KXHIGHTNOLA-26OCT25",
+   "series": "KXHIGHTNOLA",
+   "kind": "high",
+   "code": "MSY",
+   "date": "2026-10-25",
+   "label": "MSY high 77\u201378\u00b0 10-25",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1792994400.0,
+   "q_model": 0.8022,
+   "id": 891,
+   "contracts": 1.0,
+   "cost": 0.31,
+   "opened_ts": 1793023122,
+   "avg_price": 0.31,
+   "payout": 0.0,
+   "pnl": -0.31,
+   "result": "YES",
+   "closed_ts": 1793023122,
+   "won": false
   }
  ],
  "equity_history": [
@@ -5305,6 +5366,11 @@
    1792901726,
    105.912,
    97.5125
+  ],
+  [
+   1793023122,
+   101.538,
+   103.128
   ]
  ],
  "forecast_log": {
@@ -7015,294 +7081,6 @@
     "kind": "high",
     "close_ts": 1792742400.0
    },
-   "KXLOWTSFO-26OCT24-T55": {
-    "q": 0.6762272184216246,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSFO-26OCT24-T48": {
-    "q": 2.2104455012551553e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSFO-26OCT24-B54.5": {
-    "q": 0.25050601977059844,
-    "mkt": 0.1,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSFO-26OCT24-B52.5": {
-    "q": 0.06401965448379732,
-    "mkt": 0.61,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSFO-26OCT24-B50.5": {
-    "q": 0.008577909757626206,
-    "mkt": 0.18,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSFO-26OCT24-B48.5": {
-    "q": 0.0006470931113417473,
-    "mkt": 0.030000000000000002,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-T41": {
-    "q": 0.5584165598702906,
-    "mkt": 0.22499999999999998,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-T34": {
-    "q": 1.0065293156634043e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-B40.5": {
-    "q": 0.3191769432906114,
-    "mkt": 0.345,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-B38.5": {
-    "q": 0.11033505423798065,
-    "mkt": 0.33,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-B36.5": {
-    "q": 0.011590880106574128,
-    "mkt": 0.11499999999999999,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSEA-26OCT24-B34.5": {
-    "q": 0.00047049720138724987,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-T59": {
-    "q": 0.43054511118933186,
-    "mkt": 0.32,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-T52": {
-    "q": 1.2445131850994929e-05,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-B58.5": {
-    "q": 0.3061446144841402,
-    "mkt": 0.465,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-B56.5": {
-    "q": 0.2269427327138289,
-    "mkt": 0.21000000000000002,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-B54.5": {
-    "q": 0.03522018042363166,
-    "mkt": 0.065,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTSAN-26OCT24-B52.5": {
-    "q": 0.001134916057217015,
-    "mkt": 0.05,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-T59": {
-    "q": 0.41851869775958334,
-    "mkt": 0.235,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-T52": {
-    "q": 9.835073893025518e-06,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-B58.5": {
-    "q": 0.36682248721142596,
-    "mkt": 0.385,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-B56.5": {
-    "q": 0.18164510927520303,
-    "mkt": 0.09,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-B54.5": {
-    "q": 0.03173016978472744,
-    "mkt": 0.14,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLV-26OCT24-B52.5": {
-    "q": 0.001273700895167908,
-    "mkt": 0.125,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-T59": {
-    "q": 0.36836546260613895,
-    "mkt": 0.28,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-T52": {
-    "q": 0.0013284322014017766,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-B58.5": {
-    "q": 0.11000135801926653,
-    "mkt": 0.525,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-B56.5": {
-    "q": 0.26479750214318387,
-    "mkt": 0.155,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-B54.5": {
-    "q": 0.21702193841140896,
-    "mkt": 0.04,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTLAX-26OCT24-B52.5": {
-    "q": 0.03848530661860067,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-T75": {
-    "q": 0.00018846789993480416,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-T68": {
-    "q": 0.5319594729452802,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-B74.5": {
-    "q": 0.012668045851517578,
-    "mkt": 0.095,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-B72.5": {
-    "q": 0.1143808117170607,
-    "mkt": 0.365,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-B70.5": {
-    "q": 0.17492302087705444,
-    "mkt": 0.435,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSFO-26OCT24-B68.5": {
-    "q": 0.16588018070915322,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-T61": {
-    "q": 0.0005065293094900544,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-T54": {
-    "q": 0.28735725435667986,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-B60.5": {
-    "q": 0.012156982210670924,
-    "mkt": 0.03,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-B58.5": {
-    "q": 0.09579932512568046,
-    "mkt": 0.175,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-B56.5": {
-    "q": 0.27212415603374157,
-    "mkt": 0.41000000000000003,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSEA-26OCT24-B54.5": {
-    "q": 0.33205575296373824,
-    "mkt": 0.28,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-T79": {
-    "q": 0.004467310848579595,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-T72": {
-    "q": 0.0356152419310248,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-B78.5": {
-    "q": 0.06381897883854963,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-B76.5": {
-    "q": 0.26653544394250905,
-    "mkt": 0.185,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-B74.5": {
-    "q": 0.4166668190608252,
-    "mkt": 0.665,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHTSAN-26OCT24-B72.5": {
-    "q": 0.21289620537851273,
-    "mkt": 0.11000000000000001,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
    "KXHIGHTLV-26OCT24-T80": {
     "q": 0.0005122838200520353,
     "mkt": 0.005,
@@ -7338,1014 +7116,6 @@
     "mkt": 0.14500000000000002,
     "kind": "high",
     "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-T78": {
-    "q": 0.05747766995704796,
-    "mkt": 0.095,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-T71": {
-    "q": 0.01802607943722385,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-B77.5": {
-    "q": 0.2743155964923439,
-    "mkt": 0.495,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-B75.5": {
-    "q": 0.39637093861634404,
-    "mkt": 0.355,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-B73.5": {
-    "q": 0.19538743326619842,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXHIGHLAX-26OCT24-B71.5": {
-    "q": 0.058422282230842996,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792915200.0
-   },
-   "KXLOWTPHX-26OCT24-T61": {
-    "q": 0.3894721237439839,
-    "mkt": 0.5549999999999999,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTPHX-26OCT24-T54": {
-    "q": 0.00018126357851276854,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTPHX-26OCT24-B60.5": {
-    "q": 0.2391303570127937,
-    "mkt": 0.355,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTPHX-26OCT24-B58.5": {
-    "q": 0.2743302523834914,
-    "mkt": 0.07,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTPHX-26OCT24-B56.5": {
-    "q": 0.08871632695596374,
-    "mkt": 0.035,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTPHX-26OCT24-B54.5": {
-    "q": 0.008169676325255046,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-T47": {
-    "q": 0.06087265185829684,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-T40": {
-    "q": 0.028433359272757593,
-    "mkt": 0.52,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-B46.5": {
-    "q": 0.21614750696145915,
-    "mkt": 0.085,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-B44.5": {
-    "q": 0.342365479042062,
-    "mkt": 0.10500000000000001,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-B42.5": {
-    "q": 0.26163176769140406,
-    "mkt": 0.23,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTDEN-26OCT24-B40.5": {
-    "q": 0.09054923517402114,
-    "mkt": 0.25,
-    "kind": "low",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-T82": {
-    "q": 0.012082392278668318,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-T75": {
-    "q": 0.08494969126597672,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-B81.5": {
-    "q": 0.0736145872908541,
-    "mkt": 0.305,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-B79.5": {
-    "q": 0.24493447312054095,
-    "mkt": 0.565,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-B77.5": {
-    "q": 0.3575516211028484,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHTPHX-26OCT24-B75.5": {
-    "q": 0.22686723494111233,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-T60": {
-    "q": 0.05102813314655188,
-    "mkt": 0.075,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-T53": {
-    "q": 0.006169537844345305,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-B59.5": {
-    "q": 0.2101139838469767,
-    "mkt": 0.33499999999999996,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-B57.5": {
-    "q": 0.3836728375674562,
-    "mkt": 0.405,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-B55.5": {
-    "q": 0.27991603754579475,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXHIGHDEN-26OCT24-B53.5": {
-    "q": 0.0690994700488762,
-    "mkt": 0.03,
-    "kind": "high",
-    "close_ts": 1792911600.0
-   },
-   "KXLOWTSATX-26OCT24-T63": {
-    "q": 0.7480395816004878,
-    "mkt": 0.255,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTSATX-26OCT24-T56": {
-    "q": 2.8348813991331692e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTSATX-26OCT24-B62.5": {
-    "q": 0.19143208791845673,
-    "mkt": 0.37,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTSATX-26OCT24-B60.5": {
-    "q": 0.05116257955909035,
-    "mkt": 0.21,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTSATX-26OCT24-B58.5": {
-    "q": 0.008568242592450842,
-    "mkt": 0.1,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTSATX-26OCT24-B56.5": {
-    "q": 0.0007691595155236701,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-T58": {
-    "q": 0.5946144057098103,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-T51": {
-    "q": 0.000699211975182522,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-B57.5": {
-    "q": 0.2534926853749002,
-    "mkt": 0.13,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-B55.5": {
-    "q": 0.10791562609110852,
-    "mkt": 0.245,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-B53.5": {
-    "q": 0.03573072548287886,
-    "mkt": 0.33,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTOKC-26OCT24-B51.5": {
-    "q": 0.007547345366120278,
-    "mkt": 0.235,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-T63": {
-    "q": 0.5775701151384491,
-    "mkt": 0.085,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-T56": {
-    "q": 2.217425850811014e-05,
-    "mkt": 0.09,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-B62.5": {
-    "q": 0.21745480383444482,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-B60.5": {
-    "q": 0.16927384485791913,
-    "mkt": 0.08,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-B58.5": {
-    "q": 0.034279462427462846,
-    "mkt": 0.36,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTNOLA-26OCT24-B56.5": {
-    "q": 0.0013995994832170587,
-    "mkt": 0.33499999999999996,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-T57": {
-    "q": 0.2338616791954617,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-T50": {
-    "q": 0.0052785789821233366,
-    "mkt": 0.245,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-B56.5": {
-    "q": 0.1946079161870535,
-    "mkt": 0.08,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-B54.5": {
-    "q": 0.3075252450085565,
-    "mkt": 0.18,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-B52.5": {
-    "q": 0.20536955821389172,
-    "mkt": 0.235,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTMIN-26OCT24-B50.5": {
-    "q": 0.053357022412914186,
-    "mkt": 0.28,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-T63": {
-    "q": 0.8192214233564228,
-    "mkt": 0.24,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-T56": {
-    "q": 4.5298151473432686e-08,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-B62.5": {
-    "q": 0.16033949701528144,
-    "mkt": 0.56,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-B60.5": {
-    "q": 0.019502745905923345,
-    "mkt": 0.175,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-B58.5": {
-    "q": 0.0009229906346433279,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTHOU-26OCT24-B56.5": {
-    "q": 1.3297789578301248e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-T61": {
-    "q": 0.6429429430229537,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-T54": {
-    "q": 0.0004486139527626151,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-B60.5": {
-    "q": 0.2200402946399324,
-    "mkt": 0.225,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-B58.5": {
-    "q": 0.09775586976378066,
-    "mkt": 0.5449999999999999,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-B56.5": {
-    "q": 0.033025809217461545,
-    "mkt": 0.265,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTDAL-26OCT24-B54.5": {
-    "q": 0.005786469403109393,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-T52": {
-    "q": 0.39163056070784846,
-    "mkt": 0.19999999999999998,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-T45": {
-    "q": 3.7761228976153854e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-B51.5": {
-    "q": 0.2547994791516536,
-    "mkt": 0.49,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-B49.5": {
-    "q": 0.27945782324439034,
-    "mkt": 0.22000000000000003,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-B47.5": {
-    "q": 0.070450553694487,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTCHI-26OCT24-B45.5": {
-    "q": 0.003623821972645111,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-T58": {
-    "q": 0.5097406520424395,
-    "mkt": 0.14,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-T51": {
-    "q": 0.0006595086191161643,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-B57.5": {
-    "q": 0.3112374412238021,
-    "mkt": 0.11,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-B55.5": {
-    "q": 0.13466626852661528,
-    "mkt": 0.165,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-B53.5": {
-    "q": 0.03642915713127774,
-    "mkt": 0.44000000000000006,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTAUS-26OCT24-B51.5": {
-    "q": 0.00726697245675032,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-T91": {
-    "q": 0.00018736126796706847,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-T84": {
-    "q": 0.36035513907084205,
-    "mkt": 0.11499999999999999,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-B90.5": {
-    "q": 0.004374689539431479,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-B88.5": {
-    "q": 0.04739759843768639,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-B86.5": {
-    "q": 0.2179642037928657,
-    "mkt": 0.345,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTSATX-26OCT24-B84.5": {
-    "q": 0.3697210078912079,
-    "mkt": 0.505,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-T84": {
-    "q": 0.0008426489409294636,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-T77": {
-    "q": 0.11770262922088971,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-B83.5": {
-    "q": 0.01697882099564156,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-B81.5": {
-    "q": 0.14665212376063327,
-    "mkt": 0.325,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-B79.5": {
-    "q": 0.3849750794271861,
-    "mkt": 0.585,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTOKC-26OCT24-B77.5": {
-    "q": 0.33284869765472047,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-T83": {
-    "q": 0.04222500852374619,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-T76": {
-    "q": 0.24189467072198365,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-B82.5": {
-    "q": 0.11193214017987531,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-B80.5": {
-    "q": 0.13601249893748268,
-    "mkt": 0.36,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-B78.5": {
-    "q": 0.15499804008442222,
-    "mkt": 0.605,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTNOLA-26OCT24-B76.5": {
-    "q": 0.3129376415524907,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-T79": {
-    "q": 0.0008511719912126363,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-T72": {
-    "q": 0.22932006883740186,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-B78.5": {
-    "q": 0.015115364458548181,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-B76.5": {
-    "q": 0.10640232648793443,
-    "mkt": 0.28500000000000003,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-B74.5": {
-    "q": 0.29366467085953374,
-    "mkt": 0.475,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTMIN-26OCT24-B72.5": {
-    "q": 0.35464639736536996,
-    "mkt": 0.155,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-T90": {
-    "q": 7.658056852697894e-05,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-T83": {
-    "q": 0.23907736800405954,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-B89.5": {
-    "q": 0.001985012693394582,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-B87.5": {
-    "q": 0.033346308875890227,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-B85.5": {
-    "q": 0.2467525613607303,
-    "mkt": 0.635,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTHOU-26OCT24-B83.5": {
-    "q": 0.4787621684973992,
-    "mkt": 0.335,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-T89": {
-    "q": 0.000884415818359017,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-T82": {
-    "q": 0.1135643164375801,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-B88.5": {
-    "q": 0.012404492536761543,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-B86.5": {
-    "q": 0.106828728289135,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-B84.5": {
-    "q": 0.37647850452958553,
-    "mkt": 0.745,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHTDAL-26OCT24-B82.5": {
-    "q": 0.3898395423885794,
-    "mkt": 0.14500000000000002,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-T75": {
-    "q": 0.0011983134294599978,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-T68": {
-    "q": 0.2991650698391775,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-B74.5": {
-    "q": 0.011149137270592609,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-B72.5": {
-    "q": 0.05687682550957245,
-    "mkt": 0.325,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-B70.5": {
-    "q": 0.21430304026792954,
-    "mkt": 0.575,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHCHI-26OCT24-B68.5": {
-    "q": 0.4173076136832684,
-    "mkt": 0.08,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-T92": {
-    "q": 0.004291737608254801,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-T85": {
-    "q": 0.08401164740294607,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-B91.5": {
-    "q": 0.04198558207011139,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-B89.5": {
-    "q": 0.19524411845264858,
-    "mkt": 0.095,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-B87.5": {
-    "q": 0.38693155859482226,
-    "mkt": 0.8,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXHIGHAUS-26OCT24-B85.5": {
-    "q": 0.2875353558712177,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1792908000.0
-   },
-   "KXLOWTTTN-26OCT24-T35": {
-    "q": 0.90873682903002,
-    "mkt": 0.275,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTTTN-26OCT24-T28": {
-    "q": 4.651311110042376e-06,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTTTN-26OCT24-B34.5": {
-    "q": 0.06727859245668713,
-    "mkt": 0.395,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTTTN-26OCT24-B32.5": {
-    "q": 0.020611106280944206,
-    "mkt": 0.35,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTTTN-26OCT24-B30.5": {
-    "q": 0.003174286075156672,
-    "mkt": 0.055,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTTTN-26OCT24-B28.5": {
-    "q": 0.00019453484608311246,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-T47": {
-    "q": 0.6796711914511796,
-    "mkt": 0.295,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-T40": {
-    "q": 0.0001959359797790062,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-B46.5": {
-    "q": 0.22752173164827197,
-    "mkt": 0.5700000000000001,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-B44.5": {
-    "q": 0.06904857968277961,
-    "mkt": 0.14,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-B42.5": {
-    "q": 0.020425391568976558,
-    "mkt": 0.06999999999999999,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTSDF-26OCT24-B40.5": {
-    "q": 0.003137169669014419,
-    "mkt": 0.05,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-T38": {
-    "q": 0.9182235877085632,
-    "mkt": 0.9199999999999999,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-T31": {
-    "q": 2.556380647635382e-09,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-B37.5": {
-    "q": 0.07634247650177722,
-    "mkt": 0.055,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-B35.5": {
-    "q": 0.005349166800574017,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-B33.5": {
-    "q": 8.422475270425404e-05,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTPHIL-26OCT24-B31.5": {
-    "q": 5.416800016764087e-07,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-T46": {
-    "q": 0.31593276603294485,
-    "mkt": 0.055,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-T39": {
-    "q": 0.015528668947219477,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-B45.5": {
-    "q": 0.05970567469376555,
-    "mkt": 0.155,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-B43.5": {
-    "q": 0.16948410827871868,
-    "mkt": 0.5800000000000001,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-B41.5": {
-    "q": 0.2995246555088763,
-    "mkt": 0.11,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTNYC-26OCT24-B39.5": {
-    "q": 0.13982412653847595,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-T73": {
-    "q": 0.26463536365288803,
-    "mkt": 0.03,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-T66": {
-    "q": 0.007269528200396611,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-B72.5": {
-    "q": 0.15019952492797206,
-    "mkt": 0.19,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-B70.5": {
-    "q": 0.27904940613796436,
-    "mkt": 0.46,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-B68.5": {
-    "q": 0.22818612560493365,
-    "mkt": 0.255,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTMIA-26OCT24-B66.5": {
-    "q": 0.07066005147584656,
-    "mkt": 0.035,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-T41": {
-    "q": 0.774580728678654,
-    "mkt": 0.35,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-T34": {
-    "q": 2.391602818361959e-07,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-B40.5": {
-    "q": 0.19492826453817813,
-    "mkt": 0.46,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-B38.5": {
-    "q": 0.029224851840823525,
-    "mkt": 0.19,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-B36.5": {
-    "q": 0.00124391507985202,
-    "mkt": 0.06,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTEWR-26OCT24-B34.5": {
-    "q": 2.2000702211364468e-05,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-T45": {
-    "q": 0.3193226581971266,
-    "mkt": 0.065,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-T38": {
-    "q": 5.510088385688804e-05,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-B44.5": {
-    "q": 0.3573967830443262,
-    "mkt": 0.385,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-B42.5": {
-    "q": 0.26946869459465456,
-    "mkt": 0.41000000000000003,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-B40.5": {
-    "q": 0.051359720871605556,
-    "mkt": 0.16,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTDC-26OCT24-B38.5": {
-    "q": 0.002397042408430744,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792904400.0
    },
    "KXLOWTBOS-26OCT24-T38": {
     "q": 0.8701176459297585,
@@ -8383,186 +7153,6 @@
     "kind": "low",
     "close_ts": 1792904400.0
    },
-   "KXLOWTATL-26OCT24-T51": {
-    "q": 0.3598997526307164,
-    "mkt": 0.155,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTATL-26OCT24-T44": {
-    "q": 5.3330730960083293e-05,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTATL-26OCT24-B50.5": {
-    "q": 0.27783003073166157,
-    "mkt": 0.41500000000000004,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTATL-26OCT24-B48.5": {
-    "q": 0.2928588302601226,
-    "mkt": 0.32999999999999996,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTATL-26OCT24-B46.5": {
-    "q": 0.06623607510347347,
-    "mkt": 0.09,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXLOWTATL-26OCT24-B44.5": {
-    "q": 0.0031219805430669524,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-T67": {
-    "q": 0.0031949699280090565,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-T60": {
-    "q": 0.10691165825576418,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-B66.5": {
-    "q": 0.03485565639302168,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-B64.5": {
-    "q": 0.13833799905082567,
-    "mkt": 0.195,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-B62.5": {
-    "q": 0.3467831239101627,
-    "mkt": 0.775,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTTTN-26OCT24-B60.5": {
-    "q": 0.3699165924622176,
-    "mkt": 0.02,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-T79": {
-    "q": 0.0004908199718341505,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-T72": {
-    "q": 0.23841986597439735,
-    "mkt": 0.03,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-B78.5": {
-    "q": 0.013122461906803861,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-B76.5": {
-    "q": 0.086137247694354,
-    "mkt": 0.22,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-B74.5": {
-    "q": 0.25732177187332034,
-    "mkt": 0.6799999999999999,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTSDF-26OCT24-B72.5": {
-    "q": 0.4045078325792912,
-    "mkt": 0.10500000000000001,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-T67": {
-    "q": 0.012582955261562202,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-T60": {
-    "q": 0.053685414818771274,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-B66.5": {
-    "q": 0.08127095731955898,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-B64.5": {
-    "q": 0.21006437278974824,
-    "mkt": 0.7150000000000001,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-B62.5": {
-    "q": 0.3689002843456771,
-    "mkt": 0.195,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTEWR-26OCT24-B60.5": {
-    "q": 0.27349601546468294,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-T69": {
-    "q": 0.0002721233233941435,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-T62": {
-    "q": 0.27170172377670837,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-B68.5": {
-    "q": 0.004247039562695139,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-B66.5": {
-    "q": 0.03857127217048277,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-B64.5": {
-    "q": 0.22309811619825762,
-    "mkt": 0.675,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTDC-26OCT24-B62.5": {
-    "q": 0.4621097249684631,
-    "mkt": 0.235,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
    "KXHIGHTBOS-26OCT24-T64": {
     "q": 0.004669336920663338,
     "mkt": 0.005,
@@ -8596,150 +7186,6 @@
    "KXHIGHTBOS-26OCT24-B57.5": {
     "q": 0.37478183577607344,
     "mkt": 0.385,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-T74": {
-    "q": 0.014483545325182881,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-T67": {
-    "q": 0.13285820453729075,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-B73.5": {
-    "q": 0.056127125858700576,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-B71.5": {
-    "q": 0.1298189209015804,
-    "mkt": 0.56,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-B69.5": {
-    "q": 0.302903597973877,
-    "mkt": 0.38,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHTATL-26OCT24-B67.5": {
-    "q": 0.3638086054033693,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-T68": {
-    "q": 0.016327851774499694,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-T61": {
-    "q": 0.026692433963448815,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-B67.5": {
-    "q": 0.09405160220682163,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-B65.5": {
-    "q": 0.2644082126050333,
-    "mkt": 0.37,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-B63.5": {
-    "q": 0.411512806357443,
-    "mkt": 0.565,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHPHIL-26OCT24-B61.5": {
-    "q": 0.1870070930927548,
-    "mkt": 0.07500000000000001,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-T66": {
-    "q": 0.00014984418322395142,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-T59": {
-    "q": 0.34285477056464636,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-B65.5": {
-    "q": 0.007194269174599982,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-B63.5": {
-    "q": 0.06874572178352054,
-    "mkt": 0.125,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-B61.5": {
-    "q": 0.20951481259479693,
-    "mkt": 0.605,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHNY-26OCT24-B59.5": {
-    "q": 0.37154058169921317,
-    "mkt": 0.255,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-T87": {
-    "q": 0.002266256654185829,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-T80": {
-    "q": 0.05354880727022154,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-B86.5": {
-    "q": 0.028409671443149195,
-    "mkt": 0.060000000000000005,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-B84.5": {
-    "q": 0.1954033946978559,
-    "mkt": 0.555,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-B82.5": {
-    "q": 0.44979050377737295,
-    "mkt": 0.315,
-    "kind": "high",
-    "close_ts": 1792904400.0
-   },
-   "KXHIGHMIA-26OCT24-B80.5": {
-    "q": 0.27058136615721523,
-    "mkt": 0.025,
     "kind": "high",
     "close_ts": 1792904400.0
    },
@@ -10474,2886 +8920,212 @@
   },
   "totals": {
    "all": {
-    "n": 1146,
-    "model": 164.91747667090212,
-    "market": 109.87807500000001
+    "n": 1416,
+    "model": 202.1875672318982,
+    "market": 133.0841249999999
    },
    "low": {
-    "n": 576,
-    "model": 88.09145071408305,
-    "market": 62.10635000000003
+    "n": 714,
+    "model": 110.96475504084137,
+    "market": 74.30172499999989
    },
    "high": {
-    "n": 570,
-    "model": 76.82602595681936,
-    "market": 47.7717250000001
+    "n": 702,
+    "model": 91.22281219105695,
+    "market": 58.78240000000015
    }
   }
  },
  "last_run": {
-  "ts": 1792901726,
+  "ts": 1793023122,
   "error": null,
   "errors": [],
-  "fills": [],
-  "settled": [],
+  "fills": [
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 1.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 1.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 4.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 1.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 1.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT25-B49.5",
+    "side": "no",
+    "qty": 3.0,
+    "price": 0.9,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXHIGHTNOLA-26OCT25-B77.5",
+    "side": "no",
+    "qty": 1.0,
+    "price": 0.31,
+    "strategy": "edge"
+   }
+  ],
+  "settled": [
+   {
+    "ticker": "KXLOWTSATX-26OCT24-T63",
+    "pnl": -0.75
+   },
+   {
+    "ticker": "KXHIGHTSATX-26OCT24-T84",
+    "pnl": -0.09
+   },
+   {
+    "ticker": "KXLOWTNOLA-26OCT24-B56.5",
+    "pnl": 1.43
+   },
+   {
+    "ticker": "KXHIGHCHI-26OCT24-B68.5",
+    "pnl": -0.09
+   },
+   {
+    "ticker": "KXLOWTAUS-26OCT24-B51.5",
+    "pnl": 0.63
+   },
+   {
+    "ticker": "KXLOWTMIN-26OCT24-T50",
+    "pnl": 1.4
+   },
+   {
+    "ticker": "KXHIGHTEWR-26OCT24-B60.5",
+    "pnl": -0.08
+   },
+   {
+    "ticker": "KXLOWTTTN-26OCT24-T35",
+    "pnl": -0.18
+   },
+   {
+    "ticker": "KXHIGHTPHX-26OCT24-B77.5",
+    "pnl": 0.046
+   },
+   {
+    "ticker": "KXLOWTTTN-26OCT24-B32.5",
+    "pnl": -9.02
+   },
+   {
+    "ticker": "KXLOWTSFO-26OCT24-B52.5",
+    "pnl": 0.59
+   },
+   {
+    "ticker": "KXHIGHAUS-26OCT24-B85.5",
+    "pnl": -0.13
+   },
+   {
+    "ticker": "KXHIGHAUS-26OCT24-B87.5",
+    "pnl": -0.63
+   },
+   {
+    "ticker": "KXLOWTSEA-26OCT24-T41",
+    "pnl": -0.14
+   },
+   {
+    "ticker": "KXLOWTSATX-26OCT24-B58.5",
+    "pnl": 0.15
+   },
+   {
+    "ticker": "KXLOWTHOU-26OCT24-T63",
+    "pnl": -0.38
+   },
+   {
+    "ticker": "KXLOWTAUS-26OCT24-T58",
+    "pnl": -0.1
+   },
+   {
+    "ticker": "KXLOWTOKC-26OCT24-T51",
+    "pnl": 1.2
+   },
+   {
+    "ticker": "KXLOWTEWR-26OCT24-T41",
+    "pnl": -0.1
+   },
+   {
+    "ticker": "KXLOWTLV-26OCT24-B54.5",
+    "pnl": 0.56
+   },
+   {
+    "ticker": "KXHIGHNY-26OCT24-B63.5",
+    "pnl": 0.68
+   },
+   {
+    "ticker": "KXLOWTDEN-26OCT25-T42",
+    "pnl": -0.72
+   },
+   {
+    "ticker": "KXHIGHDEN-26OCT25-T56",
+    "pnl": 0.55
+   },
+   {
+    "ticker": "KXHIGHNY-26OCT25-B68.5",
+    "pnl": 0.5
+   },
+   {
+    "ticker": "KXHIGHDEN-26OCT25-B56.5",
+    "pnl": 0.17
+   },
+   {
+    "ticker": "KXHIGHTDC-26OCT25-T66",
+    "pnl": -0.1
+   },
+   {
+    "ticker": "KXLOWTNOLA-26OCT25-T60",
+    "pnl": 0.7
+   },
+   {
+    "ticker": "KXHIGHTTTN-26OCT25-B66.5",
+    "pnl": -0.16
+   },
+   {
+    "ticker": "KXHIGHTNOLA-26OCT25-B77.5",
+    "pnl": -0.31
+   }
+  ],
   "cancelled": [
    {
-    "ticker": "KXLOWTOKC-26OCT25-T59",
-    "reason": "reprice 0.93->0.87"
+    "ticker": "KXLOWTSAN-26OCT25-B55.5",
+    "reason": "market closing"
    },
-   {
-    "ticker": "KXLOWTSATX-26OCT25-T65",
-    "reason": "reprice 0.68->0.43"
-   }
-  ],
-  "placed": [
    {
     "ticker": "KXLOWTOKC-26OCT25-T59",
-    "side": "no",
-    "price": 0.87,
-    "contracts": 12,
-    "strategy": "longshot"
+    "reason": "market closing"
    }
   ],
-  "markets": 288,
-  "events": [
-   {
-    "event": "KXLOWTSFO-26OCT25",
-    "code": "SFO",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 57.0,
-     "p10": 54.8,
-     "p90": 59.8
-    },
-    "nbm": 52.2,
-    "observed": null,
-    "bias": 2.64,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Francisco, San Francisco International Airport",
-    "rows": [
-     {
-      "label": "\u226446\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "47\u201348\u00b0",
-      "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.03
-     },
-     {
-      "label": "49\u201350\u00b0",
-      "q": 0.002,
-      "bid": 0.03,
-      "ask": 0.11
-     },
-     {
-      "label": "51\u201352\u00b0",
-      "q": 0.02,
-      "bid": 0.44,
-      "ask": 0.53
-     },
-     {
-      "label": "53\u201354\u00b0",
-      "q": 0.116,
-      "bid": 0.29,
-      "ask": 0.41
-     },
-     {
-      "label": "\u226555\u00b0",
-      "q": 0.862,
-      "bid": 0.03,
-      "ask": 0.04
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTSEA-26OCT25",
-    "code": "SEA",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 46.9,
-     "p10": 45.6,
-     "p90": 48.2
-    },
-    "nbm": 45.5,
-    "observed": null,
-    "bias": 1.36,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Seattle, Seattle-Tacoma International Airport",
-    "rows": [
-     {
-      "label": "\u226436\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "37\u201338\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "39\u201340\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "41\u201342\u00b0",
-      "q": 0.007,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "43\u201344\u00b0",
-      "q": 0.079,
-      "bid": 0.24,
-      "ask": 0.4
-     },
-     {
-      "label": "\u226545\u00b0",
-      "q": 0.914,
-      "bid": 0.6,
-      "ask": 0.78
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTSAN-26OCT25",
-    "code": "SAN",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 62.6,
-     "p10": 59.5,
-     "p90": 67.7
-    },
-    "nbm": 61.1,
-    "observed": null,
-    "bias": 0.49,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Diego International Airport",
-    "rows": [
-     {
-      "label": "\u226454\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.1
-     },
-     {
-      "label": "55\u201356\u00b0",
-      "q": 0.007,
-      "bid": 0.02,
-      "ask": 0.14
-     },
-     {
-      "label": "57\u201358\u00b0",
-      "q": 0.079,
-      "bid": 0.17,
-      "ask": 0.3
-     },
-     {
-      "label": "59\u201360\u00b0",
-      "q": 0.274,
-      "bid": 0.42,
-      "ask": 0.58
-     },
-     {
-      "label": "61\u201362\u00b0",
-      "q": 0.255,
-      "bid": 0.07,
-      "ask": 0.23
-     },
-     {
-      "label": "\u226563\u00b0",
-      "q": 0.385,
-      "bid": 0.03,
-      "ask": 0.12
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTLV-26OCT25",
-    "code": "LAS",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 58.6,
-     "p10": 56.6,
-     "p90": 61.3
-    },
-    "nbm": 58.4,
-    "observed": null,
-    "bias": 0.81,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Harry Reid International Airport",
-    "rows": [
-     {
-      "label": "\u226449\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "50\u201351\u00b0",
-      "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "52\u201353\u00b0",
-      "q": 0.003,
-      "bid": 0.02,
-      "ask": 0.04
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.071,
-      "bid": 0.1,
-      "ask": 0.13
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.285,
-      "bid": 0.56,
-      "ask": 0.67
-     },
-     {
-      "label": "\u226558\u00b0",
-      "q": 0.641,
-      "bid": 0.15,
-      "ask": 0.27
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTLAX-26OCT25",
-    "code": "LAX",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 63.8,
-     "p10": 60.3,
-     "p90": 70.5
-    },
-    "nbm": 59.3,
-    "observed": null,
-    "bias": 2.29,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Los Angeles, Los Angeles International Airport",
-    "rows": [
-     {
-      "label": "\u226453\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.008,
-      "bid": 0.04,
-      "ask": 0.07
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.11,
-      "bid": 0.26,
-      "ask": 0.35
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.324,
-      "bid": 0.43,
-      "ask": 0.53
-     },
-     {
-      "label": "\u226562\u00b0",
-      "q": 0.557,
-      "bid": 0.09,
-      "ask": 0.23
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTSFO-26OCT25",
-    "code": "SFO",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 67.6,
-     "p10": 65.8,
-     "p90": 70.4
-    },
-    "nbm": 68.1,
-    "observed": null,
-    "bias": -2.35,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Francisco, San Francisco International Airport",
-    "rows": [
-     {
-      "label": "\u226466\u00b0",
-      "q": 0.338,
-      "bid": 0.05,
-      "ask": 0.06
-     },
-     {
-      "label": "67\u201368\u00b0",
-      "q": 0.316,
-      "bid": 0.11,
-      "ask": 0.13
-     },
-     {
-      "label": "69\u201370\u00b0",
-      "q": 0.228,
-      "bid": 0.35,
-      "ask": 0.38
-     },
-     {
-      "label": "71\u201372\u00b0",
-      "q": 0.106,
-      "bid": 0.35,
-      "ask": 0.36
-     },
-     {
-      "label": "73\u201374\u00b0",
-      "q": 0.012,
-      "bid": 0.04,
-      "ask": 0.05
-     },
-     {
-      "label": "\u226575\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTSEA-26OCT25",
-    "code": "SEA",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 52.5,
-     "p10": 49.4,
-     "p90": 56.0
-    },
-    "nbm": 53.3,
-    "observed": null,
-    "bias": 0.54,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Seattle, Seattle-Tacoma International Airport",
-    "rows": [
-     {
-      "label": "\u226453\u00b0",
-      "q": 0.642,
-      "bid": 0.51,
-      "ask": 0.52
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.193,
-      "bid": 0.28,
-      "ask": 0.31
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.105,
-      "bid": 0.08,
-      "ask": 0.12
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.045,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.013,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226562\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTSAN-26OCT25",
-    "code": "SAN",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 80.1,
-     "p10": 76.6,
-     "p90": 84.1
-    },
-    "nbm": 78.2,
-    "observed": null,
-    "bias": -0.24,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Diego International Airport",
-    "rows": [
-     {
-      "label": "\u226476\u00b0",
-      "q": 0.17,
-      "bid": 0.09,
-      "ask": 0.18
-     },
-     {
-      "label": "77\u201378\u00b0",
-      "q": 0.205,
-      "bid": 0.63,
-      "ask": 0.64
-     },
-     {
-      "label": "79\u201380\u00b0",
-      "q": 0.144,
-      "bid": 0.14,
-      "ask": 0.28
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.185,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.2,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226585\u00b0",
-      "q": 0.096,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTLV-26OCT25",
-    "code": "LAS",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 73.1,
-     "p10": 72.0,
-     "p90": 74.5
-    },
-    "nbm": 73.7,
-    "observed": null,
-    "bias": 0.79,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Harry Reid International Airport",
-    "rows": [
-     {
-      "label": "\u226472\u00b0",
-      "q": 0.343,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "73\u201374\u00b0",
-      "q": 0.448,
-      "bid": 0.25,
-      "ask": 0.27
-     },
-     {
-      "label": "75\u201376\u00b0",
-      "q": 0.178,
-      "bid": 0.69,
-      "ask": 0.7
-     },
-     {
-      "label": "77\u201378\u00b0",
-      "q": 0.028,
-      "bid": 0.04,
-      "ask": 0.05
-     },
-     {
-      "label": "79\u201380\u00b0",
-      "q": 0.003,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226581\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHLAX-26OCT25",
-    "code": "LAX",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 77.7,
-     "p10": 75.9,
-     "p90": 79.6
-    },
-    "nbm": 75.1,
-    "observed": null,
-    "bias": 0.66,
-    "bias_src": "history 28d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Los Angeles, Los Angeles International Airport",
-    "rows": [
-     {
-      "label": "\u226473\u00b0",
-      "q": 0.024,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "74\u201375\u00b0",
-      "q": 0.123,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "76\u201377\u00b0",
-      "q": 0.314,
-      "bid": 0.31,
-      "ask": 0.32
-     },
-     {
-      "label": "78\u201379\u00b0",
-      "q": 0.349,
-      "bid": 0.58,
-      "ask": 0.59
-     },
-     {
-      "label": "80\u201381\u00b0",
-      "q": 0.166,
-      "bid": 0.09,
-      "ask": 0.1
-     },
-     {
-      "label": "\u226582\u00b0",
-      "q": 0.024,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTPHX-26OCT25",
-    "code": "PHX",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 61.6,
-     "p10": 57.3,
-     "p90": 69.0
-    },
-    "nbm": 59.6,
-    "observed": null,
-    "bias": 0.51,
-    "bias_src": "history 27d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Phoenix, Phoenix Sky Harbor International Airport",
-    "rows": [
-     {
-      "label": "\u226451\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "52\u201353\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.03,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.188,
-      "bid": 0.02,
-      "ask": 0.06
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.285,
-      "bid": 0.22,
-      "ask": 0.3
-     },
-     {
-      "label": "\u226560\u00b0",
-      "q": 0.496,
-      "bid": 0.67,
-      "ask": 0.71
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTDEN-26OCT25",
-    "code": "DEN",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 44.1,
-     "p10": 42.3,
-     "p90": 45.5
-    },
-    "nbm": 43.3,
-    "observed": null,
-    "bias": 1.44,
-    "bias_src": "own 5d",
-    "kernel_sd": 2.69,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Denver, Denver International Airport",
-    "rows": [
-     {
-      "label": "\u226434\u00b0",
-      "q": 0.001,
-      "bid": 0.01,
-      "ask": 0.03
-     },
-     {
-      "label": "35\u201336\u00b0",
-      "q": 0.005,
-      "bid": 0.02,
-      "ask": 0.1
-     },
-     {
-      "label": "37\u201338\u00b0",
-      "q": 0.024,
-      "bid": 0.16,
-      "ask": 0.27
-     },
-     {
-      "label": "39\u201340\u00b0",
-      "q": 0.077,
-      "bid": 0.31,
-      "ask": 0.42
-     },
-     {
-      "label": "41\u201342\u00b0",
-      "q": 0.173,
-      "bid": 0.17,
-      "ask": 0.29
-     },
-     {
-      "label": "\u226543\u00b0",
-      "q": 0.719,
-      "bid": 0.02,
-      "ask": 0.03
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTPHX-26OCT25",
-    "code": "PHX",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 81.0,
-     "p10": 79.0,
-     "p90": 82.4
-    },
-    "nbm": 80.9,
-    "observed": null,
-    "bias": 1.54,
-    "bias_src": "history 27d",
-    "kernel_sd": 1.3,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Phoenix, Phoenix Sky Harbor International Airport",
-    "rows": [
-     {
-      "label": "\u226477\u00b0",
-      "q": 0.031,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "78\u201379\u00b0",
-      "q": 0.206,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "80\u201381\u00b0",
-      "q": 0.383,
-      "bid": 0.13,
-      "ask": 0.14
-     },
-     {
-      "label": "82\u201383\u00b0",
-      "q": 0.279,
-      "bid": 0.69,
-      "ask": 0.7
-     },
-     {
-      "label": "84\u201385\u00b0",
-      "q": 0.088,
-      "bid": 0.15,
-      "ask": 0.16
-     },
-     {
-      "label": "\u226586\u00b0",
-      "q": 0.013,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHDEN-26OCT25",
-    "code": "DEN",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 62.4,
-     "p10": 59.2,
-     "p90": 66.2
-    },
-    "nbm": 60.6,
-    "observed": null,
-    "bias": 0.73,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Denver, Denver International Airport",
-    "rows": [
-     {
-      "label": "\u226455\u00b0",
-      "q": 0.022,
-      "bid": 0.19,
-      "ask": 0.21
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.042,
-      "bid": 0.2,
-      "ask": 0.23
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.09,
-      "bid": 0.29,
-      "ask": 0.3
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.23,
-      "bid": 0.14,
-      "ask": 0.16
-     },
-     {
-      "label": "62\u201363\u00b0",
-      "q": 0.263,
-      "bid": 0.05,
-      "ask": 0.06
-     },
-     {
-      "label": "\u226564\u00b0",
-      "q": 0.353,
-      "bid": 0.05,
-      "ask": 0.06
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTSATX-26OCT25",
-    "code": "SAT",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 59.9,
-     "p10": 58.2,
-     "p90": 61.2
-    },
-    "nbm": 62.8,
-    "observed": null,
-    "bias": -4.76,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Antonio, San Antonio International Airport",
-    "rows": [
-     {
-      "label": "\u226457\u00b0",
-      "q": 0.075,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.283,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.485,
-      "bid": 0.03,
-      "ask": 0.13
-     },
-     {
-      "label": "62\u201363\u00b0",
-      "q": 0.154,
-      "bid": 0.21,
-      "ask": 0.39
-     },
-     {
-      "label": "64\u201365\u00b0",
-      "q": 0.004,
-      "bid": 0.34,
-      "ask": 0.52
-     },
-     {
-      "label": "\u226566\u00b0",
-      "q": 0.0,
-      "bid": 0.09,
-      "ask": 0.58
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTOKC-26OCT25",
-    "code": "OKC",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 54.2,
-     "p10": 51.8,
-     "p90": 56.5
-    },
-    "nbm": 58.1,
-    "observed": null,
-    "bias": -6.79,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Oklahoma City, Will Rogers World Airport",
-    "rows": [
-     {
-      "label": "\u226451\u00b0",
-      "q": 0.111,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "52\u201353\u00b0",
-      "q": 0.254,
-      "bid": 0.04,
-      "ask": 0.19
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.319,
-      "bid": 0.29,
-      "ask": 0.39
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.271,
-      "bid": 0.29,
-      "ask": 0.43
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.044,
-      "bid": 0.04,
-      "ask": 0.21
-     },
-     {
-      "label": "\u226560\u00b0",
-      "q": 0.001,
-      "bid": 0.02,
-      "ask": 0.14
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTNOLA-26OCT25",
-    "code": "MSY",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 57.2,
-     "p10": 55.8,
-     "p90": 58.2
-    },
-    "nbm": 61.1,
-    "observed": null,
-    "bias": -4.77,
-    "bias_src": "own 5d",
-    "kernel_sd": 3.0,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "New Orleans, New Orleans International Airport",
-    "rows": [
-     {
-      "label": "\u226452\u00b0",
-      "q": 0.058,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "53\u201354\u00b0",
-      "q": 0.124,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "55\u201356\u00b0",
-      "q": 0.229,
-      "bid": 0.03,
-      "ask": 0.17
-     },
-     {
-      "label": "57\u201358\u00b0",
-      "q": 0.259,
-      "bid": 0.4,
-      "ask": 0.56
-     },
-     {
-      "label": "59\u201360\u00b0",
-      "q": 0.189,
-      "bid": 0.14,
-      "ask": 0.3
-     },
-     {
-      "label": "\u226561\u00b0",
-      "q": 0.141,
-      "bid": 0.08,
-      "ask": 0.25
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTMIN-26OCT25",
-    "code": "MSP",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 48.0,
-     "p10": 46.1,
-     "p90": 50.5
-    },
-    "nbm": 47.5,
-    "observed": null,
-    "bias": -1.06,
-    "bias_src": "own 5d",
-    "kernel_sd": 1.76,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Minneapolis, Minneapolis-St. Paul International Airport",
-    "rows": [
-     {
-      "label": "\u226441\u00b0",
-      "q": 0.003,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.031,
-      "bid": 0.01,
-      "ask": 0.09
-     },
-     {
-      "label": "44\u201345\u00b0",
-      "q": 0.14,
-      "bid": 0.16,
-      "ask": 0.26
-     },
-     {
-      "label": "46\u201347\u00b0",
-      "q": 0.275,
-      "bid": 0.29,
-      "ask": 0.45
-     },
-     {
-      "label": "48\u201349\u00b0",
-      "q": 0.277,
-      "bid": 0.24,
-      "ask": 0.35
-     },
-     {
-      "label": "\u226550\u00b0",
-      "q": 0.274,
-      "bid": 0.06,
-      "ask": 0.24
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTHOU-26OCT25",
-    "code": "HOU",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 64.7,
-     "p10": 63.1,
-     "p90": 66.7
-    },
-    "nbm": 67.4,
-    "observed": null,
-    "bias": -3.02,
-    "bias_src": "own 5d",
-    "kernel_sd": 2.54,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Houston, Houston Hobby Airport",
-    "rows": [
-     {
-      "label": "\u226458\u00b0",
-      "q": 0.015,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "59\u201360\u00b0",
-      "q": 0.054,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "61\u201362\u00b0",
-      "q": 0.151,
-      "bid": 0.11,
-      "ask": 0.29
-     },
-     {
-      "label": "63\u201364\u00b0",
-      "q": 0.26,
-      "bid": 0.39,
-      "ask": 0.55
-     },
-     {
-      "label": "65\u201366\u00b0",
-      "q": 0.266,
-      "bid": 0.19,
-      "ask": 0.35
-     },
-     {
-      "label": "\u226567\u00b0",
-      "q": 0.253,
-      "bid": 0.02,
-      "ask": 0.03
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTDAL-26OCT25",
-    "code": "DFW",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 58.9,
-     "p10": 56.0,
-     "p90": 63.1
-    },
-    "nbm": 61.7,
-    "observed": null,
-    "bias": -6.28,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Dallas/Fort Worth International Airport",
-    "rows": [
-     {
-      "label": "\u226455\u00b0",
-      "q": 0.104,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.276,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.288,
-      "bid": 0.05,
-      "ask": 0.1
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.058,
-      "bid": 0.45,
-      "ask": 0.56
-     },
-     {
-      "label": "62\u201363\u00b0",
-      "q": 0.189,
-      "bid": 0.3,
-      "ask": 0.42
-     },
-     {
-      "label": "\u226564\u00b0",
-      "q": 0.085,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTCHI-26OCT25",
-    "code": "MDW",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 50.9,
-     "p10": 47.1,
-     "p90": 56.2
-    },
-    "nbm": 51.9,
-    "observed": null,
-    "bias": -1.01,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Chicago, Chicago Midway Airport",
-    "rows": [
-     {
-      "label": "\u226445\u00b0",
-      "q": 0.015,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "46\u201347\u00b0",
-      "q": 0.165,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "48\u201349\u00b0",
-      "q": 0.324,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "50\u201351\u00b0",
-      "q": 0.137,
-      "bid": 0.24,
-      "ask": 0.34
-     },
-     {
-      "label": "52\u201353\u00b0",
-      "q": 0.047,
-      "bid": 0.52,
-      "ask": 0.66
-     },
-     {
-      "label": "\u226554\u00b0",
-      "q": 0.312,
-      "bid": 0.05,
-      "ask": 0.13
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTAUS-26OCT25",
-    "code": "AUS",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 53.7,
-     "p10": 52.3,
-     "p90": 55.3
-    },
-    "nbm": 60.9,
-    "observed": null,
-    "bias": -10.08,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Austin-Bergstrom International Airport",
-    "rows": [
-     {
-      "label": "\u226454\u00b0",
-      "q": 0.647,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "55\u201356\u00b0",
-      "q": 0.323,
-      "bid": 0.02,
-      "ask": 0.07
-     },
-     {
-      "label": "57\u201358\u00b0",
-      "q": 0.03,
-      "bid": 0.25,
-      "ask": 0.33
-     },
-     {
-      "label": "59\u201360\u00b0",
-      "q": 0.0,
-      "bid": 0.35,
-      "ask": 0.47
-     },
-     {
-      "label": "61\u201362\u00b0",
-      "q": 0.0,
-      "bid": 0.09,
-      "ask": 0.22
-     },
-     {
-      "label": "\u226563\u00b0",
-      "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.05
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTSATX-26OCT25",
-    "code": "SAT",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 81.5,
-     "p10": 79.8,
-     "p90": 83.3
-    },
-    "nbm": 81.7,
-    "observed": null,
-    "bias": 1.26,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "San Antonio, San Antonio International Airport",
-    "rows": [
-     {
-      "label": "\u226480\u00b0",
-      "q": 0.289,
-      "bid": 0.28,
-      "ask": 0.29
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.42,
-      "bid": 0.63,
-      "ask": 0.64
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.235,
-      "bid": 0.1,
-      "ask": 0.11
-     },
-     {
-      "label": "85\u201386\u00b0",
-      "q": 0.05,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "87\u201388\u00b0",
-      "q": 0.006,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226589\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTOKC-26OCT25",
-    "code": "OKC",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 79.7,
-     "p10": 77.9,
-     "p90": 81.5
-    },
-    "nbm": 78.1,
-    "observed": null,
-    "bias": 2.69,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Oklahoma City, Will Rogers World Airport",
-    "rows": [
-     {
-      "label": "\u226475\u00b0",
-      "q": 0.023,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "76\u201377\u00b0",
-      "q": 0.098,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "78\u201379\u00b0",
-      "q": 0.344,
-      "bid": 0.59,
-      "ask": 0.6
-     },
-     {
-      "label": "80\u201381\u00b0",
-      "q": 0.369,
-      "bid": 0.41,
-      "ask": 0.42
-     },
-     {
-      "label": "82\u201383\u00b0",
-      "q": 0.147,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226584\u00b0",
-      "q": 0.019,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTNOLA-26OCT25",
-    "code": "MSY",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 77.3,
-     "p10": 75.0,
-     "p90": 81.0
-    },
-    "nbm": 76.9,
-    "observed": null,
-    "bias": 1.76,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "New Orleans, New Orleans International Airport",
-    "rows": [
-     {
-      "label": "\u226474\u00b0",
-      "q": 0.104,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "75\u201376\u00b0",
-      "q": 0.396,
-      "bid": 0.07,
-      "ask": 0.08
-     },
-     {
-      "label": "77\u201378\u00b0",
-      "q": 0.198,
-      "bid": 0.68,
-      "ask": 0.69
-     },
-     {
-      "label": "79\u201380\u00b0",
-      "q": 0.149,
-      "bid": 0.13,
-      "ask": 0.2
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.111,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226583\u00b0",
-      "q": 0.041,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTMIN-26OCT25",
-    "code": "MSP",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 60.0,
-     "p10": 57.9,
-     "p90": 63.2
-    },
-    "nbm": 54.9,
-    "observed": null,
-    "bias": 3.07,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Minneapolis, Minneapolis-St. Paul International Airport",
-    "rows": [
-     {
-      "label": "\u226451\u00b0",
-      "q": 0.0,
-      "bid": 0.06,
-      "ask": 0.07
-     },
-     {
-      "label": "52\u201353\u00b0",
-      "q": 0.003,
-      "bid": 0.15,
-      "ask": 0.16
-     },
-     {
-      "label": "54\u201355\u00b0",
-      "q": 0.031,
-      "bid": 0.34,
-      "ask": 0.35
-     },
-     {
-      "label": "56\u201357\u00b0",
-      "q": 0.134,
-      "bid": 0.26,
-      "ask": 0.27
-     },
-     {
-      "label": "58\u201359\u00b0",
-      "q": 0.258,
-      "bid": 0.07,
-      "ask": 0.08
-     },
-     {
-      "label": "\u226560\u00b0",
-      "q": 0.573,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTHOU-26OCT25",
-    "code": "HOU",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 81.0,
-     "p10": 79.8,
-     "p90": 82.1
-    },
-    "nbm": 80.9,
-    "observed": null,
-    "bias": 0.24,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Houston, Houston Hobby Airport",
-    "rows": [
-     {
-      "label": "\u226478\u00b0",
-      "q": 0.067,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "79\u201380\u00b0",
-      "q": 0.274,
-      "bid": 0.07,
-      "ask": 0.08
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.518,
-      "bid": 0.68,
-      "ask": 0.69
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.132,
-      "bid": 0.2,
-      "ask": 0.21
-     },
-     {
-      "label": "85\u201386\u00b0",
-      "q": 0.008,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226587\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTDAL-26OCT25",
-    "code": "DFW",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 80.5,
-     "p10": 78.5,
-     "p90": 81.9
-    },
-    "nbm": 80.9,
-    "observed": null,
-    "bias": 1.0,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Dallas/Fort Worth International Airport",
-    "rows": [
-     {
-      "label": "\u226478\u00b0",
-      "q": 0.124,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "79\u201380\u00b0",
-      "q": 0.389,
-      "bid": 0.23,
-      "ask": 0.24
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.366,
-      "bid": 0.66,
-      "ask": 0.67
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.105,
-      "bid": 0.12,
-      "ask": 0.13
-     },
-     {
-      "label": "85\u201386\u00b0",
-      "q": 0.015,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226587\u00b0",
-      "q": 0.002,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHCHI-26OCT25",
-    "code": "MDW",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 72.6,
-     "p10": 71.5,
-     "p90": 74.5
-    },
-    "nbm": 72.6,
-    "observed": null,
-    "bias": 1.95,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Chicago, Chicago Midway Airport",
-    "rows": [
-     {
-      "label": "\u226469\u00b0",
-      "q": 0.017,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "70\u201371\u00b0",
-      "q": 0.201,
-      "bid": 0.05,
-      "ask": 0.06
-     },
-     {
-      "label": "72\u201373\u00b0",
-      "q": 0.552,
-      "bid": 0.46,
-      "ask": 0.47
-     },
-     {
-      "label": "74\u201375\u00b0",
-      "q": 0.18,
-      "bid": 0.43,
-      "ask": 0.44
-     },
-     {
-      "label": "76\u201377\u00b0",
-      "q": 0.039,
-      "bid": 0.05,
-      "ask": 0.06
-     },
-     {
-      "label": "\u226578\u00b0",
-      "q": 0.011,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHAUS-26OCT25",
-    "code": "AUS",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 83.3,
-     "p10": 81.3,
-     "p90": 85.0
-    },
-    "nbm": 82.3,
-    "observed": null,
-    "bias": 2.66,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Austin-Bergstrom International Airport",
-    "rows": [
-     {
-      "label": "\u226480\u00b0",
-      "q": 0.069,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.267,
-      "bid": 0.23,
-      "ask": 0.24
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.411,
-      "bid": 0.67,
-      "ask": 0.69
-     },
-     {
-      "label": "85\u201386\u00b0",
-      "q": 0.196,
-      "bid": 0.08,
-      "ask": 0.09
-     },
-     {
-      "label": "87\u201388\u00b0",
-      "q": 0.051,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226589\u00b0",
-      "q": 0.006,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTTTN-26OCT25",
-    "code": "TTN",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 35.7,
-     "p10": 32.8,
-     "p90": 39.9
-    },
-    "nbm": 34.2,
-    "observed": null,
-    "bias": -3.37,
-    "bias_src": "own 5d",
-    "kernel_sd": 3.0,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Trenton-Mercer Airport",
-    "rows": [
-     {
-      "label": "\u226428\u00b0",
-      "q": 0.03,
-      "bid": null,
-      "ask": 0.03
-     },
-     {
-      "label": "29\u201330\u00b0",
-      "q": 0.08,
-      "bid": null,
-      "ask": 0.11
-     },
-     {
-      "label": "31\u201332\u00b0",
-      "q": 0.135,
-      "bid": 0.39,
-      "ask": 0.55
-     },
-     {
-      "label": "33\u201334\u00b0",
-      "q": 0.16,
-      "bid": 0.29,
-      "ask": 0.46
-     },
-     {
-      "label": "35\u201336\u00b0",
-      "q": 0.17,
-      "bid": 0.03,
-      "ask": 0.18
-     },
-     {
-      "label": "\u226537\u00b0",
-      "q": 0.426,
-      "bid": 0.01,
-      "ask": 0.11
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTSDF-26OCT25",
-    "code": "SDF",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 48.0,
-     "p10": 46.2,
-     "p90": 49.8
-    },
-    "nbm": 46.6,
-    "observed": null,
-    "bias": -1.33,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Louisville Muhammad Ali International Airport",
-    "rows": [
-     {
-      "label": "\u226439\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "40\u201341\u00b0",
-      "q": 0.004,
-      "bid": 0.01,
-      "ask": 0.03
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.024,
-      "bid": 0.02,
-      "ask": 0.11
-     },
-     {
-      "label": "44\u201345\u00b0",
-      "q": 0.071,
-      "bid": 0.03,
-      "ask": 0.07
-     },
-     {
-      "label": "46\u201347\u00b0",
-      "q": 0.237,
-      "bid": 0.32,
-      "ask": 0.45
-     },
-     {
-      "label": "\u226548\u00b0",
-      "q": 0.664,
-      "bid": 0.43,
-      "ask": 0.58
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTPHIL-26OCT25",
-    "code": "PHL",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 41.6,
-     "p10": 39.1,
-     "p90": 45.7
-    },
-    "nbm": 38.8,
-    "observed": null,
-    "bias": 1.38,
-    "bias_src": "own 5d",
-    "kernel_sd": 2.12,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Philadelphia, Philadelphia International Airport",
-    "rows": [
-     {
-      "label": "\u226432\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "33\u201334\u00b0",
-      "q": 0.005,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "35\u201336\u00b0",
-      "q": 0.039,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "37\u201338\u00b0",
-      "q": 0.143,
-      "bid": 0.07,
-      "ask": 0.17
-     },
-     {
-      "label": "39\u201340\u00b0",
-      "q": 0.247,
-      "bid": 0.41,
-      "ask": 0.49
-     },
-     {
-      "label": "\u226541\u00b0",
-      "q": 0.566,
-      "bid": 0.32,
-      "ask": 0.4
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTNYC-26OCT25",
-    "code": "NYC",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 45.3,
-     "p10": 41.6,
-     "p90": 51.8
-    },
-    "nbm": 42.2,
-    "observed": null,
-    "bias": 1.69,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "New York City, Central Park",
-    "rows": [
-     {
-      "label": "\u226439\u00b0",
-      "q": 0.008,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "40\u201341\u00b0",
-      "q": 0.162,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.388,
-      "bid": 0.05,
-      "ask": 0.15
-     },
-     {
-      "label": "44\u201345\u00b0",
-      "q": 0.11,
-      "bid": 0.55,
-      "ask": 0.62
-     },
-     {
-      "label": "46\u201347\u00b0",
-      "q": 0.027,
-      "bid": 0.25,
-      "ask": 0.32
-     },
-     {
-      "label": "\u226548\u00b0",
-      "q": 0.305,
-      "bid": null,
-      "ask": 0.09
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTMIA-26OCT25",
-    "code": "MIA",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 70.9,
-     "p10": 67.8,
-     "p90": 75.4
-    },
-    "nbm": 71.3,
-    "observed": null,
-    "bias": -0.06,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Miami, Miami International Airport",
-    "rows": [
-     {
-      "label": "\u226463\u00b0",
-      "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "64\u201365\u00b0",
-      "q": 0.002,
-      "bid": 0.01,
-      "ask": 0.03
-     },
-     {
-      "label": "66\u201367\u00b0",
-      "q": 0.101,
-      "bid": 0.03,
-      "ask": 0.1
-     },
-     {
-      "label": "68\u201369\u00b0",
-      "q": 0.363,
-      "bid": 0.26,
-      "ask": 0.44
-     },
-     {
-      "label": "70\u201371\u00b0",
-      "q": 0.165,
-      "bid": 0.39,
-      "ask": 0.56
-     },
-     {
-      "label": "\u226572\u00b0",
-      "q": 0.369,
-      "bid": 0.16,
-      "ask": 0.22
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTEWR-26OCT25",
-    "code": "EWR",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 41.5,
-     "p10": 38.3,
-     "p90": 46.9
-    },
-    "nbm": 40.7,
-    "observed": null,
-    "bias": -1.93,
-    "bias_src": "own 5d",
-    "kernel_sd": 2.32,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Newark, Newark International Airport",
-    "rows": [
-     {
-      "label": "\u226435\u00b0",
-      "q": 0.044,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "36\u201337\u00b0",
-      "q": 0.125,
-      "bid": 0.02,
-      "ask": 0.2
-     },
-     {
-      "label": "38\u201339\u00b0",
-      "q": 0.218,
-      "bid": 0.49,
-      "ask": 0.59
-     },
-     {
-      "label": "40\u201341\u00b0",
-      "q": 0.197,
-      "bid": 0.28,
-      "ask": 0.44
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.113,
-      "bid": 0.03,
-      "ask": 0.14
-     },
-     {
-      "label": "\u226544\u00b0",
-      "q": 0.303,
-      "bid": 0.01,
-      "ask": 0.03
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTDC-26OCT25",
-    "code": "DCA",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 44.1,
-     "p10": 41.6,
-     "p90": 46.4
-    },
-    "nbm": 44.2,
-    "observed": null,
-    "bias": -0.49,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Washington/Reagan National Airport, DC",
-    "rows": [
-     {
-      "label": "\u226441\u00b0",
-      "q": 0.116,
-      "bid": 0.11,
-      "ask": 0.16
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.268,
-      "bid": 0.11,
-      "ask": 0.29
-     },
-     {
-      "label": "44\u201345\u00b0",
-      "q": 0.32,
-      "bid": 0.38,
-      "ask": 0.58
-     },
-     {
-      "label": "46\u201347\u00b0",
-      "q": 0.26,
-      "bid": 0.17,
-      "ask": 0.33
-     },
-     {
-      "label": "48\u201349\u00b0",
-      "q": 0.036,
-      "bid": 0.01,
-      "ask": 0.1
-     },
-     {
-      "label": "\u226550\u00b0",
-      "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTBOS-26OCT25",
-    "code": "BOS",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 38.7,
-     "p10": 35.7,
-     "p90": 44.8
-    },
-    "nbm": 38.5,
-    "observed": null,
-    "bias": -2.12,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Boston, Logan International Airport",
-    "rows": [
-     {
-      "label": "\u226435\u00b0",
-      "q": 0.218,
-      "bid": 0.03,
-      "ask": 0.08
-     },
-     {
-      "label": "36\u201337\u00b0",
-      "q": 0.39,
-      "bid": 0.14,
-      "ask": 0.25
-     },
-     {
-      "label": "38\u201339\u00b0",
-      "q": 0.082,
-      "bid": 0.28,
-      "ask": 0.44
-     },
-     {
-      "label": "40\u201341\u00b0",
-      "q": 0.008,
-      "bid": 0.28,
-      "ask": 0.44
-     },
-     {
-      "label": "42\u201343\u00b0",
-      "q": 0.034,
-      "bid": 0.03,
-      "ask": 0.13
-     },
-     {
-      "label": "\u226544\u00b0",
-      "q": 0.267,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXLOWTATL-26OCT25",
-    "code": "ATL",
-    "kind": "low",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 51.0,
-     "p10": 49.0,
-     "p90": 53.6
-    },
-    "nbm": 51.1,
-    "observed": null,
-    "bias": 0.38,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-    "rows": [
-     {
-      "label": "\u226444\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "45\u201346\u00b0",
-      "q": 0.003,
-      "bid": null,
-      "ask": 0.02
-     },
-     {
-      "label": "47\u201348\u00b0",
-      "q": 0.102,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "49\u201350\u00b0",
-      "q": 0.38,
-      "bid": 0.1,
-      "ask": 0.25
-     },
-     {
-      "label": "51\u201352\u00b0",
-      "q": 0.225,
-      "bid": 0.37,
-      "ask": 0.66
-     },
-     {
-      "label": "\u226553\u00b0",
-      "q": 0.29,
-      "bid": 0.06,
-      "ask": 0.1
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTTTN-26OCT25",
-    "code": "TTN",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 67.3,
-     "p10": 66.2,
-     "p90": 68.6
-    },
-    "nbm": 65.5,
-    "observed": null,
-    "bias": 3.12,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Trenton-Mercer Airport",
-    "rows": [
-     {
-      "label": "\u226463\u00b0",
-      "q": 0.002,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "64\u201365\u00b0",
-      "q": 0.091,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "66\u201367\u00b0",
-      "q": 0.491,
-      "bid": 0.73,
-      "ask": 0.9
-     },
-     {
-      "label": "68\u201369\u00b0",
-      "q": 0.338,
-      "bid": 0.05,
-      "ask": 0.22
-     },
-     {
-      "label": "70\u201371\u00b0",
-      "q": 0.066,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226572\u00b0",
-      "q": 0.011,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTSDF-26OCT25",
-    "code": "SDF",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 75.9,
-     "p10": 74.2,
-     "p90": 78.2
-    },
-    "nbm": 75.2,
-    "observed": null,
-    "bias": 1.53,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Louisville Muhammad Ali International Airport",
-    "rows": [
-     {
-      "label": "\u226473\u00b0",
-      "q": 0.084,
-      "bid": 0.01,
-      "ask": 0.03
-     },
-     {
-      "label": "74\u201375\u00b0",
-      "q": 0.373,
-      "bid": 0.14,
-      "ask": 0.27
-     },
-     {
-      "label": "76\u201377\u00b0",
-      "q": 0.324,
-      "bid": 0.51,
-      "ask": 0.71
-     },
-     {
-      "label": "78\u201379\u00b0",
-      "q": 0.183,
-      "bid": 0.04,
-      "ask": 0.17
-     },
-     {
-      "label": "80\u201381\u00b0",
-      "q": 0.034,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226582\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTEWR-26OCT25",
-    "code": "EWR",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 69.6,
-     "p10": 68.3,
-     "p90": 71.1
-    },
-    "nbm": 66.5,
-    "observed": null,
-    "bias": 3.22,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Newark, Newark International Airport",
-    "rows": [
-     {
-      "label": "\u226464\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "65\u201366\u00b0",
-      "q": 0.017,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "67\u201368\u00b0",
-      "q": 0.239,
-      "bid": 0.46,
-      "ask": 0.64
-     },
-     {
-      "label": "69\u201370\u00b0",
-      "q": 0.466,
-      "bid": 0.27,
-      "ask": 0.39
-     },
-     {
-      "label": "71\u201372\u00b0",
-      "q": 0.236,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226573\u00b0",
-      "q": 0.041,
-      "bid": 0.01,
-      "ask": 0.02
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTDC-26OCT25",
-    "code": "DCA",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 69.0,
-     "p10": 67.5,
-     "p90": 70.9
-    },
-    "nbm": 67.1,
-    "observed": null,
-    "bias": 3.14,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Washington/Reagan National Airport, DC",
-    "rows": [
-     {
-      "label": "\u226465\u00b0",
-      "q": 0.005,
-      "bid": 0.1,
-      "ask": 0.11
-     },
-     {
-      "label": "66\u201367\u00b0",
-      "q": 0.203,
-      "bid": 0.68,
-      "ask": 0.69
-     },
-     {
-      "label": "68\u201369\u00b0",
-      "q": 0.43,
-      "bid": 0.21,
-      "ask": 0.23
-     },
-     {
-      "label": "70\u201371\u00b0",
-      "q": 0.251,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "72\u201373\u00b0",
-      "q": 0.099,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226574\u00b0",
-      "q": 0.01,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTBOS-26OCT25",
-    "code": "BOS",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 65.8,
-     "p10": 64.7,
-     "p90": 67.8
-    },
-    "nbm": 62.3,
-    "observed": null,
-    "bias": 2.43,
-    "bias_src": "own 5d",
-    "kernel_sd": 2.64,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Boston, Logan International Airport",
-    "rows": [
-     {
-      "label": "\u226459\u00b0",
-      "q": 0.01,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "60\u201361\u00b0",
-      "q": 0.046,
-      "bid": 0.03,
-      "ask": 0.04
-     },
-     {
-      "label": "62\u201363\u00b0",
-      "q": 0.146,
-      "bid": 0.14,
-      "ask": 0.15
-     },
-     {
-      "label": "64\u201365\u00b0",
-      "q": 0.261,
-      "bid": 0.55,
-      "ask": 0.57
-     },
-     {
-      "label": "66\u201367\u00b0",
-      "q": 0.267,
-      "bid": 0.22,
-      "ask": 0.23
-     },
-     {
-      "label": "\u226568\u00b0",
-      "q": 0.271,
-      "bid": 0.02,
-      "ask": 0.03
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHTATL-26OCT25",
-    "code": "ATL",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 69.9,
-     "p10": 68.4,
-     "p90": 72.6
-    },
-    "nbm": 70.0,
-    "observed": null,
-    "bias": 0.65,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-    "rows": [
-     {
-      "label": "\u226466\u00b0",
-      "q": 0.01,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "67\u201368\u00b0",
-      "q": 0.235,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "69\u201370\u00b0",
-      "q": 0.451,
-      "bid": 0.56,
-      "ask": 0.57
-     },
-     {
-      "label": "71\u201372\u00b0",
-      "q": 0.181,
-      "bid": 0.42,
-      "ask": 0.44
-     },
-     {
-      "label": "73\u201374\u00b0",
-      "q": 0.097,
-      "bid": 0.02,
-      "ask": 0.03
-     },
-     {
-      "label": "\u226575\u00b0",
-      "q": 0.026,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHPHIL-26OCT25",
-    "code": "PHL",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 68.5,
-     "p10": 67.4,
-     "p90": 69.8
-    },
-    "nbm": 66.5,
-    "observed": null,
-    "bias": 3.26,
-    "bias_src": "own 5d",
-    "kernel_sd": 1.2,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Philadelphia, Philadelphia International Airport",
-    "rows": [
-     {
-      "label": "\u226464\u00b0",
-      "q": 0.007,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "65\u201366\u00b0",
-      "q": 0.099,
-      "bid": 0.06,
-      "ask": 0.09
-     },
-     {
-      "label": "67\u201368\u00b0",
-      "q": 0.409,
-      "bid": 0.72,
-      "ask": 0.74
-     },
-     {
-      "label": "69\u201370\u00b0",
-      "q": 0.375,
-      "bid": 0.15,
-      "ask": 0.16
-     },
-     {
-      "label": "71\u201372\u00b0",
-      "q": 0.096,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226573\u00b0",
-      "q": 0.015,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHNY-26OCT25",
-    "code": "NYC",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 66.6,
-     "p10": 65.5,
-     "p90": 68.0
-    },
-    "nbm": 65.4,
-    "observed": null,
-    "bias": 1.23,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "New York City, Central Park",
-    "rows": [
-     {
-      "label": "\u226463\u00b0",
-      "q": 0.013,
-      "bid": 0.06,
-      "ask": 0.08
-     },
-     {
-      "label": "64\u201365\u00b0",
-      "q": 0.208,
-      "bid": 0.47,
-      "ask": 0.48
-     },
-     {
-      "label": "66\u201367\u00b0",
-      "q": 0.519,
-      "bid": 0.4,
-      "ask": 0.41
-     },
-     {
-      "label": "68\u201369\u00b0",
-      "q": 0.228,
-      "bid": 0.06,
-      "ask": 0.07
-     },
-     {
-      "label": "70\u201371\u00b0",
-      "q": 0.031,
-      "bid": null,
-      "ask": 0.01
-     },
-     {
-      "label": "\u226572\u00b0",
-      "q": 0.001,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   },
-   {
-    "event": "KXHIGHMIA-26OCT25",
-    "code": "MIA",
-    "kind": "high",
-    "date": "2026-10-25",
-    "summary": {
-     "mean": 82.1,
-     "p10": 79.9,
-     "p90": 84.0
-    },
-    "nbm": 80.3,
-    "observed": null,
-    "bias": 2.34,
-    "bias_src": "own 5d",
-    "kernel_sd": 0.9,
-    "members": {
-     "ecmwf": 51,
-     "gfs": 31
-    },
-    "name": "Miami, Miami International Airport",
-    "rows": [
-     {
-      "label": "\u226480\u00b0",
-      "q": 0.206,
-      "bid": 0.21,
-      "ask": 0.22
-     },
-     {
-      "label": "81\u201382\u00b0",
-      "q": 0.361,
-      "bid": 0.38,
-      "ask": 0.4
-     },
-     {
-      "label": "83\u201384\u00b0",
-      "q": 0.331,
-      "bid": 0.31,
-      "ask": 0.32
-     },
-     {
-      "label": "85\u201386\u00b0",
-      "q": 0.096,
-      "bid": 0.06,
-      "ask": 0.08
-     },
-     {
-      "label": "87\u201388\u00b0",
-      "q": 0.005,
-      "bid": 0.01,
-      "ask": 0.02
-     },
-     {
-      "label": "\u226589\u00b0",
-      "q": 0.0,
-      "bid": null,
-      "ask": 0.01
-     }
-    ]
-   }
-  ],
+  "placed": [],
+  "markets": 0,
+  "events": [],
   "halt": null,
-  "candidates": 103,
+  "candidates": 0,
   "health": {},
-  "seconds": 24.4
+  "seconds": 52.7
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

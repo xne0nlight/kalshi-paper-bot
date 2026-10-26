@@ -40,7 +40,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.58,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793044836,
@@ -78,7 +78,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.93,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.78,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -265,7 +265,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -299,7 +299,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -14260,91 +14260,96 @@
    1793048428,
    85.98,
    83.69
+  ],
+  [
+   1793049327,
+   85.98,
+   85.94
   ]
  ],
  "last_run": {
-  "ts": 1793048428,
+  "ts": 1793049327,
   "error": null,
   "markets_scanned": 3826,
-  "candidates": 39,
+  "candidates": 43,
   "rejections": {
-   "too little volume": 3635,
-   "no favorite in 80-95c band": 136,
-   "spread too wide": 16
+   "too little volume": 3601,
+   "no favorite in 80-95c band": 165,
+   "spread too wide": 17
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "PSG wins by more than 2.5 goals?",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 22.74,
-    "volume_24h": 56780.86,
-    "score": 0.6231
-   },
-   {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.98,
-    "volume_24h": 2868.87,
-    "score": 0.6161
+    "hours_to_close": 30.73,
+    "volume_24h": 4915.78,
+    "score": 0.6341
    },
    {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.74,
-    "volume_24h": 294500.69,
-    "score": 0.6131
-   },
-   {
-    "label": "PSG wins",
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 22.74,
-    "volume_24h": 1966717.83,
-    "score": 0.6131
-   },
-   {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Oct 27, 2026? \u2014 53\u00b0 to 54\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 1214.38,
-    "score": 0.5866
-   },
-   {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 1101.25,
-    "score": 0.5834
+    "price": 0.92,
+    "hours_to_close": 23.74,
+    "volume_24h": 3252.89,
+    "score": 0.604
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 27, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 1625.01,
-    "score": 0.5833
+    "hours_to_close": 33.74,
+    "volume_24h": 1630.01,
+    "score": 0.5838
+   },
+   {
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.74,
+    "volume_24h": 1101.25,
+    "score": 0.5838
+   },
+   {
+    "label": "PSG wins by more than 2.5 goals?",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 22.49,
+    "volume_24h": 74164.5,
+    "score": 0.5837
    },
    {
     "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.99,
-    "volume_24h": 1107.32,
-    "score": 0.5736
+    "hours_to_close": 31.74,
+    "volume_24h": 1125.32,
+    "score": 0.5745
+   },
+   {
+    "label": "Will the maximum temperature be >77\u00b0 on Oct 27, 2026? \u2014 78\u00b0 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 34.74,
+    "volume_24h": 2300.94,
+    "score": 0.5737
+   },
+   {
+    "label": "Will the Reserve Bank of New Zealand Maintain current rate at the October Monetary Policy Review meeting?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 27.73,
+    "volume_24h": 2022.22,
+    "score": 0.5602
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 5
   },
-  "watch_added": 3,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

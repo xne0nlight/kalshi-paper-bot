@@ -125,7 +125,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.74,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -165,7 +165,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -14019,16 +14019,22 @@
    1793032227,
    85.98,
    84.73
+  ],
+  [
+   1793033125,
+   85.98,
+   84.87
   ]
  ],
  "last_run": {
-  "ts": 1793032227,
+  "ts": 1793033125,
   "error": null,
   "markets_scanned": 277,
-  "candidates": 12,
+  "candidates": 11,
   "rejections": {
    "too little volume": 231,
-   "no favorite in 80-95c band": 34
+   "no favorite in 80-95c band": 34,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
@@ -14038,69 +14044,69 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 42813.0,
-    "score": 0.6132
+    "hours_to_close": 26.99,
+    "volume_24h": 43091.02,
+    "score": 0.6136
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 99438.72,
-    "score": 0.6132
+    "hours_to_close": 26.99,
+    "volume_24h": 113863.81,
+    "score": 0.6136
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.48,
-    "volume_24h": 1561.33,
-    "score": 0.5902
-   },
-   {
-    "label": "Will the Reserve Bank of New Zealand Maintain current rate at the October Monetary Policy Review meeting?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.48,
-    "volume_24h": 1771.16,
-    "score": 0.5882
+    "hours_to_close": 35.23,
+    "volume_24h": 1686.43,
+    "score": 0.593
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 27.24,
-    "volume_24h": 14805.32,
-    "score": 0.5632
+    "hours_to_close": 26.99,
+    "volume_24h": 15688.72,
+    "score": 0.5636
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 24.23,
+    "volume_24h": 3066.39,
+    "score": 0.561
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 24.48,
-    "volume_24h": 1134.65,
-    "score": 0.5581
+    "price": 0.9,
+    "hours_to_close": 24.23,
+    "volume_24h": 1146.65,
+    "score": 0.549
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.48,
-    "volume_24h": 1573.74,
-    "score": 0.5387
+    "hours_to_close": 24.23,
+    "volume_24h": 1574.74,
+    "score": 0.5393
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.48,
-    "volume_24h": 953.38,
-    "score": 0.5224
+    "hours_to_close": 24.23,
+    "volume_24h": 954.38,
+    "score": 0.523
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -40,7 +40,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.89,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -165,8 +165,14 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.8,
+   "shadow": {
+    "10": {
+     "ts": 1793043925,
+     "bid": 0.8,
+     "proceeds": 3.15
+    }
+   }
   },
   {
    "id": 244,
@@ -216,7 +222,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5195,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -250,7 +256,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.4852,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -14198,92 +14204,96 @@
    1793043025,
    85.98,
    84.66
+  ],
+  [
+   1793043925,
+   85.98,
+   84.32
   ]
  ],
  "last_run": {
-  "ts": 1793043025,
+  "ts": 1793043925,
   "error": null,
-  "markets_scanned": 676,
-  "candidates": 31,
+  "markets_scanned": 678,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 534,
-   "no favorite in 80-95c band": 101,
-   "spread too wide": 9,
-   "nothing for sale at the ask": 1
+   "too little volume": 530,
+   "no favorite in 80-95c band": 106,
+   "spread too wide": 10
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 24.24,
-    "volume_24h": 63586.34,
-    "score": 0.6194
-   },
-   {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.24,
-    "volume_24h": 338334.25,
-    "score": 0.6194
+    "hours_to_close": 23.99,
+    "volume_24h": 498441.38,
+    "score": 0.62
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.48,
-    "volume_24h": 4504.7,
-    "score": 0.6105
+    "hours_to_close": 21.23,
+    "volume_24h": 4580.44,
+    "score": 0.6117
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.48,
+    "hours_to_close": 32.23,
     "volume_24h": 2578.33,
-    "score": 0.6104
+    "score": 0.6108
+   },
+   {
+    "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.99,
+    "volume_24h": 5385.75,
+    "score": 0.6099
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 27, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 1620.01,
-    "score": 0.5813
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 24.24,
-    "volume_24h": 41331.08,
-    "score": 0.5794
+    "score": 0.5817
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 21.48,
-    "volume_24h": 3823.7,
-    "score": 0.5751
+    "hours_to_close": 21.23,
+    "volume_24h": 3899.44,
+    "score": 0.5765
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 21.48,
-    "volume_24h": 4222.96,
-    "score": 0.5684
+    "price": 0.94,
+    "hours_to_close": 33.24,
+    "volume_24h": 1083.61,
+    "score": 0.5712
+   },
+   {
+    "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 23.99,
+    "volume_24h": 92738.54,
+    "score": 0.56
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

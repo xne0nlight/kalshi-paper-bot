@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -199,7 +199,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -250,7 +250,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.4852,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -284,7 +284,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -14136,21 +14136,23 @@
    1793034927,
    85.98,
    84.63
+  ],
+  [
+   1793035827,
+   85.98,
+   84.69
   ]
  ],
  "last_run": {
-  "ts": 1793034927,
+  "ts": 1793035827,
   "error": null,
   "markets_scanned": 401,
-  "candidates": 21,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 319,
-   "no favorite in 80-95c band": 60,
-   "spread too wide": 1
+   "too little volume": 318,
+   "no favorite in 80-95c band": 61
   },
-  "opened": [
-   250
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -14158,69 +14160,71 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 26.49,
-    "volume_24h": 43501.65,
-    "score": 0.6146
+    "hours_to_close": 26.24,
+    "volume_24h": 43844.35,
+    "score": 0.6151
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.49,
-    "volume_24h": 133130.61,
-    "score": 0.6146
+    "hours_to_close": 26.24,
+    "volume_24h": 139385.15,
+    "score": 0.6151
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.73,
+    "hours_to_close": 34.48,
     "volume_24h": 1764.61,
-    "score": 0.5951
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 26.49,
-    "volume_24h": 19202.23,
-    "score": 0.5646
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.73,
-    "volume_24h": 1208.46,
-    "score": 0.5518
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.73,
-    "volume_24h": 1618.82,
-    "score": 0.5414
+    "score": 0.5954
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.73,
-    "volume_24h": 997.46,
-    "score": 0.5256
+    "hours_to_close": 23.48,
+    "volume_24h": 1023.4,
+    "score": 0.577
    },
    {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "label": "Tie is the result",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.74,
-    "volume_24h": 503.97,
-    "score": 0.5231
+    "price": 0.85,
+    "hours_to_close": 26.24,
+    "volume_24h": 19568.78,
+    "score": 0.5651
+   },
+   {
+    "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.49,
+    "volume_24h": 552.9,
+    "score": 0.5564
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.48,
+    "volume_24h": 1234.4,
+    "score": 0.5531
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.48,
+    "volume_24h": 1644.76,
+    "score": 0.5425
    }
   ],
-  "skipped": {},
-  "watch_added": 4,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -10,7 +10,7 @@ Two $100 accounts side by side, betting the SAME parlays:
 """
 import os
 
-PHASE_NAME = "Sports v1: rolling vs combo"
+PHASE_NAME = "Sports v2: 1pt edge, 30-85% legs"
 STARTING_BANKROLL = 100.00          # each account
 FLOOR_EQUITY = 30.00                # stop starting new parlays below this
 
@@ -40,8 +40,8 @@ MONTHLY_CREDITS = 500
 CREDIT_RESERVE = 20                 # never spend the last few credits of the month
 
 # --- Which legs qualify ----------------------------------------------------------------
-LEG_PROB_RANGE = (0.35, 0.85)       # no huge longshots, no tiny-payout heavy favorites
-LEG_MIN_EDGE = 0.02                 # fair prob must beat our price by 2+ points
+LEG_PROB_RANGE = (0.30, 0.85)       # no huge longshots, no tiny-payout heavy favorites (v1: 0.35)
+LEG_MIN_EDGE = 0.01                 # fair prob must beat our price by 1+ point (v1: 2 pts never fired)
 LEG_MAX_DISAGREEMENT = 0.15         # books and Kalshi >15 pts apart = probably breaking news: skip
 LEG_MAX_SPREAD = 0.05               # Kalshi bid/ask must be reasonably tight
 FAIR_WEIGHT_FOR_SIZING = 0.5        # shrink the books' probability 50% toward Kalshi's price

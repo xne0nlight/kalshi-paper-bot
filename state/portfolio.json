@@ -233,7 +233,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -267,7 +267,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.83,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -14141,16 +14141,22 @@
    1793035827,
    85.98,
    84.69
+  ],
+  [
+   1793036727,
+   85.98,
+   84.54
   ]
  ],
  "last_run": {
-  "ts": 1793035827,
+  "ts": 1793036727,
   "error": null,
   "markets_scanned": 401,
-  "candidates": 22,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 318,
-   "no favorite in 80-95c band": 61
+   "too little volume": 316,
+   "no favorite in 80-95c band": 63,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
@@ -14160,71 +14166,71 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 26.24,
-    "volume_24h": 43844.35,
-    "score": 0.6151
+    "hours_to_close": 25.99,
+    "volume_24h": 47573.75,
+    "score": 0.6156
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.24,
-    "volume_24h": 139385.15,
-    "score": 0.6151
+    "hours_to_close": 25.99,
+    "volume_24h": 152438.32,
+    "score": 0.6156
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.48,
-    "volume_24h": 1764.61,
+    "hours_to_close": 34.23,
+    "volume_24h": 1747.1,
     "score": 0.5954
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.48,
-    "volume_24h": 1023.4,
-    "score": 0.577
+    "price": 0.94,
+    "hours_to_close": 23.23,
+    "volume_24h": 1063.4,
+    "score": 0.5889
+   },
+   {
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.24,
+    "volume_24h": 1082.21,
+    "score": 0.5785
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 26.24,
-    "volume_24h": 19568.78,
-    "score": 0.5651
+    "hours_to_close": 25.99,
+    "volume_24h": 19983.34,
+    "score": 0.5656
    },
    {
     "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 552.9,
-    "score": 0.5564
+    "score": 0.5567
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.48,
-    "volume_24h": 1234.4,
-    "score": 0.5531
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.48,
-    "volume_24h": 1644.76,
-    "score": 0.5425
+    "price": 0.87,
+    "hours_to_close": 23.23,
+    "volume_24h": 3189.67,
+    "score": 0.5546
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

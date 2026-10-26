@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.45,
- "fees_paid": 6.1,
+ "cash": 8.73,
+ "fees_paid": 6.12,
  "peak_equity": 109.65,
  "day": "2026-10-26",
  "day_start_equity": 87.66,
- "next_id": 251,
+ "next_id": 252,
  "open_positions": [
   {
    "id": 191,
@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -233,7 +233,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -285,6 +285,23 @@
    "close_ts": 1793163600.0,
    "score": 0.4735,
    "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 251,
+   "ticker": "KXHIGHCHI-26OCT27-B72.5",
+   "event_ticker": "KXHIGHCHI-26OCT27",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 72-73\u00b0 on Oct 27, 2026? \u2014 72\u00b0 to 73\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793037626,
+   "close_ts": 1793167200.0,
+   "score": 0.5262,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -14146,19 +14163,26 @@
    1793036727,
    85.98,
    84.54
+  ],
+  [
+   1793037626,
+   85.98,
+   84.57
   ]
  ],
  "last_run": {
-  "ts": 1793036727,
+  "ts": 1793037626,
   "error": null,
-  "markets_scanned": 401,
-  "candidates": 21,
+  "markets_scanned": 569,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 316,
-   "no favorite in 80-95c band": 63,
-   "spread too wide": 1
+   "too little volume": 453,
+   "no favorite in 80-95c band": 84,
+   "spread too wide": 4
   },
-  "opened": [],
+  "opened": [
+   251
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -14166,71 +14190,71 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 47573.75,
-    "score": 0.6156
+    "score": 0.6162
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.99,
-    "volume_24h": 152438.32,
-    "score": 0.6156
+    "hours_to_close": 25.74,
+    "volume_24h": 160999.25,
+    "score": 0.6162
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.23,
+    "hours_to_close": 33.98,
     "volume_24h": 1747.1,
-    "score": 0.5954
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.23,
-    "volume_24h": 1063.4,
-    "score": 0.5889
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.24,
-    "volume_24h": 1082.21,
-    "score": 0.5785
+    "score": 0.5957
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 25.99,
-    "volume_24h": 19983.34,
-    "score": 0.5656
-   },
-   {
-    "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.24,
-    "volume_24h": 552.9,
-    "score": 0.5567
+    "hours_to_close": 25.74,
+    "volume_24h": 20992.7,
+    "score": 0.5662
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 23.23,
-    "volume_24h": 3189.67,
-    "score": 0.5546
+    "hours_to_close": 22.98,
+    "volume_24h": 3556.36,
+    "score": 0.5588
+   },
+   {
+    "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.99,
+    "volume_24h": 562.9,
+    "score": 0.5576
+   },
+   {
+    "label": "Will it rain in Minneapolis on Oct 27, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 322.27,
+    "score": 0.5382
+   },
+   {
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 34.99,
+    "volume_24h": 603.97,
+    "score": 0.5299
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 1
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 0,
+  "watch_added": 10,
   "watch_graded": 0,
   "api_calls": 42
  },

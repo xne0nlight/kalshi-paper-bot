@@ -91,7 +91,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793106000.0,
    "score": 0.5562,
-   "mark_price": 0.87,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -233,7 +233,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -267,7 +267,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -14193,17 +14193,23 @@
    1793042124,
    85.98,
    84.56
+  ],
+  [
+   1793043025,
+   85.98,
+   84.66
   ]
  ],
  "last_run": {
-  "ts": 1793042124,
+  "ts": 1793043025,
   "error": null,
-  "markets_scanned": 601,
-  "candidates": 33,
+  "markets_scanned": 676,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 462,
-   "no favorite in 80-95c band": 100,
-   "spread too wide": 6
+   "too little volume": 534,
+   "no favorite in 80-95c band": 101,
+   "spread too wide": 9,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -14213,69 +14219,69 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 24.49,
-    "volume_24h": 57400.58,
-    "score": 0.6189
+    "hours_to_close": 24.24,
+    "volume_24h": 63586.34,
+    "score": 0.6194
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.49,
-    "volume_24h": 299120.26,
-    "score": 0.6189
-   },
-   {
-    "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.73,
-    "volume_24h": 2580.33,
-    "score": 0.6101
+    "hours_to_close": 24.24,
+    "volume_24h": 338334.25,
+    "score": 0.6194
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.73,
-    "volume_24h": 4355.58,
-    "score": 0.6087
+    "hours_to_close": 21.48,
+    "volume_24h": 4504.7,
+    "score": 0.6105
+   },
+   {
+    "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.48,
+    "volume_24h": 2578.33,
+    "score": 0.6104
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 27, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 1620.01,
-    "score": 0.581
+    "score": 0.5813
+   },
+   {
+    "label": "Tie is the result",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 24.24,
+    "volume_24h": 41331.08,
+    "score": 0.5794
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 21.73,
-    "volume_24h": 3498.25,
-    "score": 0.5715
+    "hours_to_close": 21.48,
+    "volume_24h": 3823.7,
+    "score": 0.5751
    },
    {
-    "label": "Tie is the result",
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 27, 2026? \u2014 38.3%",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 24.49,
-    "volume_24h": 30596.37,
-    "score": 0.5689
-   },
-   {
-    "label": "Will the maximum temperature be >58\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 721.9,
-    "score": 0.5673
+    "price": 0.87,
+    "hours_to_close": 21.48,
+    "volume_24h": 4222.96,
+    "score": 0.5684
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 3
+   "tracked only (below bet price floor)": 2
   },
   "watch_added": 1,
   "watch_graded": 0,

@@ -57,7 +57,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -159,7 +159,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -13961,17 +13961,22 @@
    1793025930,
    85.98,
    85.39
+  ],
+  [
+   1793026826,
+   85.98,
+   85.36
   ]
  ],
  "last_run": {
-  "ts": 1793025930,
+  "ts": 1793026826,
   "error": null,
-  "markets_scanned": 553,
-  "candidates": 13,
+  "markets_scanned": 501,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 473,
-   "no favorite in 80-95c band": 59,
-   "spread too wide": 8
+   "too little volume": 431,
+   "no favorite in 80-95c band": 54,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -13981,71 +13986,69 @@
     "label": "Will over 1.5 goals be scored? \u2014 Over 1.5 goals scored",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 42265.52,
-    "score": 0.61
+    "score": 0.6104
    },
    {
     "label": "Lyon wins",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 28.99,
-    "volume_24h": 57893.99,
-    "score": 0.6
-   },
-   {
-    "label": "Tie is the result",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 28.99,
-    "volume_24h": 11810.67,
-    "score": 0.56
+    "price": 0.9,
+    "hours_to_close": 28.74,
+    "volume_24h": 60791.51,
+    "score": 0.6104
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 27, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.22,
-    "volume_24h": 452.01,
-    "score": 0.5444
-   },
-   {
-    "label": "Will there be more than 205 transit calls through the Panama Canal from Oct 19, 2026 to Oct 25, 2026? \u2014 Above 205",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 22.24,
-    "volume_24h": 1203.16,
-    "score": 0.5254
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 27, 2026? \u2014 38.2%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.22,
-    "volume_24h": 609.4,
-    "score": 0.5041
-   },
-   {
-    "label": "Will the Reserve Bank of New Zealand Maintain current rate at the October Monetary Policy Review meeting?",
-    "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.22,
-    "volume_24h": 1770.16,
-    "score": 0.4958
+    "hours_to_close": 25.98,
+    "volume_24h": 470.55,
+    "score": 0.5662
+   },
+   {
+    "label": "Tie is the result",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 28.74,
+    "volume_24h": 11923.05,
+    "score": 0.5504
    },
    {
     "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
     "side": "no",
     "price": 0.85,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 1195.17,
-    "score": 0.4908
+    "score": 0.4913
+   },
+   {
+    "label": "Will the Reserve Bank of New Zealand Hike 1-25bps at the October Monetary Policy Review meeting?",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 33.98,
+    "volume_24h": 649.03,
+    "score": 0.4835
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 27.49,
+    "volume_24h": 250.49,
+    "score": 0.4627
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 103.49 USD/Bbl on Oct 27, 2026? \u2014 Above $103.49",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 27.49,
+    "volume_24h": 522.91,
+    "score": 0.4566
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 1,
+  "skipped": {},
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

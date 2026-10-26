@@ -40,12 +40,22 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.76,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1793044836,
      "bid": 0.76,
      "proceeds": 3.73
+    },
+    "15": {
+     "ts": 1793045725,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "20": {
+     "ts": 1793045725,
+     "bid": 0.62,
+     "proceeds": 3.01
     }
    }
   },
@@ -63,7 +73,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793130300.0,
    "score": 0.5987,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -97,7 +107,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793106000.0,
    "score": 0.5562,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -131,7 +141,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -171,7 +181,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -279,7 +289,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {}
   },
   {
@@ -14220,91 +14230,97 @@
    1793044836,
    85.98,
    84.1
+  ],
+  [
+   1793045725,
+   85.98,
+   83.33
   ]
  ],
  "last_run": {
-  "ts": 1793044836,
+  "ts": 1793045725,
   "error": null,
-  "markets_scanned": 4279,
-  "candidates": 34,
+  "markets_scanned": 3819,
+  "candidates": 41,
   "rejections": {
-   "too little volume": 4107,
-   "no favorite in 80-95c band": 127,
-   "spread too wide": 11
+   "too little volume": 3636,
+   "no favorite in 80-95c band": 132,
+   "spread too wide": 9,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will over 0.5 goals be scored? \u2014 Over 0.5 goals scored",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 53442.32,
-    "score": 0.6706
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.97,
+    "hours_to_close": 20.73,
     "volume_24h": 4617.44,
-    "score": 0.6127
+    "score": 0.6134
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.97,
+    "hours_to_close": 31.73,
     "volume_24h": 2578.33,
-    "score": 0.6112
-   },
-   {
-    "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.74,
-    "volume_24h": 22007.75,
-    "score": 0.6106
+    "score": 0.6115
    },
    {
     "label": "Lyon wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 23.74,
-    "volume_24h": 586699.44,
-    "score": 0.6106
+    "hours_to_close": 23.49,
+    "volume_24h": 737752.28,
+    "score": 0.6112
+   },
+   {
+    "label": "PSG wins by more than 2.5 goals?",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 23.49,
+    "volume_24h": 41422.66,
+    "score": 0.5912
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 27, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.99,
-    "volume_24h": 1620.01,
-    "score": 0.582
+    "hours_to_close": 34.74,
+    "volume_24h": 1625.01,
+    "score": 0.5824
+   },
+   {
+    "label": "Will over 3.5 goals be scored? \u2014 Over 3.5 goals scored",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 23.49,
+    "volume_24h": 160595.96,
+    "score": 0.5812
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 27, 2026? \u2014 38.4%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 20.97,
+    "hours_to_close": 20.73,
     "volume_24h": 4081.45,
-    "score": 0.5787
+    "score": 0.5794
    },
    {
     "label": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 1095.25,
-    "score": 0.5719
+    "hours_to_close": 32.74,
+    "volume_24h": 1100.25,
+    "score": 0.5723
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 4
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 6,
+  "watch_added": 9,
   "watch_graded": 0,
   "api_calls": 42
  },

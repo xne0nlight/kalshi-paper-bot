@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -281,7 +281,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -298,7 +298,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -14709,17 +14709,22 @@
    1793115027,
    87.0,
    89.54
+  ],
+  [
+   1793115927,
+   87.0,
+   89.56
   ]
  ],
  "last_run": {
-  "ts": 1793115027,
+  "ts": 1793115927,
   "error": null,
   "markets_scanned": 492,
-  "candidates": 10,
+  "candidates": 11,
   "rejections": {
    "too little volume": 451,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 6
+   "no favorite in 80-95c band": 23,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -14729,71 +14734,71 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.48,
-    "volume_24h": 567292.18,
-    "score": 0.6547
+    "hours_to_close": 26.23,
+    "volume_24h": 569018.37,
+    "score": 0.6552
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 26.48,
-    "volume_24h": 1108824.39,
-    "score": 0.6547
+    "hours_to_close": 26.23,
+    "volume_24h": 1107209.64,
+    "score": 0.6552
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.41,
+    "hours_to_close": 26.16,
     "volume_24h": 1559.32,
-    "score": 0.5943
+    "score": 0.5948
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.41,
+    "hours_to_close": 26.16,
     "volume_24h": 2136.19,
-    "score": 0.5645
+    "score": 0.565
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.48,
-    "volume_24h": 2605.7,
-    "score": 0.5329
+    "hours_to_close": 25.23,
+    "volume_24h": 2645.5,
+    "score": 0.534
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 25.48,
+    "hours_to_close": 25.23,
     "volume_24h": 1641.04,
-    "score": 0.5279
+    "score": 0.5284
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.48,
-    "volume_24h": 309.34,
-    "score": 0.5136
+    "hours_to_close": 25.23,
+    "volume_24h": 328.15,
+    "score": 0.5161
    },
    {
     "label": "Will the brent crude oil close price be above 107 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $107",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 29.49,
+    "hours_to_close": 29.24,
     "volume_24h": 510.3,
-    "score": 0.5023
+    "score": 0.5027
    }
   ],
   "skipped": {
    "related-market cap (Presidential approval)": 3,
    "related-market cap (Oil prices)": 1,
-   "tracked only (below bet price floor)": 2
+   "tracked only (below bet price floor)": 3
   },
   "watch_added": 0,
   "watch_graded": 0,

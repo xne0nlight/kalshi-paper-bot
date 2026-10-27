@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.68,
+   "mark_price": 0.69,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -181,12 +181,22 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.84,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1793068224,
      "bid": 0.83,
      "proceeds": 3.28
+    },
+    "15": {
+     "ts": 1793073627,
+     "bid": 0.75,
+     "proceeds": 2.94
+    },
+    "20": {
+     "ts": 1793073627,
+     "bid": 0.75,
+     "proceeds": 2.94
     }
    }
   },
@@ -244,7 +254,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.4852,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -261,7 +271,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -14454,92 +14464,99 @@
    1793072725,
    87.0,
    86.15
+  ],
+  [
+   1793073627,
+   87.0,
+   85.98
   ]
  ],
  "last_run": {
-  "ts": 1793072725,
+  "ts": 1793073627,
   "error": null,
-  "markets_scanned": 3965,
+  "markets_scanned": 3980,
   "candidates": 68,
   "rejections": {
-   "too little volume": 3570,
-   "no favorite in 80-95c band": 302,
-   "spread too wide": 25
+   "too little volume": 3584,
+   "no favorite in 80-95c band": 296,
+   "spread too wide": 31,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $77,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 16.99,
+    "volume_24h": 13887.94,
+    "score": 0.6913
+   },
+   {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 17099.13,
-    "score": 0.6695
+    "score": 0.6701
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 19070.1,
-    "score": 0.6695
+    "score": 0.6701
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 16.99,
+    "volume_24h": 6925.42,
+    "score": 0.6694
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 17.24,
-    "volume_24h": 29278.97,
-    "score": 0.6604
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 17.24,
-    "volume_24h": 6690.55,
-    "score": 0.6573
+    "hours_to_close": 16.99,
+    "volume_24h": 30333.98,
+    "score": 0.6613
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 2524.97,
-    "score": 0.6564
+    "score": 0.6577
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
-    "volume_24h": 5625.45,
-    "score": 0.6507
+    "hours_to_close": 23.98,
+    "volume_24h": 5640.99,
+    "score": 0.6514
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 13.23,
-    "volume_24h": 13264.15,
-    "score": 0.6492
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 17.24,
-    "volume_24h": 4730.44,
-    "score": 0.636
+    "hours_to_close": 12.98,
+    "volume_24h": 13594.43,
+    "score": 0.6507
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 10
+   "related-market cap (Crypto)": 4,
+   "tracked only (below bet price floor)": 8,
+   "related-market cap (Oil prices)": 1
   },
-  "watch_added": 4,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

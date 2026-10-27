@@ -5,8 +5,8 @@
  "cash": 9.33,
  "fees_paid": 6.17,
  "peak_equity": 109.65,
- "day": "2026-10-26",
- "day_start_equity": 87.66,
+ "day": "2026-10-27",
+ "day_start_equity": 87.0,
  "next_id": 254,
  "open_positions": [
   {
@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -249,7 +249,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.89,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -14362,18 +14362,23 @@
    1793058326,
    87.0,
    86.42
+  ],
+  [
+   1793059224,
+   87.0,
+   86.22
   ]
  ],
  "last_run": {
-  "ts": 1793058326,
+  "ts": 1793059224,
   "error": null,
-  "markets_scanned": 3839,
-  "candidates": 57,
+  "markets_scanned": 3841,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 3530,
-   "no favorite in 80-95c band": 230,
-   "spread too wide": 20,
-   "nothing for sale at the ask": 2
+   "too little volume": 3521,
+   "no favorite in 80-95c band": 242,
+   "spread too wide": 23,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -14383,72 +14388,72 @@
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 27994.93,
-    "score": 0.6671
+    "score": 0.6678
    },
    {
     "label": "Will Trump's RCP approval average be below 38.2 on Oct 27, 2026? \u2014 Below 38.2%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 17.23,
-    "volume_24h": 33678.7,
-    "score": 0.6504
+    "hours_to_close": 16.98,
+    "volume_24h": 33703.59,
+    "score": 0.6514
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 17.23,
-    "volume_24h": 11097.14,
-    "score": 0.6504
+    "hours_to_close": 16.98,
+    "volume_24h": 11122.03,
+    "score": 0.6514
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.23,
+    "hours_to_close": 27.98,
     "volume_24h": 5668.84,
-    "score": 0.6429
+    "score": 0.6433
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 2221.16,
-    "score": 0.6281
+    "score": 0.6288
+   },
+   {
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.99,
+    "volume_24h": 2914.32,
+    "score": 0.6199
    },
    {
     "label": "Will the maximum temperature be >77\u00b0 on Oct 27, 2026? \u2014 78\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
-    "volume_24h": 3143.5,
-    "score": 0.6172
+    "hours_to_close": 31.99,
+    "volume_24h": 3156.81,
+    "score": 0.6177
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 1724.28,
-    "score": 0.6098
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 21.24,
-    "volume_24h": 2281.73,
-    "score": 0.609
+    "score": 0.6106
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 5
+   "related-market cap (Crypto)": 4,
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

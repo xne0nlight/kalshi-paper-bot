@@ -114,7 +114,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -311,7 +311,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.77,
+   "mark_price": 0.59,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -322,6 +322,16 @@
      "ts": 1793134826,
      "bid": 0.77,
      "proceeds": 1.51
+    },
+    "20": {
+     "ts": 1793136625,
+     "bid": 0.59,
+     "proceeds": 1.14
+    },
+    "30": {
+     "ts": 1793136625,
+     "bid": 0.59,
+     "proceeds": 1.14
     }
    }
   },
@@ -14915,100 +14925,101 @@
    1793135725,
    87.91,
    91.15
+  ],
+  [
+   1793136625,
+   87.91,
+   90.88
   ]
  ],
  "last_run": {
-  "ts": 1793135725,
+  "ts": 1793136625,
   "error": null,
   "markets_scanned": 3958,
-  "candidates": 37,
+  "candidates": 39,
   "rejections": {
-   "too little volume": 3772,
+   "too little volume": 3767,
    "no favorite in 80-95c band": 124,
-   "spread too wide": 21,
-   "nothing for sale at the ask": 4
+   "spread too wide": 25,
+   "nothing for sale at the ask": 3
   },
-  "opened": [
-   257
-  ],
-  "settled": [
-   252
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.73,
-    "volume_24h": 613361.67,
-    "score": 0.6786
+    "hours_to_close": 20.48,
+    "volume_24h": 598395.83,
+    "score": 0.6793
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.73,
-    "volume_24h": 479712.0,
-    "score": 0.6786
+    "hours_to_close": 20.48,
+    "volume_24h": 469154.81,
+    "score": 0.6793
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.66,
+    "hours_to_close": 20.41,
     "volume_24h": 2252.63,
-    "score": 0.6302
+    "score": 0.631
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 28, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.73,
+    "hours_to_close": 19.48,
     "volume_24h": 1555.19,
-    "score": 0.621
+    "score": 0.6218
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 20.66,
-    "volume_24h": 9685.14,
-    "score": 0.5977
+    "hours_to_close": 20.41,
+    "volume_24h": 9641.9,
+    "score": 0.5983
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 19.73,
-    "volume_24h": 5420.21,
-    "score": 0.5817
+    "price": 0.91,
+    "hours_to_close": 19.48,
+    "volume_24h": 1887.22,
+    "score": 0.5881
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 28, 2026? \u2014 38.5%",
+    "label": "Will it rain in Milwaukee on Oct 28, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 19.73,
-    "volume_24h": 1840.67,
-    "score": 0.5765
+    "price": 0.93,
+    "hours_to_close": 32.49,
+    "volume_24h": 2137.96,
+    "score": 0.5843
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 19.73,
-    "volume_24h": 4187.15,
-    "score": 0.5733
+    "price": 0.88,
+    "hours_to_close": 19.48,
+    "volume_24h": 4188.45,
+    "score": 0.5841
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 1,
    "tracked only (below bet price floor)": 6,
-   "related-market cap (Oil prices)": 4
+   "related-market cap (Oil prices)": 3
   },
-  "watch_added": 4,
-  "watch_graded": 42,
-  "api_calls": 43
+  "watch_added": 0,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

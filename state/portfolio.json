@@ -14950,18 +14950,23 @@
    1793140227,
    87.91,
    91.2
+  ],
+  [
+   1793141125,
+   87.91,
+   91.2
   ]
  ],
  "last_run": {
-  "ts": 1793140227,
+  "ts": 1793141125,
   "error": null,
-  "markets_scanned": 4035,
-  "candidates": 49,
+  "markets_scanned": 4045,
+  "candidates": 61,
   "rejections": {
-   "too little volume": 3808,
-   "no favorite in 80-95c band": 157,
-   "spread too wide": 20,
-   "nothing for sale at the ask": 1
+   "too little volume": 3797,
+   "no favorite in 80-95c band": 173,
+   "spread too wide": 12,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -14971,73 +14976,73 @@
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.48,
-    "volume_24h": 479483.28,
-    "score": 0.6824
+    "hours_to_close": 19.23,
+    "volume_24h": 509431.23,
+    "score": 0.6832
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.41,
-    "volume_24h": 2175.19,
-    "score": 0.633
-   },
-   {
-    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 19.41,
-    "volume_24h": 9672.59,
-    "score": 0.6016
-   },
-   {
-    "label": "Will it rain in Dallas on Oct 28, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 1665.85,
-    "score": 0.5977
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 18.48,
-    "volume_24h": 7039.08,
-    "score": 0.5944
-   },
-   {
-    "label": "Will it rain in Milwaukee on Oct 28, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 2284.09,
-    "score": 0.5879
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 28, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 19.99,
-    "volume_24h": 936.32,
-    "score": 0.5837
+    "hours_to_close": 19.16,
+    "volume_24h": 2165.79,
+    "score": 0.6337
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 22.49,
-    "volume_24h": 1089.0,
-    "score": 0.5815
+    "hours_to_close": 22.24,
+    "volume_24h": 5016.3,
+    "score": 0.6319
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 22.24,
+    "volume_24h": 2731.0,
+    "score": 0.6221
+   },
+   {
+    "label": "Will it rain in Dallas on Oct 28, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.24,
+    "volume_24h": 1665.85,
+    "score": 0.598
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 18.23,
+    "volume_24h": 7059.28,
+    "score": 0.5953
+   },
+   {
+    "label": "Will it rain in Milwaukee on Oct 28, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 2295.73,
+    "score": 0.5885
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,100 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.24,
+    "volume_24h": 1652.3,
+    "score": 0.5857
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 1,
-   "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 7
+   "related-market cap (Oil prices)": 6,
+   "tracked only (below bet price floor)": 11
   },
-  "watch_added": 5,
+  "watch_added": 12,
   "watch_graded": 0,
   "api_calls": 42
  },

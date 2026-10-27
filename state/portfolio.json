@@ -243,7 +243,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -260,7 +260,7 @@
    "opened_ts": 1793037626,
    "close_ts": 1793167200.0,
    "score": 0.5262,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -345,7 +345,7 @@
    "opened_ts": 1793121327,
    "close_ts": 1793221440.0,
    "score": 0.5783,
-   "mark_price": 0.97,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -14808,17 +14808,22 @@
    1793122225,
    87.59,
    90.71
+  ],
+  [
+   1793123128,
+   87.59,
+   90.59
   ]
  ],
  "last_run": {
-  "ts": 1793122225,
+  "ts": 1793123128,
   "error": null,
   "markets_scanned": 670,
-  "candidates": 15,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 576,
+   "too little volume": 573,
    "no favorite in 80-95c band": 62,
-   "spread too wide": 17
+   "spread too wide": 19
   },
   "opened": [],
   "settled": [],
@@ -14828,73 +14833,72 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.48,
-    "volume_24h": 510340.33,
-    "score": 0.6589
+    "hours_to_close": 24.23,
+    "volume_24h": 510172.56,
+    "score": 0.6595
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.48,
-    "volume_24h": 481244.46,
-    "score": 0.6589
+    "hours_to_close": 24.23,
+    "volume_24h": 478566.49,
+    "score": 0.6595
    },
    {
     "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.48,
+    "hours_to_close": 34.23,
     "volume_24h": 9065.39,
-    "score": 0.6287
+    "score": 0.629
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.41,
-    "volume_24h": 1544.01,
-    "score": 0.5982
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 23.48,
-    "volume_24h": 2738.76,
-    "score": 0.5491
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 23.48,
-    "volume_24h": 3726.17,
-    "score": 0.5491
+    "hours_to_close": 24.16,
+    "volume_24h": 1557.42,
+    "score": 0.5991
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 28, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.48,
-    "volume_24h": 211.18,
-    "score": 0.5457
+    "hours_to_close": 23.23,
+    "volume_24h": 282.56,
+    "score": 0.5558
    },
    {
-    "label": "How many dissenting votes at the next Fed meeting? \u2014 0",
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 24.48,
-    "volume_24h": 3304.61,
-    "score": 0.5328
+    "price": 0.87,
+    "hours_to_close": 23.23,
+    "volume_24h": 2801.24,
+    "score": 0.5504
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 23.23,
+    "volume_24h": 3788.27,
+    "score": 0.5502
+   },
+   {
+    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 28, 2026? \u2014 70\u00b0 to 71\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.24,
+    "volume_24h": 453.39,
+    "score": 0.5102
    }
   ],
   "skipped": {
-   "related-market cap (Fed / interest rates)": 2,
-   "tracked only (below bet price floor)": 4,
-   "related-market cap (Crypto)": 1
+   "related-market cap (Fed / interest rates)": 1,
+   "tracked only (below bet price floor)": 6
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

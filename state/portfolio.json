@@ -74,7 +74,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -311,7 +311,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.71,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -14940,17 +14940,22 @@
    1793138425,
    87.91,
    91.12
+  ],
+  [
+   1793139325,
+   87.91,
+   91.28
   ]
  ],
  "last_run": {
-  "ts": 1793138425,
+  "ts": 1793139325,
   "error": null,
-  "markets_scanned": 3995,
-  "candidates": 40,
+  "markets_scanned": 4015,
+  "candidates": 43,
   "rejections": {
-   "too little volume": 3790,
-   "no favorite in 80-95c band": 137,
-   "spread too wide": 25,
+   "too little volume": 3794,
+   "no favorite in 80-95c band": 148,
+   "spread too wide": 27,
    "nothing for sale at the ask": 3
   },
   "opened": [],
@@ -14961,74 +14966,74 @@
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.98,
-    "volume_24h": 481273.57,
-    "score": 0.6808
+    "hours_to_close": 19.73,
+    "volume_24h": 489071.6,
+    "score": 0.6816
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.91,
-    "volume_24h": 2253.63,
-    "score": 0.6325
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 18.98,
-    "volume_24h": 2246.18,
-    "score": 0.6055
+    "hours_to_close": 19.66,
+    "volume_24h": 2175.19,
+    "score": 0.6322
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 18.98,
-    "volume_24h": 4967.01,
-    "score": 0.6013
+    "hours_to_close": 18.73,
+    "volume_24h": 5050.84,
+    "score": 0.6027
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 19.91,
-    "volume_24h": 9647.59,
-    "score": 0.5999
+    "hours_to_close": 19.66,
+    "volume_24h": 9672.59,
+    "score": 0.6008
    },
    {
     "label": "Will it rain in Dallas on Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 1663.85,
-    "score": 0.5969
+    "hours_to_close": 31.74,
+    "volume_24h": 1664.85,
+    "score": 0.5973
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 28, 2026? \u2014 Above $96.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 20.24,
+    "volume_24h": 936.32,
+    "score": 0.5929
    },
    {
     "label": "Will it rain in Milwaukee on Oct 28, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 2283.09,
-    "score": 0.5872
+    "hours_to_close": 31.74,
+    "volume_24h": 2284.09,
+    "score": 0.5876
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 19.91,
+    "hours_to_close": 19.66,
     "volume_24h": 3363.36,
-    "score": 0.5756
+    "score": 0.5764
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 1,
-   "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 7
+   "related-market cap (Oil prices)": 6,
+   "tracked only (below bet price floor)": 8
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 15,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

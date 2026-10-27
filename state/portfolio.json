@@ -57,7 +57,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793106000.0,
    "score": 0.5562,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -181,7 +181,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -231,7 +231,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -271,7 +271,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -288,7 +288,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -14509,17 +14509,22 @@
    1793080826,
    87.0,
    86.77
+  ],
+  [
+   1793081725,
+   87.0,
+   86.74
   ]
  ],
  "last_run": {
-  "ts": 1793080826,
+  "ts": 1793081725,
   "error": null,
-  "markets_scanned": 3581,
-  "candidates": 71,
+  "markets_scanned": 3604,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 3153,
-   "no favorite in 80-95c band": 323,
-   "spread too wide": 34
+   "too little volume": 3172,
+   "no favorite in 80-95c band": 326,
+   "spread too wide": 36
   },
   "opened": [],
   "settled": [],
@@ -14529,73 +14534,72 @@
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 10.98,
+    "hours_to_close": 10.73,
     "volume_24h": 9934.17,
-    "score": 0.7235
+    "score": 0.7253
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 14.74,
+    "volume_24h": 10995.71,
+    "score": 0.7012
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.99,
+    "hours_to_close": 14.74,
     "volume_24h": 39066.85,
-    "score": 0.7
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.99,
-    "volume_24h": 10995.71,
-    "score": 0.69
+    "score": 0.7012
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 14.99,
-    "volume_24h": 11787.55,
-    "score": 0.69
+    "price": 0.93,
+    "hours_to_close": 14.74,
+    "volume_24h": 11787.8,
+    "score": 0.6812
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.98,
+    "hours_to_close": 21.73,
     "volume_24h": 17084.32,
-    "score": 0.6751
+    "score": 0.6757
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.98,
+    "hours_to_close": 21.73,
     "volume_24h": 19256.19,
-    "score": 0.6751
+    "score": 0.6757
+   },
+   {
+    "label": "Will the maximum temperature be <60\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.74,
+    "volume_24h": 12928.25,
+    "score": 0.6731
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.49,
+    "hours_to_close": 12.24,
     "volume_24h": 2551.23,
-    "score": 0.6691
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 10.98,
-    "volume_24h": 14083.67,
-    "score": 0.6637
+    "score": 0.6706
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 4,
-   "related-market cap (Oil prices)": 1,
    "tracked only (below bet price floor)": 8
   },
-  "watch_added": 5,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -91,7 +91,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -298,7 +298,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.92,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -315,7 +315,7 @@
    "opened_ts": 1793037626,
    "close_ts": 1793167200.0,
    "score": 0.5262,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -14714,17 +14714,22 @@
    1793115927,
    87.0,
    89.56
+  ],
+  [
+   1793116825,
+   87.0,
+   89.66
   ]
  ],
  "last_run": {
-  "ts": 1793115927,
+  "ts": 1793116825,
   "error": null,
-  "markets_scanned": 492,
-  "candidates": 11,
+  "markets_scanned": 542,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 451,
-   "no favorite in 80-95c band": 23,
-   "spread too wide": 7
+   "too little volume": 486,
+   "no favorite in 80-95c band": 29,
+   "spread too wide": 11
   },
   "opened": [],
   "settled": [],
@@ -14734,65 +14739,65 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.23,
-    "volume_24h": 569018.37,
-    "score": 0.6552
+    "hours_to_close": 25.98,
+    "volume_24h": 569047.69,
+    "score": 0.6557
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 26.23,
-    "volume_24h": 1107209.64,
-    "score": 0.6552
+    "hours_to_close": 25.98,
+    "volume_24h": 1117477.78,
+    "score": 0.6557
+   },
+   {
+    "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.98,
+    "volume_24h": 9053.65,
+    "score": 0.6268
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.16,
+    "hours_to_close": 25.91,
     "volume_24h": 1559.32,
-    "score": 0.5948
+    "score": 0.5953
+   },
+   {
+    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 32.9% \u2014 Above 32.9%",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 35.98,
+    "volume_24h": 2870.9,
+    "score": 0.5894
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 26.16,
-    "volume_24h": 2136.19,
-    "score": 0.565
+    "hours_to_close": 25.91,
+    "volume_24h": 2120.19,
+    "score": 0.5653
+   },
+   {
+    "label": "Moonshot AI Vercel share of AI Gateway spend across the top labs above 9.7% \u2014 Above 9.7%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.98,
+    "volume_24h": 592.0,
+    "score": 0.558
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 2645.5,
-    "score": 0.534
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 25.23,
-    "volume_24h": 1641.04,
-    "score": 0.5284
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.23,
-    "volume_24h": 328.15,
-    "score": 0.5161
-   },
-   {
-    "label": "Will the brent crude oil close price be above 107 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $107",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 29.24,
-    "volume_24h": 510.3,
-    "score": 0.5027
+    "score": 0.5345
    }
   ],
   "skipped": {
@@ -14800,7 +14805,7 @@
    "related-market cap (Oil prices)": 1,
    "tracked only (below bet price floor)": 3
   },
-  "watch_added": 0,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

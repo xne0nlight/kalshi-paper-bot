@@ -57,7 +57,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793106000.0,
    "score": 0.5562,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.67,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -221,8 +221,14 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.89,
-   "shadow": {}
+   "mark_price": 0.85,
+   "shadow": {
+    "10": {
+     "ts": 1793072725,
+     "bid": 0.85,
+     "proceeds": 4.2
+    }
+   }
   },
   {
    "id": 248,
@@ -14443,94 +14449,97 @@
    1793071825,
    87.0,
    86.36
+  ],
+  [
+   1793072725,
+   87.0,
+   86.15
   ]
  ],
  "last_run": {
-  "ts": 1793071825,
+  "ts": 1793072725,
   "error": null,
   "markets_scanned": 3965,
-  "candidates": 71,
+  "candidates": 68,
   "rejections": {
-   "too little volume": 3574,
-   "no favorite in 80-95c band": 291,
-   "spread too wide": 28,
-   "nothing for sale at the ask": 1
+   "too little volume": 3570,
+   "no favorite in 80-95c band": 302,
+   "spread too wide": 25
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $77,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 17.49,
-    "volume_24h": 13887.94,
-    "score": 0.6894
-   },
-   {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.48,
-    "volume_24h": 17018.92,
-    "score": 0.6689
+    "hours_to_close": 24.23,
+    "volume_24h": 17099.13,
+    "score": 0.6695
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.48,
+    "hours_to_close": 24.23,
     "volume_24h": 19070.1,
-    "score": 0.6689
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 17.49,
-    "volume_24h": 6690.55,
-    "score": 0.6663
+    "score": 0.6695
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 17.49,
-    "volume_24h": 29272.97,
-    "score": 0.6594
+    "hours_to_close": 17.24,
+    "volume_24h": 29278.97,
+    "score": 0.6604
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 17.24,
+    "volume_24h": 6690.55,
+    "score": 0.6573
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.99,
+    "hours_to_close": 14.74,
     "volume_24h": 2524.97,
-    "score": 0.6552
+    "score": 0.6564
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.48,
-    "volume_24h": 5781.82,
-    "score": 0.6511
+    "hours_to_close": 24.23,
+    "volume_24h": 5625.45,
+    "score": 0.6507
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 13.48,
-    "volume_24h": 13188.76,
-    "score": 0.6478
+    "hours_to_close": 13.23,
+    "volume_24h": 13264.15,
+    "score": 0.6492
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 17.24,
+    "volume_24h": 4730.44,
+    "score": 0.636
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 9,
-   "related-market cap (Oil prices)": 1
+   "tracked only (below bet price floor)": 10
   },
-  "watch_added": 2,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

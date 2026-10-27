@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.63,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.77,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -14569,17 +14569,22 @@
    1793089825,
    87.0,
    85.82
+  ],
+  [
+   1793090725,
+   87.0,
+   85.95
   ]
  ],
  "last_run": {
-  "ts": 1793089825,
+  "ts": 1793090725,
   "error": null,
   "markets_scanned": 3665,
-  "candidates": 70,
+  "candidates": 72,
   "rejections": {
-   "too little volume": 3220,
-   "no favorite in 80-95c band": 329,
-   "spread too wide": 44,
+   "too little volume": 3212,
+   "no favorite in 80-95c band": 342,
+   "spread too wide": 37,
    "nothing for sale at the ask": 2
   },
   "opened": [],
@@ -14590,72 +14595,73 @@
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 12.49,
+    "hours_to_close": 12.24,
     "volume_24h": 39113.2,
-    "score": 0.7036
+    "score": 0.7051
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,250 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 12.49,
+    "hours_to_close": 12.24,
     "volume_24h": 5905.9,
-    "score": 0.6864
+    "score": 0.688
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 12.49,
+    "hours_to_close": 12.24,
     "volume_24h": 12025.79,
-    "score": 0.6836
+    "score": 0.6851
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
-    "volume_24h": 16662.5,
-    "score": 0.6824
+    "hours_to_close": 19.23,
+    "volume_24h": 11662.5,
+    "score": 0.6832
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
+    "hours_to_close": 19.23,
     "volume_24h": 18990.75,
-    "score": 0.6824
+    "score": 0.6832
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,000 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 12.49,
-    "volume_24h": 25121.65,
-    "score": 0.6736
+    "hours_to_close": 12.24,
+    "volume_24h": 25233.56,
+    "score": 0.6751
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.48,
+    "hours_to_close": 19.23,
     "volume_24h": 5550.46,
-    "score": 0.6633
+    "score": 0.6641
    },
    {
     "label": "Will the maximum temperature be >77\u00b0 on Oct 27, 2026? \u2014 78\u00b0 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 8711.35,
-    "score": 0.6567
+    "hours_to_close": 23.24,
+    "volume_24h": 8755.44,
+    "score": 0.6575
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 11
+   "related-market cap (Crypto)": 4,
+   "related-market cap (Oil prices)": 3,
+   "tracked only (below bet price floor)": 9
   },
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

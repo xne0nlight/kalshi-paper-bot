@@ -131,7 +131,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -14828,17 +14828,23 @@
    1793125826,
    87.59,
    90.75
+  ],
+  [
+   1793126726,
+   87.59,
+   90.67
   ]
  ],
  "last_run": {
-  "ts": 1793125826,
+  "ts": 1793126726,
   "error": null,
   "markets_scanned": 838,
-  "candidates": 32,
+  "candidates": 31,
   "rejections": {
    "too little volume": 710,
-   "no favorite in 80-95c band": 82,
-   "spread too wide": 14
+   "no favorite in 80-95c band": 80,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
@@ -14847,74 +14853,74 @@
    {
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.48,
-    "volume_24h": 424666.96,
-    "score": 0.6612
+    "price": 0.95,
+    "hours_to_close": 23.23,
+    "volume_24h": 586834.51,
+    "score": 0.6719
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.48,
-    "volume_24h": 401644.79,
-    "score": 0.6612
+    "hours_to_close": 23.23,
+    "volume_24h": 422961.03,
+    "score": 0.6619
    },
    {
     "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.48,
+    "hours_to_close": 33.23,
     "volume_24h": 4986.39,
-    "score": 0.6005
+    "score": 0.6009
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.41,
-    "volume_24h": 1375.48,
-    "score": 0.5968
+    "hours_to_close": 23.16,
+    "volume_24h": 1512.56,
+    "score": 0.6005
+   },
+   {
+    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 23.16,
+    "volume_24h": 7737.61,
+    "score": 0.5937
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.2 on Oct 28, 2026? \u2014 38.2%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.48,
-    "volume_24h": 438.93,
-    "score": 0.572
+    "hours_to_close": 22.23,
+    "volume_24h": 614.75,
+    "score": 0.5836
    },
    {
     "label": "Will it rain in Dallas on Oct 28, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 1414.24,
-    "score": 0.5669
+    "score": 0.5672
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 22.48,
-    "volume_24h": 2902.29,
-    "score": 0.5535
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 22.48,
-    "volume_24h": 3939.27,
-    "score": 0.5534
+    "hours_to_close": 22.23,
+    "volume_24h": 3067.49,
+    "score": 0.5559
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 2,
-   "tracked only (below bet price floor)": 12,
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 1,
+   "tracked only (below bet price floor)": 10
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

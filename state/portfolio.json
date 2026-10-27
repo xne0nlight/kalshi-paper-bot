@@ -57,7 +57,7 @@
    "opened_ts": 1793023122,
    "close_ts": 1793106000.0,
    "score": 0.5562,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.87,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.83,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -298,7 +298,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -14634,17 +14634,22 @@
    1793101525,
    87.0,
    87.77
+  ],
+  [
+   1793102425,
+   87.0,
+   87.73
   ]
  ],
  "last_run": {
-  "ts": 1793101525,
+  "ts": 1793102425,
   "error": null,
-  "markets_scanned": 458,
-  "candidates": 6,
+  "markets_scanned": 450,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 415,
-   "no favorite in 80-95c band": 30,
-   "spread too wide": 7
+   "too little volume": 409,
+   "no favorite in 80-95c band": 27,
+   "spread too wide": 6
   },
   "opened": [],
   "settled": [],
@@ -14654,55 +14659,71 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.23,
-    "volume_24h": 919335.57,
-    "score": 0.648
+    "hours_to_close": 29.98,
+    "volume_24h": 919342.27,
+    "score": 0.6484
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.23,
-    "volume_24h": 1169032.57,
-    "score": 0.638
+    "hours_to_close": 29.98,
+    "volume_24h": 1167345.87,
+    "score": 0.6384
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 30.16,
+    "hours_to_close": 29.91,
     "volume_24h": 3241.93,
-    "score": 0.5714
+    "score": 0.5718
    },
    {
     "label": "Will Bank of Canada hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "yes",
     "price": 0.84,
-    "hours_to_close": 25.73,
-    "volume_24h": 18312.57,
-    "score": 0.5562
+    "hours_to_close": 25.48,
+    "volume_24h": 18538.29,
+    "score": 0.5567
    },
    {
     "label": "Will Bank of Canada maintain the current rate at their October 2026 meeting? \u2014 Maintains rate",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 25.73,
+    "hours_to_close": 25.48,
     "volume_24h": 16030.5,
-    "score": 0.5462
+    "score": 0.5467
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.16,
-    "volume_24h": 1818.35,
-    "score": 0.5426
+    "hours_to_close": 29.91,
+    "volume_24h": 2008.52,
+    "score": 0.5462
+   },
+   {
+    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
+    "side": "yes",
+    "price": 0.81,
+    "hours_to_close": 29.91,
+    "volume_24h": 1041.79,
+    "score": 0.3448
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 32.99,
+    "volume_24h": 227.0,
+    "score": 0.3207
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 2
+   "tracked only (below bet price floor)": 4
   },
-  "watch_added": 0,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

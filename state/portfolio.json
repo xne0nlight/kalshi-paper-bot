@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.93,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.87,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -281,7 +281,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1793050225,
    "close_ts": 1793134800.0,
    "score": 0.616,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -14654,17 +14654,22 @@
    1793105125,
    87.0,
    88.45
+  ],
+  [
+   1793106026,
+   87.0,
+   88.32
   ]
  ],
  "last_run": {
-  "ts": 1793105125,
+  "ts": 1793106026,
   "error": null,
-  "markets_scanned": 481,
+  "markets_scanned": 476,
   "candidates": 7,
   "rejections": {
-   "too little volume": 437,
-   "no favorite in 80-95c band": 30,
-   "spread too wide": 7
+   "too little volume": 435,
+   "no favorite in 80-95c band": 26,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
@@ -14674,57 +14679,57 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.23,
-    "volume_24h": 875052.01,
-    "score": 0.6496
+    "hours_to_close": 28.98,
+    "volume_24h": 875675.44,
+    "score": 0.65
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 29.23,
-    "volume_24h": 1161425.55,
-    "score": 0.6396
+    "price": 0.94,
+    "hours_to_close": 28.98,
+    "volume_24h": 1163551.43,
+    "score": 0.65
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 29.16,
+    "hours_to_close": 28.91,
     "volume_24h": 2082.0,
-    "score": 0.5886
+    "score": 0.5891
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 29.16,
+    "hours_to_close": 28.91,
     "volume_24h": 3113.93,
-    "score": 0.5717
+    "score": 0.5722
    },
    {
     "label": "Will Bank of Canada hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "yes",
     "price": 0.84,
-    "hours_to_close": 24.73,
+    "hours_to_close": 24.48,
     "volume_24h": 18164.2,
-    "score": 0.5583
+    "score": 0.5589
    },
    {
     "label": "Will Bank of Canada maintain the current rate at their October 2026 meeting? \u2014 Maintains rate",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 24.73,
-    "volume_24h": 15908.59,
-    "score": 0.5483
+    "hours_to_close": 24.48,
+    "volume_24h": 15910.93,
+    "score": 0.5489
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
     "side": "yes",
     "price": 0.8,
-    "hours_to_close": 29.16,
+    "hours_to_close": 28.91,
     "volume_24h": 844.41,
-    "score": 0.3793
+    "score": 0.3797
    }
   ],
   "skipped": {

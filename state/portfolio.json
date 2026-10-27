@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -169,7 +169,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -332,7 +332,7 @@
    "opened_ts": 1793050225,
    "close_ts": 1793134800.0,
    "score": 0.616,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -14684,17 +14684,22 @@
    1793110526,
    87.0,
    89.05
+  ],
+  [
+   1793111426,
+   87.0,
+   89.1
   ]
  ],
  "last_run": {
-  "ts": 1793110526,
+  "ts": 1793111426,
   "error": null,
   "markets_scanned": 512,
   "candidates": 9,
   "rejections": {
-   "too little volume": 473,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 5
+   "too little volume": 472,
+   "no favorite in 80-95c band": 27,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
@@ -14704,73 +14709,73 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.73,
-    "volume_24h": 640715.54,
-    "score": 0.6523
+    "hours_to_close": 27.48,
+    "volume_24h": 631802.58,
+    "score": 0.6527
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 27.73,
-    "volume_24h": 1152086.54,
-    "score": 0.6523
+    "hours_to_close": 27.48,
+    "volume_24h": 1152173.75,
+    "score": 0.6527
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.66,
-    "volume_24h": 2150.4,
-    "score": 0.6023
+    "hours_to_close": 27.41,
+    "volume_24h": 2130.67,
+    "score": 0.6025
    },
    {
     "label": "Will Bank of Canada hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 23.23,
-    "volume_24h": 18104.2,
-    "score": 0.5719
+    "price": 0.86,
+    "hours_to_close": 22.98,
+    "volume_24h": 18061.16,
+    "score": 0.5825
    },
    {
     "label": "Will Bank of Canada maintain the current rate at their October 2026 meeting? \u2014 Maintains rate",
     "side": "no",
-    "price": 0.84,
-    "hours_to_close": 23.23,
-    "volume_24h": 16873.28,
-    "score": 0.5619
+    "price": 0.85,
+    "hours_to_close": 22.98,
+    "volume_24h": 16915.28,
+    "score": 0.5725
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.66,
+    "hours_to_close": 27.41,
     "volume_24h": 2425.19,
-    "score": 0.5163
+    "score": 0.5167
    },
    {
     "label": "Will the brent crude oil close price be above 107 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $107",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 500.0,
-    "score": 0.4996
+    "score": 0.5
    },
    {
-    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
-    "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 27.66,
-    "volume_24h": 1535.41,
-    "score": 0.4614
+    "label": "How many dissenting votes at the next Fed meeting? \u2014 0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 27.48,
+    "volume_24h": 3127.78,
+    "score": 0.4649
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 3,
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 1,
+   "tracked only (below bet price floor)": 2
   },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

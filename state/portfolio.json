@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.68,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -231,7 +231,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -322,7 +322,7 @@
    "opened_ts": 1793050225,
    "close_ts": 1793134800.0,
    "score": 0.616,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -339,7 +339,7 @@
    "opened_ts": 1793050225,
    "close_ts": 1793170800.0,
    "score": 0.5841,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -14529,17 +14529,23 @@
    1793084425,
    87.0,
    86.46
+  ],
+  [
+   1793085329,
+   87.0,
+   86.14
   ]
  ],
  "last_run": {
-  "ts": 1793084425,
+  "ts": 1793085329,
   "error": null,
   "markets_scanned": 3640,
-  "candidates": 76,
+  "candidates": 72,
   "rejections": {
-   "too little volume": 3201,
-   "no favorite in 80-95c band": 330,
-   "spread too wide": 33
+   "too little volume": 3199,
+   "no favorite in 80-95c band": 333,
+   "spread too wide": 35,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -14549,73 +14555,73 @@
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 27, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 9.98,
-    "volume_24h": 9949.27,
-    "score": 0.7313
+    "hours_to_close": 9.73,
+    "volume_24h": 9995.18,
+    "score": 0.7335
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $77,750 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 13.99,
+    "hours_to_close": 13.74,
     "volume_24h": 15089.94,
-    "score": 0.695
-   },
-   {
-    "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.98,
-    "volume_24h": 16584.32,
-    "score": 0.6778
-   },
-   {
-    "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.98,
-    "volume_24h": 18756.19,
-    "score": 0.6778
-   },
-   {
-    "label": "Will the maximum temperature be <60\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 13006.7,
-    "score": 0.675
-   },
-   {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.99,
-    "volume_24h": 23972.54,
-    "score": 0.675
+    "score": 0.6964
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,250 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 13.99,
-    "volume_24h": 5221.09,
-    "score": 0.6739
+    "hours_to_close": 13.74,
+    "volume_24h": 5896.9,
+    "score": 0.6792
+   },
+   {
+    "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.73,
+    "volume_24h": 16584.32,
+    "score": 0.6786
+   },
+   {
+    "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.73,
+    "volume_24h": 18756.19,
+    "score": 0.6786
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,000 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 13.74,
+    "volume_24h": 24948.2,
+    "score": 0.6764
+   },
+   {
+    "label": "Will the maximum temperature be <60\u00b0 on Oct 27, 2026? \u2014 59\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.74,
+    "volume_24h": 13024.57,
+    "score": 0.6757
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 27, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 9.98,
-    "volume_24h": 14105.2,
-    "score": 0.6714
+    "hours_to_close": 9.73,
+    "volume_24h": 14151.11,
+    "score": 0.6735
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 1,
-   "tracked only (below bet price floor)": 10,
-   "related-market cap (Crypto)": 5
+   "tracked only (below bet price floor)": 9,
+   "related-market cap (Crypto)": 2
   },
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

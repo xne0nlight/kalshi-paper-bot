@@ -91,7 +91,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793149140.0,
    "score": 0.4854,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -108,7 +108,7 @@
    "opened_ts": 1793023388,
    "close_ts": 1793125800.0,
    "score": 0.4621,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793030426,
@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -236,12 +236,17 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.84,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793072725,
      "bid": 0.85,
      "proceeds": 4.2
+    },
+    "15": {
+     "ts": 1793089825,
+     "bid": 0.77,
+     "proceeds": 3.78
     }
    }
   },
@@ -310,7 +315,7 @@
    "opened_ts": 1793037626,
    "close_ts": 1793167200.0,
    "score": 0.5262,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -14559,93 +14564,98 @@
    1793088925,
    87.0,
    86.26
+  ],
+  [
+   1793089825,
+   87.0,
+   85.82
   ]
  ],
  "last_run": {
-  "ts": 1793088925,
+  "ts": 1793089825,
   "error": null,
   "markets_scanned": 3665,
-  "candidates": 71,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 3221,
-   "no favorite in 80-95c band": 334,
-   "spread too wide": 38,
-   "nothing for sale at the ask": 1
+   "too little volume": 3220,
+   "no favorite in 80-95c band": 329,
+   "spread too wide": 44,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 27, 2026? \u2014 Above $99.49",
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 10.24,
-    "volume_24h": 10659.79,
-    "score": 0.7293
+    "price": 0.94,
+    "hours_to_close": 12.49,
+    "volume_24h": 39113.2,
+    "score": 0.7036
    },
    {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,250 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.74,
-    "volume_24h": 11708.85,
-    "score": 0.712
+    "price": 0.94,
+    "hours_to_close": 12.49,
+    "volume_24h": 5905.9,
+    "score": 0.6864
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 12.74,
+    "price": 0.92,
+    "hours_to_close": 12.49,
     "volume_24h": 12025.79,
-    "score": 0.692
+    "score": 0.6836
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.73,
+    "hours_to_close": 19.48,
     "volume_24h": 16662.5,
-    "score": 0.6816
+    "score": 0.6824
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.73,
+    "hours_to_close": 19.48,
     "volume_24h": 18990.75,
-    "score": 0.6816
+    "score": 0.6824
    },
    {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,250 or above",
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 12.74,
-    "volume_24h": 5905.9,
-    "score": 0.6749
+    "price": 0.91,
+    "hours_to_close": 12.49,
+    "volume_24h": 25121.65,
+    "score": 0.6736
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.73,
+    "hours_to_close": 19.48,
     "volume_24h": 5550.46,
-    "score": 0.6625
+    "score": 0.6633
    },
    {
-    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 12.74,
-    "volume_24h": 39113.2,
-    "score": 0.662
+    "label": "Will the maximum temperature be >77\u00b0 on Oct 27, 2026? \u2014 78\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 8711.35,
+    "score": 0.6567
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 6,
-   "tracked only (below bet price floor)": 12
+   "related-market cap (Crypto)": 5,
+   "tracked only (below bet price floor)": 11
   },
-  "watch_added": 3,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

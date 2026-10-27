@@ -276,7 +276,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.3421,
-   "mark_price": 0.87,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -327,7 +327,7 @@
    "opened_ts": 1793050225,
    "close_ts": 1793134800.0,
    "score": 0.616,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -14554,18 +14554,23 @@
    1793088024,
    87.0,
    86.01
+  ],
+  [
+   1793088925,
+   87.0,
+   86.26
   ]
  ],
  "last_run": {
-  "ts": 1793088024,
+  "ts": 1793088925,
   "error": null,
   "markets_scanned": 3665,
-  "candidates": 64,
+  "candidates": 71,
   "rejections": {
-   "too little volume": 3228,
-   "no favorite in 80-95c band": 326,
-   "spread too wide": 45,
-   "nothing for sale at the ask": 2
+   "too little volume": 3221,
+   "no favorite in 80-95c band": 334,
+   "spread too wide": 38,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -14574,73 +14579,73 @@
    {
     "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 27, 2026? \u2014 Above $99.49",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 10.49,
-    "volume_24h": 6578.15,
-    "score": 0.6837
+    "price": 0.95,
+    "hours_to_close": 10.24,
+    "volume_24h": 10659.79,
+    "score": 0.7293
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 12.74,
+    "volume_24h": 11708.85,
+    "score": 0.712
+   },
+   {
+    "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 12.74,
+    "volume_24h": 12025.79,
+    "score": 0.692
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 16662.5,
-    "score": 0.6808
+    "score": 0.6816
    },
    {
     "label": "Will Jenna Dewan and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 18990.75,
-    "score": 0.6808
+    "score": 0.6816
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $81,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.99,
-    "volume_24h": 5896.9,
-    "score": 0.6734
+    "hours_to_close": 12.74,
+    "volume_24h": 5905.9,
+    "score": 0.6749
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.98,
+    "hours_to_close": 19.73,
     "volume_24h": 5550.46,
-    "score": 0.6617
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 98.49 USD/Bbl on Oct 27, 2026? \u2014 Above $98.49",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 10.49,
-    "volume_24h": 1450.83,
-    "score": 0.6545
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Oct 27, 2026? \u2014 Above $98.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 10.49,
-    "volume_24h": 1341.29,
-    "score": 0.6519
+    "score": 0.6625
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 12.99,
+    "price": 0.95,
+    "hours_to_close": 12.74,
     "volume_24h": 39113.2,
-    "score": 0.6506
+    "score": 0.662
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 4,
-   "tracked only (below bet price floor)": 8
+   "related-market cap (Crypto)": 6,
+   "tracked only (below bet price floor)": 12
   },
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

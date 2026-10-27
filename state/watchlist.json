@@ -28806,7 +28806,7 @@
    "series": "KXHIGHTLV",
    "seen_ts": 1792785626,
    "close_ts": 1792915200.0,
-   "won": null,
+   "won": false,
    "vol24": 422,
    "spread": 0.03,
    "group": null,
@@ -29196,7 +29196,7 @@
    "series": "KXHIGHTLV",
    "seen_ts": 1792797331,
    "close_ts": 1792915200.0,
-   "won": null,
+   "won": true,
    "vol24": 225,
    "spread": 0.01,
    "group": null,
@@ -29250,7 +29250,7 @@
    "series": "KXHIGHTBOS",
    "seen_ts": 1792798227,
    "close_ts": 1792904400.0,
-   "won": null,
+   "won": false,
    "vol24": 548,
    "spread": 0.01,
    "group": null,
@@ -29348,7 +29348,7 @@
    "series": "KXHIGHTLV",
    "seen_ts": 1792800927,
    "close_ts": 1792915200.0,
-   "won": null,
+   "won": false,
    "vol24": 544,
    "spread": 0.01,
    "group": null,
@@ -35018,7 +35018,7 @@
    "group": "Fed / interest rates",
    "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
    "last_price": 0.94,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXFEDDECISION-26OCT-H0": {
    "side": "yes",
@@ -35032,7 +35032,7 @@
    "group": "Fed / interest rates",
    "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
    "last_price": 0.94,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXFED-26OCT-T4.00": {
    "side": "no",
@@ -35046,7 +35046,7 @@
    "group": "Fed / interest rates",
    "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
    "last_price": 0.94,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXFEDCOMBO-26OCT-0-0": {
    "side": "no",
@@ -35060,7 +35060,7 @@
    "group": null,
    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
    "last_price": 0.9,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXRAIN-26OCT27-OKC": {
    "side": "no",
@@ -35198,7 +35198,7 @@
    "group": "Fed / interest rates",
    "label": "How many dissenting votes at the next Fed meeting? \u2014 0",
    "last_price": 0.84,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXSILVERD-26OCT2717-T53.50": {
    "side": "no",
@@ -35390,7 +35390,7 @@
    "group": "Presidential approval",
    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
    "last_price": 0.87,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXTRUMPAPPROVE-26OCT28-E38.7": {
    "side": "no",
@@ -35404,7 +35404,7 @@
    "group": "Presidential approval",
    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
    "last_price": 0.87,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXTRUMPAPPROVE-26OCT28-A38.7": {
    "side": "no",
@@ -35446,7 +35446,7 @@
    "group": "Presidential approval",
    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 28, 2026? \u2014 38.4%",
    "last_price": 0.81,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXOPENVREQ-28OCT26-T22P0": {
    "side": "no",
@@ -35460,7 +35460,7 @@
    "group": null,
    "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
    "last_price": 0.93,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXANTHVSPEND-28OCT26-T32P9": {
    "side": "yes",
@@ -35500,7 +35500,7 @@
    "group": null,
    "label": "Will the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) be exactly 8.5 on Oct 28, 2026? \u2014 8.5%",
    "last_price": 0.94,
-   "last_ts": 1793117725
+   "last_ts": 1793118626
   },
   "KXMOONVSPEND-28OCT26-T11P6": {
    "side": "no",
@@ -35526,7 +35526,21 @@
    "vol24": 316,
    "spread": 0.01,
    "group": null,
-   "label": "Will the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) be exactly 8.4 on Oct 28, 2026? \u2014 8.4%"
+   "label": "Will the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) be exactly 8.4 on Oct 28, 2026? \u2014 8.4%",
+   "last_price": 0.95,
+   "last_ts": 1793118626
+  },
+  "KXMOONVSPEND-28OCT26-T7P8": {
+   "side": "no",
+   "price": 0.8,
+   "series": "KXMOONVSPEND",
+   "seen_ts": 1793118626,
+   "close_ts": 1793246340.0,
+   "won": null,
+   "vol24": 5375,
+   "spread": 0.02,
+   "group": null,
+   "label": "Moonshot AI Vercel share of AI Gateway spend across the top labs above 7.8% \u2014 Above 7.8%"
   }
  }
 }

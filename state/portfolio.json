@@ -186,7 +186,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793068224,
@@ -236,7 +236,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793072725,
@@ -14694,18 +14694,22 @@
    1793112326,
    87.0,
    89.26
+  ],
+  [
+   1793113225,
+   87.0,
+   89.39
   ]
  ],
  "last_run": {
-  "ts": 1793112326,
+  "ts": 1793113225,
   "error": null,
-  "markets_scanned": 512,
-  "candidates": 9,
+  "markets_scanned": 492,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 469,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 8,
-   "favorite is slipping fast": 1
+   "too little volume": 451,
+   "no favorite in 80-95c band": 24,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -14715,73 +14719,73 @@
     "label": "Will the Federal Reserve Hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.23,
-    "volume_24h": 632743.22,
-    "score": 0.6532
+    "hours_to_close": 26.98,
+    "volume_24h": 567356.48,
+    "score": 0.6537
    },
    {
     "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 27.23,
-    "volume_24h": 1150801.61,
-    "score": 0.6532
+    "hours_to_close": 26.98,
+    "volume_24h": 1140291.18,
+    "score": 0.6537
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.16,
-    "volume_24h": 2156.67,
-    "score": 0.6034
-   },
-   {
-    "label": "Will Bank of Canada hike rates by 25bps at their October 2026 meeting? \u2014 Hike 25bps",
-    "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 22.73,
-    "volume_24h": 17552.42,
-    "score": 0.5331
-   },
-   {
-    "label": "Will Bank of Canada maintain the current rate at their October 2026 meeting? \u2014 Maintains rate",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 22.73,
-    "volume_24h": 17756.2,
-    "score": 0.5231
+    "hours_to_close": 26.91,
+    "volume_24h": 2059.32,
+    "score": 0.6024
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.16,
+    "hours_to_close": 26.91,
     "volume_24h": 2136.19,
-    "score": 0.5131
-   },
-   {
-    "label": "Will the brent crude oil close price be above 107 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $107",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 30.24,
-    "volume_24h": 500.3,
-    "score": 0.5004
+    "score": 0.5635
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 26.23,
-    "volume_24h": 2548.9,
-    "score": 0.4807
+    "hours_to_close": 25.98,
+    "volume_24h": 2605.7,
+    "score": 0.5319
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 25.98,
+    "volume_24h": 1641.04,
+    "score": 0.5268
+   },
+   {
+    "label": "Will the brent crude oil close price be above 107 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $107",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 29.99,
+    "volume_24h": 500.3,
+    "score": 0.5009
+   },
+   {
+    "label": "How many dissenting votes at the next Fed meeting? \u2014 0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 26.98,
+    "volume_24h": 3227.78,
+    "score": 0.4669
    }
   ],
   "skipped": {
+   "related-market cap (Presidential approval)": 2,
    "related-market cap (Oil prices)": 1,
-   "related-market cap (Presidential approval)": 1,
-   "tracked only (below bet price floor)": 1
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

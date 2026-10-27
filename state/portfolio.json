@@ -131,7 +131,7 @@
    "opened_ts": 1793024124,
    "close_ts": 1793120340.0,
    "score": 0.5374,
-   "mark_price": 0.67,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1793043925,
@@ -181,7 +181,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5264,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -215,7 +215,7 @@
    "opened_ts": 1793034025,
    "close_ts": 1793163600.0,
    "score": 0.5084,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -266,7 +266,7 @@
    "opened_ts": 1793034927,
    "close_ts": 1793163600.0,
    "score": 0.4735,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -14382,18 +14382,23 @@
    1793061924,
    87.0,
    86.8
+  ],
+  [
+   1793062824,
+   87.0,
+   86.68
   ]
  ],
  "last_run": {
-  "ts": 1793061924,
+  "ts": 1793062824,
   "error": null,
   "markets_scanned": 3868,
   "candidates": 56,
   "rejections": {
-   "too little volume": 3524,
-   "no favorite in 80-95c band": 261,
-   "spread too wide": 26,
-   "nothing for sale at the ask": 1
+   "too little volume": 3520,
+   "no favorite in 80-95c band": 265,
+   "spread too wide": 25,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -14403,73 +14408,73 @@
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 28062.93,
-    "score": 0.68
+    "hours_to_close": 19.99,
+    "volume_24h": 28199.93,
+    "score": 0.6808
    },
    {
     "label": "Will Trump's RCP approval average be below 38.2 on Oct 27, 2026? \u2014 Below 38.2%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 16.23,
-    "volume_24h": 34610.83,
-    "score": 0.6545
+    "hours_to_close": 15.98,
+    "volume_24h": 34630.44,
+    "score": 0.6556
    },
    {
     "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.23,
-    "volume_24h": 5762.66,
-    "score": 0.6453
+    "hours_to_close": 26.98,
+    "volume_24h": 5761.62,
+    "score": 0.6457
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.24,
+    "hours_to_close": 19.99,
     "volume_24h": 3369.42,
-    "score": 0.6346
+    "score": 0.6354
    },
    {
     "label": "Bitcoin price on Oct 27, 2026? \u2014 $78,250 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 20.24,
+    "hours_to_close": 19.99,
     "volume_24h": 2481.73,
-    "score": 0.6246
+    "score": 0.6254
    },
    {
-    "label": "Will the gold close price be above 4108 USD/t.oz on October 27, 2026 at 5:00 PM EDT? \u2014 Above $4108",
+    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 27, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 1433.86,
-    "score": 0.6168
+    "hours_to_close": 27.99,
+    "volume_24h": 3052.88,
+    "score": 0.6231
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 17.74,
+    "hours_to_close": 17.49,
     "volume_24h": 1602.61,
-    "score": 0.6088
+    "score": 0.6098
    },
    {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Oct 27, 2026? \u2014 53\u00b0 to 54\u00b0",
+    "label": "Will the gold close price be above 4108 USD/t.oz on October 27, 2026 at 5:00 PM EDT? \u2014 Above $4108",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 1887.6,
-    "score": 0.607
+    "price": 0.94,
+    "hours_to_close": 19.99,
+    "volume_24h": 1443.86,
+    "score": 0.6078
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 4,
-   "tracked only (below bet price floor)": 6,
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 1,
+   "related-market cap (Crypto)": 2,
+   "tracked only (below bet price floor)": 6
   },
-  "watch_added": 7,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

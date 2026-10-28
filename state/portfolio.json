@@ -129,7 +129,7 @@
    "opened_ts": 1793186126,
    "close_ts": 1793282400.0,
    "score": 0.6142,
-   "mark_price": 0.79,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793212226,
@@ -157,7 +157,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -174,7 +174,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -191,7 +191,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -15695,17 +15695,22 @@
    1793212226,
    88.84,
    86.4
+  ],
+  [
+   1793213126,
+   88.84,
+   86.74
   ]
  ],
  "last_run": {
-  "ts": 1793212226,
+  "ts": 1793213126,
   "error": null,
   "markets_scanned": 617,
-  "candidates": 12,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 554,
-   "no favorite in 80-95c band": 48,
-   "spread too wide": 3
+   "too little volume": 546,
+   "no favorite in 80-95c band": 53,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
@@ -15715,71 +15720,72 @@
     "label": "Will it rain in Houston on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 1302.75,
-    "score": 0.5743
+    "score": 0.5746
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 428.0,
-    "score": 0.5493
+    "score": 0.5496
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 1414.09,
-    "score": 0.5369
+    "score": 0.5372
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 262.19,
-    "score": 0.5334
+    "score": 0.5337
    },
    {
     "label": "Will it rain in College Station on Oct 29, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.49,
-    "volume_24h": 1354.84,
-    "score": 0.5255
+    "hours_to_close": 35.24,
+    "volume_24h": 1355.84,
+    "score": 0.5259
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.49,
-    "volume_24h": 407.95,
-    "score": 0.5177
+    "hours_to_close": 34.24,
+    "volume_24h": 424.05,
+    "score": 0.5193
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 295.6,
-    "score": 0.5173
+    "score": 0.5176
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.49,
-    "volume_24h": 354.27,
-    "score": 0.5032
+    "hours_to_close": 34.24,
+    "volume_24h": 471.3,
+    "score": 0.5127
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Oil prices)": 2,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

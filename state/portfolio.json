@@ -254,7 +254,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.77,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -326,7 +326,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793154625,
    "close_ts": 1793212200.0,
    "score": 0.6301,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -15229,91 +15229,96 @@
    1793175324,
    84.12,
    86.9
+  ],
+  [
+   1793176227,
+   84.12,
+   86.98
   ]
  ],
  "last_run": {
-  "ts": 1793175324,
+  "ts": 1793176227,
   "error": null,
   "markets_scanned": 3865,
   "candidates": 74,
   "rejections": {
    "too little volume": 3417,
-   "no favorite in 80-95c band": 330,
-   "spread too wide": 44
+   "no favorite in 80-95c band": 336,
+   "spread too wide": 38
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 12.74,
-    "volume_24h": 7432.84,
-    "score": 0.6724
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,400 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 12.74,
-    "volume_24h": 4881.62,
-    "score": 0.6687
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,200 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 12.74,
-    "volume_24h": 2599.48,
-    "score": 0.6682
-   },
-   {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 10.24,
+    "price": 0.94,
+    "hours_to_close": 9.99,
     "volume_24h": 1893.38,
-    "score": 0.6551
+    "score": 0.6671
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,300 or above",
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,800 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 12.74,
-    "volume_24h": 2336.56,
-    "score": 0.6547
+    "price": 0.91,
+    "hours_to_close": 12.49,
+    "volume_24h": 5923.33,
+    "score": 0.6565
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 12.74,
-    "volume_24h": 1814.06,
-    "score": 0.6465
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 12.49,
+    "volume_24h": 7432.84,
+    "score": 0.6539
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,700 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 12.49,
+    "volume_24h": 3629.21,
+    "score": 0.6506
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 4716.1,
-    "score": 0.6461
+    "score": 0.6467
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $80,000 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 12.49,
+    "volume_24h": 17301.73,
+    "score": 0.6436
+   },
+   {
+    "label": "Ethereum price at Oct 28, 2026 at 5pm EDT? \u2014 $2,300 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 12.49,
+    "volume_24h": 2147.18,
+    "score": 0.6435
    },
    {
     "label": "Will the WTI crude oil settlement price be above 98.49 USD/Bbl on Oct 28, 2026? \u2014 Above $98.49",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 10.24,
+    "hours_to_close": 9.99,
     "volume_24h": 2272.35,
-    "score": 0.641
+    "score": 0.6431
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 4,
-   "tracked only (below bet price floor)": 13,
-   "related-market cap (Oil prices)": 3
+   "related-market cap (Crypto)": 5,
+   "related-market cap (Oil prices)": 3,
+   "tracked only (below bet price floor)": 14
   },
   "watch_added": 6,
   "watch_graded": 0,

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.66,
- "fees_paid": 6.62,
+ "cash": 14.44,
+ "fees_paid": 6.68,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 273,
+ "next_id": 274,
  "open_positions": [
   {
    "id": 255,
@@ -129,7 +129,7 @@
    "opened_ts": 1793186126,
    "close_ts": 1793282400.0,
    "score": 0.6142,
-   "mark_price": 0.88,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793212226,
@@ -174,7 +174,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -191,7 +191,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -338,7 +338,24 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 273,
+   "ticker": "KXGOLDD-26OCT2917-T3997",
+   "event_ticker": "KXGOLDD-26OCT2917",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1793214927,
+   "close_ts": 1793307600.0,
+   "score": 0.5189,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -15722,20 +15739,25 @@
    1793214026,
    88.84,
    86.77
+  ],
+  [
+   1793214927,
+   88.84,
+   87.36
   ]
  ],
  "last_run": {
-  "ts": 1793214026,
+  "ts": 1793214927,
   "error": null,
   "markets_scanned": 644,
-  "candidates": 15,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 566,
-   "no favorite in 80-95c band": 59,
-   "spread too wide": 4
+   "too little volume": 560,
+   "no favorite in 80-95c band": 63,
+   "spread too wide": 3
   },
   "opened": [
-   272
+   273
   ],
   "settled": [],
   "halt": null,
@@ -15744,72 +15766,72 @@
     "label": "Will it rain in Houston on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 1302.75,
-    "score": 0.5749
+    "score": 0.5752
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 1716.39,
-    "score": 0.5526
+    "hours_to_close": 35.74,
+    "volume_24h": 1722.39,
+    "score": 0.553
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 428.0,
-    "score": 0.5499
+    "score": 0.5503
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.99,
-    "volume_24h": 1414.09,
-    "score": 0.5375
+    "hours_to_close": 34.74,
+    "volume_24h": 1424.28,
+    "score": 0.5381
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 262.19,
-    "score": 0.534
-   },
-   {
-    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 29, 2026? \u2014 84\u00b0 to 85\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 218.38,
-    "score": 0.5256
+    "score": 0.5344
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 424.05,
-    "score": 0.5196
+    "score": 0.52
+   },
+   {
+    "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
+    "side": "yes",
+    "price": 0.86,
+    "hours_to_close": 25.74,
+    "volume_24h": 1724.13,
+    "score": 0.5189
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 295.6,
-    "score": 0.5179
+    "hours_to_close": 33.74,
+    "volume_24h": 300.73,
+    "score": 0.5188
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 1,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Oil prices)": 2,
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

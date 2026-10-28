@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.52,
- "fees_paid": 6.27,
+ "cash": 8.75,
+ "fees_paid": 6.29,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 260,
+ "next_id": 261,
  "open_positions": [
   {
    "id": 238,
@@ -59,44 +59,6 @@
    "score": 0.5234,
    "mark_price": 0.88,
    "shadow": {}
-  },
-  {
-   "id": 244,
-   "ticker": "KXDWTSELIMINATION-26OCT28-JSTIL",
-   "event_ticker": "KXDWTSELIMINATION-26OCT28",
-   "series": "KXDWTSELIMINATION",
-   "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793030426,
-   "close_ts": 1793159940.0,
-   "score": 0.5896,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793146527,
-     "bid": 0.78,
-     "proceeds": 3.83
-    },
-    "15": {
-     "ts": 1793146527,
-     "bid": 0.78,
-     "proceeds": 3.83
-    },
-    "20": {
-     "ts": 1793147426,
-     "bid": 0.73,
-     "proceeds": 3.58
-    },
-    "30": {
-     "ts": 1793150124,
-     "bid": 0.62,
-     "proceeds": 3.01
-    }
-   }
   },
   {
    "id": 245,
@@ -364,7 +326,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -381,7 +343,24 @@
    "opened_ts": 1793154625,
    "close_ts": 1793212200.0,
    "score": 0.6301,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 260,
+   "ticker": "KXHIGHLAX-26OCT28-B71.5",
+   "event_ticker": "KXHIGHLAX-26OCT28",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793159124,
+   "close_ts": 1793260800.0,
+   "score": 0.6127,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -6546,6 +6525,48 @@
    "result": "NO",
    "closed_ts": 1793154625,
    "won": false
+  },
+  {
+   "id": 244,
+   "ticker": "KXDWTSELIMINATION-26OCT28-JSTIL",
+   "event_ticker": "KXDWTSELIMINATION-26OCT28",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Julia Stiles and their partner be eliminated from Dancing with the Stars Season 35 before Oct 28, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793030426,
+   "close_ts": 1793159940.0,
+   "score": 0.5896,
+   "shadow": {
+    "10": {
+     "ts": 1793146527,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1793146527,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "20": {
+     "ts": 1793147426,
+     "bid": 0.73,
+     "proceeds": 3.58
+    },
+    "30": {
+     "ts": 1793150124,
+     "bid": 0.62,
+     "proceeds": 3.01
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793159124,
+   "won": true
   }
  ],
  "equity_history": [
@@ -15113,93 +15134,103 @@
    1793158230,
    83.89,
    86.83
+  ],
+  [
+   1793159124,
+   84.12,
+   86.92
   ]
  ],
  "last_run": {
-  "ts": 1793158230,
+  "ts": 1793159124,
   "error": null,
   "markets_scanned": 4252,
-  "candidates": 86,
+  "candidates": 81,
   "rejections": {
-   "too little volume": 3868,
-   "no favorite in 80-95c band": 268,
-   "spread too wide": 30
+   "too little volume": 3866,
+   "no favorite in 80-95c band": 273,
+   "spread too wide": 31,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   260
+  ],
+  "settled": [
+   244
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 13.48,
+    "hours_to_close": 13.23,
     "volume_24h": 6582.09,
-    "score": 0.6742
+    "score": 0.6756
    },
    {
     "label": "Will Trump's RCP approval average be above 38.7 on Oct 28, 2026? \u2014 Above 38.7%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 13.48,
-    "volume_24h": 27549.37,
-    "score": 0.6678
+    "hours_to_close": 13.23,
+    "volume_24h": 28574.21,
+    "score": 0.6692
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.49,
-    "volume_24h": 5455.29,
-    "score": 0.6597
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.49,
-    "volume_24h": 2823.41,
-    "score": 0.6382
+    "price": 0.92,
+    "hours_to_close": 17.24,
+    "volume_24h": 5731.47,
+    "score": 0.6422
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 13.48,
-    "volume_24h": 9104.96,
-    "score": 0.6348
+    "hours_to_close": 13.23,
+    "volume_24h": 9105.96,
+    "score": 0.6362
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,100 or above",
+    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 14.74,
+    "volume_24h": 1822.38,
+    "score": 0.6358
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,200 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 17.49,
-    "volume_24h": 7588.62,
-    "score": 0.6304
+    "hours_to_close": 17.24,
+    "volume_24h": 1864.7,
+    "score": 0.6357
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 13.48,
+    "hours_to_close": 13.23,
     "volume_24h": 5816.7,
-    "score": 0.6302
+    "score": 0.6316
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,200 or above",
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,300 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.49,
-    "volume_24h": 1864.7,
-    "score": 0.6247
+    "price": 0.95,
+    "hours_to_close": 17.24,
+    "volume_24h": 1561.99,
+    "score": 0.6299
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 14,
+   "related-market cap (Crypto)": 7,
+   "tracked only (below bet price floor)": 13,
    "related-market cap (Oil prices)": 2
   },
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

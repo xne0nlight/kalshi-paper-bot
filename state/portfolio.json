@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 48.04,
- "fees_paid": 6.39,
+ "cash": 43.32,
+ "fees_paid": 6.41,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 264,
+ "next_id": 265,
  "open_positions": [
   {
    "id": 254,
@@ -23,7 +23,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793210340.0,
    "score": 0.6573,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1793159124,
    "close_ts": 1793260800.0,
    "score": 0.6127,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -198,6 +198,23 @@
    "close_ts": 1793289540.0,
    "score": 0.4584,
    "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 264,
+   "ticker": "KXYTTOPSONGGW-26OCT29-YES",
+   "event_ticker": "KXYTTOPSONGGW-26OCT29",
+   "series": "KXYTTOPSONGGW",
+   "label": "Will Yeshanagula rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793203227,
+   "close_ts": 1793332740.0,
+   "score": 0.5546,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -15474,33 +15491,58 @@
    1793202330,
    88.33,
    87.76
+  ],
+  [
+   1793203227,
+   88.33,
+   87.84
   ]
  ],
  "last_run": {
-  "ts": 1793202330,
+  "ts": 1793203227,
   "error": null,
-  "markets_scanned": 334,
-  "candidates": 1,
+  "markets_scanned": 323,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 307,
-   "no favorite in 80-95c band": 23,
-   "spread too wide": 3
+   "too little volume": 298,
+   "no favorite in 80-95c band": 21,
+   "spread too wide": 1
   },
-  "opened": [],
+  "opened": [
+   264
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Yeshanagula rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.98,
+    "volume_24h": 724.12,
+    "score": 0.5546
+   },
+   {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 272.51,
-    "score": 0.4823
+    "score": 0.4828
+   },
+   {
+    "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
+    "side": "yes",
+    "price": 0.8,
+    "hours_to_close": 28.99,
+    "volume_24h": 757.75,
+    "score": 0.326
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.19,
- "fees_paid": 6.24,
+ "cash": 9.47,
+ "fees_paid": 6.26,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 258,
+ "next_id": 259,
  "open_positions": [
   {
    "id": 238,
@@ -78,29 +78,6 @@
    "shadow": {}
   },
   {
-   "id": 242,
-   "ticker": "KXWTI-26OCT2714-T104.49",
-   "event_ticker": "KXWTI-26OCT2714",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.87,
-   "fee": 0.04,
-   "cost": 4.39,
-   "opened_ts": 1793023388,
-   "close_ts": 1793125800.0,
-   "score": 0.4621,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793030426,
-     "bid": 0.74,
-     "proceeds": 3.63
-    }
-   }
-  },
-  {
    "id": 244,
    "ticker": "KXDWTSELIMINATION-26OCT28-JSTIL",
    "event_ticker": "KXDWTSELIMINATION-26OCT28",
@@ -114,7 +91,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.71,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793146527,
@@ -332,7 +309,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -388,6 +365,23 @@
    "close_ts": 1793206740.0,
    "score": 0.621,
    "mark_price": 0.97,
+   "shadow": {}
+  },
+  {
+   "id": 258,
+   "ticker": "KXBTCD-26OCT2817B-T78899.99",
+   "event_ticker": "KXBTCD-26OCT2817B",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793152825,
+   "close_ts": 1793221200.0,
+   "score": 0.6328,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -6503,6 +6497,33 @@
    "pnl": 0.32,
    "result": "YES",
    "closed_ts": 1793135725,
+   "won": true
+  },
+  {
+   "id": 242,
+   "ticker": "KXWTI-26OCT2714-T104.49",
+   "event_ticker": "KXWTI-26OCT2714",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Oct 27, 2026? \u2014 Above $104.49",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.87,
+   "fee": 0.04,
+   "cost": 4.39,
+   "opened_ts": 1793023388,
+   "close_ts": 1793125800.0,
+   "score": 0.4621,
+   "shadow": {
+    "10": {
+     "ts": 1793030426,
+     "bid": 0.74,
+     "proceeds": 3.63
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.61,
+   "result": "NO",
+   "closed_ts": 1793152825,
    "won": true
   }
  ],
@@ -15036,94 +15057,102 @@
    1793151926,
    87.91,
    90.19
+  ],
+  [
+   1793152825,
+   88.52,
+   91.59
   ]
  ],
  "last_run": {
-  "ts": 1793151926,
+  "ts": 1793152825,
   "error": null,
-  "markets_scanned": 4109,
-  "candidates": 71,
+  "markets_scanned": 4192,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 3795,
-   "no favorite in 80-95c band": 221,
-   "spread too wide": 21,
-   "nothing for sale at the ask": 1
+   "too little volume": 3846,
+   "no favorite in 80-95c band": 243,
+   "spread too wide": 28
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   258
+  ],
+  "settled": [
+   242
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 15.23,
+    "hours_to_close": 14.98,
     "volume_24h": 6457.09,
-    "score": 0.6647
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 5441.55,
-    "score": 0.6534
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 3010.0,
-    "score": 0.6341
+    "score": 0.6659
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.24,
+    "hours_to_close": 18.99,
     "volume_24h": 2823.41,
-    "score": 0.632
+    "score": 0.6328
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 38.7 on Oct 28, 2026? \u2014 Above 38.7%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 14.98,
+    "volume_24h": 27063.57,
+    "score": 0.6301
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 15.23,
+    "hours_to_close": 14.98,
     "volume_24h": 8915.8,
-    "score": 0.6252
+    "score": 0.6264
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 15.23,
-    "volume_24h": 5264.19,
-    "score": 0.618
+    "hours_to_close": 14.98,
+    "volume_24h": 5301.44,
+    "score": 0.6194
    },
    {
     "label": "Will it rain in Dallas on Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 2038.43,
-    "score": 0.6095
+    "score": 0.61
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 16.74,
-    "volume_24h": 1789.38,
-    "score": 0.6063
+    "hours_to_close": 16.49,
+    "volume_24h": 1822.38,
+    "score": 0.6079
+   },
+   {
+    "label": "Will the brent crude oil close price be above 108 USD/Bbl on October 28, 2026 at 5:00 PM EDT? \u2014 Above $108",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 18.99,
+    "volume_24h": 2989.1,
+    "score": 0.6047
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 6,
-   "tracked only (below bet price floor)": 14
+   "related-market cap (Crypto)": 5,
+   "tracked only (below bet price floor)": 10
   },
-  "watch_added": 4,
-  "watch_graded": 14,
+  "watch_added": 8,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

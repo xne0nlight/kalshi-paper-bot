@@ -125,7 +125,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.77,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -197,7 +197,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1793154625,
    "close_ts": 1793212200.0,
    "score": 0.6301,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -15340,16 +15340,21 @@
    1793187927,
    86.52,
    87.26
+  ],
+  [
+   1793188825,
+   86.52,
+   87.28
   ]
  ],
  "last_run": {
-  "ts": 1793187927,
+  "ts": 1793188825,
   "error": null,
   "markets_scanned": 399,
-  "candidates": 6,
+  "candidates": 7,
   "rejections": {
    "too little volume": 348,
-   "no favorite in 80-95c band": 43,
+   "no favorite in 80-95c band": 42,
    "spread too wide": 2
   },
   "opened": [],
@@ -15360,54 +15365,62 @@
     "label": "Will Kevin Warsh say Egg at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 2160.6,
-    "score": 0.6152
+    "score": 0.6157
    },
    {
     "label": "Will Kevin Warsh say Trump at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 2519.89,
-    "score": 0.6102
+    "score": 0.6108
    },
    {
     "label": "Will Kevin Warsh say Dissent at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 1063.16,
-    "score": 0.5122
+    "score": 0.5127
    },
    {
     "label": "Will Kevin Warsh say AI / Artificial Intelligence at his Oct 2026 press conference?",
     "side": "yes",
     "price": 0.81,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 1084.5,
-    "score": 0.4528
+    "score": 0.4533
+   },
+   {
+    "label": "Will Kevin Warsh say Productivity at his Oct 2026 press conference?",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 25.99,
+    "volume_24h": 296.91,
+    "score": 0.4512
    },
    {
     "label": "Will Kevin Warsh say Recession at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 235.84,
-    "score": 0.4432
+    "score": 0.4437
    },
    {
-    "label": "Will Kevin Warsh say Productivity at his Oct 2026 press conference?",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 26.24,
-    "volume_24h": 296.91,
-    "score": 0.4407
+    "label": "Will Kevin Warsh say Tax at his Oct 2026 press conference?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.99,
+    "volume_24h": 217.5,
+    "score": 0.4411
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 8,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

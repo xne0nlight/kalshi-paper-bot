@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.43,
- "fees_paid": 6.6,
+ "cash": 19.66,
+ "fees_paid": 6.62,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 272,
+ "next_id": 273,
  "open_positions": [
   {
    "id": 255,
@@ -129,7 +129,7 @@
    "opened_ts": 1793186126,
    "close_ts": 1793282400.0,
    "score": 0.6142,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793212226,
@@ -322,6 +322,23 @@
    "close_ts": 1793340000.0,
    "score": 0.5135,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 272,
+   "ticker": "KXHIGHTPHX-26OCT29-B84.5",
+   "event_ticker": "KXHIGHTPHX-26OCT29",
+   "series": "KXHIGHTPHX",
+   "label": "Will the maximum temperature be 84-85\u00b0 on Oct 29, 2026? \u2014 84\u00b0 to 85\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793214026,
+   "close_ts": 1793343600.0,
+   "score": 0.5256,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -15700,19 +15717,26 @@
    1793213126,
    88.84,
    86.74
+  ],
+  [
+   1793214026,
+   88.84,
+   86.77
   ]
  ],
  "last_run": {
-  "ts": 1793213126,
+  "ts": 1793214026,
   "error": null,
-  "markets_scanned": 617,
-  "candidates": 14,
+  "markets_scanned": 644,
+  "candidates": 15,
   "rejections": {
-   "too little volume": 546,
-   "no favorite in 80-95c band": 53,
+   "too little volume": 566,
+   "no favorite in 80-95c band": 59,
    "spread too wide": 4
   },
-  "opened": [],
+  "opened": [
+   272
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -15720,72 +15744,72 @@
     "label": "Will it rain in Houston on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 1302.75,
-    "score": 0.5746
+    "score": 0.5749
+   },
+   {
+    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 1716.39,
+    "score": 0.5526
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 428.0,
-    "score": 0.5496
+    "score": 0.5499
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 1414.09,
-    "score": 0.5372
+    "score": 0.5375
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 262.19,
-    "score": 0.5337
+    "score": 0.534
    },
    {
-    "label": "Will it rain in College Station on Oct 29, 2026?",
+    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 29, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 35.24,
-    "volume_24h": 1355.84,
-    "score": 0.5259
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 218.38,
+    "score": 0.5256
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 424.05,
-    "score": 0.5193
+    "score": 0.5196
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 295.6,
-    "score": 0.5176
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.24,
-    "volume_24h": 471.3,
-    "score": 0.5127
+    "score": 0.5179
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 2,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Oil prices)": 1,
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

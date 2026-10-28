@@ -40,7 +40,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.86,
+   "mark_price": 0.42,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -129,7 +129,7 @@
    "opened_ts": 1793159124,
    "close_ts": 1793260800.0,
    "score": 0.6127,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.81,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -15621,77 +15621,78 @@
    1793207727,
    88.56,
    87.54
+  ],
+  [
+   1793208626,
+   88.56,
+   86.86
   ]
  ],
  "last_run": {
-  "ts": 1793207727,
+  "ts": 1793208626,
   "error": null,
-  "markets_scanned": 447,
+  "markets_scanned": 449,
   "candidates": 6,
   "rejections": {
-   "too little volume": 406,
-   "no favorite in 80-95c band": 32,
-   "spread too wide": 3
+   "too little volume": 408,
+   "no favorite in 80-95c band": 33,
+   "spread too wide": 2
   },
-  "opened": [
-   269
-  ],
-  "settled": [
-   257
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 246.56,
-    "score": 0.5298
+    "score": 0.5301
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 402.95,
-    "score": 0.5258
+    "score": 0.5261
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 292.6,
-    "score": 0.5154
+    "score": 0.5157
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 22.73,
+    "hours_to_close": 22.48,
     "volume_24h": 512.88,
-    "score": 0.5064
+    "score": 0.5071
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
-    "volume_24h": 302.27,
-    "score": 0.4964
+    "hours_to_close": 35.49,
+    "volume_24h": 354.27,
+    "score": 0.5019
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.74,
-    "volume_24h": 362.0,
-    "score": 0.4923
+    "hours_to_close": 35.49,
+    "volume_24h": 428.0,
+    "score": 0.498
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

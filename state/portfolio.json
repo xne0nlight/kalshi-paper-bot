@@ -40,7 +40,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.64,
+   "mark_price": 0.42,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -112,7 +112,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -15496,21 +15496,24 @@
    1793203227,
    88.33,
    87.84
+  ],
+  [
+   1793204125,
+   88.33,
+   87.5
   ]
  ],
  "last_run": {
-  "ts": 1793203227,
+  "ts": 1793204125,
   "error": null,
   "markets_scanned": 323,
-  "candidates": 3,
+  "candidates": 2,
   "rejections": {
    "too little volume": 298,
-   "no favorite in 80-95c band": 21,
+   "no favorite in 80-95c band": 22,
    "spread too wide": 1
   },
-  "opened": [
-   264
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -15518,31 +15521,21 @@
     "label": "Will Yeshanagula rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.98,
+    "hours_to_close": 35.73,
     "volume_24h": 724.12,
-    "score": 0.5546
+    "score": 0.5549
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 23.98,
-    "volume_24h": 272.51,
-    "score": 0.4828
-   },
-   {
-    "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
-    "side": "yes",
-    "price": 0.8,
-    "hours_to_close": 28.99,
-    "volume_24h": 757.75,
-    "score": 0.326
+    "hours_to_close": 23.73,
+    "volume_24h": 295.51,
+    "score": 0.486
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 1,
+  "skipped": {},
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

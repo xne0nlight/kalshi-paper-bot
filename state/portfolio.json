@@ -23,7 +23,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793210340.0,
    "score": 0.6573,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -78,7 +78,7 @@
    "opened_ts": 1793121327,
    "close_ts": 1793221440.0,
    "score": 0.5783,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1793159124,
    "close_ts": 1793260800.0,
    "score": 0.6127,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.83,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -225,7 +225,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.542,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -276,7 +276,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -15626,16 +15626,21 @@
    1793208626,
    88.56,
    86.86
+  ],
+  [
+   1793209526,
+   88.56,
+   86.66
   ]
  ],
  "last_run": {
-  "ts": 1793208626,
+  "ts": 1793209526,
   "error": null,
   "markets_scanned": 449,
   "candidates": 6,
   "rejections": {
-   "too little volume": 408,
-   "no favorite in 80-95c band": 33,
+   "too little volume": 406,
+   "no favorite in 80-95c band": 35,
    "spread too wide": 2
   },
   "opened": [],
@@ -15643,52 +15648,52 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.24,
+    "volume_24h": 428.0,
+    "score": 0.5484
+   },
+   {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 246.56,
-    "score": 0.5301
+    "score": 0.5304
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.49,
-    "volume_24h": 402.95,
-    "score": 0.5261
+    "price": 0.92,
+    "hours_to_close": 35.24,
+    "volume_24h": 407.95,
+    "score": 0.5168
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 292.6,
-    "score": 0.5157
+    "score": 0.516
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 22.48,
+    "hours_to_close": 22.23,
     "volume_24h": 512.88,
-    "score": 0.5071
+    "score": 0.5077
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 354.27,
-    "score": 0.5019
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 428.0,
-    "score": 0.498
+    "score": 0.5022
    }
   ],
   "skipped": {},

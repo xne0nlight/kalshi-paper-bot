@@ -40,7 +40,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.73,
+   "mark_price": 0.52,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -112,7 +112,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1793159124,
    "close_ts": 1793260800.0,
    "score": 0.6127,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -15459,17 +15459,22 @@
    1793199626,
    88.33,
    87.83
+  ],
+  [
+   1793200526,
+   88.33,
+   87.46
   ]
  ],
  "last_run": {
-  "ts": 1793199626,
+  "ts": 1793200526,
   "error": null,
   "markets_scanned": 334,
   "candidates": 1,
   "rejections": {
-   "too little volume": 308,
+   "too little volume": 307,
    "no favorite in 80-95c band": 23,
-   "spread too wide": 2
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
@@ -15479,9 +15484,9 @@
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 24.98,
+    "hours_to_close": 24.73,
     "volume_24h": 272.51,
-    "score": 0.4706
+    "score": 0.4711
    }
   ],
   "skipped": {},

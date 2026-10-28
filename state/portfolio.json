@@ -5,8 +5,8 @@
  "cash": 9.19,
  "fees_paid": 6.24,
  "peak_equity": 109.65,
- "day": "2026-10-27",
- "day_start_equity": 87.0,
+ "day": "2026-10-28",
+ "day_start_equity": 87.91,
  "next_id": 258,
  "open_positions": [
   {
@@ -114,7 +114,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -294,7 +294,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793210340.0,
    "score": 0.6573,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -311,7 +311,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.78,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -14975,94 +14975,100 @@
    1793144725,
    87.91,
    91.06
+  ],
+  [
+   1793145625,
+   87.91,
+   91.12
   ]
  ],
  "last_run": {
-  "ts": 1793144725,
+  "ts": 1793145625,
   "error": null,
-  "markets_scanned": 4043,
-  "candidates": 59,
+  "markets_scanned": 4045,
+  "candidates": 57,
   "rejections": {
-   "too little volume": 3779,
-   "no favorite in 80-95c band": 187,
-   "spread too wide": 18
+   "too little volume": 3778,
+   "no favorite in 80-95c band": 191,
+   "spread too wide": 17,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.23,
-    "volume_24h": 463799.33,
-    "score": 0.6867
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.98,
+    "volume_24h": 6064.58,
+    "score": 0.6551
    },
    {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.16,
+    "hours_to_close": 17.91,
     "volume_24h": 2161.63,
-    "score": 0.637
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 2804.0,
-    "score": 0.6357
+    "score": 0.638
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 5016.3,
-    "score": 0.6346
+    "score": 0.6353
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 20.99,
+    "volume_24h": 2804.0,
+    "score": 0.6264
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,600 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 1645.0,
+    "score": 0.619
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,700 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 1622.0,
-    "score": 0.6179
+    "score": 0.6186
    },
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
+    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 28, 2026? \u2014 Above $96.49",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.24,
-    "volume_24h": 1846.0,
-    "score": 0.6121
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 936.32,
+    "score": 0.6086
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 18.16,
+    "hours_to_close": 17.91,
     "volume_24h": 10141.65,
-    "score": 0.6069
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 17.23,
-    "volume_24h": 5999.94,
-    "score": 0.6038
+    "score": 0.6078
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 1,
    "related-market cap (Oil prices)": 6,
-   "tracked only (below bet price floor)": 11
+   "tracked only (below bet price floor)": 10
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

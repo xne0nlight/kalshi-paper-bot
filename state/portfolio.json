@@ -114,7 +114,7 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.73,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793146527,
@@ -327,7 +327,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.78,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -15006,17 +15006,22 @@
    1793147426,
    87.91,
    90.21
+  ],
+  [
+   1793148326,
+   87.91,
+   90.44
   ]
  ],
  "last_run": {
-  "ts": 1793147426,
+  "ts": 1793148326,
   "error": null,
   "markets_scanned": 4105,
-  "candidates": 62,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 3818,
-   "no favorite in 80-95c band": 206,
-   "spread too wide": 18,
+   "too little volume": 3813,
+   "no favorite in 80-95c band": 210,
+   "spread too wide": 16,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -15024,75 +15029,75 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 2804.0,
-    "score": 0.6279
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.23,
+    "volume_24h": 6117.61,
+    "score": 0.6585
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,600 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 1645.0,
-    "score": 0.6205
+    "score": 0.6213
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 96.99 USD/Bbl on Oct 28, 2026? \u2014 Above $96.99",
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 17.99,
-    "volume_24h": 856.94,
-    "score": 0.6075
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.48,
-    "volume_24h": 6077.86,
-    "score": 0.6072
+    "hours_to_close": 20.24,
+    "volume_24h": 2804.0,
+    "score": 0.6186
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 16.48,
-    "volume_24h": 4448.35,
-    "score": 0.6071
+    "hours_to_close": 16.23,
+    "volume_24h": 4762.83,
+    "score": 0.6103
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 20.49,
-    "volume_24h": 5018.3,
-    "score": 0.6068
+    "hours_to_close": 20.24,
+    "volume_24h": 5141.55,
+    "score": 0.6084
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 16.48,
-    "volume_24h": 7834.71,
-    "score": 0.6055
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 20.24,
+    "volume_24h": 2613.41,
+    "score": 0.6063
    },
    {
     "label": "Will it rain in Dallas on Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.49,
-    "volume_24h": 1792.33,
-    "score": 0.6032
+    "hours_to_close": 29.24,
+    "volume_24h": 1793.89,
+    "score": 0.6036
+   },
+   {
+    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 31.24,
+    "volume_24h": 1580.12,
+    "score": 0.5963
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 7,
-   "tracked only (below bet price floor)": 12
+   "related-market cap (Oil prices)": 5,
+   "tracked only (below bet price floor)": 13
   },
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

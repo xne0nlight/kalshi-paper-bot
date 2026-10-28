@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.47,
- "fees_paid": 6.26,
+ "cash": 8.52,
+ "fees_paid": 6.27,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 259,
+ "next_id": 260,
  "open_positions": [
   {
    "id": 238,
@@ -58,23 +58,6 @@
    "close_ts": 1793106000.0,
    "score": 0.5234,
    "mark_price": 0.88,
-   "shadow": {}
-  },
-  {
-   "id": 241,
-   "ticker": "KXCBDECISIONNZ-26OCT27-H25",
-   "event_ticker": "KXCBDECISIONNZ-26OCT27",
-   "series": "KXCBDECISIONNZ",
-   "label": "Will the Reserve Bank of New Zealand Hike 1-25bps at the October Monetary Policy Review meeting?",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.92,
-   "fee": 0.03,
-   "cost": 4.63,
-   "opened_ts": 1793023388,
-   "close_ts": 1793149140.0,
-   "score": 0.4854,
-   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -381,6 +364,23 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 259,
+   "ticker": "KXWTI-26OCT2814-T97.99",
+   "event_ticker": "KXWTI-26OCT2814",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1793154625,
+   "close_ts": 1793212200.0,
+   "score": 0.6301,
    "mark_price": 0.93,
    "shadow": {}
   }
@@ -6525,6 +6525,27 @@
    "result": "NO",
    "closed_ts": 1793152825,
    "won": true
+  },
+  {
+   "id": 241,
+   "ticker": "KXCBDECISIONNZ-26OCT27-H25",
+   "event_ticker": "KXCBDECISIONNZ-26OCT27",
+   "series": "KXCBDECISIONNZ",
+   "label": "Will the Reserve Bank of New Zealand Hike 1-25bps at the October Monetary Policy Review meeting?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 4.63,
+   "opened_ts": 1793023388,
+   "close_ts": 1793149140.0,
+   "score": 0.4854,
+   "shadow": {},
+   "payout": 0.0,
+   "pnl": -4.63,
+   "result": "NO",
+   "closed_ts": 1793154625,
+   "won": false
   }
  ],
  "equity_history": [
@@ -15067,93 +15088,104 @@
    1793153725,
    88.52,
    91.61
+  ],
+  [
+   1793154625,
+   83.89,
+   86.84
   ]
  ],
  "last_run": {
-  "ts": 1793153725,
+  "ts": 1793154625,
   "error": null,
-  "markets_scanned": 4192,
+  "markets_scanned": 4252,
   "candidates": 78,
   "rejections": {
-   "too little volume": 3835,
-   "no favorite in 80-95c band": 254,
-   "spread too wide": 25
+   "too little volume": 3894,
+   "no favorite in 80-95c band": 256,
+   "spread too wide": 23,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   259
+  ],
+  "settled": [
+   241
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 14.73,
-    "volume_24h": 6499.87,
-    "score": 0.6673
+    "hours_to_close": 14.48,
+    "volume_24h": 6533.55,
+    "score": 0.6687
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.74,
+    "hours_to_close": 18.49,
     "volume_24h": 5441.55,
-    "score": 0.6551
+    "score": 0.6559
    },
    {
     "label": "Will Trump's RCP approval average be above 38.7 on Oct 28, 2026? \u2014 Above 38.7%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 14.73,
+    "hours_to_close": 14.48,
     "volume_24h": 27146.57,
-    "score": 0.6413
+    "score": 0.6426
    },
    {
     "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.74,
+    "hours_to_close": 18.49,
     "volume_24h": 2823.41,
-    "score": 0.6337
+    "score": 0.6346
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.24,
+    "hours_to_close": 15.99,
     "volume_24h": 1822.38,
-    "score": 0.629
+    "score": 0.6301
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 14.73,
-    "volume_24h": 8952.05,
-    "score": 0.6277
+    "hours_to_close": 14.48,
+    "volume_24h": 9018.71,
+    "score": 0.6292
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 14.73,
-    "volume_24h": 5434.87,
-    "score": 0.6215
+    "hours_to_close": 14.48,
+    "volume_24h": 5571.64,
+    "score": 0.6235
    },
    {
     "label": "Will it rain in Dallas on Oct 28, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.74,
-    "volume_24h": 2097.43,
-    "score": 0.6114
+    "hours_to_close": 27.49,
+    "volume_24h": 2099.52,
+    "score": 0.6119
    }
   ],
   "skipped": {
+   "related-market cap (Oil prices)": 1,
    "related-market cap (Crypto)": 5,
-   "tracked only (below bet price floor)": 15
+   "tracked only (below bet price floor)": 13
   },
-  "watch_added": 8,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

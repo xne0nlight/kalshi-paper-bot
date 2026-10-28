@@ -254,7 +254,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.81,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -326,7 +326,7 @@
    "opened_ts": 1793152825,
    "close_ts": 1793221200.0,
    "score": 0.6328,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -15264,17 +15264,23 @@
    1793181627,
    84.12,
    87.06
+  ],
+  [
+   1793182526,
+   84.12,
+   87.01
   ]
  ],
  "last_run": {
-  "ts": 1793181627,
+  "ts": 1793182526,
   "error": null,
   "markets_scanned": 605,
-  "candidates": 22,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 455,
-   "no favorite in 80-95c band": 116,
-   "spread too wide": 12
+   "too little volume": 454,
+   "no favorite in 80-95c band": 118,
+   "spread too wide": 11,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -15284,65 +15290,65 @@
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 5064.38,
-    "score": 0.6529
-   },
-   {
-    "label": "Will the maximum temperature be <65\u00b0 on Oct 28, 2026? \u2014 64\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 3050.67,
-    "score": 0.6391
+    "hours_to_close": 21.74,
+    "volume_24h": 5083.38,
+    "score": 0.6537
    },
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Oct 28, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 2047.16,
-    "score": 0.6234
+    "score": 0.624
    },
    {
     "label": "Will the maximum temperature be <82\u00b0 on Oct 28, 2026? \u2014 81\u00b0 or below",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.99,
+    "hours_to_close": 19.74,
     "volume_24h": 3155.67,
-    "score": 0.6232
+    "score": 0.624
    },
    {
     "label": "Will the maximum temperature be <81\u00b0 on Oct 28, 2026? \u2014 80\u00b0 or below",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.99,
-    "volume_24h": 1750.5,
-    "score": 0.614
+    "hours_to_close": 19.74,
+    "volume_24h": 1770.5,
+    "score": 0.6152
    },
    {
     "label": "Will Kevin Warsh say Egg at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 2160.6,
-    "score": 0.6119
+    "score": 0.6123
    },
    {
     "label": "Will the maximum temperature be 84-85\u00b0 on Oct 28, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 1557.62,
-    "score": 0.6073
+    "score": 0.608
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 28, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.99,
+    "hours_to_close": 20.74,
     "volume_24h": 1358.22,
-    "score": 0.6028
+    "score": 0.6035
+   },
+   {
+    "label": "Will the maximum temperature be >81\u00b0 on Oct 28, 2026? \u2014 82\u00b0 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 21.74,
+    "volume_24h": 4978.67,
+    "score": 0.603
    }
   ],
   "skipped": {

@@ -114,8 +114,19 @@
    "opened_ts": 1793030426,
    "close_ts": 1793159940.0,
    "score": 0.5896,
-   "mark_price": 0.9,
-   "shadow": {}
+   "mark_price": 0.78,
+   "shadow": {
+    "10": {
+     "ts": 1793146527,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1793146527,
+     "bid": 0.78,
+     "proceeds": 3.83
+    }
+   }
   },
   {
    "id": 245,
@@ -311,7 +322,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.76,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -14980,95 +14991,101 @@
    1793145625,
    87.91,
    91.12
+  ],
+  [
+   1793146527,
+   87.91,
+   90.54
   ]
  ],
  "last_run": {
-  "ts": 1793145625,
+  "ts": 1793146527,
   "error": null,
-  "markets_scanned": 4045,
-  "candidates": 57,
+  "markets_scanned": 4057,
+  "candidates": 58,
   "rejections": {
    "too little volume": 3778,
-   "no favorite in 80-95c band": 191,
-   "spread too wide": 17,
-   "nothing for sale at the ask": 2
+   "no favorite in 80-95c band": 204,
+   "spread too wide": 15,
+   "nothing for sale at the ask": 1,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 16.98,
-    "volume_24h": 6064.58,
-    "score": 0.6551
-   },
-   {
     "label": "Will the upper bound of the federal funds rate be above 4.00% following the Fed's Oct 28, 2026 meeting? \u2014 Above 4.00%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.91,
-    "volume_24h": 2161.63,
-    "score": 0.638
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.99,
-    "volume_24h": 5016.3,
-    "score": 0.6353
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,800 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.99,
-    "volume_24h": 2804.0,
-    "score": 0.6264
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,600 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 1645.0,
-    "score": 0.619
-   },
-   {
-    "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,700 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.99,
-    "volume_24h": 1622.0,
-    "score": 0.6186
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 96.49 USD/Bbl on Oct 28, 2026? \u2014 Above $96.49",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.49,
-    "volume_24h": 936.32,
-    "score": 0.6086
+    "hours_to_close": 17.66,
+    "volume_24h": 2022.99,
+    "score": 0.6367
    },
    {
     "label": "Will the Federal Funds Rate Decision be No change AND Dissents be >0 for Oct 2026? \u2014 Rate: No change, Dissents: >0",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 17.91,
+    "hours_to_close": 17.66,
     "volume_24h": 10141.65,
-    "score": 0.6078
+    "score": 0.6088
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 28, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.73,
+    "volume_24h": 6077.86,
+    "score": 0.6062
+   },
+   {
+    "label": "Bitcoin price on Oct 28, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 20.74,
+    "volume_24h": 5017.3,
+    "score": 0.6061
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 28, 2026? \u2014 38.3%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 16.73,
+    "volume_24h": 4446.12,
+    "score": 0.606
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 28, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 16.73,
+    "volume_24h": 7834.71,
+    "score": 0.6045
+   },
+   {
+    "label": "Will it rain in Dallas on Oct 28, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.74,
+    "volume_24h": 1792.33,
+    "score": 0.6028
+   },
+   {
+    "label": "Will the Federal Funds Rate Decision be No change AND Dissents be 0 for Oct 2026? \u2014 Rate: No change, Dissents: 0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 17.66,
+    "volume_24h": 2936.45,
+    "score": 0.5989
    }
   ],
   "skipped": {
    "related-market cap (Fed / interest rates)": 1,
-   "related-market cap (Oil prices)": 6,
-   "tracked only (below bet price floor)": 10
+   "related-market cap (Oil prices)": 4,
+   "tracked only (below bet price floor)": 12
   },
   "watch_added": 2,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

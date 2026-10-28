@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.32,
- "fees_paid": 6.75,
+ "cash": 10.06,
+ "fees_paid": 6.81,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 276,
+ "next_id": 278,
  "open_positions": [
   {
    "id": 255,
@@ -46,40 +46,6 @@
      "proceeds": 1.14
     }
    }
-  },
-  {
-   "id": 256,
-   "ticker": "KXVHGCB-26OCT28-E8.5",
-   "event_ticker": "KXVHGCB-26OCT28",
-   "series": "KXVHGCB",
-   "label": "Will the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) be exactly 8.5 on Oct 28, 2026? \u2014 8.5%",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 3.78,
-   "opened_ts": 1793121327,
-   "close_ts": 1793221440.0,
-   "score": 0.5783,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 258,
-   "ticker": "KXBTCD-26OCT2817B-T78899.99",
-   "event_ticker": "KXBTCD-26OCT2817B",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793152825,
-   "close_ts": 1793221200.0,
-   "score": 0.6328,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 259,
@@ -225,7 +191,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.81,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -299,7 +265,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5135,
-   "mark_price": 0.92,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -333,7 +299,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -368,6 +334,40 @@
    "close_ts": 1793347200.0,
    "score": 0.4905,
    "mark_price": 0.85,
+   "shadow": {}
+  },
+  {
+   "id": 276,
+   "ticker": "KXBTCD-26OCT2917-T82999.99",
+   "event_ticker": "KXBTCD-26OCT2917",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1793222126,
+   "close_ts": 1793307600.0,
+   "score": 0.5593,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 277,
+   "ticker": "KXHIGHTOKC-26OCT29-T80",
+   "event_ticker": "KXHIGHTOKC-26OCT29",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be <80\u00b0 on Oct 29, 2026? \u2014 79\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793222126,
+   "close_ts": 1793340000.0,
+   "score": 0.509,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -6905,6 +6905,48 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793216726,
+   "won": true
+  },
+  {
+   "id": 256,
+   "ticker": "KXVHGCB-26OCT28-E8.5",
+   "event_ticker": "KXVHGCB-26OCT28",
+   "series": "KXVHGCB",
+   "label": "Will the VoteHub 2026 generic ballot margin (D \u2212 R, time-weighted) be exactly 8.5 on Oct 28, 2026? \u2014 8.5%",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 3.78,
+   "opened_ts": 1793121327,
+   "close_ts": 1793221440.0,
+   "score": 0.5783,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.22,
+   "result": "NO",
+   "closed_ts": 1793222126,
+   "won": true
+  },
+  {
+   "id": 258,
+   "ticker": "KXBTCD-26OCT2817B-T78899.99",
+   "event_ticker": "KXBTCD-26OCT2817B",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Oct 28, 2026? \u2014 $78,900 or above",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793152825,
+   "close_ts": 1793221200.0,
+   "score": 0.6328,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793222126,
    "won": true
   }
  ],
@@ -15823,94 +15865,106 @@
    1793221226,
    89.07,
    87.55
+  ],
+  [
+   1793222126,
+   89.57,
+   87.84
   ]
  ],
  "last_run": {
-  "ts": 1793221226,
+  "ts": 1793222126,
   "error": null,
   "markets_scanned": 3874,
-  "candidates": 22,
+  "candidates": 27,
   "rejections": {
-   "too little volume": 3756,
-   "no favorite in 80-95c band": 89,
-   "spread too wide": 7
+   "too little volume": 3733,
+   "no favorite in 80-95c band": 103,
+   "spread too wide": 11
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   276,
+   277
+  ],
+  "settled": [
+   256,
+   258
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.74,
+    "volume_24h": 1118.81,
+    "score": 0.5593
+   },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.99,
-    "volume_24h": 1728.39,
-    "score": 0.5554
+    "hours_to_close": 33.74,
+    "volume_24h": 1734.39,
+    "score": 0.5558
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 458.45,
-    "score": 0.5549
+    "score": 0.5553
    },
    {
-    "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 32.99,
-    "volume_24h": 1938.45,
-    "score": 0.5404
+    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,270 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 387.75,
+    "score": 0.5548
+   },
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,250 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 231.71,
+    "score": 0.5481
    },
    {
     "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.99,
-    "volume_24h": 1541.67,
-    "score": 0.5403
+    "hours_to_close": 34.74,
+    "volume_24h": 1547.18,
+    "score": 0.5408
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 105.49 USD/Bbl on Oct 29, 2026? \u2014 Above $105.49",
+    "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 550.0,
-    "score": 0.532
+    "price": 0.89,
+    "hours_to_close": 32.74,
+    "volume_24h": 1939.45,
+    "score": 0.5408
    },
    {
-    "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 424.05,
-    "score": 0.5224
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 29, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.99,
-    "volume_24h": 310.55,
-    "score": 0.5209
-   },
-   {
-    "label": "Will it rain in College Station on Oct 29, 2026?",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 32.99,
-    "volume_24h": 1555.25,
-    "score": 0.4933
+    "hours_to_close": 31.74,
+    "volume_24h": 461.25,
+    "score": 0.5355
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Crypto)": 2,
+   "related-market cap (Oil prices)": 2,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
-  "watch_graded": 1,
-  "api_calls": 43
+  "watch_added": 8,
+  "watch_graded": 79,
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

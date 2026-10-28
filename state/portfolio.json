@@ -343,7 +343,7 @@
    "opened_ts": 1793154625,
    "close_ts": 1793212200.0,
    "score": 0.6301,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -15279,92 +15279,81 @@
    1793184325,
    84.12,
    87.04
+  ],
+  [
+   1793185226,
+   84.12,
+   87.05
   ]
  ],
  "last_run": {
-  "ts": 1793184325,
+  "ts": 1793185226,
   "error": null,
-  "markets_scanned": 605,
-  "candidates": 23,
+  "markets_scanned": 399,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 451,
-   "no favorite in 80-95c band": 118,
-   "spread too wide": 13
+   "too little volume": 348,
+   "no favorite in 80-95c band": 42,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 5252.47,
-    "score": 0.6561
-   },
-   {
-    "label": "Will the maximum temperature be <82\u00b0 on Oct 28, 2026? \u2014 81\u00b0 or below",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 3326.3,
-    "score": 0.6373
-   },
-   {
-    "label": "Will the maximum temperature be 84-85\u00b0 on Oct 28, 2026? \u2014 84\u00b0 to 85\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 1597.62,
-    "score": 0.6203
-   },
-   {
-    "label": "Will the maximum temperature be <81\u00b0 on Oct 28, 2026? \u2014 80\u00b0 or below",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 1770.5,
-    "score": 0.6168
-   },
-   {
     "label": "Will Kevin Warsh say Egg at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 2160.6,
-    "score": 0.6133
+    "score": 0.6138
    },
    {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 28, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "label": "Will Kevin Warsh say Trump at his Oct 2026 press conference?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 1399.45,
-    "score": 0.606
+    "hours_to_close": 26.99,
+    "volume_24h": 1178.64,
+    "score": 0.584
    },
    {
-    "label": "Will the maximum temperature be >81\u00b0 on Oct 28, 2026? \u2014 82\u00b0 or above",
+    "label": "Will Kevin Warsh say Dissent at his Oct 2026 press conference?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 21.24,
-    "volume_24h": 4979.67,
-    "score": 0.6044
+    "price": 0.92,
+    "hours_to_close": 26.99,
+    "volume_24h": 1063.16,
+    "score": 0.5107
    },
    {
-    "label": "Will the maximum temperature be >70\u00b0 on Oct 28, 2026? \u2014 71\u00b0 or above",
+    "label": "Will Kevin Warsh say AI / Artificial Intelligence at his Oct 2026 press conference?",
+    "side": "yes",
+    "price": 0.81,
+    "hours_to_close": 26.99,
+    "volume_24h": 1084.5,
+    "score": 0.4513
+   },
+   {
+    "label": "Will Kevin Warsh say Recession at his Oct 2026 press conference?",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.24,
-    "volume_24h": 2844.28,
-    "score": 0.5961
+    "price": 0.95,
+    "hours_to_close": 26.99,
+    "volume_24h": 235.84,
+    "score": 0.4417
+   },
+   {
+    "label": "Will Kevin Warsh say Productivity at his Oct 2026 press conference?",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 295.91,
+    "score": 0.3891
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 5
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 0,
+  "watch_graded": 3,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

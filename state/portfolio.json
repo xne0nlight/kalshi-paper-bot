@@ -95,8 +95,19 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.87,
-   "shadow": {}
+   "mark_price": 0.78,
+   "shadow": {
+    "10": {
+     "ts": 1793223026,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1793223026,
+     "bid": 0.78,
+     "proceeds": 3.83
+    }
+   }
   },
   {
    "id": 263,
@@ -174,7 +185,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -191,7 +202,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.83,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -265,7 +276,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5135,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -299,7 +310,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -316,7 +327,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -350,7 +361,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793307600.0,
    "score": 0.5593,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -367,7 +378,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793340000.0,
    "score": 0.509,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -15870,101 +15881,100 @@
    1793222126,
    89.57,
    87.84
+  ],
+  [
+   1793223026,
+   89.57,
+   87.21
   ]
  ],
  "last_run": {
-  "ts": 1793222126,
+  "ts": 1793223026,
   "error": null,
-  "markets_scanned": 3874,
-  "candidates": 27,
+  "markets_scanned": 3885,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 3733,
-   "no favorite in 80-95c band": 103,
+   "too little volume": 3737,
+   "no favorite in 80-95c band": 109,
    "spread too wide": 11
   },
-  "opened": [
-   276,
-   277
-  ],
-  "settled": [
-   256,
-   258
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 1118.81,
-    "score": 0.5593
-   },
-   {
-    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 33.74,
-    "volume_24h": 1734.39,
-    "score": 0.5558
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.74,
-    "volume_24h": 458.45,
-    "score": 0.5553
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 1128.81,
+    "score": 0.5802
    },
    {
     "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,270 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 387.75,
-    "score": 0.5548
+    "hours_to_close": 23.49,
+    "volume_24h": 426.16,
+    "score": 0.5585
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,250 or above",
-    "side": "yes",
+    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 33.49,
+    "volume_24h": 1734.39,
+    "score": 0.5561
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 231.71,
-    "score": 0.5481
+    "hours_to_close": 31.49,
+    "volume_24h": 458.45,
+    "score": 0.5557
    },
    {
     "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.74,
-    "volume_24h": 1547.18,
-    "score": 0.5408
+    "price": 0.91,
+    "hours_to_close": 34.49,
+    "volume_24h": 1550.37,
+    "score": 0.5512
+   },
+   {
+    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 29, 2026? \u2014 65\u00b0 to 66\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.49,
+    "volume_24h": 461.25,
+    "score": 0.5459
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 1939.45,
-    "score": 0.5408
+    "score": 0.5411
    },
    {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 29, 2026? \u2014 65\u00b0 to 66\u00b0",
-    "side": "no",
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,250 or above",
+    "side": "yes",
     "price": 0.93,
-    "hours_to_close": 31.74,
-    "volume_24h": 461.25,
-    "score": 0.5355
+    "hours_to_close": 23.49,
+    "volume_24h": 301.71,
+    "score": 0.5373
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 2,
-   "related-market cap (Oil prices)": 2,
+   "related-market cap (Crypto)": 3,
+   "related-market cap (Oil prices)": 3,
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 8,
-  "watch_graded": 79,
-  "api_calls": 44
+  "watch_added": 2,
+  "watch_graded": 3,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

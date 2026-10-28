@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.1,
- "fees_paid": 6.82,
+ "cash": 9.15,
+ "fees_paid": 6.83,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 279,
+ "next_id": 280,
  "open_positions": [
   {
    "id": 255,
@@ -23,7 +23,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.44,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -46,23 +46,6 @@
      "proceeds": 1.14
     }
    }
-  },
-  {
-   "id": 259,
-   "ticker": "KXWTI-26OCT2814-T97.99",
-   "event_ticker": "KXWTI-26OCT2814",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
-   "side": "yes",
-   "contracts": 1,
-   "price": 0.94,
-   "fee": 0.01,
-   "cost": 0.95,
-   "opened_ts": 1793154625,
-   "close_ts": 1793212200.0,
-   "score": 0.6301,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 260,
@@ -173,7 +156,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.542,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -190,7 +173,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -298,7 +281,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -315,7 +298,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -332,7 +315,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -349,7 +332,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -366,7 +349,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793307600.0,
    "score": 0.5593,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -400,6 +383,23 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 279,
+   "ticker": "KXWTI-26OCT2914-T97.99",
+   "event_ticker": "KXWTI-26OCT2914",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1793228425,
+   "close_ts": 1793298600.0,
+   "score": 0.5994,
    "mark_price": 0.93,
    "shadow": {}
   }
@@ -6980,6 +6980,27 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793222126,
+   "won": true
+  },
+  {
+   "id": 259,
+   "ticker": "KXWTI-26OCT2814-T97.99",
+   "event_ticker": "KXWTI-26OCT2814",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 28, 2026? \u2014 Above $97.99",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1793154625,
+   "close_ts": 1793212200.0,
+   "score": 0.6301,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.05,
+   "result": "YES",
+   "closed_ts": 1793228425,
    "won": true
   }
  ],
@@ -15933,90 +15954,99 @@
    1793227525,
    89.57,
    85.71
+  ],
+  [
+   1793228425,
+   89.62,
+   86.32
   ]
  ],
  "last_run": {
-  "ts": 1793227525,
+  "ts": 1793228425,
   "error": null,
   "markets_scanned": 3885,
-  "candidates": 46,
+  "candidates": 40,
   "rejections": {
    "too little volume": 3706,
-   "no favorite in 80-95c band": 122,
-   "spread too wide": 11
+   "no favorite in 80-95c band": 123,
+   "spread too wide": 16
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   279
+  ],
+  "settled": [
+   259
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 1061.95,
-    "score": 0.6086
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 21.99,
+    "volume_24h": 2876.94,
+    "score": 0.6144
    },
    {
     "label": "Will Trump's RCP approval average be above 38.7 on Oct 29, 2026? \u2014 Above 38.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.23,
+    "hours_to_close": 17.98,
     "volume_24h": 1078.8,
-    "score": 0.6042
+    "score": 0.6051
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.24,
-    "volume_24h": 2876.94,
-    "score": 0.6038
+    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 19.49,
+    "volume_24h": 1061.95,
+    "score": 0.5994
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 2249.03,
-    "score": 0.5958
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Oct 29, 2026? \u2014 Above $104.99",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.74,
-    "volume_24h": 1091.0,
-    "score": 0.5794
+    "score": 0.5964
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 1784.39,
-    "score": 0.5788
+    "score": 0.5792
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.49 USD/Bbl on Oct 29, 2026? \u2014 Above $105.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 550.0,
-    "score": 0.5772
+    "score": 0.578
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Oct 29, 2026? \u2014 Above $104.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 19.49,
+    "volume_24h": 1091.0,
+    "score": 0.5702
    },
    {
     "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,270 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 22.24,
+    "price": 0.94,
+    "hours_to_close": 21.99,
     "volume_24h": 499.22,
-    "score": 0.5768
+    "score": 0.5675
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 12,
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

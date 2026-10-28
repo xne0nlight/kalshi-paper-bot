@@ -23,7 +23,7 @@
    "opened_ts": 1793119525,
    "close_ts": 1793246340.0,
    "score": 0.6277,
-   "mark_price": 0.42,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793134826,
@@ -61,7 +61,7 @@
    "opened_ts": 1793121327,
    "close_ts": 1793221440.0,
    "score": 0.5783,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -157,7 +157,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.91,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -174,7 +174,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -253,7 +253,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -287,7 +287,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -304,7 +304,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -355,7 +355,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   }
  ],
@@ -15744,21 +15744,24 @@
    1793214927,
    88.84,
    87.36
+  ],
+  [
+   1793215826,
+   88.84,
+   88.41
   ]
  ],
  "last_run": {
-  "ts": 1793214927,
+  "ts": 1793215826,
   "error": null,
-  "markets_scanned": 644,
-  "candidates": 18,
+  "markets_scanned": 719,
+  "candidates": 17,
   "rejections": {
-   "too little volume": 560,
-   "no favorite in 80-95c band": 63,
+   "too little volume": 632,
+   "no favorite in 80-95c band": 67,
    "spread too wide": 3
   },
-  "opened": [
-   273
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -15766,70 +15769,70 @@
     "label": "Will it rain in Houston on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 1302.75,
-    "score": 0.5752
+    "score": 0.5755
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 1722.39,
-    "score": 0.553
+    "score": 0.5533
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 428.0,
-    "score": 0.5503
+    "score": 0.5506
    },
    {
-    "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.74,
-    "volume_24h": 1424.28,
-    "score": 0.5381
-   },
-   {
-    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 262.19,
-    "score": 0.5344
+    "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
+    "side": "yes",
+    "price": 0.87,
+    "hours_to_close": 25.49,
+    "volume_24h": 1724.13,
+    "score": 0.5294
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 424.05,
-    "score": 0.52
-   },
-   {
-    "label": "Will the gold close price be above 3997 USD/t.oz on October 29, 2026 at 5:00 PM EDT? \u2014 Above $3997",
-    "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 25.74,
-    "volume_24h": 1724.13,
-    "score": 0.5189
+    "score": 0.5203
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 300.73,
-    "score": 0.5188
+    "score": 0.5191
+   },
+   {
+    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.49,
+    "volume_24h": 302.55,
+    "score": 0.518
+   },
+   {
+    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 20.48,
+    "volume_24h": 512.88,
+    "score": 0.5026
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 2,
-   "tracked only (below bet price floor)": 3
+   "tracked only (below bet price floor)": 1
   },
   "watch_added": 1,
   "watch_graded": 0,

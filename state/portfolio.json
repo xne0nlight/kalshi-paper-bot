@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.43,
+ "cash": 24.43,
  "fees_paid": 6.6,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
  "next_id": 272,
  "open_positions": [
-  {
-   "id": 254,
-   "ticker": "KXFEDDECISION-26OCT-H0",
-   "event_ticker": "KXFEDDECISION-26OCT",
-   "series": "KXFEDDECISION",
-   "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793119525,
-   "close_ts": 1793210340.0,
-   "score": 0.6573,
-   "mark_price": 0.96,
-   "shadow": {}
-  },
   {
    "id": 255,
    "ticker": "KXOPENVREQ-28OCT26-T22P0",
@@ -129,7 +112,7 @@
    "opened_ts": 1793159124,
    "close_ts": 1793260800.0,
    "score": 0.6127,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -146,7 +129,7 @@
    "opened_ts": 1793186126,
    "close_ts": 1793282400.0,
    "score": 0.6142,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -180,7 +163,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -197,7 +180,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -276,7 +259,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -6812,6 +6795,27 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793207727,
+   "won": true
+  },
+  {
+   "id": 254,
+   "ticker": "KXFEDDECISION-26OCT-H0",
+   "event_ticker": "KXFEDDECISION-26OCT",
+   "series": "KXFEDDECISION",
+   "label": "Will the Federal Reserve Hike rates by 0bps at their October 2026 meeting? \u2014 Fed maintains rate",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793119525,
+   "close_ts": 1793210340.0,
+   "score": 0.6573,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793211327,
    "won": true
   }
  ],
@@ -15670,86 +15674,99 @@
    1793210426,
    88.56,
    86.54
+  ],
+  [
+   1793211327,
+   88.84,
+   86.9
   ]
  ],
  "last_run": {
-  "ts": 1793210426,
+  "ts": 1793211327,
   "error": null,
   "markets_scanned": 617,
-  "candidates": 7,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 557,
-   "no favorite in 80-95c band": 45,
-   "spread too wide": 7,
-   "nothing for sale at the ask": 1
+   "too little volume": 556,
+   "no favorite in 80-95c band": 48,
+   "spread too wide": 2
   },
-  "opened": [
-   270,
-   271
+  "opened": [],
+  "settled": [
+   254
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will it rain in Houston on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.74,
+    "volume_24h": 1233.79,
+    "score": 0.5822
+   },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 428.0,
-    "score": 0.5487
+    "score": 0.549
+   },
+   {
+    "label": "Will it rain in College Station on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.74,
+    "volume_24h": 1354.84,
+    "score": 0.5452
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.99,
-    "volume_24h": 1375.09,
-    "score": 0.5354
+    "hours_to_close": 35.74,
+    "volume_24h": 1414.09,
+    "score": 0.5366
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 246.56,
-    "score": 0.5308
-   },
-   {
-    "label": "Will it rain in Indianapolis on Oct 29, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 292.6,
-    "score": 0.5163
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 279.0,
-    "score": 0.5135
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.99,
-    "volume_24h": 354.27,
-    "score": 0.5025
+    "hours_to_close": 34.74,
+    "volume_24h": 262.19,
+    "score": 0.5331
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 407.95,
-    "score": 0.4671
+    "score": 0.5174
+   },
+   {
+    "label": "Will it rain in Indianapolis on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.74,
+    "volume_24h": 295.6,
+    "score": 0.517
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 29, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 34.74,
+    "volume_24h": 354.27,
+    "score": 0.5028
    }
   ],
-  "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 4,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

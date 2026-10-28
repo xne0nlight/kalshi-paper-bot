@@ -129,7 +129,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -163,7 +163,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -327,7 +327,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -361,7 +361,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.89,
+   "mark_price": 0.84,
    "shadow": {}
   }
  ],
@@ -15797,95 +15797,97 @@
    1793217625,
    89.07,
    88.86
+  ],
+  [
+   1793218526,
+   89.07,
+   88.5
   ]
  ],
  "last_run": {
-  "ts": 1793217625,
+  "ts": 1793218526,
   "error": null,
-  "markets_scanned": 4334,
-  "candidates": 22,
+  "markets_scanned": 3874,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 4236,
-   "no favorite in 80-95c band": 72,
+   "too little volume": 3764,
+   "no favorite in 80-95c band": 82,
    "spread too wide": 4
   },
-  "opened": [
-   274,
-   275
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Houston on Oct 29, 2026?",
+    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Oct 29, 2026? \u2014 Above $104.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 1316.16,
-    "score": 0.5765
+    "price": 0.92,
+    "hours_to_close": 22.24,
+    "volume_24h": 962.0,
+    "score": 0.5681
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.99,
-    "volume_24h": 1722.39,
-    "score": 0.554
+    "hours_to_close": 34.74,
+    "volume_24h": 1728.39,
+    "score": 0.5544
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 428.0,
-    "score": 0.5513
+    "hours_to_close": 32.74,
+    "volume_24h": 458.45,
+    "score": 0.5539
    },
    {
-    "label": "Will it rain in Los Angeles on Oct 29, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 397.86,
-    "score": 0.5451
-   },
-   {
-    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 1316.82,
-    "score": 0.544
+    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.24,
+    "volume_24h": 375.95,
+    "score": 0.5476
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.99,
-    "volume_24h": 1569.28,
-    "score": 0.5422
+    "hours_to_close": 33.74,
+    "volume_24h": 1582.28,
+    "score": 0.5428
+   },
+   {
+    "label": "Will it rain in Los Angeles on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 397.86,
+    "score": 0.5354
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 424.05,
-    "score": 0.521
+    "score": 0.5213
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.99,
-    "volume_24h": 300.73,
-    "score": 0.5198
+    "hours_to_close": 32.74,
+    "volume_24h": 303.73,
+    "score": 0.5205
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Oil prices)": 5,
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 6,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

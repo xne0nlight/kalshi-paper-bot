@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.44,
- "fees_paid": 6.68,
+ "cash": 10.32,
+ "fees_paid": 6.75,
  "peak_equity": 109.65,
  "day": "2026-10-28",
  "day_start_equity": 87.91,
- "next_id": 274,
+ "next_id": 276,
  "open_positions": [
   {
    "id": 255,
@@ -276,7 +276,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -327,7 +327,41 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.88,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 274,
+   "ticker": "KXHIGHLAX-26OCT29-B70.5",
+   "event_ticker": "KXHIGHLAX-26OCT29",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1793217625,
+   "close_ts": 1793347200.0,
+   "score": 0.544,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 275,
+   "ticker": "KXHIGHTLV-26OCT29-B74.5",
+   "event_ticker": "KXHIGHTLV-26OCT29",
+   "series": "KXHIGHTLV",
+   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 29, 2026? \u2014 74\u00b0 to 75\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1793217625,
+   "close_ts": 1793347200.0,
+   "score": 0.4905,
+   "mark_price": 0.89,
    "shadow": {}
   }
  ],
@@ -15758,94 +15792,100 @@
    1793216726,
    89.07,
    88.68
+  ],
+  [
+   1793217625,
+   89.07,
+   88.86
   ]
  ],
  "last_run": {
-  "ts": 1793216726,
+  "ts": 1793217625,
   "error": null,
-  "markets_scanned": 719,
-  "candidates": 18,
+  "markets_scanned": 4334,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 632,
-   "no favorite in 80-95c band": 68,
-   "spread too wide": 1
+   "too little volume": 4236,
+   "no favorite in 80-95c band": 72,
+   "spread too wide": 4
   },
-  "opened": [],
-  "settled": [
-   261
+  "opened": [
+   274,
+   275
   ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will it rain in Houston on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 1316.16,
-    "score": 0.5762
+    "score": 0.5765
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 1722.39,
-    "score": 0.5536
+    "score": 0.554
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Oct 29, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 428.0,
-    "score": 0.5509
+    "score": 0.5513
+   },
+   {
+    "label": "Will it rain in Los Angeles on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 397.86,
+    "score": 0.5451
+   },
+   {
+    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 1316.82,
+    "score": 0.544
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.24,
-    "volume_24h": 1568.28,
-    "score": 0.5319
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Oct 29, 2026? \u2014 Above $99.99",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 22.74,
-    "volume_24h": 1406.23,
-    "score": 0.5292
+    "price": 0.9,
+    "hours_to_close": 33.99,
+    "volume_24h": 1569.28,
+    "score": 0.5422
    },
    {
     "label": "Will the maximum temperature be >70\u00b0 on Oct 29, 2026? \u2014 71\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 424.05,
-    "score": 0.5206
+    "score": 0.521
    },
    {
     "label": "Will it rain in Indianapolis on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 300.73,
-    "score": 0.5195
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 302.55,
-    "score": 0.5184
+    "score": 0.5198
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 2,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Oil prices)": 3,
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 1,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

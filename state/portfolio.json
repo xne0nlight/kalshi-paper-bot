@@ -106,7 +106,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -134,7 +134,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -157,7 +157,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.88,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -197,7 +197,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5135,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.56,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -252,7 +252,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.9,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -290,7 +290,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793286026,
@@ -459,7 +459,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -476,7 +476,7 @@
    "opened_ts": 1793294125,
    "close_ts": 1793393940.0,
    "score": 0.6006,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -16568,17 +16568,23 @@
    1793295924,
    91.08,
    86.73
+  ],
+  [
+   1793296826,
+   91.08,
+   85.96
   ]
  ],
  "last_run": {
-  "ts": 1793295924,
+  "ts": 1793296826,
   "error": null,
-  "markets_scanned": 2694,
+  "markets_scanned": 2883,
   "candidates": 45,
   "rejections": {
-   "too little volume": 2379,
-   "no favorite in 80-95c band": 233,
-   "spread too wide": 37
+   "too little volume": 2539,
+   "no favorite in 80-95c band": 259,
+   "spread too wide": 39,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -16587,70 +16593,70 @@
    {
     "label": "Reg Time: Huesca wins",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 24.24,
+    "price": 0.95,
+    "hours_to_close": 23.99,
     "volume_24h": 9368.33,
-    "score": 0.6573
+    "score": 0.6679
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 26.99,
+    "volume_24h": 10026.9,
+    "score": 0.6537
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 15522.7,
-    "score": 0.6532
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.24,
-    "volume_24h": 10090.9,
-    "score": 0.6432
+    "score": 0.6537
    },
    {
     "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.23,
-    "volume_24h": 36689.13,
-    "score": 0.6322
+    "price": 0.92,
+    "hours_to_close": 33.98,
+    "volume_24h": 36727.28,
+    "score": 0.6225
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 2458.0,
-    "score": 0.6205
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 52792.65,
-    "score": 0.6132
-   },
-   {
-    "label": "Reg Time: Tie is the result",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 24.24,
-    "volume_24h": 1128.32,
-    "score": 0.5984
+    "score": 0.621
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 27.24,
-    "volume_24h": 24022.87,
-    "score": 0.5932
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 24033.87,
+    "score": 0.6037
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,000 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 57992.65,
+    "score": 0.6037
+   },
+   {
+    "label": "ERCOT West Hub average power price above $25/MWh, Week 44? \u2014 Above $25/MWh",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 26.98,
+    "volume_24h": 2784.53,
+    "score": 0.6021
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

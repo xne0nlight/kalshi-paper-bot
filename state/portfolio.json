@@ -78,7 +78,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793223026,
@@ -183,7 +183,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -234,7 +234,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.87,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.79,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -380,7 +380,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -16322,17 +16322,23 @@
    1793274325,
    89.62,
    85.48
+  ],
+  [
+   1793275224,
+   89.62,
+   85.69
   ]
  ],
  "last_run": {
-  "ts": 1793274325,
+  "ts": 1793275224,
   "error": null,
   "markets_scanned": 2517,
   "candidates": 43,
   "rejections": {
-   "too little volume": 2270,
+   "too little volume": 2271,
    "no favorite in 80-95c band": 181,
-   "spread too wide": 22,
+   "spread too wide": 20,
+   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16343,69 +16349,69 @@
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 26311.83,
-    "score": 0.6535
+    "score": 0.6539
+   },
+   {
+    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.48,
+    "volume_24h": 8118.82,
+    "score": 0.6521
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
-    "volume_24h": 21234.2,
-    "score": 0.6435
-   },
-   {
-    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.73,
-    "volume_24h": 8118.82,
-    "score": 0.6416
+    "hours_to_close": 32.99,
+    "volume_24h": 21120.2,
+    "score": 0.6439
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 33.24,
-    "volume_24h": 26001.26,
-    "score": 0.6235
+    "hours_to_close": 32.99,
+    "volume_24h": 26000.26,
+    "score": 0.6239
    },
    {
     "label": "Will the brent crude oil close price be above 114.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $114.99",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 33.24,
-    "volume_24h": 8894.95,
-    "score": 0.6097
+    "price": 0.92,
+    "hours_to_close": 32.99,
+    "volume_24h": 9094.95,
+    "score": 0.6208
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.24,
-    "volume_24h": 27483.16,
-    "score": 0.6035
-   },
-   {
-    "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 33.24,
-    "volume_24h": 4716.0,
-    "score": 0.599
+    "hours_to_close": 32.99,
+    "volume_24h": 27544.16,
+    "score": 0.6039
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 3178.3,
-    "score": 0.5762
+    "score": 0.5765
+   },
+   {
+    "label": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? \u2014 38.0 to 38.2",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 26.99,
+    "volume_24h": 3427.2,
+    "score": 0.5688
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

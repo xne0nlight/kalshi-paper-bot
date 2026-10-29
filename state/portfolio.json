@@ -211,7 +211,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.84,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -314,7 +314,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.8,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.77,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -422,7 +422,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793340000.0,
    "score": 0.509,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -439,8 +439,29 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
-   "mark_price": 0.91,
-   "shadow": {}
+   "mark_price": 0.54,
+   "shadow": {
+    "10": {
+     "ts": 1793258126,
+     "bid": 0.54,
+     "proceeds": 0.52
+    },
+    "15": {
+     "ts": 1793258126,
+     "bid": 0.54,
+     "proceeds": 0.52
+    },
+    "20": {
+     "ts": 1793258126,
+     "bid": 0.54,
+     "proceeds": 0.52
+    },
+    "30": {
+     "ts": 1793258126,
+     "bid": 0.54,
+     "proceeds": 0.52
+    }
+   }
   },
   {
    "id": 279,
@@ -456,7 +477,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -16175,17 +16196,22 @@
    1793257224,
    89.62,
    82.69
+  ],
+  [
+   1793258126,
+   89.62,
+   81.71
   ]
  ],
  "last_run": {
-  "ts": 1793257224,
+  "ts": 1793258126,
   "error": null,
   "markets_scanned": 3803,
-  "candidates": 31,
+  "candidates": 20,
   "rejections": {
    "too little volume": 3428,
-   "no favorite in 80-95c band": 277,
-   "spread too wide": 66,
+   "no favorite in 80-95c band": 284,
+   "spread too wide": 70,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16193,68 +16219,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 13.99,
-    "volume_24h": 13734.2,
-    "score": 0.685
-   },
-   {
-    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 2549.4,
-    "score": 0.6255
-   },
-   {
-    "label": "Will **real GDP** increase by more than 2.0% in Q3 2026? \u2014 Above 2.0%",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 29.48,
-    "volume_24h": 3466.93,
-    "score": 0.6247
-   },
-   {
     "label": "Will OpenAI release Astra 6.1 before Oct 30, 2026? \u2014 Before Oct 30, 2026",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.98,
+    "hours_to_close": 20.73,
     "volume_24h": 1887.78,
-    "score": 0.6236
-   },
-   {
-    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 29.48,
-    "volume_24h": 8392.82,
-    "score": 0.6035
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 13.99,
-    "volume_24h": 35599.14,
-    "score": 0.595
-   },
-   {
-    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.99,
-    "volume_24h": 3557.84,
-    "score": 0.5814
+    "score": 0.6243
    },
    {
     "label": "Will it rain in Tampa on Oct 29, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 2133.62,
-    "score": 0.5747
+    "score": 0.5754
+   },
+   {
+    "label": "Will **real GDP** increase by more than 2.0% in Q3 2026? \u2014 Above 2.0%",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 29.23,
+    "volume_24h": 3466.93,
+    "score": 0.5751
+   },
+   {
+    "label": "Will it rain in College Station on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 22.74,
+    "volume_24h": 2790.36,
+    "score": 0.5715
+   },
+   {
+    "label": "Will the maximum temperature be 79-80\u00b0 on Oct 29, 2026? \u2014 79\u00b0 to 80\u00b0",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 22.74,
+    "volume_24h": 1759.32,
+    "score": 0.5665
+   },
+   {
+    "label": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? \u2014 38.0 to 38.2",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 31.74,
+    "volume_24h": 3174.36,
+    "score": 0.5583
+   },
+   {
+    "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 22.74,
+    "volume_24h": 7794.96,
+    "score": 0.535
+   },
+   {
+    "label": "Will James Talarico be the top ActBlue fundraiser on Oct 30 at 10:00 AM ET?",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 30.73,
+    "volume_24h": 792.4,
+    "score": 0.5346
    }
   ],
   "skipped": {},

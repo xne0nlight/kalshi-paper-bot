@@ -26,7 +26,7 @@
    "contracts": 2,
    "filled": 0.0,
    "placed_ts": 1793257224,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 0.46
   },
   {
@@ -39,7 +39,7 @@
    "label": "MIA low 76\u201377\u00b0 10-29",
    "side": "no",
    "close_ts": 1793336400.0,
-   "q_model": 0.824,
+   "q_model": 0.741,
    "mid": 0.47,
    "strategy": "edge",
    "price": 0.13,
@@ -49,7 +49,7 @@
    "contracts": 4,
    "filled": 0.0,
    "placed_ts": 1793258126,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 0.52
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 11,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 10.34
   },
   {
@@ -95,7 +95,7 @@
    "contracts": 9,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 7.74
   },
   {
@@ -118,7 +118,7 @@
    "contracts": 2,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 1.76
   },
   {
@@ -141,7 +141,7 @@
    "contracts": 3,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793259026,
+   "checked_ts": 1793259926,
    "reserved": 0.78
   }
  ],
@@ -8212,6 +8212,11 @@
    1793259026,
    110.478,
    112.888
+  ],
+  [
+   1793259926,
+   110.478,
+   112.888
   ]
  ],
  "forecast_log": {
@@ -10522,32 +10527,32 @@
   "LAS|2026-10-29|low": {
    "fc": 59.89,
    "var": 1.29,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "LAS|2026-10-29|high": {
    "fc": 74.88,
    "var": 2.24,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "SFO|2026-10-29|low": {
    "fc": 53.36,
    "var": 3.29,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "SFO|2026-10-29|high": {
    "fc": 68.05,
    "var": 1.23,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "LAX|2026-10-29|low": {
    "fc": 61.97,
    "var": 5.99,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "LAX|2026-10-29|high": {
    "fc": 71.32,
    "var": 5.92,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "PHX|2026-10-29|low": {
    "fc": 65.69,
@@ -10562,22 +10567,22 @@
   "SAN|2026-10-29|low": {
    "fc": 63.33,
    "var": 3.5,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "SAN|2026-10-29|high": {
    "fc": 73.16,
    "var": 7.88,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "SEA|2026-10-29|low": {
    "fc": 41.74,
    "var": 2.29,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "SEA|2026-10-29|high": {
    "fc": 52.11,
    "var": 9.41,
-   "ts": 1793259026
+   "ts": 1793259926
   },
   "OKC|2026-10-29|low": {
    "fc": 64.74,
@@ -14274,51 +14279,13 @@
   }
  },
  "last_run": {
-  "ts": 1793259026,
+  "ts": 1793259926,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTPHX-26OCT29-B59.5",
-    "reason": "reprice 0.89->0.73"
-   },
-   {
-    "ticker": "KXLOWTSAN-26OCT29-B57.5",
-    "reason": "reprice 0.90->0.70"
-   }
-  ],
-  "placed": [
-   {
-    "ticker": "KXHIGHTTTN-26OCT29-T68",
-    "side": "no",
-    "price": 0.94,
-    "contracts": 11,
-    "strategy": "favorite"
-   },
-   {
-    "ticker": "KXHIGHCHI-26OCT29-T68",
-    "side": "no",
-    "price": 0.86,
-    "contracts": 9,
-    "strategy": "favorite"
-   },
-   {
-    "ticker": "KXHIGHMIA-26OCT29-B89.5",
-    "side": "no",
-    "price": 0.88,
-    "contracts": 2,
-    "strategy": "favorite"
-   },
-   {
-    "ticker": "KXLOWTAUS-26OCT29-B63.5",
-    "side": "no",
-    "price": 0.26,
-    "contracts": 3,
-    "strategy": "edge"
-   }
-  ],
+  "cancelled": [],
+  "placed": [],
   "markets": 288,
   "events": [
    {
@@ -14922,7 +14889,7 @@
      "p90": 71.5
     },
     "nbm": 62.7,
-    "observed": null,
+    "observed": 69.8,
     "bias": 0.58,
     "bias_src": "own 8d",
     "kernel_sd": 0.9,
@@ -14981,7 +14948,7 @@
      "p90": 41.8
     },
     "nbm": 39.0,
-    "observed": null,
+    "observed": 44.6,
     "bias": -0.73,
     "bias_src": "own 8d",
     "kernel_sd": 3.0,
@@ -14999,31 +14966,31 @@
      },
      {
       "label": "33\u201334\u00b0",
-      "q": 0.047,
+      "q": 0.048,
       "bid": 0.08,
       "ask": 0.15
      },
      {
       "label": "35\u201336\u00b0",
-      "q": 0.124,
+      "q": 0.126,
       "bid": 0.1,
       "ask": 0.33
      },
      {
       "label": "37\u201338\u00b0",
-      "q": 0.218,
+      "q": 0.222,
       "bid": 0.08,
       "ask": 0.37
      },
      {
       "label": "39\u201340\u00b0",
-      "q": 0.241,
+      "q": 0.248,
       "bid": 0.01,
-      "ask": 0.21
+      "ask": 0.4
      },
      {
       "label": "\u226541\u00b0",
-      "q": 0.354,
+      "q": 0.339,
       "bid": 0.01,
       "ask": 0.05
      }
@@ -15040,7 +15007,7 @@
      "p90": 89.9
     },
     "nbm": 85.2,
-    "observed": null,
+    "observed": 69.8,
     "bias": 4.46,
     "bias_src": "own 8d",
     "kernel_sd": 2.44,
@@ -15099,7 +15066,7 @@
      "p90": 66.4
     },
     "nbm": 62.4,
-    "observed": null,
+    "observed": 44.6,
     "bias": -0.35,
     "bias_src": "own 8d",
     "kernel_sd": 1.07,
@@ -15335,7 +15302,7 @@
      "p90": 46.7
     },
     "nbm": 41.9,
-    "observed": 50.0,
+    "observed": 48.2,
     "bias": -0.54,
     "bias_src": "own 8d",
     "kernel_sd": 1.44,
@@ -15359,7 +15326,7 @@
      },
      {
       "label": "40\u201341\u00b0",
-      "q": 0.121,
+      "q": 0.122,
       "bid": 0.01,
       "ask": 0.31
      },
@@ -15371,13 +15338,13 @@
      },
      {
       "label": "44\u201345\u00b0",
-      "q": 0.296,
+      "q": 0.298,
       "bid": 0.01,
       "ask": 0.75
      },
      {
       "label": "\u226546\u00b0",
-      "q": 0.273,
+      "q": 0.271,
       "bid": 0.01,
       "ask": 0.02
      }
@@ -16102,7 +16069,7 @@
      "p90": 46.7
     },
     "nbm": 44.1,
-    "observed": 46.04,
+    "observed": 44.6,
     "bias": -3.6,
     "bias_src": "own 8d",
     "kernel_sd": 3.0,
@@ -16114,37 +16081,37 @@
     "rows": [
      {
       "label": "\u226437\u00b0",
-      "q": 0.033,
+      "q": 0.036,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "38\u201339\u00b0",
-      "q": 0.096,
+      "q": 0.105,
       "bid": null,
       "ask": 0.06
      },
      {
       "label": "40\u201341\u00b0",
-      "q": 0.191,
+      "q": 0.215,
       "bid": 0.1,
       "ask": 0.51
      },
      {
       "label": "42\u201343\u00b0",
-      "q": 0.248,
+      "q": 0.297,
       "bid": 0.01,
       "ask": 0.62
      },
      {
       "label": "44\u201345\u00b0",
-      "q": 0.257,
+      "q": 0.331,
       "bid": 0.06,
       "ask": 0.23
      },
      {
       "label": "\u226546\u00b0",
-      "q": 0.175,
+      "q": 0.016,
       "bid": null,
       "ask": 0.01
      }
@@ -16161,7 +16128,7 @@
      "p90": 53.9
     },
     "nbm": 51.3,
-    "observed": 55.4,
+    "observed": 53.6,
     "bias": -1.19,
     "bias_src": "own 8d",
     "kernel_sd": 0.9,
@@ -16191,19 +16158,19 @@
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.136,
+      "q": 0.137,
       "bid": 0.01,
       "ask": 0.46
      },
      {
       "label": "51\u201352\u00b0",
-      "q": 0.375,
+      "q": 0.381,
       "bid": 0.32,
       "ask": 0.98
      },
      {
       "label": "\u226553\u00b0",
-      "q": 0.454,
+      "q": 0.447,
       "bid": 0.23,
       "ask": 0.43
      }
@@ -16338,7 +16305,7 @@
      "p90": 79.1
     },
     "nbm": 75.2,
-    "observed": 78.08,
+    "observed": 77.0,
     "bias": -0.09,
     "bias_src": "own 8d",
     "kernel_sd": 0.9,
@@ -16362,25 +16329,25 @@
      },
      {
       "label": "72\u201373\u00b0",
-      "q": 0.168,
+      "q": 0.17,
       "bid": 0.01,
       "ask": 0.07
      },
      {
       "label": "74\u201375\u00b0",
-      "q": 0.355,
+      "q": 0.358,
       "bid": 0.03,
       "ask": 0.48
      },
      {
       "label": "76\u201377\u00b0",
-      "q": 0.176,
+      "q": 0.259,
       "bid": 0.18,
       "ask": 0.88
      },
      {
       "label": "\u226578\u00b0",
-      "q": 0.278,
+      "q": 0.189,
       "bid": null,
       "ask": 0.02
      }
@@ -16574,7 +16541,7 @@
      "p90": 57.8
     },
     "nbm": 56.2,
-    "observed": 59.0,
+    "observed": 57.2,
     "bias": 0.55,
     "bias_src": "own 8d",
     "kernel_sd": 0.9,
@@ -16604,19 +16571,19 @@
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.383,
+      "q": 0.388,
       "bid": 0.01,
       "ask": 0.36
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.183,
+      "q": 0.204,
       "bid": 0.01,
       "ask": 0.82
      },
      {
       "label": "\u226557\u00b0",
-      "q": 0.327,
+      "q": 0.301,
       "bid": 0.01,
       "ask": 0.89
      }
@@ -17155,7 +17122,7 @@
    }
   ],
   "halt": null,
-  "candidates": 89,
+  "candidates": 91,
   "health": {
    "nws_observations": {
     "ok": 38,
@@ -17163,7 +17130,7 @@
     "last_error": null
    }
   },
-  "seconds": 36.7
+  "seconds": 19.8
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

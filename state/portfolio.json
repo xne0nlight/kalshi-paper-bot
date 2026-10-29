@@ -111,7 +111,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.79,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -128,7 +128,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.48,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -211,7 +211,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.82,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -280,7 +280,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.85,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -297,7 +297,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5135,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.56,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -380,7 +380,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -397,7 +397,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.76,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1793245524,
@@ -437,7 +437,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793340000.0,
    "score": 0.509,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -492,7 +492,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.74,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793259026,
@@ -16267,90 +16267,95 @@
    1793264427,
    89.62,
    80.71
+  ],
+  [
+   1793265325,
+   89.62,
+   85.26
   ]
  ],
  "last_run": {
-  "ts": 1793264427,
+  "ts": 1793265325,
   "error": null,
-  "markets_scanned": 5491,
-  "candidates": 44,
+  "markets_scanned": 2474,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 4910,
-   "no favorite in 80-95c band": 427,
-   "spread too wide": 108,
-   "nothing for sale at the ask": 2
+   "too little volume": 2197,
+   "no favorite in 80-95c band": 195,
+   "spread too wide": 50,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,250 or above",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 15932.93,
+    "score": 0.6403
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 35.74,
+    "volume_24h": 26042.41,
+    "score": 0.6303
+   },
+   {
+    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 32406.14,
-    "score": 0.6867
+    "hours_to_close": 27.23,
+    "volume_24h": 8392.82,
+    "score": 0.6275
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,750 or above",
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 3177.38,
+    "score": 0.603
+   },
+   {
+    "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 6250.08,
-    "score": 0.6714
+    "hours_to_close": 35.74,
+    "volume_24h": 4716.0,
+    "score": 0.5958
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 35601.75,
-    "score": 0.6667
+    "price": 0.89,
+    "hours_to_close": 35.74,
+    "volume_24h": 15157.43,
+    "score": 0.5903
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 10629.25,
-    "score": 0.6667
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,000 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 11.99,
-    "volume_24h": 71179.14,
-    "score": 0.6367
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,000 or above",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 11.99,
-    "volume_24h": 47405.44,
-    "score": 0.6367
+    "hours_to_close": 35.74,
+    "volume_24h": 20861.57,
+    "score": 0.5703
    },
    {
-    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
+    "label": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? \u2014 38.0 to 38.2",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 2549.4,
-    "score": 0.6305
-   },
-   {
-    "label": "Will the maximum temperature be 65-66\u00b0 on Oct 29, 2026? \u2014 65\u00b0 to 66\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.99,
-    "volume_24h": 1932.67,
-    "score": 0.6273
+    "price": 0.89,
+    "hours_to_close": 29.74,
+    "volume_24h": 3144.36,
+    "score": 0.5611
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 18,
   "watch_graded": 0,
   "api_calls": 43
  },

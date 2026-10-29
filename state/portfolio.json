@@ -201,7 +201,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -224,7 +224,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -247,7 +247,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.89,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -270,7 +270,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.74,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -355,7 +355,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -16150,89 +16150,94 @@
    1793254526,
    89.62,
    84.91
+  ],
+  [
+   1793255426,
+   89.62,
+   84.93
   ]
  ],
  "last_run": {
-  "ts": 1793254526,
+  "ts": 1793255426,
   "error": null,
-  "markets_scanned": 3703,
-  "candidates": 68,
+  "markets_scanned": 3760,
+  "candidates": 76,
   "rejections": {
-   "too little volume": 3354,
-   "no favorite in 80-95c band": 258,
-   "spread too wide": 23
+   "too little volume": 3396,
+   "no favorite in 80-95c band": 263,
+   "spread too wide": 25
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 35893.77,
-    "score": 0.7012
-   },
-   {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 9646.2,
-    "score": 0.7001
+    "hours_to_close": 14.49,
+    "volume_24h": 9677.47,
+    "score": 0.7014
+   },
+   {
+    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,390 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 14.49,
+    "volume_24h": 8355.52,
+    "score": 0.6966
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 8467.04,
-    "score": 0.6858
+    "score": 0.6871
    },
    {
-    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,390 or above",
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.74,
-    "volume_24h": 8353.52,
-    "score": 0.6854
+    "price": 0.91,
+    "hours_to_close": 14.49,
+    "volume_24h": 34558.41,
+    "score": 0.6625
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.74,
-    "volume_24h": 9516.88,
-    "score": 0.6796
+    "price": 0.91,
+    "hours_to_close": 14.49,
+    "volume_24h": 10050.31,
+    "score": 0.6625
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Oct 29, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 12.24,
+    "hours_to_close": 11.99,
     "volume_24h": 5517.19,
-    "score": 0.6557
+    "score": 0.6573
    },
    {
     "label": "Will the WTI crude oil settlement price be above 98.49 USD/Bbl on Oct 29, 2026? \u2014 Above $98.49",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 12.24,
+    "hours_to_close": 11.99,
     "volume_24h": 2834.33,
-    "score": 0.6541
+    "score": 0.6557
    },
    {
     "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.23,
-    "volume_24h": 8510.25,
+    "hours_to_close": 29.98,
+    "volume_24h": 8392.82,
     "score": 0.6527
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

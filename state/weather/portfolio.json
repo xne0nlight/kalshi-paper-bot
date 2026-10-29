@@ -26,7 +26,7 @@
    "contracts": 2,
    "filled": 0.0,
    "placed_ts": 1793257224,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 0.46
   },
   {
@@ -49,7 +49,7 @@
    "contracts": 4,
    "filled": 0.0,
    "placed_ts": 1793258126,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 0.52
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 11,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 10.34
   },
   {
@@ -95,7 +95,7 @@
    "contracts": 9,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 7.74
   },
   {
@@ -118,7 +118,7 @@
    "contracts": 2,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 1.76
   },
   {
@@ -141,7 +141,7 @@
    "contracts": 3,
    "filled": 0.0,
    "placed_ts": 1793259026,
-   "checked_ts": 1793260827,
+   "checked_ts": 1793261725,
    "reserved": 0.78
   }
  ],
@@ -8222,6 +8222,11 @@
    1793260827,
    110.478,
    112.748
+  ],
+  [
+   1793261725,
+   110.478,
+   112.748
   ]
  ],
  "forecast_log": {
@@ -14284,7 +14289,7 @@
   }
  },
  "last_run": {
-  "ts": 1793260827,
+  "ts": 1793261725,
   "error": null,
   "errors": [],
   "fills": [],
@@ -15628,7 +15633,7 @@
       "label": "78\u201379\u00b0",
       "q": 0.2,
       "bid": 0.06,
-      "ask": 0.09
+      "ask": 0.1
      },
      {
       "label": "80\u201381\u00b0",
@@ -17129,13 +17134,23 @@
   "halt": null,
   "candidates": 91,
   "health": {
+   "open_meteo_ensemble": {
+    "ok": 48,
+    "fail": 0,
+    "last_error": null
+   },
+   "open_meteo_nbm": {
+    "ok": 24,
+    "fail": 0,
+    "last_error": null
+   },
    "nws_observations": {
     "ok": 48,
     "fail": 0,
     "last_error": null
    }
   },
-  "seconds": 26.3
+  "seconds": 26.4
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

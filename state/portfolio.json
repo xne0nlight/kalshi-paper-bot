@@ -78,7 +78,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -106,7 +106,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -134,7 +134,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -214,7 +214,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.46,
+   "mark_price": 0.47,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -252,7 +252,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.94,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -313,7 +313,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.86,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793245524,
@@ -16619,96 +16619,96 @@
    1793301326,
    91.36,
    87.65
+  ],
+  [
+   1793302226,
+   91.36,
+   88.05
   ]
  ],
  "last_run": {
-  "ts": 1793301326,
+  "ts": 1793302226,
   "error": null,
   "markets_scanned": 2887,
-  "candidates": 51,
+  "candidates": 56,
   "rejections": {
-   "too little volume": 2521,
-   "no favorite in 80-95c band": 273,
-   "spread too wide": 41,
+   "too little volume": 2517,
+   "no favorite in 80-95c band": 272,
+   "spread too wide": 40,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
-  "opened": [
-   285
-  ],
-  "settled": [
-   281
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 25.74,
+    "price": 0.95,
+    "hours_to_close": 25.49,
     "volume_24h": 16484.65,
-    "score": 0.6562
+    "score": 0.6667
    },
    {
-    "label": "Reg Time: Cieza wins",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.24,
-    "volume_24h": 18114.51,
-    "score": 0.6494
+    "price": 0.94,
+    "hours_to_close": 25.49,
+    "volume_24h": 8935.17,
+    "score": 0.653
    },
    {
-    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,240 or above",
+    "label": "Will average gas prices go below $4.20 by Oct 31, 2026? \u2014 Below $4.20",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 2899.09,
+    "hours_to_close": 32.48,
+    "volume_24h": 4129.16,
     "score": 0.6258
    },
    {
     "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.73,
-    "volume_24h": 34984.79,
-    "score": 0.6242
-   },
-   {
-    "label": "Will average gas prices go below $4.20 by Oct 31, 2026? \u2014 Below $4.20",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 32.73,
-    "volume_24h": 3929.16,
-    "score": 0.6238
+    "hours_to_close": 32.48,
+    "volume_24h": 32793.79,
+    "score": 0.6246
    },
    {
     "label": "ERCOT West Hub average power price above $25/MWh, Week 44? \u2014 Above $25/MWh",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.73,
+    "hours_to_close": 25.48,
     "volume_24h": 2248.99,
-    "score": 0.6176
+    "score": 0.6181
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.74,
-    "volume_24h": 25788.47,
-    "score": 0.6162
+    "hours_to_close": 25.49,
+    "volume_24h": 25795.47,
+    "score": 0.6167
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 25.74,
-    "volume_24h": 58685.75,
-    "score": 0.6162
+    "hours_to_close": 25.49,
+    "volume_24h": 53379.58,
+    "score": 0.6167
+   },
+   {
+    "label": "Reg Time: Cieza wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.99,
+    "volume_24h": 18193.51,
+    "score": 0.61
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 1
-  },
-  "watch_added": 3,
+  "skipped": {},
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 14.618,
+ "cash": 15.618,
  "fees_paid": 0.0,
  "next_id": 1300,
  "orders": [],
@@ -141,25 +141,6 @@
    "avg_price": 0.91
   },
   {
-   "ticker": "KXHIGHNY-26OCT28-T60",
-   "event_ticker": "KXHIGHNY-26OCT28",
-   "series": "KXHIGHNY",
-   "kind": "high",
-   "code": "NYC",
-   "date": "2026-10-28",
-   "label": "NYC high \u226459\u00b0 10-28",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1793250000.0,
-   "q_model": 0.9813,
-   "id": 1129,
-   "contracts": 1.0,
-   "cost": 0.8,
-   "opened_ts": 1793156426,
-   "mark_price": 0.99,
-   "avg_price": 0.8
-  },
-  {
    "ticker": "KXLOWTMIN-26OCT28-T50",
    "event_ticker": "KXLOWTMIN-26OCT28",
    "series": "KXLOWTMIN",
@@ -177,25 +158,6 @@
    "opened_ts": 1793157325,
    "mark_price": 0.01,
    "avg_price": 0.3
-  },
-  {
-   "ticker": "KXHIGHTDC-26OCT28-B70.5",
-   "event_ticker": "KXHIGHTDC-26OCT28",
-   "series": "KXHIGHTDC",
-   "kind": "high",
-   "code": "DCA",
-   "date": "2026-10-28",
-   "label": "DCA high 70\u201371\u00b0 10-28",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1793250000.0,
-   "q_model": 0.5219,
-   "id": 1138,
-   "contracts": 1.0,
-   "cost": 0.14,
-   "opened_ts": 1793162725,
-   "mark_price": 0.01,
-   "avg_price": 0.14
   },
   {
    "ticker": "KXHIGHTOKC-26OCT29-T80",
@@ -232,7 +194,7 @@
    "contracts": 1.0,
    "cost": 0.83,
    "opened_ts": 1793199626,
-   "mark_price": 0.25,
+   "mark_price": 0.28,
    "avg_price": 0.83
   },
   {
@@ -308,7 +270,7 @@
    "contracts": 1.0,
    "cost": 0.28,
    "opened_ts": 1793208626,
-   "mark_price": 0.13,
+   "mark_price": 0.19,
    "avg_price": 0.28
   },
   {
@@ -403,7 +365,7 @@
    "contracts": 1.0,
    "cost": 0.51,
    "opened_ts": 1793218526,
-   "mark_price": 0.69,
+   "mark_price": 0.71,
    "avg_price": 0.51
   },
   {
@@ -441,7 +403,7 @@
    "contracts": 1.0,
    "cost": 0.32,
    "opened_ts": 1793225727,
-   "mark_price": 0.35,
+   "mark_price": 0.33,
    "avg_price": 0.32
   },
   {
@@ -555,7 +517,7 @@
    "contracts": 1.0,
    "cost": 0.15,
    "opened_ts": 1793244627,
-   "mark_price": 0.18,
+   "mark_price": 0.16,
    "avg_price": 0.15
   },
   {
@@ -612,7 +574,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1793250024,
-   "mark_price": 0.38,
+   "mark_price": 0.37,
    "avg_price": 0.37
   },
   {
@@ -669,7 +631,7 @@
    "contracts": 9.0,
    "cost": 7.74,
    "opened_ts": 1793265325,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "avg_price": 0.86
   }
  ],
@@ -4169,6 +4131,52 @@
    "result": "NO",
    "closed_ts": 1793198728,
    "won": true
+  },
+  {
+   "ticker": "KXHIGHNY-26OCT28-T60",
+   "event_ticker": "KXHIGHNY-26OCT28",
+   "series": "KXHIGHNY",
+   "kind": "high",
+   "code": "NYC",
+   "date": "2026-10-28",
+   "label": "NYC high \u226459\u00b0 10-28",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1793250000.0,
+   "q_model": 0.9813,
+   "id": 1129,
+   "contracts": 1.0,
+   "cost": 0.8,
+   "opened_ts": 1793156426,
+   "avg_price": 0.8,
+   "payout": 1.0,
+   "pnl": 0.2,
+   "result": "NO",
+   "closed_ts": 1793272526,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTDC-26OCT28-B70.5",
+   "event_ticker": "KXHIGHTDC-26OCT28",
+   "series": "KXHIGHTDC",
+   "kind": "high",
+   "code": "DCA",
+   "date": "2026-10-28",
+   "label": "DCA high 70\u201371\u00b0 10-28",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793250000.0,
+   "q_model": 0.5219,
+   "id": 1138,
+   "contracts": 1.0,
+   "cost": 0.14,
+   "opened_ts": 1793162725,
+   "avg_price": 0.14,
+   "payout": 0.0,
+   "pnl": -0.14,
+   "result": "NO",
+   "closed_ts": 1793272526,
+   "won": false
   }
  ],
  "equity_history": [
@@ -8181,6 +8189,11 @@
    1793271625,
    110.478,
    112.368
+  ],
+  [
+   1793272526,
+   110.538,
+   112.338
   ]
  ],
  "forecast_log": {
@@ -11883,618 +11896,6 @@
     "kind": "low",
     "close_ts": 1793250000.0
    },
-   "KXLOWTSDF-26OCT28-T53": {
-    "q": 0.27755127203435986,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTSDF-26OCT28-T46": {
-    "q": 0.0014325694763013908,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTSDF-26OCT28-B52.5": {
-    "q": 0.364617896088789,
-    "mkt": 0.44000000000000006,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTSDF-26OCT28-B50.5": {
-    "q": 0.24112500061555045,
-    "mkt": 0.315,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTSDF-26OCT28-B48.5": {
-    "q": 0.10048366526214553,
-    "mkt": 0.1,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTSDF-26OCT28-B46.5": {
-    "q": 0.014789596522854576,
-    "mkt": 0.030000000000000002,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-T45": {
-    "q": 0.5903714626621988,
-    "mkt": 0.8,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-T38": {
-    "q": 5.511278108982728e-05,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-B44.5": {
-    "q": 0.2624830307688005,
-    "mkt": 0.08499999999999999,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-B42.5": {
-    "q": 0.12191141503383424,
-    "mkt": 0.065,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-B40.5": {
-    "q": 0.023380012801336572,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTPHIL-26OCT28-B38.5": {
-    "q": 0.0017989659527412937,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-T50": {
-    "q": 0.2999886392517999,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-T43": {
-    "q": 0.0021753513288448175,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-B49.5": {
-    "q": 0.03819612964262001,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-B47.5": {
-    "q": 0.18477380243305336,
-    "mkt": 0.395,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-B45.5": {
-    "q": 0.3938768454471906,
-    "mkt": 0.47000000000000003,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTNYC-26OCT28-B43.5": {
-    "q": 0.08098923189649206,
-    "mkt": 0.08,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-T76": {
-    "q": 0.34619651878554075,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-T69": {
-    "q": 7.927938173944223e-05,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-B75.5": {
-    "q": 0.2552775383127541,
-    "mkt": 0.405,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-B73.5": {
-    "q": 0.31402135057630115,
-    "mkt": 0.43,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-B71.5": {
-    "q": 0.08024362337682103,
-    "mkt": 0.045,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTMIA-26OCT28-B69.5": {
-    "q": 0.004181689566844281,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-T44": {
-    "q": 0.42311281801613326,
-    "mkt": 0.41,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-T37": {
-    "q": 0.003863170147890541,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-B43.5": {
-    "q": 0.22264383288135858,
-    "mkt": 0.43,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-B41.5": {
-    "q": 0.21562070407280562,
-    "mkt": 0.16999999999999998,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-B39.5": {
-    "q": 0.10758756238100531,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTEWR-26OCT28-B37.5": {
-    "q": 0.027171912500807333,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-T50": {
-    "q": 0.27758046968878436,
-    "mkt": 0.6799999999999999,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-T43": {
-    "q": 7.589487846115147e-06,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-B49.5": {
-    "q": 0.2752110089446688,
-    "mkt": 0.26,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-B47.5": {
-    "q": 0.3753834312289135,
-    "mkt": 0.07,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-B45.5": {
-    "q": 0.07101227331296675,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTDC-26OCT28-B43.5": {
-    "q": 0.0008052273368214146,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-T40": {
-    "q": 0.2723923189375338,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-T33": {
-    "q": 0.022114560479759356,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-B39.5": {
-    "q": 0.09643761515352359,
-    "mkt": 0.44,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-B37.5": {
-    "q": 0.2980795549968322,
-    "mkt": 0.425,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-B35.5": {
-    "q": 0.2433815248991519,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTBOS-26OCT28-B33.5": {
-    "q": 0.06759442553319991,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-T52": {
-    "q": 0.4069093487205308,
-    "mkt": 0.265,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-T45": {
-    "q": 9.23556747132993e-06,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-B51.5": {
-    "q": 0.3360034302260438,
-    "mkt": 0.53,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-B49.5": {
-    "q": 0.2343338860208824,
-    "mkt": 0.145,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-B47.5": {
-    "q": 0.02233123610285894,
-    "mkt": 0.095,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXLOWTATL-26OCT28-B45.5": {
-    "q": 0.0004128633622138535,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-T70": {
-    "q": 0.023362541422024218,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-T63": {
-    "q": 0.00087362987858378,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-B69.5": {
-    "q": 0.1436113721052293,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-B67.5": {
-    "q": 0.45839511301145797,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-B65.5": {
-    "q": 0.34215075085272073,
-    "mkt": 0.625,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTTTN-26OCT28-B63.5": {
-    "q": 0.031606592729984714,
-    "mkt": 0.27,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-T82": {
-    "q": 0.004282393497459847,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-T75": {
-    "q": 0.007807332354991553,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-B81.5": {
-    "q": 0.05151590655032226,
-    "mkt": 0.02,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-B79.5": {
-    "q": 0.24027515935379792,
-    "mkt": 0.265,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-B77.5": {
-    "q": 0.5030024714056472,
-    "mkt": 0.665,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTSDF-26OCT28-B75.5": {
-    "q": 0.19311673683778213,
-    "mkt": 0.060000000000000005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-T68": {
-    "q": 0.051450801883774135,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-T61": {
-    "q": 0.000601707471373339,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-B67.5": {
-    "q": 0.2792196006314167,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-B65.5": {
-    "q": 0.49395490198871567,
-    "mkt": 0.1,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-B63.5": {
-    "q": 0.16411362428060974,
-    "mkt": 0.55,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTEWR-26OCT28-B61.5": {
-    "q": 0.010659363744111501,
-    "mkt": 0.325,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-T73": {
-    "q": 0.018369067043577013,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-T66": {
-    "q": 0.001626219708972781,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-B72.5": {
-    "q": 0.1344987135792114,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-B70.5": {
-    "q": 0.5219221736074712,
-    "mkt": 0.14500000000000002,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-B68.5": {
-    "q": 0.2940997683764468,
-    "mkt": 0.655,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTDC-26OCT28-B66.5": {
-    "q": 0.02948405768432225,
-    "mkt": 0.19,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-T61": {
-    "q": 0.05828365468962047,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-T54": {
-    "q": 0.22359451380017653,
-    "mkt": 0.39,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-B60.5": {
-    "q": 0.09303841533936423,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-B58.5": {
-    "q": 0.1662371935061021,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-B56.5": {
-    "q": 0.2336931821314568,
-    "mkt": 0.13,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTBOS-26OCT28-B54.5": {
-    "q": 0.22515304053328056,
-    "mkt": 0.45,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-T77": {
-    "q": 0.005699513824102631,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-T70": {
-    "q": 0.021087312778399533,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-B76.5": {
-    "q": 0.06712579759468675,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-B74.5": {
-    "q": 0.24548364256834865,
-    "mkt": 0.335,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-B72.5": {
-    "q": 0.4816120984233538,
-    "mkt": 0.615,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHTATL-26OCT28-B70.5": {
-    "q": 0.1789916348111094,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-T72": {
-    "q": 0.028375960454402802,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-T65": {
-    "q": 0.0051486334834246065,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-B71.5": {
-    "q": 0.2115062730468516,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-B69.5": {
-    "q": 0.4478498417898614,
-    "mkt": 0.09,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-B67.5": {
-    "q": 0.2565152459944614,
-    "mkt": 0.705,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHPHIL-26OCT28-B65.5": {
-    "q": 0.05060404523099897,
-    "mkt": 0.16499999999999998,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-T67": {
-    "q": 0.0017746376551607932,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-T60": {
-    "q": 0.011064075924120082,
-    "mkt": 0.195,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-B66.5": {
-    "q": 0.020112456314920514,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-B64.5": {
-    "q": 0.2378017954610118,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-B62.5": {
-    "q": 0.5518819452402348,
-    "mkt": 0.225,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHNY-26OCT28-B60.5": {
-    "q": 0.17736508940455276,
-    "mkt": 0.575,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-T89": {
-    "q": 0.013495513032002748,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-T82": {
-    "q": 0.0008070491320179366,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-B88.5": {
-    "q": 0.09368307647247491,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-B86.5": {
-    "q": 0.48646712407233944,
-    "mkt": 0.655,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-B84.5": {
-    "q": 0.37058426428491253,
-    "mkt": 0.255,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
-   "KXHIGHMIA-26OCT28-B82.5": {
-    "q": 0.034962973006253326,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793250000.0
-   },
    "KXLOWTSFO-26OCT29-T55": {
     "q": 0.2666699239992104,
     "mkt": 0.015,
@@ -14226,28 +13627,37 @@
   },
   "totals": {
    "all": {
-    "n": 2010,
-    "model": 282.66724103576144,
-    "market": 189.21232499999994
+    "n": 2112,
+    "model": 295.5609339810167,
+    "market": 197.56639999999993
    },
    "low": {
-    "n": 1008,
-    "model": 153.84481312956075,
-    "market": 101.86244999999973
+    "n": 1056,
+    "model": 158.67145832082474,
+    "market": 105.42592499999971
    },
    "high": {
-    "n": 1002,
-    "model": 128.822427906201,
-    "market": 87.3498749999999
+    "n": 1056,
+    "model": 136.88947566019255,
+    "market": 92.14047499999984
    }
   }
  },
  "last_run": {
-  "ts": 1793271625,
+  "ts": 1793272526,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [],
+  "settled": [
+   {
+    "ticker": "KXHIGHNY-26OCT28-T60",
+    "pnl": 0.2
+   },
+   {
+    "ticker": "KXHIGHTDC-26OCT28-B70.5",
+    "pnl": -0.14
+   }
+  ],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -14255,7 +13665,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 38.5
+  "seconds": 39.1
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

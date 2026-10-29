@@ -78,7 +78,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793223026,
@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -280,7 +280,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -16307,17 +16307,23 @@
    1793271625,
    89.62,
    85.44
+  ],
+  [
+   1793272526,
+   89.62,
+   85.62
   ]
  ],
  "last_run": {
-  "ts": 1793271625,
+  "ts": 1793272526,
   "error": null,
   "markets_scanned": 2517,
-  "candidates": 41,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 2266,
-   "no favorite in 80-95c band": 183,
-   "spread too wide": 26,
+   "too little volume": 2265,
+   "no favorite in 80-95c band": 177,
+   "spread too wide": 32,
+   "favorite is slipping fast": 2,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16328,70 +16334,70 @@
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 15932.13,
-    "score": 0.6425
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 26002.41,
-    "score": 0.6325
+    "hours_to_close": 33.74,
+    "volume_24h": 15920.2,
+    "score": 0.6428
    },
    {
     "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.48,
+    "hours_to_close": 25.23,
     "volume_24h": 8392.82,
-    "score": 0.631
+    "score": 0.6315
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 33.74,
+    "volume_24h": 26002.41,
+    "score": 0.6228
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.49,
+    "hours_to_close": 32.24,
     "volume_24h": 2823.0,
-    "score": 0.6134
+    "score": 0.6137
+   },
+   {
+    "label": "Will the brent crude oil close price be above 114.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $114.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 33.74,
+    "volume_24h": 8894.95,
+    "score": 0.609
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 33.99,
-    "volume_24h": 15324.19,
-    "score": 0.5925
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 33.99,
-    "volume_24h": 21064.41,
-    "score": 0.5825
+    "price": 0.9,
+    "hours_to_close": 33.74,
+    "volume_24h": 15297.19,
+    "score": 0.6028
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 33.99,
+    "price": 0.92,
+    "hours_to_close": 33.74,
     "volume_24h": 3177.3,
-    "score": 0.5752
+    "score": 0.5855
    },
    {
-    "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 30.99,
-    "volume_24h": 789.0,
-    "score": 0.5641
+    "price": 0.87,
+    "hours_to_close": 33.74,
+    "volume_24h": 21064.41,
+    "score": 0.5728
    }
   ],
   "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 2,
+  "watch_added": 0,
+  "watch_graded": 11,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

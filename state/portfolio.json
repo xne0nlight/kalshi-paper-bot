@@ -78,7 +78,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793223026,
@@ -173,7 +173,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -201,7 +201,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -332,8 +332,14 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.81,
-   "shadow": {}
+   "mark_price": 0.72,
+   "shadow": {
+    "10": {
+     "ts": 1793253626,
+     "bid": 0.72,
+     "proceeds": 4.23
+    }
+   }
   },
   {
    "id": 274,
@@ -423,7 +429,7 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -16134,17 +16140,23 @@
    1793252725,
    89.62,
    85.38
+  ],
+  [
+   1793253626,
+   89.62,
+   84.86
   ]
  ],
  "last_run": {
-  "ts": 1793252725,
+  "ts": 1793253626,
   "error": null,
-  "markets_scanned": 4098,
-  "candidates": 69,
+  "markets_scanned": 3703,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 3758,
-   "no favorite in 80-95c band": 251,
-   "spread too wide": 20
+   "too little volume": 3356,
+   "no favorite in 80-95c band": 258,
+   "spread too wide": 23,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -16153,70 +16165,70 @@
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $82,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.24,
-    "volume_24h": 32652.5,
-    "score": 0.6889
+    "price": 0.95,
+    "hours_to_close": 14.99,
+    "volume_24h": 35012.98,
+    "score": 0.7
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 15.24,
+    "hours_to_close": 14.99,
     "volume_24h": 9499.88,
-    "score": 0.6872
+    "score": 0.6884
    },
    {
     "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,390 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.24,
-    "volume_24h": 8270.78,
-    "score": 0.6627
+    "price": 0.93,
+    "hours_to_close": 14.99,
+    "volume_24h": 8340.11,
+    "score": 0.6741
+   },
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 14.99,
+    "volume_24h": 8000.56,
+    "score": 0.6728
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Oct 29, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 12.74,
+    "hours_to_close": 12.49,
     "volume_24h": 5517.19,
-    "score": 0.6527
+    "score": 0.6542
    },
    {
-    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.73,
-    "volume_24h": 8510.25,
-    "score": 0.6519
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.24,
-    "volume_24h": 7998.38,
-    "score": 0.6516
+    "label": "Will the WTI crude oil settlement price be above 98.49 USD/Bbl on Oct 29, 2026? \u2014 Above $98.49",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 12.49,
+    "volume_24h": 2834.33,
+    "score": 0.6525
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.74,
+    "hours_to_close": 12.49,
     "volume_24h": 1380.05,
-    "score": 0.6476
+    "score": 0.6491
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,750 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 15.24,
-    "volume_24h": 4988.06,
-    "score": 0.6462
+    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 30.48,
+    "volume_24h": 8510.25,
+    "score": 0.6423
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

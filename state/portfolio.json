@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.38,
- "fees_paid": 6.85,
+ "cash": 9.66,
+ "fees_paid": 6.87,
  "peak_equity": 109.65,
  "day": "2026-10-29",
  "day_start_equity": 89.62,
- "next_id": 281,
+ "next_id": 282,
  "open_positions": [
   {
    "id": 255,
@@ -46,23 +46,6 @@
      "proceeds": 1.14
     }
    }
-  },
-  {
-   "id": 260,
-   "ticker": "KXHIGHLAX-26OCT28-B71.5",
-   "event_ticker": "KXHIGHLAX-26OCT28",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793159124,
-   "close_ts": 1793260800.0,
-   "score": 0.6127,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 263,
@@ -178,7 +161,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.89,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -224,7 +207,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -247,7 +230,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.87,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -281,7 +264,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.69,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -314,7 +297,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.86,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -352,7 +335,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -431,7 +414,7 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793258126,
@@ -469,7 +452,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793259026,
@@ -503,6 +486,23 @@
    "close_ts": 1793388600.0,
    "score": 0.6115,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 281,
+   "ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE-1",
+   "event_ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE",
+   "series": "KXCOPADELREYTOTAL",
+   "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793283325,
+   "close_ts": 1793383200.0,
+   "score": 0.5718,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -7140,6 +7140,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1793277925,
+   "won": true
+  },
+  {
+   "id": 260,
+   "ticker": "KXHIGHLAX-26OCT28-B71.5",
+   "event_ticker": "KXHIGHLAX-26OCT28",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 71-72\u00b0 on Oct 28, 2026? \u2014 71\u00b0 to 72\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793159124,
+   "close_ts": 1793260800.0,
+   "score": 0.6127,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793283325,
    "won": true
   }
  ],
@@ -16398,91 +16419,103 @@
    1793282434,
    89.9,
    85.31
+  ],
+  [
+   1793283325,
+   90.13,
+   85.3
   ]
  ],
  "last_run": {
-  "ts": 1793282434,
+  "ts": 1793283325,
   "error": null,
-  "markets_scanned": 2514,
-  "candidates": 36,
+  "markets_scanned": 2523,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 2275,
-   "no favorite in 80-95c band": 183,
-   "spread too wide": 19,
+   "too little volume": 2283,
+   "no favorite in 80-95c band": 178,
+   "spread too wide": 21,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   281
+  ],
+  "settled": [
+   260
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.99,
-    "volume_24h": 21061.22,
-    "score": 0.6468
-   },
-   {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
     "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 30.74,
+    "volume_24h": 24894.3,
+    "score": 0.6472
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
+    "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.99,
-    "volume_24h": 24776.74,
-    "score": 0.6368
+    "hours_to_close": 30.74,
+    "volume_24h": 21052.75,
+    "score": 0.6372
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.49,
+    "hours_to_close": 29.24,
     "volume_24h": 2458.0,
-    "score": 0.6135
+    "score": 0.6139
    },
    {
-    "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 30.99,
-    "volume_24h": 4779.36,
-    "score": 0.5927
+    "price": 0.9,
+    "hours_to_close": 30.74,
+    "volume_24h": 20769.05,
+    "score": 0.6072
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 3178.3,
-    "score": 0.5894
+    "score": 0.5898
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 30.99,
-    "volume_24h": 26594.08,
-    "score": 0.5868
+    "hours_to_close": 30.74,
+    "volume_24h": 26872.08,
+    "score": 0.5872
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
+    "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 30.99,
-    "volume_24h": 20908.03,
-    "score": 0.5868
+    "price": 0.94,
+    "hours_to_close": 30.74,
+    "volume_24h": 4790.37,
+    "score": 0.5732
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 27.99,
-    "volume_24h": 842.17,
-    "score": 0.5712
+    "hours_to_close": 27.74,
+    "volume_24h": 844.85,
+    "score": 0.5718
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 14,
+  "skipped": {
+   "related-market cap (Crypto)": 5,
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 2,
+  "watch_graded": 15,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

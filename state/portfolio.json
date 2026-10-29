@@ -405,7 +405,7 @@
    "opened_ts": 1793308526,
    "close_ts": 1793394000.0,
    "score": 0.6606,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -16804,18 +16804,24 @@
    1793315725,
    93.16,
    87.35
+  ],
+  [
+   1793316626,
+   93.16,
+   87.4
   ]
  ],
  "last_run": {
-  "ts": 1793315725,
+  "ts": 1793316626,
   "error": null,
   "markets_scanned": 5241,
   "candidates": 64,
   "rejections": {
-   "too little volume": 4797,
-   "no favorite in 80-95c band": 325,
-   "spread too wide": 46,
-   "favorite is slipping fast": 9
+   "too little volume": 4794,
+   "no favorite in 80-95c band": 321,
+   "spread too wide": 54,
+   "favorite is slipping fast": 6,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -16825,69 +16831,69 @@
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,120 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 20787.48,
-    "score": 0.6757
+    "score": 0.6764
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.74,
+    "price": 0.95,
+    "hours_to_close": 21.49,
     "volume_24h": 47438.56,
-    "score": 0.6657
+    "score": 0.6764
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $74,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 6047.05,
-    "score": 0.6593
+    "hours_to_close": 21.49,
+    "volume_24h": 6052.29,
+    "score": 0.66
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 21.74,
-    "volume_24h": 16245.26,
-    "score": 0.6557
-   },
-   {
-    "label": "Top Esports wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.74,
-    "volume_24h": 253173.69,
-    "score": 0.6385
-   },
-   {
-    "label": "Bilibili Gaming wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 20.74,
-    "volume_24h": 247144.13,
-    "score": 0.6385
+    "hours_to_close": 21.49,
+    "volume_24h": 16246.26,
+    "score": 0.6564
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.74,
-    "volume_24h": 55675.43,
-    "score": 0.6357
+    "price": 0.92,
+    "hours_to_close": 21.49,
+    "volume_24h": 55664.91,
+    "score": 0.6464
+   },
+   {
+    "label": "Top Esports wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.49,
+    "volume_24h": 265557.99,
+    "score": 0.6193
+   },
+   {
+    "label": "Bilibili Gaming wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 20.49,
+    "volume_24h": 252512.63,
+    "score": 0.6193
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 21.74,
+    "price": 0.89,
+    "hours_to_close": 21.49,
     "volume_24h": 14637.18,
-    "score": 0.6057
+    "score": 0.6164
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

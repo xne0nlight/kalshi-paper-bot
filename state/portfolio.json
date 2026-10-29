@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.48,
- "fees_paid": 6.93,
+ "cash": 9.8,
+ "fees_paid": 6.96,
  "peak_equity": 109.65,
  "day": "2026-10-29",
  "day_start_equity": 89.62,
- "next_id": 285,
+ "next_id": 286,
  "open_positions": [
   {
    "id": 264,
@@ -78,7 +78,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -106,7 +106,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -134,7 +134,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -157,7 +157,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -214,7 +214,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.54,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -252,7 +252,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -412,23 +412,6 @@
    "shadow": {}
   },
   {
-   "id": 281,
-   "ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE-1",
-   "event_ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE",
-   "series": "KXCOPADELREYTOTAL",
-   "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793283325,
-   "close_ts": 1793383200.0,
-   "score": 0.5718,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 282,
    "ticker": "KXNATGASW-26OCT3017-T3.099",
    "event_ticker": "KXNATGASW-26OCT3017",
@@ -459,7 +442,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -477,6 +460,23 @@
    "close_ts": 1793393940.0,
    "score": 0.6006,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 285,
+   "ticker": "KXCOPADELREYGAME-26OCT28CIEGCF-CIE",
+   "event_ticker": "KXCOPADELREYGAME-26OCT28CIEGCF",
+   "series": "KXCOPADELREYGAME",
+   "label": "Reg Time: Cieza wins",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793301326,
+   "close_ts": 1793388600.0,
+   "score": 0.6494,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -7240,6 +7240,27 @@
    "pnl": 0.04,
    "result": "NO",
    "closed_ts": 1793294125,
+   "won": true
+  },
+  {
+   "id": 281,
+   "ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE-1",
+   "event_ticker": "KXCOPADELREYTOTAL-26OCT28PESHUE",
+   "series": "KXCOPADELREYTOTAL",
+   "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793283325,
+   "close_ts": 1793383200.0,
+   "score": 0.5718,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793301326,
    "won": true
   }
  ],
@@ -16593,91 +16614,101 @@
    1793300426,
    91.08,
    87.81
+  ],
+  [
+   1793301326,
+   91.36,
+   87.65
   ]
  ],
  "last_run": {
-  "ts": 1793300426,
+  "ts": 1793301326,
   "error": null,
-  "markets_scanned": 2908,
+  "markets_scanned": 2887,
   "candidates": 51,
   "rejections": {
-   "too little volume": 2531,
-   "no favorite in 80-95c band": 279,
-   "spread too wide": 45,
-   "nothing for sale at the ask": 1,
+   "too little volume": 2521,
+   "no favorite in 80-95c band": 273,
+   "spread too wide": 41,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   285
+  ],
+  "settled": [
+   281
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 16512.52,
-    "score": 0.6656
+    "price": 0.94,
+    "hours_to_close": 25.74,
+    "volume_24h": 16484.65,
+    "score": 0.6562
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,000 or above",
+    "label": "Reg Time: Cieza wins",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 25.99,
-    "volume_24h": 9026.27,
-    "score": 0.6523
+    "price": 0.93,
+    "hours_to_close": 24.24,
+    "volume_24h": 18114.51,
+    "score": 0.6494
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,240 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 2899.09,
-    "score": 0.6253
+    "score": 0.6258
+   },
+   {
+    "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.73,
+    "volume_24h": 34984.79,
+    "score": 0.6242
    },
    {
     "label": "Will average gas prices go below $4.20 by Oct 31, 2026? \u2014 Below $4.20",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.98,
+    "hours_to_close": 32.73,
     "volume_24h": 3929.16,
-    "score": 0.6235
+    "score": 0.6238
    },
    {
     "label": "ERCOT West Hub average power price above $25/MWh, Week 44? \u2014 Above $25/MWh",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.98,
-    "volume_24h": 2244.99,
-    "score": 0.617
+    "hours_to_close": 25.73,
+    "volume_24h": 2248.99,
+    "score": 0.6176
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 25.74,
+    "volume_24h": 25788.47,
+    "score": 0.6162
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 25.99,
-    "volume_24h": 58725.18,
-    "score": 0.6156
-   },
-   {
-    "label": "Reg Time: Cieza wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 17389.98,
-    "score": 0.6089
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.99,
-    "volume_24h": 26377.63,
-    "score": 0.6056
+    "hours_to_close": 25.74,
+    "volume_24h": 58685.75,
+    "score": 0.6162
    }
   ],
-  "skipped": {},
-  "watch_added": 5,
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

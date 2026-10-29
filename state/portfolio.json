@@ -173,7 +173,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.8,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -270,7 +270,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -16104,85 +16104,91 @@
    1793247324,
    89.62,
    85.14
+  ],
+  [
+   1793248226,
+   89.62,
+   84.99
   ]
  ],
  "last_run": {
-  "ts": 1793247324,
+  "ts": 1793248226,
   "error": null,
   "markets_scanned": 4092,
-  "candidates": 63,
+  "candidates": 66,
   "rejections": {
    "too little volume": 3779,
-   "no favorite in 80-95c band": 229,
-   "spread too wide": 21
+   "no favorite in 80-95c band": 225,
+   "spread too wide": 21,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 8255.18,
-    "score": 0.6761
+    "label": "Will Trump's RCP approval average be above 38.7 on Oct 29, 2026? \u2014 Above 38.7%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 12.48,
+    "volume_24h": 2583.2,
+    "score": 0.6696
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 16.74,
+    "price": 0.92,
+    "hours_to_close": 16.49,
     "volume_24h": 31323.53,
-    "score": 0.6723
+    "score": 0.6634
    },
    {
-    "label": "Will Trump's RCP approval average be above 38.7 on Oct 29, 2026? \u2014 Above 38.7%",
-    "side": "no",
+    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,230 or above",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.73,
-    "volume_24h": 2568.71,
-    "score": 0.6679
+    "hours_to_close": 16.49,
+    "volume_24h": 2908.12,
+    "score": 0.6531
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.74,
+    "price": 0.94,
+    "hours_to_close": 16.49,
     "volume_24h": 3582.7,
-    "score": 0.6589
+    "score": 0.6499
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Oct 29, 2026? \u2014 Above $104.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 1595.04,
-    "score": 0.644
-   },
-   {
-    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,230 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.74,
-    "volume_24h": 2908.12,
-    "score": 0.6421
+    "score": 0.6453
    },
    {
     "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 1380.05,
-    "score": 0.6393
+    "score": 0.6406
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,250 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 16.74,
-    "volume_24h": 26289.25,
-    "score": 0.6323
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,250 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 16.49,
+    "volume_24h": 4572.19,
+    "score": 0.6379
+   },
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 16.49,
+    "volume_24h": 8389.3,
+    "score": 0.6376
    }
   ],
   "skipped": {},

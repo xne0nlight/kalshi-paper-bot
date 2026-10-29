@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 27.618,
+ "cash": 40.118,
  "fees_paid": 0.0,
  "next_id": 1300,
  "orders": [],
@@ -25,63 +25,6 @@
    "opened_ts": 1793027732,
    "mark_price": 0.01,
    "avg_price": 0.31
-  },
-  {
-   "ticker": "KXLOWTDEN-26OCT28-B37.5",
-   "event_ticker": "KXLOWTDEN-26OCT28",
-   "series": "KXLOWTDEN",
-   "kind": "low",
-   "code": "DEN",
-   "date": "2026-10-28",
-   "label": "DEN low 37\u201338\u00b0 10-28",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1793257200.0,
-   "q_model": 0.9801,
-   "id": 1094,
-   "contracts": 1.5,
-   "cost": 1.26,
-   "opened_ts": 1793119525,
-   "mark_price": 0.99,
-   "avg_price": 0.84
-  },
-  {
-   "ticker": "KXLOWTDEN-26OCT28-T42",
-   "event_ticker": "KXLOWTDEN-26OCT28",
-   "series": "KXLOWTDEN",
-   "kind": "low",
-   "code": "DEN",
-   "date": "2026-10-28",
-   "label": "DEN low \u226543\u00b0 10-28",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1793257200.0,
-   "q_model": 0.7519,
-   "id": 1111,
-   "contracts": 1.0,
-   "cost": 0.19,
-   "opened_ts": 1793131226,
-   "mark_price": 0.04,
-   "avg_price": 0.19
-  },
-  {
-   "ticker": "KXLOWTDEN-26OCT28-B35.5",
-   "event_ticker": "KXLOWTDEN-26OCT28",
-   "series": "KXLOWTDEN",
-   "kind": "low",
-   "code": "DEN",
-   "date": "2026-10-28",
-   "label": "DEN low 35\u201336\u00b0 10-28",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1793257200.0,
-   "q_model": 0.9814,
-   "id": 1126,
-   "contracts": 11.0,
-   "cost": 10.01,
-   "opened_ts": 1793152825,
-   "mark_price": 0.99,
-   "avg_price": 0.91
   },
   {
    "ticker": "KXLOWTMIN-26OCT28-T50",
@@ -175,7 +118,7 @@
    "contracts": 12.0,
    "cost": 10.2,
    "opened_ts": 1793205926,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "avg_price": 0.85
   },
   {
@@ -251,7 +194,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1793214026,
-   "mark_price": 0.08,
+   "mark_price": 0.1,
    "avg_price": 0.09
   },
   {
@@ -346,7 +289,7 @@
    "contracts": 1.0,
    "cost": 0.32,
    "opened_ts": 1793225727,
-   "mark_price": 0.34,
+   "mark_price": 0.36,
    "avg_price": 0.32
   },
   {
@@ -441,7 +384,7 @@
    "contracts": 1.0,
    "cost": 0.82,
    "opened_ts": 1793241926,
-   "mark_price": 0.74,
+   "mark_price": 0.73,
    "avg_price": 0.82
   },
   {
@@ -460,7 +403,7 @@
    "contracts": 1.0,
    "cost": 0.15,
    "opened_ts": 1793244627,
-   "mark_price": 0.25,
+   "mark_price": 0.26,
    "avg_price": 0.15
   },
   {
@@ -479,7 +422,7 @@
    "contracts": 1.0,
    "cost": 0.34,
    "opened_ts": 1793245524,
-   "mark_price": 0.2,
+   "mark_price": 0.18,
    "avg_price": 0.34
   },
   {
@@ -517,7 +460,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1793250024,
-   "mark_price": 0.34,
+   "mark_price": 0.32,
    "avg_price": 0.37
   },
   {
@@ -536,7 +479,7 @@
    "contracts": 1.0,
    "cost": 0.29,
    "opened_ts": 1793254526,
-   "mark_price": 0.24,
+   "mark_price": 0.23,
    "avg_price": 0.29
   },
   {
@@ -574,7 +517,7 @@
    "contracts": 9.0,
    "cost": 7.74,
    "opened_ts": 1793265325,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "avg_price": 0.86
   }
  ],
@@ -4189,6 +4132,75 @@
    "result": "NO",
    "closed_ts": 1793276126,
    "won": false
+  },
+  {
+   "ticker": "KXLOWTDEN-26OCT28-B37.5",
+   "event_ticker": "KXLOWTDEN-26OCT28",
+   "series": "KXLOWTDEN",
+   "kind": "low",
+   "code": "DEN",
+   "date": "2026-10-28",
+   "label": "DEN low 37\u201338\u00b0 10-28",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1793257200.0,
+   "q_model": 0.9801,
+   "id": 1094,
+   "contracts": 1.5,
+   "cost": 1.26,
+   "opened_ts": 1793119525,
+   "avg_price": 0.84,
+   "payout": 1.5,
+   "pnl": 0.24,
+   "result": "NO",
+   "closed_ts": 1793279725,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTDEN-26OCT28-T42",
+   "event_ticker": "KXLOWTDEN-26OCT28",
+   "series": "KXLOWTDEN",
+   "kind": "low",
+   "code": "DEN",
+   "date": "2026-10-28",
+   "label": "DEN low \u226543\u00b0 10-28",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793257200.0,
+   "q_model": 0.7519,
+   "id": 1111,
+   "contracts": 1.0,
+   "cost": 0.19,
+   "opened_ts": 1793131226,
+   "avg_price": 0.19,
+   "payout": 0.0,
+   "pnl": -0.19,
+   "result": "NO",
+   "closed_ts": 1793279725,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTDEN-26OCT28-B35.5",
+   "event_ticker": "KXLOWTDEN-26OCT28",
+   "series": "KXLOWTDEN",
+   "kind": "low",
+   "code": "DEN",
+   "date": "2026-10-28",
+   "label": "DEN low 35\u201336\u00b0 10-28",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1793257200.0,
+   "q_model": 0.9814,
+   "id": 1126,
+   "contracts": 11.0,
+   "cost": 10.01,
+   "opened_ts": 1793152825,
+   "avg_price": 0.91,
+   "payout": 11.0,
+   "pnl": 0.99,
+   "result": "NO",
+   "closed_ts": 1793279725,
+   "won": true
   }
  ],
  "equity_history": [
@@ -8241,6 +8253,11 @@
    1793278826,
    112.278,
    114.458
+  ],
+  [
+   1793279725,
+   113.318,
+   114.323
   ]
  ],
  "forecast_log": {
@@ -11223,42 +11240,6 @@
     "kind": "low",
     "close_ts": 1793257200.0
    },
-   "KXLOWTDEN-26OCT28-T42": {
-    "q": 0.4207640169745389,
-    "mkt": 0.1,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
-   "KXLOWTDEN-26OCT28-T35": {
-    "q": 0.019445232363914423,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
-   "KXLOWTDEN-26OCT28-B41.5": {
-    "q": 0.22869072873499452,
-    "mkt": 0.2,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
-   "KXLOWTDEN-26OCT28-B39.5": {
-    "q": 0.1842094942546387,
-    "mkt": 0.28500000000000003,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
-   "KXLOWTDEN-26OCT28-B37.5": {
-    "q": 0.10255937935649681,
-    "mkt": 0.305,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
-   "KXLOWTDEN-26OCT28-B35.5": {
-    "q": 0.044331148315417485,
-    "mkt": 0.07,
-    "kind": "low",
-    "close_ts": 1793257200.0
-   },
    "KXHIGHTPHX-26OCT28-T91": {
     "q": 0.10816685814088682,
     "mkt": 0.005,
@@ -11292,42 +11273,6 @@
    "KXHIGHTPHX-26OCT28-B84.5": {
     "q": 0.10090174171950228,
     "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-T72": {
-    "q": 5.941538986520708e-06,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-T65": {
-    "q": 0.32598871744564833,
-    "mkt": 0.055,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-B71.5": {
-    "q": 0.0011646194597054722,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-B69.5": {
-    "q": 0.03730421290116579,
-    "mkt": 0.07500000000000001,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-B67.5": {
-    "q": 0.2371737388795282,
-    "mkt": 0.425,
-    "kind": "high",
-    "close_ts": 1793257200.0
-   },
-   "KXHIGHDEN-26OCT28-B65.5": {
-    "q": 0.39836276977496676,
-    "mkt": 0.38,
     "kind": "high",
     "close_ts": 1793257200.0
    },
@@ -13134,28 +13079,41 @@
   },
   "totals": {
    "all": {
-    "n": 2202,
-    "model": 307.8733797874217,
-    "market": 206.2784249999998
+    "n": 2214,
+    "model": 309.3069778819252,
+    "market": 207.5117999999998
    },
    "low": {
-    "n": 1098,
-    "model": 164.5634229352829,
-    "market": 109.16364999999969
+    "n": 1104,
+    "model": 165.4711406860037,
+    "market": 109.8228999999997
    },
    "high": {
-    "n": 1104,
-    "model": 143.30995685213946,
-    "market": 97.11477499999977
+    "n": 1110,
+    "model": 143.83583719592227,
+    "market": 97.68889999999976
    }
   }
  },
  "last_run": {
-  "ts": 1793278826,
+  "ts": 1793279725,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [],
+  "settled": [
+   {
+    "ticker": "KXLOWTDEN-26OCT28-B37.5",
+    "pnl": 0.24
+   },
+   {
+    "ticker": "KXLOWTDEN-26OCT28-T42",
+    "pnl": -0.19
+   },
+   {
+    "ticker": "KXLOWTDEN-26OCT28-B35.5",
+    "pnl": 0.99
+   }
+  ],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -13163,7 +13121,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 34.3
+  "seconds": 35.5
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

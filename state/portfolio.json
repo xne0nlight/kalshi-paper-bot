@@ -150,7 +150,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -178,7 +178,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -201,7 +201,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -224,7 +224,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -247,7 +247,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -281,7 +281,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.74,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -314,7 +314,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.76,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -352,7 +352,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -469,7 +469,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793259026,
@@ -16378,17 +16378,23 @@
    1793278826,
    89.9,
    84.72
+  ],
+  [
+   1793279725,
+   89.9,
+   85.02
   ]
  ],
  "last_run": {
-  "ts": 1793278826,
+  "ts": 1793279725,
   "error": null,
   "markets_scanned": 2491,
-  "candidates": 34,
+  "candidates": 37,
   "rejections": {
-   "too little volume": 2248,
-   "no favorite in 80-95c band": 184,
-   "spread too wide": 24,
+   "too little volume": 2247,
+   "no favorite in 80-95c band": 185,
+   "spread too wide": 20,
+   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16399,70 +16405,70 @@
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 21070.84,
-    "score": 0.6553
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 31.99,
-    "volume_24h": 26011.83,
-    "score": 0.6453
+    "score": 0.6556
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 26550.46,
-    "score": 0.6153
+    "score": 0.6156
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 31.99,
-    "volume_24h": 24803.26,
-    "score": 0.6153
+    "hours_to_close": 31.74,
+    "volume_24h": 24804.26,
+    "score": 0.6156
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 2458.0,
-    "score": 0.6119
+    "score": 0.6122
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 31.74,
+    "volume_24h": 26011.83,
+    "score": 0.6056
+   },
+   {
+    "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 31.74,
+    "volume_24h": 4769.36,
+    "score": 0.6015
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 3178.3,
-    "score": 0.5879
-   },
-   {
-    "label": "Will the brent crude oil close price be above 114.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $114.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 9094.95,
-    "score": 0.5822
+    "score": 0.5883
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 842.17,
-    "score": 0.5695
+    "score": 0.5699
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 1,
+  "watch_added": 2,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

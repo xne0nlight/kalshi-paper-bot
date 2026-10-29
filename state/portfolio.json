@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.79,
- "fees_paid": 6.88,
+ "cash": 10.35,
+ "fees_paid": 6.92,
  "peak_equity": 109.65,
  "day": "2026-10-29",
  "day_start_equity": 89.62,
- "next_id": 283,
+ "next_id": 284,
  "open_positions": [
-  {
-   "id": 263,
-   "ticker": "KX30YMORTW-26OCT29-T7.22",
-   "event_ticker": "KX30YMORTW-26OCT29",
-   "series": "KX30YMORTW",
-   "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.86,
-   "fee": 0.06,
-   "cost": 5.22,
-   "opened_ts": 1793196028,
-   "close_ts": 1793289540.0,
-   "score": 0.4584,
-   "mark_price": 0.91,
-   "shadow": {}
-  },
   {
    "id": 264,
    "ticker": "KXYTTOPSONGGW-26OCT29-YES",
@@ -40,7 +23,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.48,
+   "mark_price": 0.18,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -123,7 +106,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -151,7 +134,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -174,7 +157,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -231,7 +214,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.69,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -264,7 +247,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.94,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -302,7 +285,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.77,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793286026,
@@ -325,7 +308,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.89,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793245524,
@@ -353,7 +336,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793307600.0,
    "score": 0.5593,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -425,7 +408,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793259026,
@@ -492,6 +475,23 @@
    "opened_ts": 1793287827,
    "close_ts": 1793394000.0,
    "score": 0.431,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 283,
+   "ticker": "KXAAAGASM-26OCT31-4.20",
+   "event_ticker": "KXAAAGASM-26OCT31",
+   "series": "KXAAAGASM",
+   "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1793290525,
+   "close_ts": 1793419140.0,
+   "score": 0.6003,
    "mark_price": 0.89,
    "shadow": {}
   }
@@ -7193,6 +7193,27 @@
    "pnl": 0.13,
    "result": "NO",
    "closed_ts": 1793287827,
+   "won": true
+  },
+  {
+   "id": 263,
+   "ticker": "KX30YMORTW-26OCT29-T7.22",
+   "event_ticker": "KX30YMORTW-26OCT29",
+   "series": "KX30YMORTW",
+   "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Oct 29, 2026 be above 7.22%? \u2014 Above 7.22%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.86,
+   "fee": 0.06,
+   "cost": 5.22,
+   "opened_ts": 1793196028,
+   "close_ts": 1793289540.0,
+   "score": 0.4584,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.78,
+   "result": "YES",
+   "closed_ts": 1793290525,
    "won": true
   }
  ],
@@ -16486,92 +16507,104 @@
    1793289625,
    90.26,
    87.27
+  ],
+  [
+   1793290525,
+   91.04,
+   85.78
   ]
  ],
  "last_run": {
-  "ts": 1793289625,
+  "ts": 1793290525,
   "error": null,
   "markets_scanned": 2556,
-  "candidates": 29,
+  "candidates": 31,
   "rejections": {
    "too little volume": 2290,
-   "no favorite in 80-95c band": 197,
-   "spread too wide": 34,
-   "favorite is slipping fast": 5,
+   "no favorite in 80-95c band": 198,
+   "spread too wide": 32,
+   "favorite is slipping fast": 4,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   283
+  ],
+  "settled": [
+   263
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.99,
-    "volume_24h": 36273.61,
-    "score": 0.64
+    "hours_to_close": 28.74,
+    "volume_24h": 36220.5,
+    "score": 0.6404
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,280 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 28.99,
-    "volume_24h": 6239.58,
-    "score": 0.6347
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $84,000 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.99,
-    "volume_24h": 8195.31,
-    "score": 0.6335
+    "hours_to_close": 28.74,
+    "volume_24h": 6273.82,
+    "score": 0.6353
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.49,
+    "hours_to_close": 27.24,
     "volume_24h": 2458.0,
-    "score": 0.617
+    "score": 0.6175
    },
    {
     "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.99,
+    "hours_to_close": 28.74,
     "volume_24h": 4784.37,
-    "score": 0.616
+    "score": 0.6164
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 28.74,
+    "volume_24h": 31122.09,
+    "score": 0.6104
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $84,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.74,
+    "volume_24h": 8321.64,
+    "score": 0.6045
    },
    {
     "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.98,
-    "volume_24h": 38437.63,
-    "score": 0.6
+    "hours_to_close": 35.73,
+    "volume_24h": 38058.92,
+    "score": 0.6003
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,500 or above",
+    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $80,000 to 80,499.99",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 28.99,
-    "volume_24h": 32333.26,
-    "score": 0.59
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 28.99,
-    "volume_24h": 62388.66,
-    "score": 0.59
+    "price": 0.92,
+    "hours_to_close": 28.74,
+    "volume_24h": 3075.54,
+    "score": 0.592
    }
   ],
-  "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Crypto)": 4,
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 1,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -371,7 +371,7 @@
    "opened_ts": 1793304026,
    "close_ts": 1793426400.0,
    "score": 0.5389,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -439,7 +439,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -16809,18 +16809,23 @@
    1793316626,
    93.16,
    87.4
+  ],
+  [
+   1793317525,
+   93.16,
+   87.47
   ]
  ],
  "last_run": {
-  "ts": 1793316626,
+  "ts": 1793317525,
   "error": null,
   "markets_scanned": 5241,
-  "candidates": 64,
+  "candidates": 63,
   "rejections": {
-   "too little volume": 4794,
-   "no favorite in 80-95c band": 321,
-   "spread too wide": 54,
-   "favorite is slipping fast": 6,
+   "too little volume": 4790,
+   "no favorite in 80-95c band": 331,
+   "spread too wide": 47,
+   "favorite is slipping fast": 8,
    "nothing for sale at the ask": 2
   },
   "opened": [],
@@ -16831,65 +16836,65 @@
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,120 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 20787.48,
-    "score": 0.6764
+    "score": 0.6771
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $74,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 21.24,
+    "volume_24h": 10465.83,
+    "score": 0.6771
+   },
+   {
+    "label": "Top Esports wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 47438.56,
-    "score": 0.6764
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $74,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 6052.29,
-    "score": 0.66
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $75,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 21.49,
-    "volume_24h": 16246.26,
-    "score": 0.6564
+    "price": 0.92,
+    "hours_to_close": 20.24,
+    "volume_24h": 332910.91,
+    "score": 0.65
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.49,
-    "volume_24h": 55664.91,
-    "score": 0.6464
-   },
-   {
-    "label": "Top Esports wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 265557.99,
-    "score": 0.6193
-   },
-   {
-    "label": "Bilibili Gaming wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 252512.63,
-    "score": 0.6193
+    "hours_to_close": 21.24,
+    "volume_24h": 59347.08,
+    "score": 0.6471
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,360 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 21.49,
-    "volume_24h": 14637.18,
-    "score": 0.6164
+    "price": 0.91,
+    "hours_to_close": 21.24,
+    "volume_24h": 14609.25,
+    "score": 0.6371
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 21.24,
+    "volume_24h": 74013.25,
+    "score": 0.6271
+   },
+   {
+    "label": "Bilibili Gaming wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 20.24,
+    "volume_24h": 297231.35,
+    "score": 0.61
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be between 99.00 and 99.99 USD/Bbl on Oct 30, 2026? \u2014 $99.00 to $99.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 18.74,
+    "volume_24h": 845.87,
+    "score": 0.5945
    }
   ],
   "skipped": {},

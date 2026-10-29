@@ -78,7 +78,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793223026,
@@ -128,7 +128,7 @@
    "opened_ts": 1793203227,
    "close_ts": 1793332740.0,
    "score": 0.5546,
-   "mark_price": 0.76,
+   "mark_price": 0.48,
    "shadow": {
     "10": {
      "ts": 1793205027,
@@ -139,6 +139,16 @@
      "ts": 1793205027,
      "bid": 0.79,
      "proceeds": 3.89
+    },
+    "20": {
+     "ts": 1793257224,
+     "bid": 0.48,
+     "proceeds": 2.31
+    },
+    "30": {
+     "ts": 1793257224,
+     "bid": 0.48,
+     "proceeds": 2.31
     }
    }
   },
@@ -173,7 +183,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.84,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -201,7 +211,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.86,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -224,7 +234,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4724,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793243726,
@@ -270,7 +280,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -304,7 +314,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.82,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -332,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.78,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -355,7 +365,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.89,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -372,7 +382,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.77,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793245524,
@@ -412,7 +422,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793340000.0,
    "score": 0.509,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -429,7 +439,7 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -446,7 +456,7 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.95,
+   "mark_price": 0.87,
    "shadow": {}
   }
  ],
@@ -16160,91 +16170,97 @@
    1793256326,
    89.62,
    85.06
+  ],
+  [
+   1793257224,
+   89.62,
+   82.69
   ]
  ],
  "last_run": {
-  "ts": 1793256326,
+  "ts": 1793257224,
   "error": null,
-  "markets_scanned": 3760,
-  "candidates": 75,
+  "markets_scanned": 3803,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 3395,
-   "no favorite in 80-95c band": 268,
-   "spread too wide": 22
+   "too little volume": 3428,
+   "no favorite in 80-95c band": 277,
+   "spread too wide": 66,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 9829.21,
-    "score": 0.7032
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.24,
-    "volume_24h": 9515.1,
-    "score": 0.7021
-   },
-   {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 14.24,
-    "volume_24h": 13666.3,
-    "score": 0.6937
+    "price": 0.93,
+    "hours_to_close": 13.99,
+    "volume_24h": 13734.2,
+    "score": 0.685
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 98.49 USD/Bbl on Oct 29, 2026? \u2014 Above $98.49",
+    "label": "Will it rain in Albuquerque on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.99,
+    "volume_24h": 2549.4,
+    "score": 0.6255
+   },
+   {
+    "label": "Will **real GDP** increase by more than 2.0% in Q3 2026? \u2014 Above 2.0%",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 11.74,
-    "volume_24h": 2834.33,
-    "score": 0.6673
+    "price": 0.95,
+    "hours_to_close": 29.48,
+    "volume_24h": 3466.93,
+    "score": 0.6247
+   },
+   {
+    "label": "Will OpenAI release Astra 6.1 before Oct 30, 2026? \u2014 Before Oct 30, 2026",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.98,
+    "volume_24h": 1887.78,
+    "score": 0.6236
+   },
+   {
+    "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.48,
+    "volume_24h": 8392.82,
+    "score": 0.6035
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 14.24,
-    "volume_24h": 35501.14,
-    "score": 0.6637
+    "price": 0.94,
+    "hours_to_close": 13.99,
+    "volume_24h": 35599.14,
+    "score": 0.595
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 14.24,
-    "volume_24h": 10134.31,
-    "score": 0.6637
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.3 on Oct 29, 2026? \u2014 38.3%",
+    "label": "Will the maximum temperature be 89-90\u00b0 on Oct 29, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 10.23,
-    "volume_24h": 4299.48,
-    "score": 0.6519
+    "price": 0.89,
+    "hours_to_close": 21.99,
+    "volume_24h": 3557.84,
+    "score": 0.5814
    },
    {
-    "label": "Will it rain in Milwaukee on Oct 29, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.24,
-    "volume_24h": 28444.58,
-    "score": 0.6518
+    "label": "Will it rain in Tampa on Oct 29, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 2133.62,
+    "score": 0.5747
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
-  "api_calls": 42
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

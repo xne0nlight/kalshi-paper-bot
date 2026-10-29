@@ -2,51 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.66,
- "fees_paid": 6.87,
+ "cash": 9.79,
+ "fees_paid": 6.88,
  "peak_equity": 109.65,
  "day": "2026-10-29",
  "day_start_equity": 89.62,
- "next_id": 282,
+ "next_id": 283,
  "open_positions": [
-  {
-   "id": 255,
-   "ticker": "KXOPENVREQ-28OCT26-T22P0",
-   "event_ticker": "KXOPENVREQ-28OCT26",
-   "series": "KXOPENVREQ",
-   "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 1.87,
-   "opened_ts": 1793119525,
-   "close_ts": 1793246340.0,
-   "score": 0.6277,
-   "mark_price": 0.75,
-   "shadow": {
-    "10": {
-     "ts": 1793134826,
-     "bid": 0.77,
-     "proceeds": 1.51
-    },
-    "15": {
-     "ts": 1793134826,
-     "bid": 0.77,
-     "proceeds": 1.51
-    },
-    "20": {
-     "ts": 1793136625,
-     "bid": 0.59,
-     "proceeds": 1.14
-    },
-    "30": {
-     "ts": 1793136625,
-     "bid": 0.59,
-     "proceeds": 1.14
-    }
-   }
-  },
   {
    "id": 263,
    "ticker": "KX30YMORTW-26OCT29-T7.22",
@@ -161,7 +123,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.88,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -212,7 +174,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -235,7 +197,7 @@
    "opened_ts": 1793210426,
    "close_ts": 1793340000.0,
    "score": 0.5354,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -269,7 +231,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.7,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -340,7 +302,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793286026,
@@ -391,7 +353,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793307600.0,
    "score": 0.5593,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -408,7 +370,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793340000.0,
    "score": 0.509,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -514,6 +476,23 @@
    "close_ts": 1793383200.0,
    "score": 0.5718,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 282,
+   "ticker": "KXNATGASW-26OCT3017-T3.099",
+   "event_ticker": "KXNATGASW-26OCT3017",
+   "series": "KXNATGASW",
+   "label": "Will the natural gas close price be above 3.099 USD/MMBtu on October 30, 2026 at 5:00 PM EDT? \u2014 Above $3.099",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793287827,
+   "close_ts": 1793394000.0,
+   "score": 0.431,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -7172,6 +7151,48 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793283325,
+   "won": true
+  },
+  {
+   "id": 255,
+   "ticker": "KXOPENVREQ-28OCT26-T22P0",
+   "event_ticker": "KXOPENVREQ-28OCT26",
+   "series": "KXOPENVREQ",
+   "label": "OpenAI Vercel share of AI Gateway requests across the top labs above 22.0% \u2014 Above 22.0%",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793119525,
+   "close_ts": 1793246340.0,
+   "score": 0.6277,
+   "shadow": {
+    "10": {
+     "ts": 1793134826,
+     "bid": 0.77,
+     "proceeds": 1.51
+    },
+    "15": {
+     "ts": 1793134826,
+     "bid": 0.77,
+     "proceeds": 1.51
+    },
+    "20": {
+     "ts": 1793136625,
+     "bid": 0.59,
+     "proceeds": 1.14
+    },
+    "30": {
+     "ts": 1793136625,
+     "bid": 0.59,
+     "proceeds": 1.14
+    }
+   },
+   "payout": 2.0,
+   "pnl": 0.13,
+   "result": "NO",
+   "closed_ts": 1793287827,
    "won": true
   }
  ],
@@ -16450,92 +16471,107 @@
    1793286926,
    90.13,
    86.29
+  ],
+  [
+   1793287827,
+   90.26,
+   87.02
   ]
  ],
  "last_run": {
-  "ts": 1793286926,
+  "ts": 1793287827,
   "error": null,
   "markets_scanned": 2473,
-  "candidates": 29,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 2245,
-   "no favorite in 80-95c band": 167,
-   "spread too wide": 27,
-   "favorite is slipping fast": 4,
+   "too little volume": 2247,
+   "no favorite in 80-95c band": 165,
+   "spread too wide": 25,
+   "favorite is slipping fast": 3,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   282
+  ],
+  "settled": [
+   255
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,000 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 29.74,
-    "volume_24h": 55750.9,
-    "score": 0.6588
+    "price": 0.94,
+    "hours_to_close": 29.49,
+    "volume_24h": 55950.9,
+    "score": 0.6492
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $84,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.74,
-    "volume_24h": 6282.1,
-    "score": 0.6436
+    "hours_to_close": 29.49,
+    "volume_24h": 6260.6,
+    "score": 0.6439
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 29.74,
-    "volume_24h": 32183.04,
-    "score": 0.6288
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 29.74,
-    "volume_24h": 34474.43,
-    "score": 0.6188
+    "hours_to_close": 29.49,
+    "volume_24h": 32193.48,
+    "score": 0.6292
    },
    {
     "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 2458.0,
-    "score": 0.6156
+    "score": 0.6161
    },
    {
     "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.49,
     "volume_24h": 4790.37,
-    "score": 0.6148
+    "score": 0.6152
    },
    {
-    "label": "Will over 0.5 goals be scored? \u2014 Reg Time: Over 0.5 goals scored",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $79,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 26.74,
-    "volume_24h": 844.85,
-    "score": 0.5737
+    "price": 0.9,
+    "hours_to_close": 29.49,
+    "volume_24h": 34919.89,
+    "score": 0.6092
    },
    {
-    "label": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? \u2014 38.0 to 38.2",
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,280 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 29.49,
+    "volume_24h": 6239.58,
+    "score": 0.6038
+   },
+   {
+    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $80,000 to 80,499.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.74,
-    "volume_24h": 2614.38,
-    "score": 0.5669
+    "price": 0.91,
+    "hours_to_close": 29.49,
+    "volume_24h": 3083.38,
+    "score": 0.5809
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 10,
+   "related-market cap (Oil prices)": 4,
+   "related-market cap (Presidential approval)": 2,
+   "series cap": 2,
+   "tracked only (below bet price floor)": 1
+  },
   "watch_added": 3,
-  "watch_graded": 7,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

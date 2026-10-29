@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.77,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -16277,17 +16277,23 @@
    1793266225,
    89.62,
    85.04
+  ],
+  [
+   1793267125,
+   89.62,
+   85.05
   ]
  ],
  "last_run": {
-  "ts": 1793266225,
+  "ts": 1793267125,
   "error": null,
   "markets_scanned": 2474,
-  "candidates": 29,
+  "candidates": 34,
   "rejections": {
    "too little volume": 2200,
-   "no favorite in 80-95c band": 196,
-   "spread too wide": 48,
+   "no favorite in 80-95c band": 195,
+   "spread too wide": 43,
+   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16298,69 +16304,69 @@
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 25899.53,
-    "score": 0.6506
+    "score": 0.6509
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 15934.93,
-    "score": 0.6406
+    "score": 0.6409
    },
    {
     "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.98,
+    "hours_to_close": 26.73,
     "volume_24h": 8392.82,
-    "score": 0.628
+    "score": 0.6285
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 26042.41,
-    "score": 0.6206
-   },
-   {
-    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.49,
-    "volume_24h": 3177.38,
-    "score": 0.6033
+    "score": 0.6209
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.49,
-    "volume_24h": 15162.43,
-    "score": 0.6006
+    "hours_to_close": 35.24,
+    "volume_24h": 15173.14,
+    "score": 0.6009
    },
    {
     "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 4716.0,
-    "score": 0.5961
+    "score": 0.5964
+   },
+   {
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.24,
+    "volume_24h": 3177.38,
+    "score": 0.5936
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 20861.57,
-    "score": 0.5706
+    "score": 0.5709
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 43
  },

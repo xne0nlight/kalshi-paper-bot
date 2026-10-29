@@ -5,8 +5,8 @@
  "cash": 9.15,
  "fees_paid": 6.83,
  "peak_equity": 109.65,
- "day": "2026-10-28",
- "day_start_equity": 87.91,
+ "day": "2026-10-29",
+ "day_start_equity": 89.62,
  "next_id": 280,
  "open_positions": [
   {
@@ -78,7 +78,7 @@
    "opened_ts": 1793195134,
    "close_ts": 1793276700.0,
    "score": 0.4861,
-   "mark_price": 0.75,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793223026,
@@ -281,7 +281,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -332,7 +332,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -15974,17 +15974,22 @@
    1793231125,
    89.62,
    85.91
+  ],
+  [
+   1793232026,
+   89.62,
+   86.01
   ]
  ],
  "last_run": {
-  "ts": 1793231125,
+  "ts": 1793232026,
   "error": null,
-  "markets_scanned": 3886,
-  "candidates": 44,
+  "markets_scanned": 3908,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 3693,
-   "no favorite in 80-95c band": 135,
-   "spread too wide": 13,
+   "too little volume": 3713,
+   "no favorite in 80-95c band": 142,
+   "spread too wide": 12,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -15992,72 +15997,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,500 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 20.99,
+    "volume_24h": 2511.91,
+    "score": 0.6228
+   },
+   {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.24,
-    "volume_24h": 2876.94,
-    "score": 0.6165
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 21.24,
-    "volume_24h": 2510.91,
-    "score": 0.6121
+    "hours_to_close": 20.99,
+    "volume_24h": 3287.96,
+    "score": 0.6216
    },
    {
     "label": "Will Trump's RCP approval average be above 38.7 on Oct 29, 2026? \u2014 Above 38.7%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.23,
+    "hours_to_close": 16.98,
     "volume_24h": 1078.8,
-    "score": 0.6079
+    "score": 0.6089
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $80,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 1061.95,
-    "score": 0.6019
+    "price": 0.87,
+    "hours_to_close": 20.99,
+    "volume_24h": 9538.2,
+    "score": 0.5963
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.49 USD/Bbl on Oct 29, 2026? \u2014 Above $105.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.74,
+    "hours_to_close": 18.49,
     "volume_24h": 850.0,
-    "score": 0.5946
+    "score": 0.5955
    },
    {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,250 or above",
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $79,750 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 603.47,
-    "score": 0.5857
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $80,000 or above",
-    "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 21.24,
-    "volume_24h": 9513.2,
-    "score": 0.5855
+    "price": 0.9,
+    "hours_to_close": 20.99,
+    "volume_24h": 3640.65,
+    "score": 0.5949
    },
    {
     "label": "Will it rain in Albuquerque on Oct 29, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 1854.39,
+    "score": 0.5819
+   },
+   {
+    "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.99,
+    "volume_24h": 1918.84,
     "score": 0.5815
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

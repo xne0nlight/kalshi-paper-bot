@@ -201,7 +201,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.4961,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793221226,
@@ -247,7 +247,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -16114,89 +16114,94 @@
    1793249124,
    89.62,
    85.21
+  ],
+  [
+   1793250024,
+   89.62,
+   85.21
   ]
  ],
  "last_run": {
-  "ts": 1793249124,
+  "ts": 1793250024,
   "error": null,
-  "markets_scanned": 4090,
-  "candidates": 68,
+  "markets_scanned": 4111,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 3775,
-   "no favorite in 80-95c band": 231,
-   "spread too wide": 16
+   "too little volume": 3789,
+   "no favorite in 80-95c band": 239,
+   "spread too wide": 21
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $82,000 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 15267.62,
+    "score": 0.6855
+   },
+   {
     "label": "Will Trump's RCP approval average be above 38.7 on Oct 29, 2026? \u2014 Above 38.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.23,
-    "volume_24h": 2659.2,
-    "score": 0.6721
-   },
-   {
-    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,390 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.24,
-    "volume_24h": 3907.3,
-    "score": 0.6538
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.24,
-    "volume_24h": 3602.7,
-    "score": 0.6512
+    "hours_to_close": 11.98,
+    "volume_24h": 2684.2,
+    "score": 0.674
    },
    {
     "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 16.24,
-    "volume_24h": 8667.39,
-    "score": 0.6498
+    "price": 0.93,
+    "hours_to_close": 15.99,
+    "volume_24h": 8844.54,
+    "score": 0.6715
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Oct 29, 2026? \u2014 Above $104.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.74,
-    "volume_24h": 1595.04,
-    "score": 0.6466
-   },
-   {
-    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 16.24,
-    "volume_24h": 31752.27,
-    "score": 0.6444
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 97.99 USD/Bbl on Oct 29, 2026? \u2014 Above $97.99",
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $78,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 13.74,
-    "volume_24h": 1380.05,
-    "score": 0.6419
+    "hours_to_close": 15.99,
+    "volume_24h": 4572.19,
+    "score": 0.67
+   },
+   {
+    "label": "Ethereum price at Oct 29, 2026 at 5pm EDT? \u2014 $2,390 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.99,
+    "volume_24h": 4391.46,
+    "score": 0.6487
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Oct 29, 2026? \u2014 Above $103.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 13.74,
+    "price": 0.9,
+    "hours_to_close": 13.49,
     "volume_24h": 5515.35,
-    "score": 0.627
+    "score": 0.6384
+   },
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,750 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 15.99,
+    "volume_24h": 3602.7,
+    "score": 0.6322
+   },
+   {
+    "label": "Bitcoin price on Oct 29, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 15.99,
+    "volume_24h": 31761.28,
+    "score": 0.6255
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

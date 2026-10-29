@@ -183,7 +183,7 @@
    "opened_ts": 1793206825,
    "close_ts": 1793336400.0,
    "score": 0.5151,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793239224,
@@ -257,7 +257,7 @@
    "opened_ts": 1793207727,
    "close_ts": 1793336400.0,
    "score": 0.5298,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793238325,
@@ -314,7 +314,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.76,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -342,7 +342,7 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793253626,
@@ -380,7 +380,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.544,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -397,7 +397,7 @@
    "opened_ts": 1793217625,
    "close_ts": 1793347200.0,
    "score": 0.4905,
-   "mark_price": 0.81,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793245524,
@@ -420,7 +420,7 @@
    "opened_ts": 1793222126,
    "close_ts": 1793307600.0,
    "score": 0.5593,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -16282,18 +16282,22 @@
    1793267125,
    89.62,
    85.05
+  ],
+  [
+   1793268026,
+   89.62,
+   85.07
   ]
  ],
  "last_run": {
-  "ts": 1793267125,
+  "ts": 1793268026,
   "error": null,
-  "markets_scanned": 2474,
-  "candidates": 34,
+  "markets_scanned": 2463,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 2200,
-   "no favorite in 80-95c band": 195,
+   "too little volume": 2202,
+   "no favorite in 80-95c band": 186,
    "spread too wide": 43,
-   "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -16304,69 +16308,69 @@
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 25899.53,
-    "score": 0.6509
+    "score": 0.6512
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 15934.93,
-    "score": 0.6409
+    "score": 0.6412
    },
    {
     "label": "Will **real GDP** increase by more than 4.0% in Q3 2026? \u2014 Above 4.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 8392.82,
-    "score": 0.6285
+    "score": 0.629
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 26042.41,
-    "score": 0.6209
+    "score": 0.6212
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $82,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 15173.14,
-    "score": 0.6009
+    "score": 0.6012
    },
    {
     "label": "Will the brent crude oil close price be above 104.99 USD/Bbl on October 30, 2026 at 5:00 PM EDT? \u2014 Above $104.99",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 4716.0,
-    "score": 0.5964
+    "score": 0.5968
    },
    {
     "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,400 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 3177.38,
-    "score": 0.5936
+    "score": 0.5939
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 35.24,
-    "volume_24h": 20861.57,
-    "score": 0.5709
+    "hours_to_close": 34.99,
+    "volume_24h": 21094.41,
+    "score": 0.5712
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

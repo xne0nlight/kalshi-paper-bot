@@ -111,7 +111,7 @@
    "opened_ts": 1793196028,
    "close_ts": 1793289540.0,
    "score": 0.4584,
-   "mark_price": 0.91,
+   "mark_price": 0.79,
    "shadow": {}
   },
   {
@@ -314,7 +314,7 @@
    "opened_ts": 1793214026,
    "close_ts": 1793343600.0,
    "score": 0.5256,
-   "mark_price": 0.79,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793236525,
@@ -342,12 +342,27 @@
    "opened_ts": 1793214927,
    "close_ts": 1793307600.0,
    "score": 0.5189,
-   "mark_price": 0.73,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1793253626,
      "bid": 0.72,
      "proceeds": 4.23
+    },
+    "15": {
+     "ts": 1793259026,
+     "bid": 0.46,
+     "proceeds": 2.65
+    },
+    "20": {
+     "ts": 1793259026,
+     "bid": 0.46,
+     "proceeds": 2.65
+    },
+    "30": {
+     "ts": 1793259026,
+     "bid": 0.46,
+     "proceeds": 2.65
     }
    }
   },
@@ -439,7 +454,7 @@
    "opened_ts": 1793223926,
    "close_ts": 1793293140.0,
    "score": 0.6039,
-   "mark_price": 0.54,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1793258126,
@@ -477,8 +492,24 @@
    "opened_ts": 1793228425,
    "close_ts": 1793298600.0,
    "score": 0.5994,
-   "mark_price": 0.85,
-   "shadow": {}
+   "mark_price": 0.71,
+   "shadow": {
+    "10": {
+     "ts": 1793259026,
+     "bid": 0.71,
+     "proceeds": 0.69
+    },
+    "15": {
+     "ts": 1793259026,
+     "bid": 0.71,
+     "proceeds": 0.69
+    },
+    "20": {
+     "ts": 1793259026,
+     "bid": 0.71,
+     "proceeds": 0.69
+    }
+   }
   }
  ],
  "closed_positions": [
@@ -16201,18 +16232,22 @@
    1793258126,
    89.62,
    81.71
+  ],
+  [
+   1793259026,
+   89.62,
+   78.8
   ]
  ],
  "last_run": {
-  "ts": 1793258126,
+  "ts": 1793259026,
   "error": null,
-  "markets_scanned": 3803,
-  "candidates": 20,
+  "markets_scanned": 4335,
+  "candidates": 17,
   "rejections": {
-   "too little volume": 3428,
-   "no favorite in 80-95c band": 284,
-   "spread too wide": 70,
-   "nothing for sale at the ask": 1
+   "too little volume": 3911,
+   "no favorite in 80-95c band": 324,
+   "spread too wide": 83
   },
   "opened": [],
   "settled": [],
@@ -16222,65 +16257,65 @@
     "label": "Will OpenAI release Astra 6.1 before Oct 30, 2026? \u2014 Before Oct 30, 2026",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.73,
+    "hours_to_close": 20.48,
     "volume_24h": 1887.78,
-    "score": 0.6243
+    "score": 0.625
    },
    {
     "label": "Will it rain in Tampa on Oct 29, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 2133.62,
-    "score": 0.5754
+    "score": 0.5761
    },
    {
     "label": "Will **real GDP** increase by more than 2.0% in Q3 2026? \u2014 Above 2.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.23,
+    "hours_to_close": 28.98,
     "volume_24h": 3466.93,
-    "score": 0.5751
+    "score": 0.5755
    },
    {
     "label": "Will it rain in College Station on Oct 29, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 2790.36,
-    "score": 0.5715
+    "score": 0.5721
    },
    {
     "label": "Will the maximum temperature be 79-80\u00b0 on Oct 29, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 1759.32,
-    "score": 0.5665
+    "score": 0.5671
    },
    {
     "label": "Will the President's approval rating be between 38.0 and 38.2 according to RealClearPolitics? \u2014 38.0 to 38.2",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 3174.36,
-    "score": 0.5583
+    "score": 0.5586
    },
    {
     "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 7794.96,
-    "score": 0.535
+    "score": 0.5356
    },
    {
     "label": "Will James Talarico be the top ActBlue fundraiser on Oct 30 at 10:00 AM ET?",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 30.73,
+    "hours_to_close": 30.48,
     "volume_24h": 792.4,
-    "score": 0.5346
+    "score": 0.535
    }
   ],
   "skipped": {},

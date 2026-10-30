@@ -252,7 +252,7 @@
    "opened_ts": 1793304026,
    "close_ts": 1793426400.0,
    "score": 0.5389,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -269,7 +269,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -337,7 +337,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -354,7 +354,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -17125,78 +17125,81 @@
    1793358926,
    89.49,
    82.18
+  ],
+  [
+   1793359824,
+   89.49,
+   82.36
   ]
  ],
  "last_run": {
-  "ts": 1793358926,
+  "ts": 1793359824,
   "error": null,
   "markets_scanned": 133,
-  "candidates": 5,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 91,
-   "no favorite in 80-95c band": 36,
-   "spread too wide": 1
+   "too little volume": 90,
+   "no favorite in 80-95c band": 35,
+   "spread too wide": 2
   },
-  "opened": [
-   291,
-   292,
-   293
-  ],
-  "settled": [
-   265,
-   266,
-   267,
-   268,
-   269
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 20.74,
-    "volume_24h": 8291.71,
-    "score": 0.5724
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 30, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.74,
-    "volume_24h": 763.88,
-    "score": 0.5648
+    "price": 0.87,
+    "hours_to_close": 20.49,
+    "volume_24h": 8583.19,
+    "score": 0.5443
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 30, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 20.74,
-    "volume_24h": 1205.68,
-    "score": 0.5196
+    "price": 0.88,
+    "hours_to_close": 20.49,
+    "volume_24h": 1254.68,
+    "score": 0.5417
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 30, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.49,
+    "volume_24h": 763.88,
+    "score": 0.4955
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 229.19,
-    "score": 0.4757
+    "score": 0.4764
+   },
+   {
+    "label": "Will it rain in Las Vegas on Oct 30, 2026?",
+    "side": "yes",
+    "price": 0.8,
+    "hours_to_close": 20.49,
+    "volume_24h": 10036.22,
+    "score": 0.4293
    },
    {
     "label": "Will the maximum temperature be 51-52\u00b0 on Oct 30, 2026? \u2014 51\u00b0 to 52\u00b0",
     "side": "no",
     "price": 0.8,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 287.41,
-    "score": 0.413
+    "score": 0.4138
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
-  "watch_graded": 14,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

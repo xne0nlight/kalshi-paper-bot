@@ -294,7 +294,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -311,7 +311,7 @@
    "opened_ts": 1793373326,
    "close_ts": 1793455200.0,
    "score": 0.4353,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -396,7 +396,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -17573,101 +17573,100 @@
    1793394926,
    87.11,
    85.98
+  ],
+  [
+   1793395824,
+   87.11,
+   85.83
   ]
  ],
  "last_run": {
-  "ts": 1793394926,
+  "ts": 1793395824,
   "error": null,
   "markets_scanned": 2212,
   "candidates": 43,
   "rejections": {
-   "too little volume": 1950,
-   "no favorite in 80-95c band": 203,
-   "spread too wide": 15,
-   "nothing for sale at the ask": 1
+   "too little volume": 1944,
+   "no favorite in 80-95c band": 205,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 2
   },
-  "opened": [
-   301,
-   302
-  ],
-  "settled": [
-   282,
-   288
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.49,
+    "volume_24h": 6182.87,
+    "score": 0.6555
+   },
+   {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 14468.34,
-    "score": 0.6606
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 15256.65,
+    "score": 0.6512
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 14920.56,
-    "score": 0.6506
-   },
-   {
-    "label": "Will BTC trimmed mean be below $72500.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $72,500.00",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 27503.95,
-    "score": 0.6472
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.74,
-    "volume_24h": 9326.78,
-    "score": 0.6183
+    "hours_to_close": 23.49,
+    "volume_24h": 16974.97,
+    "score": 0.6512
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,250 or above",
     "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 9575.36,
+    "score": 0.6398
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,000 or above",
+    "side": "no",
     "price": 0.89,
-    "hours_to_close": 23.74,
-    "volume_24h": 8750.5,
-    "score": 0.6063
+    "hours_to_close": 23.49,
+    "volume_24h": 9432.53,
+    "score": 0.6093
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,500 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 23.49,
+    "volume_24h": 14163.55,
+    "score": 0.6012
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $74,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 902.65,
-    "score": 0.5923
+    "hours_to_close": 23.49,
+    "volume_24h": 1101.63,
+    "score": 0.5994
    },
    {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $77,750 or above",
+    "label": "Will it rain in Indianapolis on Oct 31, 2026?",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 23.74,
-    "volume_24h": 7946.57,
-    "score": 0.5731
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,500 or above",
-    "side": "yes",
-    "price": 0.85,
-    "hours_to_close": 23.74,
-    "volume_24h": 14018.04,
-    "score": 0.5706
+    "price": 0.95,
+    "hours_to_close": 31.49,
+    "volume_24h": 494.13,
+    "score": 0.5581
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 3,
+   "related-market cap (Crypto)": 2,
    "tracked only (below bet price floor)": 6
   },
-  "watch_added": 5,
-  "watch_graded": 75,
-  "api_calls": 44
+  "watch_added": 2,
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

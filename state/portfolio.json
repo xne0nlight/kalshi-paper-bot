@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.4757,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.61,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -17264,48 +17264,47 @@
    1793369727,
    86.7,
    83.23
+  ],
+  [
+   1793370628,
+   86.7,
+   83.28
   ]
  ],
  "last_run": {
-  "ts": 1793369727,
+  "ts": 1793370628,
   "error": null,
   "markets_scanned": 109,
   "candidates": 2,
   "rejections": {
-   "too little volume": 84,
+   "too little volume": 83,
    "no favorite in 80-95c band": 21,
-   "spread too wide": 2
+   "spread too wide": 3
   },
-  "opened": [
-   295
-  ],
-  "settled": [
-   272,
-   274,
-   275
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 26.73,
+    "price": 0.88,
+    "hours_to_close": 26.48,
     "volume_24h": 313.5,
-    "score": 0.4015
+    "score": 0.482
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 210.7,
-    "score": 0.3686
+    "score": 0.3691
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 8,
+  "watch_added": 0,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

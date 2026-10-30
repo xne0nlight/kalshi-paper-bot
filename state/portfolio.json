@@ -61,7 +61,7 @@
    "opened_ts": 1793287827,
    "close_ts": 1793394000.0,
    "score": 0.431,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.4757,
-   "mark_price": 0.83,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.63,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -303,7 +303,7 @@
    "opened_ts": 1793373326,
    "close_ts": 1793455200.0,
    "score": 0.4353,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -354,7 +354,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -17389,18 +17389,22 @@
    1793376925,
    86.7,
    82.22
+  ],
+  [
+   1793377828,
+   86.7,
+   82.52
   ]
  ],
  "last_run": {
-  "ts": 1793376925,
+  "ts": 1793377828,
   "error": null,
   "markets_scanned": 711,
-  "candidates": 5,
+  "candidates": 6,
   "rejections": {
    "too little volume": 604,
-   "no favorite in 80-95c band": 85,
-   "spread too wide": 15,
-   "favorite is slipping fast": 2
+   "no favorite in 80-95c band": 84,
+   "spread too wide": 17
   },
   "opened": [],
   "settled": [],
@@ -17410,47 +17414,55 @@
     "label": "Will ETH trimmed mean be below $2000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $2,000.00",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 15464.78,
-    "score": 0.6503
+    "score": 0.6506
    },
    {
     "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 1115.88,
-    "score": 0.5389
+    "score": 0.5392
    },
    {
     "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 892.24,
-    "score": 0.5117
+    "score": 0.512
+   },
+   {
+    "label": "Top Chinese AI company on October 31, 2026? \u2014 Xiaomi",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 21.49,
+    "volume_24h": 376.76,
+    "score": 0.4797
    },
    {
     "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 24.73,
+    "price": 0.9,
+    "hours_to_close": 24.48,
     "volume_24h": 2385.6,
-    "score": 0.5117
+    "score": 0.4722
    },
    {
     "label": "Will Donald Trump meet (including phone calls) Narendra Modi in Oct 2026?",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.73,
+    "price": 0.92,
+    "hours_to_close": 35.48,
     "volume_24h": 328.01,
-    "score": 0.4191
+    "score": 0.4594
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793382360,
@@ -174,7 +174,7 @@
    "opened_ts": 1793308526,
    "close_ts": 1793426400.0,
    "score": 0.5332,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -364,7 +364,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -17461,87 +17461,92 @@
    1793385025,
    86.7,
    82.64
+  ],
+  [
+   1793385925,
+   86.7,
+   82.92
   ]
  ],
  "last_run": {
-  "ts": 1793385025,
+  "ts": 1793385925,
   "error": null,
   "markets_scanned": 1355,
   "candidates": 14,
   "rejections": {
-   "too little volume": 1165,
-   "no favorite in 80-95c band": 154,
-   "spread too wide": 20,
-   "nothing for sale at the ask": 1,
-   "favorite is slipping fast": 1
+   "too little volume": 1162,
+   "no favorite in 80-95c band": 157,
+   "spread too wide": 19,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 31, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.23,
+    "volume_24h": 544.01,
+    "score": 0.5596
+   },
+   {
     "label": "Will the maximum temperature be <60\u00b0 on Oct 31, 2026? \u2014 59\u00b0 or below",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 463.62,
-    "score": 0.5306
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.48,
-    "volume_24h": 538.46,
-    "score": 0.5186
+    "score": 0.531
    },
    {
     "label": "Will it rain in Atlanta on Oct 31, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 301.0,
-    "score": 0.5079
+    "score": 0.5082
    },
    {
     "label": "Will it rain in Miami on Oct 31, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 266.6,
-    "score": 0.5039
+    "score": 0.5042
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 31, 2026? \u2014 38.5%",
+    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.48,
-    "volume_24h": 402.92,
-    "score": 0.4992
+    "price": 0.91,
+    "hours_to_close": 33.23,
+    "volume_24h": 1031.45,
+    "score": 0.4896
    },
    {
     "label": "Will Donald Trump meet in person Fl\u00e1vio Bolsonaro after Issuance and before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.48,
+    "hours_to_close": 34.23,
     "volume_24h": 1546.0,
-    "score": 0.4811
-   },
-   {
-    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.48,
-    "volume_24h": 1044.89,
-    "score": 0.4797
+    "score": 0.4814
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 31, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 230.0,
-    "score": 0.4779
+    "score": 0.4782
+   },
+   {
+    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 31, 2026? \u2014 87\u00b0 to 88\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 34.24,
+    "volume_24h": 278.32,
+    "score": 0.4756
    }
   ],
   "skipped": {

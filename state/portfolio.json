@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.25,
+ "cash": 25.25,
  "fees_paid": 7.23,
  "peak_equity": 109.65,
  "day": "2026-10-30",
@@ -46,40 +46,6 @@
      "proceeds": 2.31
     }
    }
-  },
-  {
-   "id": 270,
-   "ticker": "KXHIGHCHI-26OCT29-T68",
-   "event_ticker": "KXHIGHCHI-26OCT29",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 4.54,
-   "opened_ts": 1793210426,
-   "close_ts": 1793340000.0,
-   "score": 0.5354,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 271,
-   "ticker": "KXHIGHTDAL-26OCT29-B83.5",
-   "event_ticker": "KXHIGHTDAL-26OCT29",
-   "series": "KXHIGHTDAL",
-   "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1793210426,
-   "close_ts": 1793340000.0,
-   "score": 0.5135,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 272,
@@ -171,23 +137,6 @@
    }
   },
   {
-   "id": 277,
-   "ticker": "KXHIGHTOKC-26OCT29-T80",
-   "event_ticker": "KXHIGHTOKC-26OCT29",
-   "series": "KXHIGHTOKC",
-   "label": "Will the maximum temperature be <80\u00b0 on Oct 29, 2026? \u2014 79\u00b0 or below",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1793222126,
-   "close_ts": 1793340000.0,
-   "score": 0.509,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 282,
    "ticker": "KXNATGASW-26OCT3017-T3.099",
    "event_ticker": "KXNATGASW-26OCT3017",
@@ -218,7 +167,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.88,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -269,7 +218,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -286,7 +235,7 @@
    "opened_ts": 1793308526,
    "close_ts": 1793394000.0,
    "score": 0.6606,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -320,7 +269,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -337,7 +286,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -354,7 +303,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -7447,6 +7396,69 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793358926,
+   "won": true
+  },
+  {
+   "id": 270,
+   "ticker": "KXHIGHCHI-26OCT29-T68",
+   "event_ticker": "KXHIGHCHI-26OCT29",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be <68\u00b0 on Oct 29, 2026? \u2014 67\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1793210426,
+   "close_ts": 1793340000.0,
+   "score": 0.5354,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.46,
+   "result": "NO",
+   "closed_ts": 1793362525,
+   "won": true
+  },
+  {
+   "id": 271,
+   "ticker": "KXHIGHTDAL-26OCT29-B83.5",
+   "event_ticker": "KXHIGHTDAL-26OCT29",
+   "series": "KXHIGHTDAL",
+   "label": "Will the maximum temperature be 83-84\u00b0 on Oct 29, 2026? \u2014 83\u00b0 to 84\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793210426,
+   "close_ts": 1793340000.0,
+   "score": 0.5135,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "NO",
+   "closed_ts": 1793362525,
+   "won": true
+  },
+  {
+   "id": 277,
+   "ticker": "KXHIGHTOKC-26OCT29-T80",
+   "event_ticker": "KXHIGHTOKC-26OCT29",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be <80\u00b0 on Oct 29, 2026? \u2014 79\u00b0 or below",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793222126,
+   "close_ts": 1793340000.0,
+   "score": 0.509,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "NO",
+   "closed_ts": 1793362525,
    "won": true
   }
  ],
@@ -17140,25 +17152,34 @@
    1793361627,
    89.49,
    82.58
+  ],
+  [
+   1793362525,
+   90.59,
+   83.22
   ]
  ],
  "last_run": {
-  "ts": 1793361627,
+  "ts": 1793362525,
   "error": null,
   "markets_scanned": 78,
   "candidates": 0,
   "rejections": {
-   "too little volume": 59,
-   "no favorite in 80-95c band": 16,
-   "spread too wide": 3
+   "too little volume": 58,
+   "no favorite in 80-95c band": 19,
+   "spread too wide": 1
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   270,
+   271,
+   277
+  ],
   "halt": null,
   "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 5,
+  "watch_graded": 8,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

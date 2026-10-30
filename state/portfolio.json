@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 25.25,
- "fees_paid": 7.23,
+ "cash": 24.32,
+ "fees_paid": 7.24,
  "peak_equity": 109.65,
  "day": "2026-10-30",
  "day_start_equity": 93.16,
- "next_id": 294,
+ "next_id": 295,
  "open_positions": [
   {
    "id": 264,
@@ -286,7 +286,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -321,6 +321,23 @@
    "close_ts": 1793433600.0,
    "score": 0.4757,
    "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 294,
+   "ticker": "KXSKEXPYOY-26NOV01-T95.0",
+   "event_ticker": "KXSKEXPYOY-26NOV01",
+   "series": "KXSKEXPYOY",
+   "label": "Will South Korea exports YoY for October 2026 be above 95.0%? \u2014 Above 95.0%",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1793367026,
+   "close_ts": 1793491140.0,
+   "score": 0.5209,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -17177,25 +17194,42 @@
    1793366126,
    90.59,
    83.56
+  ],
+  [
+   1793367026,
+   90.59,
+   83.39
   ]
  ],
  "last_run": {
-  "ts": 1793366126,
+  "ts": 1793367026,
   "error": null,
   "markets_scanned": 91,
-  "candidates": 0,
+  "candidates": 1,
   "rejections": {
    "too little volume": 71,
-   "no favorite in 80-95c band": 17,
-   "spread too wide": 3
+   "no favorite in 80-95c band": 16,
+   "spread too wide": 2,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
+  "opened": [
+   294
+  ],
   "settled": [],
   "halt": null,
-  "top_candidates": [],
+  "top_candidates": [
+   {
+    "label": "Will South Korea exports YoY for October 2026 be above 95.0%? \u2014 Above 95.0%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 34.48,
+    "volume_24h": 449.0,
+    "score": 0.5209
+   }
+  ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 2,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

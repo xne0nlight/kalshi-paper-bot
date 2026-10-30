@@ -213,7 +213,7 @@
    "contracts": 10.0,
    "cost": 8.5,
    "opened_ts": 1793284225,
-   "mark_price": 0.56,
+   "mark_price": 0.55,
    "avg_price": 0.85
   },
   {
@@ -251,7 +251,7 @@
    "contracts": 1.0,
    "cost": 0.09,
    "opened_ts": 1793293227,
-   "mark_price": 0.08,
+   "mark_price": 0.1,
    "avg_price": 0.09
   },
   {
@@ -308,7 +308,7 @@
    "contracts": 1.0,
    "cost": 0.32,
    "opened_ts": 1793300426,
-   "mark_price": 0.48,
+   "mark_price": 0.33,
    "avg_price": 0.32
   },
   {
@@ -365,7 +365,7 @@
    "contracts": 1.0,
    "cost": 0.79,
    "opened_ts": 1793306725,
-   "mark_price": 0.75,
+   "mark_price": 0.76,
    "avg_price": 0.79
   },
   {
@@ -479,7 +479,7 @@
    "contracts": 1.0,
    "cost": 0.11,
    "opened_ts": 1793325628,
-   "mark_price": 0.03,
+   "mark_price": 0.01,
    "avg_price": 0.11
   },
   {
@@ -536,7 +536,7 @@
    "contracts": 5.0,
    "cost": 4.1,
    "opened_ts": 1793348125,
-   "mark_price": 0.75,
+   "mark_price": 0.66,
    "avg_price": 0.82
   },
   {
@@ -9162,6 +9162,11 @@
    1793366126,
    117.508,
    113.907
+  ],
+  [
+   1793367026,
+   117.508,
+   113.217
   ]
  ],
  "forecast_log": {
@@ -14288,20 +14293,11 @@
   }
  },
  "last_run": {
-  "ts": 1793366126,
+  "ts": 1793367026,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXHIGHDEN-26OCT29-B69.5",
-    "pnl": 0.3
-   },
-   {
-    "ticker": "KXHIGHDEN-26OCT29-T70",
-    "pnl": 0.2
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -14309,7 +14305,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 35.3
+  "seconds": 37.2
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

@@ -347,7 +347,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1793304026,
    "close_ts": 1793426400.0,
    "score": 0.5389,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -449,7 +449,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -16924,87 +16924,92 @@
    1793335526,
    93.16,
    84.15
+  ],
+  [
+   1793336426,
+   93.16,
+   84.08
   ]
  ],
  "last_run": {
-  "ts": 1793335526,
+  "ts": 1793336426,
   "error": null,
-  "markets_scanned": 5308,
-  "candidates": 69,
+  "markets_scanned": 5327,
+  "candidates": 62,
   "rejections": {
-   "too little volume": 4764,
-   "no favorite in 80-95c band": 404,
-   "spread too wide": 61,
-   "favorite is slipping fast": 8,
-   "nothing for sale at the ask": 2
+   "too little volume": 4787,
+   "no favorite in 80-95c band": 400,
+   "spread too wide": 66,
+   "favorite is slipping fast": 9,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.24,
-    "volume_24h": 63357.73,
-    "score": 0.6944
-   },
-   {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 16.24,
+    "hours_to_close": 15.99,
     "volume_24h": 78552.96,
-    "score": 0.6844
-   },
-   {
-    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $80,000 to 80,499.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 16.24,
-    "volume_24h": 6131.95,
-    "score": 0.6685
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 16.24,
-    "volume_24h": 80975.63,
-    "score": 0.6644
-   },
-   {
-    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,160 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 16.24,
-    "volume_24h": 33665.26,
-    "score": 0.6544
-   },
-   {
-    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $78,500 to 78,999.99",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 16.24,
-    "volume_24h": 4928.97,
-    "score": 0.6314
+    "score": 0.6855
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.7 on Oct 30, 2026? \u2014 38.7%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.23,
-    "volume_24h": 3322.52,
-    "score": 0.6293
+    "hours_to_close": 11.98,
+    "volume_24h": 3404.64,
+    "score": 0.6817
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.99,
+    "volume_24h": 80111.67,
+    "score": 0.6755
+   },
+   {
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,160 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 15.99,
+    "volume_24h": 33665.26,
+    "score": 0.6555
+   },
+   {
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,320 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 15.99,
+    "volume_24h": 14374.36,
+    "score": 0.6455
    },
    {
     "label": "Will the WTI crude oil settlement price be above 106.99 USD/Bbl on Oct 30, 2026? \u2014 Above $106.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 13.74,
+    "price": 0.95,
+    "hours_to_close": 13.49,
     "volume_24h": 1227.0,
-    "score": 0.6281
+    "score": 0.6394
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,500 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 15.99,
+    "volume_24h": 59439.61,
+    "score": 0.6355
+   },
+   {
+    "label": "Will the silver close price be above 52.99 USD/t.oz on October 30, 2026 at 5:00 PM EDT? \u2014 Above $52.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 1606.29,
+    "score": 0.6259
    }
   ],
   "skipped": {},

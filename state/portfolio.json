@@ -347,7 +347,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -398,7 +398,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -16889,19 +16889,24 @@
    1793329224,
    93.16,
    84.22
+  ],
+  [
+   1793330125,
+   93.16,
+   84.34
   ]
  ],
  "last_run": {
-  "ts": 1793329224,
+  "ts": 1793330125,
   "error": null,
   "markets_scanned": 5301,
-  "candidates": 52,
+  "candidates": 63,
   "rejections": {
-   "too little volume": 4778,
-   "no favorite in 80-95c band": 394,
-   "spread too wide": 66,
-   "favorite is slipping fast": 9,
-   "nothing for sale at the ask": 2
+   "too little volume": 4771,
+   "no favorite in 80-95c band": 393,
+   "spread too wide": 60,
+   "favorite is slipping fast": 11,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
@@ -16910,70 +16915,70 @@
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $73,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.99,
-    "volume_24h": 15276.78,
-    "score": 0.6775
+    "price": 0.95,
+    "hours_to_close": 17.74,
+    "volume_24h": 17997.4,
+    "score": 0.6884
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 17.99,
-    "volume_24h": 56054.66,
-    "score": 0.6675
+    "hours_to_close": 17.74,
+    "volume_24h": 57057.01,
+    "score": 0.6684
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 17.99,
-    "volume_24h": 129990.84,
-    "score": 0.6375
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,120 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 17.74,
+    "volume_24h": 21799.38,
+    "score": 0.6284
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 30, 2026? \u2014 Above $99.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 15.49,
+    "hours_to_close": 15.24,
     "volume_24h": 1014.17,
-    "score": 0.6232
+    "score": 0.6243
    },
    {
     "label": "Will the WTI crude oil settlement price be above 107.49 USD/Bbl on Oct 30, 2026? \u2014 Above $107.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 15.49,
+    "hours_to_close": 15.24,
     "volume_24h": 1279.0,
-    "score": 0.6207
+    "score": 0.6219
    },
    {
-    "label": "Will the silver close price be above 52.99 USD/t.oz on October 30, 2026 at 5:00 PM EDT? \u2014 Above $52.99",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,000 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 17.74,
+    "volume_24h": 129770.1,
+    "score": 0.6184
+   },
+   {
+    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $79,000 to 79,499.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.99,
-    "volume_24h": 1529.11,
-    "score": 0.6164
-   },
-   {
-    "label": "Anthropic Vercel share of AI Gateway spend across the top labs above 28.5% \u2014 Above 28.5%",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 24.98,
-    "volume_24h": 1603.0,
-    "score": 0.5982
+    "hours_to_close": 17.74,
+    "volume_24h": 1255.69,
+    "score": 0.6109
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Oct 30, 2026? \u2014 Above $99.99",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 15.49,
+    "price": 0.92,
+    "hours_to_close": 15.24,
     "volume_24h": 1445.13,
-    "score": 0.5947
+    "score": 0.6059
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

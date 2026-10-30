@@ -252,7 +252,7 @@
    "opened_ts": 1793304026,
    "close_ts": 1793426400.0,
    "score": 0.5389,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -269,7 +269,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -320,7 +320,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -17135,68 +17135,30 @@
    1793360726,
    89.49,
    82.36
+  ],
+  [
+   1793361627,
+   89.49,
+   82.58
   ]
  ],
  "last_run": {
-  "ts": 1793360726,
+  "ts": 1793361627,
   "error": null,
-  "markets_scanned": 133,
-  "candidates": 5,
+  "markets_scanned": 78,
+  "candidates": 0,
   "rejections": {
-   "too little volume": 90,
-   "no favorite in 80-95c band": 36,
-   "spread too wide": 2
+   "too little volume": 59,
+   "no favorite in 80-95c band": 16,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 20.24,
-    "volume_24h": 8909.51,
-    "score": 0.5463
-   },
-   {
-    "label": "Will the maximum temperature be 64-65\u00b0 on Oct 30, 2026? \u2014 64\u00b0 to 65\u00b0",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 20.24,
-    "volume_24h": 1337.46,
-    "score": 0.5445
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 30, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 763.88,
-    "score": 0.4963
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 20.24,
-    "volume_24h": 263.64,
-    "score": 0.4817
-   },
-   {
-    "label": "Will the maximum temperature be 51-52\u00b0 on Oct 30, 2026? \u2014 51\u00b0 to 52\u00b0",
-    "side": "no",
-    "price": 0.8,
-    "hours_to_close": 20.24,
-    "volume_24h": 287.41,
-    "score": 0.4145
-   }
-  ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
+  "top_candidates": [],
+  "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 5,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

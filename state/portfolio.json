@@ -61,7 +61,7 @@
    "opened_ts": 1793287827,
    "close_ts": 1793394000.0,
    "score": 0.431,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -95,7 +95,7 @@
    "opened_ts": 1793294125,
    "close_ts": 1793393940.0,
    "score": 0.6006,
-   "mark_price": 0.95,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.68,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1793382360,
@@ -218,7 +218,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.76,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1793381424,
@@ -290,7 +290,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.59,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -345,7 +345,7 @@
    "opened_ts": 1793373326,
    "close_ts": 1793455200.0,
    "score": 0.4353,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -362,7 +362,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.5386,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -396,7 +396,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -17506,17 +17506,24 @@
    1793390426,
    86.7,
    82.72
+  ],
+  [
+   1793391325,
+   86.7,
+   82.26
   ]
  ],
  "last_run": {
-  "ts": 1793390426,
+  "ts": 1793391325,
   "error": null,
   "markets_scanned": 2212,
-  "candidates": 25,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 1989,
-   "no favorite in 80-95c band": 179,
-   "spread too wide": 19
+   "too little volume": 1968,
+   "no favorite in 80-95c band": 189,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 1,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -17526,74 +17533,74 @@
     "label": "Will BTC trimmed mean be below $72500.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $72,500.00",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 22580.15,
-    "score": 0.6053
+    "score": 0.6556
    },
    {
-    "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 31.99,
-    "volume_24h": 1438.48,
-    "score": 0.5421
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 2525.77,
+    "score": 0.6235
    },
    {
-    "label": "Will the maximum temperature be <60\u00b0 on Oct 31, 2026? \u2014 59\u00b0 or below",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 591.03,
-    "score": 0.5404
-   },
-   {
-    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 31.98,
-    "volume_24h": 986.7,
-    "score": 0.5399
-   },
-   {
-    "label": "Will the maximum temperature be <58\u00b0 on Oct 31, 2026? \u2014 57\u00b0 or below",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 34.99,
-    "volume_24h": 1189.0,
-    "score": 0.5319
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,250 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 24.74,
+    "volume_24h": 6155.56,
+    "score": 0.6225
    },
    {
     "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 4366.81,
-    "score": 0.5283
-   },
-   {
-    "label": "Will the maximum temperature be 75-76\u00b0 on Oct 31, 2026? \u2014 75\u00b0 to 76\u00b0",
-    "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 257.0,
-    "score": 0.5247
+    "hours_to_close": 31.74,
+    "volume_24h": 4351.46,
+    "score": 0.6185
    },
    {
-    "label": "Will the maximum temperature be 67-68\u00b0 on Oct 31, 2026? \u2014 67\u00b0 to 68\u00b0",
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,500 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 771.67,
-    "score": 0.5166
+    "price": 0.93,
+    "hours_to_close": 24.74,
+    "volume_24h": 2347.77,
+    "score": 0.6011
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,500 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 24.74,
+    "volume_24h": 7210.5,
+    "score": 0.5877
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 24.74,
+    "volume_24h": 1054.78,
+    "score": 0.5551
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,000 or above",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 24.74,
+    "volume_24h": 4875.58,
+    "score": 0.5549
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 1,
-   "tracked only (below bet price floor)": 5
+   "related-market cap (Crypto)": 8,
+   "tracked only (below bet price floor)": 7
   },
-  "watch_added": 4,
-  "watch_graded": 7,
-  "api_calls": 43
+  "watch_added": 13,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 29.78,
- "fees_paid": 7.28,
+ "cash": 25.1,
+ "fees_paid": 7.31,
  "peak_equity": 109.65,
  "day": "2026-10-30",
  "day_start_equity": 93.16,
- "next_id": 296,
+ "next_id": 297,
  "open_positions": [
   {
    "id": 264,
@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.6,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -286,7 +286,24 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
+   "shadow": {}
+  },
+  {
+   "id": 296,
+   "ticker": "KXCHINAAI-26OCT31-XIAO",
+   "event_ticker": "KXCHINAAI-26OCT31",
+   "series": "KXCHINAAI",
+   "label": "Top Chinese AI company on October 31, 2026? \u2014 Xiaomi",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793373326,
+   "close_ts": 1793455200.0,
+   "score": 0.4353,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -17279,34 +17296,41 @@
    1793372425,
    86.7,
    83.01
+  ],
+  [
+   1793373326,
+   86.7,
+   82.86
   ]
  ],
  "last_run": {
-  "ts": 1793372425,
+  "ts": 1793373326,
   "error": null,
   "markets_scanned": 94,
   "candidates": 1,
   "rejections": {
    "too little volume": 69,
-   "no favorite in 80-95c band": 20,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 21,
+   "spread too wide": 3
   },
-  "opened": [],
+  "opened": [
+   296
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 25.98,
-    "volume_24h": 210.7,
-    "score": 0.3701
+    "label": "Top Chinese AI company on October 31, 2026? \u2014 Xiaomi",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 268.21,
+    "score": 0.4353
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

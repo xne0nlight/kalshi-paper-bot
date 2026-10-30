@@ -381,7 +381,7 @@
    "opened_ts": 1793304026,
    "close_ts": 1793426400.0,
    "score": 0.5389,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -17024,85 +17024,90 @@
    1793353527,
    93.16,
    83.76
+  ],
+  [
+   1793354427,
+   93.16,
+   83.71
   ]
  ],
  "last_run": {
-  "ts": 1793353527,
+  "ts": 1793354427,
   "error": null,
-  "markets_scanned": 288,
-  "candidates": 21,
+  "markets_scanned": 159,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 175,
-   "no favorite in 80-95c band": 87,
-   "spread too wide": 5
+   "too little volume": 101,
+   "no favorite in 80-95c band": 48,
+   "spread too wide": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Chicago on Oct 30, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.24,
-    "volume_24h": 7489.72,
-    "score": 0.6306
-   },
-   {
-    "label": "Will it rain in St. Louis on Oct 30, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 2544.58,
-    "score": 0.6255
-   },
-   {
     "label": "Will the maximum temperature be <61\u00b0 on Oct 30, 2026? \u2014 60\u00b0 or below",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 2198.27,
-    "score": 0.6078
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 30, 2026? \u2014 62\u00b0 to 63\u00b0",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.24,
-    "volume_24h": 4541.03,
-    "score": 0.6043
-   },
-   {
-    "label": "Will the maximum temperature be <72\u00b0 on Oct 30, 2026? \u2014 71\u00b0 or below",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 789.78,
-    "score": 0.5974
+    "score": 0.6085
    },
    {
     "label": "Will it rain in Phoenix on Oct 30, 2026?",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 2489.85,
-    "score": 0.5918
+    "score": 0.5925
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 21.99,
+    "volume_24h": 7180.5,
+    "score": 0.5742
    },
    {
     "label": "Will the maximum temperature be 76-77\u00b0 on Oct 30, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 534.88,
-    "score": 0.5718
+    "score": 0.5725
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Oct 30, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 747.88,
+    "score": 0.5606
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 30, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.24,
+    "price": 0.91,
+    "hours_to_close": 21.99,
     "volume_24h": 970.04,
-    "score": 0.5684
+    "score": 0.5591
+   },
+   {
+    "label": "Will the maximum temperature be 61-62\u00b0 on Oct 30, 2026? \u2014 61\u00b0 to 62\u00b0",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 20.99,
+    "volume_24h": 1607.65,
+    "score": 0.5183
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Oct 30, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 21.99,
+    "volume_24h": 208.7,
+    "score": 0.4191
    }
   ],
   "skipped": {},

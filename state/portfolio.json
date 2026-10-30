@@ -129,8 +129,14 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.85,
-   "shadow": {}
+   "mark_price": 0.77,
+   "shadow": {
+    "10": {
+     "ts": 1793382360,
+     "bid": 0.77,
+     "proceeds": 4.54
+    }
+   }
   },
   {
    "id": 288,
@@ -197,12 +203,22 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.79,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793381424,
      "bid": 0.79,
      "proceeds": 3.89
+    },
+    "15": {
+     "ts": 1793382360,
+     "bid": 0.7,
+     "proceeds": 3.42
+    },
+    "20": {
+     "ts": 1793382360,
+     "bid": 0.7,
+     "proceeds": 3.42
     }
    }
   },
@@ -237,7 +253,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.4757,
-   "mark_price": 0.92,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -254,7 +270,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.61,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -292,7 +308,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.89,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -309,7 +325,7 @@
    "opened_ts": 1793373326,
    "close_ts": 1793455200.0,
    "score": 0.4353,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -326,7 +342,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.5386,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -343,7 +359,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -360,7 +376,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -17420,17 +17436,23 @@
    1793381424,
    86.7,
    82.35
+  ],
+  [
+   1793382360,
+   86.7,
+   81.35
   ]
  ],
  "last_run": {
-  "ts": 1793381424,
+  "ts": 1793382360,
   "error": null,
   "markets_scanned": 1187,
-  "candidates": 13,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 1030,
-   "no favorite in 80-95c band": 125,
-   "spread too wide": 19
+   "too little volume": 1026,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 18,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -17440,72 +17462,72 @@
     "label": "Will ETH trimmed mean be below $2000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $2,000.00",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.49,
-    "volume_24h": 15664.78,
-    "score": 0.6519
-   },
-   {
-    "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.49,
-    "volume_24h": 2975.12,
-    "score": 0.6124
+    "hours_to_close": 34.23,
+    "volume_24h": 15711.03,
+    "score": 0.6522
    },
    {
     "label": "Quinn Hughes' next team before Nov 1, 2026: New Jersey Devils",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.48,
+    "hours_to_close": 35.22,
     "volume_24h": 3592.83,
-    "score": 0.5973
+    "score": 0.5976
    },
    {
-    "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
+    "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 34.49,
-    "volume_24h": 1377.88,
-    "score": 0.5173
+    "price": 0.95,
+    "hours_to_close": 34.23,
+    "volume_24h": 3039.68,
+    "score": 0.5634
+   },
+   {
+    "label": "Quinn Hughes' next team before Nov 1, 2026: Minnesota Wild",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 35.22,
+    "volume_24h": 3100.65,
+    "score": 0.5528
    },
    {
     "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.48,
-    "volume_24h": 859.84,
-    "score": 0.512
+    "price": 0.9,
+    "hours_to_close": 34.22,
+    "volume_24h": 1044.89,
+    "score": 0.5287
    },
    {
-    "label": "Will Donald Trump meet in person Fl\u00e1vio Bolsonaro after Issuance and before Nov 1, 2026? \u2014 Before Nov 1, 2026",
-    "side": "no",
+    "label": "Will it rain in Miami on Oct 31, 2026?",
+    "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.48,
-    "volume_24h": 1622.32,
-    "score": 0.5114
+    "hours_to_close": 35.23,
+    "volume_24h": 266.6,
+    "score": 0.503
    },
    {
     "label": "Will it rain in Atlanta on Oct 31, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.23,
     "volume_24h": 300.0,
-    "score": 0.4965
+    "score": 0.4968
    },
    {
-    "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
+    "label": "Will Donald Trump meet in person Fl\u00e1vio Bolsonaro after Issuance and before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.48,
-    "volume_24h": 2400.11,
-    "score": 0.4948
+    "price": 0.94,
+    "hours_to_close": 35.22,
+    "volume_24h": 1574.22,
+    "score": 0.4808
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 1,
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 0,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

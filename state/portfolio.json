@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 25.1,
- "fees_paid": 7.31,
+ "cash": 9.39,
+ "fees_paid": 7.41,
  "peak_equity": 109.65,
  "day": "2026-10-30",
  "day_start_equity": 93.16,
- "next_id": 297,
+ "next_id": 301,
  "open_positions": [
   {
    "id": 264,
@@ -214,7 +214,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.4757,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.59,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -304,6 +304,74 @@
    "close_ts": 1793455200.0,
    "score": 0.4353,
    "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 297,
+   "ticker": "KXRAINMIAM-26OCT-7",
+   "event_ticker": "KXRAINMIAM-26OCT",
+   "series": "KXRAINMIAM",
+   "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505599.0,
+   "score": 0.5386,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 298,
+   "ticker": "KXTRUMPLULA-26OCT-26OCT",
+   "event_ticker": "KXTRUMPLULA-26OCT",
+   "series": "KXTRUMPLULA",
+   "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.89,
+   "fee": 0.04,
+   "cost": 4.49,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505540.0,
+   "score": 0.5097,
+   "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 299,
+   "ticker": "KXRAINLAXM-26OCT-2",
+   "event_ticker": "KXRAINLAXM-26OCT",
+   "series": "KXRAINLAXM",
+   "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505599.0,
+   "score": 0.506,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 300,
+   "ticker": "KXTRUMPMEETM-26NOV01-NMOD",
+   "event_ticker": "KXTRUMPMEETM-26NOV01",
+   "series": "KXTRUMPMEETM",
+   "label": "Will Donald Trump meet (including phone calls) Narendra Modi in Oct 2026?",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505540.0,
+   "score": 0.4188,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -17311,41 +17379,84 @@
    1793375125,
    86.7,
    83.16
+  ],
+  [
+   1793376025,
+   86.7,
+   82.66
   ]
  ],
  "last_run": {
-  "ts": 1793375125,
+  "ts": 1793376025,
   "error": null,
-  "markets_scanned": 94,
-  "candidates": 2,
+  "markets_scanned": 711,
+  "candidates": 6,
   "rejections": {
-   "too little volume": 70,
-   "no favorite in 80-95c band": 18,
-   "spread too wide": 4
+   "too little volume": 604,
+   "no favorite in 80-95c band": 88,
+   "spread too wide": 12,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
+  "opened": [
+   297,
+   298,
+   299,
+   300
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 1115.88,
+    "score": 0.5386
+   },
+   {
     "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 2385.6,
-    "score": 0.5106
+    "score": 0.5111
+   },
+   {
+    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.98,
+    "volume_24h": 848.39,
+    "score": 0.5097
+   },
+   {
+    "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 2586.9,
+    "score": 0.506
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
     "side": "no",
     "price": 0.88,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 222.21,
-    "score": 0.4234
+    "score": 0.4239
+   },
+   {
+    "label": "Will Donald Trump meet (including phone calls) Narendra Modi in Oct 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.98,
+    "volume_24h": 328.01,
+    "score": 0.4188
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -398,7 +398,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -449,7 +449,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -16859,91 +16859,96 @@
    1793323825,
    93.16,
    84.23
+  ],
+  [
+   1793324725,
+   93.16,
+   84.26
   ]
  ],
  "last_run": {
-  "ts": 1793323825,
+  "ts": 1793324725,
   "error": null,
-  "markets_scanned": 5234,
-  "candidates": 74,
+  "markets_scanned": 5233,
+  "candidates": 64,
   "rejections": {
-   "too little volume": 4747,
-   "no favorite in 80-95c band": 359,
-   "spread too wide": 46,
-   "favorite is slipping fast": 5,
-   "nothing for sale at the ask": 3
+   "too little volume": 4730,
+   "no favorite in 80-95c band": 373,
+   "spread too wide": 55,
+   "favorite is slipping fast": 7,
+   "nothing for sale at the ask": 4
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 78609.9,
-    "score": 0.6824
-   },
-   {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $72,500 or above",
     "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 7609.76,
+    "score": 0.6743
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 7504.76,
-    "score": 0.663
+    "hours_to_close": 19.24,
+    "volume_24h": 83955.26,
+    "score": 0.6732
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $73,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 19.24,
+    "volume_24h": 23389.51,
+    "score": 0.6632
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 19.49,
-    "volume_24h": 49503.47,
-    "score": 0.6624
+    "price": 0.92,
+    "hours_to_close": 19.24,
+    "volume_24h": 50308.09,
+    "score": 0.6532
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $73,500 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 19.49,
-    "volume_24h": 14014.91,
-    "score": 0.6324
+    "price": 0.91,
+    "hours_to_close": 19.24,
+    "volume_24h": 14363.46,
+    "score": 0.6432
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Oct 30, 2026? \u2014 Above $98.99",
+    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Oct 30, 2026? \u2014 Above $100.49",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 16.74,
+    "volume_24h": 1456.4,
+    "score": 0.6196
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Oct 30, 2026? \u2014 Above $99.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 16.99,
-    "volume_24h": 1236.68,
-    "score": 0.6233
+    "hours_to_close": 16.74,
+    "volume_24h": 990.17,
+    "score": 0.617
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,000 or above",
+    "label": "Will the WTI crude oil settlement price be between 101.00 and 101.99 USD/Bbl on Oct 30, 2026? \u2014 $101.00 to $101.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 19.49,
-    "volume_24h": 131442.26,
-    "score": 0.6224
-   },
-   {
-    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $79,000 to 79,499.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 1224.17,
-    "score": 0.614
-   },
-   {
-    "label": "Bitcoin price range on Oct 30, 2026? \u2014 $78,500 to 78,999.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 4656.28,
-    "score": 0.6075
+    "price": 0.91,
+    "hours_to_close": 16.74,
+    "volume_24h": 3313.58,
+    "score": 0.6164
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

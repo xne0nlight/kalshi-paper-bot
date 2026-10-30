@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.65,
+   "mark_price": 0.61,
    "shadow": {
     "10": {
      "ts": 1793382360,
@@ -145,6 +145,11 @@
      "ts": 1793387726,
      "bid": 0.64,
      "proceeds": 3.74
+    },
+    "30": {
+     "ts": 1793389526,
+     "bid": 0.61,
+     "proceeds": 3.56
     }
    }
   },
@@ -213,7 +218,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.57,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1793381424,
@@ -285,7 +290,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.59,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -357,7 +362,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.5386,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -17491,18 +17496,23 @@
    1793388626,
    86.7,
    81.63
+  ],
+  [
+   1793389526,
+   86.7,
+   81.5
   ]
  ],
  "last_run": {
-  "ts": 1793388626,
+  "ts": 1793389526,
   "error": null,
   "markets_scanned": 1388,
-  "candidates": 24,
+  "candidates": 26,
   "rejections": {
-   "too little volume": 1182,
-   "no favorite in 80-95c band": 161,
-   "spread too wide": 20,
-   "favorite is slipping fast": 1
+   "too little volume": 1179,
+   "no favorite in 80-95c band": 164,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -17511,75 +17521,75 @@
    {
     "label": "Will BTC trimmed mean be below $72500.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $72,500.00",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.49,
-    "volume_24h": 22289.61,
-    "score": 0.5546
+    "price": 0.94,
+    "hours_to_close": 32.24,
+    "volume_24h": 22380.15,
+    "score": 0.6449
    },
    {
     "label": "Will it rain in Chicago on Oct 31, 2026?",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 34.49,
-    "volume_24h": 1323.75,
-    "score": 0.546
+    "hours_to_close": 34.24,
+    "volume_24h": 1516.75,
+    "score": 0.5508
    },
    {
-    "label": "Will XRP trimmed mean be below $1.20 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $1.20",
+    "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 32.49,
-    "volume_24h": 3756.52,
-    "score": 0.5427
+    "price": 0.9,
+    "hours_to_close": 32.24,
+    "volume_24h": 1438.48,
+    "score": 0.5418
+   },
+   {
+    "label": "Will the maximum temperature be <60\u00b0 on Oct 31, 2026? \u2014 59\u00b0 or below",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.24,
+    "volume_24h": 591.03,
+    "score": 0.5401
    },
    {
     "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.48,
+    "hours_to_close": 32.23,
     "volume_24h": 986.7,
-    "score": 0.5392
+    "score": 0.5395
+   },
+   {
+    "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.24,
+    "volume_24h": 4338.33,
+    "score": 0.5277
+   },
+   {
+    "label": "Will the maximum temperature be <58\u00b0 on Oct 31, 2026? \u2014 57\u00b0 or below",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 35.24,
+    "volume_24h": 1189.0,
+    "score": 0.5216
    },
    {
     "label": "Will it rain in Atlanta on Oct 31, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 302.0,
-    "score": 0.5193
-   },
-   {
-    "label": "Will it rain in Phoenix on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 35.49,
-    "volume_24h": 1744.08,
-    "score": 0.5137
-   },
-   {
-    "label": "Will it rain in Miami on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 33.49,
-    "volume_24h": 277.04,
-    "score": 0.5065
-   },
-   {
-    "label": "Will it rain in Indianapolis on Oct 31, 2026?",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.49,
-    "volume_24h": 406.13,
-    "score": 0.4989
+    "score": 0.5196
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 2,
-   "tracked only (below bet price floor)": 4
+   "related-market cap (Crypto)": 1,
+   "tracked only (below bet price floor)": 6
   },
-  "watch_added": 1,
-  "watch_graded": 12,
-  "api_calls": 43
+  "watch_added": 3,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -347,7 +347,7 @@
    "opened_ts": 1793290525,
    "close_ts": 1793419140.0,
    "score": 0.6003,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -449,7 +449,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -16979,90 +16979,96 @@
    1793345425,
    93.16,
    84.03
+  ],
+  [
+   1793346326,
+   93.16,
+   84.0
   ]
  ],
  "last_run": {
-  "ts": 1793345425,
+  "ts": 1793346326,
   "error": null,
   "markets_scanned": 5327,
-  "candidates": 76,
+  "candidates": 73,
   "rejections": {
-   "too little volume": 4755,
-   "no favorite in 80-95c band": 432,
+   "too little volume": 4754,
+   "no favorite in 80-95c band": 436,
    "spread too wide": 61,
-   "favorite is slipping fast": 3
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $81,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.49,
-    "volume_24h": 83183.53,
-    "score": 0.7077
-   },
-   {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $76,000 or above",
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $75,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 13.49,
-    "volume_24h": 118343.02,
-    "score": 0.6977
-   },
-   {
-    "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 84126.86,
-    "score": 0.6793
-   },
-   {
-    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,160 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 38369.69,
-    "score": 0.6777
-   },
-   {
-    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,320 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 13.49,
-    "volume_24h": 15560.97,
-    "score": 0.6677
+    "hours_to_close": 13.24,
+    "volume_24h": 68547.13,
+    "score": 0.6991
    },
    {
     "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 13.49,
-    "volume_24h": 60833.91,
-    "score": 0.6677
+    "price": 0.93,
+    "hours_to_close": 13.24,
+    "volume_24h": 60878.0,
+    "score": 0.6891
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Oct 30, 2026? \u2014 Above $99.99",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 10.99,
+    "price": 0.95,
+    "hours_to_close": 10.74,
     "volume_24h": 2546.45,
-    "score": 0.659
+    "score": 0.6809
    },
    {
-    "label": "Bitcoin price on Oct 30, 2026? \u2014 $76,500 or above",
+    "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.23,
+    "volume_24h": 84126.86,
+    "score": 0.6701
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $76,000 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 13.24,
+    "volume_24h": 118687.26,
+    "score": 0.6691
+   },
+   {
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,320 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 13.24,
+    "volume_24h": 15590.19,
+    "score": 0.6591
+   },
+   {
+    "label": "Ethereum price at Oct 30, 2026 at 5pm EDT? \u2014 $2,160 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 13.49,
-    "volume_24h": 163885.46,
-    "score": 0.6577
+    "hours_to_close": 13.24,
+    "volume_24h": 38369.69,
+    "score": 0.6591
+   },
+   {
+    "label": "Bitcoin price on Oct 30, 2026? \u2014 $80,000 or above",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 13.24,
+    "volume_24h": 164775.72,
+    "score": 0.6391
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

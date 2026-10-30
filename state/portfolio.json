@@ -129,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.84,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793382360,
@@ -208,7 +208,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5648,
-   "mark_price": 0.67,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1793381424,
@@ -241,7 +241,7 @@
    "opened_ts": 1793358926,
    "close_ts": 1793433600.0,
    "score": 0.5196,
-   "mark_price": 0.85,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -330,7 +330,7 @@
    "opened_ts": 1793373326,
    "close_ts": 1793455200.0,
    "score": 0.4353,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -364,7 +364,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -17456,17 +17456,22 @@
    1793384129,
    86.7,
    82.38
+  ],
+  [
+   1793385025,
+   86.7,
+   82.64
   ]
  ],
  "last_run": {
-  "ts": 1793384129,
+  "ts": 1793385025,
   "error": null,
   "markets_scanned": 1355,
-  "candidates": 13,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 1167,
-   "no favorite in 80-95c band": 150,
-   "spread too wide": 23,
+   "too little volume": 1165,
+   "no favorite in 80-95c band": 154,
+   "spread too wide": 20,
    "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
@@ -17475,76 +17480,75 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will ETH trimmed mean be below $2000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $2,000.00",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 15711.03,
-    "score": 0.6528
-   },
-   {
     "label": "Will the maximum temperature be <60\u00b0 on Oct 31, 2026? \u2014 59\u00b0 or below",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 463.62,
-    "score": 0.5303
+    "score": 0.5306
    },
    {
-    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 33.73,
-    "volume_24h": 1044.89,
-    "score": 0.5293
+    "price": 0.89,
+    "hours_to_close": 22.48,
+    "volume_24h": 538.46,
+    "score": 0.5186
    },
    {
     "label": "Will it rain in Atlanta on Oct 31, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 301.0,
-    "score": 0.5075
+    "score": 0.5079
    },
    {
     "label": "Will it rain in Miami on Oct 31, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 266.6,
-    "score": 0.5036
+    "score": 0.5039
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Oct 31, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.48,
+    "volume_24h": 402.92,
+    "score": 0.4992
    },
    {
     "label": "Will Donald Trump meet in person Fl\u00e1vio Bolsonaro after Issuance and before Nov 1, 2026? \u2014 Before Nov 1, 2026",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.73,
-    "volume_24h": 1544.0,
-    "score": 0.4807
+    "hours_to_close": 34.48,
+    "volume_24h": 1546.0,
+    "score": 0.4811
+   },
+   {
+    "label": "Donald Trump and Luiz In\u00e1cio Lula da Silva meet before Nov 1, 2026? \u2014 Before Nov 1, 2026",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 33.48,
+    "volume_24h": 1044.89,
+    "score": 0.4797
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 31, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 35.74,
-    "volume_24h": 226.0,
-    "score": 0.477
-   },
-   {
-    "label": "Will the maximum temperature be 87-88\u00b0 on Oct 31, 2026? \u2014 87\u00b0 to 88\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.74,
-    "volume_24h": 278.32,
-    "score": 0.475
+    "hours_to_close": 35.49,
+    "volume_24h": 230.0,
+    "score": 0.4779
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 1,
-   "tracked only (below bet price floor)": 3
+   "tracked only (below bet price floor)": 2
   },
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

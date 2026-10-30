@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.32,
- "fees_paid": 7.24,
+ "cash": 29.78,
+ "fees_paid": 7.28,
  "peak_equity": 109.65,
  "day": "2026-10-30",
  "day_start_equity": 93.16,
- "next_id": 295,
+ "next_id": 296,
  "open_positions": [
   {
    "id": 264,
@@ -44,95 +44,6 @@
      "ts": 1793257224,
      "bid": 0.48,
      "proceeds": 2.31
-    }
-   }
-  },
-  {
-   "id": 272,
-   "ticker": "KXHIGHTPHX-26OCT29-B84.5",
-   "event_ticker": "KXHIGHTPHX-26OCT29",
-   "series": "KXHIGHTPHX",
-   "label": "Will the maximum temperature be 84-85\u00b0 on Oct 29, 2026? \u2014 84\u00b0 to 85\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793214026,
-   "close_ts": 1793343600.0,
-   "score": 0.5256,
-   "mark_price": 0.02,
-   "shadow": {
-    "10": {
-     "ts": 1793236525,
-     "bid": 0.84,
-     "proceeds": 4.15
-    },
-    "15": {
-     "ts": 1793243726,
-     "bid": 0.8,
-     "proceeds": 3.94
-    },
-    "20": {
-     "ts": 1793277925,
-     "bid": 0.75,
-     "proceeds": 3.68
-    },
-    "30": {
-     "ts": 1793293227,
-     "bid": 0.65,
-     "proceeds": 3.17
-    }
-   }
-  },
-  {
-   "id": 274,
-   "ticker": "KXHIGHLAX-26OCT29-B70.5",
-   "event_ticker": "KXHIGHLAX-26OCT29",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.91,
-   "fee": 0.03,
-   "cost": 4.58,
-   "opened_ts": 1793217625,
-   "close_ts": 1793347200.0,
-   "score": 0.544,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793286026,
-     "bid": 0.8,
-     "proceeds": 3.94
-    }
-   }
-  },
-  {
-   "id": 275,
-   "ticker": "KXHIGHTLV-26OCT29-B74.5",
-   "event_ticker": "KXHIGHTLV-26OCT29",
-   "series": "KXHIGHTLV",
-   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 29, 2026? \u2014 74\u00b0 to 75\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 4.54,
-   "opened_ts": 1793217625,
-   "close_ts": 1793347200.0,
-   "score": 0.4905,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793245524,
-     "bid": 0.77,
-     "proceeds": 3.78
-    },
-    "15": {
-     "ts": 1793277925,
-     "bid": 0.75,
-     "proceeds": 3.68
     }
    }
   },
@@ -218,7 +129,7 @@
    "opened_ts": 1793305824,
    "close_ts": 1793433600.0,
    "score": 0.5598,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -269,7 +180,7 @@
    "opened_ts": 1793313925,
    "close_ts": 1793385000.0,
    "score": 0.586,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -360,6 +271,23 @@
      "proceeds": 0.56
     }
    }
+  },
+  {
+   "id": 295,
+   "ticker": "KXTRUMPAPPROVE-26OCT31-A38.6",
+   "event_ticker": "KXTRUMPAPPROVE-26OCT31",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1793369727,
+   "close_ts": 1793465940.0,
+   "score": 0.4015,
+   "mark_price": 0.87,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -7497,6 +7425,107 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1793362525,
+   "won": true
+  },
+  {
+   "id": 272,
+   "ticker": "KXHIGHTPHX-26OCT29-B84.5",
+   "event_ticker": "KXHIGHTPHX-26OCT29",
+   "series": "KXHIGHTPHX",
+   "label": "Will the maximum temperature be 84-85\u00b0 on Oct 29, 2026? \u2014 84\u00b0 to 85\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793214026,
+   "close_ts": 1793343600.0,
+   "score": 0.5256,
+   "shadow": {
+    "10": {
+     "ts": 1793236525,
+     "bid": 0.84,
+     "proceeds": 4.15
+    },
+    "15": {
+     "ts": 1793243726,
+     "bid": 0.8,
+     "proceeds": 3.94
+    },
+    "20": {
+     "ts": 1793277925,
+     "bid": 0.75,
+     "proceeds": 3.68
+    },
+    "30": {
+     "ts": 1793293227,
+     "bid": 0.65,
+     "proceeds": 3.17
+    }
+   },
+   "payout": 0.0,
+   "pnl": -4.77,
+   "result": "YES",
+   "closed_ts": 1793369727,
+   "won": false
+  },
+  {
+   "id": 274,
+   "ticker": "KXHIGHLAX-26OCT29-B70.5",
+   "event_ticker": "KXHIGHLAX-26OCT29",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 70-71\u00b0 on Oct 29, 2026? \u2014 70\u00b0 to 71\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1793217625,
+   "close_ts": 1793347200.0,
+   "score": 0.544,
+   "shadow": {
+    "10": {
+     "ts": 1793286026,
+     "bid": 0.8,
+     "proceeds": 3.94
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.42,
+   "result": "NO",
+   "closed_ts": 1793369727,
+   "won": true
+  },
+  {
+   "id": 275,
+   "ticker": "KXHIGHTLV-26OCT29-B74.5",
+   "event_ticker": "KXHIGHTLV-26OCT29",
+   "series": "KXHIGHTLV",
+   "label": "Will the maximum temperature be 74-75\u00b0 on Oct 29, 2026? \u2014 74\u00b0 to 75\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 4.54,
+   "opened_ts": 1793217625,
+   "close_ts": 1793347200.0,
+   "score": 0.4905,
+   "shadow": {
+    "10": {
+     "ts": 1793245524,
+     "bid": 0.77,
+     "proceeds": 3.78
+    },
+    "15": {
+     "ts": 1793277925,
+     "bid": 0.75,
+     "proceeds": 3.68
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.46,
+   "result": "NO",
+   "closed_ts": 1793369727,
    "won": true
   }
  ],
@@ -17230,25 +17259,53 @@
    1793368827,
    90.59,
    83.33
+  ],
+  [
+   1793369727,
+   86.7,
+   83.23
   ]
  ],
  "last_run": {
-  "ts": 1793368827,
+  "ts": 1793369727,
   "error": null,
-  "markets_scanned": 91,
-  "candidates": 0,
+  "markets_scanned": 109,
+  "candidates": 2,
   "rejections": {
-   "too little volume": 70,
-   "no favorite in 80-95c band": 17,
-   "spread too wide": 4
+   "too little volume": 84,
+   "no favorite in 80-95c band": 21,
+   "spread too wide": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   295
+  ],
+  "settled": [
+   272,
+   274,
+   275
+  ],
   "halt": null,
-  "top_candidates": [],
+  "top_candidates": [
+   {
+    "label": "Will Trump's RCP approval average be above 38.6 on Oct 31, 2026? \u2014 Above 38.6%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 26.73,
+    "volume_24h": 313.5,
+    "score": 0.4015
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 26.73,
+    "volume_24h": 210.7,
+    "score": 0.3686
+   }
+  ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 2,
+  "watch_added": 2,
+  "watch_graded": 8,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

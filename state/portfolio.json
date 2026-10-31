@@ -184,7 +184,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -383,7 +383,7 @@
    "opened_ts": 1793481324,
    "close_ts": 1793555940.0,
    "score": 0.6234,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -18387,17 +18387,22 @@
    1793484925,
    92.46,
    88.73
+  ],
+  [
+   1793485825,
+   92.46,
+   88.82
   ]
  ],
  "last_run": {
-  "ts": 1793484925,
+  "ts": 1793485825,
   "error": null,
-  "markets_scanned": 1606,
-  "candidates": 49,
+  "markets_scanned": 1602,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 1299,
-   "no favorite in 80-95c band": 238,
-   "spread too wide": 18,
+   "too little volume": 1297,
+   "no favorite in 80-95c band": 234,
+   "spread too wide": 15,
    "nothing for sale at the ask": 2
   },
   "opened": [],
@@ -18407,70 +18412,70 @@
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
+    "price": 0.93,
+    "hours_to_close": 19.48,
+    "volume_24h": 9971.59,
+    "score": 0.6623
+   },
+   {
+    "label": "Louisiana-Monroe wins",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 19.73,
-    "volume_24h": 9919.87,
-    "score": 0.6714
+    "hours_to_close": 25.49,
+    "volume_24h": 53775.45,
+    "score": 0.6567
    },
    {
     "label": "South Carolina wins",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 1019772.08,
-    "score": 0.6362
+    "price": 0.94,
+    "hours_to_close": 25.49,
+    "volume_24h": 1036890.53,
+    "score": 0.6567
    },
    {
-    "label": "Oklahoma wins",
+    "label": "Purdue wins",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 1177190.97,
-    "score": 0.6362
+    "price": 0.94,
+    "hours_to_close": 25.49,
+    "volume_24h": 570229.98,
+    "score": 0.6567
+   },
+   {
+    "label": "Penn St. wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 25.49,
+    "volume_24h": 702461.17,
+    "score": 0.6567
+   },
+   {
+    "label": "Southern Miss wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 25.49,
+    "volume_24h": 88773.55,
+    "score": 0.6467
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 25.74,
-    "volume_24h": 47464.85,
-    "score": 0.6262
+    "hours_to_close": 25.49,
+    "volume_24h": 48604.88,
+    "score": 0.6267
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 25.74,
-    "volume_24h": 478834.37,
-    "score": 0.6262
-   },
-   {
-    "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.73,
-    "volume_24h": 2994.35,
-    "score": 0.6179
-   },
-   {
-    "label": "Purdue wins",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.74,
-    "volume_24h": 485468.29,
-    "score": 0.6062
-   },
-   {
-    "label": "Penn St. wins",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 25.74,
-    "volume_24h": 652241.56,
-    "score": 0.6062
+    "hours_to_close": 25.49,
+    "volume_24h": 485670.83,
+    "score": 0.6267
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

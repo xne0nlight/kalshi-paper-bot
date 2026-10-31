@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 18.34,
- "fees_paid": 7.63,
+ "cash": 13.66,
+ "fees_paid": 7.66,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 312,
+ "next_id": 313,
  "open_positions": [
   {
    "id": 264,
@@ -309,7 +309,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5606,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -343,8 +343,14 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5503,
-   "mark_price": 0.92,
-   "shadow": {}
+   "mark_price": 0.81,
+   "shadow": {
+    "10": {
+     "ts": 1793466026,
+     "bid": 0.81,
+     "proceeds": 3.99
+    }
+   }
   },
   {
    "id": 310,
@@ -378,6 +384,23 @@
    "close_ts": 1793545200.0,
    "score": 0.5184,
    "mark_price": 0.96,
+   "shadow": {}
+  },
+  {
+   "id": 312,
+   "ticker": "KXDIESELW-26NOV02-T6.28",
+   "event_ticker": "KXDIESELW-26NOV02",
+   "series": "KXDIESELW",
+   "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793466026,
+   "close_ts": 1793595540.0,
+   "score": 0.5837,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -18158,96 +18181,100 @@
    1793465127,
    91.16,
    87.08
+  ],
+  [
+   1793466026,
+   91.16,
+   86.42
   ]
  ],
  "last_run": {
-  "ts": 1793465127,
+  "ts": 1793466026,
   "error": null,
-  "markets_scanned": 526,
-  "candidates": 42,
+  "markets_scanned": 821,
+  "candidates": 53,
   "rejections": {
-   "too little volume": 331,
-   "no favorite in 80-95c band": 142,
-   "spread too wide": 9,
-   "nothing for sale at the ask": 1,
-   "favorite is slipping fast": 1
+   "too little volume": 553,
+   "no favorite in 80-95c band": 195,
+   "spread too wide": 17,
+   "nothing for sale at the ask": 3
   },
-  "opened": [],
+  "opened": [
+   312
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Iowa wins the 1st half",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 30.99,
+    "volume_24h": 54316.7,
+    "score": 0.6568
+   },
+   {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.24,
-    "volume_24h": 11847.94,
-    "score": 0.6564
+    "hours_to_close": 30.99,
+    "volume_24h": 12277.66,
+    "score": 0.6568
    },
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.24,
-    "volume_24h": 102795.9,
-    "score": 0.6464
+    "hours_to_close": 30.99,
+    "volume_24h": 103202.21,
+    "score": 0.6468
    },
    {
-    "label": "Wisconsin wins the 1st half",
-    "side": "no",
+    "label": "Michigan wins",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 31.24,
-    "volume_24h": 8518.61,
-    "score": 0.6412
+    "hours_to_close": 30.99,
+    "volume_24h": 79394.02,
+    "score": 0.6468
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 3562.96,
-    "score": 0.6408
+    "hours_to_close": 21.99,
+    "volume_24h": 3562.41,
+    "score": 0.6414
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.24,
-    "volume_24h": 30375.92,
-    "score": 0.6364
+    "hours_to_close": 30.99,
+    "volume_24h": 30507.21,
+    "score": 0.6368
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 31.24,
-    "volume_24h": 7915.46,
-    "score": 0.6288
+    "hours_to_close": 30.99,
+    "volume_24h": 8015.88,
+    "score": 0.6296
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.24,
-    "volume_24h": 737904.6,
-    "score": 0.6264
-   },
-   {
-    "label": "Indiana wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.24,
-    "volume_24h": 22178.65,
-    "score": 0.6264
+    "hours_to_close": 30.99,
+    "volume_24h": 747536.45,
+    "score": 0.6268
    }
   ],
   "skipped": {
-   "series cap": 26,
-   "tracked only (below bet price floor)": 6,
-   "related-market cap (Presidential approval)": 2
+   "series cap": 9
   },
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 14,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

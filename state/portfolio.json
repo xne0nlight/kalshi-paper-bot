@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.51,
- "fees_paid": 7.49,
+ "cash": 8.85,
+ "fees_paid": 7.52,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 306,
+ "next_id": 308,
  "open_positions": [
   {
    "id": 264,
@@ -46,23 +46,6 @@
      "proceeds": 2.31
     }
    }
-  },
-  {
-   "id": 283,
-   "ticker": "KXAAAGASM-26OCT31-4.20",
-   "event_ticker": "KXAAAGASM-26OCT31",
-   "series": "KXAAAGASM",
-   "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 5.44,
-   "opened_ts": 1793290525,
-   "close_ts": 1793419140.0,
-   "score": 0.6003,
-   "mark_price": 0.98,
-   "shadow": {}
   },
   {
    "id": 284,
@@ -243,7 +226,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -345,7 +328,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -368,7 +351,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -420,6 +403,40 @@
    "close_ts": 1793577600.0,
    "score": 0.6403,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 306,
+   "ticker": "KXTRUMPACT-26OCT25-T2",
+   "event_ticker": "KXTRUMPACT-26OCT25",
+   "series": "KXTRUMPACT",
+   "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793451624,
+   "close_ts": 1793545200.0,
+   "score": 0.6347,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 307,
+   "ticker": "KXTRUMPSAYMONTH-26NOV01-FAT",
+   "event_ticker": "KXTRUMPSAYMONTH-26NOV01",
+   "series": "KXTRUMPSAYMONTH",
+   "label": "Will Trump say \"Fat shot / Ozempic\" before Nov 1, 2026?",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 1.89,
+   "opened_ts": 1793451624,
+   "close_ts": 1793545200.0,
+   "score": 0.542,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -7764,6 +7781,27 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793448924,
+   "won": true
+  },
+  {
+   "id": 283,
+   "ticker": "KXAAAGASM-26OCT31-4.20",
+   "event_ticker": "KXAAAGASM-26OCT31",
+   "series": "KXAAAGASM",
+   "label": "Will average **gas prices** be above $4.20? \u2014 Above 4.20",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1793290525,
+   "close_ts": 1793419140.0,
+   "score": 0.6003,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1793451624,
    "won": true
   }
  ],
@@ -17952,93 +17990,102 @@
    1793450726,
    87.9,
    86.71
+  ],
+  [
+   1793451624,
+   88.46,
+   86.71
   ]
  ],
  "last_run": {
-  "ts": 1793450726,
+  "ts": 1793451624,
   "error": null,
-  "markets_scanned": 501,
-  "candidates": 28,
+  "markets_scanned": 516,
+  "candidates": 30,
   "rejections": {
-   "too little volume": 326,
+   "too little volume": 340,
    "no favorite in 80-95c band": 142,
-   "spread too wide": 5
+   "spread too wide": 4
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   306,
+   307
+  ],
+  "settled": [
+   283
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.24,
-    "volume_24h": 71722.1,
-    "score": 0.6409
+    "hours_to_close": 34.99,
+    "volume_24h": 72227.82,
+    "score": 0.6412
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.24,
-    "volume_24h": 14457.65,
-    "score": 0.6409
+    "hours_to_close": 34.99,
+    "volume_24h": 14516.83,
+    "score": 0.6412
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.24,
-    "volume_24h": 25574.97,
-    "score": 0.6409
+    "hours_to_close": 34.99,
+    "volume_24h": 26647.96,
+    "score": 0.6412
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.24,
-    "volume_24h": 3863.91,
-    "score": 0.6342
+    "hours_to_close": 25.99,
+    "volume_24h": 3861.73,
+    "score": 0.6347
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.24,
-    "volume_24h": 490884.34,
-    "score": 0.6309
+    "hours_to_close": 34.99,
+    "volume_24h": 494095.72,
+    "score": 0.6312
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.24,
-    "volume_24h": 159128.71,
-    "score": 0.6109
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 35.24,
-    "volume_24h": 8862.58,
-    "score": 0.607
+    "hours_to_close": 34.99,
+    "volume_24h": 161150.99,
+    "score": 0.6112
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 35.24,
-    "volume_24h": 4728.14,
-    "score": 0.6065
+    "hours_to_close": 34.99,
+    "volume_24h": 4871.37,
+    "score": 0.6078
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 34.99,
+    "volume_24h": 8857.4,
+    "score": 0.6073
    }
   ],
   "skipped": {
-   "series cap": 10,
-   "tracked only (below bet price floor)": 4
+   "series cap": 10
   },
-  "watch_added": 0,
-  "watch_graded": 1,
+  "watch_added": 1,
+  "watch_graded": 4,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

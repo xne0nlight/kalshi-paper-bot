@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5606,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5503,
-   "mark_price": 0.92,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793466026,
@@ -383,7 +383,7 @@
    "opened_ts": 1793466026,
    "close_ts": 1793595540.0,
    "score": 0.5837,
-   "mark_price": 0.83,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793466926,
@@ -18218,98 +18218,96 @@
    1793466926,
    91.62,
    86.59
+  ],
+  [
+   1793467825,
+   91.62,
+   87.36
   ]
  ],
  "last_run": {
-  "ts": 1793466926,
+  "ts": 1793467825,
   "error": null,
-  "markets_scanned": 821,
-  "candidates": 48,
+  "markets_scanned": 823,
+  "candidates": 46,
   "rejections": {
-   "too little volume": 551,
-   "no favorite in 80-95c band": 197,
-   "spread too wide": 22,
-   "nothing for sale at the ask": 2,
-   "favorite is slipping fast": 1
+   "too little volume": 549,
+   "no favorite in 80-95c band": 205,
+   "spread too wide": 21,
+   "nothing for sale at the ask": 2
   },
-  "opened": [
-   313
-  ],
-  "settled": [
-   295
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will Trump say \"Autism\" before Nov 1, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 278086.93,
-    "score": 0.6757
-   },
-   {
-    "label": "Duke wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 173834.91,
-    "score": 0.6572
-   },
-   {
-    "label": "Illinois wins the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 16515.09,
-    "score": 0.6572
-   },
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 104812.41,
-    "score": 0.6472
+    "hours_to_close": 30.49,
+    "volume_24h": 106019.49,
+    "score": 0.6475
+   },
+   {
+    "label": "Rutgers wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 30.49,
+    "volume_24h": 211477.72,
+    "score": 0.6475
+   },
+   {
+    "label": "Michigan wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 30.49,
+    "volume_24h": 133990.83,
+    "score": 0.6475
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 3600.02,
-    "score": 0.6424
+    "hours_to_close": 21.49,
+    "volume_24h": 3565.02,
+    "score": 0.6428
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 33086.01,
-    "score": 0.6372
+    "hours_to_close": 30.49,
+    "volume_24h": 32000.55,
+    "score": 0.6375
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 8060.41,
-    "score": 0.6301
+    "hours_to_close": 30.49,
+    "volume_24h": 8168.15,
+    "score": 0.631
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.74,
-    "volume_24h": 760572.1,
-    "score": 0.6272
+    "hours_to_close": 30.49,
+    "volume_24h": 767961.39,
+    "score": 0.6275
+   },
+   {
+    "label": "Indiana wins",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 30.49,
+    "volume_24h": 24668.63,
+    "score": 0.6275
    }
   ],
-  "skipped": {
-   "series cap": 16
-  },
-  "watch_added": 2,
-  "watch_graded": 0,
+  "skipped": {},
+  "watch_added": 3,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

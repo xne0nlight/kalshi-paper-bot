@@ -239,7 +239,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.62,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -277,7 +277,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.99,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -379,7 +379,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -17690,17 +17690,23 @@
    1793411125,
    87.3,
    85.98
+  ],
+  [
+   1793412026,
+   87.3,
+   85.89
   ]
  ],
  "last_run": {
-  "ts": 1793411125,
+  "ts": 1793412026,
   "error": null,
-  "markets_scanned": 2219,
-  "candidates": 52,
+  "markets_scanned": 2322,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 1908,
-   "no favorite in 80-95c band": 245,
-   "spread too wide": 14
+   "too little volume": 1983,
+   "no favorite in 80-95c band": 265,
+   "spread too wide": 21,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
@@ -17710,72 +17716,72 @@
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 9120.07,
-    "score": 0.6802
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.24,
-    "volume_24h": 21579.98,
-    "score": 0.6732
+    "hours_to_close": 18.99,
+    "volume_24h": 9216.07,
+    "score": 0.6814
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.24,
-    "volume_24h": 23122.91,
-    "score": 0.6432
+    "price": 0.92,
+    "hours_to_close": 18.99,
+    "volume_24h": 23135.91,
+    "score": 0.654
    },
    {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,250 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 19.24,
-    "volume_24h": 25081.21,
-    "score": 0.6332
-   },
-   {
-    "label": "Will it rain in Seattle on Oct 31, 2026?",
+    "label": "Will Donald Trump make at least 360 Truth Social posts the week of Oct 25, 2026? \u2014 360+",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 2322.05,
-    "score": 0.6104
+    "hours_to_close": 35.98,
+    "volume_24h": 6210.48,
+    "score": 0.6345
    },
    {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
+    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 19.24,
-    "volume_24h": 24393.17,
-    "score": 0.6032
+    "price": 0.91,
+    "hours_to_close": 25.99,
+    "volume_24h": 48163.08,
+    "score": 0.6256
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.23,
-    "volume_24h": 8242.72,
-    "score": 0.6026
+    "price": 0.92,
+    "hours_to_close": 14.98,
+    "volume_24h": 8417.98,
+    "score": 0.6145
    },
    {
-    "label": "Will SOL trimmed mean be below $90.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $90.00",
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
     "side": "no",
+    "price": 0.88,
+    "hours_to_close": 18.99,
+    "volume_24h": 24518.17,
+    "score": 0.614
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,250 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 18.99,
+    "volume_24h": 25081.21,
+    "score": 0.614
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,000 or above",
+    "side": "yes",
     "price": 0.93,
-    "hours_to_close": 26.24,
-    "volume_24h": 2016.56,
-    "score": 0.593
+    "hours_to_close": 18.99,
+    "volume_24h": 21579.98,
+    "score": 0.614
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 8,
+   "related-market cap (Crypto)": 3,
    "tracked only (below bet price floor)": 5
   },
-  "watch_added": 4,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

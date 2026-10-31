@@ -311,7 +311,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.5386,
-   "mark_price": 0.89,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -379,7 +379,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -17890,16 +17890,21 @@
    1793447126,
    87.3,
    86.89
+  ],
+  [
+   1793448024,
+   87.3,
+   87.34
   ]
  ],
  "last_run": {
-  "ts": 1793447126,
+  "ts": 1793448024,
   "error": null,
-  "markets_scanned": 405,
-  "candidates": 5,
+  "markets_scanned": 501,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 287,
-   "no favorite in 80-95c band": 106,
+   "too little volume": 326,
+   "no favorite in 80-95c band": 140,
    "spread too wide": 7
   },
   "opened": [],
@@ -17907,51 +17912,75 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Los Angeles on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 20.24,
-    "volume_24h": 3527.98,
-    "score": 0.5861
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Oct 31, 2026? \u2014 62\u00b0 to 63\u00b0",
+    "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 681.4,
-    "score": 0.5826
+    "hours_to_close": 35.99,
+    "volume_24h": 70860.2,
+    "score": 0.64
    },
    {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Oct 31, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 498.28,
-    "score": 0.5524
+    "label": "UCLA wins",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 35.99,
+    "volume_24h": 14584.19,
+    "score": 0.64
    },
    {
-    "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
+    "label": "Nevada wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.24,
-    "volume_24h": 3913.91,
-    "score": 0.5326
+    "price": 0.94,
+    "hours_to_close": 35.99,
+    "volume_24h": 24200.16,
+    "score": 0.64
    },
    {
-    "label": "Will the maximum temperature be 56-57\u00b0 on Oct 31, 2026? \u2014 56\u00b0 to 57\u00b0",
+    "label": "Minnesota wins",
     "side": "no",
-    "price": 0.83,
-    "hours_to_close": 20.24,
-    "volume_24h": 718.08,
-    "score": 0.4743
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 475204.87,
+    "score": 0.63
+   },
+   {
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 155819.78,
+    "score": 0.61
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 8597.03,
+    "score": 0.6051
+   },
+   {
+    "label": "Indiana wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 4178.85,
+    "score": 0.6016
+   },
+   {
+    "label": "Arizona St. wins",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 35.99,
+    "volume_24h": 18395.8,
+    "score": 0.58
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 1
+   "tracked only (below bet price floor)": 4
   },
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 27,
+  "watch_graded": 9,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

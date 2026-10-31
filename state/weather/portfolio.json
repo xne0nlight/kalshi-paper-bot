@@ -156,7 +156,7 @@
    "contracts": 1.0,
    "cost": 0.36,
    "opened_ts": 1793373326,
-   "mark_price": 0.74,
+   "mark_price": 0.7,
    "avg_price": 0.36
   },
   {
@@ -270,7 +270,7 @@
    "contracts": 1.0,
    "cost": 0.55,
    "opened_ts": 1793378729,
-   "mark_price": 0.12,
+   "mark_price": 0.11,
    "avg_price": 0.55
   },
   {
@@ -308,7 +308,7 @@
    "contracts": 1.0,
    "cost": 0.59,
    "opened_ts": 1793380526,
-   "mark_price": 0.11,
+   "mark_price": 0.12,
    "avg_price": 0.59
   },
   {
@@ -346,7 +346,7 @@
    "contracts": 1.0,
    "cost": 0.41,
    "opened_ts": 1793385025,
-   "mark_price": 0.7,
+   "mark_price": 0.74,
    "avg_price": 0.41
   },
   {
@@ -422,7 +422,7 @@
    "contracts": 0.5,
    "cost": 0.05,
    "opened_ts": 1793397626,
-   "mark_price": 0.36,
+   "mark_price": 0.39,
    "avg_price": 0.1
   },
   {
@@ -460,7 +460,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793401224,
-   "mark_price": 0.29,
+   "mark_price": 0.31,
    "avg_price": 0.08
   },
   {
@@ -574,7 +574,7 @@
    "contracts": 12.0,
    "cost": 11.64,
    "opened_ts": 1793419225,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "avg_price": 0.97
   },
   {
@@ -612,7 +612,7 @@
    "contracts": 1.0,
    "cost": 0.41,
    "opened_ts": 1793420126,
-   "mark_price": 0.7,
+   "mark_price": 0.39,
    "avg_price": 0.41
   },
   {
@@ -669,7 +669,7 @@
    "contracts": 3.0,
    "cost": 2.52,
    "opened_ts": 1793434529,
-   "mark_price": 0.77,
+   "mark_price": 0.88,
    "avg_price": 0.84
   },
   {
@@ -10307,6 +10307,11 @@
    1793448924,
    104.868,
    96.0974
+  ],
+  [
+   1793449824,
+   104.868,
+   96.3924
   ]
  ],
  "forecast_log": {
@@ -15935,56 +15940,11 @@
   }
  },
  "last_run": {
-  "ts": 1793448924,
+  "ts": 1793449824,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXLOWTAUS-26OCT30-T63",
-    "pnl": -8.5
-   },
-   {
-    "ticker": "KXHIGHTOKC-26OCT30-B71.5",
-    "pnl": -0.04
-   },
-   {
-    "ticker": "KXLOWTDAL-26OCT30-B64.5",
-    "pnl": -0.47
-   },
-   {
-    "ticker": "KXLOWTSATX-26OCT30-B64.5",
-    "pnl": -0.32
-   },
-   {
-    "ticker": "KXHIGHCHI-26OCT30-B62.5",
-    "pnl": -0.14
-   },
-   {
-    "ticker": "KXLOWTOKC-26OCT30-T62",
-    "pnl": 0.15
-   },
-   {
-    "ticker": "KXHIGHAUS-26OCT30-T73",
-    "pnl": -0.2
-   },
-   {
-    "ticker": "KXHIGHTSATX-26OCT30-B72.5",
-    "pnl": -0.11
-   },
-   {
-    "ticker": "KXHIGHTSATX-26OCT30-T72",
-    "pnl": -0.11
-   },
-   {
-    "ticker": "KXHIGHTOKC-26OCT30-T67",
-    "pnl": 0.12
-   },
-   {
-    "ticker": "KXLOWTOKC-26OCT30-B59.5",
-    "pnl": 1.4
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -15992,7 +15952,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 32.4
+  "seconds": 30.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

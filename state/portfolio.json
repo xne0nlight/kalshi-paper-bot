@@ -207,7 +207,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.93,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -241,7 +241,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -18294,17 +18294,23 @@
    1793476824,
    91.9,
    87.65
+  ],
+  [
+   1793477724,
+   91.9,
+   87.46
   ]
  ],
  "last_run": {
-  "ts": 1793476824,
+  "ts": 1793477724,
   "error": null,
   "markets_scanned": 1678,
-  "candidates": 61,
+  "candidates": 63,
   "rejections": {
-   "too little volume": 1375,
-   "no favorite in 80-95c band": 221,
-   "spread too wide": 20,
+   "too little volume": 1367,
+   "no favorite in 80-95c band": 224,
+   "spread too wide": 22,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -18312,72 +18318,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be above 38.7 on Nov 1, 2026? \u2014 Above 38.7%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.98,
-    "volume_24h": 19850.69,
-    "score": 0.6451
-   },
-   {
-    "label": "Stanford wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 435971.42,
-    "score": 0.6418
-   },
-   {
-    "label": "Louisville wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 29089.23,
-    "score": 0.6418
-   },
-   {
     "label": "UCLA wins",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 24673.85,
-    "score": 0.6418
+    "price": 0.94,
+    "hours_to_close": 27.74,
+    "volume_24h": 47403.72,
+    "score": 0.6522
    },
    {
     "label": "Nevada wins",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 52140.21,
-    "score": 0.6418
+    "price": 0.94,
+    "hours_to_close": 27.74,
+    "volume_24h": 59070.02,
+    "score": 0.6522
    },
    {
     "label": "Minnesota wins",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 1961515.85,
-    "score": 0.6418
+    "price": 0.94,
+    "hours_to_close": 27.74,
+    "volume_24h": 2484974.82,
+    "score": 0.6522
    },
    {
     "label": "Indiana wins",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 251678.83,
-    "score": 0.6418
+    "price": 0.94,
+    "hours_to_close": 27.74,
+    "volume_24h": 365718.08,
+    "score": 0.6522
    },
    {
-    "label": "BYU wins",
+    "label": "Wake Forest wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.99,
-    "volume_24h": 101483.51,
-    "score": 0.6418
+    "hours_to_close": 27.74,
+    "volume_24h": 48300.66,
+    "score": 0.6422
+   },
+   {
+    "label": "Virginia wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.74,
+    "volume_24h": 218156.26,
+    "score": 0.6422
+   },
+   {
+    "label": "Stanford wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 27.74,
+    "volume_24h": 585626.33,
+    "score": 0.6222
+   },
+   {
+    "label": "Louisville wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 27.74,
+    "volume_24h": 38109.82,
+    "score": 0.6222
    }
   ],
   "skipped": {},
-  "watch_added": 14,
+  "watch_added": 8,
   "watch_graded": 0,
   "api_calls": 42
  },

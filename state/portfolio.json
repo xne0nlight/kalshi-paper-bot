@@ -402,7 +402,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -17800,17 +17800,22 @@
    1793430924,
    87.3,
    86.55
+  ],
+  [
+   1793431825,
+   87.3,
+   86.49
   ]
  ],
  "last_run": {
-  "ts": 1793430924,
+  "ts": 1793431825,
   "error": null,
   "markets_scanned": 2576,
   "candidates": 54,
   "rejections": {
-   "too little volume": 2132,
-   "no favorite in 80-95c band": 365,
-   "spread too wide": 23,
+   "too little volume": 2131,
+   "no favorite in 80-95c band": 364,
+   "spread too wide": 25,
    "favorite is slipping fast": 2
   },
   "opened": [],
@@ -17818,75 +17823,75 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 13.49,
+    "volume_24h": 41052.0,
+    "score": 0.7077
+   },
+   {
     "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 13.74,
-    "volume_24h": 6140.54,
-    "score": 0.6805
+    "hours_to_close": 13.49,
+    "volume_24h": 6142.54,
+    "score": 0.6819
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 13.74,
-    "volume_24h": 43821.8,
-    "score": 0.6764
-   },
-   {
-    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.74,
-    "volume_24h": 44868.81,
-    "score": 0.6685
-   },
-   {
-    "label": "Will Donald Trump make at least 360 Truth Social posts the week of Oct 25, 2026? \u2014 360+",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.73,
-    "volume_24h": 10598.98,
-    "score": 0.6572
-   },
-   {
-    "label": "Will it rain in Phoenix on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 2952.22,
-    "score": 0.6309
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,500 or above",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 13.74,
-    "volume_24h": 34946.35,
-    "score": 0.6264
+    "hours_to_close": 13.49,
+    "volume_24h": 44121.8,
+    "score": 0.6777
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,250 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 13.74,
+    "hours_to_close": 13.49,
     "volume_24h": 46859.04,
-    "score": 0.6264
+    "score": 0.6777
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.4 on Oct 31, 2026? \u2014 38.4%",
-    "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 9.73,
-    "volume_24h": 11888.38,
-    "score": 0.6235
+    "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,280 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 13.49,
+    "volume_24h": 9694.05,
+    "score": 0.6767
+   },
+   {
+    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.49,
+    "volume_24h": 44773.31,
+    "score": 0.6693
+   },
+   {
+    "label": "Will Donald Trump make at least 360 Truth Social posts the week of Oct 25, 2026? \u2014 360+",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.48,
+    "volume_24h": 10598.98,
+    "score": 0.6576
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Oct 31, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 9.48,
+    "volume_24h": 13184.35,
+    "score": 0.6557
    }
   ],
   "skipped": {
    "related-market cap (Crypto)": 8,
-   "tracked only (below bet price floor)": 4
+   "tracked only (below bet price floor)": 3
   },
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

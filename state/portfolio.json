@@ -239,7 +239,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.65,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -328,7 +328,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -419,7 +419,7 @@
    "opened_ts": 1793400326,
    "close_ts": 1793520000.0,
    "score": 0.5861,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   }
  ],
@@ -17780,92 +17780,97 @@
    1793427327,
    87.3,
    86.38
+  ],
+  [
+   1793428225,
+   87.3,
+   86.46
   ]
  ],
  "last_run": {
-  "ts": 1793427327,
+  "ts": 1793428225,
   "error": null,
   "markets_scanned": 2576,
-  "candidates": 57,
+  "candidates": 59,
   "rejections": {
-   "too little volume": 2135,
-   "no favorite in 80-95c band": 355,
-   "spread too wide": 26,
-   "nothing for sale at the ask": 2,
-   "favorite is slipping fast": 1
+   "too little volume": 2134,
+   "no favorite in 80-95c band": 357,
+   "spread too wide": 23,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 14.49,
+    "volume_24h": 29066.13,
+    "score": 0.7025
+   },
+   {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 41511.13,
-    "score": 0.6812
+    "score": 0.6825
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 45207.09,
-    "score": 0.6812
+    "score": 0.6825
+   },
+   {
+    "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,280 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 14.49,
+    "volume_24h": 8123.64,
+    "score": 0.6657
    },
    {
     "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 5922.67,
-    "score": 0.6642
+    "score": 0.6654
    },
    {
     "label": "Will Donald Trump make at least 360 Truth Social posts the week of Oct 25, 2026? \u2014 360+",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.73,
+    "hours_to_close": 31.48,
     "volume_24h": 10584.98,
-    "score": 0.6557
-   },
-   {
-    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.74,
-    "volume_24h": 43912.69,
-    "score": 0.6457
-   },
-   {
-    "label": "Will it rain in Phoenix on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 24.74,
-    "volume_24h": 2932.36,
-    "score": 0.6284
+    "score": 0.656
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,000 or above",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 14.74,
-    "volume_24h": 55638.13,
-    "score": 0.6212
+    "price": 0.88,
+    "hours_to_close": 14.49,
+    "volume_24h": 55653.51,
+    "score": 0.6325
    },
    {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,250 or above",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 14.74,
-    "volume_24h": 46745.26,
-    "score": 0.6212
+    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.49,
+    "volume_24h": 43694.22,
+    "score": 0.6164
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 9,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Crypto)": 8,
+   "tracked only (below bet price floor)": 4
   },
   "watch_added": 0,
   "watch_graded": 0,

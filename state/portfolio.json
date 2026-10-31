@@ -345,7 +345,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -379,7 +379,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -402,7 +402,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -17885,69 +17885,66 @@
    1793446224,
    87.3,
    86.87
+  ],
+  [
+   1793447126,
+   87.3,
+   86.89
   ]
  ],
  "last_run": {
-  "ts": 1793446224,
+  "ts": 1793447126,
   "error": null,
   "markets_scanned": 405,
-  "candidates": 6,
+  "candidates": 5,
   "rejections": {
    "too little volume": 287,
    "no favorite in 80-95c band": 106,
-   "spread too wide": 6
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump say \"Autism\" before Nov 1, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.49,
-    "volume_24h": 204320.33,
-    "score": 0.6027
-   },
-   {
     "label": "Will it rain in Los Angeles on Oct 31, 2026?",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 20.49,
-    "volume_24h": 3506.93,
-    "score": 0.5851
+    "hours_to_close": 20.24,
+    "volume_24h": 3527.98,
+    "score": 0.5861
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 31, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 681.4,
-    "score": 0.5818
+    "score": 0.5826
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 31, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.49,
+    "hours_to_close": 20.24,
     "volume_24h": 498.28,
-    "score": 0.5516
+    "score": 0.5524
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 3907.28,
-    "score": 0.5321
+    "hours_to_close": 27.24,
+    "volume_24h": 3913.91,
+    "score": 0.5326
    },
    {
     "label": "Will the maximum temperature be 56-57\u00b0 on Oct 31, 2026? \u2014 56\u00b0 to 57\u00b0",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 20.49,
-    "volume_24h": 712.13,
-    "score": 0.4733
+    "hours_to_close": 20.24,
+    "volume_24h": 718.08,
+    "score": 0.4743
    }
   ],
   "skipped": {

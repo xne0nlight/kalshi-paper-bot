@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 22.41,
- "fees_paid": 7.56,
+ "cash": 18.11,
+ "fees_paid": 7.61,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 310,
+ "next_id": 311,
  "open_positions": [
   {
    "id": 264,
@@ -258,7 +258,7 @@
    "opened_ts": 1793400326,
    "close_ts": 1793520000.0,
    "score": 0.5861,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -361,6 +361,23 @@
    "close_ts": 1793577600.0,
    "score": 0.5503,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 310,
+   "ticker": "KXPUREALBUMS-WAT26OCT29-2K",
+   "event_ticker": "KXPUREALBUMS-WAT26OCT29",
+   "series": "KXPUREALBUMS",
+   "label": "Will Watch Dis by Yung Miami have above 2000 Pure Album Sales (aka Product Sales) during the October 23, 2026 - October 29, 2026 tracking week? \u2014 Above 2K",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.85,
+   "fee": 0.05,
+   "cost": 4.3,
+   "opened_ts": 1793457025,
+   "close_ts": 1793541600.0,
+   "score": 0.3705,
+   "mark_price": 0.82,
    "shadow": {}
   }
  ],
@@ -18070,103 +18087,102 @@
    1793456124,
    90.84,
    86.82
+  ],
+  [
+   1793457025,
+   90.84,
+   86.65
   ]
  ],
  "last_run": {
-  "ts": 1793456124,
+  "ts": 1793457025,
   "error": null,
   "markets_scanned": 534,
-  "candidates": 31,
+  "candidates": 33,
   "rejections": {
-   "too little volume": 351,
+   "too little volume": 349,
    "no favorite in 80-95c band": 147,
-   "spread too wide": 4,
-   "favorite is slipping fast": 1
+   "spread too wide": 5
   },
   "opened": [
-   308,
-   309
+   310
   ],
-  "settled": [
-   287,
-   291,
-   292,
-   293
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will Trump say \"Autism\" before Nov 1, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 24.74,
-    "volume_24h": 216354.85,
-    "score": 0.6583
-   },
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.74,
-    "volume_24h": 80180.09,
-    "score": 0.6428
+    "hours_to_close": 33.49,
+    "volume_24h": 81319.2,
+    "score": 0.6432
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.74,
-    "volume_24h": 3819.99,
-    "score": 0.637
+    "hours_to_close": 24.49,
+    "volume_24h": 3769.99,
+    "score": 0.6371
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 33.74,
-    "volume_24h": 15753.88,
-    "score": 0.6328
+    "hours_to_close": 33.49,
+    "volume_24h": 15764.81,
+    "score": 0.6332
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.74,
-    "volume_24h": 28324.87,
-    "score": 0.6328
+    "hours_to_close": 33.49,
+    "volume_24h": 28047.25,
+    "score": 0.6332
    },
    {
     "label": "Minnesota wins",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.74,
-    "volume_24h": 550041.73,
-    "score": 0.6328
+    "price": 0.92,
+    "hours_to_close": 33.49,
+    "volume_24h": 563776.64,
+    "score": 0.6232
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 33.74,
-    "volume_24h": 10774.0,
-    "score": 0.6228
+    "hours_to_close": 33.49,
+    "volume_24h": 11027.81,
+    "score": 0.6232
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 33.74,
-    "volume_24h": 10842.92,
-    "score": 0.6128
+    "hours_to_close": 33.49,
+    "volume_24h": 10895.46,
+    "score": 0.6132
+   },
+   {
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 33.49,
+    "volume_24h": 166068.07,
+    "score": 0.6132
    }
   ],
   "skipped": {
    "series cap": 18,
-   "tracked only (below bet price floor)": 5
+   "tracked only (below bet price floor)": 5,
+   "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 0,
-  "watch_graded": 9,
-  "api_calls": 43
+  "watch_added": 3,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

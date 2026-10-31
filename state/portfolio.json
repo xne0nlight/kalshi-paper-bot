@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 18.11,
- "fees_paid": 7.61,
+ "cash": 13.34,
+ "fees_paid": 7.63,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 311,
+ "next_id": 312,
  "open_positions": [
   {
    "id": 264,
@@ -241,7 +241,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -377,7 +377,24 @@
    "opened_ts": 1793457025,
    "close_ts": 1793541600.0,
    "score": 0.3705,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
+   "shadow": {}
+  },
+  {
+   "id": 311,
+   "ticker": "KXALBUMEQUIV-HEAVYCROWN26OCT29-30K",
+   "event_ticker": "KXALBUMEQUIV-HEAVYCROWN26OCT29",
+   "series": "KXALBUMEQUIV",
+   "label": "Will Heavy Is The Crown by Anderson .Paak & Cordae have above 30000 Album Equivalent Units during the October 23, 2026 - October 29, 2026 tracking week? \u2014 Above 30K",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793458824,
+   "close_ts": 1793545200.0,
+   "score": 0.5184,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -18097,19 +18114,26 @@
    1793457925,
    90.84,
    86.42
+  ],
+  [
+   1793458824,
+   90.84,
+   86.28
   ]
  ],
  "last_run": {
-  "ts": 1793457925,
+  "ts": 1793458824,
   "error": null,
-  "markets_scanned": 534,
-  "candidates": 34,
+  "markets_scanned": 519,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 347,
-   "no favorite in 80-95c band": 145,
-   "spread too wide": 8
+   "too little volume": 335,
+   "no favorite in 80-95c band": 142,
+   "spread too wide": 6
   },
-  "opened": [],
+  "opened": [
+   311
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -18117,71 +18141,70 @@
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
-    "volume_24h": 84481.95,
-    "score": 0.6435
+    "hours_to_close": 32.99,
+    "volume_24h": 85608.84,
+    "score": 0.6439
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.24,
-    "volume_24h": 3759.06,
-    "score": 0.6376
+    "hours_to_close": 23.99,
+    "volume_24h": 3755.1,
+    "score": 0.6381
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 33.24,
-    "volume_24h": 15852.03,
-    "score": 0.6335
+    "hours_to_close": 32.99,
+    "volume_24h": 15853.1,
+    "score": 0.6339
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.24,
-    "volume_24h": 28647.43,
-    "score": 0.6335
+    "hours_to_close": 32.99,
+    "volume_24h": 29003.9,
+    "score": 0.6339
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.24,
-    "volume_24h": 594211.77,
-    "score": 0.6235
+    "hours_to_close": 32.99,
+    "volume_24h": 605964.0,
+    "score": 0.6239
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 33.24,
-    "volume_24h": 11746.99,
-    "score": 0.6235
+    "hours_to_close": 32.99,
+    "volume_24h": 12068.45,
+    "score": 0.6239
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 33.24,
-    "volume_24h": 10986.04,
-    "score": 0.6135
+    "hours_to_close": 32.99,
+    "volume_24h": 11215.42,
+    "score": 0.6139
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.24,
-    "volume_24h": 170131.27,
-    "score": 0.6135
+    "hours_to_close": 32.99,
+    "volume_24h": 171411.34,
+    "score": 0.6139
    }
   ],
   "skipped": {
-   "series cap": 19,
-   "tracked only (below bet price floor)": 6,
-   "related-market cap (Presidential approval)": 1
+   "series cap": 18,
+   "tracked only (below bet price floor)": 1
   },
   "watch_added": 2,
   "watch_graded": 1,

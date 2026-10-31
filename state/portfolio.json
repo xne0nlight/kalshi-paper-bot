@@ -133,7 +133,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -241,7 +241,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.95,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -18289,17 +18289,22 @@
    1793475925,
    91.9,
    87.79
+  ],
+  [
+   1793476824,
+   91.9,
+   87.65
   ]
  ],
  "last_run": {
-  "ts": 1793475925,
+  "ts": 1793476824,
   "error": null,
-  "markets_scanned": 911,
-  "candidates": 42,
+  "markets_scanned": 1678,
+  "candidates": 61,
   "rejections": {
-   "too little volume": 622,
-   "no favorite in 80-95c band": 224,
-   "spread too wide": 22,
+   "too little volume": 1375,
+   "no favorite in 80-95c band": 221,
+   "spread too wide": 20,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -18307,72 +18312,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be above 38.7 on Nov 1, 2026? \u2014 Above 38.7%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.98,
+    "volume_24h": 19850.69,
+    "score": 0.6451
+   },
+   {
+    "label": "Stanford wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 435971.42,
+    "score": 0.6418
+   },
+   {
+    "label": "Louisville wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 29089.23,
+    "score": 0.6418
+   },
+   {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.24,
-    "volume_24h": 20175.93,
-    "score": 0.6413
+    "hours_to_close": 27.99,
+    "volume_24h": 24673.85,
+    "score": 0.6418
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.24,
-    "volume_24h": 48996.61,
-    "score": 0.6413
+    "hours_to_close": 27.99,
+    "volume_24h": 52140.21,
+    "score": 0.6418
+   },
+   {
+    "label": "Minnesota wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 1961515.85,
+    "score": 0.6418
+   },
+   {
+    "label": "Indiana wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 27.99,
+    "volume_24h": 251678.83,
+    "score": 0.6418
    },
    {
     "label": "BYU wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.24,
-    "volume_24h": 62869.39,
-    "score": 0.6413
-   },
-   {
-    "label": "Arizona St. wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.24,
-    "volume_24h": 154729.92,
-    "score": 0.6413
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 28.24,
-    "volume_24h": 16739.46,
-    "score": 0.6213
-   },
-   {
-    "label": "Mississippi St. wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 28.24,
-    "volume_24h": 234202.91,
-    "score": 0.6213
-   },
-   {
-    "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 33.23,
-    "volume_24h": 2965.92,
-    "score": 0.604
-   },
-   {
-    "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 3465.06,
-    "score": 0.5987
+    "hours_to_close": 27.99,
+    "volume_24h": 101483.51,
+    "score": 0.6418
    }
   ],
   "skipped": {},
-  "watch_added": 7,
+  "watch_added": 14,
   "watch_graded": 0,
   "api_calls": 42
  },

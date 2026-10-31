@@ -116,7 +116,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -201,7 +201,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -224,7 +224,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.9,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5606,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5503,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -18153,18 +18153,23 @@
    1793464224,
    91.16,
    86.87
+  ],
+  [
+   1793465127,
+   91.16,
+   87.08
   ]
  ],
  "last_run": {
-  "ts": 1793464224,
+  "ts": 1793465127,
   "error": null,
   "markets_scanned": 526,
-  "candidates": 41,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 334,
-   "no favorite in 80-95c band": 137,
-   "spread too wide": 10,
-   "nothing for sale at the ask": 3,
+   "too little volume": 331,
+   "no favorite in 80-95c band": 142,
+   "spread too wide": 9,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -18172,76 +18177,76 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Stanford wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.49,
-    "volume_24h": 101647.21,
-    "score": 0.646
-   },
-   {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 6717.17,
-    "score": 0.6431
+    "hours_to_close": 31.24,
+    "volume_24h": 11847.94,
+    "score": 0.6564
+   },
+   {
+    "label": "Stanford wins",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.24,
+    "volume_24h": 102795.9,
+    "score": 0.6464
+   },
+   {
+    "label": "Wisconsin wins the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.24,
+    "volume_24h": 8518.61,
+    "score": 0.6412
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.49,
-    "volume_24h": 3585.32,
-    "score": 0.6403
-   },
-   {
-    "label": "UCLA wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 17697.47,
-    "score": 0.636
+    "hours_to_close": 22.24,
+    "volume_24h": 3562.96,
+    "score": 0.6408
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 30165.66,
-    "score": 0.636
+    "hours_to_close": 31.24,
+    "volume_24h": 30375.92,
+    "score": 0.6364
+   },
+   {
+    "label": "UCLA wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 7915.46,
+    "score": 0.6288
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.49,
-    "volume_24h": 722551.03,
-    "score": 0.626
+    "hours_to_close": 31.24,
+    "volume_24h": 737904.6,
+    "score": 0.6264
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.49,
-    "volume_24h": 21837.74,
-    "score": 0.626
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 6470.5,
-    "score": 0.6218
+    "hours_to_close": 31.24,
+    "volume_24h": 22178.65,
+    "score": 0.6264
    }
   ],
   "skipped": {
-   "series cap": 25,
-   "related-market cap (Presidential approval)": 2,
-   "tracked only (below bet price floor)": 7
+   "series cap": 26,
+   "tracked only (below bet price floor)": 6,
+   "related-market cap (Presidential approval)": 2
   },
-  "watch_added": 7,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

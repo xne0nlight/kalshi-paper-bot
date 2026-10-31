@@ -116,7 +116,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -150,7 +150,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.5386,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -241,7 +241,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -377,7 +377,7 @@
    "opened_ts": 1793457025,
    "close_ts": 1793541600.0,
    "score": 0.3705,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -394,7 +394,7 @@
    "opened_ts": 1793458824,
    "close_ts": 1793545200.0,
    "score": 0.5184,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   }
  ],
@@ -18129,17 +18129,23 @@
    1793460626,
    90.84,
    86.58
+  ],
+  [
+   1793461524,
+   90.84,
+   86.83
   ]
  ],
  "last_run": {
-  "ts": 1793460626,
+  "ts": 1793461524,
   "error": null,
   "markets_scanned": 519,
   "candidates": 37,
   "rejections": {
-   "too little volume": 331,
-   "no favorite in 80-95c band": 146,
-   "spread too wide": 5
+   "too little volume": 330,
+   "no favorite in 80-95c band": 143,
+   "spread too wide": 8,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -18149,65 +18155,65 @@
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.49,
-    "volume_24h": 90336.35,
-    "score": 0.6446
+    "hours_to_close": 32.24,
+    "volume_24h": 96289.9,
+    "score": 0.6449
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.49,
+    "hours_to_close": 23.24,
     "volume_24h": 3663.24,
-    "score": 0.6385
+    "score": 0.6391
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.7 on Nov 1, 2026? \u2014 38.7%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.23,
+    "volume_24h": 4304.0,
+    "score": 0.6377
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 32.49,
-    "volume_24h": 16870.91,
-    "score": 0.6346
+    "hours_to_close": 32.24,
+    "volume_24h": 17528.21,
+    "score": 0.6349
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.49,
-    "volume_24h": 28157.97,
-    "score": 0.6346
+    "hours_to_close": 32.24,
+    "volume_24h": 30223.37,
+    "score": 0.6349
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.49,
-    "volume_24h": 657660.71,
-    "score": 0.6246
+    "hours_to_close": 32.24,
+    "volume_24h": 680370.35,
+    "score": 0.6249
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.49,
-    "volume_24h": 13558.67,
-    "score": 0.6246
+    "hours_to_close": 32.24,
+    "volume_24h": 13936.01,
+    "score": 0.6249
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 11545.0,
-    "score": 0.6146
-   },
-   {
-    "label": "Mississippi St. wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 175324.05,
-    "score": 0.6146
+    "hours_to_close": 32.24,
+    "volume_24h": 12191.31,
+    "score": 0.6149
    }
   ],
   "skipped": {},

@@ -2379,11 +2379,11 @@
    ]
   },
   "NFL|20261030": {
-   "ts": 1793414725,
+   "ts": 1793416525,
    "games": []
   },
   "NBA|20261030": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
      "start_ts": 1793401200.0,
@@ -2492,8 +2492,8 @@
     },
     {
      "start_ts": 1793404800.0,
-     "state": "in",
-     "detail": "1:58 - 4th",
+     "state": "post",
+     "detail": "Final",
      "home": "Miami Heat",
      "away": "Indiana Pacers",
      "teams": {
@@ -2501,20 +2501,20 @@
        "name": "Miami Heat",
        "short": "Heat",
        "abbr": "MIA",
-       "record": "1-4"
+       "record": "2-4"
       },
       "away": {
        "name": "Indiana Pacers",
        "short": "Pacers",
        "abbr": "IND",
-       "record": "2-3"
+       "record": "2-4"
       }
      }
     },
     {
      "start_ts": 1793404800.0,
-     "state": "in",
-     "detail": "41.2 - 4th",
+     "state": "post",
+     "detail": "Final",
      "home": "Dallas Mavericks",
      "away": "Houston Rockets",
      "teams": {
@@ -2522,13 +2522,13 @@
        "name": "Dallas Mavericks",
        "short": "Mavericks",
        "abbr": "DAL",
-       "record": "3-2"
+       "record": "4-2"
       },
       "away": {
        "name": "Houston Rockets",
        "short": "Rockets",
        "abbr": "HOU",
-       "record": "5-0"
+       "record": "5-1"
       }
      }
     },
@@ -2556,7 +2556,7 @@
     {
      "start_ts": 1793412000.0,
      "state": "in",
-     "detail": "3:25 - 1st",
+     "detail": "3:34 - 2nd",
      "home": "Golden State Warriors",
      "away": "Los Angeles Lakers",
      "teams": {
@@ -2577,7 +2577,7 @@
     {
      "start_ts": 1793412000.0,
      "state": "in",
-     "detail": "52.7 - 1st",
+     "detail": "Halftime",
      "home": "Phoenix Suns",
      "away": "Denver Nuggets",
      "teams": {
@@ -2598,54 +2598,12 @@
    ]
   },
   "NCAAF|20261030": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
-     "start_ts": 1793401200.0,
-     "state": "in",
-     "detail": "0:13 - 4th",
-     "home": "Charlotte 49ers",
-     "away": "Tulane Green Wave",
-     "teams": {
-      "home": {
-       "name": "Charlotte 49ers",
-       "short": "Charlotte",
-       "abbr": "CLT",
-       "record": "1-6"
-      },
-      "away": {
-       "name": "Tulane Green Wave",
-       "short": "Tulane",
-       "abbr": "TULN",
-       "record": "3-4"
-      }
-     }
-    },
-    {
-     "start_ts": 1793403000.0,
-     "state": "in",
-     "detail": "12:33 - 4th",
-     "home": "UCF Knights",
-     "away": "Baylor Bears",
-     "teams": {
-      "home": {
-       "name": "UCF Knights",
-       "short": "UCF",
-       "abbr": "UCF",
-       "record": "4-3"
-      },
-      "away": {
-       "name": "Baylor Bears",
-       "short": "Baylor",
-       "abbr": "BAY",
-       "record": "4-3"
-      }
-     }
-    },
-    {
      "start_ts": 1793413800.0,
-     "state": "pre",
-     "detail": "10/30 - 10:30 PM EDT",
+     "state": "in",
+     "detail": "1:10 - 1st",
      "home": "Sacramento State Hornets",
      "away": "Kent State Golden Flashes",
      "teams": {
@@ -2662,11 +2620,53 @@
        "record": "3-5"
       }
      }
+    },
+    {
+     "start_ts": 1793401200.0,
+     "state": "post",
+     "detail": "Final/OT",
+     "home": "Charlotte 49ers",
+     "away": "Tulane Green Wave",
+     "teams": {
+      "home": {
+       "name": "Charlotte 49ers",
+       "short": "Charlotte",
+       "abbr": "CLT",
+       "record": "1-7"
+      },
+      "away": {
+       "name": "Tulane Green Wave",
+       "short": "Tulane",
+       "abbr": "TULN",
+       "record": "4-4"
+      }
+     }
+    },
+    {
+     "start_ts": 1793403000.0,
+     "state": "post",
+     "detail": "Final",
+     "home": "UCF Knights",
+     "away": "Baylor Bears",
+     "teams": {
+      "home": {
+       "name": "UCF Knights",
+       "short": "UCF",
+       "abbr": "UCF",
+       "record": "4-4"
+      },
+      "away": {
+       "name": "Baylor Bears",
+       "short": "Baylor",
+       "abbr": "BAY",
+       "record": "5-3"
+      }
+     }
     }
    ]
   },
   "NHL|20261030": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
      "start_ts": 1793397600.0,
@@ -2712,8 +2712,8 @@
     },
     {
      "start_ts": 1793404800.0,
-     "state": "in",
-     "detail": "8:48 - 3rd",
+     "state": "post",
+     "detail": "Final",
      "home": "Calgary Flames",
      "away": "Seattle Kraken",
      "teams": {
@@ -2721,20 +2721,20 @@
        "name": "Calgary Flames",
        "short": "Flames",
        "abbr": "CGY",
-       "record": "5-7-0"
+       "record": "6-7-0"
       },
       "away": {
        "name": "Seattle Kraken",
        "short": "Kraken",
        "abbr": "SEA",
-       "record": "8-4-1"
+       "record": "8-5-1"
       }
      }
     }
    ]
   },
   "NBA|20261031": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
      "start_ts": 1793473200.0,
@@ -2873,7 +2873,7 @@
        "name": "Houston Rockets",
        "short": "Rockets",
        "abbr": "HOU",
-       "record": "5-0"
+       "record": "5-1"
       },
       "away": {
        "name": "Oklahoma City Thunder",
@@ -2886,7 +2886,7 @@
    ]
   },
   "NCAAF|20261031": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
      "start_ts": 1793462400.0,
@@ -3878,7 +3878,7 @@
    ]
   },
   "NHL|20261031": {
-   "ts": 1793413825,
+   "ts": 1793416525,
    "games": [
     {
      "start_ts": 1793466000.0,
@@ -4086,14 +4086,14 @@
        "name": "Calgary Flames",
        "short": "Flames",
        "abbr": "CGY",
-       "record": "5-7-0"
+       "record": "6-7-0"
       }
      }
     }
    ]
   },
   "NFL|20261031": {
-   "ts": 1793414725,
+   "ts": 1793416525,
    "games": []
   }
  },

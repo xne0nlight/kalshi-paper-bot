@@ -239,7 +239,7 @@
    "opened_ts": 1793367026,
    "close_ts": 1793491140.0,
    "score": 0.5209,
-   "mark_price": 0.68,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793367925,
@@ -328,7 +328,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.5097,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -402,7 +402,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -17860,85 +17860,91 @@
    1793441724,
    87.3,
    86.63
+  ],
+  [
+   1793442624,
+   87.3,
+   86.57
   ]
  ],
  "last_run": {
-  "ts": 1793441724,
+  "ts": 1793442624,
   "error": null,
   "markets_scanned": 436,
   "candidates": 12,
   "rejections": {
    "too little volume": 304,
    "no favorite in 80-95c band": 113,
-   "spread too wide": 7
+   "spread too wide": 6,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 3813.36,
-    "score": 0.629
+    "label": "Will it rain in Phoenix on Oct 31, 2026?",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 20.49,
+    "volume_24h": 3176.49,
+    "score": 0.6119
    },
    {
     "label": "Will the maximum temperature be 64-65\u00b0 on Oct 31, 2026? \u2014 64\u00b0 to 65\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 1084.28,
-    "score": 0.6062
+    "score": 0.6069
    },
    {
     "label": "Will the maximum temperature be <58\u00b0 on Oct 31, 2026? \u2014 57\u00b0 or below",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 2558.8,
-    "score": 0.6041
+    "score": 0.6049
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Oct 31, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 681.4,
-    "score": 0.5782
-   },
-   {
-    "label": "Will it rain in Phoenix on Oct 31, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.74,
-    "volume_24h": 3164.97,
-    "score": 0.5711
+    "score": 0.5789
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Oct 31, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 498.28,
-    "score": 0.5481
+    "score": 0.5488
+   },
+   {
+    "label": "Will the maximum temperature be 58-59\u00b0 on Oct 31, 2026? \u2014 58\u00b0 to 59\u00b0",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 20.49,
+    "volume_24h": 2347.08,
+    "score": 0.5421
+   },
+   {
+    "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.49,
+    "volume_24h": 3831.23,
+    "score": 0.5296
    },
    {
     "label": "Will it rain in Los Angeles on Oct 31, 2026?",
     "side": "yes",
     "price": 0.87,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 3267.94,
-    "score": 0.5093
-   },
-   {
-    "label": "Will the maximum temperature be 58-59\u00b0 on Oct 31, 2026? \u2014 58\u00b0 to 59\u00b0",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 20.74,
-    "volume_24h": 2189.79,
-    "score": 0.4991
+    "score": 0.51
    }
   ],
   "skipped": {

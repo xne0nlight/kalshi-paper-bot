@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.34,
+ "cash": 18.34,
  "fees_paid": 7.63,
  "peak_equity": 109.65,
  "day": "2026-10-31",
@@ -116,24 +116,7 @@
    "opened_ts": 1793369727,
    "close_ts": 1793465940.0,
    "score": 0.4015,
-   "mark_price": 0.94,
-   "shadow": {}
-  },
-  {
-   "id": 296,
-   "ticker": "KXCHINAAI-26OCT31-XIAO",
-   "event_ticker": "KXCHINAAI-26OCT31",
-   "series": "KXCHINAAI",
-   "label": "Top Chinese AI company on October 31, 2026? \u2014 Xiaomi",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1793373326,
-   "close_ts": 1793455200.0,
-   "score": 0.4353,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -218,7 +201,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -360,7 +343,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5503,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -7886,6 +7869,27 @@
    "pnl": 0.73,
    "result": "NO",
    "closed_ts": 1793456124,
+   "won": true
+  },
+  {
+   "id": 296,
+   "ticker": "KXCHINAAI-26OCT31-XIAO",
+   "event_ticker": "KXCHINAAI-26OCT31",
+   "series": "KXCHINAAI",
+   "label": "Top Chinese AI company on October 31, 2026? \u2014 Xiaomi",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793373326,
+   "close_ts": 1793455200.0,
+   "score": 0.4353,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "YES",
+   "closed_ts": 1793463324,
    "won": true
   }
  ],
@@ -18139,91 +18143,102 @@
    1793462425,
    90.84,
    86.61
+  ],
+  [
+   1793463324,
+   91.16,
+   86.86
   ]
  ],
  "last_run": {
-  "ts": 1793462425,
+  "ts": 1793463324,
   "error": null,
   "markets_scanned": 526,
-  "candidates": 33,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 337,
+   "too little volume": 334,
    "no favorite in 80-95c band": 145,
-   "spread too wide": 8,
+   "spread too wide": 9,
    "nothing for sale at the ask": 3
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   296
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.99,
-    "volume_24h": 98079.12,
-    "score": 0.6453
+    "hours_to_close": 31.74,
+    "volume_24h": 99117.09,
+    "score": 0.6456
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 3663.24,
-    "score": 0.6397
+    "score": 0.6404
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 17556.88,
-    "score": 0.6353
+    "hours_to_close": 31.74,
+    "volume_24h": 17657.51,
+    "score": 0.6356
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.99,
-    "volume_24h": 30342.98,
-    "score": 0.6353
+    "hours_to_close": 31.74,
+    "volume_24h": 29702.29,
+    "score": 0.6356
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 691497.75,
-    "score": 0.6253
+    "hours_to_close": 31.74,
+    "volume_24h": 719603.65,
+    "score": 0.6256
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 31.99,
-    "volume_24h": 19398.3,
-    "score": 0.6253
+    "hours_to_close": 31.74,
+    "volume_24h": 21712.54,
+    "score": 0.6256
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 31.99,
-    "volume_24h": 12287.34,
-    "score": 0.6153
+    "hours_to_close": 31.74,
+    "volume_24h": 11387.38,
+    "score": 0.6156
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 31.99,
-    "volume_24h": 180273.22,
-    "score": 0.6153
+    "hours_to_close": 31.74,
+    "volume_24h": 186841.34,
+    "score": 0.6156
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 1,
+  "skipped": {
+   "series cap": 21,
+   "related-market cap (Presidential approval)": 2,
+   "tracked only (below bet price floor)": 5
+  },
+  "watch_added": 3,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

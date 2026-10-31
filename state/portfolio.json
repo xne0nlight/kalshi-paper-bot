@@ -207,7 +207,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -241,7 +241,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -18284,18 +18284,22 @@
    1793475025,
    91.9,
    87.82
+  ],
+  [
+   1793475925,
+   91.9,
+   87.79
   ]
  ],
  "last_run": {
-  "ts": 1793475025,
+  "ts": 1793475925,
   "error": null,
-  "markets_scanned": 917,
-  "candidates": 49,
+  "markets_scanned": 911,
+  "candidates": 42,
   "rejections": {
-   "too little volume": 619,
-   "no favorite in 80-95c band": 227,
-   "spread too wide": 19,
-   "nothing for sale at the ask": 2,
+   "too little volume": 622,
+   "no favorite in 80-95c band": 224,
+   "spread too wide": 22,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -18303,73 +18307,73 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Stanford wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.49,
-    "volume_24h": 175854.56,
-    "score": 0.6609
-   },
-   {
-    "label": "Syracuse wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 28.49,
-    "volume_24h": 2301901.27,
-    "score": 0.6409
-   },
-   {
-    "label": "SMU wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 28.49,
-    "volume_24h": 3018978.81,
-    "score": 0.6409
-   },
-   {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 28.49,
-    "volume_24h": 15993.85,
-    "score": 0.6409
+    "hours_to_close": 28.24,
+    "volume_24h": 20175.93,
+    "score": 0.6413
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.49,
-    "volume_24h": 40902.71,
-    "score": 0.6409
+    "hours_to_close": 28.24,
+    "volume_24h": 48996.61,
+    "score": 0.6413
    },
    {
-    "label": "Minnesota wins",
+    "label": "BYU wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 28.24,
+    "volume_24h": 62869.39,
+    "score": 0.6413
+   },
+   {
+    "label": "Arizona St. wins",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 28.49,
-    "volume_24h": 1120818.43,
-    "score": 0.6309
+    "price": 0.93,
+    "hours_to_close": 28.24,
+    "volume_24h": 154729.92,
+    "score": 0.6413
    },
    {
-    "label": "Indiana wins",
+    "label": "Texas wins",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 28.49,
-    "volume_24h": 50086.45,
-    "score": 0.6309
+    "price": 0.91,
+    "hours_to_close": 28.24,
+    "volume_24h": 16739.46,
+    "score": 0.6213
    },
    {
-    "label": "Michigan wins",
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 28.24,
+    "volume_24h": 234202.91,
+    "score": 0.6213
+   },
+   {
+    "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 28.49,
-    "volume_24h": 309213.41,
-    "score": 0.6309
+    "price": 0.94,
+    "hours_to_close": 33.23,
+    "volume_24h": 2965.92,
+    "score": 0.604
+   },
+   {
+    "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 3465.06,
+    "score": 0.5987
    }
   ],
   "skipped": {},
-  "watch_added": 6,
-  "watch_graded": 2,
+  "watch_added": 7,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

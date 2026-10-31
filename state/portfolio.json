@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5606,
-   "mark_price": 0.9,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5503,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793466026,
@@ -383,7 +383,7 @@
    "opened_ts": 1793466026,
    "close_ts": 1793595540.0,
    "score": 0.5837,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793466926,
@@ -18223,91 +18223,97 @@
    1793467825,
    91.62,
    87.36
+  ],
+  [
+   1793468724,
+   91.62,
+   87.74
   ]
  ],
  "last_run": {
-  "ts": 1793467825,
+  "ts": 1793468724,
   "error": null,
-  "markets_scanned": 823,
-  "candidates": 46,
+  "markets_scanned": 814,
+  "candidates": 43,
   "rejections": {
    "too little volume": 549,
-   "no favorite in 80-95c band": 205,
-   "spread too wide": 21,
-   "nothing for sale at the ask": 2
+   "no favorite in 80-95c band": 201,
+   "spread too wide": 18,
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump say \"Antifa\" before Nov 1, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.24,
+    "volume_24h": 9296.0,
+    "score": 0.6647
+   },
+   {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.49,
-    "volume_24h": 106019.49,
-    "score": 0.6475
-   },
-   {
-    "label": "Rutgers wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.49,
-    "volume_24h": 211477.72,
-    "score": 0.6475
-   },
-   {
-    "label": "Michigan wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 30.49,
-    "volume_24h": 133990.83,
-    "score": 0.6475
+    "hours_to_close": 30.24,
+    "volume_24h": 110531.71,
+    "score": 0.6479
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 3565.02,
-    "score": 0.6428
+    "hours_to_close": 21.24,
+    "volume_24h": 3568.6,
+    "score": 0.6435
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 32000.55,
-    "score": 0.6375
+    "hours_to_close": 30.24,
+    "volume_24h": 32407.49,
+    "score": 0.6379
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.49,
-    "volume_24h": 8168.15,
-    "score": 0.631
+    "hours_to_close": 30.24,
+    "volume_24h": 9385.77,
+    "score": 0.6359
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.49,
-    "volume_24h": 767961.39,
-    "score": 0.6275
+    "hours_to_close": 30.24,
+    "volume_24h": 788873.23,
+    "score": 0.6279
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 30.49,
-    "volume_24h": 24668.63,
-    "score": 0.6275
+    "hours_to_close": 30.24,
+    "volume_24h": 25361.21,
+    "score": 0.6279
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 30.24,
+    "volume_24h": 12337.2,
+    "score": 0.6179
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 3,
+  "watch_added": 5,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

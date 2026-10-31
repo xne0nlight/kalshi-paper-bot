@@ -441,7 +441,7 @@
    "contracts": 2.5,
    "cost": 2.1,
    "opened_ts": 1793372425,
-   "mark_price": 0.77,
+   "mark_price": 0.78,
    "avg_price": 0.84
   },
   {
@@ -460,7 +460,7 @@
    "contracts": 1.0,
    "cost": 0.36,
    "opened_ts": 1793373326,
-   "mark_price": 0.84,
+   "mark_price": 0.78,
    "avg_price": 0.36
   },
   {
@@ -536,7 +536,7 @@
    "contracts": 0.5,
    "cost": 0.415,
    "opened_ts": 1793376925,
-   "mark_price": 0.11,
+   "mark_price": 0.12,
    "avg_price": 0.83
   },
   {
@@ -574,7 +574,7 @@
    "contracts": 1.0,
    "cost": 0.55,
    "opened_ts": 1793378729,
-   "mark_price": 0.26,
+   "mark_price": 0.23,
    "avg_price": 0.55
   },
   {
@@ -593,7 +593,7 @@
    "contracts": 13.0,
    "cost": 11.18,
    "opened_ts": 1793380526,
-   "mark_price": 0.12,
+   "mark_price": 0.24,
    "avg_price": 0.86
   },
   {
@@ -612,7 +612,7 @@
    "contracts": 1.0,
    "cost": 0.59,
    "opened_ts": 1793380526,
-   "mark_price": 0.33,
+   "mark_price": 0.39,
    "avg_price": 0.59
   },
   {
@@ -650,7 +650,7 @@
    "contracts": 1.0,
    "cost": 0.41,
    "opened_ts": 1793385025,
-   "mark_price": 0.54,
+   "mark_price": 0.55,
    "avg_price": 0.41
   },
   {
@@ -669,7 +669,7 @@
    "contracts": 12.0,
    "cost": 11.52,
    "opened_ts": 1793387726,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "avg_price": 0.96
   },
   {
@@ -726,7 +726,7 @@
    "contracts": 0.5,
    "cost": 0.05,
    "opened_ts": 1793397626,
-   "mark_price": 0.18,
+   "mark_price": 0.19,
    "avg_price": 0.1
   },
   {
@@ -764,7 +764,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793401224,
-   "mark_price": 0.22,
+   "mark_price": 0.21,
    "avg_price": 0.08
   },
   {
@@ -821,7 +821,7 @@
    "contracts": 1.0,
    "cost": 0.26,
    "opened_ts": 1793405725,
-   "mark_price": 0.24,
+   "mark_price": 0.22,
    "avg_price": 0.26
   },
   {
@@ -859,7 +859,7 @@
    "contracts": 2.0,
    "cost": 0.3,
    "opened_ts": 1793407524,
-   "mark_price": 0.11,
+   "mark_price": 0.09,
    "avg_price": 0.15
   },
   {
@@ -878,7 +878,7 @@
    "contracts": 12.0,
    "cost": 11.64,
    "opened_ts": 1793419225,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "avg_price": 0.97
   },
   {
@@ -916,7 +916,7 @@
    "contracts": 1.0,
    "cost": 0.41,
    "opened_ts": 1793420126,
-   "mark_price": 0.39,
+   "mark_price": 0.43,
    "avg_price": 0.41
   },
   {
@@ -10183,6 +10183,11 @@
    1793438124,
    117.888,
    98.5714
+  ],
+  [
+   1793439024,
+   117.888,
+   100.1164
   ]
  ],
  "forecast_log": {
@@ -16927,28 +16932,19 @@
   }
  },
  "last_run": {
-  "ts": 1793438124,
+  "ts": 1793439024,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTSDF-26OCT31-B50.5",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTLAX-26OCT31-B62.5",
-    "reason": "no longer qualifies"
-   }
-  ],
+  "cancelled": [],
   "placed": [],
   "markets": 0,
   "events": [],
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 36.5
+  "seconds": 35.4
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.98,
- "fees_paid": 7.69,
+ "cash": 14.3,
+ "fees_paid": 7.72,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 314,
+ "next_id": 315,
  "open_positions": [
   {
    "id": 264,
@@ -207,7 +207,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -309,31 +309,8 @@
    "opened_ts": 1793456124,
    "close_ts": 1793577600.0,
    "score": 0.5606,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
-  },
-  {
-   "id": 309,
-   "ticker": "KXNCAAF1H-26OCT30SMUSYR-TIE",
-   "event_ticker": "KXNCAAF1H-26OCT30SMUSYR",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793456124,
-   "close_ts": 1793577600.0,
-   "score": 0.5503,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793466026,
-     "bid": 0.81,
-     "proceeds": 3.99
-    }
-   }
   },
   {
    "id": 310,
@@ -406,6 +383,23 @@
    "opened_ts": 1793466926,
    "close_ts": 1793595540.0,
    "score": 0.5432,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 314,
+   "ticker": "KXANTHSHARE-26NOV02-6.1",
+   "event_ticker": "KXANTHSHARE-26NOV02",
+   "series": "KXANTHSHARE",
+   "label": "Anthropic market share this week? \u2014 Above 6.1%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793469624,
+   "close_ts": 1793595540.0,
+   "score": 0.6094,
    "mark_price": 0.92,
    "shadow": {}
   }
@@ -7940,6 +7934,33 @@
    "pnl": 0.46,
    "result": "NO",
    "closed_ts": 1793466926,
+   "won": true
+  },
+  {
+   "id": 309,
+   "ticker": "KXNCAAF1H-26OCT30SMUSYR-TIE",
+   "event_ticker": "KXNCAAF1H-26OCT30SMUSYR",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793456124,
+   "close_ts": 1793577600.0,
+   "score": 0.5503,
+   "shadow": {
+    "10": {
+     "ts": 1793466026,
+     "bid": 0.81,
+     "proceeds": 3.99
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793469624,
    "won": true
   }
  ],
@@ -18228,91 +18249,101 @@
    1793468724,
    91.62,
    87.74
+  ],
+  [
+   1793469624,
+   91.9,
+   87.62
   ]
  ],
  "last_run": {
-  "ts": 1793468724,
+  "ts": 1793469624,
   "error": null,
-  "markets_scanned": 814,
-  "candidates": 43,
+  "markets_scanned": 848,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 549,
-   "no favorite in 80-95c band": 201,
-   "spread too wide": 18,
-   "nothing for sale at the ask": 2,
+   "too little volume": 574,
+   "no favorite in 80-95c band": 202,
+   "spread too wide": 17,
    "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   314
+  ],
+  "settled": [
+   309
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump say \"Antifa\" before Nov 1, 2026?",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.24,
-    "volume_24h": 9296.0,
-    "score": 0.6647
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 9298.0,
+    "score": 0.6754
+   },
+   {
+    "label": "Ole Miss wins the 1st half",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 29.99,
+    "volume_24h": 10003.72,
+    "score": 0.6583
    },
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.24,
-    "volume_24h": 110531.71,
-    "score": 0.6479
+    "hours_to_close": 29.99,
+    "volume_24h": 116018.36,
+    "score": 0.6483
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 3568.6,
-    "score": 0.6435
+    "score": 0.6442
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.24,
-    "volume_24h": 32407.49,
-    "score": 0.6379
+    "hours_to_close": 29.99,
+    "volume_24h": 32959.91,
+    "score": 0.6383
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 30.24,
-    "volume_24h": 9385.77,
-    "score": 0.6359
+    "hours_to_close": 29.99,
+    "volume_24h": 9500.77,
+    "score": 0.6367
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 788873.23,
-    "score": 0.6279
+    "hours_to_close": 29.99,
+    "volume_24h": 794403.44,
+    "score": 0.6283
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 25361.21,
-    "score": 0.6279
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 30.24,
-    "volume_24h": 12337.2,
-    "score": 0.6179
+    "hours_to_close": 29.99,
+    "volume_24h": 25440.11,
+    "score": 0.6283
    }
   ],
-  "skipped": {},
-  "watch_added": 5,
+  "skipped": {
+   "series cap": 4
+  },
+  "watch_added": 9,
   "watch_graded": 0,
   "api_calls": 42
  },

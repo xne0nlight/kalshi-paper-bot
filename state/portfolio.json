@@ -218,7 +218,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.82,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793479526,
@@ -241,7 +241,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -18372,97 +18372,95 @@
    1793482226,
    92.46,
    87.66
+  ],
+  [
+   1793483125,
+   92.46,
+   88.25
   ]
  ],
  "last_run": {
-  "ts": 1793482226,
+  "ts": 1793483125,
   "error": null,
-  "markets_scanned": 1648,
-  "candidates": 52,
+  "markets_scanned": 1643,
+  "candidates": 61,
   "rejections": {
-   "too little volume": 1329,
-   "no favorite in 80-95c band": 244,
+   "too little volume": 1322,
+   "no favorite in 80-95c band": 241,
    "spread too wide": 18,
-   "nothing for sale at the ask": 3,
-   "favorite is slipping fast": 2
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   316
-  ],
-  "settled": [
-   308
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be below 38.1 on Nov 1, 2026? \u2014 Below 38.1%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 8518.08,
-    "score": 0.6741
+    "hours_to_close": 20.23,
+    "volume_24h": 8533.71,
+    "score": 0.6749
    },
    {
-    "label": "Temple wins",
+    "label": "Stanford wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.49,
-    "volume_24h": 47925.91,
-    "score": 0.6446
+    "hours_to_close": 26.24,
+    "volume_24h": 1453338.3,
+    "score": 0.6451
    },
    {
-    "label": "East Carolina wins",
+    "label": "Louisville wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 26.49,
-    "volume_24h": 52938.42,
-    "score": 0.6446
-   },
-   {
-    "label": "South Alabama wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.49,
-    "volume_24h": 150479.35,
-    "score": 0.6446
-   },
-   {
-    "label": "Louisiana Tech wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 26.49,
-    "volume_24h": 447824.09,
-    "score": 0.6446
+    "hours_to_close": 26.24,
+    "volume_24h": 65576.03,
+    "score": 0.6451
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 26.49,
-    "volume_24h": 39060.73,
-    "score": 0.6246
+    "hours_to_close": 26.24,
+    "volume_24h": 41747.91,
+    "score": 0.6251
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 26.49,
-    "volume_24h": 400610.32,
-    "score": 0.6246
+    "hours_to_close": 26.24,
+    "volume_24h": 411548.19,
+    "score": 0.6251
+   },
+   {
+    "label": "TCU wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 26.24,
+    "volume_24h": 634909.95,
+    "score": 0.6251
+   },
+   {
+    "label": "Kansas wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 26.24,
+    "volume_24h": 421314.42,
+    "score": 0.6251
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.48,
-    "volume_24h": 3065.92,
-    "score": 0.6175
+    "hours_to_close": 31.23,
+    "volume_24h": 2994.35,
+    "score": 0.6171
    }
   ],
-  "skipped": {
-   "series cap": 6
-  },
-  "watch_added": 2,
+  "skipped": {},
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

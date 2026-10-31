@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.95,
- "fees_paid": 7.45,
+ "cash": 9.51,
+ "fees_paid": 7.49,
  "peak_equity": 109.65,
  "day": "2026-10-31",
  "day_start_equity": 87.3,
- "next_id": 304,
+ "next_id": 306,
  "open_positions": [
   {
    "id": 264,
@@ -82,23 +82,6 @@
    "shadow": {}
   },
   {
-   "id": 286,
-   "ticker": "KXRAIN-26OCT30-AUS",
-   "event_ticker": "KXRAIN-26OCT30",
-   "series": "KXRAIN",
-   "label": "Will it rain in Austin on Oct 30, 2026?",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.92,
-   "fee": 0.03,
-   "cost": 4.63,
-   "opened_ts": 1793304026,
-   "close_ts": 1793426400.0,
-   "score": 0.5389,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 287,
    "ticker": "KXHIGHLAX-26OCT30-B69.5",
    "event_ticker": "KXHIGHLAX-26OCT30",
@@ -135,23 +118,6 @@
      "proceeds": 3.56
     }
    }
-  },
-  {
-   "id": 289,
-   "ticker": "KXHIGHAUS-26OCT30-B75.5",
-   "event_ticker": "KXHIGHAUS-26OCT30",
-   "series": "KXHIGHAUS",
-   "label": "Will the maximum temperature be 75-76\u00b0 on Oct 30, 2026? \u2014 75\u00b0 to 76\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793308526,
-   "close_ts": 1793426400.0,
-   "score": 0.5332,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 291,
@@ -379,7 +345,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -402,7 +368,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -420,6 +386,40 @@
    "close_ts": 1793520000.0,
    "score": 0.5861,
    "mark_price": 0.97,
+   "shadow": {}
+  },
+  {
+   "id": 304,
+   "ticker": "KXNCAAFGAME-26OCT30STANLOU-STAN",
+   "event_ticker": "KXNCAAFGAME-26OCT30STANLOU",
+   "series": "KXNCAAFGAME",
+   "label": "Stanford wins",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793448924,
+   "close_ts": 1793577600.0,
+   "score": 0.6403,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 305,
+   "ticker": "KXNCAAFGAME-26OCT30NEVUCLA-UCLA",
+   "event_ticker": "KXNCAAFGAME-26OCT30NEVUCLA",
+   "series": "KXNCAAFGAME",
+   "label": "UCLA wins",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793448924,
+   "close_ts": 1793577600.0,
+   "score": 0.6403,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -7722,6 +7722,48 @@
    "pnl": 0.19,
    "result": "YES",
    "closed_ts": 1793400326,
+   "won": true
+  },
+  {
+   "id": 286,
+   "ticker": "KXRAIN-26OCT30-AUS",
+   "event_ticker": "KXRAIN-26OCT30",
+   "series": "KXRAIN",
+   "label": "Will it rain in Austin on Oct 30, 2026?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 4.63,
+   "opened_ts": 1793304026,
+   "close_ts": 1793426400.0,
+   "score": 0.5389,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.37,
+   "result": "YES",
+   "closed_ts": 1793448924,
+   "won": true
+  },
+  {
+   "id": 289,
+   "ticker": "KXHIGHAUS-26OCT30-B75.5",
+   "event_ticker": "KXHIGHAUS-26OCT30",
+   "series": "KXHIGHAUS",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Oct 30, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793308526,
+   "close_ts": 1793426400.0,
+   "score": 0.5332,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793448924,
    "won": true
   }
  ],
@@ -17895,92 +17937,104 @@
    1793448024,
    87.3,
    87.34
+  ],
+  [
+   1793448924,
+   87.9,
+   87.41
   ]
  ],
  "last_run": {
-  "ts": 1793448024,
+  "ts": 1793448924,
   "error": null,
   "markets_scanned": 501,
-  "candidates": 28,
+  "candidates": 29,
   "rejections": {
    "too little volume": 326,
-   "no favorite in 80-95c band": 140,
-   "spread too wide": 7
+   "no favorite in 80-95c band": 141,
+   "spread too wide": 5
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   304,
+   305
+  ],
+  "settled": [
+   286,
+   289
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.99,
-    "volume_24h": 70860.2,
-    "score": 0.64
+    "hours_to_close": 35.74,
+    "volume_24h": 70787.58,
+    "score": 0.6403
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.99,
-    "volume_24h": 14584.19,
-    "score": 0.64
+    "hours_to_close": 35.74,
+    "volume_24h": 14593.78,
+    "score": 0.6403
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.99,
-    "volume_24h": 24200.16,
-    "score": 0.64
+    "hours_to_close": 35.74,
+    "volume_24h": 25263.15,
+    "score": 0.6403
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 475204.87,
-    "score": 0.63
+    "hours_to_close": 35.74,
+    "volume_24h": 482760.7,
+    "score": 0.6303
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 155819.78,
-    "score": 0.61
+    "hours_to_close": 35.74,
+    "volume_24h": 156357.62,
+    "score": 0.6103
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 8597.03,
-    "score": 0.6051
+    "hours_to_close": 35.74,
+    "volume_24h": 8608.89,
+    "score": 0.6054
+   },
+   {
+    "label": "Will Trump say \"Autism\" before Nov 1, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 26.74,
+    "volume_24h": 206993.51,
+    "score": 0.6041
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 4178.85,
-    "score": 0.6016
-   },
-   {
-    "label": "Arizona St. wins",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 35.99,
-    "volume_24h": 18395.8,
-    "score": 0.58
+    "hours_to_close": 35.74,
+    "volume_24h": 4335.15,
+    "score": 0.6031
    }
   ],
   "skipped": {
+   "series cap": 10,
    "tracked only (below bet price floor)": 4
   },
-  "watch_added": 27,
-  "watch_graded": 9,
+  "watch_added": 0,
+  "watch_graded": 13,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

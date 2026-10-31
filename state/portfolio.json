@@ -207,7 +207,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -400,7 +400,7 @@
    "opened_ts": 1793469624,
    "close_ts": 1793595540.0,
    "score": 0.6094,
-   "mark_price": 0.97,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -18269,90 +18269,95 @@
    1793472325,
    91.9,
    87.97
+  ],
+  [
+   1793473227,
+   91.9,
+   87.75
   ]
  ],
  "last_run": {
-  "ts": 1793472325,
+  "ts": 1793473227,
   "error": null,
-  "markets_scanned": 823,
-  "candidates": 43,
+  "markets_scanned": 926,
+  "candidates": 46,
   "rejections": {
-   "too little volume": 542,
-   "no favorite in 80-95c band": 217,
-   "spread too wide": 20,
-   "favorite is slipping fast": 1
+   "too little volume": 630,
+   "no favorite in 80-95c band": 231,
+   "spread too wide": 17,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump say \"Fat shot / Ozempic\" before Nov 1, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.99,
+    "volume_24h": 9442.0,
+    "score": 0.6789
+   },
+   {
     "label": "Marshall wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.24,
-    "volume_24h": 122351.23,
-    "score": 0.6596
+    "hours_to_close": 28.99,
+    "volume_24h": 124782.23,
+    "score": 0.66
    },
    {
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 29.24,
-    "volume_24h": 139390.76,
-    "score": 0.6496
+    "hours_to_close": 28.99,
+    "volume_24h": 141313.21,
+    "score": 0.65
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 29.24,
-    "volume_24h": 12793.04,
-    "score": 0.6396
+    "hours_to_close": 28.99,
+    "volume_24h": 12891.34,
+    "score": 0.64
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 29.24,
-    "volume_24h": 36907.14,
-    "score": 0.6396
+    "hours_to_close": 28.99,
+    "volume_24h": 36804.38,
+    "score": 0.64
+   },
+   {
+    "label": "Michigan wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 28.99,
+    "volume_24h": 214504.82,
+    "score": 0.64
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 29.24,
-    "volume_24h": 979904.88,
-    "score": 0.6296
+    "hours_to_close": 28.99,
+    "volume_24h": 994066.36,
+    "score": 0.63
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 29.24,
-    "volume_24h": 26397.88,
-    "score": 0.6296
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 29.24,
-    "volume_24h": 13988.76,
-    "score": 0.6196
-   },
-   {
-    "label": "Mississippi St. wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 29.24,
-    "volume_24h": 211337.7,
-    "score": 0.6196
+    "hours_to_close": 28.99,
+    "volume_24h": 26716.52,
+    "score": 0.63
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

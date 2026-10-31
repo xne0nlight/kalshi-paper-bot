@@ -184,7 +184,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.94,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -218,7 +218,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -258,7 +258,7 @@
    "opened_ts": 1793400326,
    "close_ts": 1793520000.0,
    "score": 0.5861,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -394,7 +394,7 @@
    "opened_ts": 1793458824,
    "close_ts": 1793545200.0,
    "score": 0.5184,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -18119,21 +18119,24 @@
    1793458824,
    90.84,
    86.28
+  ],
+  [
+   1793459726,
+   90.84,
+   86.45
   ]
  ],
  "last_run": {
-  "ts": 1793458824,
+  "ts": 1793459726,
   "error": null,
   "markets_scanned": 519,
-  "candidates": 36,
+  "candidates": 37,
   "rejections": {
-   "too little volume": 335,
+   "too little volume": 336,
    "no favorite in 80-95c band": 142,
-   "spread too wide": 6
+   "spread too wide": 4
   },
-  "opened": [
-   311
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -18141,73 +18144,70 @@
     "label": "Stanford wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 85608.84,
-    "score": 0.6439
+    "hours_to_close": 32.74,
+    "volume_24h": 88229.19,
+    "score": 0.6442
    },
    {
     "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 3755.1,
-    "score": 0.6381
+    "hours_to_close": 23.74,
+    "volume_24h": 3751.93,
+    "score": 0.6387
    },
    {
     "label": "UCLA wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 32.99,
-    "volume_24h": 15853.1,
-    "score": 0.6339
+    "hours_to_close": 32.74,
+    "volume_24h": 16695.44,
+    "score": 0.6342
    },
    {
     "label": "Nevada wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 32.99,
-    "volume_24h": 29003.9,
-    "score": 0.6339
+    "hours_to_close": 32.74,
+    "volume_24h": 28065.09,
+    "score": 0.6342
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.99,
-    "volume_24h": 605964.0,
-    "score": 0.6239
+    "hours_to_close": 32.74,
+    "volume_24h": 647685.55,
+    "score": 0.6242
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.99,
-    "volume_24h": 12068.45,
-    "score": 0.6239
+    "hours_to_close": 32.74,
+    "volume_24h": 13410.2,
+    "score": 0.6242
    },
    {
     "label": "Texas wins",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 32.99,
-    "volume_24h": 11215.42,
-    "score": 0.6139
+    "hours_to_close": 32.74,
+    "volume_24h": 11489.99,
+    "score": 0.6142
    },
    {
     "label": "Mississippi St. wins",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 32.99,
-    "volume_24h": 171411.34,
-    "score": 0.6139
+    "hours_to_close": 32.74,
+    "volume_24h": 174118.75,
+    "score": 0.6142
    }
   ],
-  "skipped": {
-   "series cap": 18,
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 2,
-  "watch_graded": 1,
+  "skipped": {},
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

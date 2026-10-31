@@ -379,7 +379,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793480400.0,
    "score": 0.6606,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793408424,
@@ -17765,17 +17765,22 @@
    1793424626,
    87.3,
    86.43
+  ],
+  [
+   1793425525,
+   87.3,
+   86.38
   ]
  ],
  "last_run": {
-  "ts": 1793424626,
+  "ts": 1793425525,
   "error": null,
   "markets_scanned": 2576,
   "candidates": 59,
   "rejections": {
-   "too little volume": 2145,
+   "too little volume": 2144,
    "no favorite in 80-95c band": 352,
-   "spread too wide": 18,
+   "spread too wide": 19,
    "favorite is slipping fast": 1,
    "nothing for sale at the ask": 1
   },
@@ -17787,72 +17792,71 @@
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 15.49,
-    "volume_24h": 34223.99,
-    "score": 0.6977
+    "hours_to_close": 15.24,
+    "volume_24h": 35656.27,
+    "score": 0.6989
    },
    {
     "label": "Bitcoin price on Oct 31, 2026? \u2014 $75,750 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 15.49,
-    "volume_24h": 28216.83,
-    "score": 0.6877
+    "price": 0.95,
+    "hours_to_close": 15.24,
+    "volume_24h": 28442.06,
+    "score": 0.6989
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 15.24,
+    "volume_24h": 45114.82,
+    "score": 0.6689
+   },
+   {
+    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 15.24,
+    "volume_24h": 37031.18,
+    "score": 0.6589
    },
    {
     "label": "Will Donald Trump make at least 360 Truth Social posts the week of Oct 25, 2026? \u2014 360+",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.48,
+    "hours_to_close": 32.23,
     "volume_24h": 10584.98,
-    "score": 0.6546
+    "score": 0.6549
    },
    {
     "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 15.49,
-    "volume_24h": 5851.75,
-    "score": 0.6503
+    "hours_to_close": 15.24,
+    "volume_24h": 5861.75,
+    "score": 0.6515
    },
    {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $76,000 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 15.49,
-    "volume_24h": 44722.34,
-    "score": 0.6477
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,250 or above",
+    "label": "Will BTC trimmed mean be below $75000.00 by 11:59 PM ET on Oct 31, 2026? \u2014 Below $75,000.00",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.49,
-    "volume_24h": 33523.93,
-    "score": 0.6277
+    "price": 0.9,
+    "hours_to_close": 22.24,
+    "volume_24h": 44074.8,
+    "score": 0.6244
    },
    {
     "label": "Ethereum price at Oct 31, 2026 at 5pm EDT? \u2014 $2,280 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.49,
-    "volume_24h": 7759.93,
-    "score": 0.6195
-   },
-   {
-    "label": "Bitcoin price on Oct 31, 2026? \u2014 $78,000 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 15.49,
-    "volume_24h": 53755.91,
-    "score": 0.6177
+    "price": 0.92,
+    "hours_to_close": 15.24,
+    "volume_24h": 8061.64,
+    "score": 0.6118
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 8,
-   "tracked only (below bet price floor)": 2
+   "related-market cap (Crypto)": 9
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

@@ -241,8 +241,14 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.86,
-   "shadow": {}
+   "mark_price": 0.83,
+   "shadow": {
+    "10": {
+     "ts": 1793479526,
+     "bid": 0.83,
+     "proceeds": 4.1
+    }
+   }
   },
   {
    "id": 305,
@@ -258,7 +264,7 @@
    "opened_ts": 1793448924,
    "close_ts": 1793577600.0,
    "score": 0.6403,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -292,7 +298,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -360,7 +366,7 @@
    "opened_ts": 1793466026,
    "close_ts": 1793595540.0,
    "score": 0.5837,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793466926,
@@ -18304,91 +18310,96 @@
    1793478626,
    91.9,
    87.42
+  ],
+  [
+   1793479526,
+   91.9,
+   87.49
   ]
  ],
  "last_run": {
-  "ts": 1793478626,
+  "ts": 1793479526,
   "error": null,
-  "markets_scanned": 1673,
-  "candidates": 70,
+  "markets_scanned": 1668,
+  "candidates": 56,
   "rejections": {
-   "too little volume": 1361,
-   "no favorite in 80-95c band": 213,
+   "too little volume": 1353,
+   "no favorite in 80-95c band": 229,
    "spread too wide": 24,
-   "nothing for sale at the ask": 3,
-   "favorite is slipping fast": 2
+   "favorite is slipping fast": 3,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "UCLA wins",
+    "label": "Utah wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 92781.38,
-    "score": 0.6627
+    "hours_to_close": 27.24,
+    "volume_24h": 294586.06,
+    "score": 0.6632
    },
    {
-    "label": "Nevada wins",
+    "label": "Cincinnati wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 80008.35,
-    "score": 0.6627
-   },
-   {
-    "label": "Oregon wins the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 21565.77,
-    "score": 0.6627
-   },
-   {
-    "label": "Wake Forest wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 27.49,
-    "volume_24h": 63397.23,
-    "score": 0.6527
-   },
-   {
-    "label": "Virginia wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 27.49,
-    "volume_24h": 240461.31,
-    "score": 0.6527
+    "hours_to_close": 27.24,
+    "volume_24h": 824914.22,
+    "score": 0.6632
    },
    {
     "label": "Minnesota wins",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 27.49,
-    "volume_24h": 2618620.06,
-    "score": 0.6427
+    "hours_to_close": 27.24,
+    "volume_24h": 2920536.75,
+    "score": 0.6432
    },
    {
     "label": "Indiana wins",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.49,
-    "volume_24h": 383281.32,
-    "score": 0.6427
+    "hours_to_close": 27.24,
+    "volume_24h": 407009.31,
+    "score": 0.6432
    },
    {
     "label": "Minnesota wins the 1st half",
     "side": "no",
+    "price": 0.93,
+    "hours_to_close": 27.24,
+    "volume_24h": 18379.33,
+    "score": 0.6432
+   },
+   {
+    "label": "BYU wins",
+    "side": "yes",
     "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 17149.4,
-    "score": 0.6327
+    "hours_to_close": 27.24,
+    "volume_24h": 149365.39,
+    "score": 0.6332
+   },
+   {
+    "label": "Arizona St. wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.24,
+    "volume_24h": 448321.32,
+    "score": 0.6332
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 27.24,
+    "volume_24h": 37626.44,
+    "score": 0.6232
    }
   ],
   "skipped": {},
-  "watch_added": 11,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

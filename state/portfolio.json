@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 15.3,
- "fees_paid": 7.98,
+ "cash": 13.53,
+ "fees_paid": 8.0,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 324,
+ "next_id": 325,
  "open_positions": [
   {
    "id": 264,
@@ -133,23 +133,6 @@
    "shadow": {}
   },
   {
-   "id": 302,
-   "ticker": "KXRAIN-26OCT31-IND",
-   "event_ticker": "KXRAIN-26OCT31",
-   "series": "KXRAIN",
-   "label": "Will it rain in Indianapolis on Oct 31, 2026?",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1793394926,
-   "close_ts": 1793509200.0,
-   "score": 0.5577,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 303,
    "ticker": "KXHIGHLAX-26OCT31-B67.5",
    "event_ticker": "KXHIGHLAX-26OCT31",
@@ -252,7 +235,7 @@
    "opened_ts": 1793458824,
    "close_ts": 1793545200.0,
    "score": 0.5184,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -365,7 +348,7 @@
    "opened_ts": 1793490325,
    "close_ts": 1793599200.0,
    "score": 0.601,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -399,7 +382,24 @@
    "opened_ts": 1793503826,
    "close_ts": 1793599200.0,
    "score": 0.6067,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 324,
+   "ticker": "KXRT-MON-35",
+   "event_ticker": "KXRT-MON",
+   "series": "KXRT",
+   "label": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793535325,
+   "close_ts": 1793631600.0,
+   "score": 0.5887,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -8182,6 +8182,27 @@
    "pnl": 0.5,
    "result": "YES",
    "closed_ts": 1793503826,
+   "won": true
+  },
+  {
+   "id": 302,
+   "ticker": "KXRAIN-26OCT31-IND",
+   "event_ticker": "KXRAIN-26OCT31",
+   "series": "KXRAIN",
+   "label": "Will it rain in Indianapolis on Oct 31, 2026?",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1793394926,
+   "close_ts": 1793509200.0,
+   "score": 0.5577,
+   "shadow": {},
+   "payout": 3.0,
+   "pnl": 0.14,
+   "result": "NO",
+   "closed_ts": 1793535325,
    "won": true
   }
  ],
@@ -18835,90 +18856,101 @@
    1793534425,
    94.76,
    89.99
+  ],
+  [
+   1793535325,
+   94.9,
+   90.11
   ]
  ],
  "last_run": {
-  "ts": 1793534425,
+  "ts": 1793535325,
   "error": null,
   "markets_scanned": 3930,
-  "candidates": 8,
+  "candidates": 10,
   "rejections": {
    "too little volume": 3805,
-   "no favorite in 80-95c band": 99,
-   "spread too wide": 18
+   "no favorite in 80-95c band": 95,
+   "spread too wide": 20
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   324
+  ],
+  "settled": [
+   302
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will Trump say \"Crypto / Bitcoin\" before Nov 2, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.74,
+    "volume_24h": 2092.68,
+    "score": 0.6132
+   },
    {
     "label": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.99,
-    "volume_24h": 983.76,
-    "score": 0.5881
+    "hours_to_close": 26.74,
+    "volume_24h": 984.54,
+    "score": 0.5887
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.49,
+    "hours_to_close": 31.24,
     "volume_24h": 990.15,
-    "score": 0.5507
+    "score": 0.5511
    },
    {
     "label": "Angers wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 980.13,
-    "score": 0.52
+    "score": 0.5204
    },
    {
     "label": "Will \"Thriller\" rank No. 16\u201320 on Billboard Hot 100? \u2014 Rank 16 to 20",
     "side": "yes",
     "price": 0.86,
-    "hours_to_close": 26.99,
-    "volume_24h": 4496.1,
-    "score": 0.4976
+    "hours_to_close": 26.74,
+    "volume_24h": 4486.98,
+    "score": 0.498
    },
    {
     "label": "Will the S&P 500 be above 7699.9999 on Nov 2, 2026 at 4pm EST? \u2014 7,700 or above",
     "side": "no",
     "price": 0.81,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 976.49,
-    "score": 0.4381
+    "score": 0.4385
    },
    {
     "label": "Will the gold close price be above 3794 USD/t.oz on November 02, 2026 at 5:00 PM EST? \u2014 Above $3794",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 357.28,
-    "score": 0.4341
+    "score": 0.4344
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Nov 2, 2026? \u2014 Above $104.99",
+    "label": "Will Trump say \"Third Term\" before Nov 2, 2026?",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 31.49,
-    "volume_24h": 773.43,
-    "score": 0.3727
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Nov 2, 2026? \u2014 Above $100.49",
-    "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 31.49,
-    "volume_24h": 637.11,
-    "score": 0.3564
+    "price": 0.89,
+    "hours_to_close": 26.74,
+    "volume_24h": 890.36,
+    "score": 0.4254
    }
   ],
-  "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 4,
+  "skipped": {
+   "related-market cap (Crypto)": 1
+  },
+  "watch_added": 0,
+  "watch_graded": 11,
   "api_calls": 44
  },
  "shadow_since": 1791904549,

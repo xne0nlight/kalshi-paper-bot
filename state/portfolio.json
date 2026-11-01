@@ -235,7 +235,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -360,7 +360,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -377,7 +377,7 @@
    "opened_ts": 1793487626,
    "close_ts": 1793577600.0,
    "score": 0.6278,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -18474,18 +18474,24 @@
    1793493028,
    93.02,
    89.24
+  ],
+  [
+   1793493927,
+   93.02,
+   89.38
   ]
  ],
  "last_run": {
-  "ts": 1793493028,
+  "ts": 1793493927,
   "error": null,
   "markets_scanned": 1539,
-  "candidates": 67,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 1258,
-   "no favorite in 80-95c band": 200,
-   "spread too wide": 12,
-   "nothing for sale at the ask": 2
+   "too little volume": 1255,
+   "no favorite in 80-95c band": 202,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -18495,69 +18501,69 @@
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.49,
-    "volume_24h": 15992.12,
-    "score": 0.6664
+    "hours_to_close": 21.24,
+    "volume_24h": 16075.04,
+    "score": 0.6671
    },
    {
-    "label": "Texas wins",
+    "label": "Pittsburgh wins",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 635811.21,
-    "score": 0.6612
+    "hours_to_close": 23.24,
+    "volume_24h": 324793.57,
+    "score": 0.6618
    },
    {
-    "label": "Mississippi St. wins",
+    "label": "Georgia Tech wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 2192575.82,
-    "score": 0.6612
-   },
-   {
-    "label": "Missouri wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 232255.26,
-    "score": 0.6612
-   },
-   {
-    "label": "Arkansas wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.49,
-    "volume_24h": 251474.84,
-    "score": 0.6612
+    "hours_to_close": 23.24,
+    "volume_24h": 142453.61,
+    "score": 0.6618
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 17.48,
-    "volume_24h": 10911.74,
-    "score": 0.6495
+    "hours_to_close": 17.23,
+    "volume_24h": 11003.22,
+    "score": 0.6504
    },
    {
-    "label": "Ethereum price at Nov 1, 2026 at 5pm EST? \u2014 $2,200 or above",
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 21.24,
+    "volume_24h": 9802.2,
+    "score": 0.6264
+   },
+   {
+    "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 4148.33,
-    "score": 0.6477
+    "hours_to_close": 28.23,
+    "volume_24h": 2982.77,
+    "score": 0.622
    },
    {
-    "label": "Pittsburgh wins",
+    "label": "Georgia Southern wins",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 23.49,
-    "volume_24h": 305867.56,
-    "score": 0.6412
+    "price": 0.9,
+    "hours_to_close": 23.24,
+    "volume_24h": 88858.47,
+    "score": 0.6218
+   },
+   {
+    "label": "Appalachian St. wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.24,
+    "volume_24h": 281585.75,
+    "score": 0.6218
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

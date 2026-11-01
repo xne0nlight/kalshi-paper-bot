@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 14.97,
- "fees_paid": 7.95,
+ "cash": 15.3,
+ "fees_paid": 7.98,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 323,
+ "next_id": 324,
  "open_positions": [
   {
    "id": 264,
@@ -112,7 +112,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793481324,
    "close_ts": 1793555940.0,
    "score": 0.6234,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -364,23 +364,6 @@
    "shadow": {}
   },
   {
-   "id": 320,
-   "ticker": "KXNCAAFGAME-26OCT30ARMYMEM-MEM",
-   "event_ticker": "KXNCAAFGAME-26OCT30ARMYMEM",
-   "series": "KXNCAAFGAME",
-   "label": "Memphis wins",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.91,
-   "fee": 0.04,
-   "cost": 5.5,
-   "opened_ts": 1793498426,
-   "close_ts": 1793577600.0,
-   "score": 0.635,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 322,
    "ticker": "KXRAIN-26NOV01-ATL",
    "event_ticker": "KXRAIN-26NOV01",
@@ -395,6 +378,23 @@
    "close_ts": 1793595600.0,
    "score": 0.615,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 323,
+   "ticker": "KXHIGHNY-26NOV01-B62.5",
+   "event_ticker": "KXHIGHNY-26NOV01",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793503826,
+   "close_ts": 1793599200.0,
+   "score": 0.6067,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -8156,6 +8156,27 @@
    "pnl": 0.44,
    "result": "YES",
    "closed_ts": 1793502926,
+   "won": true
+  },
+  {
+   "id": 320,
+   "ticker": "KXNCAAFGAME-26OCT30ARMYMEM-MEM",
+   "event_ticker": "KXNCAAFGAME-26OCT30ARMYMEM",
+   "series": "KXNCAAFGAME",
+   "label": "Memphis wins",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.91,
+   "fee": 0.04,
+   "cost": 5.5,
+   "opened_ts": 1793498426,
+   "close_ts": 1793577600.0,
+   "score": 0.635,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.5,
+   "result": "YES",
+   "closed_ts": 1793503826,
    "won": true
   }
  ],
@@ -18634,95 +18655,100 @@
    1793502926,
    94.26,
    91.49
+  ],
+  [
+   1793503826,
+   94.76,
+   91.63
   ]
  ],
  "last_run": {
-  "ts": 1793502926,
+  "ts": 1793503826,
   "error": null,
-  "markets_scanned": 2217,
-  "candidates": 55,
+  "markets_scanned": 2211,
+  "candidates": 50,
   "rejections": {
-   "too little volume": 1884,
-   "no favorite in 80-95c band": 256,
+   "too little volume": 1882,
+   "no favorite in 80-95c band": 257,
    "spread too wide": 22
   },
   "opened": [
-   322
+   323
   ],
   "settled": [
-   321
+   320
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 6811.91,
-    "score": 0.6724
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 15221.46,
+    "score": 0.6657
    },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.74,
+    "price": 0.92,
+    "hours_to_close": 18.49,
     "volume_24h": 17999.1,
-    "score": 0.6649
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 18.74,
-    "volume_24h": 15221.46,
-    "score": 0.6649
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 14.73,
-    "volume_24h": 11952.76,
-    "score": 0.6413
+    "score": 0.6557
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.73,
-    "volume_24h": 2999.4,
-    "score": 0.627
+    "hours_to_close": 25.48,
+    "volume_24h": 3009.4,
+    "score": 0.6276
    },
    {
     "label": "Will it rain in Atlanta on Nov 1, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 5229.77,
-    "score": 0.615
+    "hours_to_close": 25.49,
+    "volume_24h": 5240.57,
+    "score": 0.6156
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 14.48,
+    "volume_24h": 11960.6,
+    "score": 0.6126
    },
    {
     "label": "Will it rain in Albuquerque on Nov 1, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 1857.72,
-    "score": 0.6074
+    "score": 0.6079
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 2292.03,
-    "score": 0.6062
+    "score": 0.6067
+   },
+   {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,500 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 18.49,
+    "volume_24h": 10347.2,
+    "score": 0.6057
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 3
+   "related-market cap (Crypto)": 2
   },
-  "watch_added": 5,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

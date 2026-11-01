@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.03,
- "fees_paid": 8.3,
+ "cash": 13.12,
+ "fees_paid": 8.31,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 336,
+ "next_id": 337,
  "open_positions": [
   {
    "id": 264,
@@ -63,44 +63,6 @@
    "score": 0.6006,
    "mark_price": 0.95,
    "shadow": {}
-  },
-  {
-   "id": 310,
-   "ticker": "KXPUREALBUMS-WAT26OCT29-2K",
-   "event_ticker": "KXPUREALBUMS-WAT26OCT29",
-   "series": "KXPUREALBUMS",
-   "label": "Will Watch Dis by Yung Miami have above 2000 Pure Album Sales (aka Product Sales) during the October 23, 2026 - October 29, 2026 tracking week? \u2014 Above 2K",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.85,
-   "fee": 0.05,
-   "cost": 4.3,
-   "opened_ts": 1793457025,
-   "close_ts": 1793541600.0,
-   "score": 0.3705,
-   "mark_price": 0.42,
-   "shadow": {
-    "10": {
-     "ts": 1793498426,
-     "bid": 0.62,
-     "proceeds": 3.01
-    },
-    "15": {
-     "ts": 1793498426,
-     "bid": 0.62,
-     "proceeds": 3.01
-    },
-    "20": {
-     "ts": 1793498426,
-     "bid": 0.62,
-     "proceeds": 3.01
-    },
-    "30": {
-     "ts": 1793500226,
-     "bid": 0.47,
-     "proceeds": 2.26
-    }
-   }
   },
   {
    "id": 311,
@@ -178,7 +140,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -337,7 +299,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -399,7 +361,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793682000.0,
    "score": 0.5757,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -416,6 +378,23 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 336,
+   "ticker": "KXCOCACOLAPOS-26NOV03-T105",
+   "event_ticker": "KXCOCACOLAPOS-26NOV03",
+   "series": "KXCOCACOLAPOS",
+   "label": "Will Coca-Cola Point of Sale Growth for October 2026 be above 105 ? \u2014 Above 105",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 1.91,
+   "opened_ts": 1793566826,
+   "close_ts": 1793681940.0,
+   "score": 0.6189,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -8472,6 +8451,48 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1793557825,
+   "won": true
+  },
+  {
+   "id": 310,
+   "ticker": "KXPUREALBUMS-WAT26OCT29-2K",
+   "event_ticker": "KXPUREALBUMS-WAT26OCT29",
+   "series": "KXPUREALBUMS",
+   "label": "Will Watch Dis by Yung Miami have above 2000 Pure Album Sales (aka Product Sales) during the October 23, 2026 - October 29, 2026 tracking week? \u2014 Above 2K",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.85,
+   "fee": 0.05,
+   "cost": 4.3,
+   "opened_ts": 1793457025,
+   "close_ts": 1793541600.0,
+   "score": 0.3705,
+   "shadow": {
+    "10": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "15": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "20": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "30": {
+     "ts": 1793500226,
+     "bid": 0.47,
+     "proceeds": 2.26
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.7,
+   "result": "NO",
+   "closed_ts": 1793566826,
    "won": true
   }
  ],
@@ -19300,90 +19321,99 @@
    1793565924,
    97.71,
    92.58
+  ],
+  [
+   1793566826,
+   98.41,
+   95.44
   ]
  ],
  "last_run": {
-  "ts": 1793565924,
+  "ts": 1793566826,
   "error": null,
-  "markets_scanned": 3983,
-  "candidates": 48,
+  "markets_scanned": 4811,
+  "candidates": 45,
   "rejections": {
-   "too little volume": 3581,
-   "no favorite in 80-95c band": 320,
-   "spread too wide": 34
+   "too little volume": 4399,
+   "no favorite in 80-95c band": 329,
+   "spread too wide": 38
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   336
+  ],
+  "settled": [
+   310
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.23,
-    "volume_24h": 5861.61,
-    "score": 0.6397
+    "hours_to_close": 20.98,
+    "volume_24h": 5876.52,
+    "score": 0.6405
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.23,
-    "volume_24h": 3393.29,
-    "score": 0.6219
+    "hours_to_close": 20.98,
+    "volume_24h": 3408.2,
+    "score": 0.6228
    },
    {
     "label": "Will Coca-Cola Point of Sale Growth for October 2026 be above 105 ? \u2014 Above 105",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.23,
-    "volume_24h": 3116.29,
-    "score": 0.617
+    "hours_to_close": 31.98,
+    "volume_24h": 3272.66,
+    "score": 0.6189
    },
    {
-    "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Nov 2, 2026? \u2014 38.6%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.23,
-    "volume_24h": 5031.98,
-    "score": 0.6026
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Nov 2, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 32.24,
-    "volume_24h": 1359.52,
-    "score": 0.5899
+    "price": 0.9,
+    "hours_to_close": 20.98,
+    "volume_24h": 2934.19,
+    "score": 0.5879
    },
    {
     "label": "Will the Reserve Bank of Australia maintain the current rate at the November Monetary Policy Board meeting? \u2014 Maintain current rate",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.73,
+    "hours_to_close": 30.48,
     "volume_24h": 983.66,
-    "score": 0.5817
+    "score": 0.5821
+   },
+   {
+    "label": "Will the maximum temperature be 71-72\u00b0 on Nov 2, 2026? \u2014 71\u00b0 to 72\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.99,
+    "volume_24h": 1386.46,
+    "score": 0.5757
    },
    {
     "label": "Will the maximum temperature be 84-85\u00b0 on Nov 2, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 839.85,
-    "score": 0.5729
+    "score": 0.5732
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 1115.16,
-    "score": 0.5716
+    "score": 0.5723
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

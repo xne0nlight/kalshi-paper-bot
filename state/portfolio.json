@@ -5,8 +5,8 @@
  "cash": 18.36,
  "fees_paid": 7.81,
  "peak_equity": 109.65,
- "day": "2026-10-31",
- "day_start_equity": 87.3,
+ "day": "2026-11-01",
+ "day_start_equity": 93.02,
  "next_id": 319,
  "open_positions": [
   {
@@ -235,7 +235,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793481324,
    "close_ts": 1793555940.0,
    "score": 0.6234,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -377,7 +377,7 @@
    "opened_ts": 1793487626,
    "close_ts": 1793577600.0,
    "score": 0.6278,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -18459,96 +18459,95 @@
    1793490325,
    93.02,
    89.12
+  ],
+  [
+   1793491225,
+   93.02,
+   89.07
   ]
  ],
  "last_run": {
-  "ts": 1793490325,
+  "ts": 1793491225,
   "error": null,
   "markets_scanned": 1544,
-  "candidates": 62,
+  "candidates": 60,
   "rejections": {
-   "too little volume": 1262,
-   "no favorite in 80-95c band": 206,
-   "spread too wide": 13,
-   "nothing for sale at the ask": 1
+   "too little volume": 1261,
+   "no favorite in 80-95c band": 198,
+   "spread too wide": 23,
+   "nothing for sale at the ask": 2
   },
-  "opened": [
-   318
-  ],
-  "settled": [
-   305
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 8096.57,
-    "score": 0.6575
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 15992.12,
+    "score": 0.675
+   },
+   {
+    "label": "Mississippi St. wins the 1st half",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.99,
+    "volume_24h": 5990.4,
+    "score": 0.6533
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 23.99,
+    "volume_24h": 534951.84,
+    "score": 0.65
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 18.23,
-    "volume_24h": 10888.4,
-    "score": 0.6467
+    "hours_to_close": 17.98,
+    "volume_24h": 10897.4,
+    "score": 0.6476
    },
    {
     "label": "Ethereum price at Nov 1, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 4092.6,
-    "score": 0.6453
+    "score": 0.6459
+   },
+   {
+    "label": "Mississippi St. wins",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.99,
+    "volume_24h": 1476526.88,
+    "score": 0.64
+   },
+   {
+    "label": "North Carolina wins the 1st half",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.99,
+    "volume_24h": 14020.41,
+    "score": 0.63
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.23,
+    "hours_to_close": 28.98,
     "volume_24h": 2981.73,
-    "score": 0.6202
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.24,
-    "volume_24h": 4140.35,
-    "score": 0.6056
-   },
-   {
-    "label": "Will it rain in Dallas between Oct 31 and Nov 1, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.24,
-    "volume_24h": 2362.95,
-    "score": 0.601
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.24,
-    "volume_24h": 2065.95,
-    "score": 0.5981
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 1162.54,
-    "score": 0.5879
+    "score": 0.6206
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 2
-  },
-  "watch_added": 5,
+  "skipped": {},
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

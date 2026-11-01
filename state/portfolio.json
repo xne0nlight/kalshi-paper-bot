@@ -167,7 +167,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.4188,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793481324,
    "close_ts": 1793555940.0,
    "score": 0.6234,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -377,7 +377,7 @@
    "opened_ts": 1793487626,
    "close_ts": 1793577600.0,
    "score": 0.6278,
-   "mark_price": 0.93,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -18464,18 +18464,23 @@
    1793491225,
    93.02,
    89.07
+  ],
+  [
+   1793492124,
+   93.02,
+   88.96
   ]
  ],
  "last_run": {
-  "ts": 1793491225,
+  "ts": 1793492124,
   "error": null,
-  "markets_scanned": 1544,
-  "candidates": 60,
+  "markets_scanned": 1542,
+  "candidates": 66,
   "rejections": {
-   "too little volume": 1261,
-   "no favorite in 80-95c band": 198,
-   "spread too wide": 23,
-   "nothing for sale at the ask": 2
+   "too little volume": 1260,
+   "no favorite in 80-95c band": 196,
+   "spread too wide": 17,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
@@ -18485,69 +18490,69 @@
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 15992.12,
-    "score": 0.675
-   },
-   {
-    "label": "Mississippi St. wins the 1st half",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 5990.4,
-    "score": 0.6533
-   },
-   {
-    "label": "Texas wins",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.99,
-    "volume_24h": 534951.84,
-    "score": 0.65
+    "score": 0.6757
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 17.98,
-    "volume_24h": 10897.4,
-    "score": 0.6476
+    "hours_to_close": 17.73,
+    "volume_24h": 10897.86,
+    "score": 0.6485
    },
    {
     "label": "Ethereum price at Nov 1, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 4092.6,
-    "score": 0.6459
+    "score": 0.6466
    },
    {
-    "label": "Mississippi St. wins",
+    "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.99,
-    "volume_24h": 1476526.88,
-    "score": 0.64
-   },
-   {
-    "label": "North Carolina wins the 1st half",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.99,
-    "volume_24h": 14020.41,
-    "score": 0.63
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 3164.24,
+    "score": 0.6231
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.98,
-    "volume_24h": 2981.73,
+    "hours_to_close": 28.73,
+    "volume_24h": 2982.77,
+    "score": 0.6211
+   },
+   {
+    "label": "Mississippi St. wins the 1st half",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.74,
+    "volume_24h": 11878.02,
     "score": 0.6206
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 2202.85,
+    "score": 0.6113
+   },
+   {
+    "label": "Texas wins",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 23.74,
+    "volume_24h": 593888.24,
+    "score": 0.6106
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

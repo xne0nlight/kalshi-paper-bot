@@ -112,7 +112,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.99,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -377,7 +377,7 @@
    "opened_ts": 1793502926,
    "close_ts": 1793595600.0,
    "score": 0.615,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -18660,95 +18660,94 @@
    1793503826,
    94.76,
    91.63
+  ],
+  [
+   1793504726,
+   94.76,
+   91.59
   ]
  ],
  "last_run": {
-  "ts": 1793503826,
+  "ts": 1793504726,
   "error": null,
   "markets_scanned": 2211,
-  "candidates": 50,
+  "candidates": 60,
   "rejections": {
-   "too little volume": 1882,
-   "no favorite in 80-95c band": 257,
-   "spread too wide": 22
+   "too little volume": 1883,
+   "no favorite in 80-95c band": 249,
+   "spread too wide": 19
   },
-  "opened": [
-   323
-  ],
-  "settled": [
-   320
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.24,
+    "volume_24h": 6903.34,
+    "score": 0.6746
+   },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 15221.46,
-    "score": 0.6657
+    "hours_to_close": 18.24,
+    "volume_24h": 15256.69,
+    "score": 0.6666
    },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 18.49,
-    "volume_24h": 17999.1,
-    "score": 0.6557
+    "hours_to_close": 18.24,
+    "volume_24h": 18059.46,
+    "score": 0.6566
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 14.23,
+    "volume_24h": 12069.46,
+    "score": 0.6538
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.48,
+    "hours_to_close": 25.23,
     "volume_24h": 3009.4,
-    "score": 0.6276
+    "score": 0.6281
    },
    {
     "label": "Will it rain in Atlanta on Nov 1, 2026?",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.49,
-    "volume_24h": 5240.57,
-    "score": 0.6156
+    "price": 0.93,
+    "hours_to_close": 25.24,
+    "volume_24h": 5362.18,
+    "score": 0.6269
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 14.48,
-    "volume_24h": 11960.6,
-    "score": 0.6126
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,750 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 18.24,
+    "volume_24h": 4986.03,
+    "score": 0.614
    },
    {
     "label": "Will it rain in Albuquerque on Nov 1, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.49,
-    "volume_24h": 1857.72,
-    "score": 0.6079
-   },
-   {
-    "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 26.49,
-    "volume_24h": 2292.03,
-    "score": 0.6067
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 18.49,
-    "volume_24h": 10347.2,
-    "score": 0.6057
+    "hours_to_close": 27.24,
+    "volume_24h": 1858.72,
+    "score": 0.6084
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 2
-  },
-  "watch_added": 0,
+  "skipped": {},
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

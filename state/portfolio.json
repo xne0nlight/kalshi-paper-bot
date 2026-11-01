@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 14.59,
- "fees_paid": 7.83,
+ "cash": 14.09,
+ "fees_paid": 7.87,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 320,
+ "next_id": 321,
  "open_positions": [
   {
    "id": 264,
@@ -112,7 +112,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505599.0,
    "score": 0.506,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -146,7 +146,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -214,8 +214,24 @@
    "opened_ts": 1793457025,
    "close_ts": 1793541600.0,
    "score": 0.3705,
-   "mark_price": 0.81,
-   "shadow": {}
+   "mark_price": 0.62,
+   "shadow": {
+    "10": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "15": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    },
+    "20": {
+     "ts": 1793498426,
+     "bid": 0.62,
+     "proceeds": 3.01
+    }
+   }
   },
   {
    "id": 311,
@@ -360,20 +376,20 @@
    "shadow": {}
   },
   {
-   "id": 319,
-   "ticker": "KXNCAAFGAME-26OCT30APPGASO-GASO",
-   "event_ticker": "KXNCAAFGAME-26OCT30APPGASO",
+   "id": 320,
+   "ticker": "KXNCAAFGAME-26OCT30ARMYMEM-MEM",
+   "event_ticker": "KXNCAAFGAME-26OCT30ARMYMEM",
    "series": "KXNCAAFGAME",
-   "label": "Georgia Southern wins",
+   "label": "Memphis wins",
    "side": "yes",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793494824,
+   "contracts": 6,
+   "price": 0.91,
+   "fee": 0.04,
+   "cost": 5.5,
+   "opened_ts": 1793498426,
    "close_ts": 1793577600.0,
-   "score": 0.6724,
-   "mark_price": 0.99,
+   "score": 0.635,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -8072,6 +8088,27 @@
    "pnl": 0.07,
    "result": "NO",
    "closed_ts": 1793494824,
+   "won": true
+  },
+  {
+   "id": 319,
+   "ticker": "KXNCAAFGAME-26OCT30APPGASO-GASO",
+   "event_ticker": "KXNCAAFGAME-26OCT30APPGASO",
+   "series": "KXNCAAFGAME",
+   "label": "Georgia Southern wins",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793494824,
+   "close_ts": 1793577600.0,
+   "score": 0.6724,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "YES",
+   "closed_ts": 1793498426,
    "won": true
   }
  ],
@@ -18520,90 +18557,101 @@
    1793497526,
    93.09,
    91.07
+  ],
+  [
+   1793498426,
+   93.32,
+   90.25
   ]
  ],
  "last_run": {
-  "ts": 1793497526,
+  "ts": 1793498426,
   "error": null,
-  "markets_scanned": 1526,
-  "candidates": 52,
+  "markets_scanned": 1524,
+  "candidates": 47,
   "rejections": {
    "too little volume": 1250,
-   "no favorite in 80-95c band": 209,
-   "spread too wide": 14,
+   "no favorite in 80-95c band": 203,
+   "spread too wide": 23,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   320
+  ],
+  "settled": [
+   319
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Memphis wins",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 116711.96,
-    "score": 0.6644
-   },
-   {
-    "label": "Army wins",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 160839.62,
-    "score": 0.6644
-   },
-   {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
+    "price": 0.94,
+    "hours_to_close": 19.99,
     "volume_24h": 17792.61,
-    "score": 0.66
+    "score": 0.6708
+   },
+   {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 19.99,
+    "volume_24h": 12870.09,
+    "score": 0.6608
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 16.23,
+    "hours_to_close": 15.98,
     "volume_24h": 11301.2,
-    "score": 0.6545
+    "score": 0.6556
    },
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
+    "label": "Memphis wins",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 12858.64,
-    "score": 0.65
+    "price": 0.91,
+    "hours_to_close": 21.99,
+    "volume_24h": 116895.18,
+    "score": 0.635
+   },
+   {
+    "label": "Army wins",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 21.99,
+    "volume_24h": 176160.46,
+    "score": 0.635
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.23,
+    "hours_to_close": 26.98,
     "volume_24h": 2998.4,
-    "score": 0.624
+    "score": 0.6245
    },
    {
     "label": "Will it rain in Dallas between Oct 31 and Nov 1, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 2113.53,
-    "score": 0.6107
+    "hours_to_close": 27.99,
+    "volume_24h": 2176.28,
+    "score": 0.6121
    },
    {
-    "label": "Arkansas wins",
+    "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 22.24,
-    "volume_24h": 501623.87,
-    "score": 0.6044
+    "price": 0.95,
+    "hours_to_close": 27.99,
+    "volume_24h": 2054.03,
+    "score": 0.6102
    }
   ],
-  "skipped": {},
-  "watch_added": 4,
+  "skipped": {
+   "related-market cap (Crypto)": 2
+  },
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

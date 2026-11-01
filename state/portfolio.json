@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.16,
- "fees_paid": 8.13,
+ "cash": 9.87,
+ "fees_paid": 8.19,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 330,
+ "next_id": 332,
  "open_positions": [
   {
    "id": 264,
@@ -62,40 +62,6 @@
    "close_ts": 1793393940.0,
    "score": 0.6006,
    "mark_price": 0.95,
-   "shadow": {}
-  },
-  {
-   "id": 297,
-   "ticker": "KXRAINMIAM-26OCT-7",
-   "event_ticker": "KXRAINMIAM-26OCT",
-   "series": "KXRAINMIAM",
-   "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.91,
-   "fee": 0.03,
-   "cost": 4.58,
-   "opened_ts": 1793376025,
-   "close_ts": 1793505599.0,
-   "score": 0.5386,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 299,
-   "ticker": "KXRAINLAXM-26OCT-2",
-   "event_ticker": "KXRAINLAXM-26OCT",
-   "series": "KXRAINLAXM",
-   "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793376025,
-   "close_ts": 1793505599.0,
-   "score": 0.506,
-   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -365,7 +331,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -406,6 +372,40 @@
    "close_ts": 1793651400.0,
    "score": 0.4941,
    "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 330,
+   "ticker": "KXLIGUE1TOTAL-26OCT31OLANG-5",
+   "event_ticker": "KXLIGUE1TOTAL-26OCT31OLANG",
+   "series": "KXLIGUE1TOTAL",
+   "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793553328,
+   "close_ts": 1793648700.0,
+   "score": 0.6155,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 331,
+   "ticker": "KXDWTSELIMINATION-26NOV03-MHIG",
+   "event_ticker": "KXDWTSELIMINATION-26NOV03",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793553328,
+   "close_ts": 1793681940.0,
+   "score": 0.6006,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -8314,6 +8314,48 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793549726,
+   "won": true
+  },
+  {
+   "id": 297,
+   "ticker": "KXRAINMIAM-26OCT-7",
+   "event_ticker": "KXRAINMIAM-26OCT",
+   "series": "KXRAINMIAM",
+   "label": "Rain in Miami in Oct 2026? \u2014 Above 7 inches",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505599.0,
+   "score": 0.5386,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.42,
+   "result": "NO",
+   "closed_ts": 1793553328,
+   "won": true
+  },
+  {
+   "id": 299,
+   "ticker": "KXRAINLAXM-26OCT-2",
+   "event_ticker": "KXRAINLAXM-26OCT",
+   "series": "KXRAINLAXM",
+   "label": "Rain in Los Angeles in Oct 2026? \u2014 Above 2 inches",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793376025,
+   "close_ts": 1793505599.0,
+   "score": 0.506,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793553328,
    "won": true
   }
  ],
@@ -19067,91 +19109,102 @@
    1793552426,
    96.02,
    91.27
+  ],
+  [
+   1793553328,
+   96.67,
+   91.36
   ]
  ],
  "last_run": {
-  "ts": 1793552426,
+  "ts": 1793553328,
   "error": null,
   "markets_scanned": 3691,
   "candidates": 29,
   "rejections": {
-   "too little volume": 3372,
-   "no favorite in 80-95c band": 252,
+   "too little volume": 3365,
+   "no favorite in 80-95c band": 259,
    "spread too wide": 37,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   330,
+   331
+  ],
+  "settled": [
+   297,
+   299
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 26.49,
+    "volume_24h": 4083.35,
+    "score": 0.6155
+   },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.98,
+    "hours_to_close": 35.73,
     "volume_24h": 4013.97,
-    "score": 0.6003
+    "score": 0.6006
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 24.98,
+    "hours_to_close": 24.73,
     "volume_24h": 3033.84,
-    "score": 0.599
-   },
-   {
-    "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.74,
-    "volume_24h": 3113.48,
-    "score": 0.5961
+    "score": 0.5995
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 26.74,
-    "volume_24h": 12037.95,
-    "score": 0.5841
-   },
-   {
-    "label": "Will Soda point of sale spend array index for October 2026 be above 102? \u2014 Above 102",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.98,
-    "volume_24h": 1213.78,
-    "score": 0.5814
+    "hours_to_close": 26.49,
+    "volume_24h": 18160.0,
+    "score": 0.5846
    },
    {
     "label": "Will the Reserve Bank of Australia maintain the current rate at the November Monetary Policy Board meeting? \u2014 Maintain current rate",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.48,
+    "price": 0.94,
+    "hours_to_close": 34.23,
     "volume_24h": 949.42,
-    "score": 0.5752
+    "score": 0.5655
    },
    {
     "label": "Will Nobody Wants This: Season 3 be #2 Global Netflix Show on Nov 2, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.98,
-    "volume_24h": 715.63,
-    "score": 0.5642
+    "hours_to_close": 35.73,
+    "volume_24h": 725.63,
+    "score": 0.5649
+   },
+   {
+    "label": "Will it rain in West Palm Beach on Nov 2, 2026?",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 35.74,
+    "volume_24h": 1299.35,
+    "score": 0.5639
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.49,
-    "volume_24h": 1094.27,
-    "score": 0.5626
+    "hours_to_close": 26.24,
+    "volume_24h": 1115.16,
+    "score": 0.5637
    }
   ],
   "skipped": {},
-  "watch_added": 12,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 9,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

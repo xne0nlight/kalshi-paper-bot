@@ -129,7 +129,7 @@
    "opened_ts": 1793376025,
    "close_ts": 1793505540.0,
    "score": 0.4188,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -180,7 +180,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.6347,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1793451624,
    "close_ts": 1793545200.0,
    "score": 0.542,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -322,7 +322,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -339,7 +339,7 @@
    "opened_ts": 1793487626,
    "close_ts": 1793577600.0,
    "score": 0.6278,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -356,7 +356,7 @@
    "opened_ts": 1793490325,
    "close_ts": 1793599200.0,
    "score": 0.601,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -18515,90 +18515,95 @@
    1793496625,
    93.09,
    90.85
+  ],
+  [
+   1793497526,
+   93.09,
+   91.07
   ]
  ],
  "last_run": {
-  "ts": 1793496625,
+  "ts": 1793497526,
   "error": null,
-  "markets_scanned": 1532,
-  "candidates": 48,
+  "markets_scanned": 1526,
+  "candidates": 52,
   "rejections": {
-   "too little volume": 1252,
-   "no favorite in 80-95c band": 215,
-   "spread too wide": 15,
-   "nothing for sale at the ask": 2
+   "too little volume": 1250,
+   "no favorite in 80-95c band": 209,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
-    "side": "no",
+    "label": "Memphis wins",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 17528.61,
-    "score": 0.6693
+    "hours_to_close": 22.24,
+    "volume_24h": 116711.96,
+    "score": 0.6644
    },
    {
     "label": "Army wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.49,
-    "volume_24h": 120921.23,
-    "score": 0.6637
+    "hours_to_close": 22.24,
+    "volume_24h": 160839.62,
+    "score": 0.6644
    },
    {
-    "label": "Memphis wins",
-    "side": "yes",
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
+    "side": "no",
     "price": 0.93,
-    "hours_to_close": 22.49,
-    "volume_24h": 103007.77,
-    "score": 0.6537
+    "hours_to_close": 20.24,
+    "volume_24h": 17792.61,
+    "score": 0.66
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 16.48,
-    "volume_24h": 11049.99,
-    "score": 0.6534
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.49,
-    "volume_24h": 3156.66,
-    "score": 0.6417
+    "hours_to_close": 16.23,
+    "volume_24h": 11301.2,
+    "score": 0.6545
    },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 20.49,
+    "price": 0.92,
+    "hours_to_close": 20.24,
     "volume_24h": 12858.64,
-    "score": 0.6293
+    "score": 0.65
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.48,
+    "hours_to_close": 27.23,
     "volume_24h": 2998.4,
-    "score": 0.6235
+    "score": 0.624
    },
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,500 or above",
+    "label": "Will it rain in Dallas between Oct 31 and Nov 1, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.49,
-    "volume_24h": 5461.76,
-    "score": 0.6096
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 2113.53,
+    "score": 0.6107
+   },
+   {
+    "label": "Arkansas wins",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 22.24,
+    "volume_24h": 501623.87,
+    "score": 0.6044
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

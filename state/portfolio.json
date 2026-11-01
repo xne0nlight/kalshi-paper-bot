@@ -344,7 +344,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -395,7 +395,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -19393,95 +19393,96 @@
    1793571325,
    98.92,
    95.95
+  ],
+  [
+   1793572230,
+   98.92,
+   95.84
   ]
  ],
  "last_run": {
-  "ts": 1793571325,
+  "ts": 1793572230,
   "error": null,
   "markets_scanned": 4809,
-  "candidates": 65,
+  "candidates": 67,
   "rejections": {
-   "too little volume": 4352,
-   "no favorite in 80-95c band": 354,
-   "spread too wide": 38
+   "too little volume": 4348,
+   "no favorite in 80-95c band": 355,
+   "spread too wide": 39
   },
-  "opened": [
-   338
-  ],
-  "settled": [
-   316
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.49,
+    "volume_24h": 7125.1,
+    "score": 0.6602
+   },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.73,
-    "volume_24h": 6225.44,
-    "score": 0.6462
+    "hours_to_close": 19.47,
+    "volume_24h": 6231.73,
+    "score": 0.647
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.73,
-    "volume_24h": 3767.56,
-    "score": 0.6298
+    "hours_to_close": 19.47,
+    "volume_24h": 3773.85,
+    "score": 0.6307
    },
    {
     "label": "Will Coca-Cola Point of Sale Growth for October 2026 be above 105 ? \u2014 Above 105",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.73,
+    "hours_to_close": 30.47,
     "volume_24h": 3291.26,
-    "score": 0.621
+    "score": 0.6214
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Nov 2, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 19.47,
+    "volume_24h": 3344.23,
+    "score": 0.6068
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 2, 2026? \u2014 38.9%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.73,
-    "volume_24h": 2160.23,
-    "score": 0.6017
+    "hours_to_close": 19.47,
+    "volume_24h": 2169.92,
+    "score": 0.6027
    },
    {
-    "label": "Will Rogue Point of Sale Growth for October 2026 be above 70 ? \u2014 Above 70",
+    "label": "Will the maximum temperature be 71-72\u00b0 on Nov 2, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.73,
-    "volume_24h": 3021.56,
-    "score": 0.5982
+    "hours_to_close": 34.49,
+    "volume_24h": 2810.75,
+    "score": 0.5905
    },
    {
     "label": "Bitcoin price range on Nov 2, 2026? \u2014 $77,750 to 77,999.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 1224.59,
-    "score": 0.5822
-   },
-   {
-    "label": "Will the gold close price be above 3794 USD/t.oz on November 02, 2026 at 5:00 PM EST? \u2014 Above $3794",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 588.43,
-    "score": 0.5784
-   },
-   {
-    "label": "Will the maximum temperature be 84-85\u00b0 on Nov 2, 2026? \u2014 84\u00b0 to 85\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 31.74,
-    "volume_24h": 1064.85,
-    "score": 0.5727
+    "score": 0.5828
    }
   ],
   "skipped": {},
-  "watch_added": 11,
-  "watch_graded": 26,
-  "api_calls": 43
+  "watch_added": 5,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

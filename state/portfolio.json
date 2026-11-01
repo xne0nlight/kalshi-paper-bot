@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.43,
- "fees_paid": 8.08,
+ "cash": 10.16,
+ "fees_paid": 8.13,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 329,
+ "next_id": 330,
  "open_positions": [
   {
    "id": 264,
@@ -96,23 +96,6 @@
    "close_ts": 1793505599.0,
    "score": 0.506,
    "mark_price": 0.97,
-   "shadow": {}
-  },
-  {
-   "id": 306,
-   "ticker": "KXTRUMPACT-26OCT25-T2",
-   "event_ticker": "KXTRUMPACT-26OCT25",
-   "series": "KXTRUMPACT",
-   "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793451624,
-   "close_ts": 1793545200.0,
-   "score": 0.6347,
-   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -280,7 +263,7 @@
    "opened_ts": 1793490325,
    "close_ts": 1793599200.0,
    "score": 0.601,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -314,7 +297,7 @@
    "opened_ts": 1793503826,
    "close_ts": 1793599200.0,
    "score": 0.6067,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -382,7 +365,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.81,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -406,6 +389,23 @@
    "close_ts": 1793648700.0,
    "score": 0.5458,
    "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 329,
+   "ticker": "KXUST10AD-26NOV02-T4.99",
+   "event_ticker": "KXUST10AD-26NOV02",
+   "series": "KXUST10AD",
+   "label": "Will the 10Y U.S. Treasury yield be above 4.99% on Nov 2, 2026? \u2014 5% or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.87,
+   "fee": 0.05,
+   "cost": 5.27,
+   "opened_ts": 1793549726,
+   "close_ts": 1793651400.0,
+   "score": 0.4941,
+   "mark_price": 0.86,
    "shadow": {}
   }
  ],
@@ -8293,6 +8293,27 @@
    "pnl": 0.13,
    "result": "NO",
    "closed_ts": 1793547924,
+   "won": true
+  },
+  {
+   "id": 306,
+   "ticker": "KXTRUMPACT-26OCT25-T2",
+   "event_ticker": "KXTRUMPACT-26OCT25",
+   "series": "KXTRUMPACT",
+   "label": "Will there be at least 2 presidential actions in the week of Oct 25, 2026? \u2014 At least 2",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793451624,
+   "close_ts": 1793545200.0,
+   "score": 0.6347,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793549726,
    "won": true
   }
  ],
@@ -19026,90 +19047,102 @@
    1793548825,
    95.79,
    90.36
+  ],
+  [
+   1793549726,
+   96.02,
+   91.03
   ]
  ],
  "last_run": {
-  "ts": 1793548825,
+  "ts": 1793549726,
   "error": null,
   "markets_scanned": 3293,
-  "candidates": 20,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 3200,
-   "no favorite in 80-95c band": 59,
-   "spread too wide": 14
+   "too little volume": 3194,
+   "no favorite in 80-95c band": 62,
+   "spread too wide": 12,
+   "favorite is slipping fast": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   329
+  ],
+  "settled": [
+   306
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will Trump say \"Zohran / Mamdani\" before Nov 2, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.74,
+    "volume_24h": 3485.71,
+    "score": 0.6187
+   },
    {
     "label": "Will Trump say \"Cybersecurity / Cyber Security\" before Nov 2, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 1871.32,
-    "score": 0.6179
+    "score": 0.6185
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.98,
-    "volume_24h": 1033.84,
-    "score": 0.5618
+    "hours_to_close": 25.73,
+    "volume_24h": 3033.84,
+    "score": 0.5974
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 27.49,
-    "volume_24h": 1094.27,
-    "score": 0.5607
+    "price": 0.89,
+    "hours_to_close": 25.73,
+    "volume_24h": 3367.49,
+    "score": 0.5707
    },
    {
     "label": "Angers wins",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 27.74,
-    "volume_24h": 2011.71,
-    "score": 0.55
+    "hours_to_close": 27.49,
+    "volume_24h": 3357.08,
+    "score": 0.5672
+   },
+   {
+    "label": "Will the Reserve Bank of Australia hike 1-25bps at the November Monetary Policy Board meeting? \u2014 Hike 1-25bps",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 35.23,
+    "volume_24h": 1348.55,
+    "score": 0.5657
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.24,
+    "volume_24h": 1094.27,
+    "score": 0.5611
    },
    {
     "label": "Will Trump say \"Golden Dome\" before Nov 2, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.99,
-    "volume_24h": 738.23,
-    "score": 0.5376
-   },
-   {
-    "label": "Will the Reserve Bank of Australia maintain the current rate at the November Monetary Policy Board meeting? \u2014 Maintain current rate",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.48,
-    "volume_24h": 949.29,
-    "score": 0.514
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Nov 2, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.98,
-    "volume_24h": 213.5,
-    "score": 0.5105
-   },
-   {
-    "label": "Will Trump say \"Zohran / Mamdani\" before Nov 2, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.99,
-    "volume_24h": 3192.33,
-    "score": 0.5052
+    "hours_to_close": 22.74,
+    "volume_24h": 809.9,
+    "score": 0.5412
    }
   ],
-  "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 2,
+  "skipped": {
+   "related-market cap (Presidential approval)": 3
+  },
+  "watch_added": 2,
+  "watch_graded": 1,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

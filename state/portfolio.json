@@ -284,7 +284,7 @@
    "opened_ts": 1793503826,
    "close_ts": 1793599200.0,
    "score": 0.6067,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -352,7 +352,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.91,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -409,7 +409,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793648700.0,
    "score": 0.6155,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -19145,92 +19145,97 @@
    1793555124,
    96.67,
    87.91
+  ],
+  [
+   1793556026,
+   96.67,
+   87.79
   ]
  ],
  "last_run": {
-  "ts": 1793555124,
+  "ts": 1793556026,
   "error": null,
-  "markets_scanned": 3691,
-  "candidates": 31,
+  "markets_scanned": 3811,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 3367,
-   "no favorite in 80-95c band": 256,
-   "spread too wide": 36,
-   "nothing for sale at the ask": 1
+   "too little volume": 3458,
+   "no favorite in 80-95c band": 278,
+   "spread too wide": 38,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Lyon wins by more than 2.5 goals?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 25.99,
-    "volume_24h": 6316.25,
-    "score": 0.6107
+    "label": "Lyon wins by more than 1.5 goals?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 25.74,
+    "volume_24h": 33752.7,
+    "score": 0.6562
    },
    {
-    "label": "Tie is the result",
+    "label": "Both Teams To Score",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.99,
-    "volume_24h": 56615.66,
-    "score": 0.6056
+    "price": 0.93,
+    "hours_to_close": 25.74,
+    "volume_24h": 9098.18,
+    "score": 0.6431
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.23,
-    "volume_24h": 4014.52,
-    "score": 0.6012
+    "hours_to_close": 34.98,
+    "volume_24h": 4010.1,
+    "score": 0.6015
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 3034.04,
-    "score": 0.6006
+    "score": 0.6012
    },
    {
-    "label": "Lyon wins",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 25.99,
-    "volume_24h": 434616.83,
-    "score": 0.5856
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.98,
+    "volume_24h": 3421.49,
+    "score": 0.5851
    },
    {
     "label": "Will it rain in West Palm Beach on Nov 2, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.24,
-    "volume_24h": 1317.13,
-    "score": 0.5749
+    "hours_to_close": 34.99,
+    "volume_24h": 1323.52,
+    "score": 0.5754
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 1115.16,
-    "score": 0.5647
+    "score": 0.5653
    },
    {
-    "label": "Will Monster Energy Drinks Point of Sale Growth for October 2026 be above 104 ? \u2014 Above 104",
+    "label": "Will Nobody Wants This: Season 3 be #2 Global Netflix Show on Nov 2, 2026?",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 35.23,
-    "volume_24h": 4186.61,
-    "score": 0.5626
+    "price": 0.95,
+    "hours_to_close": 34.98,
+    "volume_24h": 643.63,
+    "score": 0.5619
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 8,
+  "watch_graded": 6,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 14.53,
- "fees_paid": 7.91,
+ "cash": 14.97,
+ "fees_paid": 7.95,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 322,
+ "next_id": 323,
  "open_positions": [
   {
    "id": 264,
@@ -146,7 +146,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -214,7 +214,7 @@
    "opened_ts": 1793457025,
    "close_ts": 1793541600.0,
    "score": 0.3705,
-   "mark_price": 0.62,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1793498426,
@@ -381,19 +381,19 @@
    "shadow": {}
   },
   {
-   "id": 321,
-   "ticker": "KXNCAAFGAME-26OCT30MIAUNC-MIA",
-   "event_ticker": "KXNCAAFGAME-26OCT30MIAUNC",
-   "series": "KXNCAAFGAME",
-   "label": "Miami (FL) wins",
+   "id": 322,
+   "ticker": "KXRAIN-26NOV01-ATL",
+   "event_ticker": "KXRAIN-26NOV01",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Nov 1, 2026?",
    "side": "yes",
    "contracts": 6,
    "price": 0.92,
    "fee": 0.04,
    "cost": 5.56,
-   "opened_ts": 1793502024,
-   "close_ts": 1793577600.0,
-   "score": 0.6478,
+   "opened_ts": 1793502926,
+   "close_ts": 1793595600.0,
+   "score": 0.615,
    "mark_price": 0.91,
    "shadow": {}
   }
@@ -8135,6 +8135,27 @@
    "pnl": 0.5,
    "result": "YES",
    "closed_ts": 1793502024,
+   "won": true
+  },
+  {
+   "id": 321,
+   "ticker": "KXNCAAFGAME-26OCT30MIAUNC-MIA",
+   "event_ticker": "KXNCAAFGAME-26OCT30MIAUNC",
+   "series": "KXNCAAFGAME",
+   "label": "Miami (FL) wins",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793502024,
+   "close_ts": 1793577600.0,
+   "score": 0.6478,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "YES",
+   "closed_ts": 1793502926,
    "won": true
   }
  ],
@@ -18608,93 +18629,98 @@
    1793502024,
    93.82,
    90.57
+  ],
+  [
+   1793502926,
+   94.26,
+   91.49
   ]
  ],
  "last_run": {
-  "ts": 1793502024,
+  "ts": 1793502926,
   "error": null,
-  "markets_scanned": 2223,
-  "candidates": 56,
+  "markets_scanned": 2217,
+  "candidates": 55,
   "rejections": {
-   "too little volume": 1886,
-   "no favorite in 80-95c band": 257,
-   "spread too wide": 24
+   "too little volume": 1884,
+   "no favorite in 80-95c band": 256,
+   "spread too wide": 22
   },
   "opened": [
-   321
+   322
   ],
   "settled": [
-   317
+   321
   ],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.74,
+    "volume_24h": 6811.91,
+    "score": 0.6724
+   },
+   {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 17929.23,
-    "score": 0.664
+    "hours_to_close": 18.74,
+    "volume_24h": 17999.1,
+    "score": 0.6649
    },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 13823.24,
-    "score": 0.664
+    "hours_to_close": 18.74,
+    "volume_24h": 15221.46,
+    "score": 0.6649
    },
    {
-    "label": "Miami (FL) wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 20.99,
-    "volume_24h": 3931227.1,
-    "score": 0.6478
+    "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 14.73,
+    "volume_24h": 11952.76,
+    "score": 0.6413
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.98,
+    "hours_to_close": 25.73,
     "volume_24h": 2999.4,
-    "score": 0.6265
+    "score": 0.627
    },
    {
     "label": "Will it rain in Atlanta on Nov 1, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 5229.77,
-    "score": 0.6145
+    "score": 0.615
    },
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 18.99,
-    "volume_24h": 8163.32,
+    "label": "Will it rain in Albuquerque on Nov 1, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 27.74,
+    "volume_24h": 1857.72,
     "score": 0.6074
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 26.99,
-    "volume_24h": 2171.21,
-    "score": 0.6039
-   },
-   {
-    "label": "North Carolina wins",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.99,
-    "volume_24h": 6143603.09,
-    "score": 0.5878
+    "hours_to_close": 26.74,
+    "volume_24h": 2292.03,
+    "score": 0.6062
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 2
+   "related-market cap (Crypto)": 3
   },
   "watch_added": 5,
   "watch_graded": 0,

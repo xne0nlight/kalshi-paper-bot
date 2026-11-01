@@ -43466,7 +43466,7 @@
    "series": "KXRAIN",
    "seen_ts": 1793386826,
    "close_ts": 1793516400.0,
-   "won": null,
+   "won": false,
    "vol24": 660,
    "spread": 0.01,
    "group": null,
@@ -44460,7 +44460,7 @@
    "series": "KXTRUTHSOCIAL",
    "seen_ts": 1793412026,
    "close_ts": 1793541540.0,
-   "won": null,
+   "won": false,
    "vol24": 6210,
    "spread": 0.01,
    "group": null,
@@ -44502,7 +44502,7 @@
    "series": "KXTRUTHSOCIAL",
    "seen_ts": 1793414725,
    "close_ts": 1793541540.0,
-   "won": null,
+   "won": true,
    "vol24": 4855,
    "spread": 0.01,
    "group": null,
@@ -48018,7 +48018,7 @@
    "group": "Crypto",
    "label": "Will Trump say \"Crypto / Bitcoin\" before Nov 2, 2026?",
    "last_price": 0.95,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXTRUMPSAY-26NOV02-CYBE": {
    "side": "no",
@@ -48046,7 +48046,7 @@
    "group": null,
    "label": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
    "last_price": 0.95,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXTRUMPSAY-26NOV02-AUTO": {
    "side": "no",
@@ -48101,8 +48101,8 @@
    "spread": 0.02,
    "group": null,
    "label": "Will \"Thriller\" rank No. 16\u201320 on Billboard Hot 100? \u2014 Rank 16 to 20",
-   "last_price": 0.86,
-   "last_ts": 1793540725
+   "last_price": 0.88,
+   "last_ts": 1793541626
   },
   "KXBBSINGLE-26NOV07THR-21T30": {
    "side": "no",
@@ -48116,7 +48116,7 @@
    "group": null,
    "label": "Will \"Thriller\" rank No. 21\u201330 on Billboard Hot 100? \u2014 Rank 21 to 30",
    "last_price": 0.9,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXHIGHTSEA-26NOV01-T52": {
    "side": "no",
@@ -48144,7 +48144,7 @@
    "group": null,
    "label": "Will Trump say \"Ranked Choice / Ranked-Choice\" before Nov 2, 2026?",
    "last_price": 0.84,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXTRUMPSAY-26NOV02-ZOHR": {
    "side": "no",
@@ -48434,7 +48434,7 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
    "last_price": 0.92,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXHIGHTPHX-26NOV01-B68.5": {
    "side": "no",
@@ -48462,7 +48462,7 @@
    "group": null,
    "label": "Angers wins",
    "last_price": 0.89,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXLOWTOKC-26NOV01-T58": {
    "side": "yes",
@@ -48560,7 +48560,7 @@
    "group": "Stock indexes",
    "label": "Will the S&P 500 be above 7699.9999 on Nov 2, 2026 at 4pm EST? \u2014 7,700 or above",
    "last_price": 0.81,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXCHIPBURRITO-26NOV02-T9.84": {
    "side": "yes",
@@ -48614,7 +48614,7 @@
    "group": "Precious metals",
    "label": "Will the gold close price be above 3794 USD/t.oz on November 02, 2026 at 5:00 PM EST? \u2014 Above $3794",
    "last_price": 0.94,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXGOLDD-26NOV0217-T3844": {
    "side": "yes",
@@ -48628,7 +48628,7 @@
    "group": "Precious metals",
    "label": "Will the gold close price be above 3844 USD/t.oz on November 02, 2026 at 5:00 PM EST? \u2014 Above $3844",
    "last_price": 0.8,
-   "last_ts": 1793531725
+   "last_ts": 1793541626
   },
   "KXWTI-26NOV0214-T100.49": {
    "side": "yes",
@@ -48642,7 +48642,7 @@
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Nov 2, 2026? \u2014 Above $100.49",
    "last_price": 0.85,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXWTI-26NOV0214-T104.99": {
    "side": "no",
@@ -48670,7 +48670,7 @@
    "group": null,
    "label": "Will Trump say \"Marijuana / Weed / Cannabis\" before Nov 2, 2026?",
    "last_price": 0.95,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
   },
   "KXLIGUE1GAME-26OCT31OLANG-TIE": {
    "side": "no",
@@ -48684,7 +48684,19 @@
    "group": null,
    "label": "Tie is the result",
    "last_price": 0.82,
-   "last_ts": 1793540725
+   "last_ts": 1793541626
+  },
+  "KXUST10AD-26NOV02-T4.99": {
+   "side": "no",
+   "price": 0.87,
+   "series": "KXUST10AD",
+   "seen_ts": 1793541626,
+   "close_ts": 1793651400.0,
+   "won": null,
+   "vol24": 692,
+   "spread": 0.01,
+   "group": null,
+   "label": "Will the 10Y U.S. Treasury yield be above 4.99% on Nov 2, 2026? \u2014 5% or above"
   }
  }
 }

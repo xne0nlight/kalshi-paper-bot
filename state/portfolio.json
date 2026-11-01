@@ -252,7 +252,7 @@
    "opened_ts": 1793458824,
    "close_ts": 1793545200.0,
    "score": 0.5184,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793481324,
    "close_ts": 1793555940.0,
    "score": 0.6234,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -360,7 +360,7 @@
    "opened_ts": 1793490325,
    "close_ts": 1793599200.0,
    "score": 0.601,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -18760,17 +18760,22 @@
    1793521825,
    94.76,
    90.9
+  ],
+  [
+   1793522725,
+   94.76,
+   90.94
   ]
  ],
  "last_run": {
-  "ts": 1793521825,
+  "ts": 1793522725,
   "error": null,
   "markets_scanned": 4650,
   "candidates": 52,
   "rejections": {
-   "too little volume": 4246,
-   "no favorite in 80-95c band": 314,
-   "spread too wide": 37,
+   "too little volume": 4247,
+   "no favorite in 80-95c band": 310,
+   "spread too wide": 40,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -18778,72 +18783,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 13.24,
+    "volume_24h": 57419.49,
+    "score": 0.7091
+   },
+   {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 13.24,
+    "volume_24h": 58332.62,
+    "score": 0.6891
+   },
+   {
     "label": "Will average **gas prices** be above $4.1700? \u2014 Above 4.1700",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 83634.86,
-    "score": 0.6793
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 64028.55,
-    "score": 0.6777
-   },
-   {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 56908.23,
-    "score": 0.6777
-   },
-   {
-    "label": "Will it rain in Chicago on Nov 1, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 15396.55,
-    "score": 0.6764
+    "hours_to_close": 20.23,
+    "volume_24h": 83727.58,
+    "score": 0.6801
    },
    {
     "label": "Ethereum price at Nov 1, 2026 at 5pm EST? \u2014 $2,240 or above",
     "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 13.24,
+    "volume_24h": 6930.36,
+    "score": 0.6772
+   },
+   {
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,250 or above",
+    "side": "yes",
     "price": 0.9,
-    "hours_to_close": 13.49,
-    "volume_24h": 6180.19,
-    "score": 0.6421
+    "hours_to_close": 13.24,
+    "volume_24h": 46395.23,
+    "score": 0.6591
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 3019.0,
-    "score": 0.6403
+    "hours_to_close": 20.23,
+    "volume_24h": 3038.85,
+    "score": 0.6413
    },
    {
     "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.49,
+    "hours_to_close": 21.24,
     "volume_24h": 3047.08,
-    "score": 0.6377
+    "score": 0.6384
    },
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $77,250 or above",
-    "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 13.49,
-    "volume_24h": 45307.46,
-    "score": 0.6177
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 13.24,
+    "volume_24h": 64030.55,
+    "score": 0.6291
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 44
  },

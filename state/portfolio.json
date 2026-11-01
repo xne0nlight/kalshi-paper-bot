@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 18.36,
- "fees_paid": 7.81,
+ "cash": 14.59,
+ "fees_paid": 7.83,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 319,
+ "next_id": 320,
  "open_positions": [
   {
    "id": 264,
@@ -63,44 +63,6 @@
    "score": 0.6006,
    "mark_price": 0.95,
    "shadow": {}
-  },
-  {
-   "id": 294,
-   "ticker": "KXSKEXPYOY-26NOV01-T95.0",
-   "event_ticker": "KXSKEXPYOY-26NOV01",
-   "series": "KXSKEXPYOY",
-   "label": "Will South Korea exports YoY for October 2026 be above 95.0%? \u2014 Above 95.0%",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.92,
-   "fee": 0.01,
-   "cost": 0.93,
-   "opened_ts": 1793367026,
-   "close_ts": 1793491140.0,
-   "score": 0.5209,
-   "mark_price": 0.07,
-   "shadow": {
-    "10": {
-     "ts": 1793367925,
-     "bid": 0.58,
-     "proceeds": 0.56
-    },
-    "15": {
-     "ts": 1793367925,
-     "bid": 0.58,
-     "proceeds": 0.56
-    },
-    "20": {
-     "ts": 1793367925,
-     "bid": 0.58,
-     "proceeds": 0.56
-    },
-    "30": {
-     "ts": 1793367925,
-     "bid": 0.58,
-     "proceeds": 0.56
-    }
-   }
   },
   {
    "id": 297,
@@ -184,7 +146,7 @@
    "opened_ts": 1793394926,
    "close_ts": 1793509200.0,
    "score": 0.5577,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -326,7 +288,7 @@
    "opened_ts": 1793469624,
    "close_ts": 1793595540.0,
    "score": 0.6094,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -360,7 +322,7 @@
    "opened_ts": 1793482226,
    "close_ts": 1793570400.0,
    "score": 0.5879,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -377,7 +339,7 @@
    "opened_ts": 1793487626,
    "close_ts": 1793577600.0,
    "score": 0.6278,
-   "mark_price": 0.94,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -395,6 +357,23 @@
    "close_ts": 1793599200.0,
    "score": 0.601,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 319,
+   "ticker": "KXNCAAFGAME-26OCT30APPGASO-GASO",
+   "event_ticker": "KXNCAAFGAME-26OCT30APPGASO",
+   "series": "KXNCAAFGAME",
+   "label": "Georgia Southern wins",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793494824,
+   "close_ts": 1793577600.0,
+   "score": 0.6724,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -8051,6 +8030,48 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793490325,
+   "won": true
+  },
+  {
+   "id": 294,
+   "ticker": "KXSKEXPYOY-26NOV01-T95.0",
+   "event_ticker": "KXSKEXPYOY-26NOV01",
+   "series": "KXSKEXPYOY",
+   "label": "Will South Korea exports YoY for October 2026 be above 95.0%? \u2014 Above 95.0%",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.92,
+   "fee": 0.01,
+   "cost": 0.93,
+   "opened_ts": 1793367026,
+   "close_ts": 1793491140.0,
+   "score": 0.5209,
+   "shadow": {
+    "10": {
+     "ts": 1793367925,
+     "bid": 0.58,
+     "proceeds": 0.56
+    },
+    "15": {
+     "ts": 1793367925,
+     "bid": 0.58,
+     "proceeds": 0.56
+    },
+    "20": {
+     "ts": 1793367925,
+     "bid": 0.58,
+     "proceeds": 0.56
+    },
+    "30": {
+     "ts": 1793367925,
+     "bid": 0.58,
+     "proceeds": 0.56
+    }
+   },
+   "payout": 1.0,
+   "pnl": 0.07,
+   "result": "NO",
+   "closed_ts": 1793494824,
    "won": true
   }
  ],
@@ -18479,92 +18500,100 @@
    1793493927,
    93.02,
    89.38
+  ],
+  [
+   1793494824,
+   93.09,
+   90.45
   ]
  ],
  "last_run": {
-  "ts": 1793493927,
+  "ts": 1793494824,
   "error": null,
-  "markets_scanned": 1539,
-  "candidates": 65,
+  "markets_scanned": 1544,
+  "candidates": 51,
   "rejections": {
-   "too little volume": 1255,
-   "no favorite in 80-95c band": 202,
-   "spread too wide": 14,
-   "nothing for sale at the ask": 2,
-   "favorite is slipping fast": 1
+   "too little volume": 1259,
+   "no favorite in 80-95c band": 210,
+   "spread too wide": 23,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   319
+  ],
+  "settled": [
+   294
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Georgia Southern wins",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 22.99,
+    "volume_24h": 92914.03,
+    "score": 0.6724
+   },
+   {
+    "label": "Appalachian St. wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.99,
+    "volume_24h": 297055.93,
+    "score": 0.6724
+   },
    {
     "label": "Bitcoin price on Nov 1, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 16075.04,
-    "score": 0.6671
+    "score": 0.6678
    },
    {
-    "label": "Pittsburgh wins",
+    "label": "Missouri wins",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.24,
-    "volume_24h": 324793.57,
-    "score": 0.6618
+    "hours_to_close": 22.99,
+    "volume_24h": 343551.13,
+    "score": 0.6624
    },
    {
-    "label": "Georgia Tech wins",
+    "label": "Arkansas wins",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.24,
-    "volume_24h": 142453.61,
-    "score": 0.6618
+    "hours_to_close": 22.99,
+    "volume_24h": 348762.1,
+    "score": 0.6624
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.5 on Nov 1, 2026? \u2014 38.5%",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 17.23,
-    "volume_24h": 11003.22,
-    "score": 0.6504
+    "hours_to_close": 16.98,
+    "volume_24h": 11048.11,
+    "score": 0.6514
    },
    {
-    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,500 or above",
+    "label": "Bitcoin price on Nov 1, 2026? \u2014 $76,250 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 21.24,
-    "volume_24h": 9802.2,
-    "score": 0.6264
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 1922.66,
+    "score": 0.6241
    },
    {
     "label": "Will Diesel Price on November 2, 2026 be above $6.28? \u2014 Above $6.28",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.23,
+    "hours_to_close": 27.98,
     "volume_24h": 2982.77,
-    "score": 0.622
-   },
-   {
-    "label": "Georgia Southern wins",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.24,
-    "volume_24h": 88858.47,
-    "score": 0.6218
-   },
-   {
-    "label": "Appalachian St. wins",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.24,
-    "volume_24h": 281585.75,
-    "score": 0.6218
+    "score": 0.6224
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

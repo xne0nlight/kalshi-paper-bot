@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.87,
- "fees_paid": 8.19,
+ "cash": 9.8,
+ "fees_paid": 8.28,
  "peak_equity": 109.65,
  "day": "2026-11-01",
  "day_start_equity": 93.02,
- "next_id": 332,
+ "next_id": 335,
  "open_positions": [
   {
    "id": 264,
@@ -161,7 +161,7 @@
    "opened_ts": 1793466926,
    "close_ts": 1793595540.0,
    "score": 0.5432,
-   "mark_price": 0.19,
+   "mark_price": 0.14,
    "shadow": {
     "10": {
      "ts": 1793555124,
@@ -200,23 +200,6 @@
    "close_ts": 1793595540.0,
    "score": 0.6094,
    "mark_price": 0.98,
-   "shadow": {}
-  },
-  {
-   "id": 315,
-   "ticker": "KXTRUMPAPPROVE-26NOV01-U38.1",
-   "event_ticker": "KXTRUMPAPPROVE-26NOV01",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be below 38.1 on Nov 1, 2026? \u2014 Below 38.1%",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793481324,
-   "close_ts": 1793555940.0,
-   "score": 0.6234,
-   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -352,7 +335,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.85,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -360,23 +343,6 @@
      "proceeds": 4.79
     }
    }
-  },
-  {
-   "id": 328,
-   "ticker": "KXLIGUE1GAME-26OCT31OLANG-ANG",
-   "event_ticker": "KXLIGUE1GAME-26OCT31OLANG",
-   "series": "KXLIGUE1GAME",
-   "label": "Angers wins",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.89,
-   "fee": 0.01,
-   "cost": 0.9,
-   "opened_ts": 1793547924,
-   "close_ts": 1793648700.0,
-   "score": 0.5458,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 329,
@@ -396,23 +362,6 @@
    "shadow": {}
   },
   {
-   "id": 330,
-   "ticker": "KXLIGUE1TOTAL-26OCT31OLANG-5",
-   "event_ticker": "KXLIGUE1TOTAL-26OCT31OLANG",
-   "series": "KXLIGUE1TOTAL",
-   "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1793553328,
-   "close_ts": 1793648700.0,
-   "score": 0.6155,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 331,
    "ticker": "KXDWTSELIMINATION-26NOV03-MHIG",
    "event_ticker": "KXDWTSELIMINATION-26NOV03",
@@ -427,6 +376,57 @@
    "close_ts": 1793681940.0,
    "score": 0.6006,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 332,
+   "ticker": "KXTRUMPAPPROVE-26NOV02-E39.0",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV02",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793556925,
+   "close_ts": 1793642340.0,
+   "score": 0.602,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 333,
+   "ticker": "KXMONSTERPOS-26NOV03-T104",
+   "event_ticker": "KXMONSTERPOS-26NOV03",
+   "series": "KXMONSTERPOS",
+   "label": "Will Monster Energy Drinks Point of Sale Growth for October 2026 be above 104 ? \u2014 Above 104",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793556925,
+   "close_ts": 1793681940.0,
+   "score": 0.5942,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 334,
+   "ticker": "KXRAIN-26NOV02-WPB",
+   "event_ticker": "KXRAIN-26NOV02",
+   "series": "KXRAIN",
+   "label": "Will it rain in West Palm Beach on Nov 2, 2026?",
+   "side": "yes",
+   "contracts": 1,
+   "price": 0.94,
+   "fee": 0.01,
+   "cost": 0.95,
+   "opened_ts": 1793556925,
+   "close_ts": 1793682000.0,
+   "score": 0.5757,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -8377,6 +8377,69 @@
    "pnl": 0.23,
    "result": "NO",
    "closed_ts": 1793553328,
+   "won": true
+  },
+  {
+   "id": 315,
+   "ticker": "KXTRUMPAPPROVE-26NOV01-U38.1",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV01",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be below 38.1 on Nov 1, 2026? \u2014 Below 38.1%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793481324,
+   "close_ts": 1793555940.0,
+   "score": 0.6234,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793556925,
+   "won": true
+  },
+  {
+   "id": 328,
+   "ticker": "KXLIGUE1GAME-26OCT31OLANG-ANG",
+   "event_ticker": "KXLIGUE1GAME-26OCT31OLANG",
+   "series": "KXLIGUE1GAME",
+   "label": "Angers wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.89,
+   "fee": 0.01,
+   "cost": 0.9,
+   "opened_ts": 1793547924,
+   "close_ts": 1793648700.0,
+   "score": 0.5458,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.1,
+   "result": "NO",
+   "closed_ts": 1793556925,
+   "won": true
+  },
+  {
+   "id": 330,
+   "ticker": "KXLIGUE1TOTAL-26OCT31OLANG-5",
+   "event_ticker": "KXLIGUE1TOTAL-26OCT31OLANG",
+   "series": "KXLIGUE1TOTAL",
+   "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793553328,
+   "close_ts": 1793648700.0,
+   "score": 0.6155,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "NO",
+   "closed_ts": 1793556925,
    "won": true
   }
  ],
@@ -19150,92 +19213,105 @@
    1793556026,
    96.67,
    87.79
+  ],
+  [
+   1793556925,
+   97.39,
+   87.8
   ]
  ],
  "last_run": {
-  "ts": 1793556026,
+  "ts": 1793556925,
   "error": null,
-  "markets_scanned": 3811,
-  "candidates": 35,
+  "markets_scanned": 3796,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 3458,
-   "no favorite in 80-95c band": 278,
-   "spread too wide": 38,
-   "nothing for sale at the ask": 2
+   "too little volume": 3456,
+   "no favorite in 80-95c band": 265,
+   "spread too wide": 40,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   332,
+   333,
+   334
+  ],
+  "settled": [
+   315,
+   328,
+   330
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Lyon wins by more than 1.5 goals?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 25.74,
-    "volume_24h": 33752.7,
-    "score": 0.6562
-   },
-   {
-    "label": "Both Teams To Score",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.74,
-    "volume_24h": 9098.18,
-    "score": 0.6431
+    "price": 0.92,
+    "hours_to_close": 23.73,
+    "volume_24h": 3053.93,
+    "score": 0.602
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.98,
+    "hours_to_close": 34.73,
     "volume_24h": 4010.1,
-    "score": 0.6015
+    "score": 0.6018
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
-    "side": "no",
+    "label": "Will Monster Energy Drinks Point of Sale Growth for October 2026 be above 104 ? \u2014 Above 104",
+    "side": "yes",
     "price": 0.92,
-    "hours_to_close": 23.98,
-    "volume_24h": 3034.04,
-    "score": 0.6012
+    "hours_to_close": 34.73,
+    "volume_24h": 4313.26,
+    "score": 0.5942
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.98,
-    "volume_24h": 3421.49,
-    "score": 0.5851
+    "hours_to_close": 23.73,
+    "volume_24h": 3445.38,
+    "score": 0.5859
    },
    {
     "label": "Will it rain in West Palm Beach on Nov 2, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 1323.52,
-    "score": 0.5754
+    "score": 0.5757
+   },
+   {
+    "label": "Will the Reserve Bank of Australia maintain the current rate at the November Monetary Policy Board meeting? \u2014 Maintain current rate",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.23,
+    "volume_24h": 1064.14,
+    "score": 0.5706
    },
    {
     "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 25.49,
+    "hours_to_close": 25.24,
     "volume_24h": 1115.16,
-    "score": 0.5653
+    "score": 0.5658
    },
    {
-    "label": "Will Nobody Wants This: Season 3 be #2 Global Netflix Show on Nov 2, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 34.98,
-    "volume_24h": 643.63,
-    "score": 0.5619
+    "label": "Will the maximum temperature be 84-85\u00b0 on Nov 2, 2026? \u2014 84\u00b0 to 85\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.74,
+    "volume_24h": 775.18,
+    "score": 0.5571
    }
   ],
   "skipped": {},
-  "watch_added": 8,
-  "watch_graded": 6,
-  "api_calls": 43
+  "watch_added": 1,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

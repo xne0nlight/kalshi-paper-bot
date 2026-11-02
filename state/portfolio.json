@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.192,
- "fees_paid": 8.56,
+ "cash": 13.702,
+ "fees_paid": 8.6,
  "peak_equity": 109.65,
  "day": "2026-11-02",
  "day_start_equity": 98.92,
- "next_id": 345,
+ "next_id": 347,
  "open_positions": [
   {
    "id": 284,
@@ -157,7 +157,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -219,7 +219,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -297,7 +297,7 @@
    "opened_ts": 1793621725,
    "close_ts": 1793714400.0,
    "score": 0.6223,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -348,7 +348,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -365,7 +365,41 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 345,
+   "ticker": "KXRAINELECTION-03NOV26-SGF",
+   "event_ticker": "KXRAINELECTION-03NOV26",
+   "series": "KXRAINELECTION",
+   "label": "Will it rain in Springfield, MO on Election Day?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793642426,
+   "close_ts": 1793771940.0,
+   "score": 0.5127,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 346,
+   "ticker": "KXHIGHPHIL-26NOV03-B73.5",
+   "event_ticker": "KXHIGHPHIL-26NOV03",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 3, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793642426,
+   "close_ts": 1793772000.0,
+   "score": 0.4411,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -19974,19 +20008,27 @@
    1793641528,
    101.35,
    100.222
+  ],
+  [
+   1793642426,
+   101.35,
+   99.922
   ]
  ],
  "last_run": {
-  "ts": 1793641528,
+  "ts": 1793642426,
   "error": null,
-  "markets_scanned": 407,
-  "candidates": 7,
+  "markets_scanned": 547,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 354,
-   "no favorite in 80-95c band": 36,
-   "spread too wide": 10
+   "too little volume": 462,
+   "no favorite in 80-95c band": 53,
+   "spread too wide": 12
   },
-  "opened": [],
+  "opened": [
+   345,
+   346
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -19994,63 +20036,72 @@
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 3190.12,
-    "score": 0.629
+    "score": 0.6295
    },
    {
-    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
-    "side": "yes",
+    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
+    "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.74,
-    "volume_24h": 1869.43,
-    "score": 0.5616
+    "hours_to_close": 25.49,
+    "volume_24h": 10222.62,
+    "score": 0.6167
    },
    {
     "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
-    "price": 0.939,
-    "hours_to_close": 35.23,
-    "volume_24h": 14225.96,
-    "score": 0.5449
-   },
-   {
-    "label": "Will it rain in Atlanta on Nov 3, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.24,
-    "volume_24h": 637.09,
-    "score": 0.5313
+    "price": 0.938,
+    "hours_to_close": 34.98,
+    "volume_24h": 11597.97,
+    "score": 0.5992
    },
    {
     "label": "Will it rain in Lexington on Nov 3, 2026?",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.24,
+    "price": 0.93,
+    "hours_to_close": 34.99,
     "volume_24h": 472.26,
-    "score": 0.4916
+    "score": 0.5319
+   },
+   {
+    "label": "Will it rain in Springfield, MO on Election Day?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.98,
+    "volume_24h": 684.0,
+    "score": 0.5127
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Nov 3, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 35.99,
+    "volume_24h": 272.81,
+    "score": 0.5028
    },
    {
     "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 25.74,
+    "price": 0.92,
+    "hours_to_close": 25.49,
     "volume_24h": 635.05,
-    "score": 0.4764
+    "score": 0.4969
    },
    {
-    "label": "Will it rain in Miami on Nov 3, 2026?",
+    "label": "Will the WTI front-month settle oil price  be >90.99 on Nov 3, 2026? \u2014 $91 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 35.24,
-    "volume_24h": 331.05,
-    "score": 0.38
+    "price": 0.95,
+    "hours_to_close": 25.49,
+    "volume_24h": 230.13,
+    "score": 0.494
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3
+   "related-market cap (Oil prices)": 6,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 0,
+  "watch_added": 11,
   "watch_graded": 0,
   "api_calls": 42
  },

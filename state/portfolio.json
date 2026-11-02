@@ -112,7 +112,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.88,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -140,7 +140,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -157,7 +157,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -174,7 +174,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -274,7 +274,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -312,7 +312,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -19887,86 +19887,98 @@
    1793633432,
    100.75,
    96.9
+  ],
+  [
+   1793634325,
+   100.75,
+   96.79
   ]
  ],
  "last_run": {
-  "ts": 1793633432,
+  "ts": 1793634325,
   "error": null,
   "markets_scanned": 735,
-  "candidates": 7,
+  "candidates": 10,
   "rejections": {
    "too little volume": 604,
    "no favorite in 80-95c band": 110,
-   "spread too wide": 13,
-   "favorite is slipping fast": 1
+   "spread too wide": 11
   },
   "opened": [],
-  "settled": [
-   342
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 22.49,
+    "hours_to_close": 22.24,
     "volume_24h": 4799.0,
-    "score": 0.6298
+    "score": 0.6304
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 3, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 629.05,
-    "score": 0.5717
+    "score": 0.5722
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Nov 3, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 417.0,
-    "score": 0.5584
+    "score": 0.5588
    },
    {
     "label": "Will there be more than 310 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 310",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 22.49,
-    "volume_24h": 500.0,
-    "score": 0.5362
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 27.99,
-    "volume_24h": 484.79,
-    "score": 0.5133
+    "hours_to_close": 22.24,
+    "volume_24h": 500.01,
+    "score": 0.5368
    },
    {
     "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 1543.54,
-    "score": 0.4809
+    "score": 0.4814
    },
    {
-    "label": "Will there be more than 280 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 280",
-    "side": "yes",
-    "price": 0.8,
-    "hours_to_close": 22.49,
-    "volume_24h": 2644.88,
-    "score": 0.3804
+    "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 27.74,
+    "volume_24h": 2920.05,
+    "score": 0.4722
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 27.74,
+    "volume_24h": 3105.0,
+    "score": 0.4642
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 26.23,
+    "volume_24h": 1920.7,
+    "score": 0.4514
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 4
+   "related-market cap (Oil prices)": 5,
+   "tracked only (below bet price floor)": 1,
+   "related-market cap (Presidential approval)": 1
   },
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

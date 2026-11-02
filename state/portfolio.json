@@ -57,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.9,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -304,7 +304,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.923,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -321,7 +321,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.86,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -338,7 +338,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.77,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -388,7 +388,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.77,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -20200,18 +20200,23 @@
    1793659526,
    102.52,
    99.25
+  ],
+  [
+   1793660425,
+   102.52,
+   99.392
   ]
  ],
  "last_run": {
-  "ts": 1793659526,
+  "ts": 1793660425,
   "error": null,
   "markets_scanned": 3928,
-  "candidates": 48,
+  "candidates": 53,
   "rejections": {
    "too little volume": 3730,
    "no favorite in 80-95c band": 133,
-   "spread too wide": 16,
-   "nothing for sale at the ask": 1
+   "spread too wide": 11,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -20221,69 +20226,69 @@
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $73,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 7056.74,
-    "score": 0.6605
+    "score": 0.6611
+   },
+   {
+    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
+    "side": "no",
+    "price": 0.919,
+    "hours_to_close": 29.98,
+    "volume_24h": 10796.87,
+    "score": 0.6324
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.24,
-    "volume_24h": 2541.88,
-    "score": 0.6072
+    "price": 0.94,
+    "hours_to_close": 22.99,
+    "volume_24h": 3892.47,
+    "score": 0.6317
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.49,
+    "volume_24h": 870.6,
+    "score": 0.5898
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.85,
+    "hours_to_close": 22.99,
+    "volume_24h": 12157.96,
+    "score": 0.5724
    },
    {
     "label": "Will it rain in Springfield on Nov 3, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 859.62,
-    "score": 0.5665
-   },
-   {
-    "label": "Will the maximum temperature be 71-72\u00b0 on Nov 3, 2026? \u2014 71\u00b0 to 72\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.24,
-    "volume_24h": 951.38,
-    "score": 0.5656
+    "score": 0.5669
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 1741.31,
-    "score": 0.5649
+    "score": 0.5655
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 587.87,
-    "score": 0.5627
-   },
-   {
-    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,750 to 76,999.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.24,
-    "volume_24h": 401.91,
-    "score": 0.5572
-   },
-   {
-    "label": "Ethereum price at Nov 3, 2026 at 5pm EST? \u2014 $2,330 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.24,
-    "volume_24h": 1683.0,
-    "score": 0.5538
+    "score": 0.563
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

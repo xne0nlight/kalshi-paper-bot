@@ -85,7 +85,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793654125,
@@ -113,7 +113,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.82,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -213,7 +213,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -304,7 +304,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.931,
+   "mark_price": 0.923,
    "shadow": {}
   },
   {
@@ -338,7 +338,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.8,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -388,8 +388,14 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.87,
-   "shadow": {}
+   "mark_price": 0.77,
+   "shadow": {
+    "10": {
+     "ts": 1793659526,
+     "bid": 0.77,
+     "proceeds": 4.54
+    }
+   }
   },
   {
    "id": 348,
@@ -422,7 +428,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -20189,18 +20195,23 @@
    1793658636,
    102.52,
    99.318
+  ],
+  [
+   1793659526,
+   102.52,
+   99.25
   ]
  ],
  "last_run": {
-  "ts": 1793658636,
+  "ts": 1793659526,
   "error": null,
   "markets_scanned": 3928,
-  "candidates": 41,
+  "candidates": 48,
   "rejections": {
-   "too little volume": 3743,
-   "no favorite in 80-95c band": 129,
-   "spread too wide": 13,
-   "nothing for sale at the ask": 2
+   "too little volume": 3730,
+   "no favorite in 80-95c band": 133,
+   "spread too wide": 16,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -20210,69 +20221,69 @@
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $73,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.49,
-    "volume_24h": 4895.22,
-    "score": 0.648
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 19.47,
-    "volume_24h": 15391.39,
-    "score": 0.6124
+    "hours_to_close": 23.24,
+    "volume_24h": 7056.74,
+    "score": 0.6605
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 23.49,
+    "hours_to_close": 23.24,
     "volume_24h": 2541.88,
-    "score": 0.6066
+    "score": 0.6072
    },
    {
     "label": "Will it rain in Springfield on Nov 3, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 31.49,
+    "hours_to_close": 31.24,
     "volume_24h": 859.62,
-    "score": 0.5661
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.49,
-    "volume_24h": 1741.31,
-    "score": 0.5643
-   },
-   {
-    "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 32.49,
-    "volume_24h": 587.87,
-    "score": 0.5623
+    "score": 0.5665
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Nov 3, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.49,
-    "volume_24h": 856.38,
-    "score": 0.5619
+    "hours_to_close": 34.24,
+    "volume_24h": 951.38,
+    "score": 0.5656
    },
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
-    "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 23.49,
-    "volume_24h": 11016.26,
-    "score": 0.5612
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.24,
+    "volume_24h": 1741.31,
+    "score": 0.5649
+   },
+   {
+    "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.24,
+    "volume_24h": 587.87,
+    "score": 0.5627
+   },
+   {
+    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,750 to 76,999.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.24,
+    "volume_24h": 401.91,
+    "score": 0.5572
+   },
+   {
+    "label": "Ethereum price at Nov 3, 2026 at 5pm EST? \u2014 $2,330 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 23.24,
+    "volume_24h": 1683.0,
+    "score": 0.5538
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 43
  },

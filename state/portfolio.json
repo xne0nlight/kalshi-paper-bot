@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.35,
+ "cash": 20.35,
  "fees_paid": 8.49,
  "peak_equity": 109.65,
  "day": "2026-11-02",
@@ -82,40 +82,6 @@
    "shadow": {}
   },
   {
-   "id": 324,
-   "ticker": "KXRT-MON-35",
-   "event_ticker": "KXRT-MON",
-   "series": "KXRT",
-   "label": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793535325,
-   "close_ts": 1793631600.0,
-   "score": 0.5887,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 325,
-   "ticker": "KXTRUMPSAY-26NOV02-MARI",
-   "event_ticker": "KXTRUMPSAY-26NOV02",
-   "series": "KXTRUMPSAY",
-   "label": "Will Trump say \"Marijuana / Weed / Cannabis\" before Nov 2, 2026?",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793543426,
-   "close_ts": 1793631600.0,
-   "score": 0.5785,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 326,
    "ticker": "KXWTI-26NOV0214-T105.99",
    "event_ticker": "KXWTI-26NOV0214",
@@ -146,7 +112,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.89,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -208,7 +174,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.91,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -246,7 +212,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.81,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -346,7 +312,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -363,7 +329,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.94,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -437,7 +403,7 @@
    "opened_ts": 1793631646,
    "close_ts": 1793736000.0,
    "score": 0.61,
-   "mark_price": 0.93,
+   "mark_price": 0.99,
    "shadow": {}
   }
  ],
@@ -8672,6 +8638,48 @@
    "pnl": 0.05,
    "result": "NO",
    "closed_ts": 1793631646,
+   "won": true
+  },
+  {
+   "id": 324,
+   "ticker": "KXRT-MON-35",
+   "event_ticker": "KXRT-MON",
+   "series": "KXRT",
+   "label": "The Mongoose Rotten Tomatoes score? \u2014 Above 35",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793535325,
+   "close_ts": 1793631600.0,
+   "score": 0.5887,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793632527,
+   "won": true
+  },
+  {
+   "id": 325,
+   "ticker": "KXTRUMPSAY-26NOV02-MARI",
+   "event_ticker": "KXTRUMPSAY-26NOV02",
+   "series": "KXTRUMPSAY",
+   "label": "Will Trump say \"Marijuana / Weed / Cannabis\" before Nov 2, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793543426,
+   "close_ts": 1793631600.0,
+   "score": 0.5785,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "NO",
+   "closed_ts": 1793632527,
    "won": true
   }
  ],
@@ -19865,23 +19873,28 @@
    1793631646,
    100.06,
    95.64
+  ],
+  [
+   1793632527,
+   100.52,
+   96.86
   ]
  ],
  "last_run": {
-  "ts": 1793631646,
+  "ts": 1793632527,
   "error": null,
   "markets_scanned": 747,
-  "candidates": 12,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 610,
-   "no favorite in 80-95c band": 120,
-   "spread too wide": 5
+   "too little volume": 605,
+   "no favorite in 80-95c band": 122,
+   "spread too wide": 10,
+   "favorite is slipping fast": 1
   },
-  "opened": [
-   342
-  ],
+  "opened": [],
   "settled": [
-   318
+   324,
+   325
   ],
   "halt": null,
   "top_candidates": [
@@ -19889,71 +19902,74 @@
     "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 4799.0,
-    "score": 0.6285
-   },
-   {
-    "label": "Tie is the result",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 47604.98,
-    "score": 0.61
+    "score": 0.6292
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 3, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.49,
+    "hours_to_close": 28.24,
     "volume_24h": 626.05,
-    "score": 0.5707
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 28.49,
-    "volume_24h": 1488.93,
-    "score": 0.5589
+    "score": 0.5711
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Nov 3, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.49,
-    "volume_24h": 400.0,
-    "score": 0.5561
+    "hours_to_close": 28.24,
+    "volume_24h": 414.0,
+    "score": 0.5577
    },
    {
     "label": "Will there be more than 310 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 310",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 22.99,
+    "hours_to_close": 22.74,
     "volume_24h": 500.0,
-    "score": 0.5349
+    "score": 0.5356
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 28.24,
+    "volume_24h": 1526.0,
+    "score": 0.5201
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 28.24,
+    "volume_24h": 479.04,
+    "score": 0.5124
    },
    {
     "label": "Will the WTI crude oil settlement price be above 101.99 USD/Bbl on Nov 3, 2026? \u2014 Above $101.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.49,
+    "hours_to_close": 28.24,
     "volume_24h": 367.0,
-    "score": 0.5033
+    "score": 0.5038
    },
    {
-    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 28.49,
-    "volume_24h": 437.48,
-    "score": 0.499
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 28.24,
+    "volume_24h": 3105.0,
+    "score": 0.4132
    }
   ],
-  "skipped": {},
-  "watch_added": 1,
-  "watch_graded": 22,
-  "api_calls": 43
+  "skipped": {
+   "related-market cap (Oil prices)": 5,
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 0,
+  "watch_graded": 13,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

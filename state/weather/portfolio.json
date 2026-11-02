@@ -2,102 +2,10 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 11.6525,
+ "cash": 11.5825,
  "fees_paid": 0.0,
- "next_id": 1753,
+ "next_id": 1756,
  "orders": [
-  {
-   "ticker": "KXHIGHTSAN-26NOV02-B76.5",
-   "event_ticker": "KXHIGHTSAN-26NOV02",
-   "series": "KXHIGHTSAN",
-   "kind": "high",
-   "code": "SAN",
-   "date": "2026-11-02",
-   "label": "SAN high 76\u201377\u00b0 11-02",
-   "side": "no",
-   "close_ts": 1793696400.0,
-   "q_model": 0.9942,
-   "mid": 0.98,
-   "strategy": "longshot",
-   "price": 0.98,
-   "edge": 0.0156,
-   "q_used": 0.9878,
-   "id": 1707,
-   "contracts": 10,
-   "filled": 0.0,
-   "placed_ts": 1793572230,
-   "checked_ts": 1793599229,
-   "reserved": 9.8
-  },
-  {
-   "ticker": "KXLOWTMIN-26NOV02-T57",
-   "event_ticker": "KXLOWTMIN-26NOV02",
-   "series": "KXLOWTMIN",
-   "kind": "low",
-   "code": "MSP",
-   "date": "2026-11-02",
-   "label": "MSP low \u226558\u00b0 11-02",
-   "side": "no",
-   "close_ts": 1793689200.0,
-   "q_model": 0.8342,
-   "mid": 0.44,
-   "strategy": "edge",
-   "price": 0.39,
-   "edge": 0.5184,
-   "q_used": 0.6742,
-   "id": 1743,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1793596526,
-   "checked_ts": 1793599229,
-   "reserved": 0.39
-  },
-  {
-   "ticker": "KXLOWTSATX-26NOV02-B65.5",
-   "event_ticker": "KXLOWTSATX-26NOV02",
-   "series": "KXLOWTSATX",
-   "kind": "low",
-   "code": "SAT",
-   "date": "2026-11-02",
-   "label": "SAT low 65\u201366\u00b0 11-02",
-   "side": "yes",
-   "close_ts": 1793689200.0,
-   "q_model": 0.2839,
-   "mid": 0.135,
-   "strategy": "edge",
-   "price": 0.09,
-   "edge": 0.1939,
-   "q_used": 0.2094,
-   "id": 1748,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1793598325,
-   "checked_ts": 1793599229,
-   "reserved": 0.09
-  },
-  {
-   "ticker": "KXLOWTOKC-26NOV02-T64",
-   "event_ticker": "KXLOWTOKC-26NOV02",
-   "series": "KXLOWTOKC",
-   "kind": "low",
-   "code": "OKC",
-   "date": "2026-11-02",
-   "label": "OKC low \u226565\u00b0 11-02",
-   "side": "no",
-   "close_ts": 1793689200.0,
-   "q_model": 0.8952,
-   "mid": 0.83,
-   "strategy": "favorite",
-   "price": 0.82,
-   "edge": 0.0752,
-   "q_used": 0.8626,
-   "id": 1749,
-   "contracts": 14,
-   "filled": 0.0,
-   "placed_ts": 1793599229,
-   "checked_ts": 1793599229,
-   "reserved": 11.48
-  },
   {
    "ticker": "KXLOWTDAL-26NOV02-B67.5",
    "event_ticker": "KXLOWTDAL-26NOV02",
@@ -118,54 +26,77 @@
    "contracts": 33,
    "filled": 0.0,
    "placed_ts": 1793599229,
-   "checked_ts": 1793599229,
+   "checked_ts": 1793600125,
    "reserved": 11.22
   },
   {
-   "ticker": "KXLOWTCHI-26NOV02-T56",
-   "event_ticker": "KXLOWTCHI-26NOV02",
-   "series": "KXLOWTCHI",
+   "ticker": "KXLOWTMIA-26NOV02-B70.5",
+   "event_ticker": "KXLOWTMIA-26NOV02",
+   "series": "KXLOWTMIA",
    "kind": "low",
-   "code": "MDW",
+   "code": "MIA",
    "date": "2026-11-02",
-   "label": "MDW low \u226557\u00b0 11-02",
+   "label": "MIA low 70\u201371\u00b0 11-02",
    "side": "no",
-   "close_ts": 1793689200.0,
-   "q_model": 0.7418,
-   "mid": 0.33,
-   "strategy": "edge",
-   "price": 0.29,
-   "edge": 0.4518,
-   "q_used": 0.5359,
-   "id": 1751,
+   "close_ts": 1793685600.0,
+   "q_model": 0.8983,
+   "mid": 0.885,
+   "strategy": "favorite",
+   "price": 0.85,
+   "edge": 0.0483,
+   "q_used": 0.8917,
+   "id": 1753,
    "contracts": 13,
    "filled": 0.0,
-   "placed_ts": 1793599229,
-   "checked_ts": 1793599229,
-   "reserved": 3.77
+   "placed_ts": 1793600125,
+   "checked_ts": 1793600125,
+   "reserved": 11.05
   },
   {
-   "ticker": "KXHIGHNY-26NOV02-B67.5",
-   "event_ticker": "KXHIGHNY-26NOV02",
-   "series": "KXHIGHNY",
-   "kind": "high",
-   "code": "NYC",
+   "ticker": "KXLOWTAUS-26NOV02-B63.5",
+   "event_ticker": "KXLOWTAUS-26NOV02",
+   "series": "KXLOWTAUS",
+   "kind": "low",
+   "code": "AUS",
    "date": "2026-11-02",
-   "label": "NYC high 67\u201368\u00b0 11-02",
+   "label": "AUS low 63\u201364\u00b0 11-02",
+   "side": "no",
+   "close_ts": 1793689200.0,
+   "q_model": 0.8126,
+   "mid": 0.375,
+   "strategy": "edge",
+   "price": 0.26,
+   "edge": 0.5526,
+   "q_used": 0.5938,
+   "id": 1754,
+   "contracts": 10,
+   "filled": 0.0,
+   "placed_ts": 1793600125,
+   "checked_ts": 1793600125,
+   "reserved": 2.6
+  },
+  {
+   "ticker": "KXLOWTBOS-26NOV02-B46.5",
+   "event_ticker": "KXLOWTBOS-26NOV02",
+   "series": "KXLOWTBOS",
+   "kind": "low",
+   "code": "BOS",
+   "date": "2026-11-02",
+   "label": "BOS low 46\u201347\u00b0 11-02",
    "side": "yes",
    "close_ts": 1793685600.0,
-   "q_model": 0.2672,
-   "mid": 0.115,
+   "q_model": 0.3891,
+   "mid": 0.285,
    "strategy": "edge",
-   "price": 0.11,
-   "edge": 0.1572,
-   "q_used": 0.1911,
-   "id": 1752,
+   "price": 0.1,
+   "edge": 0.2891,
+   "q_used": 0.337,
+   "id": 1755,
    "contracts": 1,
    "filled": 0.0,
-   "placed_ts": 1793599229,
-   "checked_ts": 1793599229,
-   "reserved": 0.11
+   "placed_ts": 1793600125,
+   "checked_ts": 1793600125,
+   "reserved": 0.1
   }
  ],
  "positions": [
@@ -337,7 +268,7 @@
    "contracts": 1.0,
    "cost": 0.87,
    "opened_ts": 1793475925,
-   "mark_price": 0.86,
+   "mark_price": 0.95,
    "avg_price": 0.87
   },
   {
@@ -470,7 +401,7 @@
    "contracts": 0.5,
    "cost": 0.105,
    "opened_ts": 1793547024,
-   "mark_price": 0.15,
+   "mark_price": 0.19,
    "avg_price": 0.21
   },
   {
@@ -508,7 +439,7 @@
    "contracts": 13.0,
    "cost": 11.18,
    "opened_ts": 1793551524,
-   "mark_price": 0.88,
+   "mark_price": 0.99,
    "avg_price": 0.86
   },
   {
@@ -565,7 +496,7 @@
    "contracts": 1.0,
    "cost": 0.39,
    "opened_ts": 1793556925,
-   "mark_price": 0.35,
+   "mark_price": 0.37,
    "avg_price": 0.39
   },
   {
@@ -736,7 +667,7 @@
    "contracts": 1.0,
    "cost": 0.11,
    "opened_ts": 1793575824,
-   "mark_price": 0.14,
+   "mark_price": 0.17,
    "avg_price": 0.11
   },
   {
@@ -793,7 +724,7 @@
    "contracts": 1.0,
    "cost": 0.17,
    "opened_ts": 1793592024,
-   "mark_price": 0.14,
+   "mark_price": 0.13,
    "avg_price": 0.17
   },
   {
@@ -812,7 +743,7 @@
    "contracts": 0.5,
    "cost": 0.415,
    "opened_ts": 1793596526,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "avg_price": 0.83
   },
   {
@@ -831,7 +762,7 @@
    "contracts": 3.0,
    "cost": 2.79,
    "opened_ts": 1793596526,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "avg_price": 0.93
   },
   {
@@ -869,8 +800,65 @@
    "contracts": 1.0,
    "cost": 0.24,
    "opened_ts": 1793599229,
-   "mark_price": 0.18,
+   "mark_price": 0.21,
    "avg_price": 0.24
+  },
+  {
+   "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+   "event_ticker": "KXHIGHTSAN-26NOV02",
+   "series": "KXHIGHTSAN",
+   "kind": "high",
+   "code": "SAN",
+   "date": "2026-11-02",
+   "label": "SAN high 76\u201377\u00b0 11-02",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1793696400.0,
+   "q_model": 0.9942,
+   "id": 1707,
+   "contracts": 10.0,
+   "cost": 9.8,
+   "opened_ts": 1793600125,
+   "mark_price": 0.97,
+   "avg_price": 0.98
+  },
+  {
+   "ticker": "KXLOWTOKC-26NOV02-T64",
+   "event_ticker": "KXLOWTOKC-26NOV02",
+   "series": "KXLOWTOKC",
+   "kind": "low",
+   "code": "OKC",
+   "date": "2026-11-02",
+   "label": "OKC low \u226565\u00b0 11-02",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1793689200.0,
+   "q_model": 0.8952,
+   "id": 1749,
+   "contracts": 2.5,
+   "cost": 2.05,
+   "opened_ts": 1793600125,
+   "mark_price": 0.63,
+   "avg_price": 0.82
+  },
+  {
+   "ticker": "KXHIGHNY-26NOV02-B67.5",
+   "event_ticker": "KXHIGHNY-26NOV02",
+   "series": "KXHIGHNY",
+   "kind": "high",
+   "code": "NYC",
+   "date": "2026-11-02",
+   "label": "NYC high 67\u201368\u00b0 11-02",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793685600.0,
+   "q_model": 0.2672,
+   "id": 1752,
+   "contracts": 1.0,
+   "cost": 0.11,
+   "opened_ts": 1793600125,
+   "mark_price": 0.11,
+   "avg_price": 0.11
   }
  ],
  "closed": [
@@ -12105,6 +12093,11 @@
    1793599229,
    115.4882,
    118.6785
+  ],
+  [
+   1793600125,
+   115.4882,
+   119.7385
   ]
  ],
  "forecast_log": {
@@ -15567,62 +15560,62 @@
   "DEN|2026-11-02|low": {
    "fc": 43.45,
    "var": 2.96,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "DEN|2026-11-02|high": {
    "fc": 51.42,
    "var": 5.04,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SFO|2026-11-02|low": {
    "fc": 51.07,
    "var": 5.99,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SFO|2026-11-02|high": {
    "fc": 66.02,
    "var": 2.2,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "LAS|2026-11-02|low": {
    "fc": 50.03,
    "var": 10.05,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "LAS|2026-11-02|high": {
    "fc": 65.63,
    "var": 0.48,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "LAX|2026-11-02|low": {
    "fc": 55.61,
    "var": 21.17,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "LAX|2026-11-02|high": {
    "fc": 71.82,
    "var": 0.57,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SAN|2026-11-02|low": {
    "fc": 56.49,
    "var": 8.27,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SAN|2026-11-02|high": {
    "fc": 72.12,
    "var": 1.03,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SEA|2026-11-02|low": {
    "fc": 37.5,
    "var": 1.7,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SEA|2026-11-02|high": {
    "fc": 52.37,
    "var": 4.32,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "SAT|2026-11-02|low": {
    "fc": 68.16,
@@ -15637,12 +15630,12 @@
   "PHX|2026-11-02|low": {
    "fc": 58.54,
    "var": 12.68,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "PHX|2026-11-02|high": {
    "fc": 69.97,
    "var": 3.24,
-   "ts": 1793599229
+   "ts": 1793600125
   },
   "HOU|2026-11-02|low": {
    "fc": 71.27,
@@ -17716,361 +17709,361 @@
     "close_ts": 1793599200.0
    },
    "KXLOWTSFO-26NOV02-T54": {
-    "q": 0.2075779296987924,
+    "q": 0.19129304287547724,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSFO-26NOV02-T47": {
-    "q": 0.03730028272337748,
+    "q": 0.04089239575159004,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSFO-26NOV02-B53.5": {
-    "q": 0.21031051025850564,
+    "q": 0.20656511590468393,
     "mkt": 0.265,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSFO-26NOV02-B51.5": {
-    "q": 0.2328389484794612,
-    "mkt": 0.62,
+    "q": 0.23293292253908676,
+    "mkt": 0.63,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSFO-26NOV02-B49.5": {
-    "q": 0.20167518735282483,
+    "q": 0.2094828067961125,
     "mkt": 0.12,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSFO-26NOV02-B47.5": {
-    "q": 0.11029714148703938,
+    "q": 0.11883371613305066,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-T39": {
-    "q": 0.30874794603250993,
-    "mkt": 0.075,
+    "q": 0.3963197030838263,
+    "mkt": 0.060000000000000005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-T32": {
-    "q": 0.00023448753568301194,
+    "q": 0.001223698299697967,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-B38.5": {
-    "q": 0.3455859786673136,
-    "mkt": 0.29000000000000004,
+    "q": 0.30476887239739636,
+    "mkt": 0.31000000000000005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-B36.5": {
-    "q": 0.2585349185961316,
-    "mkt": 0.46499999999999997,
+    "q": 0.20741461139577705,
+    "mkt": 0.475,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-B34.5": {
-    "q": 0.07895591469079805,
+    "q": 0.07635619837630006,
     "mkt": 0.16999999999999998,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSEA-26NOV02-B32.5": {
-    "q": 0.007940754477564906,
+    "q": 0.013916916447002815,
     "mkt": 0.015,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-T60": {
-    "q": 0.09536767455615287,
+    "q": 0.09728230191198073,
     "mkt": 0.015,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-T53": {
-    "q": 0.06208419546350987,
+    "q": 0.06056896004442923,
     "mkt": 0.02,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-B59.5": {
-    "q": 0.2031666414639225,
-    "mkt": 0.075,
+    "q": 0.20270064958771303,
+    "mkt": 0.065,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-B57.5": {
-    "q": 0.1402415208211343,
-    "mkt": 0.385,
+    "q": 0.14070257416973708,
+    "mkt": 0.39,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-B55.5": {
-    "q": 0.2572146541048299,
-    "mkt": 0.475,
+    "q": 0.25824102066780535,
+    "mkt": 0.435,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTSAN-26NOV02-B53.5": {
-    "q": 0.2419253135904516,
-    "mkt": 0.09,
+    "q": 0.24050449361833542,
+    "mkt": 0.14,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-T51": {
-    "q": 0.5052012677765523,
+    "q": 0.5372384973468801,
     "mkt": 0.765,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-T44": {
-    "q": 0.009637756019366834,
+    "q": 0.008232176356806934,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-B50.5": {
-    "q": 0.16994739608253392,
-    "mkt": 0.19,
+    "q": 0.16962876711830296,
+    "mkt": 0.185,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-B48.5": {
-    "q": 0.16667485039097366,
+    "q": 0.15588020540574427,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-B46.5": {
-    "q": 0.10802781333339605,
+    "q": 0.09469336456910757,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLV-26NOV02-B44.5": {
-    "q": 0.04051091639717828,
+    "q": 0.03432698920315895,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-T56": {
-    "q": 0.3252116202871007,
-    "mkt": 0.25,
+    "q": 0.326581818690476,
+    "mkt": 0.16,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-T49": {
-    "q": 0.002291418961149531,
+    "q": 0.001940013317821654,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-B55.5": {
-    "q": 0.07158248421762634,
-    "mkt": 0.505,
+    "q": 0.07475355133406719,
+    "mkt": 0.565,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-B53.5": {
-    "q": 0.2328631389358403,
-    "mkt": 0.295,
+    "q": 0.24025371822531502,
+    "mkt": 0.29000000000000004,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-B51.5": {
-    "q": 0.29752115997654016,
+    "q": 0.29155698323844653,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXLOWTLAX-26NOV02-B49.5": {
-    "q": 0.07053017762174389,
+    "q": 0.06491391519387442,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-T71": {
-    "q": 0.01608589416271587,
+    "q": 0.01584290171827848,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-T64": {
-    "q": 0.11468414650206958,
-    "mkt": 0.035,
+    "q": 0.10178282641487166,
+    "mkt": 0.055,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-B70.5": {
-    "q": 0.08326732201339235,
+    "q": 0.08695663424750263,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-B68.5": {
-    "q": 0.2256157165454859,
-    "mkt": 0.08,
+    "q": 0.2363732341150741,
+    "mkt": 0.07500000000000001,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-B66.5": {
-    "q": 0.31983112607590297,
-    "mkt": 0.445,
+    "q": 0.3258504395489753,
+    "mkt": 0.44,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSFO-26NOV02-B64.5": {
-    "q": 0.24051579470043424,
-    "mkt": 0.41500000000000004,
+    "q": 0.2331939639552988,
+    "mkt": 0.42,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-T59": {
-    "q": 0.008217909363524675,
+    "q": 0.013587881528571008,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-T52": {
-    "q": 0.07559594875012021,
-    "mkt": 0.16,
+    "q": 0.15497812225495233,
+    "mkt": 0.175,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-B58.5": {
-    "q": 0.09957504661909453,
+    "q": 0.07867450284329182,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-B56.5": {
-    "q": 0.24841246468054726,
-    "mkt": 0.03,
+    "q": 0.20150042924821027,
+    "mkt": 0.035,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-B54.5": {
-    "q": 0.3075429339406283,
+    "q": 0.28730795276069343,
     "mkt": 0.215,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSEA-26NOV02-B52.5": {
-    "q": 0.2606556966460856,
+    "q": 0.26395111136428195,
     "mkt": 0.515,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-T77": {
-    "q": 7.79180577224839e-05,
+    "q": 0.0005284055914072327,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-T70": {
-    "q": 0.10853865842470262,
+    "q": 0.09910854924249095,
     "mkt": 0.015,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-B76.5": {
-    "q": 0.005793209892994893,
-    "mkt": 0.015,
+    "q": 0.01625693188446259,
+    "mkt": 0.02,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-B74.5": {
-    "q": 0.1000231962194406,
+    "q": 0.15358223340811833,
     "mkt": 0.515,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-B72.5": {
-    "q": 0.42066046540439056,
+    "q": 0.4135405997403985,
     "mkt": 0.43999999999999995,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTSAN-26NOV02-B70.5": {
-    "q": 0.3649065520007497,
+    "q": 0.316983280133123,
     "mkt": 0.015,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-T74": {
-    "q": 0.00321580459554861,
+    "q": 0.0023966847040759846,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-T67": {
-    "q": 0.00904999036476889,
+    "q": 0.014339470707055702,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-B73.5": {
-    "q": 0.021632897673018247,
+    "q": 0.017452575887309987,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-B71.5": {
-    "q": 0.1836710896129196,
+    "q": 0.14188213625614654,
     "mkt": 0.025,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-B69.5": {
-    "q": 0.5766192110737036,
-    "mkt": 0.645,
+    "q": 0.5617807794009692,
+    "mkt": 0.635,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHTLV-26NOV02-B67.5": {
-    "q": 0.2058110066800422,
-    "mkt": 0.275,
+    "q": 0.2621483530444436,
+    "mkt": 0.315,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-T76": {
-    "q": 0.006578054791995707,
+    "q": 0.007066976918532909,
     "mkt": 0.025,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-T69": {
-    "q": 0.006159976244520953,
+    "q": 0.005834142810821004,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-B75.5": {
-    "q": 0.09448990199772292,
-    "mkt": 0.22,
+    "q": 0.10073984530534072,
+    "mkt": 0.215,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-B73.5": {
-    "q": 0.5268943753886177,
+    "q": 0.5353197710819312,
     "mkt": 0.645,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-B71.5": {
-    "q": 0.32722107281179474,
+    "q": 0.31434440959982546,
     "mkt": 0.10500000000000001,
     "kind": "high",
     "close_ts": 1793696400.0
    },
    "KXHIGHLAX-26NOV02-B69.5": {
-    "q": 0.038656618765348615,
+    "q": 0.03669485428354967,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793696400.0
@@ -18083,7 +18076,7 @@
    },
    "KXLOWTDEN-26NOV02-T40": {
     "q": 0.18629098740538977,
-    "mkt": 0.16999999999999998,
+    "mkt": 0.185,
     "kind": "low",
     "close_ts": 1793692800.0
    },
@@ -18095,19 +18088,19 @@
    },
    "KXLOWTDEN-26NOV02-B44.5": {
     "q": 0.21442928625359792,
-    "mkt": 0.235,
+    "mkt": 0.25,
     "kind": "low",
     "close_ts": 1793692800.0
    },
    "KXLOWTDEN-26NOV02-B42.5": {
     "q": 0.2543353069963652,
-    "mkt": 0.32999999999999996,
+    "mkt": 0.315,
     "kind": "low",
     "close_ts": 1793692800.0
    },
    "KXLOWTDEN-26NOV02-B40.5": {
     "q": 0.1979887255433862,
-    "mkt": 0.215,
+    "mkt": 0.22,
     "kind": "low",
     "close_ts": 1793692800.0
    },
@@ -18184,37 +18177,37 @@
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-T60": {
-    "q": 0.3272807423889754,
-    "mkt": 0.05,
+    "q": 0.3288047797065807,
+    "mkt": 0.06,
     "kind": "low",
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-T53": {
-    "q": 0.0025889924259097094,
+    "q": 0.0022392425458828222,
     "mkt": 0.01,
     "kind": "low",
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-B59.5": {
-    "q": 0.09552566432073507,
+    "q": 0.09897886407898143,
     "mkt": 0.505,
     "kind": "low",
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-B57.5": {
-    "q": 0.22783574591073233,
-    "mkt": 0.43999999999999995,
+    "q": 0.23141122606934258,
+    "mkt": 0.44499999999999995,
     "kind": "low",
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-B55.5": {
-    "q": 0.2690620124379092,
+    "q": 0.26589973599608335,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793689200.0
    },
    "KXLOWTPHX-26NOV02-B53.5": {
-    "q": 0.07770684251573892,
+    "q": 0.07266615160313011,
     "mkt": 0.005,
     "kind": "low",
     "close_ts": 1793689200.0
@@ -18508,37 +18501,37 @@
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-T77": {
-    "q": 0.0790217535728489,
+    "q": 0.0679786911233706,
     "mkt": 0.005,
     "kind": "high",
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-T70": {
-    "q": 0.055341550040748866,
+    "q": 0.052249588689933325,
     "mkt": 0.015,
     "kind": "high",
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-B76.5": {
-    "q": 0.15638814863274497,
+    "q": 0.14917307880770184,
     "mkt": 0.035,
     "kind": "high",
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-B74.5": {
-    "q": 0.2668092962092243,
+    "q": 0.26577579454517286,
     "mkt": 0.39,
     "kind": "high",
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-B72.5": {
-    "q": 0.2804449973010775,
+    "q": 0.29398513160011597,
     "mkt": 0.525,
     "kind": "high",
     "close_ts": 1793689200.0
    },
    "KXHIGHTPHX-26NOV02-B70.5": {
-    "q": 0.16199425424335642,
+    "q": 0.17083771523370667,
     "mkt": 0.055,
     "kind": "high",
     "close_ts": 1793689200.0
@@ -19463,66 +19456,105 @@
   }
  },
  "last_run": {
-  "ts": 1793599229,
+  "ts": 1793600125,
   "error": null,
   "errors": [],
   "fills": [
    {
-    "ticker": "KXHIGHTSFO-26NOV02-B68.5",
-    "side": "yes",
+    "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+    "side": "no",
+    "qty": 5.09,
+    "price": 0.98,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+    "side": "no",
     "qty": 1.0,
-    "price": 0.08,
+    "price": 0.98,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+    "side": "no",
+    "qty": 1.5,
+    "price": 0.98,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+    "side": "no",
+    "qty": 0.5,
+    "price": 0.98,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXHIGHTSAN-26NOV02-B76.5",
+    "side": "no",
+    "qty": 1.91,
+    "price": 0.98,
+    "strategy": "longshot"
+   },
+   {
+    "ticker": "KXLOWTOKC-26NOV02-T64",
+    "side": "no",
+    "qty": 2.5,
+    "price": 0.82,
+    "strategy": "favorite"
+   },
+   {
+    "ticker": "KXHIGHNY-26NOV02-B67.5",
+    "side": "yes",
+    "qty": 0.5,
+    "price": 0.11,
     "strategy": "edge"
    },
    {
-    "ticker": "KXLOWTNYC-26NOV02-B43.5",
-    "side": "no",
-    "qty": 1.0,
-    "price": 0.24,
+    "ticker": "KXHIGHNY-26NOV02-B67.5",
+    "side": "yes",
+    "qty": 0.5,
+    "price": 0.11,
     "strategy": "edge"
    }
   ],
   "settled": [],
   "cancelled": [
    {
-    "ticker": "KXLOWTMIN-26NOV02-B50.5",
+    "ticker": "KXLOWTMIN-26NOV02-T57",
+    "reason": "reprice 0.39->0.38"
+   },
+   {
+    "ticker": "KXLOWTSATX-26NOV02-B65.5",
     "reason": "no longer qualifies"
    },
    {
-    "ticker": "KXHIGHTMIN-26NOV02-B60.5",
-    "reason": "no longer qualifies"
+    "ticker": "KXLOWTOKC-26NOV02-T64",
+    "reason": "reprice 0.82->0.64"
    },
    {
-    "ticker": "KXLOWTDAL-26NOV02-T68",
-    "reason": "reprice 0.83->0.78"
+    "ticker": "KXLOWTCHI-26NOV02-T56",
+    "reason": "reprice 0.29->0.26"
    }
   ],
   "placed": [
    {
-    "ticker": "KXLOWTOKC-26NOV02-T64",
+    "ticker": "KXLOWTMIA-26NOV02-B70.5",
     "side": "no",
-    "price": 0.82,
-    "contracts": 14,
+    "price": 0.85,
+    "contracts": 13,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXLOWTDAL-26NOV02-B67.5",
+    "ticker": "KXLOWTAUS-26NOV02-B63.5",
     "side": "no",
-    "price": 0.34,
-    "contracts": 33,
+    "price": 0.26,
+    "contracts": 10,
     "strategy": "edge"
    },
    {
-    "ticker": "KXLOWTCHI-26NOV02-T56",
-    "side": "no",
-    "price": 0.29,
-    "contracts": 13,
-    "strategy": "edge"
-   },
-   {
-    "ticker": "KXHIGHNY-26NOV02-B67.5",
+    "ticker": "KXLOWTBOS-26NOV02-B46.5",
     "side": "yes",
-    "price": 0.11,
+    "price": 0.1,
     "contracts": 1,
     "strategy": "edge"
    }
@@ -19535,15 +19567,15 @@
     "kind": "low",
     "date": "2026-11-02",
     "summary": {
-     "mean": 51.8,
-     "p10": 49.3,
-     "p90": 54.8
+     "mean": 51.7,
+     "p10": 49.1,
+     "p90": 54.6
     },
     "nbm": 52.1,
     "observed": null,
-    "bias": 0.71,
-    "bias_src": "own 11d",
-    "kernel_sd": 2.09,
+    "bias": 0.54,
+    "bias_src": "own 12d",
+    "kernel_sd": 2.05,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19552,19 +19584,19 @@
     "rows": [
      {
       "label": "\u226446\u00b0",
-      "q": 0.037,
+      "q": 0.041,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "47\u201348\u00b0",
-      "q": 0.11,
+      "q": 0.119,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.202,
+      "q": 0.209,
       "bid": 0.11,
       "ask": 0.13
      },
@@ -19572,17 +19604,17 @@
       "label": "51\u201352\u00b0",
       "q": 0.233,
       "bid": 0.58,
-      "ask": 0.66
+      "ask": 0.68
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.21,
+      "q": 0.207,
       "bid": 0.23,
       "ask": 0.3
      },
      {
       "label": "\u226555\u00b0",
-      "q": 0.208,
+      "q": 0.191,
       "bid": null,
       "ask": 0.02
      }
@@ -19594,15 +19626,15 @@
     "kind": "low",
     "date": "2026-11-02",
     "summary": {
-     "mean": 38.4,
-     "p10": 36.7,
-     "p90": 39.9
+     "mean": 38.8,
+     "p10": 37.1,
+     "p90": 40.3
     },
     "nbm": 39.2,
     "observed": null,
-    "bias": 0.71,
-    "bias_src": "own 11d",
-    "kernel_sd": 1.62,
+    "bias": 1.12,
+    "bias_src": "own 12d",
+    "kernel_sd": 2.09,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19611,39 +19643,39 @@
     "rows": [
      {
       "label": "\u226431\u00b0",
-      "q": 0.0,
+      "q": 0.001,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "32\u201333\u00b0",
-      "q": 0.008,
+      "q": 0.014,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "34\u201335\u00b0",
-      "q": 0.079,
+      "q": 0.076,
       "bid": 0.13,
       "ask": 0.21
      },
      {
       "label": "36\u201337\u00b0",
-      "q": 0.259,
-      "bid": 0.44,
-      "ask": 0.49
+      "q": 0.207,
+      "bid": 0.47,
+      "ask": 0.48
      },
      {
       "label": "38\u201339\u00b0",
-      "q": 0.346,
-      "bid": 0.24,
+      "q": 0.305,
+      "bid": 0.28,
       "ask": 0.34
      },
      {
       "label": "\u226540\u00b0",
-      "q": 0.309,
+      "q": 0.396,
       "bid": 0.02,
-      "ask": 0.13
+      "ask": 0.1
      }
     ]
    },
@@ -19653,14 +19685,14 @@
     "kind": "low",
     "date": "2026-11-02",
     "summary": {
-     "mean": 56.4,
-     "p10": 53.1,
-     "p90": 60.0
+     "mean": 56.5,
+     "p10": 53.2,
+     "p90": 60.1
     },
     "nbm": 56.6,
     "observed": null,
-    "bias": 0.05,
-    "bias_src": "own 11d",
+    "bias": 0.07,
+    "bias_src": "own 12d",
     "kernel_sd": 0.9,
     "members": {
      "ecmwf": 51,
@@ -19670,37 +19702,37 @@
     "rows": [
      {
       "label": "\u226452\u00b0",
-      "q": 0.062,
+      "q": 0.061,
       "bid": 0.01,
       "ask": 0.03
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.242,
-      "bid": 0.03,
+      "q": 0.241,
+      "bid": 0.13,
       "ask": 0.15
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.257,
-      "bid": 0.45,
+      "q": 0.258,
+      "bid": 0.37,
       "ask": 0.5
      },
      {
       "label": "57\u201358\u00b0",
-      "q": 0.14,
+      "q": 0.141,
       "bid": 0.35,
-      "ask": 0.42
+      "ask": 0.43
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.203,
       "bid": 0.03,
-      "ask": 0.12
+      "ask": 0.1
      },
      {
       "label": "\u226561\u00b0",
-      "q": 0.095,
+      "q": 0.097,
       "bid": 0.01,
       "ask": 0.02
      }
@@ -19712,15 +19744,15 @@
     "kind": "low",
     "date": "2026-11-02",
     "summary": {
-     "mean": 51.6,
-     "p10": 48.2,
-     "p90": 55.5
+     "mean": 52.0,
+     "p10": 48.5,
+     "p90": 55.8
     },
     "nbm": 52.5,
     "observed": null,
-    "bias": 1.36,
-    "bias_src": "own 11d",
-    "kernel_sd": 2.49,
+    "bias": 1.72,
+    "bias_src": "own 12d",
+    "kernel_sd": 2.58,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19729,25 +19761,25 @@
     "rows": [
      {
       "label": "\u226443\u00b0",
-      "q": 0.01,
+      "q": 0.008,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "44\u201345\u00b0",
-      "q": 0.041,
+      "q": 0.034,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "46\u201347\u00b0",
-      "q": 0.108,
+      "q": 0.095,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "48\u201349\u00b0",
-      "q": 0.167,
+      "q": 0.156,
       "bid": null,
       "ask": 0.01
      },
@@ -19755,11 +19787,11 @@
       "label": "50\u201351\u00b0",
       "q": 0.17,
       "bid": 0.15,
-      "ask": 0.23
+      "ask": 0.22
      },
      {
       "label": "\u226552\u00b0",
-      "q": 0.505,
+      "q": 0.537,
       "bid": 0.75,
       "ask": 0.78
      }
@@ -19771,14 +19803,14 @@
     "kind": "low",
     "date": "2026-11-02",
     "summary": {
-     "mean": 55.2,
+     "mean": 55.3,
      "p10": 51.3,
      "p90": 61.5
     },
     "nbm": 54.6,
     "observed": null,
-    "bias": -0.03,
-    "bias_src": "own 11d",
+    "bias": 0.04,
+    "bias_src": "own 12d",
     "kernel_sd": 0.9,
     "members": {
      "ecmwf": 51,
@@ -19794,33 +19826,33 @@
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.071,
+      "q": 0.065,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "51\u201352\u00b0",
-      "q": 0.298,
+      "q": 0.292,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.233,
-      "bid": 0.29,
+      "q": 0.24,
+      "bid": 0.28,
       "ask": 0.3
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.072,
-      "bid": 0.5,
-      "ask": 0.51
+      "q": 0.075,
+      "bid": 0.51,
+      "ask": 0.62
      },
      {
       "label": "\u226557\u00b0",
-      "q": 0.325,
-      "bid": 0.24,
-      "ask": 0.26
+      "q": 0.327,
+      "bid": 0.08,
+      "ask": 0.24
      }
     ]
    },
@@ -19830,15 +19862,15 @@
     "kind": "high",
     "date": "2026-11-02",
     "summary": {
-     "mean": 66.4,
-     "p10": 64.9,
-     "p90": 68.3
+     "mean": 66.5,
+     "p10": 65.0,
+     "p90": 68.4
     },
     "nbm": 65.0,
     "observed": null,
-    "bias": 0.58,
-    "bias_src": "own 11d",
-    "kernel_sd": 1.94,
+    "bias": 0.69,
+    "bias_src": "own 12d",
+    "kernel_sd": 1.87,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19847,31 +19879,31 @@
     "rows": [
      {
       "label": "\u226463\u00b0",
-      "q": 0.115,
-      "bid": 0.03,
-      "ask": 0.04
+      "q": 0.102,
+      "bid": 0.05,
+      "ask": 0.06
      },
      {
       "label": "64\u201365\u00b0",
-      "q": 0.241,
-      "bid": 0.4,
+      "q": 0.233,
+      "bid": 0.41,
       "ask": 0.43
      },
      {
       "label": "66\u201367\u00b0",
-      "q": 0.32,
-      "bid": 0.44,
+      "q": 0.326,
+      "bid": 0.43,
       "ask": 0.45
      },
      {
       "label": "68\u201369\u00b0",
-      "q": 0.226,
+      "q": 0.236,
       "bid": 0.07,
-      "ask": 0.09
+      "ask": 0.08
      },
      {
       "label": "70\u201371\u00b0",
-      "q": 0.083,
+      "q": 0.087,
       "bid": null,
       "ask": 0.01
      },
@@ -19889,15 +19921,15 @@
     "kind": "high",
     "date": "2026-11-02",
     "summary": {
-     "mean": 54.6,
-     "p10": 52.3,
-     "p90": 57.3
+     "mean": 54.1,
+     "p10": 51.8,
+     "p90": 56.8
     },
     "nbm": 52.0,
     "observed": null,
-    "bias": 2.37,
-    "bias_src": "own 11d",
-    "kernel_sd": 0.9,
+    "bias": 1.85,
+    "bias_src": "own 12d",
+    "kernel_sd": 1.55,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19906,37 +19938,37 @@
     "rows": [
      {
       "label": "\u226451\u00b0",
-      "q": 0.076,
-      "bid": 0.15,
-      "ask": 0.17
+      "q": 0.155,
+      "bid": 0.17,
+      "ask": 0.18
      },
      {
       "label": "52\u201353\u00b0",
-      "q": 0.261,
+      "q": 0.264,
       "bid": 0.51,
       "ask": 0.52
      },
      {
       "label": "54\u201355\u00b0",
-      "q": 0.308,
+      "q": 0.287,
       "bid": 0.21,
       "ask": 0.22
      },
      {
       "label": "56\u201357\u00b0",
-      "q": 0.248,
-      "bid": 0.02,
+      "q": 0.202,
+      "bid": 0.03,
       "ask": 0.04
      },
      {
       "label": "58\u201359\u00b0",
-      "q": 0.1,
+      "q": 0.079,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "\u226560\u00b0",
-      "q": 0.008,
+      "q": 0.014,
       "bid": null,
       "ask": 0.01
      }
@@ -19948,15 +19980,15 @@
     "kind": "high",
     "date": "2026-11-02",
     "summary": {
-     "mean": 71.5,
-     "p10": 70.4,
-     "p90": 72.8
+     "mean": 71.8,
+     "p10": 70.7,
+     "p90": 73.1
     },
     "nbm": 70.8,
     "observed": null,
-    "bias": -0.42,
-    "bias_src": "own 11d",
-    "kernel_sd": 1.11,
+    "bias": -0.13,
+    "bias_src": "own 12d",
+    "kernel_sd": 1.34,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -19965,37 +19997,37 @@
     "rows": [
      {
       "label": "\u226469\u00b0",
-      "q": 0.109,
+      "q": 0.099,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "70\u201371\u00b0",
-      "q": 0.365,
+      "q": 0.317,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "72\u201373\u00b0",
-      "q": 0.421,
+      "q": 0.414,
       "bid": 0.41,
       "ask": 0.47
      },
      {
       "label": "74\u201375\u00b0",
-      "q": 0.1,
+      "q": 0.154,
       "bid": 0.51,
       "ask": 0.52
      },
      {
       "label": "76\u201377\u00b0",
-      "q": 0.006,
+      "q": 0.016,
       "bid": 0.01,
-      "ask": 0.02
+      "ask": 0.03
      },
      {
       "label": "\u226578\u00b0",
-      "q": 0.0,
+      "q": 0.001,
       "bid": null,
       "ask": 0.01
      }
@@ -20007,14 +20039,14 @@
     "kind": "high",
     "date": "2026-11-02",
     "summary": {
-     "mean": 69.5,
-     "p10": 68.5,
-     "p90": 70.5
+     "mean": 69.3,
+     "p10": 68.3,
+     "p90": 70.2
     },
     "nbm": 66.7,
     "observed": null,
-    "bias": 3.75,
-    "bias_src": "own 11d",
+    "bias": 3.51,
+    "bias_src": "own 12d",
     "kernel_sd": 0.9,
     "members": {
      "ecmwf": 51,
@@ -20024,37 +20056,37 @@
     "rows": [
      {
       "label": "\u226466\u00b0",
-      "q": 0.009,
+      "q": 0.014,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "67\u201368\u00b0",
-      "q": 0.206,
-      "bid": 0.26,
-      "ask": 0.29
+      "q": 0.262,
+      "bid": 0.31,
+      "ask": 0.32
      },
      {
       "label": "69\u201370\u00b0",
-      "q": 0.577,
-      "bid": 0.64,
-      "ask": 0.65
+      "q": 0.562,
+      "bid": 0.63,
+      "ask": 0.64
      },
      {
       "label": "71\u201372\u00b0",
-      "q": 0.184,
+      "q": 0.142,
       "bid": 0.02,
       "ask": 0.03
      },
      {
       "label": "73\u201374\u00b0",
-      "q": 0.022,
+      "q": 0.017,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "\u226575\u00b0",
-      "q": 0.003,
+      "q": 0.002,
       "bid": null,
       "ask": 0.01
      }
@@ -20072,8 +20104,8 @@
     },
     "nbm": 70.8,
     "observed": null,
-    "bias": 1.18,
-    "bias_src": "own 11d",
+    "bias": 1.23,
+    "bias_src": "own 12d",
     "kernel_sd": 0.9,
     "members": {
      "ecmwf": 51,
@@ -20089,27 +20121,27 @@
      },
      {
       "label": "69\u201370\u00b0",
-      "q": 0.039,
+      "q": 0.037,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "71\u201372\u00b0",
-      "q": 0.327,
+      "q": 0.314,
       "bid": 0.1,
       "ask": 0.11
      },
      {
       "label": "73\u201374\u00b0",
-      "q": 0.527,
+      "q": 0.535,
       "bid": 0.64,
       "ask": 0.65
      },
      {
       "label": "75\u201376\u00b0",
-      "q": 0.094,
+      "q": 0.101,
       "bid": 0.21,
-      "ask": 0.23
+      "ask": 0.22
      },
      {
       "label": "\u226577\u00b0",
@@ -20143,26 +20175,26 @@
      {
       "label": "\u226439\u00b0",
       "q": 0.186,
-      "bid": 0.15,
-      "ask": 0.19
+      "bid": 0.17,
+      "ask": 0.2
      },
      {
       "label": "40\u201341\u00b0",
       "q": 0.198,
       "bid": 0.18,
-      "ask": 0.25
+      "ask": 0.26
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.254,
-      "bid": 0.3,
-      "ask": 0.36
+      "bid": 0.28,
+      "ask": 0.35
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.214,
-      "bid": 0.21,
-      "ask": 0.26
+      "bid": 0.22,
+      "ask": 0.28
      },
      {
       "label": "46\u201347\u00b0",
@@ -20273,26 +20305,26 @@
      {
       "label": "65\u201366\u00b0",
       "q": 0.284,
-      "bid": 0.08,
-      "ask": 0.19
+      "bid": 0.02,
+      "ask": 0.18
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.25,
       "bid": 0.5,
-      "ask": 0.63
+      "ask": 0.78
      },
      {
       "label": "69\u201370\u00b0",
       "q": 0.136,
-      "bid": 0.24,
-      "ask": 0.4
+      "bid": 0.03,
+      "ask": 0.45
      },
      {
       "label": "\u226571\u00b0",
       "q": 0.06,
       "bid": null,
-      "ask": 0.02
+      "ask": 0.01
      }
     ]
    },
@@ -20304,12 +20336,12 @@
     "summary": {
      "mean": 58.7,
      "p10": 55.2,
-     "p90": 63.3
+     "p90": 63.4
     },
     "nbm": 58.4,
     "observed": null,
-    "bias": 0.29,
-    "bias_src": "own 11d",
+    "bias": 0.35,
+    "bias_src": "own 12d",
     "kernel_sd": 0.9,
     "members": {
      "ecmwf": 51,
@@ -20319,38 +20351,38 @@
     "rows": [
      {
       "label": "\u226452\u00b0",
-      "q": 0.003,
+      "q": 0.002,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.078,
+      "q": 0.073,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.269,
+      "q": 0.266,
       "bid": null,
       "ask": 0.01
      },
      {
       "label": "57\u201358\u00b0",
-      "q": 0.228,
-      "bid": 0.41,
+      "q": 0.231,
+      "bid": 0.42,
       "ask": 0.47
      },
      {
       "label": "59\u201360\u00b0",
-      "q": 0.096,
+      "q": 0.099,
       "bid": 0.5,
       "ask": 0.51
      },
      {
       "label": "\u226561\u00b0",
-      "q": 0.327,
-      "bid": 0.02,
+      "q": 0.329,
+      "bid": 0.04,
       "ask": 0.08
      }
     ]
@@ -20386,13 +20418,13 @@
       "label": "57\u201358\u00b0",
       "q": 0.156,
       "bid": 0.01,
-      "ask": 0.03
+      "ask": 0.02
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.25,
-      "bid": 0.25,
-      "ask": 0.26
+      "bid": 0.02,
+      "ask": 0.23
      },
      {
       "label": "61\u201362\u00b0",
@@ -20403,14 +20435,14 @@
      {
       "label": "63\u201364\u00b0",
       "q": 0.158,
-      "bid": 0.2,
-      "ask": 0.38
+      "bid": 0.19,
+      "ask": 0.45
      },
      {
       "label": "\u226565\u00b0",
       "q": 0.105,
       "bid": 0.15,
-      "ask": 0.19
+      "ask": 0.37
      }
     ]
    },
@@ -20462,14 +20494,14 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.26,
-      "bid": 0.16,
-      "ask": 0.29
+      "bid": 0.02,
+      "ask": 0.5
      },
      {
       "label": "\u226571\u00b0",
       "q": 0.265,
       "bid": 0.5,
-      "ask": 0.85
+      "ask": 0.81
      }
     ]
    },
@@ -20510,25 +20542,25 @@
       "label": "52\u201353\u00b0",
       "q": 0.079,
       "bid": 0.02,
-      "ask": 0.06
+      "ask": 0.05
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.365,
-      "bid": 0.02,
+      "bid": 0.01,
       "ask": 0.05
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.383,
       "bid": 0.36,
-      "ask": 0.43
+      "ask": 0.47
      },
      {
       "label": "\u226558\u00b0",
       "q": 0.166,
       "bid": 0.5,
-      "ask": 0.62
+      "ask": 0.63
      }
     ]
    },
@@ -20574,20 +20606,20 @@
      {
       "label": "68\u201369\u00b0",
       "q": 0.293,
-      "bid": 0.14,
-      "ask": 0.2
+      "bid": 0.02,
+      "ask": 0.33
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.251,
       "bid": 0.5,
-      "ask": 0.68
+      "ask": 0.78
      },
      {
       "label": "\u226572\u00b0",
       "q": 0.201,
-      "bid": 0.05,
-      "ask": 0.13
+      "bid": 0.02,
+      "ask": 0.3
      }
     ]
    },
@@ -20645,7 +20677,7 @@
      {
       "label": "\u226569\u00b0",
       "q": 0.033,
-      "bid": 0.05,
+      "bid": 0.11,
       "ask": 0.23
      }
     ]
@@ -20698,14 +20730,14 @@
      {
       "label": "55\u201356\u00b0",
       "q": 0.488,
-      "bid": 0.25,
+      "bid": 0.06,
       "ask": 0.26
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.258,
-      "bid": 0.62,
-      "ask": 0.72
+      "bid": 0.51,
+      "ask": 0.75
      }
     ]
    },
@@ -20739,32 +20771,32 @@
      {
       "label": "61\u201362\u00b0",
       "q": 0.233,
-      "bid": 0.11,
-      "ask": 0.21
+      "bid": 0.1,
+      "ask": 0.27
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.187,
-      "bid": 0.42,
-      "ask": 0.5
+      "bid": 0.5,
+      "ask": 0.75
      },
      {
       "label": "65\u201366\u00b0",
       "q": 0.122,
-      "bid": 0.28,
-      "ask": 0.31
+      "bid": 0.01,
+      "ask": 0.43
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.063,
-      "bid": 0.08,
-      "ask": 0.12
+      "bid": null,
+      "ask": 0.01
      },
      {
       "label": "\u226569\u00b0",
       "q": 0.032,
-      "bid": 0.01,
-      "ask": 0.02
+      "bid": null,
+      "ask": 0.01
      }
     ]
    },
@@ -20799,13 +20831,13 @@
       "label": "82\u201383\u00b0",
       "q": 0.285,
       "bid": 0.24,
-      "ask": 0.26
+      "ask": 0.28
      },
      {
       "label": "84\u201385\u00b0",
       "q": 0.157,
-      "bid": 0.54,
-      "ask": 0.57
+      "bid": 0.53,
+      "ask": 0.54
      },
      {
       "label": "86\u201387\u00b0",
@@ -20833,15 +20865,15 @@
     "kind": "high",
     "date": "2026-11-02",
     "summary": {
-     "mean": 73.6,
-     "p10": 72.0,
-     "p90": 76.1
+     "mean": 73.5,
+     "p10": 71.9,
+     "p90": 76.0
     },
     "nbm": 70.1,
     "observed": null,
-    "bias": 3.69,
-    "bias_src": "own 11d",
-    "kernel_sd": 2.13,
+    "bias": 3.58,
+    "bias_src": "own 12d",
+    "kernel_sd": 1.98,
     "members": {
      "ecmwf": 51,
      "gfs": 31
@@ -20850,37 +20882,37 @@
     "rows": [
      {
       "label": "\u226469\u00b0",
-      "q": 0.055,
+      "q": 0.052,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "70\u201371\u00b0",
-      "q": 0.162,
+      "q": 0.171,
       "bid": 0.05,
       "ask": 0.06
      },
      {
       "label": "72\u201373\u00b0",
-      "q": 0.28,
+      "q": 0.294,
       "bid": 0.52,
       "ask": 0.53
      },
      {
       "label": "74\u201375\u00b0",
-      "q": 0.267,
+      "q": 0.266,
       "bid": 0.38,
       "ask": 0.4
      },
      {
       "label": "76\u201377\u00b0",
-      "q": 0.156,
+      "q": 0.149,
       "bid": 0.03,
       "ask": 0.04
      },
      {
       "label": "\u226578\u00b0",
-      "q": 0.079,
+      "q": 0.068,
       "bid": null,
       "ask": 0.01
      }
@@ -20910,26 +20942,26 @@
      {
       "label": "\u226474\u00b0",
       "q": 0.363,
-      "bid": 0.49,
-      "ask": 0.5
+      "bid": 0.39,
+      "ask": 0.4
      },
      {
       "label": "75\u201376\u00b0",
       "q": 0.269,
-      "bid": 0.34,
-      "ask": 0.37
+      "bid": 0.37,
+      "ask": 0.38
      },
      {
       "label": "77\u201378\u00b0",
       "q": 0.227,
-      "bid": 0.14,
-      "ask": 0.15
+      "bid": 0.17,
+      "ask": 0.18
      },
      {
       "label": "79\u201380\u00b0",
       "q": 0.108,
-      "bid": 0.02,
-      "ask": 0.03
+      "bid": 0.03,
+      "ask": 0.04
      },
      {
       "label": "81\u201382\u00b0",
@@ -20969,8 +21001,8 @@
      {
       "label": "\u226477\u00b0",
       "q": 0.207,
-      "bid": 0.11,
-      "ask": 0.12
+      "bid": 0.12,
+      "ask": 0.13
      },
      {
       "label": "78\u201379\u00b0",
@@ -21046,14 +21078,14 @@
      {
       "label": "64\u201365\u00b0",
       "q": 0.313,
-      "bid": 0.66,
+      "bid": 0.67,
       "ask": 0.68
      },
      {
       "label": "66\u201367\u00b0",
       "q": 0.358,
-      "bid": 0.23,
-      "ask": 0.26
+      "bid": 0.22,
+      "ask": 0.24
      },
      {
       "label": "\u226568\u00b0",
@@ -21099,14 +21131,14 @@
      {
       "label": "84\u201385\u00b0",
       "q": 0.3,
-      "bid": 0.5,
-      "ask": 0.51
+      "bid": 0.4,
+      "ask": 0.41
      },
      {
       "label": "86\u201387\u00b0",
       "q": 0.175,
-      "bid": 0.48,
-      "ask": 0.49
+      "bid": 0.49,
+      "ask": 0.5
      },
      {
       "label": "88\u201389\u00b0",
@@ -21152,20 +21184,20 @@
      {
       "label": "83\u201384\u00b0",
       "q": 0.368,
-      "bid": 0.31,
-      "ask": 0.35
+      "bid": 0.3,
+      "ask": 0.31
      },
      {
       "label": "85\u201386\u00b0",
       "q": 0.314,
       "bid": 0.47,
-      "ask": 0.48
+      "ask": 0.49
      },
      {
       "label": "87\u201388\u00b0",
       "q": 0.113,
-      "bid": 0.05,
-      "ask": 0.06
+      "bid": 0.06,
+      "ask": 0.07
      },
      {
       "label": "89\u201390\u00b0",
@@ -21205,13 +21237,13 @@
      {
       "label": "\u226463\u00b0",
       "q": 0.22,
-      "bid": 0.64,
-      "ask": 0.65
+      "bid": 0.62,
+      "ask": 0.63
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.402,
-      "bid": 0.31,
+      "bid": 0.32,
       "ask": 0.33
      },
      {
@@ -21353,8 +21385,8 @@
      {
       "label": "\u226538\u00b0",
       "q": 0.509,
-      "bid": 0.04,
-      "ask": 0.41
+      "bid": 0.5,
+      "ask": 0.64
      }
     ]
    },
@@ -21407,7 +21439,7 @@
       "label": "55\u201356\u00b0",
       "q": 0.459,
       "bid": 0.5,
-      "ask": 0.71
+      "ask": 0.73
      },
      {
       "label": "\u226557\u00b0",
@@ -21500,20 +21532,20 @@
      {
       "label": "\u226442\u00b0",
       "q": 0.0,
-      "bid": 0.16,
-      "ask": 0.41
+      "bid": 0.17,
+      "ask": 0.26
      },
      {
       "label": "43\u201344\u00b0",
       "q": 0.021,
-      "bid": 0.61,
-      "ask": 0.82
+      "bid": 0.57,
+      "ask": 0.79
      },
      {
       "label": "45\u201346\u00b0",
       "q": 0.244,
       "bid": 0.01,
-      "ask": 0.03
+      "ask": 0.11
      },
      {
       "label": "47\u201348\u00b0",
@@ -21571,20 +21603,20 @@
      {
       "label": "70\u201371\u00b0",
       "q": 0.102,
-      "bid": 0.04,
-      "ask": 0.21
+      "bid": 0.07,
+      "ask": 0.16
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.303,
-      "bid": 0.1,
-      "ask": 0.44
+      "bid": 0.08,
+      "ask": 0.39
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.229,
-      "bid": 0.34,
-      "ask": 0.4
+      "bid": 0.33,
+      "ask": 0.46
      },
      {
       "label": "\u226576\u00b0",
@@ -21696,19 +21728,19 @@
       "label": "45\u201346\u00b0",
       "q": 0.215,
       "bid": 0.06,
-      "ask": 0.43
+      "ask": 0.48
      },
      {
       "label": "47\u201348\u00b0",
       "q": 0.295,
-      "bid": 0.41,
+      "bid": 0.43,
       "ask": 0.5
      },
      {
       "label": "\u226549\u00b0",
       "q": 0.423,
-      "bid": 0.29,
-      "ask": 0.37
+      "bid": 0.28,
+      "ask": 0.33
      }
     ]
    },
@@ -21760,7 +21792,7 @@
      {
       "label": "46\u201347\u00b0",
       "q": 0.389,
-      "bid": 0.06,
+      "bid": 0.09,
       "ask": 0.48
      },
      {
@@ -21802,24 +21834,24 @@
       "label": "50\u201351\u00b0",
       "q": 0.016,
       "bid": 0.02,
-      "ask": 0.14
+      "ask": 0.13
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.203,
       "bid": 0.03,
-      "ask": 0.14
+      "ask": 0.23
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.404,
-      "bid": 0.51,
-      "ask": 0.57
+      "bid": 0.63,
+      "ask": 0.87
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.377,
-      "bid": 0.05,
+      "bid": 0.03,
       "ask": 0.13
      },
      {
@@ -21914,7 +21946,7 @@
       "label": "\u226466\u00b0",
       "q": 0.384,
       "bid": 0.75,
-      "ask": 0.86
+      "ask": 0.87
      },
      {
       "label": "67\u201368\u00b0",
@@ -21978,14 +22010,14 @@
      {
       "label": "66\u201367\u00b0",
       "q": 0.254,
-      "bid": 0.58,
+      "bid": 0.59,
       "ask": 0.6
      },
      {
       "label": "68\u201369\u00b0",
       "q": 0.383,
-      "bid": 0.35,
-      "ask": 0.44
+      "bid": 0.32,
+      "ask": 0.43
      },
      {
       "label": "70\u201371\u00b0",
@@ -22032,7 +22064,7 @@
       "label": "\u226464\u00b0",
       "q": 0.186,
       "bid": 0.18,
-      "ask": 0.2
+      "ask": 0.21
      },
      {
       "label": "65\u201366\u00b0",
@@ -22043,8 +22075,8 @@
      {
       "label": "67\u201368\u00b0",
       "q": 0.261,
-      "bid": 0.3,
-      "ask": 0.31
+      "bid": 0.29,
+      "ask": 0.3
      },
      {
       "label": "69\u201370\u00b0",
@@ -22114,13 +22146,13 @@
      {
       "label": "71\u201372\u00b0",
       "q": 0.188,
-      "bid": 0.52,
-      "ask": 0.53
+      "bid": 0.53,
+      "ask": 0.54
      },
      {
       "label": "\u226573\u00b0",
       "q": 0.073,
-      "bid": 0.09,
+      "bid": 0.07,
       "ask": 0.1
      }
     ]
@@ -22156,13 +22188,13 @@
       "label": "70\u201371\u00b0",
       "q": 0.244,
       "bid": 0.22,
-      "ask": 0.23
+      "ask": 0.24
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.423,
-      "bid": 0.53,
-      "ask": 0.54
+      "bid": 0.5,
+      "ask": 0.51
      },
      {
       "label": "74\u201375\u00b0",
@@ -22214,14 +22246,14 @@
      {
       "label": "65\u201366\u00b0",
       "q": 0.303,
-      "bid": 0.55,
-      "ask": 0.56
+      "bid": 0.53,
+      "ask": 0.54
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.284,
-      "bid": 0.28,
-      "ask": 0.31
+      "bid": 0.29,
+      "ask": 0.3
      },
      {
       "label": "69\u201370\u00b0",
@@ -22267,8 +22299,8 @@
      {
       "label": "\u226464\u00b0",
       "q": 0.252,
-      "bid": 0.25,
-      "ask": 0.26
+      "bid": 0.27,
+      "ask": 0.28
      },
      {
       "label": "65\u201366\u00b0",
@@ -22338,20 +22370,20 @@
      {
       "label": "80\u201381\u00b0",
       "q": 0.346,
-      "bid": 0.45,
+      "bid": 0.46,
       "ask": 0.47
      },
      {
       "label": "82\u201383\u00b0",
       "q": 0.297,
-      "bid": 0.4,
+      "bid": 0.41,
       "ask": 0.42
      },
      {
       "label": "84\u201385\u00b0",
       "q": 0.235,
-      "bid": 0.09,
-      "ask": 0.1
+      "bid": 0.1,
+      "ask": 0.11
      },
      {
       "label": "\u226586\u00b0",
@@ -22363,20 +22395,15 @@
    }
   ],
   "halt": null,
-  "candidates": 66,
+  "candidates": 63,
   "health": {
    "nws_observations": {
     "ok": 34,
     "fail": 0,
     "last_error": null
-   },
-   "iem_climate": {
-    "ok": 6,
-    "fail": 0,
-    "last_error": null
    }
   },
-  "seconds": 49.5
+  "seconds": 50.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

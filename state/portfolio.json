@@ -225,7 +225,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -395,7 +395,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -19428,18 +19428,23 @@
    1793577626,
    98.92,
    96.01
+  ],
+  [
+   1793578524,
+   98.92,
+   96.13
   ]
  ],
  "last_run": {
-  "ts": 1793577626,
+  "ts": 1793578524,
   "error": null,
   "markets_scanned": 4809,
   "candidates": 79,
   "rejections": {
-   "too little volume": 4314,
-   "no favorite in 80-95c band": 379,
+   "too little volume": 4312,
+   "no favorite in 80-95c band": 382,
    "spread too wide": 34,
-   "nothing for sale at the ask": 2,
+   "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -19447,74 +19452,74 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 17.73,
+    "volume_24h": 6957.12,
+    "score": 0.6767
+   },
+   {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $75,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 4834.2,
-    "score": 0.6514
+    "hours_to_close": 21.74,
+    "volume_24h": 4937.68,
+    "score": 0.6527
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $75,500 or above",
+    "label": "Ethereum price at Nov 2, 2026 at 5pm EST? \u2014 $2,170 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 4585.13,
-    "score": 0.6496
+    "hours_to_close": 21.74,
+    "volume_24h": 4160.71,
+    "score": 0.6471
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 21.99,
-    "volume_24h": 6208.45,
-    "score": 0.6495
+    "price": 0.93,
+    "hours_to_close": 21.74,
+    "volume_24h": 6540.27,
+    "score": 0.6419
    },
    {
     "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.98,
-    "volume_24h": 4976.98,
-    "score": 0.6373
+    "hours_to_close": 28.73,
+    "volume_24h": 4979.98,
+    "score": 0.6378
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 17.98,
-    "volume_24h": 6710.94,
-    "score": 0.6246
+    "price": 0.92,
+    "hours_to_close": 21.74,
+    "volume_24h": 6344.51,
+    "score": 0.6309
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.74,
+    "volume_24h": 3326.46,
+    "score": 0.6299
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Nov 2, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 17.98,
-    "volume_24h": 1774.22,
-    "score": 0.6213
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 21.99,
-    "volume_24h": 3432.31,
-    "score": 0.6102
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.99,
-    "volume_24h": 3294.46,
-    "score": 0.6089
+    "hours_to_close": 17.73,
+    "volume_24h": 2016.4,
+    "score": 0.6264
    }
   ],
   "skipped": {},
-  "watch_added": 7,
-  "watch_graded": 131,
-  "api_calls": 45
+  "watch_added": 3,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

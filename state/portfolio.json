@@ -78,7 +78,7 @@
    "opened_ts": 1793466026,
    "close_ts": 1793595540.0,
    "score": 0.5837,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793466926,
@@ -225,7 +225,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -287,7 +287,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.69,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -19539,17 +19539,22 @@
    1793593825,
    98.92,
    95.14
+  ],
+  [
+   1793594724,
+   98.92,
+   94.83
   ]
  ],
  "last_run": {
-  "ts": 1793593825,
+  "ts": 1793594724,
   "error": null,
-  "markets_scanned": 5230,
-  "candidates": 92,
+  "markets_scanned": 5229,
+  "candidates": 90,
   "rejections": {
-   "too little volume": 4593,
-   "no favorite in 80-95c band": 500,
-   "spread too wide": 41,
+   "too little volume": 4586,
+   "no favorite in 80-95c band": 505,
+   "spread too wide": 44,
    "favorite is slipping fast": 4
   },
   "opened": [],
@@ -19560,69 +19565,69 @@
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 17.49,
+    "hours_to_close": 17.24,
     "volume_24h": 18316.98,
-    "score": 0.6894
+    "score": 0.6903
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.49,
-    "volume_24h": 15543.81,
-    "score": 0.6794
+    "label": "Will Trump's RCP approval average be exactly 38.8 on Nov 2, 2026? \u2014 38.8%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 13.23,
+    "volume_24h": 19621.85,
+    "score": 0.6892
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 17.49,
+    "hours_to_close": 17.24,
     "volume_24h": 25223.46,
-    "score": 0.6694
+    "score": 0.6703
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 17.49,
-    "volume_24h": 3861.49,
-    "score": 0.6584
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 17.24,
+    "volume_24h": 15543.81,
+    "score": 0.6703
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 17.49,
-    "volume_24h": 10805.34,
-    "score": 0.6494
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $77,000 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 17.49,
-    "volume_24h": 29686.6,
-    "score": 0.6494
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 2, 2026? \u2014 Above $103.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.99,
-    "volume_24h": 1528.74,
-    "score": 0.6389
+    "price": 0.92,
+    "hours_to_close": 17.24,
+    "volume_24h": 12365.97,
+    "score": 0.6603
    },
    {
     "label": "Will the maximum temperature be 84-85\u00b0 on Nov 2, 2026? \u2014 84\u00b0 to 85\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.49,
-    "volume_24h": 4706.09,
-    "score": 0.6321
+    "hours_to_close": 25.24,
+    "volume_24h": 5250.09,
+    "score": 0.6362
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 2, 2026? \u2014 Above $103.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 14.74,
+    "volume_24h": 1632.51,
+    "score": 0.6322
+   },
+   {
+    "label": "Will the maximum temperature be 71-72\u00b0 on Nov 2, 2026? \u2014 71\u00b0 to 72\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 28.24,
+    "volume_24h": 7241.32,
+    "score": 0.6308
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

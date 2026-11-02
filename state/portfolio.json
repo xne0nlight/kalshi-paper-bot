@@ -112,7 +112,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -140,7 +140,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -212,7 +212,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -257,7 +257,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -274,7 +274,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -369,7 +369,7 @@
    "opened_ts": 1793621725,
    "close_ts": 1793714400.0,
    "score": 0.5908,
-   "mark_price": 0.88,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -19892,93 +19892,91 @@
    1793634325,
    100.75,
    96.79
+  ],
+  [
+   1793635230,
+   100.75,
+   96.92
   ]
  ],
  "last_run": {
-  "ts": 1793634325,
+  "ts": 1793635230,
   "error": null,
-  "markets_scanned": 735,
-  "candidates": 10,
+  "markets_scanned": 635,
+  "candidates": 7,
   "rejections": {
-   "too little volume": 604,
-   "no favorite in 80-95c band": 110,
-   "spread too wide": 11
+   "too little volume": 528,
+   "no favorite in 80-95c band": 95,
+   "spread too wide": 4,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 22.24,
-    "volume_24h": 4799.0,
-    "score": 0.6304
-   },
-   {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 3, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 629.05,
-    "score": 0.5722
+    "score": 0.5727
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Nov 3, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 417.0,
-    "score": 0.5588
-   },
-   {
-    "label": "Will there be more than 310 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 310",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.24,
-    "volume_24h": 500.01,
-    "score": 0.5368
+    "score": 0.5593
    },
    {
     "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.74,
-    "volume_24h": 1543.54,
-    "score": 0.4814
+    "price": 0.94,
+    "hours_to_close": 27.49,
+    "volume_24h": 1652.54,
+    "score": 0.4941
    },
    {
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.74,
-    "volume_24h": 2920.05,
-    "score": 0.4722
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 27.74,
-    "volume_24h": 3105.0,
-    "score": 0.4642
+    "hours_to_close": 27.49,
+    "volume_24h": 2921.12,
+    "score": 0.4726
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 26.23,
+    "hours_to_close": 25.97,
     "volume_24h": 1920.7,
-    "score": 0.4514
+    "score": 0.452
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 27.49,
+    "volume_24h": 288.61,
+    "score": 0.4173
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 27.49,
+    "volume_24h": 3105.0,
+    "score": 0.4146
    }
   ],
   "skipped": {
    "related-market cap (Oil prices)": 5,
-   "tracked only (below bet price floor)": 1,
-   "related-market cap (Presidential approval)": 1
+   "related-market cap (Presidential approval)": 1,
+   "tracked only (below bet price floor)": 1
   },
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

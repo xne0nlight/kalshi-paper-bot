@@ -225,7 +225,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -253,7 +253,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -287,7 +287,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.6,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -325,7 +325,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -404,7 +404,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.88,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -421,7 +421,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   }
  ],
@@ -19624,90 +19624,95 @@
    1793608229,
    98.92,
    94.48
+  ],
+  [
+   1793609124,
+   98.92,
+   94.88
   ]
  ],
  "last_run": {
-  "ts": 1793608229,
+  "ts": 1793609124,
   "error": null,
   "markets_scanned": 4917,
-  "candidates": 95,
+  "candidates": 94,
   "rejections": {
-   "too little volume": 4197,
-   "no favorite in 80-95c band": 581,
-   "spread too wide": 40,
-   "favorite is slipping fast": 4
+   "too little volume": 4191,
+   "no favorite in 80-95c band": 584,
+   "spread too wide": 43,
+   "favorite is slipping fast": 5
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.49,
-    "volume_24h": 13865.87,
-    "score": 0.7077
-   },
-   {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 13.49,
-    "volume_24h": 19004.9,
-    "score": 0.6877
+    "price": 0.95,
+    "hours_to_close": 13.24,
+    "volume_24h": 19062.91,
+    "score": 0.7091
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 2, 2026? \u2014 Above $103.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 10.99,
-    "volume_24h": 2959.01,
-    "score": 0.6839
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 13.24,
+    "volume_24h": 15708.15,
+    "score": 0.6791
    },
    {
     "label": "Will the WTI crude oil settlement price be above 103.49 USD/Bbl on Nov 2, 2026? \u2014 Above $103.49",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 10.99,
+    "hours_to_close": 10.74,
     "volume_24h": 4131.09,
-    "score": 0.6748
+    "score": 0.6766
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $79,500 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 13.49,
-    "volume_24h": 8755.92,
-    "score": 0.6734
+    "price": 0.9,
+    "hours_to_close": 13.24,
+    "volume_24h": 8955.65,
+    "score": 0.6555
+   },
+   {
+    "label": "Ethereum price at Nov 2, 2026 at 5pm EST? \u2014 $2,370 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 13.24,
+    "volume_24h": 1761.77,
+    "score": 0.6526
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $79,750 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.49,
+    "price": 0.93,
+    "hours_to_close": 13.24,
     "volume_24h": 2300.82,
-    "score": 0.6599
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 13.49,
-    "volume_24h": 15551.16,
-    "score": 0.6477
+    "score": 0.6413
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 20.48,
+    "hours_to_close": 20.23,
     "volume_24h": 13152.52,
-    "score": 0.6393
+    "score": 0.6401
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $77,000 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 13.24,
+    "volume_24h": 34586.8,
+    "score": 0.6391
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 44
  },

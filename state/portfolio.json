@@ -119,7 +119,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -164,7 +164,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.82,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -310,7 +310,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.957,
+   "mark_price": 0.923,
    "shadow": {}
   },
   {
@@ -327,7 +327,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.78,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -377,7 +377,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793772000.0,
    "score": 0.4411,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -394,7 +394,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -20107,90 +20107,94 @@
    1793649625,
    101.79,
    98.874
+  ],
+  [
+   1793650526,
+   101.79,
+   99.05
   ]
  ],
  "last_run": {
-  "ts": 1793649625,
+  "ts": 1793650526,
   "error": null,
   "markets_scanned": 698,
-  "candidates": 33,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 576,
-   "no favorite in 80-95c band": 77,
-   "spread too wide": 11,
-   "favorite is slipping fast": 1
+   "too little volume": 575,
+   "no favorite in 80-95c band": 80,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.49,
-    "volume_24h": 11711.11,
-    "score": 0.6112
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 3, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.98,
+    "hours_to_close": 21.73,
     "volume_24h": 2270.92,
-    "score": 0.5968
+    "score": 0.5975
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.24,
+    "volume_24h": 11711.11,
+    "score": 0.5818
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.86,
+    "hours_to_close": 21.73,
+    "volume_24h": 4268.73,
+    "score": 0.558
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Nov 3, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.74,
+    "volume_24h": 386.67,
+    "score": 0.547
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Nov 3, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.74,
+    "volume_24h": 382.33,
+    "score": 0.5466
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 379.87,
-    "score": 0.5448
+    "hours_to_close": 34.74,
+    "volume_24h": 380.87,
+    "score": 0.5452
+   },
+   {
+    "label": "Will it rain in Lexington on Election Day?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 32.73,
+    "volume_24h": 591.81,
+    "score": 0.5422
    },
    {
     "label": "Will the maximum temperature be <69\u00b0 on Nov 3, 2026? \u2014 68\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 329.12,
-    "score": 0.5414
-   },
-   {
-    "label": "Will it rain in Springfield on Nov 3, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 830.79,
-    "score": 0.5215
-   },
-   {
-    "label": "Will it rain in Minneapolis on Nov 3, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 33.99,
-    "volume_24h": 327.7,
-    "score": 0.5213
-   },
-   {
-    "label": "Will the maximum temperature be <71\u00b0 on Nov 3, 2026? \u2014 70\u00b0 or below",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.99,
-    "volume_24h": 503.39,
-    "score": 0.5139
-   },
-   {
-    "label": "Will it rain in Seattle on Nov 3, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 35.99,
-    "volume_24h": 914.56,
-    "score": 0.5121
+    "score": 0.5417
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

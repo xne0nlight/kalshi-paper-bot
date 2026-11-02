@@ -191,7 +191,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -225,7 +225,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -263,7 +263,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -308,7 +308,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.94,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -325,7 +325,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -380,7 +380,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.97,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -19809,19 +19809,23 @@
    1793625329,
    100.01,
    96.52
+  ],
+  [
+   1793626225,
+   100.01,
+   96.04
   ]
  ],
  "last_run": {
-  "ts": 1793625329,
+  "ts": 1793626225,
   "error": null,
   "markets_scanned": 743,
-  "candidates": 22,
+  "candidates": 19,
   "rejections": {
-   "too little volume": 579,
-   "no favorite in 80-95c band": 131,
-   "spread too wide": 7,
-   "favorite is slipping fast": 3,
-   "nothing for sale at the ask": 1
+   "too little volume": 578,
+   "no favorite in 80-95c band": 135,
+   "spread too wide": 8,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
@@ -19831,70 +19835,70 @@
     "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 4801.0,
-    "score": 0.6244
+    "score": 0.625
+   },
+   {
+    "label": "Andorra wins",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 30.49,
+    "volume_24h": 8938.64,
+    "score": 0.5939
    },
    {
     "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 6245.98,
-    "score": 0.593
+    "score": 0.5935
    },
    {
-    "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
+    "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 1252.21,
-    "score": 0.5795
-   },
-   {
-    "label": "Andorra wins",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 30.74,
-    "volume_24h": 5944.99,
-    "score": 0.5702
+    "price": 0.91,
+    "hours_to_close": 30.49,
+    "volume_24h": 2540.73,
+    "score": 0.5729
    },
    {
     "label": "Will there be more than 23 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 23",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 10002.31,
-    "score": 0.5683
+    "score": 0.5689
    },
    {
     "label": "Will there be more than 180 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 180",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 500.0,
-    "score": 0.5608
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >104.99 on Nov 3, 2026? \u2014 $105 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 1799.73,
-    "score": 0.5521
+    "score": 0.5614
    },
    {
     "label": "Will there be more than 20 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 20",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 4685.0,
-    "score": 0.5436
+    "score": 0.5442
+   },
+   {
+    "label": "Will October 26 be the day with the most transit calls through the Strait of Hormuz (10/26 - 11/1)?",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 24.49,
+    "volume_24h": 1040.19,
+    "score": 0.5352
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 16,
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

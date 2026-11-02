@@ -289,7 +289,7 @@
    "contracts": 0.01,
    "cost": 0.0084,
    "opened_ts": 1793556925,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "avg_price": 0.84
   },
   {
@@ -308,7 +308,7 @@
    "contracts": 1.0,
    "cost": 0.39,
    "opened_ts": 1793556925,
-   "mark_price": 0.31,
+   "mark_price": 0.3,
    "avg_price": 0.39
   },
   {
@@ -365,7 +365,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793563225,
-   "mark_price": 0.18,
+   "mark_price": 0.15,
    "avg_price": 0.08
   },
   {
@@ -384,7 +384,7 @@
    "contracts": 1.0,
    "cost": 0.85,
    "opened_ts": 1793564126,
-   "mark_price": 0.21,
+   "mark_price": 0.22,
    "avg_price": 0.85
   },
   {
@@ -403,7 +403,7 @@
    "contracts": 0.5,
    "cost": 0.045,
    "opened_ts": 1793564126,
-   "mark_price": 0.02,
+   "mark_price": 0.03,
    "avg_price": 0.09
   },
   {
@@ -441,7 +441,7 @@
    "contracts": 0.5,
    "cost": 0.49,
    "opened_ts": 1793566826,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "avg_price": 0.98
   },
   {
@@ -555,7 +555,7 @@
    "contracts": 0.5,
    "cost": 0.415,
    "opened_ts": 1793596526,
-   "mark_price": 0.76,
+   "mark_price": 0.74,
    "avg_price": 0.83
   },
   {
@@ -574,7 +574,7 @@
    "contracts": 3.0,
    "cost": 2.79,
    "opened_ts": 1793596526,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "avg_price": 0.93
   },
   {
@@ -593,7 +593,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793599229,
-   "mark_price": 0.05,
+   "mark_price": 0.04,
    "avg_price": 0.08
   },
   {
@@ -650,7 +650,7 @@
    "contracts": 2.5,
    "cost": 2.05,
    "opened_ts": 1793600125,
-   "mark_price": 0.52,
+   "mark_price": 0.55,
    "avg_price": 0.82
   },
   {
@@ -669,7 +669,7 @@
    "contracts": 1.0,
    "cost": 0.11,
    "opened_ts": 1793600125,
-   "mark_price": 0.06,
+   "mark_price": 0.1,
    "avg_price": 0.11
   },
   {
@@ -726,7 +726,7 @@
    "contracts": 13.0,
    "cost": 10.79,
    "opened_ts": 1793607326,
-   "mark_price": 0.77,
+   "mark_price": 0.85,
    "avg_price": 0.83
   },
   {
@@ -12241,6 +12241,11 @@
    1793625329,
    117.2925,
    122.0583
+  ],
+  [
+   1793626225,
+   117.2925,
+   123.2034
   ]
  ],
  "forecast_log": {
@@ -18411,24 +18416,11 @@
   }
  },
  "last_run": {
-  "ts": 1793625329,
+  "ts": 1793626225,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXHIGHTOKC-26NOV01-T72",
-    "pnl": 1.8792
-   },
-   {
-    "ticker": "KXHIGHTDAL-26NOV01-T79",
-    "pnl": 0.1
-   },
-   {
-    "ticker": "KXHIGHTOKC-26NOV01-B74.5",
-    "pnl": -0.065
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -18436,7 +18428,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 41.1
+  "seconds": 32.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

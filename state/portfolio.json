@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 25.35,
+ "cash": 30.35,
  "fees_paid": 8.49,
  "peak_equity": 109.65,
  "day": "2026-11-02",
@@ -65,23 +65,6 @@
    "shadow": {}
   },
   {
-   "id": 314,
-   "ticker": "KXANTHSHARE-26NOV02-6.1",
-   "event_ticker": "KXANTHSHARE-26NOV02",
-   "series": "KXANTHSHARE",
-   "label": "Anthropic market share this week? \u2014 Above 6.1%",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1793469624,
-   "close_ts": 1793595540.0,
-   "score": 0.6094,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 326,
    "ticker": "KXWTI-26NOV0214-T105.99",
    "event_ticker": "KXWTI-26NOV0214",
@@ -112,7 +95,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -140,7 +123,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -157,7 +140,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -274,7 +257,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -312,7 +295,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -329,7 +312,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.91,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -369,7 +352,7 @@
    "opened_ts": 1793621725,
    "close_ts": 1793714400.0,
    "score": 0.5908,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -8684,6 +8667,27 @@
    "pnl": 0.23,
    "result": "YES",
    "closed_ts": 1793633432,
+   "won": true
+  },
+  {
+   "id": 314,
+   "ticker": "KXANTHSHARE-26NOV02-6.1",
+   "event_ticker": "KXANTHSHARE-26NOV02",
+   "series": "KXANTHSHARE",
+   "label": "Anthropic market share this week? \u2014 Above 6.1%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793469624,
+   "close_ts": 1793595540.0,
+   "score": 0.6094,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "NO",
+   "closed_ts": 1793637029,
    "won": true
   }
  ],
@@ -19902,87 +19906,101 @@
    1793636125,
    100.75,
    97.19
+  ],
+  [
+   1793637029,
+   101.07,
+   97.89
   ]
  ],
  "last_run": {
-  "ts": 1793636125,
+  "ts": 1793637029,
   "error": null,
-  "markets_scanned": 635,
-  "candidates": 7,
+  "markets_scanned": 641,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 528,
+   "too little volume": 534,
    "no favorite in 80-95c band": 96,
-   "spread too wide": 3,
-   "favorite is slipping fast": 1
+   "spread too wide": 3
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   314
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 27.24,
-    "volume_24h": 2921.12,
-    "score": 0.5731
-   },
    {
     "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 3, 2026? \u2014 Above $103.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 629.05,
-    "score": 0.5731
+    "score": 0.5736
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 26.99,
+    "volume_24h": 484.79,
+    "score": 0.5651
    },
    {
     "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Nov 3, 2026? \u2014 Above $102.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 417.0,
-    "score": 0.5598
+    "score": 0.5602
    },
    {
     "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 27.24,
+    "price": 0.92,
+    "hours_to_close": 26.99,
     "volume_24h": 1652.54,
-    "score": 0.5346
+    "score": 0.525
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 3105.0,
-    "score": 0.5151
+    "score": 0.5156
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 26.99,
+    "volume_24h": 3001.12,
+    "score": 0.5045
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.73,
-    "volume_24h": 1924.8,
-    "score": 0.4525
+    "price": 0.88,
+    "hours_to_close": 25.48,
+    "volume_24h": 1925.8,
+    "score": 0.4931
    },
    {
     "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 27.24,
+    "hours_to_close": 26.99,
     "volume_24h": 288.61,
-    "score": 0.4378
+    "score": 0.4383
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 5,
+   "related-market cap (Oil prices)": 6,
    "tracked only (below bet price floor)": 1,
    "related-market cap (Presidential approval)": 1
   },
   "watch_added": 0,
-  "watch_graded": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

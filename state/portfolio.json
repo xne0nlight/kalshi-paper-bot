@@ -57,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -113,7 +113,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -230,7 +230,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -304,7 +304,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.93,
+   "mark_price": 0.931,
    "shadow": {}
   },
   {
@@ -338,7 +338,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -371,7 +371,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793772000.0,
    "score": 0.4411,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -388,7 +388,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.85,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -20184,18 +20184,23 @@
    1793657725,
    102.52,
    99.182
+  ],
+  [
+   1793658636,
+   102.52,
+   99.318
   ]
  ],
  "last_run": {
-  "ts": 1793657725,
+  "ts": 1793658636,
   "error": null,
   "markets_scanned": 3928,
-  "candidates": 42,
+  "candidates": 41,
   "rejections": {
-   "too little volume": 3747,
-   "no favorite in 80-95c band": 120,
-   "spread too wide": 18,
-   "nothing for sale at the ask": 1
+   "too little volume": 3743,
+   "no favorite in 80-95c band": 129,
+   "spread too wide": 13,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
@@ -20205,71 +20210,71 @@
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $73,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 2452.22,
-    "score": 0.6248
+    "hours_to_close": 23.49,
+    "volume_24h": 4895.22,
+    "score": 0.648
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.88,
+    "hours_to_close": 19.47,
+    "volume_24h": 15391.39,
+    "score": 0.6124
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 2093.88,
-    "score": 0.5997
+    "hours_to_close": 23.49,
+    "volume_24h": 2541.88,
+    "score": 0.6066
    },
    {
     "label": "Will it rain in Springfield on Nov 3, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 859.62,
-    "score": 0.5658
+    "score": 0.5661
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.74,
-    "volume_24h": 1732.8,
-    "score": 0.5635
+    "hours_to_close": 23.49,
+    "volume_24h": 1741.31,
+    "score": 0.5643
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 587.87,
-    "score": 0.562
+    "score": 0.5623
    },
    {
     "label": "Will the maximum temperature be 71-72\u00b0 on Nov 3, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 856.38,
-    "score": 0.5615
+    "score": 0.5619
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
     "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 23.74,
-    "volume_24h": 10986.77,
-    "score": 0.5506
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 3, 2026? \u2014 Above $100.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 870.6,
-    "score": 0.5476
+    "price": 0.84,
+    "hours_to_close": 23.49,
+    "volume_24h": 11016.26,
+    "score": 0.5612
    }
   ],
   "skipped": {},
-  "watch_added": 9,
-  "watch_graded": 68,
-  "api_calls": 44
+  "watch_added": 0,
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

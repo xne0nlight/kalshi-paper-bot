@@ -119,7 +119,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.9,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -219,7 +219,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.85,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -310,7 +310,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.923,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.77,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -411,7 +411,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -20112,16 +20112,21 @@
    1793650526,
    101.79,
    99.05
+  ],
+  [
+   1793651427,
+   101.79,
+   99.122
   ]
  ],
  "last_run": {
-  "ts": 1793650526,
+  "ts": 1793651427,
   "error": null,
-  "markets_scanned": 698,
-  "candidates": 31,
+  "markets_scanned": 778,
+  "candidates": 32,
   "rejections": {
-   "too little volume": 575,
-   "no favorite in 80-95c band": 80,
+   "too little volume": 653,
+   "no favorite in 80-95c band": 81,
    "spread too wide": 12
   },
   "opened": [],
@@ -20129,72 +20134,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 3, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 21.73,
-    "volume_24h": 2270.92,
-    "score": 0.5975
-   },
-   {
     "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 11711.11,
-    "score": 0.5818
+    "score": 0.6324
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 3, 2026? \u2014 39.0%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 21.48,
+    "volume_24h": 2279.02,
+    "score": 0.5683
+   },
+   {
+    "label": "Will it rain in Springfield on Nov 3, 2026?",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 33.49,
+    "volume_24h": 857.61,
+    "score": 0.5632
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 21.73,
+    "hours_to_close": 21.48,
     "volume_24h": 4268.73,
-    "score": 0.558
+    "score": 0.5587
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 22.99,
+    "volume_24h": 1249.42,
+    "score": 0.5547
    },
    {
     "label": "Will it rain in Oklahoma City on Nov 3, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 386.67,
-    "score": 0.547
+    "score": 0.5473
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Nov 3, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 382.33,
-    "score": 0.5466
+    "score": 0.5469
    },
    {
     "label": "Will the maximum temperature be 80-81\u00b0 on Nov 3, 2026? \u2014 80\u00b0 to 81\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 380.87,
-    "score": 0.5452
-   },
-   {
-    "label": "Will it rain in Lexington on Election Day?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 32.73,
-    "volume_24h": 591.81,
-    "score": 0.5422
-   },
-   {
-    "label": "Will the maximum temperature be <69\u00b0 on Nov 3, 2026? \u2014 68\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 329.12,
-    "score": 0.5417
+    "score": 0.5455
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

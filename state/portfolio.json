@@ -225,7 +225,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.87,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -282,7 +282,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -19473,91 +19473,95 @@
    1793585729,
    98.92,
    96.09
+  ],
+  [
+   1793586625,
+   98.92,
+   96.16
   ]
  ],
  "last_run": {
-  "ts": 1793585729,
+  "ts": 1793586625,
   "error": null,
   "markets_scanned": 4875,
-  "candidates": 88,
+  "candidates": 95,
   "rejections": {
-   "too little volume": 4307,
-   "no favorite in 80-95c band": 433,
-   "spread too wide": 43,
-   "favorite is slipping fast": 3,
-   "nothing for sale at the ask": 1
+   "too little volume": 4305,
+   "no favorite in 80-95c band": 436,
+   "spread too wide": 36,
+   "favorite is slipping fast": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 19.49,
+    "volume_24h": 14202.2,
+    "score": 0.6624
+   },
+   {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 5562.42,
-    "score": 0.6525
+    "score": 0.6533
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
-    "side": "yes",
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.74,
-    "volume_24h": 14202.2,
-    "score": 0.6516
+    "hours_to_close": 19.49,
+    "volume_24h": 24101.11,
+    "score": 0.6524
    },
    {
-    "label": "Will Sprite Point of Sale Growth for October 2026 be above 97 ? \u2014 Above 97",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 26.73,
-    "volume_24h": 8469.53,
-    "score": 0.6388
+    "label": "Will Trump's RCP approval average be exactly 38.6 on Nov 2, 2026? \u2014 38.6%",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 15.48,
+    "volume_24h": 6994.17,
+    "score": 0.6361
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 12668.6,
-    "score": 0.6342
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.74,
-    "volume_24h": 7496.36,
-    "score": 0.6322
+    "score": 0.6347
    },
    {
     "label": "Will the WTI crude oil settlement price be above 104.49 USD/Bbl on Nov 2, 2026? \u2014 Above $104.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.24,
-    "volume_24h": 1635.19,
-    "score": 0.6314
+    "hours_to_close": 16.99,
+    "volume_24h": 1735.19,
+    "score": 0.6343
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 19.49,
+    "volume_24h": 10829.5,
+    "score": 0.6324
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 1631.46,
-    "score": 0.6225
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 19.74,
-    "volume_24h": 10816.69,
-    "score": 0.6216
+    "score": 0.6233
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.702,
- "fees_paid": 8.6,
+ "cash": 10.722,
+ "fees_paid": 8.68,
  "peak_equity": 109.65,
  "day": "2026-11-02",
  "day_start_equity": 98.92,
- "next_id": 347,
+ "next_id": 349,
  "open_positions": [
   {
    "id": 284,
@@ -57,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -106,44 +106,6 @@
    "shadow": {}
   },
   {
-   "id": 332,
-   "ticker": "KXTRUMPAPPROVE-26NOV02-E39.0",
-   "event_ticker": "KXTRUMPAPPROVE-26NOV02",
-   "series": "KXTRUMPAPPROVE",
-   "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.92,
-   "fee": 0.04,
-   "cost": 5.56,
-   "opened_ts": 1793556925,
-   "close_ts": 1793642340.0,
-   "score": 0.602,
-   "mark_price": 0.94,
-   "shadow": {
-    "10": {
-     "ts": 1793589324,
-     "bid": 0.81,
-     "proceeds": 4.79
-    },
-    "15": {
-     "ts": 1793590225,
-     "bid": 0.77,
-     "proceeds": 4.54
-    },
-    "20": {
-     "ts": 1793593825,
-     "bid": 0.69,
-     "proceeds": 4.05
-    },
-    "30": {
-     "ts": 1793598325,
-     "bid": 0.62,
-     "proceeds": 3.62
-    }
-   }
-  },
-  {
    "id": 333,
    "ticker": "KXMONSTERPOS-26NOV03-T104",
    "event_ticker": "KXMONSTERPOS-26NOV03",
@@ -157,7 +119,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.8,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -202,7 +164,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -219,7 +181,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -274,7 +236,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.94,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -348,7 +310,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.92,
+   "mark_price": 0.922,
    "shadow": {}
   },
   {
@@ -400,6 +362,40 @@
    "close_ts": 1793772000.0,
    "score": 0.4411,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 347,
+   "ticker": "KXTRUMPAPPROVE-26NOV03-E39.1",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV03",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1793643325,
+   "close_ts": 1793728740.0,
+   "score": 0.5075,
+   "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 348,
+   "ticker": "KXHIGHMIA-26NOV03-B87.5",
+   "event_ticker": "KXHIGHMIA-26NOV03",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 87-88\u00b0 on Nov 3, 2026? \u2014 87\u00b0 to 88\u00b0",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.89,
+   "fee": 0.03,
+   "cost": 3.59,
+   "opened_ts": 1793643325,
+   "close_ts": 1793772000.0,
+   "score": 0.4698,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -8760,6 +8756,48 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1793639726,
+   "won": true
+  },
+  {
+   "id": 332,
+   "ticker": "KXTRUMPAPPROVE-26NOV02-E39.0",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV02",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793556925,
+   "close_ts": 1793642340.0,
+   "score": 0.602,
+   "shadow": {
+    "10": {
+     "ts": 1793589324,
+     "bid": 0.81,
+     "proceeds": 4.79
+    },
+    "15": {
+     "ts": 1793590225,
+     "bid": 0.77,
+     "proceeds": 4.54
+    },
+    "20": {
+     "ts": 1793593825,
+     "bid": 0.69,
+     "proceeds": 4.05
+    },
+    "30": {
+     "ts": 1793598325,
+     "bid": 0.62,
+     "proceeds": 3.62
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "NO",
+   "closed_ts": 1793643325,
    "won": true
   }
  ],
@@ -20013,96 +20051,102 @@
    1793642426,
    101.35,
    99.922
+  ],
+  [
+   1793643325,
+   101.79,
+   99.884
   ]
  ],
  "last_run": {
-  "ts": 1793642426,
+  "ts": 1793643325,
   "error": null,
-  "markets_scanned": 547,
-  "candidates": 20,
+  "markets_scanned": 557,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 462,
-   "no favorite in 80-95c band": 53,
-   "spread too wide": 12
+   "too little volume": 467,
+   "no favorite in 80-95c band": 55,
+   "spread too wide": 11
   },
   "opened": [
-   345,
-   346
+   347,
+   348
   ],
-  "settled": [],
+  "settled": [
+   332
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 3190.12,
-    "score": 0.6295
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 25.49,
-    "volume_24h": 10222.62,
-    "score": 0.6167
+    "hours_to_close": 25.24,
+    "volume_24h": 3100.12,
+    "score": 0.6291
    },
    {
     "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
-    "price": 0.938,
-    "hours_to_close": 34.98,
-    "volume_24h": 11597.97,
-    "score": 0.5992
+    "price": 0.939,
+    "hours_to_close": 34.73,
+    "volume_24h": 11672.25,
+    "score": 0.6056
    },
    {
-    "label": "Will it rain in Lexington on Nov 3, 2026?",
+    "label": "Will the WTI front-month settle oil price  be >90.99 on Nov 3, 2026? \u2014 $91 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 25.24,
+    "volume_24h": 256.13,
+    "score": 0.538
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 472.26,
-    "score": 0.5319
+    "price": 0.95,
+    "hours_to_close": 25.24,
+    "volume_24h": 3233.0,
+    "score": 0.5304
+   },
+   {
+    "label": "Will it rain in Atlanta on Nov 3, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 34.74,
+    "volume_24h": 738.09,
+    "score": 0.5267
    },
    {
     "label": "Will it rain in Springfield, MO on Election Day?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.98,
+    "hours_to_close": 35.73,
     "volume_24h": 684.0,
-    "score": 0.5127
+    "score": 0.513
    },
    {
-    "label": "Will it rain in Oklahoma City on Nov 3, 2026?",
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 23.73,
+    "volume_24h": 1955.93,
+    "score": 0.5075
+   },
+   {
+    "label": "Will it rain in Detroit on Nov 3, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.99,
-    "volume_24h": 272.81,
-    "score": 0.5028
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 25.49,
-    "volume_24h": 635.05,
-    "score": 0.4969
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >90.99 on Nov 3, 2026? \u2014 $91 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 25.49,
-    "volume_24h": 230.13,
-    "score": 0.494
+    "hours_to_close": 34.74,
+    "volume_24h": 213.38,
+    "score": 0.4964
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 6,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Oil prices)": 3
   },
-  "watch_added": 11,
-  "watch_graded": 0,
+  "watch_added": 5,
+  "watch_graded": 7,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

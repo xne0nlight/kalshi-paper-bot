@@ -57,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -102,7 +102,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -119,7 +119,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.88,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -164,7 +164,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -219,7 +219,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.81,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -310,7 +310,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.922,
+   "mark_price": 0.939,
    "shadow": {}
   },
   {
@@ -378,7 +378,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -20056,97 +20056,95 @@
    1793643325,
    101.79,
    99.884
+  ],
+  [
+   1793644229,
+   101.79,
+   99.986
   ]
  ],
  "last_run": {
-  "ts": 1793643325,
+  "ts": 1793644229,
   "error": null,
   "markets_scanned": 557,
-  "candidates": 24,
+  "candidates": 23,
   "rejections": {
-   "too little volume": 467,
-   "no favorite in 80-95c band": 55,
-   "spread too wide": 11
+   "too little volume": 464,
+   "no favorite in 80-95c band": 58,
+   "spread too wide": 12
   },
-  "opened": [
-   347,
-   348
-  ],
-  "settled": [
-   332
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
+    "side": "no",
+    "price": 0.943,
+    "hours_to_close": 34.48,
+    "volume_24h": 10939.24,
+    "score": 0.6749
+   },
    {
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.24,
+    "hours_to_close": 24.99,
     "volume_24h": 3100.12,
-    "score": 0.6291
+    "score": 0.6296
    },
    {
-    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
-    "side": "no",
-    "price": 0.939,
-    "hours_to_close": 34.73,
-    "volume_24h": 11672.25,
-    "score": 0.6056
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >90.99 on Nov 3, 2026? \u2014 $91 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 25.24,
-    "volume_24h": 256.13,
-    "score": 0.538
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
+    "label": "Will the maximum temperature be <69\u00b0 on Nov 3, 2026? \u2014 68\u00b0 or below",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.24,
-    "volume_24h": 3233.0,
-    "score": 0.5304
+    "hours_to_close": 35.49,
+    "volume_24h": 260.12,
+    "score": 0.5319
    },
    {
     "label": "Will it rain in Atlanta on Nov 3, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 738.09,
-    "score": 0.5267
+    "score": 0.527
+   },
+   {
+    "label": "Will it rain in Oklahoma City on Nov 3, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.49,
+    "volume_24h": 367.81,
+    "score": 0.5231
    },
    {
     "label": "Will it rain in Springfield, MO on Election Day?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 684.0,
-    "score": 0.513
+    "score": 0.5133
    },
    {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.73,
-    "volume_24h": 1955.93,
-    "score": 0.5075
+    "label": "Will the WTI front-month settle oil price  be >90.99 on Nov 3, 2026? \u2014 $91 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.99,
+    "volume_24h": 306.03,
+    "score": 0.5043
    },
    {
     "label": "Will it rain in Detroit on Nov 3, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.74,
-    "volume_24h": 213.38,
-    "score": 0.4964
+    "hours_to_close": 34.49,
+    "volume_24h": 223.38,
+    "score": 0.4982
    }
   ],
-  "skipped": {
-   "related-market cap (Oil prices)": 3
-  },
-  "watch_added": 5,
-  "watch_graded": 7,
+  "skipped": {},
+  "watch_added": 3,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

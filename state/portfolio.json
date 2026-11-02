@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 30.35,
- "fees_paid": 8.49,
+ "cash": 19.192,
+ "fees_paid": 8.56,
  "peak_equity": 109.65,
  "day": "2026-11-02",
  "day_start_equity": 98.92,
- "next_id": 343,
+ "next_id": 345,
  "open_positions": [
   {
    "id": 264,
@@ -157,7 +157,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -195,7 +195,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.95,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -257,7 +257,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -295,7 +295,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -370,6 +370,40 @@
    "close_ts": 1793714400.0,
    "score": 0.5428,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 343,
+   "ticker": "KXELECTIONEMERGENCY-26NOV04",
+   "event_ticker": "KXELECTIONEMERGENCY",
+   "series": "KXELECTIONEMERGENCY",
+   "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.938,
+   "fee": 0.03,
+   "cost": 5.658,
+   "opened_ts": 1793638826,
+   "close_ts": 1793768340.0,
+   "score": 0.563,
+   "mark_price": 0.913,
+   "shadow": {}
+  },
+  {
+   "id": 344,
+   "ticker": "KXRAIN-26NOV03-ATL",
+   "event_ticker": "KXRAIN-26NOV03",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Nov 3, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.91,
+   "fee": 0.04,
+   "cost": 5.5,
+   "opened_ts": 1793638826,
+   "close_ts": 1793768400.0,
+   "score": 0.5196,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -19916,20 +19950,27 @@
    1793637937,
    101.07,
    97.51
+  ],
+  [
+   1793638826,
+   101.07,
+   96.93
   ]
  ],
  "last_run": {
-  "ts": 1793637937,
+  "ts": 1793638826,
   "error": null,
-  "markets_scanned": 627,
-  "candidates": 6,
+  "markets_scanned": 407,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 516,
-   "no favorite in 80-95c band": 100,
-   "spread too wide": 4,
-   "nothing for sale at the ask": 1
+   "too little volume": 357,
+   "no favorite in 80-95c band": 33,
+   "spread too wide": 7
   },
-  "opened": [],
+  "opened": [
+   343,
+   344
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -19937,58 +19978,74 @@
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.74,
-    "volume_24h": 3122.12,
-    "score": 0.6262
+    "hours_to_close": 26.49,
+    "volume_24h": 3190.12,
+    "score": 0.6274
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 102.99 USD/Bbl on Nov 3, 2026? \u2014 Above $102.99",
+    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 26.74,
-    "volume_24h": 417.0,
-    "score": 0.5607
+    "price": 0.938,
+    "hours_to_close": 35.98,
+    "volume_24h": 14548.35,
+    "score": 0.563
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 26.49,
+    "volume_24h": 1712.93,
+    "score": 0.5472
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 26.74,
+    "hours_to_close": 26.49,
     "volume_24h": 3119.0,
-    "score": 0.5362
+    "score": 0.5367
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 25.22,
+    "hours_to_close": 24.98,
     "volume_24h": 1945.8,
-    "score": 0.534
+    "score": 0.5345
+   },
+   {
+    "label": "Will it rain in Atlanta on Nov 3, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 623.0,
+    "score": 0.5196
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 26.49,
+    "volume_24h": 9591.09,
+    "score": 0.5033
    },
    {
     "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 26.74,
+    "price": 0.94,
+    "hours_to_close": 26.49,
     "volume_24h": 589.64,
-    "score": 0.522
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >98.99 on Nov 3, 2026? \u2014 $99 or above",
-    "side": "no",
-    "price": 0.8,
-    "hours_to_close": 26.74,
-    "volume_24h": 1770.75,
-    "score": 0.3578
+    "score": 0.4625
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 4,
+   "related-market cap (Oil prices)": 5,
    "related-market cap (Presidential approval)": 1,
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 1,
-  "watch_graded": 0,
+  "watch_added": 4,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

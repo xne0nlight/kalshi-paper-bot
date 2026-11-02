@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.84,
- "fees_paid": 8.37,
+ "cash": 14.84,
+ "fees_paid": 8.45,
  "peak_equity": 109.65,
  "day": "2026-11-02",
  "day_start_equity": 98.92,
- "next_id": 339,
+ "next_id": 341,
  "open_positions": [
   {
    "id": 264,
@@ -123,40 +123,6 @@
    "opened_ts": 1793490325,
    "close_ts": 1793599200.0,
    "score": 0.601,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 322,
-   "ticker": "KXRAIN-26NOV01-ATL",
-   "event_ticker": "KXRAIN-26NOV01",
-   "series": "KXRAIN",
-   "label": "Will it rain in Atlanta on Nov 1, 2026?",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.92,
-   "fee": 0.04,
-   "cost": 5.56,
-   "opened_ts": 1793502926,
-   "close_ts": 1793595600.0,
-   "score": 0.615,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 323,
-   "ticker": "KXHIGHNY-26NOV01-B62.5",
-   "event_ticker": "KXHIGHNY-26NOV01",
-   "series": "KXHIGHNY",
-   "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1793503826,
-   "close_ts": 1793599200.0,
-   "score": 0.6067,
    "mark_price": 0.99,
    "shadow": {}
   },
@@ -287,7 +253,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.75,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -387,7 +353,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -450,6 +416,40 @@
      "proceeds": 4.79
     }
    }
+  },
+  {
+   "id": 339,
+   "ticker": "KXSUEZWEEKLY-26NOV01-T270",
+   "event_ticker": "KXSUEZWEEKLY-26NOV01",
+   "series": "KXSUEZWEEKLY",
+   "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793621725,
+   "close_ts": 1793714400.0,
+   "score": 0.6223,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 340,
+   "ticker": "KXBABELMANDEBWEEKLY-26NOV01-T185",
+   "event_ticker": "KXBABELMANDEBWEEKLY-26NOV01",
+   "series": "KXBABELMANDEBWEEKLY",
+   "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1793621725,
+   "close_ts": 1793714400.0,
+   "score": 0.5908,
+   "mark_price": 0.88,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -8588,6 +8588,48 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793571325,
+   "won": true
+  },
+  {
+   "id": 322,
+   "ticker": "KXRAIN-26NOV01-ATL",
+   "event_ticker": "KXRAIN-26NOV01",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Nov 1, 2026?",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793502926,
+   "close_ts": 1793595600.0,
+   "score": 0.615,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "YES",
+   "closed_ts": 1793621725,
+   "won": true
+  },
+  {
+   "id": 323,
+   "ticker": "KXHIGHNY-26NOV01-B62.5",
+   "event_ticker": "KXHIGHNY-26NOV01",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 62-63\u00b0 on Nov 1, 2026? \u2014 62\u00b0 to 63\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793503826,
+   "close_ts": 1793599200.0,
+   "score": 0.6067,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.33,
+   "result": "NO",
+   "closed_ts": 1793621725,
    "won": true
   }
  ],
@@ -19721,91 +19763,102 @@
    1793620826,
    98.92,
    95.17
+  ],
+  [
+   1793621725,
+   99.69,
+   95.25
   ]
  ],
  "last_run": {
-  "ts": 1793620826,
+  "ts": 1793621725,
   "error": null,
   "markets_scanned": 734,
-  "candidates": 15,
+  "candidates": 16,
   "rejections": {
-   "too little volume": 604,
-   "no favorite in 80-95c band": 103,
+   "too little volume": 584,
+   "no favorite in 80-95c band": 122,
    "spread too wide": 10,
    "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   339,
+   340
+  ],
+  "settled": [
+   322,
+   323
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 4801.0,
-    "score": 0.6217
+    "score": 0.6223
    },
    {
     "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 6245.98,
-    "score": 0.5903
+    "score": 0.5908
    },
    {
     "label": "Will there be more than 180 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 180",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 500.0,
-    "score": 0.5581
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 104.99 USD/Bbl on Nov 3, 2026? \u2014 Above $104.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 400.0,
-    "score": 0.5512
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >104.99 on Nov 3, 2026? \u2014 $105 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 1799.73,
-    "score": 0.5502
+    "score": 0.5586
    },
    {
     "label": "Will there be more than 20 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 20",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.99,
+    "hours_to_close": 25.74,
     "volume_24h": 4725.9,
-    "score": 0.5412
+    "score": 0.5417
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >104.99 on Nov 3, 2026? \u2014 $105 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 31.24,
+    "volume_24h": 1799.73,
+    "score": 0.5405
    },
    {
     "label": "Will October 26 be the day with the most transit calls through the Strait of Hormuz (10/26 - 11/1)?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 25.99,
-    "volume_24h": 1022.0,
-    "score": 0.5314
+    "hours_to_close": 25.74,
+    "volume_24h": 1040.19,
+    "score": 0.5325
    },
    {
-    "label": "Will there be more than 200 transit calls through the Panama Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 200",
+    "label": "Will there be more than 310 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 310",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.99,
-    "volume_24h": 1000.0,
-    "score": 0.5307
+    "price": 0.91,
+    "hours_to_close": 25.74,
+    "volume_24h": 500.0,
+    "score": 0.5286
+   },
+   {
+    "label": "Will there be more than 180 transit calls through the Panama Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 180",
+    "side": "yes",
+    "price": 0.83,
+    "hours_to_close": 25.74,
+    "volume_24h": 4079.81,
+    "score": 0.517
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 7,
+  "watch_graded": 13,
   "api_calls": 44
  },
  "shadow_since": 1791904549,

@@ -5,8 +5,8 @@
  "cash": 13.84,
  "fees_paid": 8.37,
  "peak_equity": 109.65,
- "day": "2026-11-01",
- "day_start_equity": 93.02,
+ "day": "2026-11-02",
+ "day_start_equity": 98.92,
  "next_id": 339,
  "open_positions": [
   {
@@ -208,7 +208,7 @@
    "opened_ts": 1793546125,
    "close_ts": 1793647800.0,
    "score": 0.556,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -299,7 +299,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -378,7 +378,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -395,7 +395,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -19423,93 +19423,98 @@
    1793576725,
    98.92,
    95.69
+  ],
+  [
+   1793577626,
+   98.92,
+   96.01
   ]
  ],
  "last_run": {
-  "ts": 1793576725,
+  "ts": 1793577626,
   "error": null,
   "markets_scanned": 4809,
   "candidates": 79,
   "rejections": {
-   "too little volume": 4317,
-   "no favorite in 80-95c band": 381,
-   "spread too wide": 29,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 1
+   "too little volume": 4314,
+   "no favorite in 80-95c band": 379,
+   "spread too wide": 34,
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.23,
-    "volume_24h": 6545.61,
-    "score": 0.6529
-   },
-   {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $75,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 4834.2,
-    "score": 0.6507
+    "score": 0.6514
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $75,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 4585.13,
-    "score": 0.649
+    "score": 0.6496
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 22.24,
-    "volume_24h": 6207.11,
-    "score": 0.6488
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.23,
-    "volume_24h": 4082.73,
-    "score": 0.6375
+    "hours_to_close": 21.99,
+    "volume_24h": 6208.45,
+    "score": 0.6495
    },
    {
     "label": "Will the #1 Show on Netflix have at least 15 million views? \u2014 At least 15 million",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.23,
+    "hours_to_close": 28.98,
     "volume_24h": 4976.98,
-    "score": 0.6369
+    "score": 0.6373
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 17.98,
+    "volume_24h": 6710.94,
+    "score": 0.6246
    },
    {
     "label": "Will Trump's RCP approval average be above 39.1 on Nov 2, 2026? \u2014 Above 39.1%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.23,
-    "volume_24h": 1608.89,
-    "score": 0.6172
+    "hours_to_close": 17.98,
+    "volume_24h": 1774.22,
+    "score": 0.6213
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 22.24,
-    "volume_24h": 3430.31,
-    "score": 0.6095
+    "hours_to_close": 21.99,
+    "volume_24h": 3432.31,
+    "score": 0.6102
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 3294.46,
+    "score": 0.6089
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 0,
-  "api_calls": 42
+  "watch_added": 7,
+  "watch_graded": 131,
+  "api_calls": 45
  },
  "shadow_since": 1791904549,
  "phase": {

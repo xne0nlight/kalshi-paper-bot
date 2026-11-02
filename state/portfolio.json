@@ -2,51 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 19.192,
+ "cash": 24.192,
  "fees_paid": 8.56,
  "peak_equity": 109.65,
  "day": "2026-11-02",
  "day_start_equity": 98.92,
  "next_id": 345,
  "open_positions": [
-  {
-   "id": 264,
-   "ticker": "KXYTTOPSONGGW-26OCT29-YES",
-   "event_ticker": "KXYTTOPSONGGW-26OCT29",
-   "series": "KXYTTOPSONGGW",
-   "label": "Will Yeshanagula rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793203227,
-   "close_ts": 1793332740.0,
-   "score": 0.5546,
-   "mark_price": 0.19,
-   "shadow": {
-    "10": {
-     "ts": 1793205027,
-     "bid": 0.79,
-     "proceeds": 3.89
-    },
-    "15": {
-     "ts": 1793205027,
-     "bid": 0.79,
-     "proceeds": 3.89
-    },
-    "20": {
-     "ts": 1793257224,
-     "bid": 0.48,
-     "proceeds": 2.31
-    },
-    "30": {
-     "ts": 1793257224,
-     "bid": 0.48,
-     "proceeds": 2.31
-    }
-   }
-  },
   {
    "id": 284,
    "ticker": "KXERCOTWESTW-23OCT26-T25",
@@ -95,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -140,7 +102,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -240,7 +202,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -386,7 +348,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.913,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -8722,6 +8684,48 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1793637029,
+   "won": true
+  },
+  {
+   "id": 264,
+   "ticker": "KXYTTOPSONGGW-26OCT29-YES",
+   "event_ticker": "KXYTTOPSONGGW-26OCT29",
+   "series": "KXYTTOPSONGGW",
+   "label": "Will Yeshanagula rank #1 on YouTube's Weekly Top Songs Global Chart dated Oct 23 - Oct 29, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793203227,
+   "close_ts": 1793332740.0,
+   "score": 0.5546,
+   "shadow": {
+    "10": {
+     "ts": 1793205027,
+     "bid": 0.79,
+     "proceeds": 3.89
+    },
+    "15": {
+     "ts": 1793205027,
+     "bid": 0.79,
+     "proceeds": 3.89
+    },
+    "20": {
+     "ts": 1793257224,
+     "bid": 0.48,
+     "proceeds": 2.31
+    },
+    "30": {
+     "ts": 1793257224,
+     "bid": 0.48,
+     "proceeds": 2.31
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793639726,
    "won": true
   }
  ],
@@ -19955,97 +19959,101 @@
    1793638826,
    101.07,
    96.93
+  ],
+  [
+   1793639726,
+   101.35,
+   101.022
   ]
  ],
  "last_run": {
-  "ts": 1793638826,
+  "ts": 1793639726,
   "error": null,
   "markets_scanned": 407,
-  "candidates": 10,
+  "candidates": 8,
   "rejections": {
    "too little volume": 357,
-   "no favorite in 80-95c band": 33,
-   "spread too wide": 7
+   "no favorite in 80-95c band": 34,
+   "spread too wide": 8
   },
-  "opened": [
-   343,
-   344
+  "opened": [],
+  "settled": [
+   264
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.49,
+    "hours_to_close": 26.24,
     "volume_24h": 3190.12,
-    "score": 0.6274
+    "score": 0.6279
    },
    {
     "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
-    "price": 0.938,
-    "hours_to_close": 35.98,
-    "volume_24h": 14548.35,
-    "score": 0.563
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 26.49,
-    "volume_24h": 1712.93,
-    "score": 0.5472
+    "price": 0.934,
+    "hours_to_close": 35.73,
+    "volume_24h": 14722.77,
+    "score": 0.5643
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 26.49,
+    "hours_to_close": 26.24,
     "volume_24h": 3119.0,
-    "score": 0.5367
+    "score": 0.5372
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 24.98,
+    "hours_to_close": 24.73,
     "volume_24h": 1945.8,
-    "score": 0.5345
+    "score": 0.535
    },
    {
     "label": "Will it rain in Atlanta on Nov 3, 2026?",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 35.99,
-    "volume_24h": 623.0,
-    "score": 0.5196
+    "price": 0.92,
+    "hours_to_close": 35.74,
+    "volume_24h": 637.09,
+    "score": 0.4807
    },
    {
-    "label": "Will the WTI front-month settle oil price  be >99.99 on Nov 3, 2026? \u2014 $100 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 26.49,
-    "volume_24h": 9591.09,
-    "score": 0.5033
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
+    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 26.49,
-    "volume_24h": 589.64,
-    "score": 0.4625
+    "price": 0.91,
+    "hours_to_close": 26.24,
+    "volume_24h": 1869.43,
+    "score": 0.4705
+   },
+   {
+    "label": "Will it rain in Miami on Nov 3, 2026?",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 35.74,
+    "volume_24h": 331.05,
+    "score": 0.4294
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Nov 3, 2026? \u2014 Above $98.99",
+    "side": "no",
+    "price": 0.81,
+    "hours_to_close": 26.24,
+    "volume_24h": 606.41,
+    "score": 0.3839
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 5,
+   "related-market cap (Oil prices)": 3,
    "related-market cap (Presidential approval)": 1,
    "tracked only (below bet price floor)": 1
   },
-  "watch_added": 4,
-  "watch_graded": 1,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

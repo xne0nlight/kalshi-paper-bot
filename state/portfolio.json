@@ -146,7 +146,7 @@
    "opened_ts": 1793546125,
    "close_ts": 1793647800.0,
    "score": 0.556,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -163,7 +163,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -191,7 +191,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -208,7 +208,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -225,7 +225,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.93,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793589324,
@@ -263,7 +263,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.8,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -308,7 +308,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.92,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -19819,18 +19819,23 @@
    1793627135,
    100.01,
    95.11
+  ],
+  [
+   1793628035,
+   100.01,
+   95.38
   ]
  ],
  "last_run": {
-  "ts": 1793627135,
+  "ts": 1793628035,
   "error": null,
-  "markets_scanned": 752,
-  "candidates": 23,
+  "markets_scanned": 745,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 583,
-   "no favorite in 80-95c band": 138,
-   "spread too wide": 5,
-   "favorite is slipping fast": 3
+   "too little volume": 575,
+   "no favorite in 80-95c band": 140,
+   "spread too wide": 4,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
@@ -19840,70 +19845,70 @@
     "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.99,
     "volume_24h": 4801.0,
-    "score": 0.6256
-   },
-   {
-    "label": "Will over 5.5 goals be scored? \u2014 Over 5.5 goals scored",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 30.24,
-    "volume_24h": 2392.96,
-    "score": 0.6114
+    "score": 0.6261
    },
    {
     "label": "Tie is the result",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 5996.85,
-    "score": 0.6113
+    "hours_to_close": 29.99,
+    "volume_24h": 7355.68,
+    "score": 0.6184
    },
    {
     "label": "Tenerife wins",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 30.24,
-    "volume_24h": 56579.09,
-    "score": 0.5979
+    "price": 0.9,
+    "hours_to_close": 29.99,
+    "volume_24h": 72483.05,
+    "score": 0.6083
    },
    {
     "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.99,
     "volume_24h": 6245.98,
-    "score": 0.5941
+    "score": 0.5947
+   },
+   {
+    "label": "Will over 4.5 goals be scored? \u2014 Over 4.5 goals scored",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 29.99,
+    "volume_24h": 8246.06,
+    "score": 0.5721
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >102.99 on Nov 3, 2026? \u2014 $103 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 29.49,
+    "volume_24h": 1254.48,
+    "score": 0.5716
    },
    {
     "label": "Will there be more than 23 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 23",
     "side": "yes",
     "price": 0.85,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.99,
     "volume_24h": 10002.31,
-    "score": 0.5694
+    "score": 0.57
    },
    {
     "label": "Will there be more than 180 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 180",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.24,
+    "hours_to_close": 23.99,
     "volume_24h": 500.0,
-    "score": 0.5619
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 103.99 USD/Bbl on Nov 3, 2026? \u2014 Above $103.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.74,
-    "volume_24h": 622.05,
-    "score": 0.5583
+    "score": 0.5625
    }
   ],
   "skipped": {},
-  "watch_added": 4,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 1,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

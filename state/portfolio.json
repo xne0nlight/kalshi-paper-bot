@@ -78,7 +78,7 @@
    "opened_ts": 1793466026,
    "close_ts": 1793595540.0,
    "score": 0.5837,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793466926,
@@ -225,7 +225,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -248,7 +248,7 @@
    "opened_ts": 1793549726,
    "close_ts": 1793651400.0,
    "score": 0.4941,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -282,12 +282,17 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.81,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793589324,
      "bid": 0.81,
      "proceeds": 4.79
+    },
+    "15": {
+     "ts": 1793590225,
+     "bid": 0.77,
+     "proceeds": 4.54
     }
    }
   },
@@ -350,7 +355,7 @@
    "opened_ts": 1793557825,
    "close_ts": 1793681940.0,
    "score": 0.5626,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -384,7 +389,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -19499,91 +19504,96 @@
    1793589324,
    98.92,
    95.88
+  ],
+  [
+   1793590225,
+   98.92,
+   95.68
   ]
  ],
  "last_run": {
-  "ts": 1793589324,
+  "ts": 1793590225,
   "error": null,
   "markets_scanned": 5222,
-  "candidates": 86,
+  "candidates": 82,
   "rejections": {
    "too little volume": 4594,
-   "no favorite in 80-95c band": 495,
-   "spread too wide": 41,
-   "favorite is slipping fast": 4,
-   "nothing for sale at the ask": 2
+   "no favorite in 80-95c band": 496,
+   "spread too wide": 44,
+   "nothing for sale at the ask": 4,
+   "favorite is slipping fast": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 14.73,
-    "volume_24h": 13655.3,
-    "score": 0.6813
-   },
-   {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 14574.2,
-    "score": 0.6749
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
-    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 5983.42,
-    "score": 0.6681
+    "hours_to_close": 18.49,
+    "volume_24h": 14575.54,
+    "score": 0.6857
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "label": "Will Trump's RCP approval average be above 39.1 on Nov 2, 2026? \u2014 Above 39.1%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.74,
-    "volume_24h": 24101.11,
-    "score": 0.6649
-   },
-   {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 3476.95,
-    "score": 0.6505
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.6 on Nov 2, 2026? \u2014 38.6%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.73,
-    "volume_24h": 9511.87,
-    "score": 0.6497
+    "price": 0.92,
+    "hours_to_close": 14.48,
+    "volume_24h": 10123.17,
+    "score": 0.6726
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 18.74,
+    "price": 0.93,
+    "hours_to_close": 18.49,
     "volume_24h": 11035.5,
-    "score": 0.6449
+    "score": 0.6657
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 18.49,
+    "volume_24h": 24102.28,
+    "score": 0.6557
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,500 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 18.49,
+    "volume_24h": 3476.95,
+    "score": 0.6413
+   },
+   {
+    "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 25.48,
+    "volume_24h": 12643.6,
+    "score": 0.6367
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $77,000 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 18.49,
+    "volume_24h": 28179.0,
+    "score": 0.6357
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 18.74,
-    "volume_24h": 9118.6,
-    "score": 0.6419
+    "price": 0.89,
+    "hours_to_close": 18.49,
+    "volume_24h": 9542.48,
+    "score": 0.6242
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

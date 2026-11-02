@@ -208,7 +208,7 @@
    "opened_ts": 1793546125,
    "close_ts": 1793647800.0,
    "score": 0.556,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -282,7 +282,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793642340.0,
    "score": 0.602,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -299,7 +299,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -327,7 +327,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793682000.0,
    "score": 0.5757,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -19458,17 +19458,22 @@
    1793583025,
    98.92,
    96.21
+  ],
+  [
+   1793583925,
+   98.92,
+   96.42
   ]
  ],
  "last_run": {
-  "ts": 1793583025,
+  "ts": 1793583925,
   "error": null,
   "markets_scanned": 4823,
-  "candidates": 77,
+  "candidates": 81,
   "rejections": {
    "too little volume": 4312,
-   "no favorite in 80-95c band": 396,
-   "spread too wide": 36,
+   "no favorite in 80-95c band": 394,
+   "spread too wide": 34,
    "nothing for sale at the ask": 1,
    "favorite is slipping fast": 1
   },
@@ -19477,72 +19482,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 2, 2026? \u2014 39.1%",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.48,
-    "volume_24h": 7721.22,
-    "score": 0.685
+    "price": 0.94,
+    "hours_to_close": 16.23,
+    "volume_24h": 5333.83,
+    "score": 0.664
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 20.49,
-    "volume_24h": 13976.2,
-    "score": 0.6593
+    "hours_to_close": 20.24,
+    "volume_24h": 14202.2,
+    "score": 0.66
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,250 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.49,
-    "volume_24h": 5182.42,
-    "score": 0.6579
+    "hours_to_close": 20.24,
+    "volume_24h": 5232.42,
+    "score": 0.6589
+   },
+   {
+    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 20.24,
+    "volume_24h": 22538.45,
+    "score": 0.64
    },
    {
     "label": "Bitcoin price on Nov 2, 2026? \u2014 $76,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 20.49,
-    "volume_24h": 9620.44,
-    "score": 0.638
+    "hours_to_close": 20.24,
+    "volume_24h": 10816.44,
+    "score": 0.64
    },
    {
     "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 27.48,
+    "hours_to_close": 27.23,
     "volume_24h": 12647.71,
-    "score": 0.6327
+    "score": 0.6332
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,250 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.49,
-    "volume_24h": 4002.17,
-    "score": 0.6294
+    "label": "Will Sprite Point of Sale Growth for October 2026 be above 97 ? \u2014 Above 97",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 27.23,
+    "volume_24h": 8310.81,
+    "score": 0.6272
    },
    {
-    "label": "Bitcoin price on Nov 2, 2026? \u2014 $80,000 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 20.49,
-    "volume_24h": 6795.92,
-    "score": 0.6167
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 2, 2026? \u2014 39.0%",
+    "label": "Will the maximum temperature be 71-72\u00b0 on Nov 2, 2026? \u2014 71\u00b0 to 72\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 16.48,
-    "volume_24h": 5248.34,
-    "score": 0.6124
+    "hours_to_close": 31.24,
+    "volume_24h": 4470.02,
+    "score": 0.6202
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

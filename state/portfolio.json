@@ -57,7 +57,7 @@
    "opened_ts": 1793547924,
    "close_ts": 1793676540.0,
    "score": 0.5853,
-   "mark_price": 0.89,
+   "mark_price": 0.87,
    "shadow": {
     "10": {
      "ts": 1793548825,
@@ -157,7 +157,7 @@
    "opened_ts": 1793556925,
    "close_ts": 1793681940.0,
    "score": 0.5942,
-   "mark_price": 0.91,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793557825,
@@ -219,7 +219,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.91,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -365,7 +365,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -19964,93 +19964,95 @@
    1793639726,
    101.35,
    101.022
+  ],
+  [
+   1793640626,
+   101.35,
+   101.302
   ]
  ],
  "last_run": {
-  "ts": 1793639726,
+  "ts": 1793640626,
   "error": null,
   "markets_scanned": 407,
-  "candidates": 8,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 357,
-   "no favorite in 80-95c band": 34,
-   "spread too wide": 8
+   "too little volume": 355,
+   "no favorite in 80-95c band": 35,
+   "spread too wide": 7
   },
   "opened": [],
-  "settled": [
-   264
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 3190.12,
-    "score": 0.6279
+    "score": 0.6284
    },
    {
     "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
     "price": 0.934,
-    "hours_to_close": 35.73,
-    "volume_24h": 14722.77,
-    "score": 0.5643
+    "hours_to_close": 35.48,
+    "volume_24h": 14766.54,
+    "score": 0.5646
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 25.99,
+    "volume_24h": 1869.43,
+    "score": 0.561
    },
    {
     "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 3, 2026? \u2014 Above $99.99",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 3119.0,
-    "score": 0.5372
+    "score": 0.5377
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 3, 2026? \u2014 39.1%",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 24.73,
+    "hours_to_close": 24.48,
     "volume_24h": 1945.8,
-    "score": 0.535
+    "score": 0.5356
    },
    {
     "label": "Will it rain in Atlanta on Nov 3, 2026?",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 637.09,
-    "score": 0.4807
+    "score": 0.531
    },
    {
-    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
+    "label": "Will the WTI front-month settle oil price  be >91.99 on Nov 3, 2026? \u2014 $92 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 26.24,
-    "volume_24h": 1869.43,
-    "score": 0.4705
+    "price": 0.94,
+    "hours_to_close": 25.99,
+    "volume_24h": 635.05,
+    "score": 0.5159
    },
    {
-    "label": "Will it rain in Miami on Nov 3, 2026?",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 35.74,
-    "volume_24h": 331.05,
-    "score": 0.4294
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Nov 3, 2026? \u2014 Above $98.99",
+    "label": "Will it rain in Lexington on Nov 3, 2026?",
     "side": "no",
-    "price": 0.81,
-    "hours_to_close": 26.24,
-    "volume_24h": 606.41,
-    "score": 0.3839
+    "price": 0.95,
+    "hours_to_close": 35.49,
+    "volume_24h": 205.26,
+    "score": 0.4742
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3,
-   "related-market cap (Presidential approval)": 1,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Oil prices)": 5,
+   "related-market cap (Presidential approval)": 1
   },
   "watch_added": 1,
   "watch_graded": 0,

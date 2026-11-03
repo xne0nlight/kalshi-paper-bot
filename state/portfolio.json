@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.202,
- "fees_paid": 8.97,
+ "cash": 11.592,
+ "fees_paid": 9.0,
  "peak_equity": 109.65,
  "day": "2026-11-03",
  "day_start_equity": 102.52,
- "next_id": 361,
+ "next_id": 362,
  "open_positions": [
   {
    "id": 284,
@@ -91,7 +91,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.926,
+   "mark_price": 0.913,
    "shadow": {}
   },
   {
@@ -108,7 +108,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.49,
+   "mark_price": 0.54,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -264,29 +264,6 @@
    }
   },
   {
-   "id": 351,
-   "ticker": "KXSILVERD-26NOV0317-T51.25",
-   "event_ticker": "KXSILVERD-26NOV0317",
-   "series": "KXSILVERD",
-   "label": "Will the silver close price be above 51.25 USD/t.oz on November 03, 2026 at 5:00 PM EST? \u2014 Above $51.25",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1793678425,
-   "close_ts": 1793743200.0,
-   "score": 0.6088,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793713527,
-     "bid": 0.84,
-     "proceeds": 4.98
-    }
-   }
-  },
-  {
    "id": 352,
    "ticker": "KXWTI-26NOV03-T92.99",
    "event_ticker": "KXWTI-26NOV03",
@@ -350,7 +327,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -429,7 +406,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.78,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -469,6 +446,23 @@
    "opened_ts": 1793744127,
    "close_ts": 1793829600.0,
    "score": 0.6404,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 361,
+   "ticker": "KXHIGHTOKC-26NOV04-B66.5",
+   "event_ticker": "KXHIGHTOKC-26NOV04",
+   "series": "KXHIGHTOKC",
+   "label": "Will the maximum temperature be 66-67\u00b0 on Nov 4, 2026? \u2014 66\u00b0 to 67\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793745026,
+   "close_ts": 1793862000.0,
+   "score": 0.5237,
    "mark_price": 0.92,
    "shadow": {}
   }
@@ -9210,6 +9204,33 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793744127,
+   "won": true
+  },
+  {
+   "id": 351,
+   "ticker": "KXSILVERD-26NOV0317-T51.25",
+   "event_ticker": "KXSILVERD-26NOV0317",
+   "series": "KXSILVERD",
+   "label": "Will the silver close price be above 51.25 USD/t.oz on November 03, 2026 at 5:00 PM EST? \u2014 Above $51.25",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793678425,
+   "close_ts": 1793743200.0,
+   "score": 0.6088,
+   "shadow": {
+    "10": {
+     "ts": 1793713527,
+     "bid": 0.84,
+     "proceeds": 4.98
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.33,
+   "result": "NO",
+   "closed_ts": 1793745026,
    "won": true
   }
  ],
@@ -21028,23 +21049,28 @@
    1793744127,
    99.83,
    93.198
+  ],
+  [
+   1793745026,
+   100.16,
+   93.52
   ]
  ],
  "last_run": {
-  "ts": 1793744127,
+  "ts": 1793745026,
   "error": null,
-  "markets_scanned": 3946,
-  "candidates": 40,
+  "markets_scanned": 3956,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 3777,
-   "no favorite in 80-95c band": 128,
-   "spread too wide": 1
+   "too little volume": 3781,
+   "no favorite in 80-95c band": 131,
+   "spread too wide": 8
   },
   "opened": [
-   360
+   361
   ],
   "settled": [
-   350
+   351
   ],
   "halt": null,
   "top_candidates": [
@@ -21052,71 +21078,73 @@
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 7318.0,
-    "score": 0.6404
+    "hours_to_close": 23.49,
+    "volume_24h": 7833.24,
+    "score": 0.6433
    },
    {
     "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,210 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 3210.0,
-    "score": 0.5936
+    "hours_to_close": 23.49,
+    "volume_24h": 3217.0,
+    "score": 0.5943
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 1369.27,
+    "score": 0.5765
+   },
+   {
+    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,370 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 23.49,
+    "volume_24h": 1613.0,
+    "score": 0.5718
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,250 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 1484.6,
-    "score": 0.5685
+    "hours_to_close": 23.49,
+    "volume_24h": 1488.87,
+    "score": 0.5692
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $74,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 410.0,
-    "score": 0.5666
-   },
-   {
-    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,370 or above",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.74,
-    "volume_24h": 1610.0,
-    "score": 0.5611
+    "hours_to_close": 23.49,
+    "volume_24h": 416.02,
+    "score": 0.5677
    },
    {
     "label": "Will it rain in Denver on Nov 4, 2026?",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.74,
+    "price": 0.95,
+    "hours_to_close": 32.49,
     "volume_24h": 635.51,
-    "score": 0.5545
+    "score": 0.5648
    },
    {
     "label": "Bitcoin price range on Nov 4, 2026? \u2014 $77,750 to 77,999.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 227.85,
-    "score": 0.5476
-   },
-   {
-    "label": "Will it rain in Pittsburgh on Nov 4, 2026?",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 30.74,
-    "volume_24h": 431.35,
-    "score": 0.5448
+    "score": 0.5482
    }
   ],
-  "skipped": {},
-  "watch_added": 8,
-  "watch_graded": 39,
-  "api_calls": 44
+  "skipped": {
+   "related-market cap (Crypto)": 3
+  },
+  "watch_added": 2,
+  "watch_graded": 14,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

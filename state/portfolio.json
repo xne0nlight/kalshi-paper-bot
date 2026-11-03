@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 16.092,
- "fees_paid": 8.88,
+ "cash": 13.252,
+ "fees_paid": 8.9,
  "peak_equity": 109.65,
  "day": "2026-11-03",
  "day_start_equity": 102.52,
- "next_id": 357,
+ "next_id": 358,
  "open_positions": [
   {
    "id": 284,
@@ -108,7 +108,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.927,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -125,7 +125,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.43,
+   "mark_price": 0.4,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -218,7 +218,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.03,
+   "mark_price": 0.01,
    "shadow": {
     "10": {
      "ts": 1793718026,
@@ -256,7 +256,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.88,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793710824,
@@ -419,6 +419,23 @@
    "close_ts": 1793815140.0,
    "score": 0.4439,
    "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 357,
+   "ticker": "KXHIGHCHI-26NOV04-B63.5",
+   "event_ticker": "KXHIGHCHI-26NOV04",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 63-64\u00b0 on Nov 4, 2026? \u2014 63\u00b0 to 64\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 2.84,
+   "opened_ts": 1793732438,
+   "close_ts": 1793862000.0,
+   "score": 0.5296,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -20865,92 +20882,99 @@
    1793731527,
    99.32,
    92.464
+  ],
+  [
+   1793732438,
+   99.32,
+   91.512
   ]
  ],
  "last_run": {
-  "ts": 1793731527,
+  "ts": 1793732438,
   "error": null,
-  "markets_scanned": 602,
-  "candidates": 14,
+  "markets_scanned": 713,
+  "candidates": 15,
   "rejections": {
-   "too little volume": 549,
-   "no favorite in 80-95c band": 36,
-   "spread too wide": 3
+   "too little volume": 647,
+   "no favorite in 80-95c band": 47,
+   "spread too wide": 4
   },
-  "opened": [],
+  "opened": [
+   357
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Nov 4, 2026? \u2014 Above $100.49",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.49,
+    "volume_24h": 259.8,
+    "score": 0.5401
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 4, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.99,
+    "volume_24h": 335.68,
+    "score": 0.5296
+   },
+   {
     "label": "Will it rain in Detroit on Nov 4, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 655.71,
-    "score": 0.5135
+    "score": 0.5138
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 35.99,
+    "volume_24h": 441.12,
+    "score": 0.5084
    },
    {
     "label": "Will it rain in Miami on Nov 4, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 1168.5,
-    "score": 0.5023
+    "score": 0.5026
    },
    {
     "label": "Will it rain in Milwaukee on Nov 4, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 554.86,
-    "score": 0.4968
+    "score": 0.4971
    },
    {
     "label": "Will it rain in Chicago on Nov 4, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 468.85,
-    "score": 0.4913
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Nov 4, 2026? \u2014 Above $100.49",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 24.74,
-    "volume_24h": 259.8,
-    "score": 0.4895
+    "score": 0.4916
    },
    {
     "label": "Will it rain in Pittsburgh on Nov 4, 2026?",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 385.5,
-    "score": 0.4662
-   },
-   {
-    "label": "Will Trump's RCP approval average be above 39.4 on Nov 4, 2026? \u2014 Above 39.4%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.23,
-    "volume_24h": 252.89,
-    "score": 0.4522
-   },
-   {
-    "label": "Will the Central Bank of Brazil cut 1-25bps at the November Monetary Policy Meeting? \u2014 Cut 1-25bps",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 27.73,
-    "volume_24h": 591.1,
-    "score": 0.4502
+    "score": 0.4666
    }
   ],
   "skipped": {
-   "related-market cap (Oil prices)": 3,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Oil prices)": 2,
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

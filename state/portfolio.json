@@ -214,7 +214,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.91,
+   "mark_price": 0.907,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.58,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -324,7 +324,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.48,
+   "mark_price": 0.41,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -362,7 +362,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -379,8 +379,14 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.9,
-   "shadow": {}
+   "mark_price": 0.82,
+   "shadow": {
+    "10": {
+     "ts": 1793710824,
+     "bid": 0.82,
+     "proceeds": 4.85
+    }
+   }
   },
   {
    "id": 350,
@@ -396,7 +402,7 @@
    "opened_ts": 1793677524,
    "close_ts": 1793743200.0,
    "score": 0.6757,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -413,7 +419,7 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -20610,17 +20616,22 @@
    1793709927,
    103.46,
    99.092
+  ],
+  [
+   1793710824,
+   103.46,
+   97.914
   ]
  ],
  "last_run": {
-  "ts": 1793709927,
+  "ts": 1793710824,
   "error": null,
-  "markets_scanned": 392,
-  "candidates": 4,
+  "markets_scanned": 374,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 368,
-   "no favorite in 80-95c band": 14,
-   "spread too wide": 6
+   "too little volume": 352,
+   "no favorite in 80-95c band": 12,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -20630,38 +20641,30 @@
     "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 628.38,
-    "score": 0.5272
+    "score": 0.5277
    },
    {
     "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 25.23,
+    "hours_to_close": 24.98,
     "volume_24h": 617.51,
-    "score": 0.5066
+    "score": 0.5071
    },
    {
     "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.1 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.1 million",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 26.23,
+    "hours_to_close": 25.98,
     "volume_24h": 394.64,
-    "score": 0.45
-   },
-   {
-    "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.2 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.2 million",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 26.23,
-    "volume_24h": 223.0,
-    "score": 0.3914
+    "score": 0.4505
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 5,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

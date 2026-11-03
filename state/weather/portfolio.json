@@ -612,7 +612,7 @@
    "contracts": 1.0,
    "cost": 0.81,
    "opened_ts": 1793633432,
-   "mark_price": 0.61,
+   "mark_price": 0.51,
    "avg_price": 0.81
   },
   {
@@ -669,7 +669,7 @@
    "contracts": 0.5,
    "cost": 0.08,
    "opened_ts": 1793639726,
-   "mark_price": 0.1,
+   "mark_price": 0.2,
    "avg_price": 0.16
   },
   {
@@ -726,7 +726,7 @@
    "contracts": 1.0,
    "cost": 0.32,
    "opened_ts": 1793661325,
-   "mark_price": 0.27,
+   "mark_price": 0.26,
    "avg_price": 0.32
   },
   {
@@ -821,7 +821,7 @@
    "contracts": 0.5,
    "cost": 0.08,
    "opened_ts": 1793676625,
-   "mark_price": 0.23,
+   "mark_price": 0.24,
    "avg_price": 0.16
   },
   {
@@ -859,7 +859,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793678425,
-   "mark_price": 0.04,
+   "mark_price": 0.03,
    "avg_price": 0.08
   },
   {
@@ -916,7 +916,7 @@
    "contracts": 2.0,
    "cost": 0.32,
    "opened_ts": 1793686525,
-   "mark_price": 0.12,
+   "mark_price": 0.08,
    "avg_price": 0.16
   },
   {
@@ -935,7 +935,7 @@
    "contracts": 1.0,
    "cost": 0.12,
    "opened_ts": 1793691024,
-   "mark_price": 0.08,
+   "mark_price": 0.09,
    "avg_price": 0.12
   },
   {
@@ -13073,6 +13073,11 @@
    1793700924,
    119.5909,
    129.8177
+  ],
+  [
+   1793701826,
+   119.5909,
+   129.6827
   ]
  ],
  "forecast_log": {
@@ -20719,32 +20724,19 @@
   }
  },
  "last_run": {
-  "ts": 1793700924,
+  "ts": 1793701826,
   "error": null,
   "errors": [],
-  "fills": [
-   {
-    "ticker": "KXLOWTNYC-26NOV03-T46",
-    "side": "no",
-    "qty": 1.0,
-    "price": 0.95,
-    "strategy": "longshot"
-   }
-  ],
+  "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTCHI-26NOV03-B57.5",
-    "reason": "no longer qualifies"
-   }
-  ],
+  "cancelled": [],
   "placed": [],
   "markets": 0,
   "events": [],
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 37.1
+  "seconds": 38.7
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

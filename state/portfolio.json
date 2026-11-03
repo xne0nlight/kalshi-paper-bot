@@ -214,7 +214,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.934,
+   "mark_price": 0.929,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.36,
+   "mark_price": 0.27,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -324,7 +324,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.34,
+   "mark_price": 0.22,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -362,7 +362,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.87,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -379,7 +379,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.74,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1793710824,
@@ -429,7 +429,7 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -452,7 +452,7 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -20678,17 +20678,22 @@
    1793715326,
    103.46,
    95.456
+  ],
+  [
+   1793716227,
+   103.46,
+   94.026
   ]
  ],
  "last_run": {
-  "ts": 1793715326,
+  "ts": 1793716227,
   "error": null,
   "markets_scanned": 374,
   "candidates": 3,
   "rejections": {
    "too little volume": 354,
-   "no favorite in 80-95c band": 12,
-   "spread too wide": 5
+   "no favorite in 80-95c band": 13,
+   "spread too wide": 4
   },
   "opened": [],
   "settled": [],
@@ -20698,30 +20703,30 @@
     "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.73,
+    "hours_to_close": 23.48,
     "volume_24h": 628.38,
-    "score": 0.5306
+    "score": 0.5312
    },
    {
     "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 23.73,
+    "hours_to_close": 23.48,
     "volume_24h": 716.2,
-    "score": 0.5148
+    "score": 0.5154
    },
    {
     "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 32.23,
-    "volume_24h": 887.1,
-    "score": 0.4061
+    "hours_to_close": 31.98,
+    "volume_24h": 876.66,
+    "score": 0.406
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 8,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

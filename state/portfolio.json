@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.612,
- "fees_paid": 8.75,
+ "cash": 10.902,
+ "fees_paid": 8.78,
  "peak_equity": 109.65,
  "day": "2026-11-03",
  "day_start_equity": 102.52,
- "next_id": 352,
+ "next_id": 353,
  "open_positions": [
   {
    "id": 284,
@@ -24,23 +24,6 @@
    "close_ts": 1793393940.0,
    "score": 0.6006,
    "mark_price": 0.95,
-   "shadow": {}
-  },
-  {
-   "id": 326,
-   "ticker": "KXWTI-26NOV0214-T105.99",
-   "event_ticker": "KXWTI-26NOV0214",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.92,
-   "fee": 0.03,
-   "cost": 3.71,
-   "opened_ts": 1793546125,
-   "close_ts": 1793647800.0,
-   "score": 0.556,
-   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -248,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.922,
+   "mark_price": 0.935,
    "shadow": {}
   },
   {
@@ -288,7 +271,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.85,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -343,7 +326,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.47,
+   "mark_price": 0.49,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -432,7 +415,24 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 352,
+   "ticker": "KXWTI-26NOV03-T92.99",
+   "event_ticker": "KXWTI-26NOV03",
+   "series": "KXWTI",
+   "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
+   "side": "yes",
+   "contracts": 4,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 3.71,
+   "opened_ts": 1793682025,
+   "close_ts": 1793734200.0,
+   "score": 0.6416,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -8925,6 +8925,27 @@
    "pnl": 0.32,
    "result": "NO",
    "closed_ts": 1793678425,
+   "won": true
+  },
+  {
+   "id": 326,
+   "ticker": "KXWTI-26NOV0214-T105.99",
+   "event_ticker": "KXWTI-26NOV0214",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 105.99 USD/Bbl on Nov 2, 2026? \u2014 Above $105.99",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.92,
+   "fee": 0.03,
+   "cost": 3.71,
+   "opened_ts": 1793546125,
+   "close_ts": 1793647800.0,
+   "score": 0.556,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.29,
+   "result": "NO",
+   "closed_ts": 1793682025,
    "won": true
   }
  ],
@@ -20393,93 +20414,101 @@
    1793681125,
    103.12,
    99.664
+  ],
+  [
+   1793682025,
+   103.41,
+   99.622
   ]
  ],
  "last_run": {
-  "ts": 1793681125,
+  "ts": 1793682025,
   "error": null,
-  "markets_scanned": 4156,
-  "candidates": 75,
+  "markets_scanned": 4181,
+  "candidates": 78,
   "rejections": {
-   "too little volume": 3820,
-   "no favorite in 80-95c band": 228,
-   "spread too wide": 31,
-   "favorite is slipping fast": 1,
-   "nothing for sale at the ask": 1
+   "too little volume": 3840,
+   "no favorite in 80-95c band": 229,
+   "spread too wide": 32,
+   "nothing for sale at the ask": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   352
+  ],
+  "settled": [
+   326
+  ],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 3, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 12.98,
+    "volume_24h": 16342.46,
+    "score": 0.6807
+   },
+   {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 17.24,
+    "price": 0.94,
+    "hours_to_close": 16.99,
     "volume_24h": 4314.0,
-    "score": 0.663
+    "score": 0.654
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 17.24,
+    "hours_to_close": 16.99,
     "volume_24h": 3013.22,
-    "score": 0.6513
+    "score": 0.6523
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 16.99,
+    "volume_24h": 6346.59,
+    "score": 0.6465
    },
    {
     "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 14.74,
+    "hours_to_close": 14.49,
     "volume_24h": 3873.59,
-    "score": 0.6404
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 17.24,
-    "volume_24h": 6346.59,
-    "score": 0.6355
+    "score": 0.6416
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 17.24,
+    "hours_to_close": 16.99,
     "volume_24h": 6194.31,
-    "score": 0.6348
+    "score": 0.6357
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 3, 2026? \u2014 39.3%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 13.23,
-    "volume_24h": 17620.58,
-    "score": 0.6292
+    "hours_to_close": 12.98,
+    "volume_24h": 17699.19,
+    "score": 0.6307
    },
    {
-    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
+    "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
     "side": "no",
-    "price": 0.939,
-    "hours_to_close": 24.23,
-    "volume_24h": 14942.95,
-    "score": 0.6235
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 17.24,
-    "volume_24h": 24033.28,
-    "score": 0.6203
+    "price": 0.94,
+    "hours_to_close": 14.49,
+    "volume_24h": 5687.09,
+    "score": 0.6241
    }
   ],
   "skipped": {},
   "watch_added": 3,
-  "watch_graded": 19,
-  "api_calls": 42
+  "watch_graded": 3,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

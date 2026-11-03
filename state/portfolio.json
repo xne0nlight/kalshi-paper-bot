@@ -125,7 +125,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.926,
+   "mark_price": 0.925,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.32,
+   "mark_price": 0.34,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -235,7 +235,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.12,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -273,7 +273,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.76,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793718026,
@@ -346,7 +346,7 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -369,7 +369,7 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -402,7 +402,7 @@
    "opened_ts": 1793708126,
    "close_ts": 1793800740.0,
    "score": 0.5261,
-   "mark_price": 0.89,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -20733,34 +20733,47 @@
    1793718926,
    104.38,
    93.958
+  ],
+  [
+   1793719825,
+   104.38,
+   94.512
   ]
  ],
  "last_run": {
-  "ts": 1793718926,
+  "ts": 1793719825,
   "error": null,
   "markets_scanned": 410,
-  "candidates": 1,
+  "candidates": 2,
   "rejections": {
    "too little volume": 391,
    "no favorite in 80-95c band": 12,
-   "spread too wide": 6
+   "spread too wide": 5
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the Central Bank of Brazil cut 1-25bps at the November Monetary Policy Meeting? \u2014 Cut 1-25bps",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 30.98,
+    "volume_24h": 328.18,
+    "score": 0.4156
+   },
+   {
     "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 31.23,
-    "volume_24h": 876.66,
-    "score": 0.4072
+    "hours_to_close": 30.98,
+    "volume_24h": 840.35,
+    "score": 0.4062
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 11,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

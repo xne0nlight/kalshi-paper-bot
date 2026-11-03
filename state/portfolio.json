@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.935,
+   "mark_price": 0.924,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.81,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -271,7 +271,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -326,7 +326,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.49,
+   "mark_price": 0.45,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -398,7 +398,7 @@
    "opened_ts": 1793677524,
    "close_ts": 1793743200.0,
    "score": 0.6757,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -20419,95 +20419,97 @@
    1793682025,
    103.41,
    99.622
+  ],
+  [
+   1793682925,
+   103.41,
+   99.366
   ]
  ],
  "last_run": {
-  "ts": 1793682025,
+  "ts": 1793682925,
   "error": null,
   "markets_scanned": 4181,
-  "candidates": 78,
+  "candidates": 89,
   "rejections": {
-   "too little volume": 3840,
-   "no favorite in 80-95c band": 229,
-   "spread too wide": 32,
-   "nothing for sale at the ask": 2
+   "too little volume": 3834,
+   "no favorite in 80-95c band": 231,
+   "spread too wide": 25,
+   "favorite is slipping fast": 1,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   352
-  ],
-  "settled": [
-   326
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 3, 2026? \u2014 39.2%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 12.98,
-    "volume_24h": 16342.46,
-    "score": 0.6807
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 16.99,
-    "volume_24h": 4314.0,
-    "score": 0.654
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,500 or above",
-    "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.99,
-    "volume_24h": 3013.22,
-    "score": 0.6523
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 16.99,
-    "volume_24h": 6346.59,
-    "score": 0.6465
-   },
-   {
-    "label": "Will the WTI front-month settle oil price  be >92.99 on Nov 3, 2026? \u2014 $93 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 14.49,
-    "volume_24h": 3873.59,
-    "score": 0.6416
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 16.99,
-    "volume_24h": 6194.31,
-    "score": 0.6357
+    "hours_to_close": 16.74,
+    "volume_24h": 7322.39,
+    "score": 0.6822
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 3, 2026? \u2014 39.3%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 12.98,
-    "volume_24h": 17699.19,
-    "score": 0.6307
+    "hours_to_close": 12.73,
+    "volume_24h": 17786.49,
+    "score": 0.6821
    },
    {
-    "label": "Will the WTI front-month settle oil price  be >100.99 on Nov 3, 2026? \u2014 $101 or above",
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 3, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 12.73,
+    "volume_24h": 16510.91,
+    "score": 0.6821
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.74,
+    "volume_24h": 6487.51,
+    "score": 0.6582
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 16.74,
+    "volume_24h": 4744.0,
+    "score": 0.6581
+   },
+   {
+    "label": "Will it rain in Dallas on Nov 3, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 3982.15,
+    "score": 0.6383
+   },
+   {
+    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,500 to 76,749.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 14.49,
-    "volume_24h": 5687.09,
-    "score": 0.6241
+    "hours_to_close": 16.74,
+    "volume_24h": 2168.3,
+    "score": 0.6326
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
+    "side": "yes",
+    "price": 0.89,
+    "hours_to_close": 16.74,
+    "volume_24h": 8866.31,
+    "score": 0.6284
    }
   ],
   "skipped": {},
   "watch_added": 3,
-  "watch_graded": 3,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

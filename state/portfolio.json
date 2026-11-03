@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.282,
- "fees_paid": 8.72,
+ "cash": 10.612,
+ "fees_paid": 8.75,
  "peak_equity": 109.65,
  "day": "2026-11-03",
  "day_start_equity": 102.52,
- "next_id": 351,
+ "next_id": 352,
  "open_positions": [
   {
    "id": 284,
@@ -42,39 +42,6 @@
    "score": 0.556,
    "mark_price": 0.99,
    "shadow": {}
-  },
-  {
-   "id": 331,
-   "ticker": "KXDWTSELIMINATION-26NOV03-MHIG",
-   "event_ticker": "KXDWTSELIMINATION-26NOV03",
-   "series": "KXDWTSELIMINATION",
-   "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 4.68,
-   "opened_ts": 1793553328,
-   "close_ts": 1793681940.0,
-   "score": 0.6006,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793654125,
-     "bid": 0.78,
-     "proceeds": 3.83
-    },
-    "15": {
-     "ts": 1793654125,
-     "bid": 0.78,
-     "proceeds": 3.83
-    },
-    "20": {
-     "ts": 1793672125,
-     "bid": 0.72,
-     "proceeds": 3.52
-    }
-   }
   },
   {
    "id": 333,
@@ -152,7 +119,7 @@
    "opened_ts": 1793566826,
    "close_ts": 1793681940.0,
    "score": 0.6189,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793610926,
@@ -207,7 +174,7 @@
    "opened_ts": 1793571325,
    "close_ts": 1793681940.0,
    "score": 0.5982,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793613625,
@@ -321,7 +288,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.65,
+   "mark_price": 0.71,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -376,7 +343,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.53,
+   "mark_price": 0.49,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -414,7 +381,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -448,7 +415,24 @@
    "opened_ts": 1793677524,
    "close_ts": 1793743200.0,
    "score": 0.6757,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 351,
+   "ticker": "KXSILVERD-26NOV0317-T51.25",
+   "event_ticker": "KXSILVERD-26NOV0317",
+   "series": "KXSILVERD",
+   "label": "Will the silver close price be above 51.25 USD/t.oz on November 03, 2026 at 5:00 PM EST? \u2014 Above $51.25",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793678425,
+   "close_ts": 1793743200.0,
+   "score": 0.6088,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -8904,6 +8888,43 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793677524,
+   "won": true
+  },
+  {
+   "id": 331,
+   "ticker": "KXDWTSELIMINATION-26NOV03-MHIG",
+   "event_ticker": "KXDWTSELIMINATION-26NOV03",
+   "series": "KXDWTSELIMINATION",
+   "label": "Will Maura Higgins and their partner be eliminated from Dancing with the Stars Season 35 before Nov 3, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793553328,
+   "close_ts": 1793681940.0,
+   "score": 0.6006,
+   "shadow": {
+    "10": {
+     "ts": 1793654125,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "15": {
+     "ts": 1793654125,
+     "bid": 0.78,
+     "proceeds": 3.83
+    },
+    "20": {
+     "ts": 1793672125,
+     "bid": 0.72,
+     "proceeds": 3.52
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.32,
+   "result": "NO",
+   "closed_ts": 1793678425,
    "won": true
   }
  ],
@@ -20352,97 +20373,102 @@
    1793677524,
    102.8,
    98.898
+  ],
+  [
+   1793678425,
+   103.12,
+   99.038
   ]
  ],
  "last_run": {
-  "ts": 1793677524,
+  "ts": 1793678425,
   "error": null,
   "markets_scanned": 4156,
   "candidates": 75,
   "rejections": {
-   "too little volume": 3834,
-   "no favorite in 80-95c band": 217,
-   "spread too wide": 26,
+   "too little volume": 3832,
+   "no favorite in 80-95c band": 220,
+   "spread too wide": 25,
    "nothing for sale at the ask": 2,
    "favorite is slipping fast": 2
   },
   "opened": [
-   350
+   351
   ],
   "settled": [
-   327
+   331
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.24,
-    "volume_24h": 7141.02,
-    "score": 0.6757
-   },
-   {
     "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 3, 2026? \u2014 39.3%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 14.23,
-    "volume_24h": 17369.53,
-    "score": 0.6738
+    "hours_to_close": 13.98,
+    "volume_24h": 17527.09,
+    "score": 0.6751
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 17.99,
+    "volume_24h": 3013.22,
+    "score": 0.6485
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 18.24,
+    "price": 0.94,
+    "hours_to_close": 17.99,
     "volume_24h": 3762.44,
-    "score": 0.6348
+    "score": 0.6457
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 18.24,
+    "price": 0.92,
+    "hours_to_close": 17.99,
     "volume_24h": 6276.33,
-    "score": 0.6315
+    "score": 0.6424
    },
    {
-    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,750 to 76,999.99",
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 17.99,
+    "volume_24h": 4291.85,
+    "score": 0.62
+   },
+   {
+    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
     "side": "no",
+    "price": 0.939,
+    "hours_to_close": 24.98,
+    "volume_24h": 13438.61,
+    "score": 0.6168
+   },
+   {
+    "label": "Will it rain in Dallas on Nov 3, 2026?",
+    "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.24,
-    "volume_24h": 1689.41,
-    "score": 0.6187
-   },
-   {
-    "label": "Ethereum price at Nov 3, 2026 at 5pm EST? \u2014 $2,330 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.24,
-    "volume_24h": 1691.0,
-    "score": 0.6088
+    "hours_to_close": 25.99,
+    "volume_24h": 2936.43,
+    "score": 0.6157
    },
    {
     "label": "Will the silver close price be above 51.25 USD/t.oz on November 03, 2026 at 5:00 PM EST? \u2014 Above $51.25",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.24,
-    "volume_24h": 1212.83,
-    "score": 0.6079
-   },
-   {
-    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,250 to 76,499.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.24,
-    "volume_24h": 1287.9,
-    "score": 0.5999
+    "hours_to_close": 17.99,
+    "volume_24h": 1212.84,
+    "score": 0.6088
    }
   ],
   "skipped": {},
   "watch_added": 4,
-  "watch_graded": 2,
-  "api_calls": 43
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

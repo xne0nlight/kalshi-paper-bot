@@ -163,7 +163,7 @@
    "opened_ts": 1793621725,
    "close_ts": 1793714400.0,
    "score": 0.6223,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -180,7 +180,7 @@
    "opened_ts": 1793621725,
    "close_ts": 1793714400.0,
    "score": 0.5908,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.42,
+   "mark_price": 0.26,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -324,7 +324,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.38,
+   "mark_price": 0.37,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -379,7 +379,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.79,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793710824,
@@ -407,7 +407,7 @@
    "opened_ts": 1793677524,
    "close_ts": 1793743200.0,
    "score": 0.6757,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -424,8 +424,14 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.92,
-   "shadow": {}
+   "mark_price": 0.84,
+   "shadow": {
+    "10": {
+     "ts": 1793713527,
+     "bid": 0.84,
+     "proceeds": 4.98
+    }
+   }
   },
   {
    "id": 352,
@@ -441,8 +447,24 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.83,
-   "shadow": {}
+   "mark_price": 0.71,
+   "shadow": {
+    "10": {
+     "ts": 1793713527,
+     "bid": 0.71,
+     "proceeds": 2.78
+    },
+    "15": {
+     "ts": 1793713527,
+     "bid": 0.71,
+     "proceeds": 2.78
+    },
+    "20": {
+     "ts": 1793713527,
+     "bid": 0.71,
+     "proceeds": 2.78
+    }
+   }
   },
   {
    "id": 353,
@@ -20636,16 +20658,21 @@
    1793712643,
    103.46,
    96.474
+  ],
+  [
+   1793713527,
+   103.46,
+   94.494
   ]
  ],
  "last_run": {
-  "ts": 1793712643,
+  "ts": 1793713527,
   "error": null,
-  "markets_scanned": 374,
-  "candidates": 4,
+  "markets_scanned": 382,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 352,
-   "no favorite in 80-95c band": 11,
+   "too little volume": 360,
+   "no favorite in 80-95c band": 12,
    "spread too wide": 7
   },
   "opened": [],
@@ -20656,33 +20683,25 @@
     "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.23,
     "volume_24h": 628.38,
-    "score": 0.5288
+    "score": 0.5294
    },
    {
     "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 24.47,
+    "hours_to_close": 24.23,
     "volume_24h": 717.51,
-    "score": 0.5131
+    "score": 0.5137
    },
    {
     "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.1 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.1 million",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 25.47,
+    "hours_to_close": 25.23,
     "volume_24h": 394.64,
-    "score": 0.4615
-   },
-   {
-    "label": "Will the Central Bank of Brazil cut 1-25bps at the November Monetary Policy Meeting? \u2014 Cut 1-25bps",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 32.97,
-    "volume_24h": 278.18,
-    "score": 0.4073
+    "score": 0.512
    }
   ],
   "skipped": {},

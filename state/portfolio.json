@@ -85,7 +85,7 @@
    "opened_ts": 1793553328,
    "close_ts": 1793681940.0,
    "score": 0.6006,
-   "mark_price": 0.69,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1793654125,
@@ -218,7 +218,7 @@
    "opened_ts": 1793567724,
    "close_ts": 1793681940.0,
    "score": 0.5835,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.907,
+   "mark_price": 0.912,
    "shadow": {}
   },
   {
@@ -326,7 +326,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -349,7 +349,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.65,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -404,7 +404,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.5,
+   "mark_price": 0.54,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -442,7 +442,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -20306,18 +20306,24 @@
    1793673029,
    102.52,
    96.574
+  ],
+  [
+   1793673925,
+   102.52,
+   97.084
   ]
  ],
  "last_run": {
-  "ts": 1793673029,
+  "ts": 1793673925,
   "error": null,
   "markets_scanned": 3993,
-  "candidates": 70,
+  "candidates": 71,
   "rejections": {
-   "too little volume": 3714,
-   "no favorite in 80-95c band": 192,
-   "spread too wide": 15,
-   "favorite is slipping fast": 2
+   "too little volume": 3706,
+   "no favorite in 80-95c band": 195,
+   "spread too wide": 18,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -20327,65 +20333,65 @@
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.49,
+    "hours_to_close": 19.24,
     "volume_24h": 6610.84,
-    "score": 0.6689
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 3, 2026? \u2014 39.3%",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 15.48,
-    "volume_24h": 17177.88,
-    "score": 0.6578
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 3, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 15.48,
-    "volume_24h": 4428.82,
-    "score": 0.6513
+    "score": 0.6697
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 19.49,
+    "hours_to_close": 19.24,
     "volume_24h": 3005.41,
-    "score": 0.6432
+    "score": 0.644
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.49,
+    "hours_to_close": 19.24,
     "volume_24h": 3632.44,
-    "score": 0.6394
+    "score": 0.6402
    },
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 19.49,
-    "volume_24h": 22973.23,
-    "score": 0.6124
+    "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 3, 2026? \u2014 39.3%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.23,
+    "volume_24h": 17276.57,
+    "score": 0.6289
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 3, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 15.23,
+    "volume_24h": 14866.44,
+    "score": 0.6289
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.49,
-    "volume_24h": 5164.22,
-    "score": 0.6109
+    "hours_to_close": 19.24,
+    "volume_24h": 6236.33,
+    "score": 0.6178
    },
    {
     "label": "Will the gold close price be above 4008 USD/t.oz on November 03, 2026 at 5:00 PM EST? \u2014 Above $4008",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 19.49,
+    "price": 0.94,
+    "hours_to_close": 19.24,
     "volume_24h": 1758.96,
-    "score": 0.6058
+    "score": 0.6166
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 19.24,
+    "volume_24h": 22973.23,
+    "score": 0.6132
    }
   ],
   "skipped": {},

@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.914,
+   "mark_price": 0.911,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.67,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -336,7 +336,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.44,
+   "mark_price": 0.49,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -442,7 +442,7 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   }
  ],
@@ -20544,61 +20544,58 @@
    1793702725,
    103.41,
    98.866
+  ],
+  [
+   1793703625,
+   103.41,
+   99.128
   ]
  ],
  "last_run": {
-  "ts": 1793702725,
+  "ts": 1793703625,
   "error": null,
-  "markets_scanned": 422,
-  "candidates": 5,
+  "markets_scanned": 392,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 399,
-   "no favorite in 80-95c band": 15,
-   "spread too wide": 3
+   "too little volume": 369,
+   "no favorite in 80-95c band": 14,
+   "spread too wide": 5
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.1 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.1 million",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 28.23,
-    "volume_24h": 388.82,
-    "score": 0.5057
-   },
-   {
     "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 27.23,
+    "hours_to_close": 26.98,
     "volume_24h": 628.38,
-    "score": 0.4731
+    "score": 0.4736
    },
    {
     "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 27.23,
-    "volume_24h": 609.17,
-    "score": 0.4521
+    "hours_to_close": 26.98,
+    "volume_24h": 614.8,
+    "score": 0.4529
    },
    {
     "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 35.73,
+    "hours_to_close": 35.48,
     "volume_24h": 850.89,
-    "score": 0.4501
+    "score": 0.4504
    },
    {
     "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.2 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.2 million",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 28.23,
+    "hours_to_close": 27.98,
     "volume_24h": 223.0,
-    "score": 0.3876
+    "score": 0.3881
    }
   ],
   "skipped": {},

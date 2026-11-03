@@ -248,7 +248,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.75,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -276,7 +276,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.66,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -331,7 +331,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.49,
+   "mark_price": 0.44,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -369,7 +369,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -437,7 +437,7 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -20524,91 +20524,62 @@
    1793700025,
    103.41,
    98.098
+  ],
+  [
+   1793700924,
+   103.41,
+   99.268
   ]
  ],
  "last_run": {
-  "ts": 1793700025,
+  "ts": 1793700924,
   "error": null,
-  "markets_scanned": 3963,
-  "candidates": 80,
+  "markets_scanned": 417,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 3566,
-   "no favorite in 80-95c band": 281,
-   "spread too wide": 32,
-   "nothing for sale at the ask": 3,
-   "favorite is slipping fast": 1
+   "too little volume": 395,
+   "no favorite in 80-95c band": 15,
+   "spread too wide": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 11.99,
-    "volume_24h": 11778.85,
-    "score": 0.6967
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,000 or above",
+    "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.1 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.1 million",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 11.99,
-    "volume_24h": 9533.88,
-    "score": 0.6852
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 3636.03,
-    "score": 0.6838
-   },
-   {
-    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.98,
-    "volume_24h": 17715.4,
-    "score": 0.6691
-   },
-   {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $75,000 or above",
-    "side": "yes",
     "price": 0.9,
-    "hours_to_close": 11.99,
-    "volume_24h": 30369.34,
-    "score": 0.6667
+    "hours_to_close": 28.73,
+    "volume_24h": 388.82,
+    "score": 0.5048
    },
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $79,250 or above",
+    "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 1199.14,
-    "score": 0.6477
+    "price": 0.9,
+    "hours_to_close": 27.73,
+    "volume_24h": 628.38,
+    "score": 0.4722
    },
    {
-    "label": "Ethereum price at Nov 3, 2026 at 5pm EST? \u2014 $2,330 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 11.99,
-    "volume_24h": 1836.01,
-    "score": 0.6415
+    "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 27.73,
+    "volume_24h": 609.17,
+    "score": 0.4512
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 100.49 USD/Bbl on Nov 3, 2026? \u2014 Above $100.49",
+    "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.2 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.2 million",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 9.49,
-    "volume_24h": 662.0,
-    "score": 0.6372
+    "price": 0.9,
+    "hours_to_close": 28.73,
+    "volume_24h": 223.0,
+    "score": 0.3867
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 44
  },

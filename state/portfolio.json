@@ -214,7 +214,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.925,
+   "mark_price": 0.934,
    "shadow": {}
   },
   {
@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.2,
+   "mark_price": 0.36,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -324,7 +324,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.38,
+   "mark_price": 0.34,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -362,7 +362,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.9,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -379,7 +379,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.8,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1793710824,
@@ -390,6 +390,11 @@
      "ts": 1793711728,
      "bid": 0.77,
      "proceeds": 4.54
+    },
+    "20": {
+     "ts": 1793715326,
+     "bid": 0.74,
+     "proceeds": 4.35
     }
    }
   },
@@ -424,7 +429,7 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.85,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -447,7 +452,7 @@
    "opened_ts": 1793682025,
    "close_ts": 1793734200.0,
    "score": 0.6416,
-   "mark_price": 0.75,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -20668,18 +20673,22 @@
    1793714426,
    103.46,
    94.282
+  ],
+  [
+   1793715326,
+   103.46,
+   95.456
   ]
  ],
  "last_run": {
-  "ts": 1793714426,
+  "ts": 1793715326,
   "error": null,
   "markets_scanned": 374,
   "candidates": 3,
   "rejections": {
-   "too little volume": 352,
+   "too little volume": 354,
    "no favorite in 80-95c band": 12,
-   "spread too wide": 6,
-   "nothing for sale at the ask": 1
+   "spread too wide": 5
   },
   "opened": [],
   "settled": [],
@@ -20689,30 +20698,30 @@
     "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.98,
+    "hours_to_close": 23.73,
     "volume_24h": 628.38,
-    "score": 0.53
+    "score": 0.5306
    },
    {
     "label": "Will the Narodowy Bank Polski maintain the current rate at the November Monetary Policy Council meeting? \u2014 Maintain current rate",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 23.98,
-    "volume_24h": 717.51,
-    "score": 0.5143
+    "hours_to_close": 23.73,
+    "volume_24h": 716.2,
+    "score": 0.5148
    },
    {
-    "label": "Will the number of Florida mail ballots returned for the 2026 general election as reported by the UF Election Lab be at least 2.1 million at 10:00 AM ET on November 4, 2026? \u2014 At least 2.1 million",
-    "side": "no",
-    "price": 0.9,
-    "hours_to_close": 24.98,
-    "volume_24h": 394.64,
-    "score": 0.5126
+    "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 32.23,
+    "volume_24h": 887.1,
+    "score": 0.4061
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 8,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

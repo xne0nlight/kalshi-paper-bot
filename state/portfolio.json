@@ -125,7 +125,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.925,
+   "mark_price": 0.932,
    "shadow": {}
   },
   {
@@ -142,7 +142,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.34,
+   "mark_price": 0.28,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -235,7 +235,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793728740.0,
    "score": 0.5075,
-   "mark_price": 0.11,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1793659526,
@@ -273,7 +273,7 @@
    "opened_ts": 1793643325,
    "close_ts": 1793772000.0,
    "score": 0.4698,
-   "mark_price": 0.83,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793718026,
@@ -296,7 +296,7 @@
    "opened_ts": 1793654125,
    "close_ts": 1793775600.0,
    "score": 0.5694,
-   "mark_price": 0.7,
+   "mark_price": 0.68,
    "shadow": {
     "10": {
      "ts": 1793710824,
@@ -346,7 +346,7 @@
    "opened_ts": 1793678425,
    "close_ts": 1793743200.0,
    "score": 0.6088,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793713527,
@@ -20738,42 +20738,30 @@
    1793719825,
    104.38,
    94.512
+  ],
+  [
+   1793720728,
+   104.38,
+   94.194
   ]
  ],
  "last_run": {
-  "ts": 1793719825,
+  "ts": 1793720728,
   "error": null,
   "markets_scanned": 410,
-  "candidates": 2,
+  "candidates": 0,
   "rejections": {
-   "too little volume": 391,
-   "no favorite in 80-95c band": 12,
-   "spread too wide": 5
+   "too little volume": 389,
+   "no favorite in 80-95c band": 13,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [
-   {
-    "label": "Will the Central Bank of Brazil cut 1-25bps at the November Monetary Policy Meeting? \u2014 Cut 1-25bps",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 30.98,
-    "volume_24h": 328.18,
-    "score": 0.4156
-   },
-   {
-    "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 30.98,
-    "volume_24h": 840.35,
-    "score": 0.4062
-   }
-  ],
+  "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 2,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

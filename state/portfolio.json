@@ -231,7 +231,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768340.0,
    "score": 0.563,
-   "mark_price": 0.913,
+   "mark_price": 0.921,
    "shadow": {}
   },
   {
@@ -248,7 +248,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.87,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -271,7 +271,7 @@
    "opened_ts": 1793642426,
    "close_ts": 1793771940.0,
    "score": 0.5127,
-   "mark_price": 0.64,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1793646928,
@@ -398,7 +398,7 @@
    "opened_ts": 1793677524,
    "close_ts": 1793743200.0,
    "score": 0.6757,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -20494,17 +20494,23 @@
    1793695525,
    103.41,
    98.59
+  ],
+  [
+   1793696424,
+   103.41,
+   98.448
   ]
  ],
  "last_run": {
-  "ts": 1793695525,
+  "ts": 1793696424,
   "error": null,
   "markets_scanned": 3759,
-  "candidates": 89,
+  "candidates": 83,
   "rejections": {
-   "too little volume": 3369,
-   "no favorite in 80-95c band": 275,
-   "spread too wide": 25,
+   "too little volume": 3368,
+   "no favorite in 80-95c band": 280,
+   "spread too wide": 24,
+   "nothing for sale at the ask": 3,
    "favorite is slipping fast": 1
   },
   "opened": [],
@@ -20512,68 +20518,68 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.24,
-    "volume_24h": 9265.01,
-    "score": 0.7066
-   },
-   {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,250 or above",
     "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 12.99,
+    "volume_24h": 7580.96,
+    "score": 0.6915
+   },
+   {
+    "label": "Will the WTI front-month settle oil price  be >94.99 on Nov 3, 2026? \u2014 $95 or above",
+    "side": "yes",
     "price": 0.93,
-    "hours_to_close": 13.24,
-    "volume_24h": 7546.07,
-    "score": 0.68
+    "hours_to_close": 10.49,
+    "volume_24h": 5208.34,
+    "score": 0.6861
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $78,750 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 13.24,
-    "volume_24h": 2648.31,
-    "score": 0.6659
-   },
-   {
-    "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.23,
-    "volume_24h": 17678.38,
-    "score": 0.6651
-   },
-   {
-    "label": "Ethereum price at Nov 3, 2026 at 5pm EST? \u2014 $2,330 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 13.24,
-    "volume_24h": 1824.0,
-    "score": 0.6537
+    "hours_to_close": 12.99,
+    "volume_24h": 2689.32,
+    "score": 0.6678
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,750 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 13.24,
+    "price": 0.9,
+    "hours_to_close": 12.99,
     "volume_24h": 11499.38,
-    "score": 0.6491
+    "score": 0.6606
    },
    {
     "label": "Bitcoin price on Nov 3, 2026? \u2014 $78,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 13.24,
-    "volume_24h": 4623.99,
-    "score": 0.644
+    "price": 0.92,
+    "hours_to_close": 12.99,
+    "volume_24h": 4819.99,
+    "score": 0.6568
    },
    {
-    "label": "Bitcoin price range on Nov 3, 2026? \u2014 $76,500 to 76,749.99",
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $74,500 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 12.99,
+    "volume_24h": 3605.73,
+    "score": 0.6473
+   },
+   {
+    "label": "Bitcoin price on Nov 3, 2026? \u2014 $78,250 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 13.24,
-    "volume_24h": 2473.06,
-    "score": 0.6436
+    "price": 0.89,
+    "hours_to_close": 12.99,
+    "volume_24h": 6709.07,
+    "score": 0.6376
+   },
+   {
+    "label": "Will the maximum temperature be >77\u00b0 on Nov 3, 2026? \u2014 78\u00b0 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 7714.95,
+    "score": 0.6366
    }
   ],
   "skipped": {},

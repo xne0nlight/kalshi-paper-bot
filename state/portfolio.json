@@ -125,7 +125,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.56,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -384,8 +384,14 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.8,
-   "shadow": {}
+   "mark_price": 0.78,
+   "shadow": {
+    "10": {
+     "ts": 1793737825,
+     "bid": 0.78,
+     "proceeds": 5.37
+    }
+   }
   },
   {
    "id": 355,
@@ -20929,18 +20935,23 @@
    1793736927,
    99.32,
    93.448
+  ],
+  [
+   1793737825,
+   99.32,
+   93.428
   ]
  ],
  "last_run": {
-  "ts": 1793736927,
+  "ts": 1793737825,
   "error": null,
-  "markets_scanned": 729,
+  "markets_scanned": 804,
   "candidates": 23,
   "rejections": {
-   "too little volume": 638,
-   "no favorite in 80-95c band": 64,
-   "spread too wide": 2,
-   "nothing for sale at the ask": 2
+   "too little volume": 708,
+   "no favorite in 80-95c band": 68,
+   "nothing for sale at the ask": 3,
+   "spread too wide": 2
   },
   "opened": [],
   "settled": [],
@@ -20950,70 +20961,70 @@
     "label": "Will it rain in Indianapolis on Nov 4, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 657.83,
-    "score": 0.5656
+    "score": 0.566
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Nov 4, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 958.68,
-    "score": 0.5652
+    "score": 0.5655
+   },
+   {
+    "label": "Will Trump's RCP approval average be above 39.4 on Nov 4, 2026? \u2014 Above 39.4%",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.48,
+    "volume_24h": 265.63,
+    "score": 0.5584
    },
    {
     "label": "Will it rain in Milwaukee on Nov 4, 2026?",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 554.86,
-    "score": 0.5487
+    "score": 0.549
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 4, 2026? \u2014 39.0%",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.73,
+    "hours_to_close": 21.48,
     "volume_24h": 458.24,
-    "score": 0.5454
+    "score": 0.5461
    },
    {
     "label": "Will it rain in San Francisco on Nov 4, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 408.77,
-    "score": 0.5362
+    "score": 0.5366
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Nov 4, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 294.87,
-    "score": 0.5282
+    "score": 0.5285
    },
    {
     "label": "Will it rain in Detroit on Nov 4, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 655.71,
-    "score": 0.5155
-   },
-   {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.74,
-    "volume_24h": 447.12,
-    "score": 0.5104
+    "score": 0.5159
    }
   ],
   "skipped": {},
   "watch_added": 1,
-  "watch_graded": 0,
+  "watch_graded": 1,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

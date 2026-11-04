@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.842,
+ "cash": 15.842,
  "fees_paid": 9.09,
  "peak_equity": 109.65,
  "day": "2026-11-04",
@@ -116,44 +116,6 @@
    }
   },
   {
-   "id": 349,
-   "ticker": "KXHIGHCHI-26NOV03-B75.5",
-   "event_ticker": "KXHIGHCHI-26NOV03",
-   "series": "KXHIGHCHI",
-   "label": "Will the maximum temperature be 75-76\u00b0 on Nov 3, 2026? \u2014 75\u00b0 to 76\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793654125,
-   "close_ts": 1793775600.0,
-   "score": 0.5694,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793710824,
-     "bid": 0.82,
-     "proceeds": 4.85
-    },
-    "15": {
-     "ts": 1793711728,
-     "bid": 0.77,
-     "proceeds": 4.54
-    },
-    "20": {
-     "ts": 1793715326,
-     "bid": 0.74,
-     "proceeds": 4.35
-    },
-    "30": {
-     "ts": 1793723427,
-     "bid": 0.62,
-     "proceeds": 3.62
-    }
-   }
-  },
-  {
    "id": 353,
    "ticker": "KXCBDPOLAND-26NOV04-H25",
    "event_ticker": "KXCBDPOLAND-26NOV04",
@@ -184,7 +146,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -229,7 +191,7 @@
    "opened_ts": 1793729735,
    "close_ts": 1793815140.0,
    "score": 0.4439,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -301,7 +263,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.85,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -351,7 +313,7 @@
    "opened_ts": 1793745026,
    "close_ts": 1793862000.0,
    "score": 0.5237,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -368,7 +330,7 @@
    "opened_ts": 1793761224,
    "close_ts": 1793820600.0,
    "score": 0.6429,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793773827,
@@ -408,7 +370,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -9374,6 +9336,48 @@
    "result": "YES",
    "closed_ts": 1793794525,
    "won": false
+  },
+  {
+   "id": 349,
+   "ticker": "KXHIGHCHI-26NOV03-B75.5",
+   "event_ticker": "KXHIGHCHI-26NOV03",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Nov 3, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793654125,
+   "close_ts": 1793775600.0,
+   "score": 0.5694,
+   "shadow": {
+    "10": {
+     "ts": 1793710824,
+     "bid": 0.82,
+     "proceeds": 4.85
+    },
+    "15": {
+     "ts": 1793711728,
+     "bid": 0.77,
+     "proceeds": 4.54
+    },
+    "20": {
+     "ts": 1793715326,
+     "bid": 0.74,
+     "proceeds": 4.35
+    },
+    "30": {
+     "ts": 1793723427,
+     "bid": 0.62,
+     "proceeds": 3.62
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793798126,
+   "won": true
   }
  ],
  "equity_history": [
@@ -21471,58 +21475,59 @@
    1793797227,
    97.982,
    96.942
+  ],
+  [
+   1793798126,
+   98.262,
+   97.372
   ]
  ],
  "last_run": {
-  "ts": 1793797227,
+  "ts": 1793798126,
   "error": null,
   "markets_scanned": 376,
-  "candidates": 4,
+  "candidates": 3,
   "rejections": {
    "too little volume": 341,
-   "no favorite in 80-95c band": 27,
+   "no favorite in 80-95c band": 28,
    "spread too wide": 4
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   349
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Toledo wins",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 34.99,
-    "volume_24h": 14554.04,
-    "score": 0.6512
-   },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.98,
+    "hours_to_close": 27.73,
     "volume_24h": 605.45,
-    "score": 0.5705
+    "score": 0.571
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Nov 5, 2026? \u2014 Above $98.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.24,
+    "volume_24h": 1019.0,
+    "score": 0.5336
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 549.02,
-    "score": 0.4868
-   },
-   {
-    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.17%? \u2014 Above 7.17%",
-    "side": "no",
-    "price": 0.81,
-    "hours_to_close": 27.98,
-    "volume_24h": 793.45,
-    "score": 0.4393
+    "score": 0.4871
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 1,
+  "watch_graded": 35,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

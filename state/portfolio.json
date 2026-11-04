@@ -129,7 +129,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.83,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -208,7 +208,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.38,
+   "mark_price": 0.46,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -246,7 +246,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.55,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -408,7 +408,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -425,7 +425,7 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -21557,17 +21557,22 @@
    1793804430,
    98.352,
    95.372
+  ],
+  [
+   1793805327,
+   98.352,
+   96.172
   ]
  ],
  "last_run": {
-  "ts": 1793804430,
+  "ts": 1793805327,
   "error": null,
-  "markets_scanned": 379,
-  "candidates": 4,
+  "markets_scanned": 388,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 344,
-   "no favorite in 80-95c band": 26,
-   "spread too wide": 5
+   "too little volume": 352,
+   "no favorite in 80-95c band": 25,
+   "spread too wide": 6
   },
   "opened": [],
   "settled": [],
@@ -21577,38 +21582,46 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 32.99,
-    "volume_24h": 23465.18,
-    "score": 0.6539
+    "hours_to_close": 32.74,
+    "volume_24h": 24688.76,
+    "score": 0.6542
+   },
+   {
+    "label": "Sacramento St. wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.74,
+    "volume_24h": 309273.45,
+    "score": 0.6542
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.97,
+    "hours_to_close": 25.73,
     "volume_24h": 605.45,
-    "score": 0.5744
+    "score": 0.5749
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 32.74,
+    "volume_24h": 226.9,
+    "score": 0.511
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 32.99,
+    "hours_to_close": 32.74,
     "volume_24h": 549.02,
-    "score": 0.5294
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.99,
-    "volume_24h": 226.9,
-    "score": 0.5007
+    "score": 0.4797
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 8,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

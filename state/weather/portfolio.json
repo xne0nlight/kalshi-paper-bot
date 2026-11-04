@@ -2,9 +2,9 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 12.9167,
+ "cash": 12.9667,
  "fees_paid": 0.0,
- "next_id": 2087,
+ "next_id": 2090,
  "orders": [
   {
    "ticker": "KXHIGHTSDF-26NOV04-T76",
@@ -26,54 +26,8 @@
    "contracts": 13,
    "filled": 0.0,
    "placed_ts": 1793779226,
-   "checked_ts": 1793783725,
+   "checked_ts": 1793784627,
    "reserved": 12.35
-  },
-  {
-   "ticker": "KXLOWTDAL-26NOV04-B52.5",
-   "event_ticker": "KXLOWTDAL-26NOV04",
-   "series": "KXLOWTDAL",
-   "kind": "low",
-   "code": "DFW",
-   "date": "2026-11-04",
-   "label": "DFW low 52\u201353\u00b0 11-04",
-   "side": "no",
-   "close_ts": 1793862000.0,
-   "q_model": 0.6969,
-   "mid": 0.315,
-   "strategy": "edge",
-   "price": 0.15,
-   "edge": 0.5469,
-   "q_used": 0.506,
-   "id": 2080,
-   "contracts": 85,
-   "filled": 0.0,
-   "placed_ts": 1793782825,
-   "checked_ts": 1793783725,
-   "reserved": 12.75
-  },
-  {
-   "ticker": "KXLOWTLV-26NOV04-B47.5",
-   "event_ticker": "KXLOWTLV-26NOV04",
-   "series": "KXLOWTLV",
-   "kind": "low",
-   "code": "LAS",
-   "date": "2026-11-04",
-   "label": "LAS low 47\u201348\u00b0 11-04",
-   "side": "no",
-   "close_ts": 1793869200.0,
-   "q_model": 0.9541,
-   "mid": 0.905,
-   "strategy": "favorite",
-   "price": 0.84,
-   "edge": 0.1141,
-   "q_used": 0.9295,
-   "id": 2083,
-   "contracts": 15,
-   "filled": 0.0,
-   "placed_ts": 1793783725,
-   "checked_ts": 1793783725,
-   "reserved": 12.6
   },
   {
    "ticker": "KXLOWTSAN-26NOV04-B62.5",
@@ -95,8 +49,54 @@
    "contracts": 34,
    "filled": 0.0,
    "placed_ts": 1793783725,
-   "checked_ts": 1793783725,
+   "checked_ts": 1793784627,
    "reserved": 12.58
+  },
+  {
+   "ticker": "KXLOWTLV-26NOV04-B47.5",
+   "event_ticker": "KXLOWTLV-26NOV04",
+   "series": "KXLOWTLV",
+   "kind": "low",
+   "code": "LAS",
+   "date": "2026-11-04",
+   "label": "LAS low 47\u201348\u00b0 11-04",
+   "side": "no",
+   "close_ts": 1793869200.0,
+   "q_model": 0.9541,
+   "mid": 0.9,
+   "strategy": "favorite",
+   "price": 0.83,
+   "edge": 0.1241,
+   "q_used": 0.927,
+   "id": 2087,
+   "contracts": 15,
+   "filled": 0.0,
+   "placed_ts": 1793784627,
+   "checked_ts": 1793784627,
+   "reserved": 12.45
+  },
+  {
+   "ticker": "KXLOWTDAL-26NOV04-B52.5",
+   "event_ticker": "KXLOWTDAL-26NOV04",
+   "series": "KXLOWTDAL",
+   "kind": "low",
+   "code": "DFW",
+   "date": "2026-11-04",
+   "label": "DFW low 52\u201353\u00b0 11-04",
+   "side": "no",
+   "close_ts": 1793862000.0,
+   "q_model": 0.6969,
+   "mid": 0.31,
+   "strategy": "edge",
+   "price": 0.14,
+   "edge": 0.5569,
+   "q_used": 0.5034,
+   "id": 2088,
+   "contracts": 92,
+   "filled": 0.0,
+   "placed_ts": 1793784627,
+   "checked_ts": 1793784627,
+   "reserved": 12.88
   },
   {
    "ticker": "KXLOWTDC-26NOV04-B54.5",
@@ -109,40 +109,17 @@
    "side": "no",
    "close_ts": 1793858400.0,
    "q_model": 0.7351,
-   "mid": 0.325,
+   "mid": 0.335,
    "strategy": "edge",
-   "price": 0.18,
-   "edge": 0.5551,
-   "q_used": 0.5301,
-   "id": 2085,
+   "price": 0.2,
+   "edge": 0.5351,
+   "q_used": 0.5351,
+   "id": 2089,
    "contracts": 3,
    "filled": 0.0,
-   "placed_ts": 1793783725,
-   "checked_ts": 1793783725,
-   "reserved": 0.54
-  },
-  {
-   "ticker": "KXLOWTSFO-26NOV04-B51.5",
-   "event_ticker": "KXLOWTSFO-26NOV04",
-   "series": "KXLOWTSFO",
-   "kind": "low",
-   "code": "SFO",
-   "date": "2026-11-04",
-   "label": "SFO low 51\u201352\u00b0 11-04",
-   "side": "yes",
-   "close_ts": 1793869200.0,
-   "q_model": 0.3201,
-   "mid": 0.09,
-   "strategy": "edge",
-   "price": 0.09,
-   "edge": 0.2301,
-   "q_used": 0.2051,
-   "id": 2086,
-   "contracts": 1,
-   "filled": 0.0,
-   "placed_ts": 1793783725,
-   "checked_ts": 1793783725,
-   "reserved": 0.09
+   "placed_ts": 1793784627,
+   "checked_ts": 1793784627,
+   "reserved": 0.6
   }
  ],
  "positions": [
@@ -637,7 +614,7 @@
    "contracts": 1.0,
    "cost": 0.32,
    "opened_ts": 1793740530,
-   "mark_price": 0.21,
+   "mark_price": 0.14,
    "avg_price": 0.32
   },
   {
@@ -884,7 +861,7 @@
    "contracts": 1.43,
    "cost": 0.5577,
    "opened_ts": 1793780126,
-   "mark_price": 0.36,
+   "mark_price": 0.37,
    "avg_price": 0.39
   },
   {
@@ -14153,6 +14130,11 @@
    1793783725,
    128.8125,
    130.9412
+  ],
+  [
+   1793784627,
+   128.8125,
+   130.8855
   ]
  ],
  "forecast_log": {
@@ -22015,56 +21997,49 @@
   }
  },
  "last_run": {
-  "ts": 1793783725,
+  "ts": 1793784627,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
   "cancelled": [
    {
+    "ticker": "KXLOWTDAL-26NOV04-B52.5",
+    "reason": "reprice 0.15->0.14"
+   },
+   {
     "ticker": "KXLOWTLV-26NOV04-B47.5",
-    "reason": "reprice 0.83->0.84"
+    "reason": "reprice 0.84->0.83"
    },
    {
     "ticker": "KXLOWTDC-26NOV04-B54.5",
-    "reason": "reprice 0.16->0.18"
+    "reason": "reprice 0.18->0.20"
    },
    {
-    "ticker": "KXLOWTBOS-26NOV04-B57.5",
-    "reason": "reprice 0.31->0.33"
-   },
-   {
-    "ticker": "KXLOWTAUS-26NOV04-B53.5",
-    "reason": "reprice 0.08->0.14"
+    "ticker": "KXLOWTSFO-26NOV04-B51.5",
+    "reason": "reprice 0.09->0.10"
    }
   ],
   "placed": [
    {
     "ticker": "KXLOWTLV-26NOV04-B47.5",
     "side": "no",
-    "price": 0.84,
+    "price": 0.83,
     "contracts": 15,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXLOWTSAN-26NOV04-B62.5",
+    "ticker": "KXLOWTDAL-26NOV04-B52.5",
     "side": "no",
-    "price": 0.37,
-    "contracts": 34,
+    "price": 0.14,
+    "contracts": 92,
     "strategy": "edge"
    },
    {
     "ticker": "KXLOWTDC-26NOV04-B54.5",
     "side": "no",
-    "price": 0.18,
+    "price": 0.2,
     "contracts": 3,
-    "strategy": "edge"
-   },
-   {
-    "ticker": "KXLOWTSFO-26NOV04-B51.5",
-    "side": "yes",
-    "price": 0.09,
-    "contracts": 1,
     "strategy": "edge"
    }
   ],
@@ -22106,20 +22081,20 @@
      {
       "label": "51\u201352\u00b0",
       "q": 0.32,
-      "bid": 0.08,
-      "ask": 0.1
+      "bid": 0.1,
+      "ask": 0.11
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.355,
-      "bid": 0.5,
-      "ask": 0.59
+      "bid": 0.51,
+      "ask": 0.62
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.165,
-      "bid": 0.31,
-      "ask": 0.39
+      "bid": 0.27,
+      "ask": 0.32
      },
      {
       "label": "\u226557\u00b0",
@@ -22290,7 +22265,7 @@
       "label": "47\u201348\u00b0",
       "q": 0.046,
       "bid": 0.02,
-      "ask": 0.17
+      "ask": 0.18
      },
      {
       "label": "49\u201350\u00b0",
@@ -22302,7 +22277,7 @@
       "label": "\u226551\u00b0",
       "q": 0.794,
       "bid": 0.59,
-      "ask": 0.72
+      "ask": 0.79
      }
     ]
    },
@@ -22355,7 +22330,7 @@
       "label": "57\u201358\u00b0",
       "q": 0.107,
       "bid": 0.62,
-      "ask": 0.79
+      "ask": 0.86
      },
      {
       "label": "\u226559\u00b0",
@@ -22413,7 +22388,7 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.117,
-      "bid": 0.06,
+      "bid": 0.05,
       "ask": 0.07
      },
      {
@@ -22578,8 +22553,8 @@
      {
       "label": "69\u201370\u00b0",
       "q": 0.432,
-      "bid": 0.53,
-      "ask": 0.54
+      "bid": 0.52,
+      "ask": 0.53
      },
      {
       "label": "71\u201372\u00b0",
@@ -22643,8 +22618,8 @@
      {
       "label": "75\u201376\u00b0",
       "q": 0.387,
-      "bid": 0.55,
-      "ask": 0.56
+      "bid": 0.56,
+      "ask": 0.57
      },
      {
       "label": "77\u201378\u00b0",
@@ -22696,14 +22671,14 @@
      {
       "label": "31\u201332\u00b0",
       "q": 0.175,
-      "bid": 0.03,
-      "ask": 0.24
+      "bid": 0.15,
+      "ask": 0.25
      },
      {
       "label": "33\u201334\u00b0",
       "q": 0.552,
       "bid": 0.55,
-      "ask": 0.67
+      "ask": 0.68
      },
      {
       "label": "35\u201336\u00b0",
@@ -22814,8 +22789,8 @@
      {
       "label": "51\u201352\u00b0",
       "q": 0.093,
-      "bid": 0.01,
-      "ask": 0.05
+      "bid": 0.02,
+      "ask": 0.12
      },
      {
       "label": "53\u201354\u00b0",
@@ -22885,14 +22860,14 @@
      {
       "label": "56\u201357\u00b0",
       "q": 0.257,
-      "bid": 0.11,
+      "bid": 0.1,
       "ask": 0.21
      },
      {
       "label": "\u226558\u00b0",
       "q": 0.381,
-      "bid": 0.79,
-      "ask": 0.81
+      "bid": 0.57,
+      "ask": 0.82
      }
     ]
    },
@@ -22985,25 +22960,25 @@
      {
       "label": "63\u201364\u00b0",
       "q": 0.129,
-      "bid": 0.07,
+      "bid": 0.05,
       "ask": 0.08
      },
      {
       "label": "65\u201366\u00b0",
       "q": 0.227,
-      "bid": 0.25,
-      "ask": 0.41
+      "bid": 0.3,
+      "ask": 0.4
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.252,
       "bid": 0.38,
-      "ask": 0.48
+      "ask": 0.41
      },
      {
       "label": "69\u201370\u00b0",
       "q": 0.187,
-      "bid": 0.06,
+      "bid": 0.05,
       "ask": 0.12
      },
      {
@@ -23063,7 +23038,7 @@
       "label": "50\u201351\u00b0",
       "q": 0.284,
       "bid": 0.5,
-      "ask": 0.53
+      "ask": 0.51
      },
      {
       "label": "\u226552\u00b0",
@@ -23115,14 +23090,14 @@
      {
       "label": "58\u201359\u00b0",
       "q": 0.294,
-      "bid": 0.06,
+      "bid": 0.12,
       "ask": 0.5
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.246,
       "bid": 0.51,
-      "ask": 0.78
+      "ask": 0.77
      },
      {
       "label": "\u226562\u00b0",
@@ -23168,14 +23143,14 @@
      {
       "label": "50\u201351\u00b0",
       "q": 0.207,
-      "bid": 0.12,
+      "bid": 0.06,
       "ask": 0.23
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.303,
       "bid": 0.51,
-      "ask": 0.86
+      "ask": 0.87
      },
      {
       "label": "54\u201355\u00b0",
@@ -23227,20 +23202,20 @@
      {
       "label": "50\u201351\u00b0",
       "q": 0.028,
-      "bid": 0.15,
+      "bid": 0.14,
       "ask": 0.19
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.2,
-      "bid": 0.35,
-      "ask": 0.45
+      "bid": 0.32,
+      "ask": 0.48
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.444,
-      "bid": 0.41,
-      "ask": 0.49
+      "bid": 0.34,
+      "ask": 0.5
      },
      {
       "label": "\u226556\u00b0",
@@ -23293,13 +23268,13 @@
       "label": "51\u201352\u00b0",
       "q": 0.249,
       "bid": 0.5,
-      "ask": 0.68
+      "ask": 0.75
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.337,
-      "bid": 0.13,
-      "ask": 0.26
+      "bid": 0.03,
+      "ask": 0.28
      },
      {
       "label": "\u226555\u00b0",
@@ -23351,7 +23326,7 @@
      {
       "label": "77\u201378\u00b0",
       "q": 0.202,
-      "bid": 0.29,
+      "bid": 0.32,
       "ask": 0.33
      },
      {
@@ -23404,8 +23379,8 @@
      {
       "label": "75\u201376\u00b0",
       "q": 0.259,
-      "bid": 0.02,
-      "ask": 0.03
+      "bid": 0.03,
+      "ask": 0.04
      },
      {
       "label": "77\u201378\u00b0",
@@ -23469,8 +23444,8 @@
      {
       "label": "68\u201369\u00b0",
       "q": 0.353,
-      "bid": 0.22,
-      "ask": 0.25
+      "bid": 0.24,
+      "ask": 0.28
      },
      {
       "label": "70\u201371\u00b0",
@@ -23481,8 +23456,8 @@
      {
       "label": "\u226572\u00b0",
       "q": 0.153,
-      "bid": 0.14,
-      "ask": 0.15
+      "bid": 0.12,
+      "ask": 0.13
      }
     ]
    },
@@ -23522,8 +23497,8 @@
      {
       "label": "81\u201382\u00b0",
       "q": 0.154,
-      "bid": 0.29,
-      "ask": 0.34
+      "bid": 0.28,
+      "ask": 0.3
      },
      {
       "label": "83\u201384\u00b0",
@@ -23575,8 +23550,8 @@
      {
       "label": "53\u201354\u00b0",
       "q": 0.142,
-      "bid": 0.58,
-      "ask": 0.65
+      "bid": 0.6,
+      "ask": 0.66
      },
      {
       "label": "55\u201356\u00b0",
@@ -23694,7 +23669,7 @@
       "label": "71\u201372\u00b0",
       "q": 0.347,
       "bid": 0.03,
-      "ask": 0.05
+      "ask": 0.06
      },
      {
       "label": "73\u201374\u00b0",
@@ -23824,7 +23799,7 @@
       "label": "77\u201378\u00b0",
       "q": 0.357,
       "bid": 0.35,
-      "ask": 0.37
+      "ask": 0.36
      },
      {
       "label": "79\u201380\u00b0",
@@ -23871,7 +23846,7 @@
       "label": "41\u201342\u00b0",
       "q": 0.084,
       "bid": 0.01,
-      "ask": 0.06
+      "ask": 0.05
      },
      {
       "label": "43\u201344\u00b0",
@@ -23941,20 +23916,20 @@
      {
       "label": "56\u201357\u00b0",
       "q": 0.419,
-      "bid": 0.21,
+      "bid": 0.18,
       "ask": 0.27
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.317,
-      "bid": 0.31,
-      "ask": 0.48
+      "bid": 0.3,
+      "ask": 0.47
      },
      {
       "label": "\u226560\u00b0",
       "q": 0.061,
       "bid": 0.28,
-      "ask": 0.48
+      "ask": 0.47
      }
     ]
    },
@@ -23988,32 +23963,32 @@
      {
       "label": "45\u201346\u00b0",
       "q": 0.002,
-      "bid": null,
-      "ask": 0.01
+      "bid": 0.01,
+      "ask": 0.02
      },
      {
       "label": "47\u201348\u00b0",
       "q": 0.035,
       "bid": 0.01,
-      "ask": 0.02
+      "ask": 0.03
      },
      {
       "label": "49\u201350\u00b0",
       "q": 0.194,
-      "bid": 0.02,
-      "ask": 0.04
+      "bid": 0.05,
+      "ask": 0.09
      },
      {
       "label": "51\u201352\u00b0",
       "q": 0.378,
-      "bid": 0.43,
-      "ask": 0.5
+      "bid": 0.88,
+      "ask": 0.89
      },
      {
       "label": "\u226553\u00b0",
       "q": 0.392,
-      "bid": 0.27,
-      "ask": 0.46
+      "bid": null,
+      "ask": 0.01
      }
     ]
    },
@@ -24066,13 +24041,13 @@
       "label": "55\u201356\u00b0",
       "q": 0.118,
       "bid": 0.5,
-      "ask": 0.64
+      "ask": 0.63
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.31,
-      "bid": 0.23,
-      "ask": 0.3
+      "bid": 0.1,
+      "ask": 0.31
      }
     ]
    },
@@ -24112,14 +24087,14 @@
      {
       "label": "72\u201373\u00b0",
       "q": 0.116,
-      "bid": 0.03,
-      "ask": 0.05
+      "bid": 0.04,
+      "ask": 0.1
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.31,
-      "bid": 0.27,
-      "ask": 0.45
+      "bid": 0.2,
+      "ask": 0.35
      },
      {
       "label": "76\u201377\u00b0",
@@ -24236,14 +24211,14 @@
      {
       "label": "52\u201353\u00b0",
       "q": 0.303,
-      "bid": 0.03,
-      "ask": 0.31
+      "bid": 0.05,
+      "ask": 0.3
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.265,
       "bid": 0.52,
-      "ask": 0.83
+      "ask": 0.81
      },
      {
       "label": "\u226556\u00b0",
@@ -24290,19 +24265,19 @@
       "label": "53\u201354\u00b0",
       "q": 0.291,
       "bid": 0.02,
-      "ask": 0.17
+      "ask": 0.16
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.434,
-      "bid": 0.05,
+      "bid": 0.04,
       "ask": 0.31
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.234,
       "bid": 0.51,
-      "ask": 0.68
+      "ask": 0.69
      },
      {
       "label": "\u226559\u00b0",
@@ -24361,7 +24336,7 @@
       "label": "65\u201366\u00b0",
       "q": 0.384,
       "bid": 0.61,
-      "ask": 0.84
+      "ask": 0.88
      },
      {
       "label": "\u226567\u00b0",
@@ -24414,7 +24389,7 @@
       "label": "75\u201376\u00b0",
       "q": 0.36,
       "bid": 0.21,
-      "ask": 0.3
+      "ask": 0.31
      },
      {
       "label": "77\u201378\u00b0",
@@ -24650,19 +24625,19 @@
       "label": "74\u201375\u00b0",
       "q": 0.324,
       "bid": 0.11,
-      "ask": 0.13
+      "ask": 0.12
      },
      {
       "label": "76\u201377\u00b0",
       "q": 0.269,
       "bid": 0.53,
-      "ask": 0.54
+      "ask": 0.55
      },
      {
       "label": "\u226578\u00b0",
       "q": 0.141,
       "bid": 0.29,
-      "ask": 0.3
+      "ask": 0.32
      }
     ]
    },
@@ -24820,7 +24795,7 @@
      {
       "label": "72\u201373\u00b0",
       "q": 0.42,
-      "bid": 0.22,
+      "bid": 0.21,
       "ask": 0.23
      },
      {
@@ -24874,7 +24849,7 @@
       "label": "81\u201382\u00b0",
       "q": 0.089,
       "bid": 0.08,
-      "ask": 0.09
+      "ask": 0.1
      },
      {
       "label": "83\u201384\u00b0",
@@ -24891,7 +24866,7 @@
      {
       "label": "87\u201388\u00b0",
       "q": 0.1,
-      "bid": 0.04,
+      "bid": 0.05,
       "ask": 0.06
      },
      {
@@ -24904,7 +24879,7 @@
    }
   ],
   "halt": null,
-  "candidates": 68,
+  "candidates": 69,
   "health": {
    "nws_observations": {
     "ok": 48,
@@ -24912,7 +24887,7 @@
     "last_error": null
    }
   },
-  "seconds": 24.1
+  "seconds": 41.9
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

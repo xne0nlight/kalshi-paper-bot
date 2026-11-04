@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.402,
- "fees_paid": 9.15,
+ "cash": 11.842,
+ "fees_paid": 9.19,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 370,
+ "next_id": 371,
  "open_positions": [
   {
    "id": 284,
@@ -116,34 +116,6 @@
    }
   },
   {
-   "id": 354,
-   "ticker": "KXCBDECISIONBRAZIL-26NOV04-HOLD",
-   "event_ticker": "KXCBDECISIONBRAZIL-26NOV04",
-   "series": "KXCBDECISIONBRAZIL",
-   "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
-   "side": "yes",
-   "contracts": 7,
-   "price": 0.88,
-   "fee": 0.06,
-   "cost": 6.22,
-   "opened_ts": 1793717135,
-   "close_ts": 1793831340.0,
-   "score": 0.4064,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793737825,
-     "bid": 0.78,
-     "proceeds": 5.37
-    },
-    "15": {
-     "ts": 1793742326,
-     "bid": 0.72,
-     "proceeds": 4.94
-    }
-   }
-  },
-  {
    "id": 355,
    "ticker": "KXRAIN-26NOV04-DTW",
    "event_ticker": "KXRAIN-26NOV04",
@@ -191,7 +163,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.66,
+   "mark_price": 0.38,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -443,6 +415,23 @@
    "close_ts": 1793944800.0,
    "score": 0.5367,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 370,
+   "ticker": "KXTRUMPAPPROVE-26NOV05-E38.9",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV05",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 5, 2026? \u2014 38.9%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793829627,
+   "close_ts": 1793901540.0,
+   "score": 0.5581,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -9457,6 +9446,38 @@
    "pnl": 0.04,
    "result": "NO",
    "closed_ts": 1793816127,
+   "won": true
+  },
+  {
+   "id": 354,
+   "ticker": "KXCBDECISIONBRAZIL-26NOV04-HOLD",
+   "event_ticker": "KXCBDECISIONBRAZIL-26NOV04",
+   "series": "KXCBDECISIONBRAZIL",
+   "label": "Will the Central Bank of Brazil maintain current rate at the November Monetary Policy Meeting? \u2014 Maintain current rate",
+   "side": "yes",
+   "contracts": 7,
+   "price": 0.88,
+   "fee": 0.06,
+   "cost": 6.22,
+   "opened_ts": 1793717135,
+   "close_ts": 1793831340.0,
+   "score": 0.4064,
+   "shadow": {
+    "10": {
+     "ts": 1793737825,
+     "bid": 0.78,
+     "proceeds": 5.37
+    },
+    "15": {
+     "ts": 1793742326,
+     "bid": 0.72,
+     "proceeds": 4.94
+    }
+   },
+   "payout": 7.0,
+   "pnl": 0.78,
+   "result": "YES",
+   "closed_ts": 1793829627,
    "won": true
   }
  ],
@@ -21730,92 +21751,103 @@
    1793828726,
    98.392,
    99.752
+  ],
+  [
+   1793829627,
+   99.172,
+   98.882
   ]
  ],
  "last_run": {
-  "ts": 1793828726,
+  "ts": 1793829627,
   "error": null,
   "markets_scanned": 4113,
-  "candidates": 37,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 3952,
-   "no favorite in 80-95c band": 113,
-   "spread too wide": 10,
+   "too little volume": 3943,
+   "no favorite in 80-95c band": 117,
+   "spread too wide": 12,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   370
+  ],
+  "settled": [
+   354
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 26.24,
-    "volume_24h": 48602.81,
-    "score": 0.6651
+    "hours_to_close": 25.99,
+    "volume_24h": 49326.55,
+    "score": 0.6656
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.24,
-    "volume_24h": 588354.62,
-    "score": 0.6651
+    "hours_to_close": 25.99,
+    "volume_24h": 606352.77,
+    "score": 0.6656
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.24,
+    "hours_to_close": 25.99,
     "volume_24h": 2190.3,
-    "score": 0.5957
+    "score": 0.5962
    },
    {
     "label": "Will it rain in St. Louis on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 2200.13,
-    "score": 0.5956
+    "score": 0.596
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 1454.43,
-    "score": 0.5921
+    "score": 0.5925
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 26.24,
-    "volume_24h": 1670.06,
-    "score": 0.5869
+    "hours_to_close": 25.99,
+    "volume_24h": 1724.99,
+    "score": 0.5884
    },
    {
     "label": "Will it rain in San Antonio on Nov 5, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.24,
+    "hours_to_close": 31.99,
     "volume_24h": 1017.98,
-    "score": 0.5805
+    "score": 0.5809
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 83.99 USD/Bbl on Nov 5, 2026? \u2014 Above $83.99",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 21.74,
-    "volume_24h": 550.0,
-    "score": 0.5613
+    "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 5, 2026? \u2014 38.9%",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 19.98,
+    "volume_24h": 579.16,
+    "score": 0.5581
    }
   ],
-  "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 0,
-  "api_calls": 43
+  "skipped": {
+   "series cap": 1
+  },
+  "watch_added": 6,
+  "watch_graded": 7,
+  "api_calls": 45
  },
  "shadow_since": 1791904549,
  "phase": {

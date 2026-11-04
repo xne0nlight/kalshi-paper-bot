@@ -163,7 +163,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.56,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -296,7 +296,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -21803,101 +21803,97 @@
    1793830525,
    99.842,
    99.382
+  ],
+  [
+   1793831425,
+   99.842,
+   100.642
   ]
  ],
  "last_run": {
-  "ts": 1793830525,
+  "ts": 1793831425,
   "error": null,
-  "markets_scanned": 4113,
-  "candidates": 46,
+  "markets_scanned": 4114,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 3921,
+   "too little volume": 3914,
    "no favorite in 80-95c band": 128,
-   "spread too wide": 16,
-   "nothing for sale at the ask": 2
+   "spread too wide": 17,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   371,
-   372
-  ],
-  "settled": [
-   360,
-   363
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 49662.39,
-    "score": 0.6662
+    "hours_to_close": 25.49,
+    "volume_24h": 50248.88,
+    "score": 0.6667
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
-    "volume_24h": 670902.73,
-    "score": 0.6662
+    "hours_to_close": 25.49,
+    "volume_24h": 694435.4,
+    "score": 0.6667
    },
    {
     "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.74,
+    "price": 0.95,
+    "hours_to_close": 23.49,
     "volume_24h": 1656.45,
-    "score": 0.6021
+    "score": 0.6127
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 2394.37,
-    "score": 0.5996
+    "score": 0.6001
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $77,750 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 23.49,
+    "volume_24h": 1035.92,
+    "score": 0.5974
    },
    {
     "label": "Will it rain in St. Louis on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 2200.13,
-    "score": 0.5963
+    "score": 0.5967
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.74,
+    "hours_to_close": 31.49,
     "volume_24h": 1496.43,
-    "score": 0.5938
+    "score": 0.5942
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 25.74,
-    "volume_24h": 2242.52,
-    "score": 0.5875
-   },
-   {
-    "label": "Will it rain in San Antonio on Nov 5, 2026?",
-    "side": "no",
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,000 or above",
+    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.74,
-    "volume_24h": 1017.98,
-    "score": 0.5813
+    "hours_to_close": 23.49,
+    "volume_24h": 813.0,
+    "score": 0.5895
    }
   ],
-  "skipped": {
-   "series cap": 1,
-   "related-market cap (Crypto)": 3
-  },
-  "watch_added": 12,
-  "watch_graded": 76,
-  "api_calls": 45
+  "skipped": {},
+  "watch_added": 6,
+  "watch_graded": 2,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

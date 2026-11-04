@@ -208,7 +208,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.57,
+   "mark_price": 0.58,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -246,7 +246,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.6,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -317,7 +317,7 @@
    "opened_ts": 1793745026,
    "close_ts": 1793862000.0,
    "score": 0.5237,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -391,7 +391,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.95,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -21624,16 +21624,21 @@
    1793813425,
    98.352,
    96.112
+  ],
+  [
+   1793814333,
+   98.352,
+   96.072
   ]
  ],
  "last_run": {
-  "ts": 1793813425,
+  "ts": 1793814333,
   "error": null,
   "markets_scanned": 467,
-  "candidates": 12,
+  "candidates": 14,
   "rejections": {
    "too little volume": 392,
-   "no favorite in 80-95c band": 54,
+   "no favorite in 80-95c band": 52,
    "spread too wide": 9
   },
   "opened": [],
@@ -21644,70 +21649,70 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.49,
-    "volume_24h": 27428.55,
-    "score": 0.6575
+    "hours_to_close": 30.24,
+    "volume_24h": 27505.1,
+    "score": 0.6579
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.49,
-    "volume_24h": 373530.57,
-    "score": 0.6575
+    "hours_to_close": 30.24,
+    "volume_24h": 386742.07,
+    "score": 0.6579
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 580.71,
-    "score": 0.5349
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Nov 5, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 267.53,
-    "score": 0.5328
-   },
-   {
-    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 35.49,
-    "volume_24h": 619.3,
-    "score": 0.5001
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 25.99,
-    "volume_24h": 325.25,
-    "score": 0.4942
-   },
-   {
-    "label": "Will it rain in Washington DC on Nov 5, 2026?",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 35.49,
-    "volume_24h": 313.07,
-    "score": 0.4879
+    "score": 0.5353
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 354.88,
-    "score": 0.4789
+    "score": 0.5293
+   },
+   {
+    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.24,
+    "volume_24h": 619.3,
+    "score": 0.5004
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 25.74,
+    "volume_24h": 325.25,
+    "score": 0.4947
+   },
+   {
+    "label": "Will it rain in Lexington on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.24,
+    "volume_24h": 249.55,
+    "score": 0.4808
+   },
+   {
+    "label": "Will it rain in Washington DC on Nov 5, 2026?",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 35.24,
+    "volume_24h": 409.07,
+    "score": 0.4469
    }
   ],
   "skipped": {},
   "watch_added": 2,
-  "watch_graded": 4,
+  "watch_graded": 1,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

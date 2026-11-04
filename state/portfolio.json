@@ -305,7 +305,7 @@
    "opened_ts": 1793725226,
    "close_ts": 1793854800.0,
    "score": 0.5611,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -484,7 +484,7 @@
    "opened_ts": 1793777426,
    "close_ts": 1793829600.0,
    "score": 0.6863,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   }
  ],
@@ -21313,94 +21313,95 @@
    1793777426,
    100.792,
    95.602
+  ],
+  [
+   1793778325,
+   100.792,
+   95.602
   ]
  ],
  "last_run": {
-  "ts": 1793777426,
+  "ts": 1793778325,
   "error": null,
   "markets_scanned": 3781,
-  "candidates": 61,
+  "candidates": 63,
   "rejections": {
    "too little volume": 3356,
-   "no favorite in 80-95c band": 328,
+   "no favorite in 80-95c band": 329,
    "spread too wide": 32,
-   "nothing for sale at the ask": 4
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   363
-  ],
-  "settled": [
-   343
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.49,
-    "volume_24h": 14708.34,
-    "score": 0.7025
+    "hours_to_close": 14.24,
+    "volume_24h": 14951.34,
+    "score": 0.7037
    },
    {
-    "label": "Will the gold close price be above 3948 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3948",
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,750 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.49,
-    "volume_24h": 6077.14,
-    "score": 0.6863
+    "price": 0.94,
+    "hours_to_close": 14.24,
+    "volume_24h": 13052.86,
+    "score": 0.6937
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,000 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.49,
-    "volume_24h": 35487.6,
-    "score": 0.6825
+    "price": 0.92,
+    "hours_to_close": 14.24,
+    "volume_24h": 35788.71,
+    "score": 0.6737
    },
    {
     "label": "Will the gold close price be above 3958 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3958",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 14.49,
-    "volume_24h": 6365.97,
-    "score": 0.6678
+    "hours_to_close": 14.24,
+    "volume_24h": 6411.55,
+    "score": 0.6693
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 4, 2026? \u2014 Above $100.99",
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,000 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 11.99,
-    "volume_24h": 2180.82,
-    "score": 0.6671
+    "price": 0.92,
+    "hours_to_close": 14.24,
+    "volume_24h": 7707.81,
+    "score": 0.6653
    },
    {
-    "label": "Will the maximum temperature be 69-70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 to 70\u00b0",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.49,
-    "volume_24h": 7680.11,
-    "score": 0.6626
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,250 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 14.24,
+    "volume_24h": 3257.07,
+    "score": 0.6572
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,250 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 14.49,
-    "volume_24h": 17826.57,
-    "score": 0.6625
+    "price": 0.9,
+    "hours_to_close": 14.24,
+    "volume_24h": 17908.98,
+    "score": 0.6537
    },
    {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,500 or above",
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 4, 2026? \u2014 Above $99.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.49,
-    "volume_24h": 2820.8,
-    "score": 0.6513
+    "price": 0.91,
+    "hours_to_close": 11.74,
+    "volume_24h": 3974.36,
+    "score": 0.6483
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

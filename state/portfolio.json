@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.432,
- "fees_paid": 9.06,
+ "cash": 9.842,
+ "fees_paid": 9.09,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 365,
+ "next_id": 367,
  "open_positions": [
   {
    "id": 284,
@@ -116,61 +116,6 @@
    }
   },
   {
-   "id": 346,
-   "ticker": "KXHIGHPHIL-26NOV03-B73.5",
-   "event_ticker": "KXHIGHPHIL-26NOV03",
-   "series": "KXHIGHPHIL",
-   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 3, 2026? \u2014 73\u00b0 to 74\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793642426,
-   "close_ts": 1793772000.0,
-   "score": 0.4411,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 348,
-   "ticker": "KXHIGHMIA-26NOV03-B87.5",
-   "event_ticker": "KXHIGHMIA-26NOV03",
-   "series": "KXHIGHMIA",
-   "label": "Will the maximum temperature be 87-88\u00b0 on Nov 3, 2026? \u2014 87\u00b0 to 88\u00b0",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.89,
-   "fee": 0.03,
-   "cost": 3.59,
-   "opened_ts": 1793643325,
-   "close_ts": 1793772000.0,
-   "score": 0.4698,
-   "mark_price": 0.01,
-   "shadow": {
-    "10": {
-     "ts": 1793718026,
-     "bid": 0.77,
-     "proceeds": 3.03
-    },
-    "15": {
-     "ts": 1793730627,
-     "bid": 0.06,
-     "proceeds": 0.22
-    },
-    "20": {
-     "ts": 1793730627,
-     "bid": 0.06,
-     "proceeds": 0.22
-    },
-    "30": {
-     "ts": 1793730627,
-     "bid": 0.06,
-     "proceeds": 0.22
-    }
-   }
-  },
-  {
    "id": 349,
    "ticker": "KXHIGHCHI-26NOV03-B75.5",
    "event_ticker": "KXHIGHCHI-26NOV03",
@@ -239,7 +184,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -284,7 +229,7 @@
    "opened_ts": 1793729735,
    "close_ts": 1793815140.0,
    "score": 0.4439,
-   "mark_price": 0.93,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -356,7 +301,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -373,7 +318,7 @@
    "opened_ts": 1793744127,
    "close_ts": 1793829600.0,
    "score": 0.6404,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793760324,
@@ -464,6 +409,40 @@
    "close_ts": 1793923200.0,
    "score": 0.65,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 365,
+   "ticker": "KX30YMORTW-26NOV05-T7.18",
+   "event_ticker": "KX30YMORTW-26NOV05",
+   "series": "KX30YMORTW",
+   "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793794525,
+   "close_ts": 1793897940.0,
+   "score": 0.5692,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 366,
+   "ticker": "KXNCAAF1H-26NOV03TOLSAC-SAC",
+   "event_ticker": "KXNCAAF1H-26NOV03TOLSAC",
+   "series": "KXNCAAF1H",
+   "label": "Sacramento St. wins the 1st half",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793794525,
+   "close_ts": 1793923200.0,
+   "score": 0.4858,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -9332,6 +9311,69 @@
    "result": "NO",
    "closed_ts": 1793793626,
    "won": true
+  },
+  {
+   "id": 346,
+   "ticker": "KXHIGHPHIL-26NOV03-B73.5",
+   "event_ticker": "KXHIGHPHIL-26NOV03",
+   "series": "KXHIGHPHIL",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 3, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793642426,
+   "close_ts": 1793772000.0,
+   "score": 0.4411,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793794525,
+   "won": true
+  },
+  {
+   "id": 348,
+   "ticker": "KXHIGHMIA-26NOV03-B87.5",
+   "event_ticker": "KXHIGHMIA-26NOV03",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 87-88\u00b0 on Nov 3, 2026? \u2014 87\u00b0 to 88\u00b0",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.89,
+   "fee": 0.03,
+   "cost": 3.59,
+   "opened_ts": 1793643325,
+   "close_ts": 1793772000.0,
+   "score": 0.4698,
+   "shadow": {
+    "10": {
+     "ts": 1793718026,
+     "bid": 0.77,
+     "proceeds": 3.03
+    },
+    "15": {
+     "ts": 1793730627,
+     "bid": 0.06,
+     "proceeds": 0.22
+    },
+    "20": {
+     "ts": 1793730627,
+     "bid": 0.06,
+     "proceeds": 0.22
+    },
+    "30": {
+     "ts": 1793730627,
+     "bid": 0.06,
+     "proceeds": 0.22
+    }
+   },
+   "payout": 0.0,
+   "pnl": -3.59,
+   "result": "YES",
+   "closed_ts": 1793794525,
+   "won": false
   }
  ],
  "equity_history": [
@@ -21409,24 +21451,30 @@
    1793793626,
    101.292,
    97.482
+  ],
+  [
+   1793794525,
+   97.982,
+   97.312
   ]
  ],
  "last_run": {
-  "ts": 1793793626,
+  "ts": 1793794525,
   "error": null,
   "markets_scanned": 374,
-  "candidates": 3,
+  "candidates": 5,
   "rejections": {
-   "too little volume": 339,
+   "too little volume": 338,
    "no favorite in 80-95c band": 26,
-   "spread too wide": 4,
-   "favorite is slipping fast": 2
+   "spread too wide": 5
   },
   "opened": [
-   364
+   365,
+   366
   ],
   "settled": [
-   344
+   346,
+   348
   ],
   "halt": null,
   "top_candidates": [
@@ -21434,30 +21482,48 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 13085.53,
-    "score": 0.65
+    "hours_to_close": 35.74,
+    "volume_24h": 14420.4,
+    "score": 0.6503
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.98,
+    "hours_to_close": 28.73,
     "volume_24h": 605.45,
-    "score": 0.5688
+    "score": 0.5692
+   },
+   {
+    "label": "Will the Bank of Mexico Cut 25bps at the November Bank of Mexico Governing Board meeting?",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 30.73,
+    "volume_24h": 4246.29,
+    "score": 0.5193
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 549.02,
-    "score": 0.4855
+    "score": 0.4858
+   },
+   {
+    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.17%? \u2014 Above 7.17%",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 28.73,
+    "volume_24h": 803.49,
+    "score": 0.4484
    }
   ],
-  "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 10,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 1,
+  "watch_graded": 13,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

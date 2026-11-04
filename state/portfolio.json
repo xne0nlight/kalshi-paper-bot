@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.282,
- "fees_paid": 9.13,
+ "cash": 10.342,
+ "fees_paid": 9.14,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 368,
+ "next_id": 369,
  "open_positions": [
   {
    "id": 284,
@@ -208,7 +208,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.56,
+   "mark_price": 0.53,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -246,7 +246,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.53,
+   "mark_price": 0.54,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -425,6 +425,23 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 368,
+   "ticker": "KXRAIN-26NOV05-IND",
+   "event_ticker": "KXRAIN-26NOV05",
+   "series": "KXRAIN",
+   "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1793811629,
+   "close_ts": 1793941200.0,
+   "score": 0.5389,
    "mark_price": 0.92,
    "shadow": {}
   }
@@ -21592,19 +21609,26 @@
    1793810728,
    98.352,
    95.922
+  ],
+  [
+   1793811629,
+   98.352,
+   95.862
   ]
  ],
  "last_run": {
-  "ts": 1793810728,
+  "ts": 1793811629,
   "error": null,
-  "markets_scanned": 351,
-  "candidates": 5,
+  "markets_scanned": 467,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 315,
-   "no favorite in 80-95c band": 21,
-   "spread too wide": 10
+   "too little volume": 397,
+   "no favorite in 80-95c band": 51,
+   "spread too wide": 9
   },
-  "opened": [],
+  "opened": [
+   368
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -21612,45 +21636,69 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 31.24,
-    "volume_24h": 26985.22,
-    "score": 0.6564
+    "hours_to_close": 30.99,
+    "volume_24h": 26915.19,
+    "score": 0.6568
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.24,
-    "volume_24h": 355859.45,
-    "score": 0.6564
+    "hours_to_close": 30.99,
+    "volume_24h": 360939.31,
+    "score": 0.6568
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 503.45,
-    "score": 0.5622
+    "score": 0.5628
+   },
+   {
+    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 609.3,
+    "score": 0.5389
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 31.24,
-    "volume_24h": 569.91,
-    "score": 0.5331
+    "hours_to_close": 30.99,
+    "volume_24h": 580.71,
+    "score": 0.5341
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 331.4,
-    "score": 0.5255
+    "score": 0.5259
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 26.49,
+    "volume_24h": 324.25,
+    "score": 0.473
+   },
+   {
+    "label": "Will it rain in Washington DC on Nov 5, 2026?",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 35.99,
+    "volume_24h": 311.97,
+    "score": 0.4372
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

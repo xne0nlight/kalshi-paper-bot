@@ -184,7 +184,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -229,7 +229,7 @@
    "opened_ts": 1793729735,
    "close_ts": 1793815140.0,
    "score": 0.4439,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -351,7 +351,7 @@
    "opened_ts": 1793745026,
    "close_ts": 1793862000.0,
    "score": 0.5237,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -368,7 +368,7 @@
    "opened_ts": 1793761224,
    "close_ts": 1793820600.0,
    "score": 0.6429,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793773827,
@@ -21456,74 +21456,63 @@
    1793794525,
    97.982,
    97.312
+  ],
+  [
+   1793795427,
+   97.982,
+   97.512
   ]
  ],
  "last_run": {
-  "ts": 1793794525,
+  "ts": 1793795427,
   "error": null,
   "markets_scanned": 374,
-  "candidates": 5,
+  "candidates": 4,
   "rejections": {
    "too little volume": 338,
-   "no favorite in 80-95c band": 26,
-   "spread too wide": 5
+   "no favorite in 80-95c band": 28,
+   "spread too wide": 4
   },
-  "opened": [
-   365,
-   366
-  ],
-  "settled": [
-   346,
-   348
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.74,
-    "volume_24h": 14420.4,
-    "score": 0.6503
+    "hours_to_close": 35.49,
+    "volume_24h": 14430.88,
+    "score": 0.6506
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.73,
+    "hours_to_close": 28.48,
     "volume_24h": 605.45,
-    "score": 0.5692
-   },
-   {
-    "label": "Will the Bank of Mexico Cut 25bps at the November Bank of Mexico Governing Board meeting?",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 30.73,
-    "volume_24h": 4246.29,
-    "score": 0.5193
+    "score": 0.5696
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 549.02,
-    "score": 0.4858
+    "score": 0.4861
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.17%? \u2014 Above 7.17%",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 28.73,
-    "volume_24h": 803.49,
-    "score": 0.4484
+    "price": 0.81,
+    "hours_to_close": 28.48,
+    "volume_24h": 813.45,
+    "score": 0.4392
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 1,
-  "watch_graded": 13,
+  "skipped": {},
+  "watch_added": 0,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

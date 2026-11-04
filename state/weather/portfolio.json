@@ -460,7 +460,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793750425,
-   "mark_price": 0.04,
+   "mark_price": 0.03,
    "avg_price": 0.08
   },
   {
@@ -517,7 +517,7 @@
    "contracts": 1.0,
    "cost": 0.95,
    "opened_ts": 1793759426,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "avg_price": 0.95
   },
   {
@@ -650,7 +650,7 @@
    "contracts": 3.27,
    "cost": 2.7141,
    "opened_ts": 1793780126,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "avg_price": 0.83
   },
   {
@@ -669,7 +669,7 @@
    "contracts": 1.43,
    "cost": 0.5577,
    "opened_ts": 1793780126,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "avg_price": 0.39
   },
   {
@@ -688,7 +688,7 @@
    "contracts": 14.0,
    "cost": 12.18,
    "opened_ts": 1793781025,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "avg_price": 0.87
   },
   {
@@ -14132,6 +14132,11 @@
    1793794525,
    129.4775,
    130.6438
+  ],
+  [
+   1793795427,
+   129.4775,
+   130.9222
   ]
  ],
  "forecast_log": {
@@ -19634,42 +19639,6 @@
     "kind": "low",
     "close_ts": 1793772000.0
    },
-   "KXHIGHMIA-26NOV03-T88": {
-    "q": 0.028736008245226305,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
-   "KXHIGHMIA-26NOV03-T81": {
-    "q": 0.0011453709711741291,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
-   "KXHIGHMIA-26NOV03-B87.5": {
-    "q": 0.21871438744263827,
-    "mkt": 0.10500000000000001,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
-   "KXHIGHMIA-26NOV03-B85.5": {
-    "q": 0.49637733128329664,
-    "mkt": 0.65,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
-   "KXHIGHMIA-26NOV03-B83.5": {
-    "q": 0.21563799925773436,
-    "mkt": 0.19,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
-   "KXHIGHMIA-26NOV03-B81.5": {
-    "q": 0.039388902799931076,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793772000.0
-   },
    "KXLOWTSFO-26NOV04-T56": {
     "q": 0.0348207238350134,
     "mkt": 0.015,
@@ -21401,9 +21370,9 @@
   },
   "totals": {
    "all": {
-    "n": 3822,
-    "model": 514.9488853115864,
-    "market": 362.58632499999754
+    "n": 3828,
+    "model": 515.8545612774196,
+    "market": 363.8462249999975
    },
    "low": {
     "n": 1908,
@@ -21411,35 +21380,18 @@
     "market": 189.83604999999952
    },
    "high": {
-    "n": 1914,
-    "model": 244.13699700630926,
-    "market": 172.7502749999991
+    "n": 1920,
+    "model": 245.04267297214247,
+    "market": 174.01017499999912
    }
   }
  },
  "last_run": {
-  "ts": 1793794525,
+  "ts": 1793795427,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXHIGHTATL-26NOV03-T73",
-    "pnl": -0.6
-   },
-   {
-    "ticker": "KXHIGHMIA-26NOV03-B85.5",
-    "pnl": 0.67
-   },
-   {
-    "ticker": "KXHIGHTDC-26NOV03-B74.5",
-    "pnl": -0.065
-   },
-   {
-    "ticker": "KXHIGHTTTN-26NOV03-B70.5",
-    "pnl": 0.66
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -21447,7 +21399,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 43.0
+  "seconds": 41.7
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

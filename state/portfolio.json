@@ -191,7 +191,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.41,
+   "mark_price": 0.24,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -374,7 +374,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -425,7 +425,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.92,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -442,7 +442,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -21690,17 +21690,22 @@
    1793821526,
    98.392,
    97.062
+  ],
+  [
+   1793822428,
+   98.392,
+   96.562
   ]
  ],
  "last_run": {
-  "ts": 1793821526,
+  "ts": 1793822428,
   "error": null,
-  "markets_scanned": 766,
-  "candidates": 29,
+  "markets_scanned": 792,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 649,
-   "no favorite in 80-95c band": 82,
-   "spread too wide": 6
+   "too little volume": 673,
+   "no favorite in 80-95c band": 83,
+   "spread too wide": 5
   },
   "opened": [],
   "settled": [],
@@ -21710,65 +21715,65 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 32943.91,
-    "score": 0.6613
+    "hours_to_close": 27.99,
+    "volume_24h": 34624.14,
+    "score": 0.6618
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
-    "volume_24h": 470477.37,
-    "score": 0.6613
+    "hours_to_close": 27.99,
+    "volume_24h": 491561.12,
+    "score": 0.6618
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
+    "label": "Will it rain in St. Louis on Nov 5, 2026?",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.74,
-    "volume_24h": 2513.99,
-    "score": 0.5756
+    "price": 0.93,
+    "hours_to_close": 33.99,
+    "volume_24h": 1635.11,
+    "score": 0.5735
    },
    {
     "label": "Will it rain in San Antonio on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 980.61,
-    "score": 0.5666
+    "score": 0.5669
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 23.49,
+    "volume_24h": 2562.65,
+    "score": 0.5669
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 718.91,
-    "score": 0.5556
-   },
-   {
-    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 668.4,
-    "score": 0.5441
+    "score": 0.5561
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 618.88,
-    "score": 0.5407
+    "score": 0.5412
    },
    {
     "label": "Will it rain in Lexington on Nov 5, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 348.77,
-    "score": 0.5243
+    "score": 0.5246
    }
   ],
   "skipped": {},

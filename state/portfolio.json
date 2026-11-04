@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.152,
- "fees_paid": 9.04,
+ "cash": 11.432,
+ "fees_paid": 9.06,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 364,
+ "next_id": 365,
  "open_positions": [
   {
    "id": 284,
@@ -76,44 +76,6 @@
    "score": 0.5428,
    "mark_price": 0.96,
    "shadow": {}
-  },
-  {
-   "id": 344,
-   "ticker": "KXRAIN-26NOV03-ATL",
-   "event_ticker": "KXRAIN-26NOV03",
-   "series": "KXRAIN",
-   "label": "Will it rain in Atlanta on Nov 3, 2026?",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.91,
-   "fee": 0.04,
-   "cost": 5.5,
-   "opened_ts": 1793638826,
-   "close_ts": 1793768400.0,
-   "score": 0.5196,
-   "mark_price": 0.96,
-   "shadow": {
-    "10": {
-     "ts": 1793661325,
-     "bid": 0.81,
-     "proceeds": 4.79
-    },
-    "15": {
-     "ts": 1793700025,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "20": {
-     "ts": 1793701826,
-     "bid": 0.69,
-     "proceeds": 4.05
-    },
-    "30": {
-     "ts": 1793706324,
-     "bid": 0.61,
-     "proceeds": 3.56
-    }
-   }
   },
   {
    "id": 345,
@@ -277,7 +239,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -322,7 +284,7 @@
    "opened_ts": 1793729735,
    "close_ts": 1793815140.0,
    "score": 0.4439,
-   "mark_price": 0.98,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -485,6 +447,23 @@
    "close_ts": 1793829600.0,
    "score": 0.6863,
    "mark_price": 0.97,
+   "shadow": {}
+  },
+  {
+   "id": 364,
+   "ticker": "KXNCAAFGAME-26NOV03TOLSAC-TOL",
+   "event_ticker": "KXNCAAFGAME-26NOV03TOLSAC",
+   "series": "KXNCAAFGAME",
+   "label": "Toledo wins",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793793626,
+   "close_ts": 1793923200.0,
+   "score": 0.65,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -9310,6 +9289,48 @@
    "pnl": 0.342,
    "result": "NO",
    "closed_ts": 1793777426,
+   "won": true
+  },
+  {
+   "id": 344,
+   "ticker": "KXRAIN-26NOV03-ATL",
+   "event_ticker": "KXRAIN-26NOV03",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Nov 3, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.91,
+   "fee": 0.04,
+   "cost": 5.5,
+   "opened_ts": 1793638826,
+   "close_ts": 1793768400.0,
+   "score": 0.5196,
+   "shadow": {
+    "10": {
+     "ts": 1793661325,
+     "bid": 0.81,
+     "proceeds": 4.79
+    },
+    "15": {
+     "ts": 1793700025,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "20": {
+     "ts": 1793701826,
+     "bid": 0.69,
+     "proceeds": 4.05
+    },
+    "30": {
+     "ts": 1793706324,
+     "bid": 0.61,
+     "proceeds": 3.56
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.5,
+   "result": "NO",
+   "closed_ts": 1793793626,
    "won": true
   }
  ],
@@ -21383,92 +21404,60 @@
    1793792724,
    100.792,
    97.442
+  ],
+  [
+   1793793626,
+   101.292,
+   97.482
   ]
  ],
  "last_run": {
-  "ts": 1793792724,
+  "ts": 1793793626,
   "error": null,
-  "markets_scanned": 561,
-  "candidates": 14,
+  "markets_scanned": 374,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 435,
-   "no favorite in 80-95c band": 97,
-   "spread too wide": 11,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 2
+   "too little volume": 339,
+   "no favorite in 80-95c band": 26,
+   "spread too wide": 4,
+   "favorite is slipping fast": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   364
+  ],
+  "settled": [
+   344
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 75-76\u00b0 on Nov 4, 2026? \u2014 75\u00b0 to 76\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.24,
-    "volume_24h": 1658.66,
-    "score": 0.6247
-   },
-   {
-    "label": "Will the maximum temperature be 77-78\u00b0 on Nov 4, 2026? \u2014 77\u00b0 to 78\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.24,
-    "volume_24h": 4658.3,
-    "score": 0.6122
-   },
-   {
-    "label": "Will the maximum temperature be <54\u00b0 on Nov 4, 2026? \u2014 53\u00b0 or below",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 839.97,
-    "score": 0.5994
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Nov 4, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.24,
-    "volume_24h": 1325.03,
-    "score": 0.5874
-   },
-   {
-    "label": "Will the maximum temperature be >71\u00b0 on Nov 4, 2026? \u2014 72\u00b0 or above",
-    "side": "no",
-    "price": 0.88,
-    "hours_to_close": 19.24,
-    "volume_24h": 3309.92,
-    "score": 0.5772
-   },
-   {
-    "label": "Will the maximum temperature be >80\u00b0 on Nov 4, 2026? \u2014 81\u00b0 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.24,
-    "volume_24h": 4027.16,
-    "score": 0.5736
-   },
-   {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 4, 2026? \u2014 53\u00b0 to 54\u00b0",
+    "label": "Toledo wins",
     "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 19.24,
-    "volume_24h": 2630.01,
-    "score": 0.5697
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 13085.53,
+    "score": 0.65
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.23,
+    "hours_to_close": 28.98,
     "volume_24h": 605.45,
-    "score": 0.5683
+    "score": 0.5688
+   },
+   {
+    "label": "Sacramento St. wins the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 549.02,
+    "score": 0.4855
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 10,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

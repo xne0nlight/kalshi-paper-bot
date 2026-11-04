@@ -129,7 +129,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.8,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -191,7 +191,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.79,
+   "mark_price": 0.65,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -229,7 +229,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.93,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -300,7 +300,7 @@
    "opened_ts": 1793745026,
    "close_ts": 1793862000.0,
    "score": 0.5237,
-   "mark_price": 0.96,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -374,7 +374,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -21670,17 +21670,23 @@
    1793817928,
    98.392,
    97.852
+  ],
+  [
+   1793818825,
+   98.392,
+   97.782
   ]
  ],
  "last_run": {
-  "ts": 1793817928,
+  "ts": 1793818825,
   "error": null,
-  "markets_scanned": 597,
-  "candidates": 20,
+  "markets_scanned": 768,
+  "candidates": 26,
   "rejections": {
-   "too little volume": 502,
-   "no favorite in 80-95c band": 65,
-   "spread too wide": 10
+   "too little volume": 654,
+   "no favorite in 80-95c band": 78,
+   "spread too wide": 9,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -21690,69 +21696,69 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 29.24,
-    "volume_24h": 31699.59,
-    "score": 0.6596
+    "hours_to_close": 28.99,
+    "volume_24h": 31745.79,
+    "score": 0.66
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.24,
-    "volume_24h": 437385.18,
-    "score": 0.6596
+    "hours_to_close": 28.99,
+    "volume_24h": 446571.66,
+    "score": 0.66
    },
    {
     "label": "Will Trump's RCP approval average be below 38.8 on Nov 5, 2026? \u2014 Below 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 23.23,
+    "hours_to_close": 22.98,
     "volume_24h": 2724.27,
-    "score": 0.6195
+    "score": 0.6201
+   },
+   {
+    "label": "Will the maximum temperature be 82-83\u00b0 on Nov 5, 2026? \u2014 82\u00b0 to 83\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.99,
+    "volume_24h": 766.97,
+    "score": 0.5664
    },
    {
     "label": "Will it rain in San Antonio on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.24,
-    "volume_24h": 842.66,
-    "score": 0.5604
+    "hours_to_close": 34.99,
+    "volume_24h": 980.61,
+    "score": 0.5656
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 29.24,
+    "hours_to_close": 28.99,
     "volume_24h": 695.43,
-    "score": 0.5528
+    "score": 0.5532
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 29.24,
+    "hours_to_close": 28.99,
     "volume_24h": 841.85,
-    "score": 0.549
+    "score": 0.5494
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 572.0,
-    "score": 0.5378
-   },
-   {
-    "label": "Will it rain in Lexington on Nov 5, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.24,
-    "volume_24h": 293.42,
-    "score": 0.5174
+    "score": 0.5381
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

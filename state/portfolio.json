@@ -191,7 +191,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.65,
+   "mark_price": 0.55,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -374,7 +374,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -442,7 +442,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -21675,18 +21675,22 @@
    1793818825,
    98.392,
    97.782
+  ],
+  [
+   1793819727,
+   98.392,
+   97.532
   ]
  ],
  "last_run": {
-  "ts": 1793818825,
+  "ts": 1793819727,
   "error": null,
   "markets_scanned": 768,
   "candidates": 26,
   "rejections": {
-   "too little volume": 654,
-   "no favorite in 80-95c band": 78,
-   "spread too wide": 9,
-   "nothing for sale at the ask": 1
+   "too little volume": 653,
+   "no favorite in 80-95c band": 82,
+   "spread too wide": 7
   },
   "opened": [],
   "settled": [],
@@ -21696,69 +21700,69 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 31745.79,
-    "score": 0.66
+    "hours_to_close": 28.74,
+    "volume_24h": 32034.82,
+    "score": 0.6604
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 446571.66,
-    "score": 0.66
+    "hours_to_close": 28.74,
+    "volume_24h": 455059.14,
+    "score": 0.6604
    },
    {
     "label": "Will Trump's RCP approval average be below 38.8 on Nov 5, 2026? \u2014 Below 38.8%",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.98,
-    "volume_24h": 2724.27,
-    "score": 0.6201
-   },
-   {
-    "label": "Will the maximum temperature be 82-83\u00b0 on Nov 5, 2026? \u2014 82\u00b0 to 83\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 35.99,
-    "volume_24h": 766.97,
-    "score": 0.5664
+    "hours_to_close": 22.73,
+    "volume_24h": 2751.09,
+    "score": 0.6211
    },
    {
     "label": "Will it rain in San Antonio on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 980.61,
-    "score": 0.5656
+    "score": 0.5659
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 28.99,
-    "volume_24h": 695.43,
-    "score": 0.5532
+    "hours_to_close": 28.74,
+    "volume_24h": 718.91,
+    "score": 0.5547
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.99,
-    "volume_24h": 841.85,
-    "score": 0.5494
+    "hours_to_close": 28.74,
+    "volume_24h": 618.88,
+    "score": 0.5399
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 572.0,
-    "score": 0.5381
+    "price": 0.92,
+    "hours_to_close": 34.74,
+    "volume_24h": 646.4,
+    "score": 0.5324
+   },
+   {
+    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.74,
+    "volume_24h": 642.78,
+    "score": 0.5035
    }
   ],
   "skipped": {},
-  "watch_added": 5,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

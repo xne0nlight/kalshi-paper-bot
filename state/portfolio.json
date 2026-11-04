@@ -129,7 +129,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.85,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -174,7 +174,7 @@
    "opened_ts": 1793729735,
    "close_ts": 1793815140.0,
    "score": 0.4439,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -208,7 +208,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.56,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -246,7 +246,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.59,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -317,7 +317,7 @@
    "opened_ts": 1793745026,
    "close_ts": 1793862000.0,
    "score": 0.5237,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -391,7 +391,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -21619,17 +21619,22 @@
    1793812526,
    98.352,
    96.052
+  ],
+  [
+   1793813425,
+   98.352,
+   96.112
   ]
  ],
  "last_run": {
-  "ts": 1793812526,
+  "ts": 1793813425,
   "error": null,
   "markets_scanned": 467,
-  "candidates": 13,
+  "candidates": 12,
   "rejections": {
-   "too little volume": 395,
-   "no favorite in 80-95c band": 52,
-   "spread too wide": 7
+   "too little volume": 392,
+   "no favorite in 80-95c band": 54,
+   "spread too wide": 9
   },
   "opened": [],
   "settled": [],
@@ -21639,70 +21644,70 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 27483.28,
-    "score": 0.6572
+    "hours_to_close": 30.49,
+    "volume_24h": 27428.55,
+    "score": 0.6575
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.74,
-    "volume_24h": 367800.37,
-    "score": 0.6572
-   },
-   {
-    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 619.3,
-    "score": 0.5398
+    "hours_to_close": 30.49,
+    "volume_24h": 373530.57,
+    "score": 0.6575
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 580.71,
-    "score": 0.5345
+    "score": 0.5349
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 30.74,
-    "volume_24h": 331.4,
-    "score": 0.5263
-   },
-   {
-    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
+    "label": "Will it rain in West Palm Beach on Nov 5, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.73,
-    "volume_24h": 503.45,
-    "score": 0.5234
+    "hours_to_close": 35.49,
+    "volume_24h": 267.53,
+    "score": 0.5328
+   },
+   {
+    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.49,
+    "volume_24h": 619.3,
+    "score": 0.5001
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 26.24,
-    "volume_24h": 324.25,
-    "score": 0.4735
+    "price": 0.89,
+    "hours_to_close": 25.99,
+    "volume_24h": 325.25,
+    "score": 0.4942
    },
    {
     "label": "Will it rain in Washington DC on Nov 5, 2026?",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 35.74,
-    "volume_24h": 311.97,
-    "score": 0.4375
+    "hours_to_close": 35.49,
+    "volume_24h": 313.07,
+    "score": 0.4879
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 30.49,
+    "volume_24h": 354.88,
+    "score": 0.4789
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 0,
+  "watch_added": 2,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

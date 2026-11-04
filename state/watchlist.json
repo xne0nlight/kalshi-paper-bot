@@ -53504,7 +53504,7 @@
    "series": "KXFLMAILVOTE",
    "seen_ts": 1793674825,
    "close_ts": 1793804340.0,
-   "won": null,
+   "won": true,
    "vol24": 388,
    "spread": 0.01,
    "group": null,
@@ -53518,7 +53518,7 @@
    "series": "KXPAMAILREQ",
    "seen_ts": 1793674825,
    "close_ts": 1793804340.0,
-   "won": null,
+   "won": true,
    "vol24": 244,
    "spread": 0.02,
    "group": null,
@@ -53546,7 +53546,7 @@
    "series": "KXFLMAILVOTE",
    "seen_ts": 1793674825,
    "close_ts": 1793804340.0,
-   "won": null,
+   "won": true,
    "vol24": 218,
    "spread": 0.03,
    "group": null,
@@ -53848,7 +53848,7 @@
    "series": "KXEARLYVOTE",
    "seen_ts": 1793682025,
    "close_ts": 1793804340.0,
-   "won": null,
+   "won": true,
    "vol24": 200,
    "spread": 0.03,
    "group": null,
@@ -57238,7 +57238,7 @@
    "group": null,
    "label": "Toledo wins",
    "last_price": 0.95,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXNCAAF1H-26NOV03TOLSAC-SAC": {
    "side": "no",
@@ -57252,7 +57252,7 @@
    "group": null,
    "label": "Sacramento St. wins the 1st half",
    "last_price": 0.92,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXCBDECISIONMEXICO-26NOV05-C25": {
    "side": "no",
@@ -57306,7 +57306,7 @@
    "group": null,
    "label": "Sacramento St. wins",
    "last_price": 0.95,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXNCAAF1H-26NOV03BALLMASS-TIE": {
    "side": "no",
@@ -57320,7 +57320,7 @@
    "group": null,
    "label": "Tie in the 1st half",
    "last_price": 0.93,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KX30YMORTW-26NOV05-T7.15": {
    "side": "yes",
@@ -57371,8 +57371,8 @@
    "spread": 0.01,
    "group": null,
    "label": "Will it rain in Indianapolis on Nov 5, 2026?",
-   "last_price": 0.93,
-   "last_ts": 1793812526
+   "last_price": 0.94,
+   "last_ts": 1793813425
   },
   "KXWTI-26NOV0514-T92.49": {
    "side": "no",
@@ -57385,8 +57385,8 @@
    "spread": 0.01,
    "group": "Oil prices",
    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
-   "last_price": 0.87,
-   "last_ts": 1793812526
+   "last_price": 0.89,
+   "last_ts": 1793813425
   },
   "KXRAIN-26NOV05-DC": {
    "side": "yes",
@@ -57400,7 +57400,7 @@
    "group": null,
    "label": "Will it rain in Washington DC on Nov 5, 2026?",
    "last_price": 0.9,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXRAIN-26NOV05-CMH": {
    "side": "no",
@@ -57414,7 +57414,7 @@
    "group": null,
    "label": "Will it rain in Columbus on Nov 5, 2026?",
    "last_price": 0.8,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXRAIN-26NOV05-WPB": {
    "side": "no",
@@ -57428,7 +57428,7 @@
    "group": null,
    "label": "Will it rain in West Palm Beach on Nov 5, 2026?",
    "last_price": 0.95,
-   "last_ts": 1793812526
+   "last_ts": 1793813425
   },
   "KXRAIN-26NOV05-NYC": {
    "side": "yes",
@@ -57440,7 +57440,9 @@
    "vol24": 502,
    "spread": 0.02,
    "group": null,
-   "label": "Will it rain in New York City on Nov 5, 2026?"
+   "label": "Will it rain in New York City on Nov 5, 2026?",
+   "last_price": 0.8,
+   "last_ts": 1793813425
   },
   "KXRAIN-26NOV05-TPA": {
    "side": "no",
@@ -57465,6 +57467,30 @@
    "spread": 0.03,
    "group": null,
    "label": "Will it rain in Philadelphia on Nov 5, 2026?"
+  },
+  "KXRAIN-26NOV05-LEX": {
+   "side": "no",
+   "price": 0.95,
+   "series": "KXRAIN",
+   "seen_ts": 1793813425,
+   "close_ts": 1793941200.0,
+   "won": null,
+   "vol24": 250,
+   "spread": 0.03,
+   "group": null,
+   "label": "Will it rain in Lexington on Nov 5, 2026?"
+  },
+  "KXTRUMPAPPROVE-26NOV05-E38.9": {
+   "side": "no",
+   "price": 0.87,
+   "series": "KXTRUMPAPPROVE",
+   "seen_ts": 1793813425,
+   "close_ts": 1793901540.0,
+   "won": null,
+   "vol24": 228,
+   "spread": 0.03,
+   "group": "Presidential approval",
+   "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 5, 2026? \u2014 38.9%"
   }
  }
 }

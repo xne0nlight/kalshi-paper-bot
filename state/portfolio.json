@@ -277,7 +277,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.86,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -305,7 +305,7 @@
    "opened_ts": 1793725226,
    "close_ts": 1793854800.0,
    "score": 0.5611,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -461,7 +461,7 @@
    "opened_ts": 1793761224,
    "close_ts": 1793820600.0,
    "score": 0.6429,
-   "mark_price": 0.93,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1793773827,
@@ -484,7 +484,7 @@
    "opened_ts": 1793777426,
    "close_ts": 1793829600.0,
    "score": 0.6863,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   }
  ],
@@ -21363,90 +21363,95 @@
    1793786426,
    100.792,
    96.502
+  ],
+  [
+   1793788228,
+   100.792,
+   97.332
   ]
  ],
  "last_run": {
-  "ts": 1793786426,
+  "ts": 1793788228,
   "error": null,
-  "markets_scanned": 3521,
-  "candidates": 51,
+  "markets_scanned": 700,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 3048,
-   "no favorite in 80-95c band": 372,
-   "spread too wide": 48,
-   "nothing for sale at the ask": 2
+   "too little volume": 523,
+   "no favorite in 80-95c band": 144,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Nov 4, 2026? \u2014 Above $99.49",
+    "label": "Will it rain in San Francisco on Nov 4, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 9.49,
-    "volume_24h": 5780.26,
-    "score": 0.7077
+    "hours_to_close": 21.49,
+    "volume_24h": 6090.46,
+    "score": 0.6502
    },
    {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 11.99,
-    "volume_24h": 36407.32,
-    "score": 0.7067
-   },
-   {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,000 or above",
+    "label": "Will the maximum temperature be >80\u00b0 on Nov 4, 2026? \u2014 81\u00b0 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 11.99,
-    "volume_24h": 11124.58,
-    "score": 0.6967
+    "hours_to_close": 20.49,
+    "volume_24h": 3959.44,
+    "score": 0.6291
    },
    {
-    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,250 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 11.99,
-    "volume_24h": 5146.42,
-    "score": 0.6851
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 98.99 USD/Bbl on Nov 4, 2026? \u2014 Above $98.99",
+    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 4, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 9.49,
-    "volume_24h": 3900.22,
-    "score": 0.6749
+    "hours_to_close": 19.49,
+    "volume_24h": 3075.49,
+    "score": 0.614
    },
    {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,750 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 11.99,
-    "volume_24h": 24025.31,
-    "score": 0.6667
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 4, 2026? \u2014 Above $92.49",
-    "side": "yes",
+    "label": "Will the maximum temperature be 75-76\u00b0 on Nov 4, 2026? \u2014 75\u00b0 to 76\u00b0",
+    "side": "no",
     "price": 0.94,
-    "hours_to_close": 9.49,
-    "volume_24h": 954.29,
-    "score": 0.6491
+    "hours_to_close": 20.49,
+    "volume_24h": 1582.65,
+    "score": 0.6092
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 4, 2026? \u2014 Above $91.99",
+    "label": "Will it rain in Seattle on Nov 4, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 9.49,
-    "volume_24h": 698.3,
-    "score": 0.6489
+    "hours_to_close": 21.49,
+    "volume_24h": 1227.74,
+    "score": 0.6081
+   },
+   {
+    "label": "Will the maximum temperature be 69-70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 to 70\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.49,
+    "volume_24h": 1210.07,
+    "score": 0.6049
+   },
+   {
+    "label": "Will the maximum temperature be <70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 or below",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 19.49,
+    "volume_24h": 3680.76,
+    "score": 0.5998
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Nov 4, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 19.49,
+    "volume_24h": 1336.89,
+    "score": 0.5969
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

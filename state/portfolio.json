@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.842,
- "fees_paid": 9.19,
+ "cash": 13.452,
+ "fees_paid": 9.24,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 371,
+ "next_id": 373,
  "open_positions": [
   {
    "id": 284,
@@ -163,7 +163,7 @@
    "opened_ts": 1793734239,
    "close_ts": 1793862000.0,
    "score": 0.4249,
-   "mark_price": 0.38,
+   "mark_price": 0.56,
    "shadow": {
     "10": {
      "ts": 1793743226,
@@ -226,39 +226,6 @@
    }
   },
   {
-   "id": 360,
-   "ticker": "KXBTCD-26NOV0417-T74999.99",
-   "event_ticker": "KXBTCD-26NOV0417",
-   "series": "KXBTCD",
-   "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,000 or above",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1793744127,
-   "close_ts": 1793829600.0,
-   "score": 0.6404,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793760324,
-     "bid": 0.82,
-     "proceeds": 4.85
-    },
-    "15": {
-     "ts": 1793761224,
-     "bid": 0.73,
-     "proceeds": 4.29
-    },
-    "20": {
-     "ts": 1793761224,
-     "bid": 0.73,
-     "proceeds": 4.29
-    }
-   }
-  },
-  {
    "id": 361,
    "ticker": "KXHIGHTOKC-26NOV04-B66.5",
    "event_ticker": "KXHIGHTOKC-26NOV04",
@@ -297,23 +264,6 @@
      "proceeds": 4.15
     }
    }
-  },
-  {
-   "id": 363,
-   "ticker": "KXGOLDD-26NOV0417-T3948",
-   "event_ticker": "KXGOLDD-26NOV0417",
-   "series": "KXGOLDD",
-   "label": "Will the gold close price be above 3948 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3948",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793777426,
-   "close_ts": 1793829600.0,
-   "score": 0.6863,
-   "mark_price": 0.99,
-   "shadow": {}
   },
   {
    "id": 364,
@@ -432,6 +382,40 @@
    "close_ts": 1793901540.0,
    "score": 0.5581,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 371,
+   "ticker": "KXBTC-26NOV0517-B79625",
+   "event_ticker": "KXBTC-26NOV0517",
+   "series": "KXBTC",
+   "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793830525,
+   "close_ts": 1793916000.0,
+   "score": 0.6021,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 372,
+   "ticker": "KXHIGHDEN-26NOV05-B60.5",
+   "event_ticker": "KXHIGHDEN-26NOV05",
+   "series": "KXHIGHDEN",
+   "label": "Will the maximum temperature be 60-61\u00b0 on Nov 5, 2026? \u2014 60\u00b0 to 61\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793830525,
+   "close_ts": 1793952000.0,
+   "score": 0.5335,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -9478,6 +9462,64 @@
    "pnl": 0.78,
    "result": "YES",
    "closed_ts": 1793829627,
+   "won": true
+  },
+  {
+   "id": 360,
+   "ticker": "KXBTCD-26NOV0417-T74999.99",
+   "event_ticker": "KXBTCD-26NOV0417",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,000 or above",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793744127,
+   "close_ts": 1793829600.0,
+   "score": 0.6404,
+   "shadow": {
+    "10": {
+     "ts": 1793760324,
+     "bid": 0.82,
+     "proceeds": 4.85
+    },
+    "15": {
+     "ts": 1793761224,
+     "bid": 0.73,
+     "proceeds": 4.29
+    },
+    "20": {
+     "ts": 1793761224,
+     "bid": 0.73,
+     "proceeds": 4.29
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "YES",
+   "closed_ts": 1793830525,
+   "won": true
+  },
+  {
+   "id": 363,
+   "ticker": "KXGOLDD-26NOV0417-T3948",
+   "event_ticker": "KXGOLDD-26NOV0417",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 3948 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3948",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793777426,
+   "close_ts": 1793829600.0,
+   "score": 0.6863,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793830525,
    "won": true
   }
  ],
@@ -21756,24 +21798,31 @@
    1793829627,
    99.172,
    98.882
+  ],
+  [
+   1793830525,
+   99.842,
+   99.382
   ]
  ],
  "last_run": {
-  "ts": 1793829627,
+  "ts": 1793830525,
   "error": null,
   "markets_scanned": 4113,
-  "candidates": 40,
+  "candidates": 46,
   "rejections": {
-   "too little volume": 3943,
-   "no favorite in 80-95c band": 117,
-   "spread too wide": 12,
-   "nothing for sale at the ask": 1
+   "too little volume": 3921,
+   "no favorite in 80-95c band": 128,
+   "spread too wide": 16,
+   "nothing for sale at the ask": 2
   },
   "opened": [
-   370
+   371,
+   372
   ],
   "settled": [
-   354
+   360,
+   363
   ],
   "halt": null,
   "top_candidates": [
@@ -21781,72 +21830,73 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 49326.55,
-    "score": 0.6656
+    "hours_to_close": 25.74,
+    "volume_24h": 49662.39,
+    "score": 0.6662
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 606352.77,
-    "score": 0.6656
+    "hours_to_close": 25.74,
+    "volume_24h": 670902.73,
+    "score": 0.6662
+   },
+   {
+    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 1656.45,
+    "score": 0.6021
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 2190.3,
-    "score": 0.5962
+    "hours_to_close": 25.74,
+    "volume_24h": 2394.37,
+    "score": 0.5996
    },
    {
     "label": "Will it rain in St. Louis on Nov 5, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 2200.13,
-    "score": 0.596
+    "score": 0.5963
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
-    "volume_24h": 1454.43,
-    "score": 0.5925
+    "hours_to_close": 31.74,
+    "volume_24h": 1496.43,
+    "score": 0.5938
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 25.99,
-    "volume_24h": 1724.99,
-    "score": 0.5884
+    "price": 0.92,
+    "hours_to_close": 25.74,
+    "volume_24h": 2242.52,
+    "score": 0.5875
    },
    {
     "label": "Will it rain in San Antonio on Nov 5, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 1017.98,
-    "score": 0.5809
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 5, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 19.98,
-    "volume_24h": 579.16,
-    "score": 0.5581
+    "score": 0.5813
    }
   ],
   "skipped": {
-   "series cap": 1
+   "series cap": 1,
+   "related-market cap (Crypto)": 3
   },
-  "watch_added": 6,
-  "watch_graded": 7,
+  "watch_added": 12,
+  "watch_graded": 76,
   "api_calls": 45
  },
  "shadow_since": 1791904549,

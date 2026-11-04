@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.282,
+ "cash": 11.282,
  "fees_paid": 9.13,
  "peak_equity": 109.65,
  "day": "2026-11-04",
@@ -116,23 +116,6 @@
    }
   },
   {
-   "id": 353,
-   "ticker": "KXCBDPOLAND-26NOV04-H25",
-   "event_ticker": "KXCBDPOLAND-26NOV04",
-   "series": "KXCBDPOLAND",
-   "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.9,
-   "fee": 0.01,
-   "cost": 0.91,
-   "opened_ts": 1793708126,
-   "close_ts": 1793800740.0,
-   "score": 0.5261,
-   "mark_price": 0.86,
-   "shadow": {}
-  },
-  {
    "id": 354,
    "ticker": "KXCBDECISIONBRAZIL-26NOV04-HOLD",
    "event_ticker": "KXCBDECISIONBRAZIL-26NOV04",
@@ -146,7 +129,7 @@
    "opened_ts": 1793717135,
    "close_ts": 1793831340.0,
    "score": 0.4064,
-   "mark_price": 0.83,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793737825,
@@ -263,7 +246,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.59,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793801725,
@@ -9415,6 +9398,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1793798126,
+   "won": true
+  },
+  {
+   "id": 353,
+   "ticker": "KXCBDPOLAND-26NOV04-H25",
+   "event_ticker": "KXCBDPOLAND-26NOV04",
+   "series": "KXCBDPOLAND",
+   "label": "Will the Narodowy Bank Polski hike 1-25bps at the November Monetary Policy Council meeting? \u2014 Hike 1-25bps",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.9,
+   "fee": 0.01,
+   "cost": 0.91,
+   "opened_ts": 1793708126,
+   "close_ts": 1793800740.0,
+   "score": 0.5261,
+   "shadow": {},
+   "payout": 1.0,
+   "pnl": 0.09,
+   "result": "NO",
+   "closed_ts": 1793802625,
    "won": true
   }
  ],
@@ -21538,68 +21542,73 @@
    1793801725,
    98.262,
    95.462
+  ],
+  [
+   1793802625,
+   98.352,
+   96.002
   ]
  ],
  "last_run": {
-  "ts": 1793801725,
+  "ts": 1793802625,
   "error": null,
   "markets_scanned": 376,
   "candidates": 5,
   "rejections": {
-   "too little volume": 341,
-   "no favorite in 80-95c band": 25,
-   "spread too wide": 5
+   "too little volume": 340,
+   "no favorite in 80-95c band": 27,
+   "spread too wide": 4
   },
-  "opened": [
-   367
+  "opened": [],
+  "settled": [
+   353
   ],
-  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 21991.88,
-    "score": 0.6528
-   },
-   {
-    "label": "Sacramento St. wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 282951.56,
-    "score": 0.6528
+    "hours_to_close": 33.49,
+    "volume_24h": 22008.65,
+    "score": 0.6532
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.73,
+    "hours_to_close": 26.48,
     "volume_24h": 605.45,
-    "score": 0.5729
+    "score": 0.5734
+   },
+   {
+    "label": "Sacramento St. wins the 1st half",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 33.49,
+    "volume_24h": 549.02,
+    "score": 0.5287
    },
    {
     "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 226.9,
-    "score": 0.4997
+    "score": 0.5
    },
    {
-    "label": "Sacramento St. wins the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.74,
-    "volume_24h": 549.02,
-    "score": 0.4884
+    "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.15%? \u2014 Above 7.15%",
+    "side": "yes",
+    "price": 0.83,
+    "hours_to_close": 26.48,
+    "volume_24h": 621.79,
+    "score": 0.3542
    }
   ],
   "skipped": {},
   "watch_added": 1,
-  "watch_graded": 3,
+  "watch_graded": 2,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

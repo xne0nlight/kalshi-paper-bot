@@ -108,7 +108,7 @@
    "opened_ts": 1793638826,
    "close_ts": 1793768400.0,
    "score": 0.5196,
-   "mark_price": 0.9,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793661325,
@@ -356,7 +356,7 @@
    "opened_ts": 1793732438,
    "close_ts": 1793862000.0,
    "score": 0.5296,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -411,7 +411,7 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.93,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -428,7 +428,7 @@
    "opened_ts": 1793744127,
    "close_ts": 1793829600.0,
    "score": 0.6404,
-   "mark_price": 0.68,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1793760324,
@@ -478,7 +478,7 @@
    "opened_ts": 1793761224,
    "close_ts": 1793820600.0,
    "score": 0.6429,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -21201,17 +21201,22 @@
    1793762124,
    100.45,
    94.298
+  ],
+  [
+   1793763026,
+   100.45,
+   94.858
   ]
  ],
  "last_run": {
-  "ts": 1793762124,
+  "ts": 1793763026,
   "error": null,
-  "markets_scanned": 4085,
-  "candidates": 61,
+  "markets_scanned": 4145,
+  "candidates": 67,
   "rejections": {
-   "too little volume": 3749,
-   "no favorite in 80-95c band": 253,
-   "spread too wide": 21,
+   "too little volume": 3806,
+   "no favorite in 80-95c band": 252,
+   "spread too wide": 19,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -21219,72 +21224,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $72,750 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 6251.93,
-    "score": 0.6696
-   },
-   {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $73,000 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 8182.61,
-    "score": 0.6683
-   },
-   {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.74,
-    "volume_24h": 18598.89,
-    "score": 0.6649
-   },
-   {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $78,750 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 6903.02,
-    "score": 0.6628
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 4, 2026? \u2014 Above $99.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.24,
-    "volume_24h": 3590.72,
-    "score": 0.6611
-   },
-   {
-    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,330 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 5410.29,
-    "score": 0.6549
-   },
-   {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $73,250 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 18.74,
-    "volume_24h": 9424.33,
-    "score": 0.6529
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 10414.23,
+    "score": 0.6857
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.49,
+    "volume_24h": 7610.5,
+    "score": 0.6768
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $73,500 or above",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 18.74,
-    "volume_24h": 13179.29,
-    "score": 0.6349
+    "price": 0.94,
+    "hours_to_close": 18.49,
+    "volume_24h": 13482.0,
+    "score": 0.6757
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $78,500 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 18.49,
+    "volume_24h": 18641.89,
+    "score": 0.6557
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $73,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 18.49,
+    "volume_24h": 11044.78,
+    "score": 0.6557
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $78,750 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 6972.02,
+    "score": 0.654
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 4, 2026? \u2014 Above $99.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 3590.72,
+    "score": 0.6521
+   },
+   {
+    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,330 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 5783.9,
+    "score": 0.6479
    }
   ],
   "skipped": {},
-  "watch_added": 6,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

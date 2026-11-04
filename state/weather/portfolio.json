@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 67.1717,
+ "cash": 69.6717,
  "fees_paid": 0.0,
  "next_id": 2095,
  "orders": [],
@@ -46,25 +46,6 @@
    "avg_price": 0.81
   },
   {
-   "ticker": "KXHIGHDEN-26NOV03-T55",
-   "event_ticker": "KXHIGHDEN-26NOV03",
-   "series": "KXHIGHDEN",
-   "kind": "high",
-   "code": "DEN",
-   "date": "2026-11-03",
-   "label": "DEN high \u226454\u00b0 11-03",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1793779200.0,
-   "q_model": 0.6985,
-   "id": 1793,
-   "contracts": 1.0,
-   "cost": 0.25,
-   "opened_ts": 1793636125,
-   "mark_price": 0.22,
-   "avg_price": 0.25
-  },
-  {
    "ticker": "KXHIGHTLV-26NOV03-T66",
    "event_ticker": "KXHIGHTLV-26NOV03",
    "series": "KXHIGHTLV",
@@ -101,25 +82,6 @@
    "opened_ts": 1793661325,
    "mark_price": 0.01,
    "avg_price": 0.32
-  },
-  {
-   "ticker": "KXHIGHDEN-26NOV03-B59.5",
-   "event_ticker": "KXHIGHDEN-26NOV03",
-   "series": "KXHIGHDEN",
-   "kind": "high",
-   "code": "DEN",
-   "date": "2026-11-03",
-   "label": "DEN high 59\u201360\u00b0 11-03",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1793779200.0,
-   "q_model": 0.996,
-   "id": 1846,
-   "contracts": 2.5,
-   "cost": 2.425,
-   "opened_ts": 1793661325,
-   "mark_price": 0.99,
-   "avg_price": 0.97
   },
   {
    "ticker": "KXHIGHTLV-26NOV03-B68.5",
@@ -194,7 +156,7 @@
    "contracts": 1.0,
    "cost": 0.84,
    "opened_ts": 1793722526,
-   "mark_price": 0.75,
+   "mark_price": 0.73,
    "avg_price": 0.84
   },
   {
@@ -251,7 +213,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793736927,
-   "mark_price": 0.2,
+   "mark_price": 0.21,
    "avg_price": 0.08
   },
   {
@@ -365,7 +327,7 @@
    "contracts": 1.0,
    "cost": 0.95,
    "opened_ts": 1793759426,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "avg_price": 0.95
   },
   {
@@ -384,7 +346,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793760324,
-   "mark_price": 0.18,
+   "mark_price": 0.2,
    "avg_price": 0.08
   },
   {
@@ -441,7 +403,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1793767525,
-   "mark_price": 0.39,
+   "mark_price": 0.44,
    "avg_price": 0.37
   },
   {
@@ -517,7 +479,7 @@
    "contracts": 1.43,
    "cost": 0.5577,
    "opened_ts": 1793780126,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "avg_price": 0.39
   },
   {
@@ -593,7 +555,7 @@
    "contracts": 1.0,
    "cost": 0.1,
    "opened_ts": 1793788228,
-   "mark_price": 0.06,
+   "mark_price": 0.01,
    "avg_price": 0.1
   }
  ],
@@ -7267,6 +7229,52 @@
    "result": "YES",
    "closed_ts": 1793798126,
    "won": false
+  },
+  {
+   "ticker": "KXHIGHDEN-26NOV03-T55",
+   "event_ticker": "KXHIGHDEN-26NOV03",
+   "series": "KXHIGHDEN",
+   "kind": "high",
+   "code": "DEN",
+   "date": "2026-11-03",
+   "label": "DEN high \u226454\u00b0 11-03",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793779200.0,
+   "q_model": 0.6985,
+   "id": 1793,
+   "contracts": 1.0,
+   "cost": 0.25,
+   "opened_ts": 1793636125,
+   "avg_price": 0.25,
+   "payout": 0.0,
+   "pnl": -0.25,
+   "result": "NO",
+   "closed_ts": 1793801725,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHDEN-26NOV03-B59.5",
+   "event_ticker": "KXHIGHDEN-26NOV03",
+   "series": "KXHIGHDEN",
+   "kind": "high",
+   "code": "DEN",
+   "date": "2026-11-03",
+   "label": "DEN high 59\u201360\u00b0 11-03",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1793779200.0,
+   "q_model": 0.996,
+   "id": 1846,
+   "contracts": 2.5,
+   "cost": 2.425,
+   "opened_ts": 1793661325,
+   "avg_price": 0.97,
+   "payout": 2.5,
+   "pnl": 0.075,
+   "result": "NO",
+   "closed_ts": 1793801725,
+   "won": true
   }
  ],
  "equity_history": [
@@ -14199,6 +14207,11 @@
    1793800825,
    129.1875,
    131.4099
+  ],
+  [
+   1793801725,
+   129.0125,
+   131.2635
   ]
  ],
  "forecast_log": {
@@ -18981,114 +18994,6 @@
     "kind": "low",
     "close_ts": 1793779200.0
    },
-   "KXHIGHDEN-26NOV03-T62": {
-    "q": 2.8432908343534062e-08,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXHIGHDEN-26NOV03-T55": {
-    "q": 0.8630248246280328,
-    "mkt": 0.53,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXHIGHDEN-26NOV03-B61.5": {
-    "q": 1.0760998269904017e-05,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXHIGHDEN-26NOV03-B59.5": {
-    "q": 0.000892040749800127,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXHIGHDEN-26NOV03-B57.5": {
-    "q": 0.018439214630629582,
-    "mkt": 0.060000000000000005,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXHIGHDEN-26NOV03-B55.5": {
-    "q": 0.11763313056036016,
-    "mkt": 0.43,
-    "kind": "high",
-    "close_ts": 1793779200.0
-   },
-   "KXLOWTPHX-26NOV03-T57": {
-    "q": 0.36489269902788085,
-    "mkt": 0.595,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXLOWTPHX-26NOV03-T50": {
-    "q": 1.464990374474269e-05,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXLOWTPHX-26NOV03-B56.5": {
-    "q": 0.26273258382179215,
-    "mkt": 0.375,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXLOWTPHX-26NOV03-B54.5": {
-    "q": 0.3414113861443152,
-    "mkt": 0.055,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXLOWTPHX-26NOV03-B52.5": {
-    "q": 0.03043147089561672,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXLOWTPHX-26NOV03-B50.5": {
-    "q": 0.0005172102066512681,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-T79": {
-    "q": 0.30251248500843103,
-    "mkt": 0.315,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-T72": {
-    "q": 0.0005631380682401201,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-B78.5": {
-    "q": 0.3385642983724711,
-    "mkt": 0.535,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-B76.5": {
-    "q": 0.2595463753276987,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-B74.5": {
-    "q": 0.08733403167789068,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
-   "KXHIGHTPHX-26NOV03-B72.5": {
-    "q": 0.011479671545269342,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1793775600.0
-   },
    "KXLOWTNYC-26NOV03-T53": {
     "q": 0.2547460863234646,
     "mkt": 0.015,
@@ -20856,28 +20761,37 @@
   },
   "totals": {
    "all": {
-    "n": 3924,
-    "model": 527.6315622694035,
-    "market": 373.5943999999972
+    "n": 3942,
+    "model": 530.3492986261734,
+    "market": 374.8357999999971
    },
    "low": {
-    "n": 1956,
-    "model": 277.09584209813335,
-    "market": 194.79144999999954
+    "n": 1962,
+    "model": 277.685719869214,
+    "market": 195.09954999999957
    },
    "high": {
-    "n": 1968,
-    "model": 250.53572017127135,
-    "market": 178.80294999999902
+    "n": 1980,
+    "model": 252.66357875696062,
+    "market": 179.73624999999905
    }
   }
  },
  "last_run": {
-  "ts": 1793800825,
+  "ts": 1793801725,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [],
+  "settled": [
+   {
+    "ticker": "KXHIGHDEN-26NOV03-T55",
+    "pnl": -0.25
+   },
+   {
+    "ticker": "KXHIGHDEN-26NOV03-B59.5",
+    "pnl": 0.075
+   }
+  ],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -20885,7 +20799,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 29.1
+  "seconds": 31.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

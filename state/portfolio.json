@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 15.842,
- "fees_paid": 9.09,
+ "cash": 10.282,
+ "fees_paid": 9.13,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 367,
+ "next_id": 368,
  "open_positions": [
   {
    "id": 284,
@@ -263,8 +263,29 @@
    "opened_ts": 1793739629,
    "close_ts": 1793858400.0,
    "score": 0.5292,
-   "mark_price": 0.9,
-   "shadow": {}
+   "mark_price": 0.59,
+   "shadow": {
+    "10": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "15": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "20": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "30": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    }
+   }
   },
   {
    "id": 360,
@@ -280,7 +301,7 @@
    "opened_ts": 1793744127,
    "close_ts": 1793829600.0,
    "score": 0.6404,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793760324,
@@ -330,7 +351,7 @@
    "opened_ts": 1793761224,
    "close_ts": 1793820600.0,
    "score": 0.6429,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793773827,
@@ -404,6 +425,23 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 367,
+   "ticker": "KXNCAAF1H-26NOV03BALLMASS-TIE",
+   "event_ticker": "KXNCAAF1H-26NOV03BALLMASS",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793801725,
+   "close_ts": 1793923200.0,
+   "score": 0.4997,
    "mark_price": 0.91,
    "shadow": {}
   }
@@ -21495,19 +21533,26 @@
    1793800825,
    98.262,
    97.002
+  ],
+  [
+   1793801725,
+   98.262,
+   95.462
   ]
  ],
  "last_run": {
-  "ts": 1793800825,
+  "ts": 1793801725,
   "error": null,
   "markets_scanned": 376,
-  "candidates": 4,
+  "candidates": 5,
   "rejections": {
    "too little volume": 341,
-   "no favorite in 80-95c band": 27,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 25,
+   "spread too wide": 5
   },
-  "opened": [],
+  "opened": [
+   367
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -21515,38 +21560,46 @@
     "label": "Toledo wins",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 21956.85,
-    "score": 0.6525
+    "hours_to_close": 33.74,
+    "volume_24h": 21991.88,
+    "score": 0.6528
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 269928.4,
-    "score": 0.6525
+    "hours_to_close": 33.74,
+    "volume_24h": 282951.56,
+    "score": 0.6528
    },
    {
     "label": "Will the average U.S. 30-year fixed-rate mortgage rate for Nov 5, 2026 be above 7.18%? \u2014 Above 7.18%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 26.98,
+    "hours_to_close": 26.73,
     "volume_24h": 605.45,
-    "score": 0.5724
+    "score": 0.5729
+   },
+   {
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 33.74,
+    "volume_24h": 226.9,
+    "score": 0.4997
    },
    {
     "label": "Sacramento St. wins the 1st half",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 549.02,
-    "score": 0.488
+    "score": 0.4884
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

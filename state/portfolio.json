@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.872,
- "fees_paid": 9.02,
+ "cash": 11.152,
+ "fees_paid": 9.04,
  "peak_equity": 109.65,
  "day": "2026-11-04",
  "day_start_equity": 100.16,
- "next_id": 363,
+ "next_id": 364,
  "open_positions": [
   {
    "id": 284,
@@ -75,23 +75,6 @@
    "close_ts": 1793714400.0,
    "score": 0.5428,
    "mark_price": 0.96,
-   "shadow": {}
-  },
-  {
-   "id": 343,
-   "ticker": "KXELECTIONEMERGENCY-26NOV04",
-   "event_ticker": "KXELECTIONEMERGENCY",
-   "series": "KXELECTIONEMERGENCY",
-   "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.938,
-   "fee": 0.03,
-   "cost": 5.658,
-   "opened_ts": 1793638826,
-   "close_ts": 1793768340.0,
-   "score": 0.563,
-   "mark_price": 0.978,
    "shadow": {}
   },
   {
@@ -322,7 +305,7 @@
    "opened_ts": 1793725226,
    "close_ts": 1793854800.0,
    "score": 0.5611,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -428,7 +411,7 @@
    "opened_ts": 1793744127,
    "close_ts": 1793829600.0,
    "score": 0.6404,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793760324,
@@ -486,6 +469,23 @@
      "proceeds": 4.15
     }
    }
+  },
+  {
+   "id": 363,
+   "ticker": "KXGOLDD-26NOV0417-T3948",
+   "event_ticker": "KXGOLDD-26NOV0417",
+   "series": "KXGOLDD",
+   "label": "Will the gold close price be above 3948 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3948",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793777426,
+   "close_ts": 1793829600.0,
+   "score": 0.6863,
+   "mark_price": 0.94,
+   "shadow": {}
   }
  ],
  "closed_positions": [
@@ -9289,6 +9289,27 @@
    "pnl": 0.29,
    "result": "YES",
    "closed_ts": 1793761224,
+   "won": true
+  },
+  {
+   "id": 343,
+   "ticker": "KXELECTIONEMERGENCY-26NOV04",
+   "event_ticker": "KXELECTIONEMERGENCY",
+   "series": "KXELECTIONEMERGENCY",
+   "label": "Will Donald Trump issue any executive action on declaring a national emergency regarding the 2026 United States midterm election before Nov 4, 2026? \u2014 Before Nov 4, 2026",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.938,
+   "fee": 0.03,
+   "cost": 5.658,
+   "opened_ts": 1793638826,
+   "close_ts": 1793768340.0,
+   "score": 0.563,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.342,
+   "result": "NO",
+   "closed_ts": 1793777426,
    "won": true
   }
  ],
@@ -21287,91 +21308,100 @@
    1793776526,
    100.45,
    95.43
+  ],
+  [
+   1793777426,
+   100.792,
+   95.602
   ]
  ],
  "last_run": {
-  "ts": 1793776526,
+  "ts": 1793777426,
   "error": null,
-  "markets_scanned": 3751,
-  "candidates": 60,
+  "markets_scanned": 3781,
+  "candidates": 61,
   "rejections": {
-   "too little volume": 3331,
-   "no favorite in 80-95c band": 324,
-   "spread too wide": 33,
-   "nothing for sale at the ask": 3
+   "too little volume": 3356,
+   "no favorite in 80-95c band": 328,
+   "spread too wide": 32,
+   "nothing for sale at the ask": 4
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   363
+  ],
+  "settled": [
+   343
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $75,500 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.74,
-    "volume_24h": 14707.09,
-    "score": 0.6812
-   },
-   {
-    "label": "Ethereum price at Nov 4, 2026 at 5pm EST? \u2014 $2,210 or above",
-    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 4861.6,
-    "score": 0.6778
+    "hours_to_close": 14.49,
+    "volume_24h": 14708.34,
+    "score": 0.7025
    },
    {
     "label": "Will the gold close price be above 3948 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3948",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 14.74,
-    "volume_24h": 4154.73,
-    "score": 0.6626
+    "price": 0.95,
+    "hours_to_close": 14.49,
+    "volume_24h": 6077.14,
+    "score": 0.6863
+   },
+   {
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,000 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 14.49,
+    "volume_24h": 35487.6,
+    "score": 0.6825
+   },
+   {
+    "label": "Will the gold close price be above 3958 USD/t.oz on November 04, 2026 at 5:00 PM EST? \u2014 Above $3958",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 14.49,
+    "volume_24h": 6365.97,
+    "score": 0.6678
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 100.99 USD/Bbl on Nov 4, 2026? \u2014 Above $100.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 11.99,
+    "volume_24h": 2180.82,
+    "score": 0.6671
    },
    {
     "label": "Will the maximum temperature be 69-70\u00b0 on Nov 4, 2026? \u2014 69\u00b0 to 70\u00b0",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 7668.23,
-    "score": 0.662
+    "hours_to_close": 23.49,
+    "volume_24h": 7680.11,
+    "score": 0.6626
    },
    {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,000 or above",
+    "label": "Bitcoin price on Nov 4, 2026? \u2014 $76,250 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 14.74,
-    "volume_24h": 35487.6,
-    "score": 0.6612
+    "hours_to_close": 14.49,
+    "volume_24h": 17826.57,
+    "score": 0.6625
    },
    {
     "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,500 or above",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 2798.44,
-    "score": 0.6598
-   },
-   {
-    "label": "Bitcoin price on Nov 4, 2026? \u2014 $80,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 14.74,
-    "volume_24h": 6756.18,
-    "score": 0.6485
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 99.99 USD/Bbl on Nov 4, 2026? \u2014 Above $99.99",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 12.24,
-    "volume_24h": 3930.36,
-    "score": 0.6447
+    "price": 0.94,
+    "hours_to_close": 14.49,
+    "volume_24h": 2820.8,
+    "score": 0.6513
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 1,
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

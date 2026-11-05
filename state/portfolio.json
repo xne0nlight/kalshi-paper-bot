@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.362,
- "fees_paid": 9.32,
+ "cash": 10.752,
+ "fees_paid": 9.35,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 376,
+ "next_id": 377,
  "open_positions": [
   {
    "id": 284,
@@ -228,39 +228,6 @@
    }
   },
   {
-   "id": 364,
-   "ticker": "KXNCAAFGAME-26NOV03TOLSAC-TOL",
-   "event_ticker": "KXNCAAFGAME-26NOV03TOLSAC",
-   "series": "KXNCAAFGAME",
-   "label": "Toledo wins",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793793626,
-   "close_ts": 1793923200.0,
-   "score": 0.65,
-   "mark_price": 0.92,
-   "shadow": {
-    "10": {
-     "ts": 1793840426,
-     "bid": 0.84,
-     "proceeds": 4.98
-    },
-    "15": {
-     "ts": 1793841324,
-     "bid": 0.78,
-     "proceeds": 4.6
-    },
-    "20": {
-     "ts": 1793842225,
-     "bid": 0.72,
-     "proceeds": 4.23
-    }
-   }
-  },
-  {
    "id": 365,
    "ticker": "KX30YMORTW-26NOV05-T7.18",
    "event_ticker": "KX30YMORTW-26NOV05",
@@ -274,7 +241,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -411,6 +378,23 @@
    "close_ts": 1793971740.0,
    "score": 0.589,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 376,
+   "ticker": "KXHIGHLAX-26NOV05-B75.5",
+   "event_ticker": "KXHIGHLAX-26NOV05",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793849425,
+   "close_ts": 1793955600.0,
+   "score": 0.6145,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -9636,6 +9620,43 @@
    "pnl": 0.44,
    "result": "NO",
    "closed_ts": 1793843126,
+   "won": true
+  },
+  {
+   "id": 364,
+   "ticker": "KXNCAAFGAME-26NOV03TOLSAC-TOL",
+   "event_ticker": "KXNCAAFGAME-26NOV03TOLSAC",
+   "series": "KXNCAAFGAME",
+   "label": "Toledo wins",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793793626,
+   "close_ts": 1793923200.0,
+   "score": 0.65,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.84,
+     "proceeds": 4.98
+    },
+    "15": {
+     "ts": 1793841324,
+     "bid": 0.78,
+     "proceeds": 4.6
+    },
+    "20": {
+     "ts": 1793842225,
+     "bid": 0.72,
+     "proceeds": 4.23
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793849425,
    "won": true
   }
  ],
@@ -22019,89 +22040,101 @@
    1793848525,
    98.642,
    99.422
+  ],
+  [
+   1793849425,
+   98.922,
+   99.752
   ]
  ],
  "last_run": {
-  "ts": 1793848525,
+  "ts": 1793849425,
   "error": null,
-  "markets_scanned": 3821,
-  "candidates": 83,
+  "markets_scanned": 3879,
+  "candidates": 78,
   "rejections": {
-   "too little volume": 3324,
-   "no favorite in 80-95c band": 376,
-   "spread too wide": 34,
-   "nothing for sale at the ask": 4
+   "too little volume": 3383,
+   "no favorite in 80-95c band": 379,
+   "spread too wide": 36,
+   "nothing for sale at the ask": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   376
+  ],
+  "settled": [
+   364
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.24,
-    "volume_24h": 5037.09,
-    "score": 0.6721
-   },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.74,
-    "volume_24h": 16627.3,
-    "score": 0.6649
-   },
-   {
-    "label": "Toledo wins",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 20.74,
-    "volume_24h": 2075126.53,
-    "score": 0.6485
-   },
-   {
-    "label": "Sacramento St. wins",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.74,
-    "volume_24h": 9264539.75,
-    "score": 0.6485
-   },
-   {
-    "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 17.73,
-    "volume_24h": 28299.0,
-    "score": 0.6485
+    "hours_to_close": 18.49,
+    "volume_24h": 17220.94,
+    "score": 0.6657
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.74,
+    "price": 0.95,
+    "hours_to_close": 18.49,
     "volume_24h": 3564.99,
-    "score": 0.6413
+    "score": 0.6522
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 18.74,
+    "price": 0.93,
+    "hours_to_close": 18.49,
     "volume_24h": 4715.49,
-    "score": 0.6304
+    "score": 0.6413
+   },
+   {
+    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 18.49,
+    "volume_24h": 2935.58,
+    "score": 0.6358
    },
    {
     "label": "Dow Jones price: At least 52,700 November 5, 2026 at 4pm ET \u2014 At least $52,700",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 17.73,
+    "hours_to_close": 17.48,
     "volume_24h": 21565.0,
-    "score": 0.6285
+    "score": 0.6295
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Nov 5, 2026? \u2014 Above $91.49",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 15.99,
+    "volume_24h": 1762.58,
+    "score": 0.629
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Nov 5, 2026? \u2014 Above $90.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 15.99,
+    "volume_24h": 2505.79,
+    "score": 0.6204
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Nov 5, 2026? \u2014 Above $90.49",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 15.99,
+    "volume_24h": 3399.23,
+    "score": 0.6203
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 3,
+   "related-market cap (Oil prices)": 4
+  },
   "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42

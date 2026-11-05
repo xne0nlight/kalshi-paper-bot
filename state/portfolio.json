@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 12.732,
- "fees_paid": 9.26,
+ "cash": 10.032,
+ "fees_paid": 9.29,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 374,
+ "next_id": 375,
  "open_positions": [
   {
    "id": 284,
@@ -241,7 +241,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.78,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1793840426,
@@ -252,6 +252,11 @@
      "ts": 1793841324,
      "bid": 0.78,
      "proceeds": 4.6
+    },
+    "20": {
+     "ts": 1793842225,
+     "bid": 0.72,
+     "proceeds": 4.23
     }
    }
   },
@@ -273,44 +278,6 @@
    "shadow": {}
   },
   {
-   "id": 366,
-   "ticker": "KXNCAAF1H-26NOV03TOLSAC-SAC",
-   "event_ticker": "KXNCAAF1H-26NOV03TOLSAC",
-   "series": "KXNCAAF1H",
-   "label": "Sacramento St. wins the 1st half",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 1.87,
-   "opened_ts": 1793794525,
-   "close_ts": 1793923200.0,
-   "score": 0.4858,
-   "mark_price": 0.4,
-   "shadow": {
-    "10": {
-     "ts": 1793840426,
-     "bid": 0.71,
-     "proceeds": 1.39
-    },
-    "15": {
-     "ts": 1793840426,
-     "bid": 0.71,
-     "proceeds": 1.39
-    },
-    "20": {
-     "ts": 1793840426,
-     "bid": 0.71,
-     "proceeds": 1.39
-    },
-    "30": {
-     "ts": 1793841324,
-     "bid": 0.4,
-     "proceeds": 0.76
-    }
-   }
-  },
-  {
    "id": 367,
    "ticker": "KXNCAAF1H-26NOV03BALLMASS-TIE",
    "event_ticker": "KXNCAAF1H-26NOV03BALLMASS",
@@ -324,7 +291,7 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.64,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1793840426,
@@ -391,7 +358,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -442,7 +409,24 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
+   "shadow": {}
+  },
+  {
+   "id": 374,
+   "ticker": "KXNCAAFGAME-26NOV03CMUEMU-EMU",
+   "event_ticker": "KXNCAAFGAME-26NOV03CMUEMU",
+   "series": "KXNCAAFGAME",
+   "label": "Eastern Michigan wins",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.89,
+   "fee": 0.03,
+   "cost": 2.7,
+   "opened_ts": 1793842225,
+   "close_ts": 1793923200.0,
+   "score": 0.6137,
+   "mark_price": 0.88,
    "shadow": {}
   }
  ],
@@ -9590,6 +9574,48 @@
    "result": "YES",
    "closed_ts": 1793838626,
    "won": true
+  },
+  {
+   "id": 366,
+   "ticker": "KXNCAAF1H-26NOV03TOLSAC-SAC",
+   "event_ticker": "KXNCAAF1H-26NOV03TOLSAC",
+   "series": "KXNCAAF1H",
+   "label": "Sacramento St. wins the 1st half",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793794525,
+   "close_ts": 1793923200.0,
+   "score": 0.4858,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    },
+    "15": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    },
+    "20": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    },
+    "30": {
+     "ts": 1793841324,
+     "bid": 0.4,
+     "proceeds": 0.76
+    }
+   },
+   "payout": 0.0,
+   "pnl": -1.87,
+   "result": "YES",
+   "closed_ts": 1793842225,
+   "won": false
   }
  ],
  "equity_history": [
@@ -21932,90 +21958,102 @@
    1793841324,
    100.072,
    97.042
+  ],
+  [
+   1793842225,
+   98.202,
+   97.022
   ]
  ],
  "last_run": {
-  "ts": 1793841324,
+  "ts": 1793842225,
   "error": null,
-  "markets_scanned": 4141,
-  "candidates": 70,
+  "markets_scanned": 3901,
+  "candidates": 69,
   "rejections": {
-   "too little volume": 3677,
-   "no favorite in 80-95c band": 366,
-   "spread too wide": 24,
-   "nothing for sale at the ask": 4
+   "too little volume": 3411,
+   "no favorite in 80-95c band": 382,
+   "spread too wide": 38,
+   "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   374
+  ],
+  "settled": [
+   366
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.74,
-    "volume_24h": 5807.76,
-    "score": 0.6608
+    "hours_to_close": 20.49,
+    "volume_24h": 5808.06,
+    "score": 0.6616
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 9261.73,
-    "score": 0.656
+    "score": 0.6568
    },
    {
     "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.24,
-    "volume_24h": 4823.09,
-    "score": 0.6429
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.24,
-    "volume_24h": 2591.99,
-    "score": 0.6427
-   },
-   {
-    "label": "Eastern Michigan wins the 1st half",
-    "side": "no",
     "price": 0.94,
-    "hours_to_close": 22.74,
-    "volume_24h": 3753.94,
-    "score": 0.6312
+    "hours_to_close": 17.99,
+    "volume_24h": 4823.09,
+    "score": 0.6538
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.74,
-    "volume_24h": 3923.91,
-    "score": 0.6281
+    "hours_to_close": 20.49,
+    "volume_24h": 3959.24,
+    "score": 0.6291
    },
    {
     "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 2835.68,
-    "score": 0.6275
+    "score": 0.6282
+   },
+   {
+    "label": "Will Trump's RCP approval average be below 38.8 on Nov 5, 2026? \u2014 Below 38.8%",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 16.48,
+    "volume_24h": 3048.7,
+    "score": 0.6148
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.74,
-    "volume_24h": 2396.58,
-    "score": 0.6139
+    "hours_to_close": 28.49,
+    "volume_24h": 2412.21,
+    "score": 0.6146
+   },
+   {
+    "label": "Eastern Michigan wins",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 22.49,
+    "volume_24h": 610700.96,
+    "score": 0.6137
    }
   ],
-  "skipped": {},
-  "watch_added": 9,
+  "skipped": {
+   "related-market cap (Crypto)": 3,
+   "related-market cap (Oil prices)": 1
+  },
+  "watch_added": 10,
   "watch_graded": 0,
   "api_calls": 42
  },

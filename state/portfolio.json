@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.972,
- "fees_paid": 9.37,
+ "cash": 10.092,
+ "fees_paid": 9.45,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 378,
+ "next_id": 380,
  "open_positions": [
   {
    "id": 284,
@@ -78,23 +78,6 @@
    "shadow": {}
   },
   {
-   "id": 355,
-   "ticker": "KXRAIN-26NOV04-DTW",
-   "event_ticker": "KXRAIN-26NOV04",
-   "series": "KXRAIN",
-   "label": "Will it rain in Detroit on Nov 4, 2026?",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793725226,
-   "close_ts": 1793854800.0,
-   "score": 0.5611,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 357,
    "ticker": "KXHIGHCHI-26NOV04-B63.5",
    "event_ticker": "KXHIGHCHI-26NOV04",
@@ -146,44 +129,6 @@
      "ts": 1793761224,
      "bid": 0.52,
      "proceeds": 1.5
-    }
-   }
-  },
-  {
-   "id": 359,
-   "ticker": "KXHIGHMIA-26NOV04-B81.5",
-   "event_ticker": "KXHIGHMIA-26NOV04",
-   "series": "KXHIGHMIA",
-   "label": "Will the maximum temperature be 81-82\u00b0 on Nov 4, 2026? \u2014 81\u00b0 to 82\u00b0",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793739629,
-   "close_ts": 1793858400.0,
-   "score": 0.5292,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793801725,
-     "bid": 0.59,
-     "proceeds": 2.86
-    },
-    "15": {
-     "ts": 1793801725,
-     "bid": 0.59,
-     "proceeds": 2.86
-    },
-    "20": {
-     "ts": 1793801725,
-     "bid": 0.59,
-     "proceeds": 2.86
-    },
-    "30": {
-     "ts": 1793801725,
-     "bid": 0.59,
-     "proceeds": 2.86
     }
    }
   },
@@ -241,7 +186,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1793855724,
@@ -291,7 +236,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.77,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1793862026,
@@ -353,7 +298,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.87,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -425,7 +370,7 @@
    "opened_ts": 1793849425,
    "close_ts": 1793955600.0,
    "score": 0.6145,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -442,7 +387,41 @@
    "opened_ts": 1793851225,
    "close_ts": 1793944800.0,
    "score": 0.5611,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 378,
+   "ticker": "KXGOLDW-26NOV0617-T4027.99",
+   "event_ticker": "KXGOLDW-26NOV0617",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4027.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $4027.99",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793880926,
+   "close_ts": 1794002400.0,
+   "score": 0.5678,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 379,
+   "ticker": "KXPAYROLLS-26OCT-T125000",
+   "event_ticker": "KXPAYROLLS-26OCT",
+   "series": "KXPAYROLLS",
+   "label": "Will above 125000 jobs be added in October 2026? \u2014 Above 125,000",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1793880926,
+   "close_ts": 1793971740.0,
+   "score": 0.4416,
+   "mark_price": 0.83,
    "shadow": {}
   }
  ],
@@ -9726,6 +9705,69 @@
    "pnl": 0.3,
    "result": "NO",
    "closed_ts": 1793851225,
+   "won": true
+  },
+  {
+   "id": 355,
+   "ticker": "KXRAIN-26NOV04-DTW",
+   "event_ticker": "KXRAIN-26NOV04",
+   "series": "KXRAIN",
+   "label": "Will it rain in Detroit on Nov 4, 2026?",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793725226,
+   "close_ts": 1793854800.0,
+   "score": 0.5611,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1793880926,
+   "won": true
+  },
+  {
+   "id": 359,
+   "ticker": "KXHIGHMIA-26NOV04-B81.5",
+   "event_ticker": "KXHIGHMIA-26NOV04",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 81-82\u00b0 on Nov 4, 2026? \u2014 81\u00b0 to 82\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793739629,
+   "close_ts": 1793858400.0,
+   "score": 0.5292,
+   "shadow": {
+    "10": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "15": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "20": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    },
+    "30": {
+     "ts": 1793801725,
+     "bid": 0.59,
+     "proceeds": 2.86
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793880926,
    "won": true
   }
  ],
@@ -22284,91 +22326,108 @@
    1793880025,
    99.222,
    98.612
+  ],
+  [
+   1793880926,
+   99.782,
+   98.532
   ]
  ],
  "last_run": {
-  "ts": 1793880025,
+  "ts": 1793880926,
   "error": null,
   "markets_scanned": 1924,
-  "candidates": 28,
+  "candidates": 30,
   "rejections": {
    "too little volume": 1708,
-   "no favorite in 80-95c band": 141,
-   "spread too wide": 43,
+   "no favorite in 80-95c band": 140,
+   "spread too wide": 42,
    "favorite is slipping fast": 4
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   378,
+   379
+  ],
+  "settled": [
+   355,
+   359
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 7618.02,
-    "score": 0.6529
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,500 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 24055.34,
-    "score": 0.6525
+    "score": 0.6534
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 12022.34,
-    "score": 0.6525
+    "score": 0.6528
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 22254.67,
-    "score": 0.6325
+    "score": 0.6328
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,520 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 36288.14,
-    "score": 0.6225
+    "score": 0.6228
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 33.99,
+    "hours_to_close": 33.74,
     "volume_24h": 9899.45,
-    "score": 0.6222
+    "score": 0.6225
    },
    {
     "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.48,
+    "hours_to_close": 25.23,
     "volume_24h": 2510.09,
-    "score": 0.6217
+    "score": 0.6222
    },
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $82,500 or above",
+    "label": "Bitcoin price range on Nov 6, 2026? \u2014 $79,000 to 79,499.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 33.99,
-    "volume_24h": 34629.93,
-    "score": 0.5925
+    "price": 0.91,
+    "hours_to_close": 33.74,
+    "volume_24h": 14208.27,
+    "score": 0.6128
+   },
+   {
+    "label": "Bitcoin price range on Nov 6, 2026? \u2014 $78,500 to 78,999.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.74,
+    "volume_24h": 3663.75,
+    "score": 0.6101
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Presidential approval)": 2,
+   "related-market cap (Crypto)": 13,
+   "related-market cap (Oil prices)": 3,
+   "tracked only (below bet price floor)": 2,
+   "related-market cap (Precious metals)": 2
+  },
+  "watch_added": 1,
+  "watch_graded": 18,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

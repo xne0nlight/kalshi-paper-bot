@@ -219,7 +219,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.87,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -236,7 +236,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.77,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1793882725,
@@ -247,6 +247,11 @@
      "ts": 1793887225,
      "bid": 0.79,
      "proceeds": 4.67
+    },
+    "20": {
+     "ts": 1793889926,
+     "bid": 0.73,
+     "proceeds": 4.29
     }
    }
   },
@@ -264,7 +269,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.93,
+   "mark_price": 0.17,
    "shadow": {
     "10": {
      "ts": 1793865625,
@@ -302,7 +307,7 @@
    "opened_ts": 1793843126,
    "close_ts": 1793971740.0,
    "score": 0.589,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -336,7 +341,7 @@
    "opened_ts": 1793851225,
    "close_ts": 1793944800.0,
    "score": 0.5611,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -353,7 +358,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.94,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -404,7 +409,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -22460,17 +22465,22 @@
    1793889028,
    100.612,
    97.422
+  ],
+  [
+   1793889926,
+   100.612,
+   92.432
   ]
  ],
  "last_run": {
-  "ts": 1793889028,
+  "ts": 1793889926,
   "error": null,
   "markets_scanned": 1925,
   "candidates": 31,
   "rejections": {
    "too little volume": 1708,
-   "no favorite in 80-95c band": 141,
-   "spread too wide": 43,
+   "no favorite in 80-95c band": 145,
+   "spread too wide": 39,
    "favorite is slipping fast": 2
   },
   "opened": [],
@@ -22478,72 +22488,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $82,500 or above",
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,480 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 34947.93,
-    "score": 0.656
+    "hours_to_close": 31.24,
+    "volume_24h": 21549.35,
+    "score": 0.6564
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $76,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 31.24,
+    "volume_24h": 21413.02,
+    "score": 0.6464
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $81,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.24,
+    "volume_24h": 17579.07,
+    "score": 0.6364
+   },
+   {
+    "label": "Will the President's approval rating be between 38.5 and 38.7 according to RealClearPolitics? \u2014 38.5 to 38.7",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 25.24,
+    "volume_24h": 11549.99,
+    "score": 0.6072
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $81,000 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 31.24,
+    "volume_24h": 24456.28,
+    "score": 0.6064
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $76,500 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 31.49,
-    "volume_24h": 8946.66,
-    "score": 0.6524
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 31.49,
-    "volume_24h": 18764.53,
-    "score": 0.626
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 31.49,
-    "volume_24h": 14474.34,
-    "score": 0.626
-   },
-   {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,480 or above",
-    "side": "no",
     "price": 0.9,
-    "hours_to_close": 31.49,
-    "volume_24h": 21561.35,
-    "score": 0.606
+    "hours_to_close": 31.24,
+    "volume_24h": 8941.85,
+    "score": 0.6027
    },
    {
     "label": "Will Donald Trump's VoteHub approval polling average be above 37.6% at 10:00 AM ET on Nov 6, 2026? \u2014 Above 37.6%",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 24.48,
-    "volume_24h": 16943.64,
-    "score": 0.5989
+    "hours_to_close": 24.23,
+    "volume_24h": 16760.86,
+    "score": 0.5995
    },
    {
-    "label": "Will the President's approval rating be between 38.5 and 38.7 according to RealClearPolitics? \u2014 38.5 to 38.7",
+    "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Nov 6, 2026? \u2014 $93.00 to $93.99",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 25.49,
-    "volume_24h": 11419.91,
-    "score": 0.5867
-   },
-   {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,280 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 31.49,
-    "volume_24h": 20557.58,
-    "score": 0.586
+    "price": 0.95,
+    "hours_to_close": 28.74,
+    "volume_24h": 2013.89,
+    "score": 0.5583
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 8,
   "watch_graded": 0,
   "api_calls": 42
  },

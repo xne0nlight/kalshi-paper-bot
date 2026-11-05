@@ -370,7 +370,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.75,
+   "mark_price": 0.05,
    "shadow": {
     "10": {
      "ts": 1793865625,
@@ -386,6 +386,11 @@
      "ts": 1793865625,
      "bid": 0.75,
      "proceeds": 4.42
+    },
+    "30": {
+     "ts": 1793869227,
+     "bid": 0.05,
+     "proceeds": 0.28
     }
    }
   },
@@ -420,7 +425,7 @@
    "opened_ts": 1793849425,
    "close_ts": 1793955600.0,
    "score": 0.6145,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -22214,18 +22219,23 @@
    1793868325,
    99.222,
    96.682
+  ],
+  [
+   1793869227,
+   99.222,
+   92.422
   ]
  ],
  "last_run": {
-  "ts": 1793868325,
+  "ts": 1793869227,
   "error": null,
-  "markets_scanned": 3756,
-  "candidates": 25,
+  "markets_scanned": 3856,
+  "candidates": 17,
   "rejections": {
-   "too little volume": 3167,
-   "no favorite in 80-95c band": 457,
-   "spread too wide": 101,
-   "nothing for sale at the ask": 6
+   "too little volume": 3266,
+   "no favorite in 80-95c band": 391,
+   "spread too wide": 177,
+   "nothing for sale at the ask": 5
   },
   "opened": [],
   "settled": [],
@@ -22235,65 +22245,65 @@
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.24,
+    "hours_to_close": 30.99,
     "volume_24h": 7618.02,
-    "score": 0.6475
-   },
-   {
-    "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.24,
-    "volume_24h": 7575.04,
-    "score": 0.6404
-   },
-   {
-    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 5, 2026? \u2014 81\u00b0 to 82\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 24.24,
-    "volume_24h": 3424.25,
-    "score": 0.6345
-   },
-   {
-    "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 28.73,
-    "volume_24h": 4056.14,
-    "score": 0.6311
-   },
-   {
-    "label": "Will it rain in Columbus on Nov 5, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 20.24,
-    "volume_24h": 2713.36,
-    "score": 0.5975
+    "score": 0.6479
    },
    {
     "label": "Will the maximum temperature be 88-89\u00b0 on Nov 5, 2026? \u2014 88\u00b0 to 89\u00b0",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 2700.08,
-    "score": 0.5944
+    "score": 0.5952
+   },
+   {
+    "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 23.99,
+    "volume_24h": 7575.04,
+    "score": 0.591
    },
    {
     "label": "Will the maximum temperature be 50-51\u00b0 on Nov 5, 2026? \u2014 50\u00b0 to 51\u00b0",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 1799.96,
-    "score": 0.5885
+    "score": 0.5892
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 13.24,
+    "hours_to_close": 12.99,
     "volume_24h": 5088.22,
-    "score": 0.5871
+    "score": 0.5886
+   },
+   {
+    "label": "Will the maximum temperature be <74\u00b0 on Nov 5, 2026? \u2014 73\u00b0 or below",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 20.99,
+    "volume_24h": 365.32,
+    "score": 0.5701
+   },
+   {
+    "label": "Will the maximum temperature be <72\u00b0 on Nov 5, 2026? \u2014 71\u00b0 or below",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 20.99,
+    "volume_24h": 517.84,
+    "score": 0.5514
+   },
+   {
+    "label": "Will Donald Trump's VoteHub approval polling average be above 37.6% at 10:00 AM ET on Nov 6, 2026? \u2014 Above 37.6%",
+    "side": "yes",
+    "price": 0.84,
+    "hours_to_close": 29.98,
+    "volume_24h": 17371.75,
+    "score": 0.5484
    }
   ],
   "skipped": {},

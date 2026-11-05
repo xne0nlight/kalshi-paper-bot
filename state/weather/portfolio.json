@@ -16,7 +16,7 @@
    "label": "DEN low \u226430\u00b0 11-05",
    "side": "no",
    "close_ts": 1793952000.0,
-   "q_model": 0.9515,
+   "q_model": 0.9513,
    "mid": 0.865,
    "strategy": "favorite",
    "price": 0.86,
@@ -26,7 +26,7 @@
    "contracts": 7,
    "filled": 0.0,
    "placed_ts": 1793862026,
-   "checked_ts": 1793866525,
+   "checked_ts": 1793867425,
    "reserved": 6.02
   },
   {
@@ -49,7 +49,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793865625,
-   "checked_ts": 1793866525,
+   "checked_ts": 1793867425,
    "reserved": 12.88
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793866525,
-   "checked_ts": 1793866525,
+   "checked_ts": 1793867425,
    "reserved": 12.46
   },
   {
@@ -95,7 +95,7 @@
    "contracts": 9,
    "filled": 0.0,
    "placed_ts": 1793866525,
-   "checked_ts": 1793866525,
+   "checked_ts": 1793867425,
    "reserved": 8.46
   }
  ],
@@ -15111,6 +15111,11 @@
    1793866525,
    131.4185,
    131.6559
+  ],
+  [
+   1793867425,
+   131.4185,
+   131.6559
   ]
  ],
  "forecast_log": {
@@ -23153,41 +23158,13 @@
   }
  },
  "last_run": {
-  "ts": 1793866525,
+  "ts": 1793867425,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTATL-26NOV05-T64",
-    "reason": "reprice 0.19->0.16"
-   },
-   {
-    "ticker": "KXHIGHTTTN-26NOV05-T70",
-    "reason": "reprice 0.93->0.94"
-   },
-   {
-    "ticker": "KXLOWTTTN-26NOV05-T58",
-    "reason": "no longer qualifies"
-   }
-  ],
-  "placed": [
-   {
-    "ticker": "KXLOWTSAN-26NOV05-B53.5",
-    "side": "no",
-    "price": 0.89,
-    "contracts": 14,
-    "strategy": "favorite"
-   },
-   {
-    "ticker": "KXHIGHTTTN-26NOV05-T70",
-    "side": "no",
-    "price": 0.94,
-    "contracts": 9,
-    "strategy": "favorite"
-   }
-  ],
+  "cancelled": [],
+  "placed": [],
   "markets": 288,
   "events": [
    {
@@ -23201,7 +23178,7 @@
      "p90": 55.6
     },
     "nbm": 52.2,
-    "observed": null,
+    "observed": 57.2,
     "bias": 0.72,
     "bias_src": "own 15d",
     "kernel_sd": 1.92,
@@ -23225,25 +23202,25 @@
      },
      {
       "label": "51\u201352\u00b0",
-      "q": 0.19,
+      "q": 0.193,
       "bid": 0.1,
       "ask": 0.3
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.326,
+      "q": 0.335,
       "bid": 0.55,
       "ask": 0.71
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.28,
+      "q": 0.294,
       "bid": 0.06,
       "ask": 0.14
      },
      {
       "label": "\u226557\u00b0",
-      "q": 0.144,
+      "q": 0.117,
       "bid": 0.01,
       "ask": 0.12
      }
@@ -23260,7 +23237,7 @@
      "p90": 48.3
     },
     "nbm": 47.3,
-    "observed": null,
+    "observed": 50.0,
     "bias": 0.68,
     "bias_src": "own 15d",
     "kernel_sd": 2.08,
@@ -23272,37 +23249,37 @@
     "rows": [
      {
       "label": "\u226442\u00b0",
-      "q": 0.015,
+      "q": 0.016,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "43\u201344\u00b0",
-      "q": 0.085,
+      "q": 0.088,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "45\u201346\u00b0",
-      "q": 0.247,
+      "q": 0.258,
       "bid": 0.01,
       "ask": 0.28
      },
      {
       "label": "47\u201348\u00b0",
-      "q": 0.344,
+      "q": 0.363,
       "bid": 0.48,
       "ask": 0.66
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.227,
+      "q": 0.244,
       "bid": 0.08,
       "ask": 0.23
      },
      {
       "label": "\u226551\u00b0",
-      "q": 0.082,
+      "q": 0.031,
       "bid": null,
       "ask": 0.01
      }
@@ -23319,7 +23296,7 @@
      "p90": 66.3
     },
     "nbm": 59.3,
-    "observed": null,
+    "observed": 62.6,
     "bias": -0.12,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -23361,7 +23338,7 @@
      },
      {
       "label": "\u226561\u00b0",
-      "q": 0.34,
+      "q": 0.338,
       "bid": 0.02,
       "ask": 0.18
      }
@@ -23378,7 +23355,7 @@
      "p90": 56.9
     },
     "nbm": 51.8,
-    "observed": null,
+    "observed": 55.4,
     "bias": 1.24,
     "bias_src": "own 15d",
     "kernel_sd": 2.38,
@@ -23396,31 +23373,31 @@
      },
      {
       "label": "45\u201346\u00b0",
-      "q": 0.002,
+      "q": 0.003,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "47\u201348\u00b0",
-      "q": 0.02,
+      "q": 0.021,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.086,
+      "q": 0.093,
       "bid": 0.01,
       "ask": 0.03
      },
      {
       "label": "51\u201352\u00b0",
-      "q": 0.205,
+      "q": 0.23,
       "bid": 0.59,
       "ask": 0.69
      },
      {
       "label": "\u226553\u00b0",
-      "q": 0.687,
+      "q": 0.652,
       "bid": 0.24,
       "ask": 0.42
      }
@@ -23437,7 +23414,7 @@
      "p90": 65.8
     },
     "nbm": 57.5,
-    "observed": null,
+    "observed": 64.4,
     "bias": -0.23,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -23496,7 +23473,7 @@
      "p90": 71.8
     },
     "nbm": 69.2,
-    "observed": null,
+    "observed": 57.2,
     "bias": 0.75,
     "bias_src": "own 15d",
     "kernel_sd": 1.85,
@@ -23555,7 +23532,7 @@
      "p90": 58.0
     },
     "nbm": 55.6,
-    "observed": null,
+    "observed": 50.0,
     "bias": 1.55,
     "bias_src": "own 15d",
     "kernel_sd": 1.63,
@@ -23614,7 +23591,7 @@
      "p90": 80.7
     },
     "nbm": 76.6,
-    "observed": null,
+    "observed": 62.6,
     "bias": 0.15,
     "bias_src": "own 15d",
     "kernel_sd": 1.21,
@@ -23673,7 +23650,7 @@
      "p90": 71.3
     },
     "nbm": 68.0,
-    "observed": null,
+    "observed": 55.4,
     "bias": 3.32,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -23732,7 +23709,7 @@
      "p90": 82.6
     },
     "nbm": 76.7,
-    "observed": null,
+    "observed": 64.4,
     "bias": 1.11,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -23791,7 +23768,7 @@
      "p90": 39.4
     },
     "nbm": 36.3,
-    "observed": 39.2,
+    "observed": 39.02,
     "bias": -1.64,
     "bias_src": "own 15d",
     "kernel_sd": 2.94,
@@ -23815,25 +23792,25 @@
      },
      {
       "label": "33\u201334\u00b0",
-      "q": 0.208,
+      "q": 0.21,
       "bid": 0.04,
       "ask": 0.59
      },
      {
       "label": "35\u201336\u00b0",
-      "q": 0.258,
+      "q": 0.261,
       "bid": 0.15,
       "ask": 0.68
      },
      {
       "label": "37\u201338\u00b0",
-      "q": 0.228,
+      "q": 0.233,
       "bid": 0.03,
       "ask": 0.1
      },
      {
       "label": "\u226539\u00b0",
-      "q": 0.149,
+      "q": 0.139,
       "bid": null,
       "ask": 0.01
      }
@@ -23909,7 +23886,7 @@
      "p90": 59.6
     },
     "nbm": 55.6,
-    "observed": 59.0,
+    "observed": 57.2,
     "bias": -1.56,
     "bias_src": "own 15d",
     "kernel_sd": 2.55,
@@ -23933,25 +23910,25 @@
      },
      {
       "label": "50\u201351\u00b0",
-      "q": 0.025,
+      "q": 0.028,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "52\u201353\u00b0",
-      "q": 0.096,
+      "q": 0.114,
       "bid": 0.01,
       "ask": 0.03
      },
      {
       "label": "54\u201355\u00b0",
-      "q": 0.207,
+      "q": 0.264,
       "bid": 0.01,
       "ask": 0.82
      },
      {
       "label": "\u226556\u00b0",
-      "q": 0.669,
+      "q": 0.591,
       "bid": 0.59,
       "ask": 0.89
      }
@@ -23968,7 +23945,7 @@
      "p90": 64.6
     },
     "nbm": 55.7,
-    "observed": 62.6,
+    "observed": 62.059999999999995,
     "bias": 0.34,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -24204,7 +24181,7 @@
      "p90": 63.7
     },
     "nbm": 59.3,
-    "observed": 60.8,
+    "observed": 59.0,
     "bias": -1.86,
     "bias_src": "own 15d",
     "kernel_sd": 1.31,
@@ -24222,31 +24199,31 @@
      },
      {
       "label": "53\u201354\u00b0",
-      "q": 0.015,
+      "q": 0.016,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "55\u201356\u00b0",
-      "q": 0.134,
+      "q": 0.141,
       "bid": 0.01,
       "ask": 0.07
      },
      {
       "label": "57\u201358\u00b0",
-      "q": 0.349,
+      "q": 0.375,
       "bid": 0.01,
       "ask": 0.69
      },
      {
       "label": "59\u201360\u00b0",
-      "q": 0.218,
+      "q": 0.467,
       "bid": 0.13,
       "ask": 0.78
      },
      {
       "label": "\u226561\u00b0",
-      "q": 0.283,
+      "q": 0.0,
       "bid": null,
       "ask": 0.01
      }
@@ -25207,7 +25184,7 @@
      "p90": 78.7
     },
     "nbm": 75.4,
-    "observed": 75.02,
+    "observed": 73.4,
     "bias": -0.02,
     "bias_src": "own 15d",
     "kernel_sd": 0.9,
@@ -25225,25 +25202,25 @@
      },
      {
       "label": "69\u201370\u00b0",
-      "q": 0.006,
+      "q": 0.007,
       "bid": null,
       "ask": 0.02
      },
      {
       "label": "71\u201372\u00b0",
-      "q": 0.129,
+      "q": 0.155,
       "bid": 0.01,
       "ask": 0.08
      },
      {
       "label": "73\u201374\u00b0",
-      "q": 0.385,
+      "q": 0.838,
       "bid": 0.74,
       "ask": 0.93
      },
      {
       "label": "75\u201376\u00b0",
-      "q": 0.48,
+      "q": 0.0,
       "bid": null,
       "ask": 0.01
      },
@@ -25856,7 +25833,7 @@
      "p90": 76.1
     },
     "nbm": 72.8,
-    "observed": 64.4,
+    "observed": 64.94,
     "bias": 2.39,
     "bias_src": "own 15d",
     "kernel_sd": 1.06,
@@ -25915,7 +25892,7 @@
      "p90": 72.6
     },
     "nbm": 71.4,
-    "observed": 62.959999999999994,
+    "observed": 64.04,
     "bias": 0.76,
     "bias_src": "own 15d",
     "kernel_sd": 1.06,
@@ -26026,13 +26003,23 @@
   "halt": null,
   "candidates": 76,
   "health": {
+   "open_meteo_ensemble": {
+    "ok": 48,
+    "fail": 0,
+    "last_error": null
+   },
+   "open_meteo_nbm": {
+    "ok": 24,
+    "fail": 0,
+    "last_error": null
+   },
    "nws_observations": {
     "ok": 48,
     "fail": 0,
     "last_error": null
    }
   },
-  "seconds": 30.1
+  "seconds": 49.9
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

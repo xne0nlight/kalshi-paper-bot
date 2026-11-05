@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.032,
- "fees_paid": 9.29,
+ "cash": 10.362,
+ "fees_paid": 9.32,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 375,
+ "next_id": 376,
  "open_positions": [
   {
    "id": 284,
@@ -241,7 +241,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.72,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793840426,
@@ -276,39 +276,6 @@
    "score": 0.5692,
    "mark_price": 0.97,
    "shadow": {}
-  },
-  {
-   "id": 367,
-   "ticker": "KXNCAAF1H-26NOV03BALLMASS-TIE",
-   "event_ticker": "KXNCAAF1H-26NOV03BALLMASS",
-   "series": "KXNCAAF1H",
-   "label": "Tie in the 1st half",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.92,
-   "fee": 0.04,
-   "cost": 5.56,
-   "opened_ts": 1793801725,
-   "close_ts": 1793923200.0,
-   "score": 0.4997,
-   "mark_price": 0.88,
-   "shadow": {
-    "10": {
-     "ts": 1793840426,
-     "bid": 0.79,
-     "proceeds": 4.67
-    },
-    "15": {
-     "ts": 1793841324,
-     "bid": 0.64,
-     "proceeds": 3.74
-    },
-    "20": {
-     "ts": 1793841324,
-     "bid": 0.64,
-     "proceeds": 3.74
-    }
-   }
   },
   {
    "id": 368,
@@ -358,7 +325,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -375,7 +342,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -392,7 +359,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -426,7 +393,24 @@
    "opened_ts": 1793842225,
    "close_ts": 1793923200.0,
    "score": 0.6137,
-   "mark_price": 0.88,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 375,
+   "ticker": "KXU3-26OCT-T4.0",
+   "event_ticker": "KXU3-26OCT",
+   "series": "KXU3",
+   "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793843126,
+   "close_ts": 1793971740.0,
+   "score": 0.589,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -9616,6 +9600,43 @@
    "result": "YES",
    "closed_ts": 1793842225,
    "won": false
+  },
+  {
+   "id": 367,
+   "ticker": "KXNCAAF1H-26NOV03BALLMASS-TIE",
+   "event_ticker": "KXNCAAF1H-26NOV03BALLMASS",
+   "series": "KXNCAAF1H",
+   "label": "Tie in the 1st half",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.92,
+   "fee": 0.04,
+   "cost": 5.56,
+   "opened_ts": 1793801725,
+   "close_ts": 1793923200.0,
+   "score": 0.4997,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.79,
+     "proceeds": 4.67
+    },
+    "15": {
+     "ts": 1793841324,
+     "bid": 0.64,
+     "proceeds": 3.74
+    },
+    "20": {
+     "ts": 1793841324,
+     "bid": 0.64,
+     "proceeds": 3.74
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.44,
+   "result": "NO",
+   "closed_ts": 1793843126,
+   "won": true
   }
  ],
  "equity_history": [
@@ -21963,97 +21984,102 @@
    1793842225,
    98.202,
    97.022
+  ],
+  [
+   1793843126,
+   98.642,
+   97.702
   ]
  ],
  "last_run": {
-  "ts": 1793842225,
+  "ts": 1793843126,
   "error": null,
-  "markets_scanned": 3901,
-  "candidates": 69,
+  "markets_scanned": 3777,
+  "candidates": 75,
   "rejections": {
-   "too little volume": 3411,
-   "no favorite in 80-95c band": 382,
-   "spread too wide": 38,
-   "nothing for sale at the ask": 1
+   "too little volume": 3310,
+   "no favorite in 80-95c band": 359,
+   "spread too wide": 30,
+   "nothing for sale at the ask": 3
   },
   "opened": [
-   374
+   375
   ],
   "settled": [
-   366
+   367
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,000 or above",
+    "label": "Eastern Michigan wins",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.24,
+    "volume_24h": 851626.27,
+    "score": 0.6544
+   },
+   {
+    "label": "Central Michigan wins",
     "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 22.24,
+    "volume_24h": 775816.13,
+    "score": 0.6544
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $83,000 or above",
+    "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.49,
-    "volume_24h": 5808.06,
-    "score": 0.6616
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 20.49,
-    "volume_24h": 9261.73,
-    "score": 0.6568
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 17.99,
-    "volume_24h": 4823.09,
-    "score": 0.6538
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.49,
-    "volume_24h": 3959.24,
-    "score": 0.6291
+    "hours_to_close": 20.24,
+    "volume_24h": 3630.81,
+    "score": 0.647
    },
    {
     "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.49,
-    "volume_24h": 2835.68,
-    "score": 0.6282
+    "price": 0.95,
+    "hours_to_close": 20.24,
+    "volume_24h": 2935.58,
+    "score": 0.6401
    },
    {
-    "label": "Will Trump's RCP approval average be below 38.8 on Nov 5, 2026? \u2014 Below 38.8%",
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 16.48,
-    "volume_24h": 3048.7,
-    "score": 0.6148
+    "price": 0.9,
+    "hours_to_close": 20.24,
+    "volume_24h": 8721.83,
+    "score": 0.6256
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 20.24,
+    "volume_24h": 4553.51,
+    "score": 0.6244
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.49,
-    "volume_24h": 2412.21,
-    "score": 0.6146
+    "hours_to_close": 28.24,
+    "volume_24h": 2939.48,
+    "score": 0.6215
    },
    {
-    "label": "Eastern Michigan wins",
+    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $80,000 to 80,249.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 22.49,
-    "volume_24h": 610700.96,
-    "score": 0.6137
+    "price": 0.94,
+    "hours_to_close": 20.24,
+    "volume_24h": 2064.37,
+    "score": 0.6186
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 3,
-   "related-market cap (Oil prices)": 1
+   "related-market cap (Crypto)": 5,
+   "related-market cap (Oil prices)": 3
   },
-  "watch_added": 10,
+  "watch_added": 7,
   "watch_graded": 0,
   "api_calls": 42
  },

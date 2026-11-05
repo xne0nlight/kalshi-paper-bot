@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 10.382,
- "fees_paid": 9.55,
+ "cash": 10.662,
+ "fees_paid": 9.57,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 383,
+ "next_id": 384,
  "open_positions": [
   {
    "id": 284,
@@ -78,29 +78,6 @@
    "shadow": {}
   },
   {
-   "id": 362,
-   "ticker": "KXWTI-26NOV0414-T99.49",
-   "event_ticker": "KXWTI-26NOV0414",
-   "series": "KXWTI",
-   "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Nov 4, 2026? \u2014 Above $99.49",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793761224,
-   "close_ts": 1793820600.0,
-   "score": 0.6429,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793773827,
-     "bid": 0.84,
-     "proceeds": 4.15
-    }
-   }
-  },
-  {
    "id": 365,
    "ticker": "KX30YMORTW-26NOV05-T7.18",
    "event_ticker": "KX30YMORTW-26NOV05",
@@ -164,7 +141,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.27,
+   "mark_price": 0.33,
    "shadow": {
     "10": {
      "ts": 1793862026,
@@ -202,7 +179,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -236,7 +213,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.74,
+   "mark_price": 0.81,
    "shadow": {
     "10": {
      "ts": 1793882725,
@@ -269,7 +246,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.36,
+   "mark_price": 0.05,
    "shadow": {
     "10": {
      "ts": 1793865625,
@@ -307,7 +284,7 @@
    "opened_ts": 1793843126,
    "close_ts": 1793971740.0,
    "score": 0.589,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -358,7 +335,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.87,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -375,7 +352,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1793971740.0,
    "score": 0.4416,
-   "mark_price": 0.82,
+   "mark_price": 0.81,
    "shadow": {}
   },
   {
@@ -392,7 +369,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1793977140.0,
    "score": 0.5462,
-   "mark_price": 0.87,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -426,7 +403,24 @@
    "opened_ts": 1793888126,
    "close_ts": 1794002340.0,
    "score": 0.4931,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 383,
+   "ticker": "KXWTIW-26NOV0614-B93.50",
+   "event_ticker": "KXWTIW-26NOV0614",
+   "series": "KXWTIW",
+   "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Nov 6, 2026? \u2014 $93.00 to $93.99",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793896227,
+   "close_ts": 1793993400.0,
+   "score": 0.595,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -9857,6 +9851,33 @@
    "pnl": 0.39,
    "result": "NO",
    "closed_ts": 1793884532,
+   "won": true
+  },
+  {
+   "id": 362,
+   "ticker": "KXWTI-26NOV0414-T99.49",
+   "event_ticker": "KXWTI-26NOV0414",
+   "series": "KXWTI",
+   "label": "Will the WTI crude oil settlement price be above 99.49 USD/Bbl on Nov 4, 2026? \u2014 Above $99.49",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793761224,
+   "close_ts": 1793820600.0,
+   "score": 0.6429,
+   "shadow": {
+    "10": {
+     "ts": 1793773827,
+     "bid": 0.84,
+     "proceeds": 4.15
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793896227,
    "won": true
   }
  ],
@@ -22490,91 +22511,103 @@
    1793893524,
    100.612,
    94.222
+  ],
+  [
+   1793896227,
+   100.892,
+   92.902
   ]
  ],
  "last_run": {
-  "ts": 1793893524,
+  "ts": 1793896227,
   "error": null,
-  "markets_scanned": 2212,
-  "candidates": 23,
+  "markets_scanned": 2203,
+  "candidates": 24,
   "rejections": {
-   "too little volume": 1779,
-   "no favorite in 80-95c band": 366,
-   "spread too wide": 39,
-   "favorite is slipping fast": 5
+   "too little volume": 1792,
+   "no favorite in 80-95c band": 327,
+   "spread too wide": 54,
+   "favorite is slipping fast": 6
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   383
+  ],
+  "settled": [
+   362
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $80,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.24,
-    "volume_24h": 42087.73,
-    "score": 0.6479
+    "price": 0.93,
+    "hours_to_close": 29.49,
+    "volume_24h": 44233.24,
+    "score": 0.6392
    },
    {
     "label": "Will the President's approval rating be between 38.5 and 38.7 according to RealClearPolitics? \u2014 38.5 to 38.7",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.24,
-    "volume_24h": 12744.65,
-    "score": 0.6294
+    "hours_to_close": 23.49,
+    "volume_24h": 14016.94,
+    "score": 0.6312
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,500 or above",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 29.49,
+    "volume_24h": 6516.05,
+    "score": 0.6252
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $80,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.49,
+    "volume_24h": 19293.64,
+    "score": 0.6092
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,500 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 44512.18,
-    "score": 0.6279
+    "price": 0.9,
+    "hours_to_close": 29.49,
+    "volume_24h": 45469.38,
+    "score": 0.6092
    },
    {
-    "label": "Will Donald Trump's VoteHub approval polling average be above 37.6% at 10:00 AM ET on Nov 6, 2026? \u2014 Above 37.6%",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 23.23,
-    "volume_24h": 16839.58,
-    "score": 0.6019
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
+    "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Nov 6, 2026? \u2014 $93.00 to $93.99",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 30.24,
-    "volume_24h": 35526.48,
-    "score": 0.5979
+    "price": 0.94,
+    "hours_to_close": 26.99,
+    "volume_24h": 1653.04,
+    "score": 0.595
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 30.24,
-    "volume_24h": 23198.92,
-    "score": 0.5879
+    "hours_to_close": 29.49,
+    "volume_24h": 23117.63,
+    "score": 0.5892
    },
    {
     "label": "Will the gold close price be above 4007.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $4007.99",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 30.24,
-    "volume_24h": 1550.73,
-    "score": 0.5673
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be between 92.00 and 92.99 USD/Bbl on Nov 6, 2026? \u2014 $92.00 to $92.99",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 27.74,
-    "volume_24h": 4481.35,
-    "score": 0.5661
+    "price": 0.94,
+    "hours_to_close": 29.49,
+    "volume_24h": 1543.15,
+    "score": 0.5883
    }
   ],
-  "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 16,
+  "skipped": {
+   "related-market cap (Crypto)": 4,
+   "related-market cap (Presidential approval)": 1
+  },
+  "watch_added": 3,
+  "watch_graded": 4,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

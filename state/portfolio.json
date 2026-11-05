@@ -291,7 +291,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.79,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1793862026,
@@ -319,7 +319,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.99,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -22279,18 +22279,23 @@
    1793879125,
    99.222,
    98.872
+  ],
+  [
+   1793880025,
+   99.222,
+   98.612
   ]
  ],
  "last_run": {
-  "ts": 1793879125,
+  "ts": 1793880025,
   "error": null,
-  "markets_scanned": 1913,
-  "candidates": 30,
+  "markets_scanned": 1924,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 1697,
-   "no favorite in 80-95c band": 142,
-   "spread too wide": 39,
-   "favorite is slipping fast": 5
+   "too little volume": 1708,
+   "no favorite in 80-95c band": 141,
+   "spread too wide": 43,
+   "favorite is slipping fast": 4
   },
   "opened": [],
   "settled": [],
@@ -22300,69 +22305,69 @@
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.24,
+    "hours_to_close": 27.99,
     "volume_24h": 7618.02,
-    "score": 0.6525
+    "score": 0.6529
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 24055.34,
-    "score": 0.6522
+    "score": 0.6525
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 34.24,
-    "volume_24h": 12125.34,
-    "score": 0.6522
+    "hours_to_close": 33.99,
+    "volume_24h": 12022.34,
+    "score": 0.6525
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,000 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 33.99,
+    "volume_24h": 22254.67,
+    "score": 0.6325
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,520 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 34.24,
+    "hours_to_close": 33.99,
     "volume_24h": 36288.14,
-    "score": 0.6222
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.24,
-    "volume_24h": 22292.07,
-    "score": 0.6222
+    "score": 0.6225
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 34.24,
-    "volume_24h": 10318.45,
+    "hours_to_close": 33.99,
+    "volume_24h": 9899.45,
     "score": 0.6222
    },
    {
     "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.73,
-    "volume_24h": 2544.09,
-    "score": 0.6216
+    "hours_to_close": 25.48,
+    "volume_24h": 2510.09,
+    "score": 0.6217
    },
    {
-    "label": "Bitcoin price range on Nov 6, 2026? \u2014 $78,500 to 78,999.99",
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.24,
-    "volume_24h": 3750.75,
-    "score": 0.6103
+    "price": 0.89,
+    "hours_to_close": 33.99,
+    "volume_24h": 34629.93,
+    "score": 0.5925
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

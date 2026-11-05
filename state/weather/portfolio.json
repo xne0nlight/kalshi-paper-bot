@@ -26,7 +26,7 @@
    "contracts": 7,
    "filled": 0.0,
    "placed_ts": 1793862026,
-   "checked_ts": 1793867425,
+   "checked_ts": 1793868325,
    "reserved": 6.02
   },
   {
@@ -49,7 +49,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793865625,
-   "checked_ts": 1793867425,
+   "checked_ts": 1793868325,
    "reserved": 12.88
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793866525,
-   "checked_ts": 1793867425,
+   "checked_ts": 1793868325,
    "reserved": 12.46
   },
   {
@@ -95,7 +95,7 @@
    "contracts": 9,
    "filled": 0.0,
    "placed_ts": 1793866525,
-   "checked_ts": 1793867425,
+   "checked_ts": 1793868325,
    "reserved": 8.46
   }
  ],
@@ -15116,6 +15116,11 @@
    1793867425,
    131.4185,
    131.6559
+  ],
+  [
+   1793868325,
+   131.4185,
+   131.6559
   ]
  ],
  "forecast_log": {
@@ -23158,7 +23163,7 @@
   }
  },
  "last_run": {
-  "ts": 1793867425,
+  "ts": 1793868325,
   "error": null,
   "errors": [],
   "fills": [],
@@ -24004,7 +24009,7 @@
      "p90": 49.5
     },
     "nbm": 49.6,
-    "observed": 50.0,
+    "observed": 48.2,
     "bias": -4.3,
     "bias_src": "own 15d",
     "kernel_sd": 3.0,
@@ -24016,37 +24021,37 @@
     "rows": [
      {
       "label": "\u226442\u00b0",
-      "q": 0.154,
+      "q": 0.164,
       "bid": 0.01,
       "ask": 0.02
      },
      {
       "label": "43\u201344\u00b0",
-      "q": 0.196,
+      "q": 0.213,
       "bid": 0.05,
       "ask": 0.21
      },
      {
       "label": "45\u201346\u00b0",
-      "q": 0.252,
+      "q": 0.282,
       "bid": 0.01,
       "ask": 0.35
      },
      {
       "label": "47\u201348\u00b0",
-      "q": 0.218,
+      "q": 0.263,
       "bid": 0.36,
       "ask": 0.57
      },
      {
       "label": "49\u201350\u00b0",
-      "q": 0.151,
+      "q": 0.078,
       "bid": 0.01,
       "ask": 0.21
      },
      {
       "label": "\u226551\u00b0",
-      "q": 0.028,
+      "q": 0.0,
       "bid": null,
       "ask": 0.01
      }
@@ -25656,7 +25661,7 @@
      "p90": 77.8
     },
     "nbm": 75.4,
-    "observed": 64.94,
+    "observed": 66.2,
     "bias": 2.35,
     "bias_src": "own 15d",
     "kernel_sd": 1.2,
@@ -26003,23 +26008,13 @@
   "halt": null,
   "candidates": 76,
   "health": {
-   "open_meteo_ensemble": {
-    "ok": 48,
-    "fail": 0,
-    "last_error": null
-   },
-   "open_meteo_nbm": {
-    "ok": 24,
-    "fail": 0,
-    "last_error": null
-   },
    "nws_observations": {
     "ok": 48,
     "fail": 0,
     "last_error": null
    }
   },
-  "seconds": 49.9
+  "seconds": 20.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

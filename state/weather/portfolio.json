@@ -26,7 +26,7 @@
    "contracts": 7,
    "filled": 0.0,
    "placed_ts": 1793862026,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 6.02
   },
   {
@@ -49,7 +49,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793865625,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 12.88
   },
   {
@@ -72,7 +72,7 @@
    "contracts": 9,
    "filled": 0.0,
    "placed_ts": 1793866525,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 8.46
   },
   {
@@ -95,7 +95,7 @@
    "contracts": 14,
    "filled": 0.0,
    "placed_ts": 1793869227,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 11.9
   },
   {
@@ -118,7 +118,7 @@
    "contracts": 3,
    "filled": 0.0,
    "placed_ts": 1793869227,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 0.48
   },
   {
@@ -141,7 +141,7 @@
    "contracts": 1,
    "filled": 0.0,
    "placed_ts": 1793869227,
-   "checked_ts": 1793869227,
+   "checked_ts": 1793870126,
    "reserved": 0.11
   }
  ],
@@ -15172,6 +15172,11 @@
    1793869227,
    131.4185,
    131.2559
+  ],
+  [
+   1793870126,
+   131.4185,
+   131.2559
   ]
  ],
  "forecast_log": {
@@ -23214,40 +23219,13 @@
   }
  },
  "last_run": {
-  "ts": 1793869227,
+  "ts": 1793870126,
   "error": null,
   "errors": [],
   "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTSAN-26NOV05-B53.5",
-    "reason": "reprice 0.89->0.85"
-   }
-  ],
-  "placed": [
-   {
-    "ticker": "KXLOWTSAN-26NOV05-B53.5",
-    "side": "no",
-    "price": 0.85,
-    "contracts": 14,
-    "strategy": "favorite"
-   },
-   {
-    "ticker": "KXLOWTATL-26NOV05-T64",
-    "side": "no",
-    "price": 0.16,
-    "contracts": 3,
-    "strategy": "edge"
-   },
-   {
-    "ticker": "KXHIGHCHI-26NOV05-B55.5",
-    "side": "yes",
-    "price": 0.11,
-    "contracts": 1,
-    "strategy": "edge"
-   }
-  ],
+  "cancelled": [],
+  "placed": [],
   "markets": 288,
   "events": [
    {
@@ -23304,7 +23282,7 @@
      {
       "label": "\u226557\u00b0",
       "q": 0.117,
-      "bid": 0.01,
+      "bid": null,
       "ask": 0.26
      }
     ]
@@ -24243,7 +24221,7 @@
       "label": "41\u201342\u00b0",
       "q": 0.081,
       "bid": 0.01,
-      "ask": 0.08
+      "ask": 0.09
      },
      {
       "label": "\u226543\u00b0",
@@ -24880,7 +24858,7 @@
       "label": "77\u201378\u00b0",
       "q": 0.386,
       "bid": 0.07,
-      "ask": 0.11
+      "ask": 0.14
      },
      {
       "label": "79\u201380\u00b0",
@@ -26054,7 +26032,7 @@
       "label": "82\u201383\u00b0",
       "q": 0.031,
       "bid": 0.01,
-      "ask": 0.02
+      "ask": 0.03
      },
      {
       "label": "84\u201385\u00b0",
@@ -26092,7 +26070,7 @@
     "last_error": null
    }
   },
-  "seconds": 28.2
+  "seconds": 25.2
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

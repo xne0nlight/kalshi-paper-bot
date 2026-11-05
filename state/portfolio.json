@@ -370,7 +370,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793865625,
@@ -425,7 +425,7 @@
    "opened_ts": 1793849425,
    "close_ts": 1793955600.0,
    "score": 0.6145,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -22249,18 +22249,23 @@
    1793873726,
    99.222,
    98.492
+  ],
+  [
+   1793874625,
+   99.222,
+   98.492
   ]
  ],
  "last_run": {
-  "ts": 1793873726,
+  "ts": 1793874625,
   "error": null,
   "markets_scanned": 1913,
-  "candidates": 26,
+  "candidates": 25,
   "rejections": {
    "too little volume": 1697,
-   "no favorite in 80-95c band": 142,
-   "spread too wide": 45,
-   "favorite is slipping fast": 3
+   "no favorite in 80-95c band": 141,
+   "spread too wide": 46,
+   "favorite is slipping fast": 4
   },
   "opened": [],
   "settled": [],
@@ -22270,69 +22275,69 @@
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.74,
+    "hours_to_close": 29.49,
     "volume_24h": 7618.02,
-    "score": 0.6499
+    "score": 0.6503
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,500 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 24055.34,
-    "score": 0.6403
+    "score": 0.6406
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 19633.0,
-    "score": 0.6403
+    "score": 0.6406
    },
    {
     "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 27.23,
+    "hours_to_close": 26.98,
     "volume_24h": 4054.14,
-    "score": 0.6338
+    "score": 0.6343
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,500 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 10411.47,
-    "score": 0.6203
+    "score": 0.6206
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 22644.41,
-    "score": 0.6103
+    "score": 0.6106
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,000 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 35.74,
-    "volume_24h": 44891.35,
-    "score": 0.5903
+    "hours_to_close": 35.49,
+    "volume_24h": 44871.49,
+    "score": 0.5906
    },
    {
     "label": "Will the brent crude oil close price be above 103.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $103.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 2274.13,
-    "score": 0.5721
+    "score": 0.5724
    }
   ],
   "skipped": {},
-  "watch_added": 12,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

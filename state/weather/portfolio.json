@@ -441,7 +441,7 @@
    "contracts": 2.0,
    "cost": 0.64,
    "opened_ts": 1793806227,
-   "mark_price": 0.13,
+   "mark_price": 0.11,
    "avg_price": 0.32
   },
   {
@@ -460,7 +460,7 @@
    "contracts": 0.04,
    "cost": 0.0324,
    "opened_ts": 1793808029,
-   "mark_price": 0.69,
+   "mark_price": 0.67,
    "avg_price": 0.81
   },
   {
@@ -479,7 +479,7 @@
    "contracts": 0.01,
    "cost": 0.0045,
    "opened_ts": 1793808927,
-   "mark_price": 0.36,
+   "mark_price": 0.24,
    "avg_price": 0.45
   },
   {
@@ -536,7 +536,7 @@
    "contracts": 1.0,
    "cost": 0.36,
    "opened_ts": 1793818825,
-   "mark_price": 0.66,
+   "mark_price": 0.65,
    "avg_price": 0.36
   },
   {
@@ -650,7 +650,7 @@
    "contracts": 0.5,
    "cost": 0.055,
    "opened_ts": 1793830525,
-   "mark_price": 0.15,
+   "mark_price": 0.19,
    "avg_price": 0.11
   },
   {
@@ -726,7 +726,7 @@
    "contracts": 1.0,
    "cost": 0.27,
    "opened_ts": 1793836827,
-   "mark_price": 0.32,
+   "mark_price": 0.34,
    "avg_price": 0.27
   },
   {
@@ -745,7 +745,7 @@
    "contracts": 13.0,
    "cost": 12.61,
    "opened_ts": 1793844026,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "avg_price": 0.97
   },
   {
@@ -764,7 +764,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1793851225,
-   "mark_price": 0.36,
+   "mark_price": 0.37,
    "avg_price": 0.37
   },
   {
@@ -859,7 +859,7 @@
    "contracts": 3.0,
    "cost": 0.48,
    "opened_ts": 1793872825,
-   "mark_price": 0.29,
+   "mark_price": 0.32,
    "avg_price": 0.16
   },
   {
@@ -15096,6 +15096,11 @@
    1793873726,
    131.4185,
    132.644
+  ],
+  [
+   1793874625,
+   131.4185,
+   132.862
   ]
  ],
  "forecast_log": {
@@ -23138,52 +23143,19 @@
   }
  },
  "last_run": {
-  "ts": 1793873726,
+  "ts": 1793874625,
   "error": null,
   "errors": [],
-  "fills": [
-   {
-    "ticker": "KXHIGHDEN-26NOV05-B60.5",
-    "side": "no",
-    "qty": 0.5,
-    "price": 0.91,
-    "strategy": "favorite"
-   }
-  ],
+  "fills": [],
   "settled": [],
-  "cancelled": [
-   {
-    "ticker": "KXLOWTDEN-26NOV05-T31",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXHIGHTTTN-26NOV05-T70",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTSAN-26NOV05-B53.5",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXHIGHDEN-26NOV05-B60.5",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTSATX-26NOV05-T55",
-    "reason": "no longer qualifies"
-   },
-   {
-    "ticker": "KXLOWTPHIL-26NOV05-B61.5",
-    "reason": "no longer qualifies"
-   }
-  ],
+  "cancelled": [],
   "placed": [],
   "markets": 0,
   "events": [],
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 42.3
+  "seconds": 45.1
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

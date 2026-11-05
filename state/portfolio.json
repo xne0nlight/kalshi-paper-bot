@@ -241,8 +241,14 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.88,
-   "shadow": {}
+   "mark_price": 0.84,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.84,
+     "proceeds": 4.98
+    }
+   }
   },
   {
    "id": 365,
@@ -275,8 +281,24 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
-   "mark_price": 0.85,
-   "shadow": {}
+   "mark_price": 0.71,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    },
+    "15": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    },
+    "20": {
+     "ts": 1793840426,
+     "bid": 0.71,
+     "proceeds": 1.39
+    }
+   }
   },
   {
    "id": 367,
@@ -292,8 +314,14 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.85,
-   "shadow": {}
+   "mark_price": 0.79,
+   "shadow": {
+    "10": {
+     "ts": 1793840426,
+     "bid": 0.79,
+     "proceeds": 4.67
+    }
+   }
   },
   {
    "id": 368,
@@ -309,7 +337,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.92,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -360,7 +388,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -394,7 +422,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -21874,17 +21902,22 @@
    1793839524,
    100.072,
    99.932
+  ],
+  [
+   1793840426,
+   100.072,
+   98.982
   ]
  ],
  "last_run": {
-  "ts": 1793839524,
+  "ts": 1793840426,
   "error": null,
-  "markets_scanned": 4124,
-  "candidates": 73,
+  "markets_scanned": 4126,
+  "candidates": 59,
   "rejections": {
-   "too little volume": 3712,
-   "no favorite in 80-95c band": 303,
-   "spread too wide": 32,
+   "too little volume": 3707,
+   "no favorite in 80-95c band": 323,
+   "spread too wide": 33,
    "favorite is slipping fast": 2,
    "nothing for sale at the ask": 2
   },
@@ -21895,70 +21928,70 @@
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 21.24,
+    "price": 0.94,
+    "hours_to_close": 20.99,
     "volume_24h": 9181.26,
-    "score": 0.6743
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $83,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 21.24,
-    "volume_24h": 3028.47,
-    "score": 0.6382
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 92.99 USD/Bbl on Nov 5, 2026? \u2014 Above $92.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 18.74,
-    "volume_24h": 1947.86,
-    "score": 0.6316
+    "score": 0.665
    },
    {
     "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 18.74,
+    "price": 0.93,
+    "hours_to_close": 18.49,
     "volume_24h": 4813.09,
-    "score": 0.6311
+    "score": 0.6419
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.74,
-    "volume_24h": 2591.99,
-    "score": 0.6309
-   },
-   {
-    "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
-    "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.23,
-    "volume_24h": 12125.0,
-    "score": 0.6301
+    "hours_to_close": 18.49,
+    "volume_24h": 2591.99,
+    "score": 0.6418
    },
    {
-    "label": "Toledo wins",
+    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.99,
+    "volume_24h": 2231.24,
+    "score": 0.6112
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 83.49 USD/Bbl on Nov 5, 2026? \u2014 Above $83.49",
     "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 23.24,
-    "volume_24h": 315137.72,
-    "score": 0.6218
+    "price": 0.93,
+    "hours_to_close": 18.49,
+    "volume_24h": 1503.07,
+    "score": 0.604
    },
    {
-    "label": "Sacramento St. wins",
+    "label": "Tie in the 1st half",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 22.99,
+    "volume_24h": 14038.09,
+    "score": 0.6024
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 20.99,
+    "volume_24h": 1521.74,
+    "score": 0.5965
+   },
+   {
+    "label": "Tie in the 1st half",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 23.24,
-    "volume_24h": 2455094.51,
-    "score": 0.6218
+    "hours_to_close": 22.99,
+    "volume_24h": 4451.29,
+    "score": 0.5961
    }
   ],
   "skipped": {},
-  "watch_added": 7,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 42
  },

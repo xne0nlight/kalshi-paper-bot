@@ -241,7 +241,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.82,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793840426,
@@ -291,7 +291,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -325,7 +325,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -342,7 +342,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -359,7 +359,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -393,7 +393,7 @@
    "opened_ts": 1793842225,
    "close_ts": 1793923200.0,
    "score": 0.6137,
-   "mark_price": 0.95,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -21999,91 +21999,95 @@
    1793844926,
    98.642,
    98.502
+  ],
+  [
+   1793845828,
+   98.642,
+   99.092
   ]
  ],
  "last_run": {
-  "ts": 1793844926,
+  "ts": 1793845828,
   "error": null,
-  "markets_scanned": 3746,
-  "candidates": 75,
+  "markets_scanned": 3753,
+  "candidates": 84,
   "rejections": {
-   "too little volume": 3272,
-   "no favorite in 80-95c band": 362,
+   "too little volume": 3274,
+   "no favorite in 80-95c band": 361,
    "spread too wide": 33,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 2
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 16.99,
+    "volume_24h": 5037.09,
+    "score": 0.669
+   },
+   {
+    "label": "Toledo wins",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 21.49,
+    "volume_24h": 1393543.19,
+    "score": 0.6564
+   },
+   {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 16262.65,
-    "score": 0.6516
+    "score": 0.6524
    },
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $83,000 or above",
+    "label": "Sacramento St. wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 3721.99,
-    "score": 0.6494
+    "price": 0.92,
+    "hours_to_close": 21.49,
+    "volume_24h": 6681767.41,
+    "score": 0.6464
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.74,
-    "volume_24h": 3500.77,
-    "score": 0.6281
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 1857.0,
-    "score": 0.6268
+    "hours_to_close": 27.49,
+    "volume_24h": 3516.4,
+    "score": 0.6287
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 4608.51,
-    "score": 0.6264
+    "score": 0.6272
    },
    {
     "label": "Ethereum price at Nov 5, 2026 at 5pm EST? \u2014 $2,340 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 19.74,
+    "hours_to_close": 19.49,
     "volume_24h": 1584.95,
-    "score": 0.6216
+    "score": 0.6224
    },
    {
-    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $80,500 to 80,749.99",
+    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $80,250 to 80,499.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 19.74,
-    "volume_24h": 2346.05,
-    "score": 0.6144
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Nov 5, 2026? \u2014 Above $90.99",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 17.24,
-    "volume_24h": 2305.79,
-    "score": 0.6126
+    "hours_to_close": 19.49,
+    "volume_24h": 2574.55,
+    "score": 0.6182
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 42
  },

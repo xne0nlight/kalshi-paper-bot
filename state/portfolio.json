@@ -241,12 +241,22 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.85,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793855724,
      "bid": 0.85,
      "proceeds": 5.04
+    },
+    "15": {
+     "ts": 1793866525,
+     "bid": 0.7,
+     "proceeds": 4.11
+    },
+    "20": {
+     "ts": 1793866525,
+     "bid": 0.7,
+     "proceeds": 4.11
     }
    }
   },
@@ -281,12 +291,17 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.81,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793862026,
      "bid": 0.83,
      "proceeds": 0.82
+    },
+    "15": {
+     "ts": 1793866525,
+     "bid": 0.78,
+     "proceeds": 0.76
     }
    }
   },
@@ -321,7 +336,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -22184,90 +22199,95 @@
    1793865625,
    99.222,
    97.662
+  ],
+  [
+   1793866525,
+   99.222,
+   96.682
   ]
  ],
  "last_run": {
-  "ts": 1793865625,
+  "ts": 1793866525,
   "error": null,
   "markets_scanned": 3641,
-  "candidates": 55,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 3094,
+   "too little volume": 3086,
    "no favorite in 80-95c band": 430,
-   "spread too wide": 60,
-   "nothing for sale at the ask": 2
+   "spread too wide": 94,
+   "nothing for sale at the ask": 6
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 13.99,
-    "volume_24h": 10615.79,
-    "score": 0.705
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,250 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 13.99,
-    "volume_24h": 6881.29,
-    "score": 0.6829
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,000 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 13.99,
-    "volume_24h": 60275.94,
-    "score": 0.665
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 13.99,
-    "volume_24h": 5088.22,
-    "score": 0.663
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 13.99,
-    "volume_24h": 8910.39,
-    "score": 0.6613
-   },
-   {
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.99,
+    "hours_to_close": 31.74,
     "volume_24h": 7618.02,
-    "score": 0.6464
+    "score": 0.6468
    },
    {
     "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 24.99,
-    "volume_24h": 7207.04,
-    "score": 0.6371
+    "hours_to_close": 24.74,
+    "volume_24h": 7575.04,
+    "score": 0.6393
    },
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $81,750 or above",
+    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 5, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 13.99,
-    "volume_24h": 13504.02,
-    "score": 0.635
+    "price": 0.95,
+    "hours_to_close": 24.74,
+    "volume_24h": 3424.25,
+    "score": 0.6334
+   },
+   {
+    "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 29.23,
+    "volume_24h": 4056.14,
+    "score": 0.6302
+   },
+   {
+    "label": "Will it rain in Columbus on Nov 5, 2026?",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 20.74,
+    "volume_24h": 2713.36,
+    "score": 0.5961
+   },
+   {
+    "label": "Will the maximum temperature be 88-89\u00b0 on Nov 5, 2026? \u2014 88\u00b0 to 89\u00b0",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 21.74,
+    "volume_24h": 2700.08,
+    "score": 0.5931
+   },
+   {
+    "label": "Will the maximum temperature be 50-51\u00b0 on Nov 5, 2026? \u2014 50\u00b0 to 51\u00b0",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 22.74,
+    "volume_24h": 1799.96,
+    "score": 0.5872
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 13.74,
+    "volume_24h": 5088.22,
+    "score": 0.5844
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

@@ -186,7 +186,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.84,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1793855724,
@@ -298,7 +298,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -315,7 +315,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793865625,
@@ -370,7 +370,7 @@
    "opened_ts": 1793849425,
    "close_ts": 1793955600.0,
    "score": 0.6145,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -22331,103 +22331,96 @@
    1793880926,
    99.782,
    98.532
+  ],
+  [
+   1793881825,
+   99.782,
+   98.652
   ]
  ],
  "last_run": {
-  "ts": 1793880926,
+  "ts": 1793881825,
   "error": null,
   "markets_scanned": 1924,
-  "candidates": 30,
+  "candidates": 29,
   "rejections": {
    "too little volume": 1708,
-   "no favorite in 80-95c band": 140,
-   "spread too wide": 42,
+   "no favorite in 80-95c band": 138,
+   "spread too wide": 45,
    "favorite is slipping fast": 4
   },
-  "opened": [
-   378,
-   379
-  ],
-  "settled": [
-   355,
-   359
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.74,
+    "hours_to_close": 27.49,
     "volume_24h": 7618.02,
-    "score": 0.6534
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 33.74,
-    "volume_24h": 12022.34,
-    "score": 0.6528
+    "score": 0.6538
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $83,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 33.74,
+    "price": 0.94,
+    "hours_to_close": 33.49,
     "volume_24h": 22254.67,
-    "score": 0.6328
+    "score": 0.6432
    },
    {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,520 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 33.74,
-    "volume_24h": 36288.14,
-    "score": 0.6228
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,500 or above",
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 33.74,
-    "volume_24h": 9899.45,
-    "score": 0.6225
+    "price": 0.94,
+    "hours_to_close": 33.49,
+    "volume_24h": 12022.34,
+    "score": 0.6432
    },
    {
     "label": "Will the unemployment rate (U-3) be above 4.0% in October? \u2014 Above 4.0%",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 25.23,
-    "volume_24h": 2510.09,
-    "score": 0.6222
+    "hours_to_close": 24.98,
+    "volume_24h": 2610.09,
+    "score": 0.6241
+   },
+   {
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,520 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 33.49,
+    "volume_24h": 36288.14,
+    "score": 0.6232
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $77,500 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 33.49,
+    "volume_24h": 9899.45,
+    "score": 0.6228
    },
    {
     "label": "Bitcoin price range on Nov 6, 2026? \u2014 $79,000 to 79,499.99",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 14208.27,
-    "score": 0.6128
+    "score": 0.6132
    },
    {
     "label": "Bitcoin price range on Nov 6, 2026? \u2014 $78,500 to 78,999.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 3663.75,
-    "score": 0.6101
+    "score": 0.6105
    }
   ],
-  "skipped": {
-   "related-market cap (Presidential approval)": 2,
-   "related-market cap (Crypto)": 13,
-   "related-market cap (Oil prices)": 3,
-   "tracked only (below bet price floor)": 2,
-   "related-market cap (Precious metals)": 2
-  },
-  "watch_added": 1,
-  "watch_graded": 18,
+  "skipped": {},
+  "watch_added": 3,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

@@ -289,7 +289,7 @@
    "contracts": 0.04,
    "cost": 0.0324,
    "opened_ts": 1793808029,
-   "mark_price": 0.64,
+   "mark_price": 0.63,
    "avg_price": 0.81
   },
   {
@@ -308,7 +308,7 @@
    "contracts": 0.01,
    "cost": 0.0045,
    "opened_ts": 1793808927,
-   "mark_price": 0.25,
+   "mark_price": 0.14,
    "avg_price": 0.45
   },
   {
@@ -365,7 +365,7 @@
    "contracts": 1.0,
    "cost": 0.36,
    "opened_ts": 1793818825,
-   "mark_price": 0.68,
+   "mark_price": 0.69,
    "avg_price": 0.36
   },
   {
@@ -422,7 +422,7 @@
    "contracts": 1.0,
    "cost": 0.23,
    "opened_ts": 1793823336,
-   "mark_price": 0.3,
+   "mark_price": 0.29,
    "avg_price": 0.23
   },
   {
@@ -441,7 +441,7 @@
    "contracts": 1.0,
    "cost": 0.44,
    "opened_ts": 1793827826,
-   "mark_price": 0.51,
+   "mark_price": 0.54,
    "avg_price": 0.44
   },
   {
@@ -479,7 +479,7 @@
    "contracts": 0.5,
    "cost": 0.055,
    "opened_ts": 1793830525,
-   "mark_price": 0.14,
+   "mark_price": 0.17,
    "avg_price": 0.11
   },
   {
@@ -498,7 +498,7 @@
    "contracts": 1.0,
    "cost": 0.44,
    "opened_ts": 1793834125,
-   "mark_price": 0.46,
+   "mark_price": 0.45,
    "avg_price": 0.44
   },
   {
@@ -555,7 +555,7 @@
    "contracts": 1.0,
    "cost": 0.27,
    "opened_ts": 1793836827,
-   "mark_price": 0.35,
+   "mark_price": 0.34,
    "avg_price": 0.27
   },
   {
@@ -593,7 +593,7 @@
    "contracts": 1.0,
    "cost": 0.37,
    "opened_ts": 1793851225,
-   "mark_price": 0.33,
+   "mark_price": 0.35,
    "avg_price": 0.37
   },
   {
@@ -650,7 +650,7 @@
    "contracts": 1.0,
    "cost": 0.82,
    "opened_ts": 1793859325,
-   "mark_price": 0.79,
+   "mark_price": 0.82,
    "avg_price": 0.82
   },
   {
@@ -688,7 +688,7 @@
    "contracts": 3.0,
    "cost": 0.48,
    "opened_ts": 1793872825,
-   "mark_price": 0.23,
+   "mark_price": 0.35,
    "avg_price": 0.16
   },
   {
@@ -707,7 +707,7 @@
    "contracts": 0.5,
    "cost": 0.455,
    "opened_ts": 1793873726,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "avg_price": 0.91
   }
  ],
@@ -15172,6 +15172,11 @@
    1793880926,
    135.1617,
    132.0229
+  ],
+  [
+   1793881825,
+   135.1617,
+   132.4614
   ]
  ],
  "forecast_log": {
@@ -22638,48 +22643,11 @@
   }
  },
  "last_run": {
-  "ts": 1793880926,
+  "ts": 1793881825,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [
-   {
-    "ticker": "KXHIGHPHIL-26NOV04-B76.5",
-    "pnl": -0.08
-   },
-   {
-    "ticker": "KXHIGHMIA-26NOV04-T88",
-    "pnl": 0.65
-   },
-   {
-    "ticker": "KXHIGHTBOS-26NOV04-B74.5",
-    "pnl": -0.08
-   },
-   {
-    "ticker": "KXHIGHTDC-26NOV04-B72.5",
-    "pnl": 0.65
-   },
-   {
-    "ticker": "KXHIGHTDC-26NOV04-B74.5",
-    "pnl": -0.37
-   },
-   {
-    "ticker": "KXHIGHNY-26NOV04-T70",
-    "pnl": 0.5559
-   },
-   {
-    "ticker": "KXLOWTNYC-26NOV04-B55.5",
-    "pnl": 0.8723
-   },
-   {
-    "ticker": "KXHIGHTTTN-26NOV04-B71.5",
-    "pnl": 1.82
-   },
-   {
-    "ticker": "KXLOWTPHIL-26NOV04-B51.5",
-    "pnl": -0.275
-   }
-  ],
+  "settled": [],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -22687,7 +22655,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 43.9
+  "seconds": 39.8
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

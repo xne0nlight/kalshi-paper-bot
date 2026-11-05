@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.452,
- "fees_paid": 9.24,
+ "cash": 12.732,
+ "fees_paid": 9.26,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 373,
+ "next_id": 374,
  "open_positions": [
   {
    "id": 284,
@@ -76,44 +76,6 @@
    "score": 0.5428,
    "mark_price": 0.96,
    "shadow": {}
-  },
-  {
-   "id": 345,
-   "ticker": "KXRAINELECTION-03NOV26-SGF",
-   "event_ticker": "KXRAINELECTION-03NOV26",
-   "series": "KXRAINELECTION",
-   "label": "Will it rain in Springfield, MO on Election Day?",
-   "side": "yes",
-   "contracts": 5,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 4.77,
-   "opened_ts": 1793642426,
-   "close_ts": 1793771940.0,
-   "score": 0.5127,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793646928,
-     "bid": 0.79,
-     "proceeds": 3.89
-    },
-    "15": {
-     "ts": 1793646928,
-     "bid": 0.79,
-     "proceeds": 3.89
-    },
-    "20": {
-     "ts": 1793647825,
-     "bid": 0.71,
-     "proceeds": 3.47
-    },
-    "30": {
-     "ts": 1793667626,
-     "bid": 0.59,
-     "proceeds": 2.86
-    }
-   }
   },
   {
    "id": 355,
@@ -279,7 +241,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -296,7 +258,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -313,7 +275,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
-   "mark_price": 0.96,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -330,7 +292,7 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -415,6 +377,23 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 373,
+   "ticker": "KXDJI-05NOV26-GE52600P00",
+   "event_ticker": "KXDJI-05NOV26",
+   "series": "KXDJI",
+   "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793838626,
+   "close_ts": 1793912340.0,
+   "score": 0.6274,
    "mark_price": 0.93,
    "shadow": {}
   }
@@ -9520,6 +9499,48 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1793830525,
+   "won": true
+  },
+  {
+   "id": 345,
+   "ticker": "KXRAINELECTION-03NOV26-SGF",
+   "event_ticker": "KXRAINELECTION-03NOV26",
+   "series": "KXRAINELECTION",
+   "label": "Will it rain in Springfield, MO on Election Day?",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793642426,
+   "close_ts": 1793771940.0,
+   "score": 0.5127,
+   "shadow": {
+    "10": {
+     "ts": 1793646928,
+     "bid": 0.79,
+     "proceeds": 3.89
+    },
+    "15": {
+     "ts": 1793646928,
+     "bid": 0.79,
+     "proceeds": 3.89
+    },
+    "20": {
+     "ts": 1793647825,
+     "bid": 0.71,
+     "proceeds": 3.47
+    },
+    "30": {
+     "ts": 1793667626,
+     "bid": 0.59,
+     "proceeds": 2.86
+    }
+   },
+   "payout": 5.0,
+   "pnl": 0.23,
+   "result": "YES",
+   "closed_ts": 1793838626,
    "won": true
   }
  ],
@@ -21843,91 +21864,102 @@
    1793837726,
    99.842,
    100.822
+  ],
+  [
+   1793838626,
+   100.072,
+   100.632
   ]
  ],
  "last_run": {
-  "ts": 1793837726,
+  "ts": 1793838626,
   "error": null,
   "markets_scanned": 4124,
-  "candidates": 72,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 3793,
-   "no favorite in 80-95c band": 243,
-   "spread too wide": 14,
-   "nothing for sale at the ask": 2
+   "too little volume": 3782,
+   "no favorite in 80-95c band": 256,
+   "spread too wide": 13,
+   "nothing for sale at the ask": 3
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   373
+  ],
+  "settled": [
+   345
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Toledo wins",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 133489.73,
-    "score": 0.6706
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 178636.62,
+    "score": 0.6512
    },
    {
     "label": "Sacramento St. wins",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 1672692.25,
-    "score": 0.6706
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 1961235.12,
+    "score": 0.6512
    },
    {
-    "label": "Toledo wins the 1st half",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 9036.53,
-    "score": 0.6573
+    "label": "Sacramento St. wins the 1st half",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 22101.36,
+    "score": 0.6412
    },
    {
     "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 2811.96,
-    "score": 0.6344
+    "score": 0.6351
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 92.99 USD/Bbl on Nov 5, 2026? \u2014 Above $92.99",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.99,
+    "volume_24h": 1952.86,
+    "score": 0.6308
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 19.24,
+    "price": 0.94,
+    "hours_to_close": 18.99,
     "volume_24h": 2591.99,
-    "score": 0.6192
+    "score": 0.6301
    },
    {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.74,
-    "volume_24h": 4157.7,
-    "score": 0.612
-   },
-   {
-    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 29.74,
-    "volume_24h": 2207.24,
-    "score": 0.6096
-   },
-   {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
+    "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 21.74,
-    "volume_24h": 1115.45,
-    "score": 0.6043
+    "hours_to_close": 20.48,
+    "volume_24h": 9429.0,
+    "score": 0.6274
+   },
+   {
+    "label": "Toledo wins the 1st half",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 23.49,
+    "volume_24h": 9335.29,
+    "score": 0.619
    }
   ],
-  "skipped": {},
-  "watch_added": 10,
-  "watch_graded": 0,
+  "skipped": {
+   "related-market cap (Oil prices)": 2
+  },
+  "watch_added": 5,
+  "watch_graded": 9,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

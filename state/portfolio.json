@@ -241,7 +241,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.97,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -343,7 +343,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -394,7 +394,7 @@
    "opened_ts": 1793849425,
    "close_ts": 1793955600.0,
    "score": 0.6145,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -22045,97 +22045,96 @@
    1793849425,
    98.922,
    99.752
+  ],
+  [
+   1793850327,
+   98.922,
+   99.152
   ]
  ],
  "last_run": {
-  "ts": 1793849425,
+  "ts": 1793850327,
   "error": null,
-  "markets_scanned": 3879,
-  "candidates": 78,
+  "markets_scanned": 3877,
+  "candidates": 83,
   "rejections": {
-   "too little volume": 3383,
-   "no favorite in 80-95c band": 379,
+   "too little volume": 3375,
+   "no favorite in 80-95c band": 381,
    "spread too wide": 36,
-   "nothing for sale at the ask": 3
+   "favorite is slipping fast": 1,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   376
-  ],
-  "settled": [
-   364
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 17220.94,
-    "score": 0.6657
+    "price": 0.92,
+    "hours_to_close": 18.24,
+    "volume_24h": 17222.06,
+    "score": 0.6566
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 18.49,
-    "volume_24h": 3564.99,
-    "score": 0.6522
+    "hours_to_close": 18.24,
+    "volume_24h": 3722.36,
+    "score": 0.6544
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 4715.49,
-    "score": 0.6413
+    "hours_to_close": 18.24,
+    "volume_24h": 6786.38,
+    "score": 0.654
    },
    {
-    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Nov 5, 2026? \u2014 Above $90.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.49,
-    "volume_24h": 2935.58,
-    "score": 0.6358
+    "price": 0.93,
+    "hours_to_close": 15.74,
+    "volume_24h": 2505.79,
+    "score": 0.6315
    },
    {
     "label": "Dow Jones price: At least 52,700 November 5, 2026 at 4pm ET \u2014 At least $52,700",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 17.48,
+    "hours_to_close": 17.23,
     "volume_24h": 21565.0,
-    "score": 0.6295
+    "score": 0.6304
    },
    {
-    "label": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Nov 5, 2026? \u2014 Above $91.49",
+    "label": "Will the WTI crude oil settlement price be above 89.99 USD/Bbl on Nov 5, 2026? \u2014 Above $89.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 15.99,
-    "volume_24h": 1762.58,
-    "score": 0.629
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 90.99 USD/Bbl on Nov 5, 2026? \u2014 Above $90.99",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.99,
-    "volume_24h": 2505.79,
-    "score": 0.6204
+    "price": 0.88,
+    "hours_to_close": 15.74,
+    "volume_24h": 11112.2,
+    "score": 0.6266
    },
    {
     "label": "Will the WTI crude oil settlement price be above 90.49 USD/Bbl on Nov 5, 2026? \u2014 Above $90.49",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 15.99,
+    "hours_to_close": 15.74,
     "volume_24h": 3399.23,
-    "score": 0.6203
+    "score": 0.6214
+   },
+   {
+    "label": "Dow Jones price: At least 52,500 November 5, 2026 at 4pm ET \u2014 At least $52,500",
+    "side": "yes",
+    "price": 0.93,
+    "hours_to_close": 17.23,
+    "volume_24h": 49866.0,
+    "score": 0.6204
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 3,
-   "related-market cap (Oil prices)": 4
-  },
-  "watch_added": 1,
+  "skipped": {},
+  "watch_added": 5,
   "watch_graded": 0,
   "api_calls": 42
  },

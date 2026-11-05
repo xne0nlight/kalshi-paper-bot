@@ -264,7 +264,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -321,7 +321,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793916000.0,
    "score": 0.6021,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -338,7 +338,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -355,7 +355,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -22153,90 +22153,95 @@
    1793862925,
    99.222,
    98.672
+  ],
+  [
+   1793863825,
+   99.222,
+   98.482
   ]
  ],
  "last_run": {
-  "ts": 1793862925,
+  "ts": 1793863825,
   "error": null,
-  "markets_scanned": 3990,
-  "candidates": 90,
+  "markets_scanned": 4054,
+  "candidates": 85,
   "rejections": {
-   "too little volume": 3438,
-   "no favorite in 80-95c band": 417,
-   "spread too wide": 44,
-   "nothing for sale at the ask": 1
+   "too little volume": 3496,
+   "no favorite in 80-95c band": 425,
+   "spread too wide": 45,
+   "nothing for sale at the ask": 3
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,750 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 14.74,
-    "volume_24h": 10457.09,
-    "score": 0.7012
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.24,
-    "volume_24h": 5072.72,
-    "score": 0.693
-   },
-   {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.74,
+    "price": 0.95,
+    "hours_to_close": 14.49,
     "volume_24h": 19269.96,
-    "score": 0.6912
+    "score": 0.7025
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 11.99,
+    "volume_24h": 2708.44,
+    "score": 0.6742
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,500 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 14.74,
+    "price": 0.94,
+    "hours_to_close": 14.49,
     "volume_24h": 5087.18,
-    "score": 0.6792
+    "score": 0.6705
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 14.74,
+    "price": 0.92,
+    "hours_to_close": 14.49,
     "volume_24h": 8862.28,
-    "score": 0.6773
+    "score": 0.6685
    },
    {
-    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 14.74,
-    "volume_24h": 3412.66,
-    "score": 0.6562
+    "price": 0.92,
+    "hours_to_close": 11.99,
+    "volume_24h": 5072.72,
+    "score": 0.6646
+   },
+   {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,250 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 14.49,
+    "volume_24h": 6774.29,
+    "score": 0.6598
    },
    {
     "label": "Will the WTI crude oil settlement price be above 83.49 USD/Bbl on Nov 5, 2026? \u2014 Above $83.49",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 12.24,
-    "volume_24h": 2721.22,
-    "score": 0.6527
+    "hours_to_close": 11.99,
+    "volume_24h": 2722.29,
+    "score": 0.6543
    },
    {
-    "label": "Bitcoin price on Nov 5, 2026? \u2014 $79,000 or above",
-    "side": "yes",
-    "price": 0.9,
-    "hours_to_close": 14.74,
-    "volume_24h": 10828.89,
-    "score": 0.6512
+    "label": "Will the President's approval rating be between 38.2 and 38.4 according to RealClearPolitics? \u2014 38.2 to 38.4",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 32.49,
+    "volume_24h": 7771.18,
+    "score": 0.6463
    }
   ],
   "skipped": {},
-  "watch_added": 3,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

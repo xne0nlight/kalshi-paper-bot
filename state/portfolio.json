@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.282,
- "fees_paid": 9.63,
+ "cash": 9.702,
+ "fees_paid": 9.66,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 386,
+ "next_id": 388,
  "open_positions": [
   {
    "id": 284,
@@ -91,7 +91,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -133,23 +133,6 @@
    }
   },
   {
-   "id": 371,
-   "ticker": "KXBTC-26NOV0517-B79625",
-   "event_ticker": "KXBTC-26NOV0517",
-   "series": "KXBTC",
-   "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
-   "side": "no",
-   "contracts": 5,
-   "price": 0.94,
-   "fee": 0.02,
-   "cost": 4.72,
-   "opened_ts": 1793830525,
-   "close_ts": 1793916000.0,
-   "score": 0.6021,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 372,
    "ticker": "KXHIGHDEN-26NOV05-B60.5",
    "event_ticker": "KXHIGHDEN-26NOV05",
@@ -163,7 +146,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793882725,
@@ -179,44 +162,6 @@
      "ts": 1793889926,
      "bid": 0.73,
      "proceeds": 4.29
-    }
-   }
-  },
-  {
-   "id": 373,
-   "ticker": "KXDJI-05NOV26-GE52600P00",
-   "event_ticker": "KXDJI-05NOV26",
-   "series": "KXDJI",
-   "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793838626,
-   "close_ts": 1793912340.0,
-   "score": 0.6274,
-   "mark_price": 0.01,
-   "shadow": {
-    "10": {
-     "ts": 1793865625,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "15": {
-     "ts": 1793865625,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "20": {
-     "ts": 1793865625,
-     "bid": 0.75,
-     "proceeds": 4.42
-    },
-    "30": {
-     "ts": 1793869227,
-     "bid": 0.05,
-     "proceeds": 0.28
     }
    }
   },
@@ -325,7 +270,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1793977140.0,
    "score": 0.5462,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -342,7 +287,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -376,7 +321,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -411,6 +356,40 @@
    "close_ts": 1794031200.0,
    "score": 0.5186,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 386,
+   "ticker": "KXETHD-26NOV0617-T2399.99",
+   "event_ticker": "KXETHD-26NOV0617",
+   "series": "KXETHD",
+   "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793916926,
+   "close_ts": 1794002400.0,
+   "score": 0.6706,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 387,
+   "ticker": "KXHIGHAUS-26NOV06-B73.5",
+   "event_ticker": "KXHIGHAUS-26NOV06",
+   "series": "KXHIGHAUS",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 6, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1793916926,
+   "close_ts": 1794034800.0,
+   "score": 0.5573,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -9927,6 +9906,69 @@
    "result": "NO",
    "closed_ts": 1793902525,
    "won": true
+  },
+  {
+   "id": 371,
+   "ticker": "KXBTC-26NOV0517-B79625",
+   "event_ticker": "KXBTC-26NOV0517",
+   "series": "KXBTC",
+   "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.94,
+   "fee": 0.02,
+   "cost": 4.72,
+   "opened_ts": 1793830525,
+   "close_ts": 1793916000.0,
+   "score": 0.6021,
+   "shadow": {},
+   "payout": 5.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1793916926,
+   "won": true
+  },
+  {
+   "id": 373,
+   "ticker": "KXDJI-05NOV26-GE52600P00",
+   "event_ticker": "KXDJI-05NOV26",
+   "series": "KXDJI",
+   "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793838626,
+   "close_ts": 1793912340.0,
+   "score": 0.6274,
+   "shadow": {
+    "10": {
+     "ts": 1793865625,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "15": {
+     "ts": 1793865625,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "20": {
+     "ts": 1793865625,
+     "bid": 0.75,
+     "proceeds": 4.42
+    },
+    "30": {
+     "ts": 1793869227,
+     "bid": 0.05,
+     "proceeds": 0.28
+    }
+   },
+   "payout": 0.0,
+   "pnl": -5.72,
+   "result": "NO",
+   "closed_ts": 1793916926,
+   "won": false
   }
  ],
  "equity_history": [
@@ -22674,91 +22716,107 @@
    1793916025,
    101.612,
    95.042
+  ],
+  [
+   1793916926,
+   96.172,
+   94.622
   ]
  ],
  "last_run": {
-  "ts": 1793916025,
+  "ts": 1793916926,
   "error": null,
-  "markets_scanned": 4998,
-  "candidates": 52,
+  "markets_scanned": 5028,
+  "candidates": 51,
   "rejections": {
-   "too little volume": 4707,
-   "no favorite in 80-95c band": 204,
-   "spread too wide": 30,
-   "favorite is slipping fast": 5
+   "too little volume": 4729,
+   "no favorite in 80-95c band": 205,
+   "spread too wide": 37,
+   "favorite is slipping fast": 4,
+   "nothing for sale at the ask": 2
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   386,
+   387
+  ],
+  "settled": [
+   371,
+   373
+  ],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 23744.13,
+    "score": 0.6706
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,500 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 63190.24,
+    "score": 0.6706
+   },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 18216.04,
-    "score": 0.67
+    "hours_to_close": 23.74,
+    "volume_24h": 26040.98,
+    "score": 0.6706
+   },
+   {
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,360 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 23.74,
+    "volume_24h": 24574.79,
+    "score": 0.6406
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 37359.32,
-    "score": 0.66
+    "price": 0.92,
+    "hours_to_close": 23.74,
+    "volume_24h": 39533.93,
+    "score": 0.6406
    },
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,500 or above",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 30561.99,
-    "score": 0.66
-   },
-   {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,120 or above",
-    "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 23.99,
-    "volume_24h": 13094.0,
-    "score": 0.63
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
+    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 23.99,
-    "volume_24h": 13035.96,
-    "score": 0.63
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 3014.33,
+    "score": 0.6316
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.99,
-    "volume_24h": 19590.88,
-    "score": 0.63
+    "hours_to_close": 23.74,
+    "volume_24h": 34032.48,
+    "score": 0.6306
    },
    {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,360 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.99,
-    "volume_24h": 24534.33,
-    "score": 0.62
-   },
-   {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,320 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.99,
-    "volume_24h": 19851.42,
-    "score": 0.61
+    "label": "Will the brent crude oil close price be above 93.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $93.99",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.74,
+    "volume_24h": 3198.89,
+    "score": 0.6235
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "related-market cap (Crypto)": 8,
+   "related-market cap (Oil prices)": 3,
+   "tracked only (below bet price floor)": 1
+  },
   "watch_added": 2,
-  "watch_graded": 0,
+  "watch_graded": 69,
   "api_calls": 44
  },
  "shadow_since": 1791904549,

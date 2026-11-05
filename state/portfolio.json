@@ -241,7 +241,7 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.92,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -275,7 +275,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
-   "mark_price": 0.91,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.9,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.96,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -21869,97 +21869,97 @@
    1793838626,
    100.072,
    100.632
+  ],
+  [
+   1793839524,
+   100.072,
+   99.932
   ]
  ],
  "last_run": {
-  "ts": 1793838626,
+  "ts": 1793839524,
   "error": null,
   "markets_scanned": 4124,
-  "candidates": 70,
+  "candidates": 73,
   "rejections": {
-   "too little volume": 3782,
-   "no favorite in 80-95c band": 256,
-   "spread too wide": 13,
-   "nothing for sale at the ask": 3
+   "too little volume": 3712,
+   "no favorite in 80-95c band": 303,
+   "spread too wide": 32,
+   "favorite is slipping fast": 2,
+   "nothing for sale at the ask": 2
   },
-  "opened": [
-   373
-  ],
-  "settled": [
-   345
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Toledo wins",
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.49,
-    "volume_24h": 178636.62,
-    "score": 0.6512
+    "price": 0.95,
+    "hours_to_close": 21.24,
+    "volume_24h": 9181.26,
+    "score": 0.6743
    },
    {
-    "label": "Sacramento St. wins",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.49,
-    "volume_24h": 1961235.12,
-    "score": 0.6512
-   },
-   {
-    "label": "Sacramento St. wins the 1st half",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.49,
-    "volume_24h": 22101.36,
-    "score": 0.6412
-   },
-   {
-    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $83,000 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.49,
-    "volume_24h": 2811.96,
-    "score": 0.6351
+    "hours_to_close": 21.24,
+    "volume_24h": 3028.47,
+    "score": 0.6382
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.99 USD/Bbl on Nov 5, 2026? \u2014 Above $92.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.99,
-    "volume_24h": 1952.86,
-    "score": 0.6308
+    "hours_to_close": 18.74,
+    "volume_24h": 1947.86,
+    "score": 0.6316
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 18.74,
+    "volume_24h": 4813.09,
+    "score": 0.6311
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.99,
+    "hours_to_close": 18.74,
     "volume_24h": 2591.99,
-    "score": 0.6301
+    "score": 0.6309
    },
    {
     "label": "Dow Jones price: At least 52,600 November 5, 2026 at 4pm ET \u2014 At least $52,600",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 20.48,
-    "volume_24h": 9429.0,
-    "score": 0.6274
+    "hours_to_close": 20.23,
+    "volume_24h": 12125.0,
+    "score": 0.6301
    },
    {
-    "label": "Toledo wins the 1st half",
+    "label": "Toledo wins",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 23.49,
-    "volume_24h": 9335.29,
-    "score": 0.619
+    "hours_to_close": 23.24,
+    "volume_24h": 315137.72,
+    "score": 0.6218
+   },
+   {
+    "label": "Sacramento St. wins",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 23.24,
+    "volume_24h": 2455094.51,
+    "score": 0.6218
    }
   ],
-  "skipped": {
-   "related-market cap (Oil prices)": 2
-  },
-  "watch_added": 5,
-  "watch_graded": 9,
+  "skipped": {},
+  "watch_added": 7,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

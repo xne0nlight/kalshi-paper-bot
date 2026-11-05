@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.702,
- "fees_paid": 9.66,
+ "cash": 9.832,
+ "fees_paid": 9.67,
  "peak_equity": 109.65,
  "day": "2026-11-05",
  "day_start_equity": 99.842,
- "next_id": 388,
+ "next_id": 389,
  "open_positions": [
-  {
-   "id": 284,
-   "ticker": "KXERCOTWESTW-23OCT26-T25",
-   "event_ticker": "KXERCOTWESTW-23OCT26",
-   "series": "KXERCOTWESTW",
-   "label": "ERCOT West Hub average power price above $25/MWh, Week 44? \u2014 Above $25/MWh",
-   "side": "yes",
-   "contracts": 2,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 1.87,
-   "opened_ts": 1793294125,
-   "close_ts": 1793393940.0,
-   "score": 0.6006,
-   "mark_price": 0.95,
-   "shadow": {}
-  },
   {
    "id": 339,
    "ticker": "KXSUEZWEEKLY-26NOV01-T270",
@@ -91,7 +74,7 @@
    "opened_ts": 1793811629,
    "close_ts": 1793941200.0,
    "score": 0.5389,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -108,7 +91,7 @@
    "opened_ts": 1793816127,
    "close_ts": 1793944800.0,
    "score": 0.5367,
-   "mark_price": 0.97,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793862026,
@@ -146,7 +129,7 @@
    "opened_ts": 1793830525,
    "close_ts": 1793952000.0,
    "score": 0.5335,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793882725,
@@ -230,7 +213,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -355,7 +338,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -372,7 +355,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794002400.0,
    "score": 0.6706,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -390,6 +373,23 @@
    "close_ts": 1794034800.0,
    "score": 0.5573,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 388,
+   "ticker": "KXHIGHLAX-26NOV06-B79.5",
+   "event_ticker": "KXHIGHLAX-26NOV06",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 79-80\u00b0 on Nov 6, 2026? \u2014 79\u00b0 to 80\u00b0",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793917827,
+   "close_ts": 1794042000.0,
+   "score": 0.5457,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -9969,6 +9969,27 @@
    "result": "NO",
    "closed_ts": 1793916926,
    "won": false
+  },
+  {
+   "id": 284,
+   "ticker": "KXERCOTWESTW-23OCT26-T25",
+   "event_ticker": "KXERCOTWESTW-23OCT26",
+   "series": "KXERCOTWESTW",
+   "label": "ERCOT West Hub average power price above $25/MWh, Week 44? \u2014 Above $25/MWh",
+   "side": "yes",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793294125,
+   "close_ts": 1793393940.0,
+   "score": 0.6006,
+   "shadow": {},
+   "payout": 2.0,
+   "pnl": 0.13,
+   "result": "YES",
+   "closed_ts": 1793917827,
+   "won": true
   }
  ],
  "equity_history": [
@@ -22721,103 +22742,104 @@
    1793916926,
    96.172,
    94.622
+  ],
+  [
+   1793917827,
+   96.302,
+   94.542
   ]
  ],
  "last_run": {
-  "ts": 1793916926,
+  "ts": 1793917827,
   "error": null,
   "markets_scanned": 5028,
-  "candidates": 51,
+  "candidates": 54,
   "rejections": {
-   "too little volume": 4729,
-   "no favorite in 80-95c band": 205,
-   "spread too wide": 37,
-   "favorite is slipping fast": 4,
-   "nothing for sale at the ask": 2
+   "too little volume": 4727,
+   "no favorite in 80-95c band": 196,
+   "spread too wide": 47,
+   "favorite is slipping fast": 4
   },
   "opened": [
-   386,
-   387
+   388
   ],
   "settled": [
-   371,
-   373
+   284
   ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 23744.13,
-    "score": 0.6706
-   },
-   {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 63190.24,
-    "score": 0.6706
+    "hours_to_close": 23.49,
+    "volume_24h": 62868.28,
+    "score": 0.6712
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 26040.98,
-    "score": 0.6706
+    "hours_to_close": 23.49,
+    "volume_24h": 26729.02,
+    "score": 0.6712
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,500 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 35402.03,
+    "score": 0.6612
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,360 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.74,
-    "volume_24h": 24574.79,
-    "score": 0.6406
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 24474.25,
+    "score": 0.6512
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 23.74,
-    "volume_24h": 39533.93,
-    "score": 0.6406
+    "price": 0.93,
+    "hours_to_close": 23.49,
+    "volume_24h": 39136.47,
+    "score": 0.6512
    },
    {
-    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 3014.33,
-    "score": 0.6316
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,120 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 23.74,
-    "volume_24h": 34032.48,
-    "score": 0.6306
+    "hours_to_close": 23.49,
+    "volume_24h": 13145.0,
+    "score": 0.6312
    },
    {
     "label": "Will the brent crude oil close price be above 93.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $93.99",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 23.74,
-    "volume_24h": 3198.89,
-    "score": 0.6235
+    "hours_to_close": 23.49,
+    "volume_24h": 3099.25,
+    "score": 0.6231
+   },
+   {
+    "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 3014.33,
+    "score": 0.6222
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 8,
-   "related-market cap (Oil prices)": 3,
-   "tracked only (below bet price floor)": 1
+   "related-market cap (Crypto)": 10,
+   "related-market cap (Oil prices)": 2
   },
-  "watch_added": 2,
-  "watch_graded": 69,
-  "api_calls": 44
+  "watch_added": 0,
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

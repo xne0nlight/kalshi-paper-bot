@@ -241,12 +241,17 @@
    "opened_ts": 1793793626,
    "close_ts": 1793923200.0,
    "score": 0.65,
-   "mark_price": 0.84,
+   "mark_price": 0.78,
    "shadow": {
     "10": {
      "ts": 1793840426,
      "bid": 0.84,
      "proceeds": 4.98
+    },
+    "15": {
+     "ts": 1793841324,
+     "bid": 0.78,
+     "proceeds": 4.6
     }
    }
   },
@@ -264,7 +269,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793897940.0,
    "score": 0.5692,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -281,7 +286,7 @@
    "opened_ts": 1793794525,
    "close_ts": 1793923200.0,
    "score": 0.4858,
-   "mark_price": 0.71,
+   "mark_price": 0.4,
    "shadow": {
     "10": {
      "ts": 1793840426,
@@ -297,6 +302,11 @@
      "ts": 1793840426,
      "bid": 0.71,
      "proceeds": 1.39
+    },
+    "30": {
+     "ts": 1793841324,
+     "bid": 0.4,
+     "proceeds": 0.76
     }
    }
   },
@@ -314,12 +324,22 @@
    "opened_ts": 1793801725,
    "close_ts": 1793923200.0,
    "score": 0.4997,
-   "mark_price": 0.79,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793840426,
      "bid": 0.79,
      "proceeds": 4.67
+    },
+    "15": {
+     "ts": 1793841324,
+     "bid": 0.64,
+     "proceeds": 3.74
+    },
+    "20": {
+     "ts": 1793841324,
+     "bid": 0.64,
+     "proceeds": 3.74
     }
    }
   },
@@ -371,7 +391,7 @@
    "opened_ts": 1793829627,
    "close_ts": 1793901540.0,
    "score": 0.5581,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -422,7 +442,7 @@
    "opened_ts": 1793838626,
    "close_ts": 1793912340.0,
    "score": 0.6274,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -21907,91 +21927,95 @@
    1793840426,
    100.072,
    98.982
+  ],
+  [
+   1793841324,
+   100.072,
+   97.042
   ]
  ],
  "last_run": {
-  "ts": 1793840426,
+  "ts": 1793841324,
   "error": null,
-  "markets_scanned": 4126,
-  "candidates": 59,
+  "markets_scanned": 4141,
+  "candidates": 70,
   "rejections": {
-   "too little volume": 3707,
-   "no favorite in 80-95c band": 323,
-   "spread too wide": 33,
-   "favorite is slipping fast": 2,
-   "nothing for sale at the ask": 2
+   "too little volume": 3677,
+   "no favorite in 80-95c band": 366,
+   "spread too wide": 24,
+   "nothing for sale at the ask": 4
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,000 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 20.74,
+    "volume_24h": 5807.76,
+    "score": 0.6608
+   },
+   {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $78,250 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 20.99,
-    "volume_24h": 9181.26,
-    "score": 0.665
+    "price": 0.93,
+    "hours_to_close": 20.74,
+    "volume_24h": 9261.73,
+    "score": 0.656
    },
    {
     "label": "Will the WTI crude oil settlement price be above 91.99 USD/Bbl on Nov 5, 2026? \u2014 Above $91.99",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 4813.09,
-    "score": 0.6419
+    "hours_to_close": 18.24,
+    "volume_24h": 4823.09,
+    "score": 0.6429
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.49 USD/Bbl on Nov 5, 2026? \u2014 Above $92.49",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.49,
+    "hours_to_close": 18.24,
     "volume_24h": 2591.99,
-    "score": 0.6418
+    "score": 0.6427
    },
    {
-    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "label": "Eastern Michigan wins the 1st half",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 2231.24,
-    "score": 0.6112
-   },
-   {
-    "label": "Will the WTI crude oil settlement price be above 83.49 USD/Bbl on Nov 5, 2026? \u2014 Above $83.49",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 1503.07,
-    "score": 0.604
-   },
-   {
-    "label": "Tie in the 1st half",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 22.99,
-    "volume_24h": 14038.09,
-    "score": 0.6024
+    "price": 0.94,
+    "hours_to_close": 22.74,
+    "volume_24h": 3753.94,
+    "score": 0.6312
    },
    {
     "label": "Bitcoin price on Nov 5, 2026? \u2014 $82,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.99,
-    "volume_24h": 1521.74,
-    "score": 0.5965
+    "hours_to_close": 20.74,
+    "volume_24h": 3923.91,
+    "score": 0.6281
    },
    {
-    "label": "Tie in the 1st half",
+    "label": "Bitcoin price range on Nov 5, 2026? \u2014 $79,500 to 79,749.99",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 22.99,
-    "volume_24h": 4451.29,
-    "score": 0.5961
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 2835.68,
+    "score": 0.6275
+   },
+   {
+    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 5, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 28.74,
+    "volume_24h": 2396.58,
+    "score": 0.6139
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 9,
   "watch_graded": 0,
   "api_calls": 42
  },

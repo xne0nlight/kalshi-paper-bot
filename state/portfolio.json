@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 34.092,
- "fees_paid": 9.69,
+ "cash": 29.412,
+ "fees_paid": 9.72,
  "peak_equity": 109.65,
  "day": "2026-11-06",
  "day_start_equity": 96.302,
- "next_id": 390,
+ "next_id": 391,
  "open_positions": [
   {
    "id": 339,
@@ -97,7 +97,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -135,7 +135,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.95,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -196,7 +196,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -285,7 +285,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.68,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -335,7 +335,24 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
+   "shadow": {}
+  },
+  {
+   "id": 390,
+   "ticker": "KXTRUMPAPPROVE-26NOV07-E39.2",
+   "event_ticker": "KXTRUMPAPPROVE-26NOV07",
+   "series": "KXTRUMPAPPROVE",
+   "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793982625,
+   "close_ts": 1794074340.0,
+   "score": 0.4871,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -23238,25 +23255,41 @@
    1793981725,
    92.142,
    88.152
+  ],
+  [
+   1793982625,
+   92.142,
+   88.212
   ]
  ],
  "last_run": {
-  "ts": 1793981725,
+  "ts": 1793982625,
   "error": null,
   "markets_scanned": 72,
-  "candidates": 0,
+  "candidates": 1,
   "rejections": {
    "too little volume": 57,
-   "no favorite in 80-95c band": 11,
-   "spread too wide": 4
+   "no favorite in 80-95c band": 12,
+   "spread too wide": 2
   },
-  "opened": [],
+  "opened": [
+   390
+  ],
   "settled": [],
   "halt": null,
-  "top_candidates": [],
+  "top_candidates": [
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 25.48,
+    "volume_24h": 344.4,
+    "score": 0.4871
+   }
+  ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 1,
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.652,
- "fees_paid": 9.89,
+ "cash": 9.522,
+ "fees_paid": 9.97,
  "peak_equity": 109.65,
  "day": "2026-11-06",
  "day_start_equity": 96.302,
- "next_id": 396,
+ "next_id": 399,
  "open_positions": [
   {
    "id": 339,
@@ -95,29 +95,6 @@
      "ts": 1793935824,
      "bid": 0.63,
      "proceeds": 3.68
-    }
-   }
-  },
-  {
-   "id": 381,
-   "ticker": "KXNATGASW-26NOV0617-T3.099",
-   "event_ticker": "KXNATGASW-26NOV0617",
-   "series": "KXNATGASW",
-   "label": "Will the natural gas close price be above 3.099 USD/MMBtu on November 06, 2026 at 5:00 PM EST? \u2014 Above $3.099",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.9,
-   "fee": 0.04,
-   "cost": 5.44,
-   "opened_ts": 1793884532,
-   "close_ts": 1794002400.0,
-   "score": 0.3797,
-   "mark_price": 0.96,
-   "shadow": {
-    "10": {
-     "ts": 1793950227,
-     "bid": 0.8,
-     "proceeds": 4.73
     }
    }
   },
@@ -232,23 +209,6 @@
    }
   },
   {
-   "id": 386,
-   "ticker": "KXETHD-26NOV0617-T2399.99",
-   "event_ticker": "KXETHD-26NOV0617",
-   "series": "KXETHD",
-   "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793916926,
-   "close_ts": 1794002400.0,
-   "score": 0.6706,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 387,
    "ticker": "KXHIGHAUS-26NOV06-B73.5",
    "event_ticker": "KXHIGHAUS-26NOV06",
@@ -262,7 +222,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.16,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -317,7 +277,7 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -384,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -401,7 +361,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.82,
+   "mark_price": 0.8,
    "shadow": {}
   },
   {
@@ -436,6 +396,57 @@
    "close_ts": 1794121200.0,
    "score": 0.3965,
    "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 396,
+   "ticker": "KXBTCD-26NOV0717-T74749.99",
+   "event_ticker": "KXBTCD-26NOV0717",
+   "series": "KXBTCD",
+   "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,750 or above",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1794003326,
+   "close_ts": 1794088800.0,
+   "score": 0.6629,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 397,
+   "ticker": "KXHIGHLAX-26NOV07-T86",
+   "event_ticker": "KXHIGHLAX-26NOV07",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.91,
+   "fee": 0.04,
+   "cost": 5.5,
+   "opened_ts": 1794003326,
+   "close_ts": 1794128400.0,
+   "score": 0.5725,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 398,
+   "ticker": "KXHIGHCHI-26NOV07-B53.5",
+   "event_ticker": "KXHIGHCHI-26NOV07",
+   "series": "KXHIGHCHI",
+   "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.92,
+   "fee": 0.02,
+   "cost": 1.86,
+   "opened_ts": 1794003326,
+   "close_ts": 1794121200.0,
+   "score": 0.5252,
+   "mark_price": 0.91,
    "shadow": {}
   }
  ],
@@ -10252,6 +10263,54 @@
    "pnl": 0.06,
    "result": "NO",
    "closed_ts": 1793985324,
+   "won": true
+  },
+  {
+   "id": 381,
+   "ticker": "KXNATGASW-26NOV0617-T3.099",
+   "event_ticker": "KXNATGASW-26NOV0617",
+   "series": "KXNATGASW",
+   "label": "Will the natural gas close price be above 3.099 USD/MMBtu on November 06, 2026 at 5:00 PM EST? \u2014 Above $3.099",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.9,
+   "fee": 0.04,
+   "cost": 5.44,
+   "opened_ts": 1793884532,
+   "close_ts": 1794002400.0,
+   "score": 0.3797,
+   "shadow": {
+    "10": {
+     "ts": 1793950227,
+     "bid": 0.8,
+     "proceeds": 4.73
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1794003326,
+   "won": true
+  },
+  {
+   "id": 386,
+   "ticker": "KXETHD-26NOV0617-T2399.99",
+   "event_ticker": "KXETHD-26NOV0617",
+   "series": "KXETHD",
+   "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,400 or above",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793916926,
+   "close_ts": 1794002400.0,
+   "score": 0.6706,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "NO",
+   "closed_ts": 1794003326,
    "won": true
   }
  ],
@@ -23480,94 +23539,105 @@
    1794002425,
    92.202,
    87.902
+  ],
+  [
+   1794003326,
+   93.042,
+   87.812
   ]
  ],
  "last_run": {
-  "ts": 1794002425,
+  "ts": 1794003326,
   "error": null,
   "markets_scanned": 1565,
-  "candidates": 24,
+  "candidates": 31,
   "rejections": {
-   "too little volume": 1283,
-   "no favorite in 80-95c band": 242,
-   "spread too wide": 16
+   "too little volume": 1288,
+   "no favorite in 80-95c band": 233,
+   "spread too wide": 13
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   396,
+   397,
+   398
+  ],
+  "settled": [
+   381,
+   386
+  ],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.99,
-    "volume_24h": 6286.22,
-    "score": 0.6449
-   },
-   {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,750 or above",
     "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 23.99,
-    "volume_24h": 6472.97,
-    "score": 0.6359
+    "price": 0.95,
+    "hours_to_close": 23.74,
+    "volume_24h": 7881.79,
+    "score": 0.6629
    },
    {
-    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 34.99,
-    "volume_24h": 2981.92,
-    "score": 0.5818
+    "price": 0.93,
+    "hours_to_close": 23.74,
+    "volume_24h": 11687.07,
+    "score": 0.6506
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 23.99,
-    "volume_24h": 2974.12,
-    "score": 0.5805
+    "price": 0.88,
+    "hours_to_close": 23.74,
+    "volume_24h": 4739.46,
+    "score": 0.5763
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 23.99,
-    "volume_24h": 3212.0,
-    "score": 0.573
+    "hours_to_close": 23.74,
+    "volume_24h": 3444.77,
+    "score": 0.5759
    },
    {
-    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
+    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.99,
-    "volume_24h": 855.88,
-    "score": 0.5612
+    "price": 0.91,
+    "hours_to_close": 34.74,
+    "volume_24h": 3010.92,
+    "score": 0.5725
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 23.99,
-    "volume_24h": 3475.86,
-    "score": 0.5556
+    "price": 0.86,
+    "hours_to_close": 23.74,
+    "volume_24h": 3931.59,
+    "score": 0.5502
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 30.99,
+    "hours_to_close": 30.74,
     "volume_24h": 1226.18,
-    "score": 0.5484
+    "score": 0.5488
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 31.74,
+    "volume_24h": 1962.07,
+    "score": 0.5426
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 7,
-   "tracked only (below bet price floor)": 3
+   "related-market cap (Crypto)": 2
   },
-  "watch_added": 2,
-  "watch_graded": 43,
-  "api_calls": 45
+  "watch_added": 5,
+  "watch_graded": 39,
+  "api_calls": 44
  },
  "shadow_since": 1791904549,
  "phase": {

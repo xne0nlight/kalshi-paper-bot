@@ -222,7 +222,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.11,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -395,7 +395,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -23544,100 +23544,97 @@
    1794003326,
    93.042,
    87.812
+  ],
+  [
+   1794004226,
+   93.042,
+   87.652
   ]
  ],
  "last_run": {
-  "ts": 1794003326,
+  "ts": 1794004226,
   "error": null,
   "markets_scanned": 1565,
-  "candidates": 31,
+  "candidates": 34,
   "rejections": {
-   "too little volume": 1288,
+   "too little volume": 1283,
    "no favorite in 80-95c band": 233,
-   "spread too wide": 13
+   "spread too wide": 14,
+   "nothing for sale at the ask": 1
   },
-  "opened": [
-   396,
-   397,
-   398
-  ],
-  "settled": [
-   381,
-   386
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,750 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 23.74,
-    "volume_24h": 7881.79,
-    "score": 0.6629
+    "hours_to_close": 23.49,
+    "volume_24h": 8094.79,
+    "score": 0.6643
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 23.74,
-    "volume_24h": 11687.07,
-    "score": 0.6506
+    "price": 0.94,
+    "hours_to_close": 23.49,
+    "volume_24h": 12136.58,
+    "score": 0.6612
+   },
+   {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 23.49,
+    "volume_24h": 2582.13,
+    "score": 0.5971
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 23.74,
-    "volume_24h": 4739.46,
-    "score": 0.5763
+    "price": 0.89,
+    "hours_to_close": 23.49,
+    "volume_24h": 4789.33,
+    "score": 0.5872
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 23.74,
-    "volume_24h": 3444.77,
-    "score": 0.5759
-   },
-   {
-    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.74,
-    "volume_24h": 3010.92,
-    "score": 0.5725
+    "price": 0.88,
+    "hours_to_close": 23.49,
+    "volume_24h": 3452.77,
+    "score": 0.5666
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 23.74,
-    "volume_24h": 3931.59,
-    "score": 0.5502
+    "price": 0.87,
+    "hours_to_close": 23.49,
+    "volume_24h": 3949.59,
+    "score": 0.561
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.49,
+    "volume_24h": 1345.27,
+    "score": 0.5592
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 30.74,
-    "volume_24h": 1226.18,
-    "score": 0.5488
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 31.74,
-    "volume_24h": 1962.07,
-    "score": 0.5426
+    "hours_to_close": 30.49,
+    "volume_24h": 1244.99,
+    "score": 0.5497
    }
   ],
-  "skipped": {
-   "related-market cap (Crypto)": 2
-  },
-  "watch_added": 5,
-  "watch_graded": 39,
-  "api_calls": 44
+  "skipped": {},
+  "watch_added": 3,
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

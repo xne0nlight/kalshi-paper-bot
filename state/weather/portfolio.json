@@ -2,138 +2,150 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 13.3142,
+ "cash": 13.3542,
  "fees_paid": 0.0,
- "next_id": 2435,
+ "next_id": 2441,
  "orders": [
   {
-   "ticker": "KXLOWTNYC-26NOV07-T46",
-   "event_ticker": "KXLOWTNYC-26NOV07",
-   "series": "KXLOWTNYC",
-   "kind": "low",
-   "code": "NYC",
+   "ticker": "KXHIGHTMIN-26NOV07-T50",
+   "event_ticker": "KXHIGHTMIN-26NOV07",
+   "series": "KXHIGHTMIN",
+   "kind": "high",
+   "code": "MSP",
    "date": "2026-11-07",
-   "label": "NYC low \u226445\u00b0 11-07",
+   "label": "MSP high \u226449\u00b0 11-07",
    "side": "no",
-   "close_ts": 1794117600.0,
-   "q_model": 0.9989,
-   "mid": 0.9,
+   "close_ts": 1794121200.0,
+   "q_model": 0.9778,
+   "mid": 0.83,
    "strategy": "favorite",
-   "price": 0.82,
-   "edge": 0.1789,
-   "q_used": 0.9495,
-   "id": 2432,
+   "price": 0.81,
+   "edge": 0.1678,
+   "q_used": 0.9039,
+   "id": 2435,
    "contracts": 16,
    "filled": 0.0,
-   "placed_ts": 1793977227,
-   "checked_ts": 1793977227,
-   "reserved": 13.12
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
+   "reserved": 12.96
   },
   {
-   "ticker": "KXHIGHPHIL-26NOV07-T57",
-   "event_ticker": "KXHIGHPHIL-26NOV07",
-   "series": "KXHIGHPHIL",
+   "ticker": "KXHIGHDEN-26NOV07-B65.5",
+   "event_ticker": "KXHIGHDEN-26NOV07",
+   "series": "KXHIGHDEN",
    "kind": "high",
-   "code": "PHL",
+   "code": "DEN",
    "date": "2026-11-07",
-   "label": "PHL high \u226456\u00b0 11-07",
+   "label": "DEN high 65\u201366\u00b0 11-07",
    "side": "no",
-   "close_ts": 1794117600.0,
-   "q_model": 0.9915,
+   "close_ts": 1794124800.0,
+   "q_model": 0.9734,
+   "mid": 0.84,
+   "strategy": "favorite",
+   "price": 0.83,
+   "edge": 0.1434,
+   "q_used": 0.9067,
+   "id": 2436,
+   "contracts": 16,
+   "filled": 0.0,
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
+   "reserved": 13.28
+  },
+  {
+   "ticker": "KXLOWTCHI-26NOV07-B29.5",
+   "event_ticker": "KXLOWTCHI-26NOV07",
+   "series": "KXLOWTCHI",
+   "kind": "low",
+   "code": "MDW",
+   "date": "2026-11-07",
+   "label": "MDW low 29\u201330\u00b0 11-07",
+   "side": "no",
+   "close_ts": 1794121200.0,
+   "q_model": 0.9989,
    "mid": 0.915,
    "strategy": "favorite",
-   "price": 0.85,
-   "edge": 0.1415,
-   "q_used": 0.9533,
-   "id": 2433,
-   "contracts": 15,
-   "filled": 0.0,
-   "placed_ts": 1793977227,
-   "checked_ts": 1793977227,
-   "reserved": 12.75
-  },
-  {
-   "ticker": "KXHIGHPHIL-26NOV07-T64",
-   "event_ticker": "KXHIGHPHIL-26NOV07",
-   "series": "KXHIGHPHIL",
-   "kind": "high",
-   "code": "PHL",
-   "date": "2026-11-07",
-   "label": "PHL high \u226565\u00b0 11-07",
-   "side": "no",
-   "close_ts": 1794117600.0,
-   "q_model": 0.9976,
-   "mid": 0.92,
-   "strategy": "favorite",
    "price": 0.86,
-   "edge": 0.1376,
-   "q_used": 0.9588,
-   "id": 2434,
+   "edge": 0.1389,
+   "q_used": 0.9569,
+   "id": 2437,
    "contracts": 8,
    "filled": 0.0,
-   "placed_ts": 1793977227,
-   "checked_ts": 1793977227,
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
    "reserved": 6.88
+  },
+  {
+   "ticker": "KXLOWTMIA-26NOV07-B73.5",
+   "event_ticker": "KXLOWTMIA-26NOV07",
+   "series": "KXLOWTMIA",
+   "kind": "low",
+   "code": "MIA",
+   "date": "2026-11-07",
+   "label": "MIA low 73\u201374\u00b0 11-07",
+   "side": "no",
+   "close_ts": 1794117600.0,
+   "q_model": 0.9195,
+   "mid": 0.45,
+   "strategy": "edge",
+   "price": 0.36,
+   "edge": 0.5595,
+   "q_used": 0.6847,
+   "id": 2438,
+   "contracts": 1,
+   "filled": 0.0,
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
+   "reserved": 0.36
+  },
+  {
+   "ticker": "KXHIGHMIA-26NOV07-B85.5",
+   "event_ticker": "KXHIGHMIA-26NOV07",
+   "series": "KXHIGHMIA",
+   "kind": "high",
+   "code": "MIA",
+   "date": "2026-11-07",
+   "label": "MIA high 85\u201386\u00b0 11-07",
+   "side": "yes",
+   "close_ts": 1794117600.0,
+   "q_model": 0.5149,
+   "mid": 0.15,
+   "strategy": "edge",
+   "price": 0.15,
+   "edge": 0.3649,
+   "q_used": 0.3325,
+   "id": 2439,
+   "contracts": 1,
+   "filled": 0.0,
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
+   "reserved": 0.15
+  },
+  {
+   "ticker": "KXLOWTEWR-26NOV07-B46.5",
+   "event_ticker": "KXLOWTEWR-26NOV07",
+   "series": "KXLOWTEWR",
+   "kind": "low",
+   "code": "EWR",
+   "date": "2026-11-07",
+   "label": "EWR low 46\u201347\u00b0 11-07",
+   "side": "yes",
+   "close_ts": 1794117600.0,
+   "q_model": 0.3109,
+   "mid": 0.17,
+   "strategy": "edge",
+   "price": 0.08,
+   "edge": 0.2309,
+   "q_used": 0.2404,
+   "id": 2440,
+   "contracts": 1,
+   "filled": 0.0,
+   "placed_ts": 1793978126,
+   "checked_ts": 1793978126,
+   "reserved": 0.08
   }
  ],
  "positions": [
-  {
-   "ticker": "KXLOWTLAX-26NOV05-B58.5",
-   "event_ticker": "KXLOWTLAX-26NOV05",
-   "series": "KXLOWTLAX",
-   "kind": "low",
-   "code": "LAX",
-   "date": "2026-11-05",
-   "label": "LAX low 58\u201359\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793955600.0,
-   "q_model": 0.9156,
-   "id": 2120,
-   "contracts": 0.01,
-   "cost": 0.0045,
-   "opened_ts": 1793808927,
-   "mark_price": 0.01,
-   "avg_price": 0.45
-  },
-  {
-   "ticker": "KXHIGHLAX-26NOV05-B79.5",
-   "event_ticker": "KXHIGHLAX-26NOV05",
-   "series": "KXHIGHLAX",
-   "kind": "high",
-   "code": "LAX",
-   "date": "2026-11-05",
-   "label": "LAX high 79\u201380\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793955600.0,
-   "q_model": 0.7964,
-   "id": 2200,
-   "contracts": 1.0,
-   "cost": 0.44,
-   "opened_ts": 1793827826,
-   "mark_price": 0.99,
-   "avg_price": 0.44
-  },
-  {
-   "ticker": "KXHIGHTSEA-26NOV05-B57.5",
-   "event_ticker": "KXHIGHTSEA-26NOV05",
-   "series": "KXHIGHTSEA",
-   "kind": "high",
-   "code": "SEA",
-   "date": "2026-11-05",
-   "label": "SEA high 57\u201358\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793955600.0,
-   "q_model": 0.5812,
-   "id": 2219,
-   "contracts": 1.0,
-   "cost": 0.27,
-   "opened_ts": 1793836827,
-   "mark_price": 0.01,
-   "avg_price": 0.27
-  },
   {
    "ticker": "KXLOWTMIN-26NOV05-T35",
    "event_ticker": "KXLOWTMIN-26NOV05",
@@ -169,7 +181,7 @@
    "contracts": 4.5,
    "cost": 3.825,
    "opened_ts": 1793892626,
-   "mark_price": 0.82,
+   "mark_price": 0.84,
    "avg_price": 0.85
   },
   {
@@ -207,7 +219,7 @@
    "contracts": 0.06,
    "cost": 0.048,
    "opened_ts": 1793896227,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "avg_price": 0.8
   },
   {
@@ -283,7 +295,7 @@
    "contracts": 0.02,
    "cost": 0.0026,
    "opened_ts": 1793904330,
-   "mark_price": 0.09,
+   "mark_price": 0.11,
    "avg_price": 0.13
   },
   {
@@ -321,7 +333,7 @@
    "contracts": 1.0,
    "cost": 0.13,
    "opened_ts": 1793910626,
-   "mark_price": 0.19,
+   "mark_price": 0.23,
    "avg_price": 0.13
   },
   {
@@ -359,7 +371,7 @@
    "contracts": 1.0,
    "cost": 0.3,
    "opened_ts": 1793915125,
-   "mark_price": 0.21,
+   "mark_price": 0.25,
    "avg_price": 0.3
   },
   {
@@ -435,7 +447,7 @@
    "contracts": 1.0,
    "cost": 0.29,
    "opened_ts": 1793927727,
-   "mark_price": 0.57,
+   "mark_price": 0.55,
    "avg_price": 0.29
   },
   {
@@ -492,7 +504,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793934925,
-   "mark_price": 0.02,
+   "mark_price": 0.03,
    "avg_price": 0.08
   },
   {
@@ -511,7 +523,7 @@
    "contracts": 13.0,
    "cost": 12.61,
    "opened_ts": 1793940327,
-   "mark_price": 0.91,
+   "mark_price": 0.86,
    "avg_price": 0.97
   },
   {
@@ -530,7 +542,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793945726,
-   "mark_price": 0.26,
+   "mark_price": 0.23,
    "avg_price": 0.08
   },
   {
@@ -8396,6 +8408,75 @@
    "result": "NO",
    "closed_ts": 1793974527,
    "won": true
+  },
+  {
+   "ticker": "KXLOWTLAX-26NOV05-B58.5",
+   "event_ticker": "KXLOWTLAX-26NOV05",
+   "series": "KXLOWTLAX",
+   "kind": "low",
+   "code": "LAX",
+   "date": "2026-11-05",
+   "label": "LAX low 58\u201359\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793955600.0,
+   "q_model": 0.9156,
+   "id": 2120,
+   "contracts": 0.01,
+   "cost": 0.0045,
+   "opened_ts": 1793808927,
+   "avg_price": 0.45,
+   "payout": 0.0,
+   "pnl": -0.0045,
+   "result": "YES",
+   "closed_ts": 1793978126,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHLAX-26NOV05-B79.5",
+   "event_ticker": "KXHIGHLAX-26NOV05",
+   "series": "KXHIGHLAX",
+   "kind": "high",
+   "code": "LAX",
+   "date": "2026-11-05",
+   "label": "LAX high 79\u201380\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793955600.0,
+   "q_model": 0.7964,
+   "id": 2200,
+   "contracts": 1.0,
+   "cost": 0.44,
+   "opened_ts": 1793827826,
+   "avg_price": 0.44,
+   "payout": 1.0,
+   "pnl": 0.56,
+   "result": "NO",
+   "closed_ts": 1793978126,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTSEA-26NOV05-B57.5",
+   "event_ticker": "KXHIGHTSEA-26NOV05",
+   "series": "KXHIGHTSEA",
+   "kind": "high",
+   "code": "SEA",
+   "date": "2026-11-05",
+   "label": "SEA high 57\u201358\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793955600.0,
+   "q_model": 0.5812,
+   "id": 2219,
+   "contracts": 1.0,
+   "cost": 0.27,
+   "opened_ts": 1793836827,
+   "avg_price": 0.27,
+   "payout": 0.0,
+   "pnl": -0.27,
+   "result": "YES",
+   "closed_ts": 1793978126,
+   "won": false
   }
  ],
  "equity_history": [
@@ -16298,6 +16379,11 @@
    1793977227,
    132.8293,
    132.5793
+  ],
+  [
+   1793978126,
+   133.1148,
+   132.0584
   ]
  ],
  "forecast_log": {
@@ -21152,606 +21238,246 @@
   "SFO|2026-11-07|low": {
    "fc": 54.42,
    "var": 5.43,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SFO|2026-11-07|high": {
    "fc": 72.03,
    "var": 4.0,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DEN|2026-11-07|low": {
    "fc": 37.19,
    "var": 13.88,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DEN|2026-11-07|high": {
    "fc": 61.15,
    "var": 0.94,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SEA|2026-11-07|low": {
    "fc": 46.51,
    "var": 4.73,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SEA|2026-11-07|high": {
    "fc": 60.1,
    "var": 4.18,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "LAS|2026-11-07|low": {
    "fc": 54.79,
    "var": 3.29,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "LAS|2026-11-07|high": {
    "fc": 70.96,
    "var": 0.7,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "LAX|2026-11-07|low": {
    "fc": 60.74,
    "var": 36.64,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "LAX|2026-11-07|high": {
    "fc": 83.81,
    "var": 4.47,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SAN|2026-11-07|low": {
    "fc": 63.65,
    "var": 20.64,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SAN|2026-11-07|high": {
    "fc": 85.36,
    "var": 8.36,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "PHX|2026-11-07|low": {
    "fc": 62.11,
    "var": 9.07,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "PHX|2026-11-07|high": {
    "fc": 77.63,
    "var": 2.78,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SAT|2026-11-07|low": {
    "fc": 59.35,
    "var": 2.09,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SAT|2026-11-07|high": {
    "fc": 69.91,
    "var": 8.96,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MSY|2026-11-07|low": {
    "fc": 61.39,
    "var": 2.43,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MSY|2026-11-07|high": {
    "fc": 72.09,
    "var": 5.38,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MSP|2026-11-07|low": {
    "fc": 36.09,
    "var": 7.76,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MSP|2026-11-07|high": {
    "fc": 52.93,
    "var": 1.25,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "HOU|2026-11-07|low": {
    "fc": 65.89,
    "var": 4.75,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "HOU|2026-11-07|high": {
    "fc": 77.04,
    "var": 3.48,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "OKC|2026-11-07|low": {
    "fc": 42.87,
    "var": 9.09,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "OKC|2026-11-07|high": {
    "fc": 59.05,
    "var": 7.07,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DFW|2026-11-07|low": {
    "fc": 56.4,
    "var": 4.3,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DFW|2026-11-07|high": {
    "fc": 66.97,
    "var": 5.58,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MDW|2026-11-07|low": {
    "fc": 35.91,
    "var": 9.06,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MDW|2026-11-07|high": {
    "fc": 49.49,
    "var": 2.0,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "TTN|2026-11-07|low": {
    "fc": 46.58,
    "var": 1.23,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "TTN|2026-11-07|high": {
    "fc": 57.81,
    "var": 1.79,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "AUS|2026-11-07|low": {
    "fc": 60.77,
    "var": 2.99,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "AUS|2026-11-07|high": {
    "fc": 71.71,
    "var": 6.71,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SDF|2026-11-07|low": {
    "fc": 39.84,
    "var": 2.88,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "SDF|2026-11-07|high": {
    "fc": 54.12,
    "var": 1.64,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "PHL|2026-11-07|low": {
    "fc": 47.07,
    "var": 1.18,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "PHL|2026-11-07|high": {
    "fc": 57.41,
    "var": 0.71,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "EWR|2026-11-07|low": {
    "fc": 48.59,
    "var": 1.46,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "EWR|2026-11-07|high": {
    "fc": 61.32,
    "var": 3.1,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "NYC|2026-11-07|low": {
    "fc": 48.71,
    "var": 2.26,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "NYC|2026-11-07|high": {
    "fc": 61.47,
    "var": 3.37,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MIA|2026-11-07|low": {
    "fc": 72.88,
    "var": 9.05,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "MIA|2026-11-07|high": {
    "fc": 83.0,
    "var": 0.5,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "ATL|2026-11-07|low": {
    "fc": 48.44,
    "var": 3.5,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "ATL|2026-11-07|high": {
    "fc": 64.21,
    "var": 2.73,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "BOS|2026-11-07|low": {
    "fc": 51.62,
    "var": 4.49,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "BOS|2026-11-07|high": {
    "fc": 61.17,
    "var": 4.84,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DCA|2026-11-07|low": {
    "fc": 47.9,
    "var": 2.75,
-   "ts": 1793977227
+   "ts": 1793978126
   },
   "DCA|2026-11-07|high": {
    "fc": 59.1,
    "var": 1.73,
-   "ts": 1793977227
+   "ts": 1793978126
   }
  },
  "scorecard": {
   "pending": {
-   "KXLOWTSFO-26NOV05-T56": {
-    "q": 0.14374391858961627,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSFO-26NOV05-T49": {
-    "q": 0.006911984690232171,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSFO-26NOV05-B55.5": {
-    "q": 0.28035294836065,
-    "mkt": 0.1,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSFO-26NOV05-B53.5": {
-    "q": 0.32607908200010866,
-    "mkt": 0.575,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSFO-26NOV05-B51.5": {
-    "q": 0.1901552191417399,
-    "mkt": 0.28500000000000003,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSFO-26NOV05-B49.5": {
-    "q": 0.05275684721765387,
-    "mkt": 0.05,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-T50": {
-    "q": 0.08157236851652024,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-T43": {
-    "q": 0.015259685086932701,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-B49.5": {
-    "q": 0.22665780049938056,
-    "mkt": 0.11,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-B47.5": {
-    "q": 0.3437639875386894,
-    "mkt": 0.605,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-B45.5": {
-    "q": 0.24735628972253618,
-    "mkt": 0.225,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSEA-26NOV05-B43.5": {
-    "q": 0.08538986863594165,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-T60": {
-    "q": 0.3398571960426805,
-    "mkt": 0.10500000000000001,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-T53": {
-    "q": 6.355353901283356e-05,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-B59.5": {
-    "q": 0.12466389732248873,
-    "mkt": 0.355,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-B57.5": {
-    "q": 0.3907922847584148,
-    "mkt": 0.405,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-B55.5": {
-    "q": 0.14112101925611095,
-    "mkt": 0.05,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTSAN-26NOV05-B53.5": {
-    "q": 0.0035020490812931937,
-    "mkt": 0.025,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-T52": {
-    "q": 0.6867872535381918,
-    "mkt": 0.315,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-T45": {
-    "q": 0.0001782694086450165,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-B51.5": {
-    "q": 0.20469203759056837,
-    "mkt": 0.635,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-B49.5": {
-    "q": 0.08621357645094811,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-B47.5": {
-    "q": 0.019654907737841166,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLV-26NOV05-B45.5": {
-    "q": 0.0024739552738065828,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-T59": {
-    "q": 0.319876108873111,
-    "mkt": 0.505,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-T52": {
-    "q": 0.007475413199281115,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-B58.5": {
-    "q": 0.053313327887062376,
-    "mkt": 0.425,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-B56.5": {
-    "q": 0.15079563114430033,
-    "mkt": 0.08,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-B54.5": {
-    "q": 0.3281222798069487,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXLOWTLAX-26NOV05-B52.5": {
-    "q": 0.14041723908929737,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-T73": {
-    "q": 0.054817369707767134,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-T66": {
-    "q": 0.021949302802885765,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-B72.5": {
-    "q": 0.18495666009512876,
-    "mkt": 0.245,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-B70.5": {
-    "q": 0.3312103835459012,
-    "mkt": 0.415,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-B68.5": {
-    "q": 0.28960428006468075,
-    "mkt": 0.235,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSFO-26NOV05-B66.5": {
-    "q": 0.1174620037836373,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-T62": {
-    "q": 0.0019319782960002477,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-T55": {
-    "q": 0.051280727372059784,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-B61.5": {
-    "q": 0.03761837350434352,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-B59.5": {
-    "q": 0.2300202317288217,
-    "mkt": 0.14500000000000002,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-B57.5": {
-    "q": 0.42911863639786074,
-    "mkt": 0.675,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSEA-26NOV05-B55.5": {
-    "q": 0.25003005270091494,
-    "mkt": 0.13,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-T82": {
-    "q": 0.01826297158282898,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-T75": {
-    "q": 0.038838586529069394,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-B81.5": {
-    "q": 0.1342694391540173,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-B79.5": {
-    "q": 0.28039900121308825,
-    "mkt": 0.03,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-B77.5": {
-    "q": 0.3294164889108553,
-    "mkt": 0.41000000000000003,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTSAN-26NOV05-B75.5": {
-    "q": 0.19881351261014168,
-    "mkt": 0.555,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-T74": {
-    "q": 0.008388230069505126,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-T67": {
-    "q": 0.0022981272602086203,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-B73.5": {
-    "q": 0.03561058975497043,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-B71.5": {
-    "q": 0.23052296979106357,
-    "mkt": 0.07500000000000001,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-B69.5": {
-    "q": 0.5934897235013435,
-    "mkt": 0.78,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHTLV-26NOV05-B67.5": {
-    "q": 0.12969035962290942,
-    "mkt": 0.11499999999999999,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-T82": {
-    "q": 0.15311032303690342,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-T75": {
-    "q": 0.00771276648815324,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-B81.5": {
-    "q": 0.33852213407468185,
-    "mkt": 0.055,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-B79.5": {
-    "q": 0.15355750882701588,
-    "mkt": 0.455,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-B77.5": {
-    "q": 0.2662524251841937,
-    "mkt": 0.425,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
-   "KXHIGHLAX-26NOV05-B75.5": {
-    "q": 0.0808448423890528,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1793955600.0
-   },
    "KXLOWTOKC-26NOV05-T50": {
     "q": 0.09009628589035348,
     "mkt": 0.02,
@@ -23590,7 +23316,7 @@
    },
    "KXLOWTSFO-26NOV07-T56": {
     "q": 0.28386343556402577,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23602,37 +23328,37 @@
    },
    "KXLOWTSFO-26NOV07-B55.5": {
     "q": 0.2307186392790505,
-    "mkt": 0.13,
+    "mkt": 0.16,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSFO-26NOV07-B53.5": {
     "q": 0.26345780480069875,
-    "mkt": 0.4,
+    "mkt": 0.495,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSFO-26NOV07-B51.5": {
     "q": 0.1668166573508105,
-    "mkt": 0.36,
+    "mkt": 0.31,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSFO-26NOV07-B49.5": {
     "q": 0.04863461065953066,
-    "mkt": 0.105,
+    "mkt": 0.065,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSEA-26NOV07-T51": {
     "q": 0.09830422872330805,
-    "mkt": 0.09999999999999999,
+    "mkt": 0.025,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSEA-26NOV07-T44": {
     "q": 0.08656667198548494,
-    "mkt": 0.055,
+    "mkt": 0.01,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23656,7 +23382,7 @@
    },
    "KXLOWTSEA-26NOV07-B44.5": {
     "q": 0.15663750793411055,
-    "mkt": 0.06,
+    "mkt": 0.055,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23668,31 +23394,31 @@
    },
    "KXLOWTSAN-26NOV07-T56": {
     "q": 0.015450379513539267,
-    "mkt": 0.245,
+    "mkt": 0.255,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSAN-26NOV07-B62.5": {
     "q": 0.21086168784900128,
-    "mkt": 0.08,
+    "mkt": 0.105,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSAN-26NOV07-B60.5": {
     "q": 0.1801216075604188,
-    "mkt": 0.18000000000000002,
+    "mkt": 0.15,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSAN-26NOV07-B58.5": {
     "q": 0.10590680392074256,
-    "mkt": 0.33,
+    "mkt": 0.29000000000000004,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTSAN-26NOV07-B56.5": {
     "q": 0.0901142789092315,
-    "mkt": 0.29000000000000004,
+    "mkt": 0.25,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23704,7 +23430,7 @@
    },
    "KXLOWTLV-26NOV07-T49": {
     "q": 0.0040700322529820115,
-    "mkt": 0.05,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23716,7 +23442,7 @@
    },
    "KXLOWTLV-26NOV07-B53.5": {
     "q": 0.2135298548213427,
-    "mkt": 0.31,
+    "mkt": 0.32,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23734,13 +23460,13 @@
    },
    "KXLOWTLAX-26NOV07-T63": {
     "q": 0.3068866907039408,
-    "mkt": 0.065,
+    "mkt": 0.025,
     "kind": "low",
     "close_ts": 1794128400.0
    },
    "KXLOWTLAX-26NOV07-T56": {
     "q": 0.2655279185385182,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794128400.0
    },
@@ -23770,73 +23496,73 @@
    },
    "KXHIGHTSFO-26NOV07-T74": {
     "q": 0.23852996766205922,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSFO-26NOV07-T67": {
     "q": 0.005930303203993567,
-    "mkt": 0.075,
+    "mkt": 0.025,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSFO-26NOV07-B73.5": {
     "q": 0.24539303258161585,
-    "mkt": 0.09,
+    "mkt": 0.075,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSFO-26NOV07-B71.5": {
     "q": 0.2843549273375533,
-    "mkt": 0.28,
+    "mkt": 0.32,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSFO-26NOV07-B69.5": {
     "q": 0.17677368192914458,
-    "mkt": 0.41000000000000003,
+    "mkt": 0.375,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSFO-26NOV07-B67.5": {
     "q": 0.04901808728563433,
-    "mkt": 0.21,
+    "mkt": 0.165,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-T68": {
     "q": 0.004559970801144766,
-    "mkt": 0.005,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-T61": {
     "q": 0.3069337212996492,
-    "mkt": 0.31,
+    "mkt": 0.355,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-B67.5": {
     "q": 0.030338956326212245,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-B65.5": {
     "q": 0.11073327232372406,
-    "mkt": 0.09,
+    "mkt": 0.045000000000000005,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-B63.5": {
     "q": 0.24648496341286485,
-    "mkt": 0.24000000000000002,
+    "mkt": 0.16,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSEA-26NOV07-B61.5": {
     "q": 0.3009491158364058,
-    "mkt": 0.37,
+    "mkt": 0.41000000000000003,
     "kind": "high",
     "close_ts": 1794128400.0
    },
@@ -23848,31 +23574,31 @@
    },
    "KXHIGHTSAN-26NOV07-T83": {
     "q": 0.2358266537889344,
-    "mkt": 0.47000000000000003,
+    "mkt": 0.295,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSAN-26NOV07-B89.5": {
     "q": 0.13596007752858047,
-    "mkt": 0.495,
+    "mkt": 0.055,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSAN-26NOV07-B87.5": {
     "q": 0.2674008956034308,
-    "mkt": 0.495,
+    "mkt": 0.055,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSAN-26NOV07-B85.5": {
     "q": 0.1855720437977006,
-    "mkt": 0.495,
+    "mkt": 0.175,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTSAN-26NOV07-B83.5": {
     "q": 0.1626999745950161,
-    "mkt": 0.495,
+    "mkt": 0.52,
     "kind": "high",
     "close_ts": 1794128400.0
    },
@@ -23884,103 +23610,103 @@
    },
    "KXHIGHTLV-26NOV07-T72": {
     "q": 0.00883307965546041,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTLV-26NOV07-B78.5": {
     "q": 0.042403870456841034,
-    "mkt": 0.055,
+    "mkt": 0.045,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTLV-26NOV07-B76.5": {
     "q": 0.19406851886575888,
-    "mkt": 0.06,
+    "mkt": 0.04,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTLV-26NOV07-B74.5": {
     "q": 0.5095259683961115,
-    "mkt": 0.715,
+    "mkt": 0.72,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHTLV-26NOV07-B72.5": {
     "q": 0.23327593020514703,
-    "mkt": 0.16,
+    "mkt": 0.18,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-T86": {
     "q": 0.2589468226390014,
-    "mkt": 0.095,
+    "mkt": 0.10500000000000001,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-T79": {
     "q": 0.002203066661033149,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-B85.5": {
     "q": 0.29266535379168157,
-    "mkt": 0.37,
+    "mkt": 0.375,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-B83.5": {
     "q": 0.19987603438998122,
-    "mkt": 0.41500000000000004,
+    "mkt": 0.43,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-B81.5": {
     "q": 0.2163324620276336,
-    "mkt": 0.14500000000000002,
+    "mkt": 0.060000000000000005,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXHIGHLAX-26NOV07-B79.5": {
     "q": 0.029976260490670457,
-    "mkt": 0.045,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794128400.0
    },
    "KXLOWTDEN-26NOV07-T38": {
     "q": 0.23085100963229735,
-    "mkt": 0.07500000000000001,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794124800.0
    },
    "KXLOWTDEN-26NOV07-T31": {
     "q": 0.13306793001893458,
-    "mkt": 0.11499999999999999,
+    "mkt": 0.09999999999999999,
     "kind": "low",
     "close_ts": 1794124800.0
    },
    "KXLOWTDEN-26NOV07-B37.5": {
     "q": 0.11057226238268926,
-    "mkt": 0.12,
+    "mkt": 0.105,
     "kind": "low",
     "close_ts": 1794124800.0
    },
    "KXLOWTDEN-26NOV07-B35.5": {
     "q": 0.1639804292058332,
-    "mkt": 0.24000000000000002,
+    "mkt": 0.245,
     "kind": "low",
     "close_ts": 1794124800.0
    },
    "KXLOWTDEN-26NOV07-B33.5": {
     "q": 0.2001797014402693,
-    "mkt": 0.29000000000000004,
+    "mkt": 0.28500000000000003,
     "kind": "low",
     "close_ts": 1794124800.0
    },
    "KXLOWTDEN-26NOV07-B31.5": {
     "q": 0.16134866731997718,
-    "mkt": 0.2,
+    "mkt": 0.28,
     "kind": "low",
     "close_ts": 1794124800.0
    },
@@ -23992,31 +23718,31 @@
    },
    "KXHIGHDEN-26NOV07-T59": {
     "q": 0.13806098146753965,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794124800.0
    },
    "KXHIGHDEN-26NOV07-B65.5": {
     "q": 0.02655580193914101,
-    "mkt": 0.060000000000000005,
+    "mkt": 0.16,
     "kind": "high",
     "close_ts": 1794124800.0
    },
    "KXHIGHDEN-26NOV07-B63.5": {
     "q": 0.1559605491461248,
-    "mkt": 0.44499999999999995,
+    "mkt": 0.475,
     "kind": "high",
     "close_ts": 1794124800.0
    },
    "KXHIGHDEN-26NOV07-B61.5": {
     "q": 0.3586413927954869,
-    "mkt": 0.42000000000000004,
+    "mkt": 0.225,
     "kind": "high",
     "close_ts": 1794124800.0
    },
    "KXHIGHDEN-26NOV07-B59.5": {
     "q": 0.3188385099614173,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794124800.0
    },
@@ -24028,7 +23754,7 @@
    },
    "KXLOWTSATX-26NOV07-T53": {
     "q": 0.0324420381569837,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24052,19 +23778,19 @@
    },
    "KXLOWTSATX-26NOV07-B53.5": {
     "q": 0.11384221021863632,
-    "mkt": 0.06,
+    "mkt": 0.065,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTPHX-26NOV07-T61": {
     "q": 0.5029729684533959,
-    "mkt": 0.55,
+    "mkt": 0.56,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTPHX-26NOV07-T54": {
     "q": 7.0525991911634504e-06,
-    "mkt": 0.055,
+    "mkt": 0.04,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24076,19 +23802,19 @@
    },
    "KXLOWTPHX-26NOV07-B58.5": {
     "q": 0.16141441395345438,
-    "mkt": 0.14,
+    "mkt": 0.135,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTPHX-26NOV07-B56.5": {
     "q": 0.027213861943887422,
-    "mkt": 0.06999999999999999,
+    "mkt": 0.025,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTPHX-26NOV07-B54.5": {
     "q": 0.0016499297829513343,
-    "mkt": 0.055,
+    "mkt": 0.025,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24136,7 +23862,7 @@
    },
    "KXLOWTNOLA-26NOV07-T54": {
     "q": 0.027480974253127507,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24172,7 +23898,7 @@
    },
    "KXLOWTMIN-26NOV07-T27": {
     "q": 0.0003031152410577169,
-    "mkt": 0.055,
+    "mkt": 0.01,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24196,13 +23922,13 @@
    },
    "KXLOWTMIN-26NOV07-B27.5": {
     "q": 0.00435127497506126,
-    "mkt": 0.06,
+    "mkt": 0.02,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTHOU-26NOV07-T68": {
     "q": 0.03419461404944968,
-    "mkt": 0.065,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24220,7 +23946,7 @@
    },
    "KXLOWTHOU-26NOV07-B65.5": {
     "q": 0.21693340917995615,
-    "mkt": 0.31,
+    "mkt": 0.32,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24238,31 +23964,31 @@
    },
    "KXLOWTDAL-26NOV07-T55": {
     "q": 0.08312199433485959,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTDAL-26NOV07-T48": {
     "q": 0.0645778898381326,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTDAL-26NOV07-B54.5": {
     "q": 0.13003674413747174,
-    "mkt": 0.13,
+    "mkt": 0.15,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTDAL-26NOV07-B52.5": {
     "q": 0.23764452546698075,
-    "mkt": 0.45,
+    "mkt": 0.56,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTDAL-26NOV07-B50.5": {
     "q": 0.3102666702294796,
-    "mkt": 0.35,
+    "mkt": 0.2,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24280,31 +24006,31 @@
    },
    "KXLOWTCHI-26NOV07-T29": {
     "q": 1.1517721921353616e-05,
-    "mkt": 0.055,
+    "mkt": 0.034999999999999996,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTCHI-26NOV07-B35.5": {
     "q": 0.22159356590600243,
-    "mkt": 0.29000000000000004,
+    "mkt": 0.19,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTCHI-26NOV07-B33.5": {
     "q": 0.3554076645342189,
-    "mkt": 0.37,
+    "mkt": 0.425,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTCHI-26NOV07-B31.5": {
     "q": 0.06785836467119208,
-    "mkt": 0.19,
+    "mkt": 0.185,
     "kind": "low",
     "close_ts": 1794121200.0
    },
    "KXLOWTCHI-26NOV07-B29.5": {
     "q": 0.001075203988242625,
-    "mkt": 0.08,
+    "mkt": 0.08499999999999999,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24316,7 +24042,7 @@
    },
    "KXLOWTAUS-26NOV07-T52": {
     "q": 0.21568175756471158,
-    "mkt": 0.055,
+    "mkt": 0.030000000000000002,
     "kind": "low",
     "close_ts": 1794121200.0
    },
@@ -24352,61 +24078,61 @@
    },
    "KXHIGHTSATX-26NOV07-T70": {
     "q": 0.2036210033769444,
-    "mkt": 0.25,
+    "mkt": 0.35,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTSATX-26NOV07-B76.5": {
     "q": 0.0649635581822327,
-    "mkt": 0.055,
+    "mkt": 0.030000000000000002,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTSATX-26NOV07-B74.5": {
     "q": 0.2665390365672439,
-    "mkt": 0.09,
+    "mkt": 0.055,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTSATX-26NOV07-B72.5": {
     "q": 0.2787383407634107,
-    "mkt": 0.27,
+    "mkt": 0.225,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTSATX-26NOV07-B70.5": {
     "q": 0.18185325097558835,
-    "mkt": 0.4,
+    "mkt": 0.38,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTPHX-26NOV07-T86": {
     "q": 0.03307365600354662,
-    "mkt": 0.05,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTPHX-26NOV07-T79": {
     "q": 0.09865683724927225,
-    "mkt": 0.045,
+    "mkt": 0.005,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTPHX-26NOV07-B85.5": {
     "q": 0.1103354890620864,
-    "mkt": 0.09,
+    "mkt": 0.06,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTPHX-26NOV07-B83.5": {
     "q": 0.2142303067206371,
-    "mkt": 0.33,
+    "mkt": 0.365,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTPHX-26NOV07-B81.5": {
     "q": 0.28212560099440775,
-    "mkt": 0.44000000000000006,
+    "mkt": 0.46499999999999997,
     "kind": "high",
     "close_ts": 1794121200.0
    },
@@ -24424,103 +24150,103 @@
    },
    "KXHIGHTOKC-26NOV07-T57": {
     "q": 0.08210266346692192,
-    "mkt": 0.095,
+    "mkt": 0.155,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTOKC-26NOV07-B63.5": {
     "q": 0.14265149631947477,
-    "mkt": 0.06,
+    "mkt": 0.045000000000000005,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTOKC-26NOV07-B61.5": {
     "q": 0.20788811129860083,
-    "mkt": 0.11499999999999999,
+    "mkt": 0.095,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTOKC-26NOV07-B59.5": {
     "q": 0.26722966615663046,
-    "mkt": 0.25,
+    "mkt": 0.32499999999999996,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTOKC-26NOV07-B57.5": {
     "q": 0.20967939617733078,
-    "mkt": 0.35,
+    "mkt": 0.33499999999999996,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-T78": {
     "q": 0.03262312875357061,
-    "mkt": 0.315,
+    "mkt": 0.01,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-T71": {
     "q": 0.09866267797859192,
-    "mkt": 0.325,
+    "mkt": 0.07,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-B77.5": {
     "q": 0.0863415896448946,
-    "mkt": 0.23500000000000001,
+    "mkt": 0.060000000000000005,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-B75.5": {
     "q": 0.15146534556591856,
-    "mkt": 0.29,
+    "mkt": 0.155,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-B73.5": {
     "q": 0.26312441639317663,
-    "mkt": 0.33,
+    "mkt": 0.6,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTNOLA-26NOV07-B71.5": {
     "q": 0.3677828416638486,
-    "mkt": 0.305,
+    "mkt": 0.19,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-T57": {
     "q": 0.08056668681181915,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-T50": {
     "q": 0.02218346204925369,
-    "mkt": 0.45,
+    "mkt": 0.17,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-B56.5": {
     "q": 0.21064962032629161,
-    "mkt": 0.08499999999999999,
+    "mkt": 0.09,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-B54.5": {
     "q": 0.3341393459647511,
-    "mkt": 0.11499999999999999,
+    "mkt": 0.185,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-B52.5": {
     "q": 0.25682678338980314,
-    "mkt": 0.17,
+    "mkt": 0.29000000000000004,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTMIN-26NOV07-B50.5": {
     "q": 0.0956341014580824,
-    "mkt": 0.21,
+    "mkt": 0.245,
     "kind": "high",
     "close_ts": 1794121200.0
    },
@@ -24532,103 +24258,103 @@
    },
    "KXHIGHTHOU-26NOV07-T75": {
     "q": 0.06073818520025027,
-    "mkt": 0.11,
+    "mkt": 0.05,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTHOU-26NOV07-B81.5": {
     "q": 0.16228365371039208,
-    "mkt": 0.065,
+    "mkt": 0.05,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTHOU-26NOV07-B79.5": {
     "q": 0.31683540531707355,
-    "mkt": 0.33999999999999997,
+    "mkt": 0.405,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTHOU-26NOV07-B77.5": {
     "q": 0.2831923954745722,
-    "mkt": 0.41000000000000003,
+    "mkt": 0.4,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTHOU-26NOV07-B75.5": {
     "q": 0.14313386545837337,
-    "mkt": 0.115,
+    "mkt": 0.095,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-T73": {
     "q": 0.02974650769031064,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-T66": {
     "q": 0.0860420525743254,
-    "mkt": 0.115,
+    "mkt": 0.25,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-B72.5": {
     "q": 0.11853991554232175,
-    "mkt": 0.065,
+    "mkt": 0.05,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-B70.5": {
     "q": 0.26933369466118856,
-    "mkt": 0.18,
+    "mkt": 0.135,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-B68.5": {
     "q": 0.31126383760689164,
-    "mkt": 0.36,
+    "mkt": 0.31999999999999995,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHTDAL-26NOV07-B66.5": {
     "q": 0.18507399192496282,
-    "mkt": 0.30000000000000004,
+    "mkt": 0.31,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-T56": {
     "q": 0.004571479655278524,
-    "mkt": 0.05,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-T49": {
     "q": 0.11285901107838656,
-    "mkt": 0.175,
+    "mkt": 0.05,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-B55.5": {
     "q": 0.04429994874022287,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-B53.5": {
     "q": 0.1685062526168694,
-    "mkt": 0.09999999999999999,
+    "mkt": 0.10500000000000001,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-B51.5": {
     "q": 0.34131245552623174,
-    "mkt": 0.29,
+    "mkt": 0.43,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHCHI-26NOV07-B49.5": {
     "q": 0.3284508523830119,
-    "mkt": 0.36,
+    "mkt": 0.32,
     "kind": "high",
     "close_ts": 1794121200.0
    },
@@ -24640,61 +24366,61 @@
    },
    "KXHIGHAUS-26NOV07-T70": {
     "q": 0.05848828936880324,
-    "mkt": 0.08,
+    "mkt": 0.095,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHAUS-26NOV07-B76.5": {
     "q": 0.1739823794202033,
-    "mkt": 0.055,
+    "mkt": 0.034999999999999996,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHAUS-26NOV07-B74.5": {
     "q": 0.29874140241887026,
-    "mkt": 0.11499999999999999,
+    "mkt": 0.065,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHAUS-26NOV07-B72.5": {
     "q": 0.2806329998369207,
-    "mkt": 0.48,
+    "mkt": 0.405,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXHIGHAUS-26NOV07-B70.5": {
     "q": 0.11768017152753252,
-    "mkt": 0.37,
+    "mkt": 0.385,
     "kind": "high",
     "close_ts": 1794121200.0
    },
    "KXLOWTTTN-26NOV07-T46": {
     "q": 0.09243443390166628,
-    "mkt": 0.27,
+    "mkt": 0.31,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTTTN-26NOV07-T39": {
     "q": 0.10802060212093131,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTTTN-26NOV07-B45.5": {
     "q": 0.14567108040064009,
-    "mkt": 0.24000000000000002,
+    "mkt": 0.23,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTTTN-26NOV07-B43.5": {
     "q": 0.2225292481513352,
-    "mkt": 0.29000000000000004,
+    "mkt": 0.28,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTTTN-26NOV07-B41.5": {
     "q": 0.24570805300042745,
-    "mkt": 0.105,
+    "mkt": 0.11,
     "kind": "low",
     "close_ts": 1794117600.0
    },
@@ -24706,13 +24432,13 @@
    },
    "KXLOWTSDF-26NOV07-T39": {
     "q": 0.428455109143395,
-    "mkt": 0.39,
+    "mkt": 0.38,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTSDF-26NOV07-T32": {
     "q": 0.001874701969388556,
-    "mkt": 0.05,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
@@ -24742,253 +24468,253 @@
    },
    "KXLOWTPHIL-26NOV07-T49": {
     "q": 0.24555922501048663,
-    "mkt": 0.42000000000000004,
+    "mkt": 0.33999999999999997,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTPHIL-26NOV07-T42": {
     "q": 0.00035584328170807224,
-    "mkt": 0.06,
+    "mkt": 0.01,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTPHIL-26NOV07-B48.5": {
     "q": 0.4293194127862444,
-    "mkt": 0.22,
+    "mkt": 0.37,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTPHIL-26NOV07-B46.5": {
     "q": 0.26782183869686493,
-    "mkt": 0.18000000000000002,
+    "mkt": 0.15,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTPHIL-26NOV07-B44.5": {
     "q": 0.05152142783970068,
-    "mkt": 0.12,
+    "mkt": 0.105,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTPHIL-26NOV07-B42.5": {
     "q": 0.005422252384996,
-    "mkt": 0.07500000000000001,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-T53": {
     "q": 0.04389683835881008,
-    "mkt": 0.075,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-T46": {
     "q": 0.0011338682050809567,
-    "mkt": 0.1,
+    "mkt": 0.07500000000000001,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-B52.5": {
     "q": 0.21212440286561834,
-    "mkt": 0.11499999999999999,
+    "mkt": 0.095,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-B50.5": {
     "q": 0.3698302903630562,
-    "mkt": 0.25,
+    "mkt": 0.2,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-B48.5": {
     "q": 0.3153796342053878,
-    "mkt": 0.30000000000000004,
+    "mkt": 0.49,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTNYC-26NOV07-B46.5": {
     "q": 0.05763496600204787,
-    "mkt": 0.21,
+    "mkt": 0.125,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-T74": {
     "q": 0.3222869309651006,
-    "mkt": 0.17,
+    "mkt": 0.12,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-T67": {
     "q": 0.00023386350699295321,
-    "mkt": 0.055,
+    "mkt": 0.030000000000000002,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-B73.5": {
     "q": 0.0804709303880711,
-    "mkt": 0.38,
+    "mkt": 0.55,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-B71.5": {
     "q": 0.30099182885417514,
-    "mkt": 0.33,
+    "mkt": 0.23,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-B69.5": {
     "q": 0.26980621618364764,
-    "mkt": 0.125,
+    "mkt": 0.10500000000000001,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTMIA-26NOV07-B67.5": {
     "q": 0.026210230102013295,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-T51": {
     "q": 0.033544010489712714,
-    "mkt": 0.495,
+    "mkt": 0.065,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-T44": {
     "q": 0.06725370736986462,
-    "mkt": 0.495,
+    "mkt": 0.095,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-B50.5": {
     "q": 0.12754235525826868,
-    "mkt": 0.495,
+    "mkt": 0.13999999999999999,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-B48.5": {
     "q": 0.27766464035147925,
-    "mkt": 0.495,
+    "mkt": 0.41000000000000003,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-B46.5": {
     "q": 0.3108579448670759,
-    "mkt": 0.47000000000000003,
+    "mkt": 0.17,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTEWR-26NOV07-B44.5": {
     "q": 0.18313734166359963,
-    "mkt": 0.47000000000000003,
+    "mkt": 0.265,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-T49": {
     "q": 0.22536795284937047,
-    "mkt": 0.51,
+    "mkt": 0.37,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-T42": {
     "q": 0.00033504187789989547,
-    "mkt": 0.055,
+    "mkt": 0.01,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-B48.5": {
     "q": 0.35806772120246666,
-    "mkt": 0.28,
+    "mkt": 0.41000000000000003,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-B46.5": {
     "q": 0.3287856210571325,
-    "mkt": 0.15,
+    "mkt": 0.16,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-B44.5": {
     "q": 0.08053195828662445,
-    "mkt": 0.08,
+    "mkt": 0.085,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTDC-26NOV07-B42.5": {
     "q": 0.006911704726506854,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-T56": {
     "q": 0.020667550246585894,
-    "mkt": 0.495,
+    "mkt": 0.015,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-T49": {
     "q": 0.0680603400598722,
-    "mkt": 0.495,
+    "mkt": 0.09,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-B55.5": {
     "q": 0.1009609561556017,
-    "mkt": 0.495,
+    "mkt": 0.060000000000000005,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-B53.5": {
     "q": 0.23193361705152143,
-    "mkt": 0.495,
+    "mkt": 0.105,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-B51.5": {
     "q": 0.3231514753586931,
-    "mkt": 0.47000000000000003,
+    "mkt": 0.41000000000000003,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTBOS-26NOV07-B49.5": {
     "q": 0.2552260611277266,
-    "mkt": 0.47000000000000003,
+    "mkt": 0.36,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-T51": {
     "q": 0.23861805903532762,
-    "mkt": 0.495,
+    "mkt": 0.025,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-T44": {
     "q": 1.7818516220288715e-05,
-    "mkt": 0.495,
+    "mkt": 0.01,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-B50.5": {
     "q": 0.24727412720749176,
-    "mkt": 0.495,
+    "mkt": 0.32,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-B48.5": {
     "q": 0.37943551798889763,
-    "mkt": 0.495,
+    "mkt": 0.45,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-B46.5": {
     "q": 0.13043910883256668,
-    "mkt": 0.495,
+    "mkt": 0.16,
     "kind": "low",
     "close_ts": 1794117600.0
    },
    "KXLOWTATL-26NOV07-B44.5": {
     "q": 0.004215368419497034,
-    "mkt": 0.495,
+    "mkt": 0.06,
     "kind": "low",
     "close_ts": 1794117600.0
    },
@@ -25036,31 +24762,31 @@
    },
    "KXHIGHTSDF-26NOV07-T54": {
     "q": 0.06714719002290997,
-    "mkt": 0.18,
+    "mkt": 0.14500000000000002,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTSDF-26NOV07-B60.5": {
     "q": 0.029115602321628034,
-    "mkt": 0.07,
+    "mkt": 0.065,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTSDF-26NOV07-B58.5": {
     "q": 0.15196911927059648,
-    "mkt": 0.13999999999999999,
+    "mkt": 0.13,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTSDF-26NOV07-B56.5": {
     "q": 0.42556280514329087,
-    "mkt": 0.32,
+    "mkt": 0.42000000000000004,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTSDF-26NOV07-B54.5": {
     "q": 0.3242476397852204,
-    "mkt": 0.31,
+    "mkt": 0.3,
     "kind": "high",
     "close_ts": 1794117600.0
    },
@@ -25090,223 +24816,223 @@
    },
    "KXHIGHTEWR-26NOV07-B64.5": {
     "q": 0.36687474824222743,
-    "mkt": 0.24000000000000002,
+    "mkt": 0.23500000000000001,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTEWR-26NOV07-B62.5": {
     "q": 0.2590251863391958,
-    "mkt": 0.30000000000000004,
+    "mkt": 0.31,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-T65": {
     "q": 0.02010513977131463,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-T58": {
     "q": 0.011808309377197167,
-    "mkt": 0.13,
+    "mkt": 0.075,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-B64.5": {
     "q": 0.09749382140790167,
-    "mkt": 0.08499999999999999,
+    "mkt": 0.055,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-B62.5": {
     "q": 0.3134486130930028,
-    "mkt": 0.19,
+    "mkt": 0.12000000000000001,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-B60.5": {
     "q": 0.40948066130751337,
-    "mkt": 0.345,
+    "mkt": 0.59,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTDC-26NOV07-B58.5": {
     "q": 0.1476634550430711,
-    "mkt": 0.27,
+    "mkt": 0.23,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-T67": {
     "q": 0.10903171991605837,
-    "mkt": 0.09,
+    "mkt": 0.025,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-T60": {
     "q": 0.07324895440733162,
-    "mkt": 0.10500000000000001,
+    "mkt": 0.11,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-B66.5": {
     "q": 0.18656061888195774,
-    "mkt": 0.15,
+    "mkt": 0.11499999999999999,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-B64.5": {
     "q": 0.2652796221922202,
-    "mkt": 0.27,
+    "mkt": 0.16999999999999998,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-B62.5": {
     "q": 0.23000116463293535,
-    "mkt": 0.28,
+    "mkt": 0.265,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTBOS-26NOV07-B60.5": {
     "q": 0.13587791996949775,
-    "mkt": 0.225,
+    "mkt": 0.31,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-T69": {
     "q": 0.0340770922965355,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-T62": {
     "q": 0.009376803768799402,
-    "mkt": 0.06,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-B68.5": {
     "q": 0.1422535903469738,
-    "mkt": 0.17,
+    "mkt": 0.215,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-B66.5": {
     "q": 0.3406942860973249,
-    "mkt": 0.5900000000000001,
+    "mkt": 0.6,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-B64.5": {
     "q": 0.37584057819427497,
-    "mkt": 0.135,
+    "mkt": 0.145,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHTATL-26NOV07-B62.5": {
     "q": 0.0977576492960927,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-T64": {
     "q": 0.0023749078848731807,
-    "mkt": 0.08,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-T57": {
     "q": 0.008508562552148198,
-    "mkt": 0.085,
+    "mkt": 0.04,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-B63.5": {
     "q": 0.032295683600216105,
-    "mkt": 0.13999999999999999,
+    "mkt": 0.05,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-B61.5": {
     "q": 0.2715880682996136,
-    "mkt": 0.27,
+    "mkt": 0.24,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-B59.5": {
     "q": 0.5402724780306453,
-    "mkt": 0.3,
+    "mkt": 0.525,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHPHIL-26NOV07-B57.5": {
     "q": 0.1449602996325044,
-    "mkt": 0.17,
+    "mkt": 0.08,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-T68": {
     "q": 0.006769542911445323,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-T61": {
     "q": 0.20113133848998516,
-    "mkt": 0.455,
+    "mkt": 0.575,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-B67.5": {
     "q": 0.021704711806830423,
-    "mkt": 0.055,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-B65.5": {
     "q": 0.08550054461280382,
-    "mkt": 0.065,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-B63.5": {
     "q": 0.290812516703778,
-    "mkt": 0.17,
+    "mkt": 0.09,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHNY-26NOV07-B61.5": {
     "q": 0.3940813454751582,
-    "mkt": 0.345,
+    "mkt": 0.29500000000000004,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHMIA-26NOV07-T90": {
     "q": 0.012420492483314113,
-    "mkt": 0.060000000000000005,
+    "mkt": 0.025,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHMIA-26NOV07-T83": {
     "q": 0.0011308224732984413,
-    "mkt": 0.05,
+    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHMIA-26NOV07-B89.5": {
     "q": 0.05738369622397587,
-    "mkt": 0.25,
+    "mkt": 0.185,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHMIA-26NOV07-B87.5": {
     "q": 0.34189132612175116,
-    "mkt": 0.42500000000000004,
+    "mkt": 0.625,
     "kind": "high",
     "close_ts": 1794117600.0
    },
    "KXHIGHMIA-26NOV07-B85.5": {
     "q": 0.5148690229405777,
-    "mkt": 0.23,
+    "mkt": 0.15000000000000002,
     "kind": "high",
     "close_ts": 1794117600.0
    },
@@ -25319,50 +25045,97 @@
   },
   "totals": {
    "all": {
-    "n": 4530,
-    "model": 606.9163703266272,
-    "market": 433.2111249999962
+    "n": 4590,
+    "model": 614.5695316483282,
+    "market": 439.120824999996
    },
    "low": {
-    "n": 2262,
-    "model": 319.0450795704548,
-    "market": 226.8388749999997
+    "n": 2292,
+    "model": 323.5856473473766,
+    "market": 230.8228249999997
    },
    "high": {
-    "n": 2268,
-    "model": 287.87129075617196,
-    "market": 206.37224999999896
+    "n": 2298,
+    "model": 290.983884300951,
+    "market": 208.29799999999895
    }
   }
  },
  "last_run": {
-  "ts": 1793977227,
+  "ts": 1793978126,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [],
-  "cancelled": [],
-  "placed": [
+  "settled": [
+   {
+    "ticker": "KXLOWTLAX-26NOV05-B58.5",
+    "pnl": -0.0045
+   },
+   {
+    "ticker": "KXHIGHLAX-26NOV05-B79.5",
+    "pnl": 0.56
+   },
+   {
+    "ticker": "KXHIGHTSEA-26NOV05-B57.5",
+    "pnl": -0.27
+   }
+  ],
+  "cancelled": [
    {
     "ticker": "KXLOWTNYC-26NOV07-T46",
+    "reason": "reprice 0.82->0.87"
+   },
+   {
+    "ticker": "KXHIGHPHIL-26NOV07-T57",
+    "reason": "reprice 0.85->0.94"
+   },
+   {
+    "ticker": "KXHIGHPHIL-26NOV07-T64",
+    "reason": "no longer qualifies"
+   }
+  ],
+  "placed": [
+   {
+    "ticker": "KXHIGHTMIN-26NOV07-T50",
     "side": "no",
-    "price": 0.82,
+    "price": 0.81,
     "contracts": 16,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXHIGHPHIL-26NOV07-T57",
+    "ticker": "KXHIGHDEN-26NOV07-B65.5",
     "side": "no",
-    "price": 0.85,
-    "contracts": 15,
+    "price": 0.83,
+    "contracts": 16,
     "strategy": "favorite"
    },
    {
-    "ticker": "KXHIGHPHIL-26NOV07-T64",
+    "ticker": "KXLOWTCHI-26NOV07-B29.5",
     "side": "no",
     "price": 0.86,
     "contracts": 8,
     "strategy": "favorite"
+   },
+   {
+    "ticker": "KXLOWTMIA-26NOV07-B73.5",
+    "side": "no",
+    "price": 0.36,
+    "contracts": 1,
+    "strategy": "edge"
+   },
+   {
+    "ticker": "KXHIGHMIA-26NOV07-B85.5",
+    "side": "yes",
+    "price": 0.15,
+    "contracts": 1,
+    "strategy": "edge"
+   },
+   {
+    "ticker": "KXLOWTEWR-26NOV07-B46.5",
+    "side": "yes",
+    "price": 0.08,
+    "contracts": 1,
+    "strategy": "edge"
    }
   ],
   "markets": 288,
@@ -25391,38 +25164,38 @@
      {
       "label": "\u226448\u00b0",
       "q": 0.007,
-      "bid": 0.01,
-      "ask": 0.1
+      "bid": null,
+      "ask": 0.11
      },
      {
       "label": "49\u201350\u00b0",
       "q": 0.049,
-      "bid": 0.02,
-      "ask": 0.19
+      "bid": 0.01,
+      "ask": 0.12
      },
      {
       "label": "51\u201352\u00b0",
       "q": 0.167,
-      "bid": 0.26,
-      "ask": 0.46
+      "bid": 0.21,
+      "ask": 0.41
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.263,
-      "bid": 0.3,
-      "ask": 0.5
+      "bid": 0.4,
+      "ask": 0.59
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.231,
-      "bid": 0.03,
-      "ask": 0.23
+      "bid": 0.06,
+      "ask": 0.26
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.284,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      }
     ]
    },
@@ -25450,13 +25223,13 @@
      {
       "label": "\u226443\u00b0",
       "q": 0.087,
-      "bid": 0.01,
-      "ask": 0.1
+      "bid": null,
+      "ask": 0.02
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.157,
-      "bid": 0.01,
+      "bid": null,
       "ask": 0.11
      },
      {
@@ -25481,7 +25254,7 @@
       "label": "\u226552\u00b0",
       "q": 0.098,
       "bid": 0.02,
-      "ask": 0.18
+      "ask": 0.03
      }
     ]
    },
@@ -25509,32 +25282,32 @@
      {
       "label": "\u226455\u00b0",
       "q": 0.015,
-      "bid": 0.24,
-      "ask": 0.25
+      "bid": 0.17,
+      "ask": 0.34
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.09,
-      "bid": 0.19,
-      "ask": 0.39
+      "bid": 0.15,
+      "ask": 0.35
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.106,
-      "bid": 0.23,
-      "ask": 0.43
+      "bid": 0.19,
+      "ask": 0.39
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.18,
-      "bid": 0.08,
-      "ask": 0.28
+      "bid": 0.05,
+      "ask": 0.25
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.211,
       "bid": 0.02,
-      "ask": 0.14
+      "ask": 0.19
      },
      {
       "label": "\u226564\u00b0",
@@ -25568,8 +25341,8 @@
      {
       "label": "\u226448\u00b0",
       "q": 0.004,
-      "bid": null,
-      "ask": 0.1
+      "bid": 0.01,
+      "ask": 0.02
      },
      {
       "label": "49\u201350\u00b0",
@@ -25586,8 +25359,8 @@
      {
       "label": "53\u201354\u00b0",
       "q": 0.214,
-      "bid": 0.21,
-      "ask": 0.41
+      "bid": 0.22,
+      "ask": 0.42
      },
      {
       "label": "55\u201356\u00b0",
@@ -25628,7 +25401,7 @@
       "label": "\u226455\u00b0",
       "q": 0.266,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "56\u201357\u00b0",
@@ -25658,7 +25431,7 @@
       "label": "\u226564\u00b0",
       "q": 0.307,
       "bid": 0.02,
-      "ask": 0.11
+      "ask": 0.03
      }
     ]
    },
@@ -25687,37 +25460,37 @@
       "label": "\u226466\u00b0",
       "q": 0.006,
       "bid": 0.02,
-      "ask": 0.13
+      "ask": 0.03
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.049,
       "bid": 0.11,
-      "ask": 0.31
+      "ask": 0.22
      },
      {
       "label": "69\u201370\u00b0",
       "q": 0.177,
-      "bid": 0.31,
-      "ask": 0.51
+      "bid": 0.36,
+      "ask": 0.39
      },
      {
       "label": "71\u201372\u00b0",
       "q": 0.284,
-      "bid": 0.18,
-      "ask": 0.38
+      "bid": 0.27,
+      "ask": 0.37
      },
      {
       "label": "73\u201374\u00b0",
       "q": 0.245,
-      "bid": 0.02,
-      "ask": 0.16
+      "bid": 0.04,
+      "ask": 0.11
      },
      {
       "label": "\u226575\u00b0",
       "q": 0.239,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -25745,38 +25518,38 @@
      {
       "label": "\u226460\u00b0",
       "q": 0.307,
-      "bid": 0.21,
-      "ask": 0.41
+      "bid": 0.29,
+      "ask": 0.42
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.301,
-      "bid": 0.27,
-      "ask": 0.47
+      "bid": 0.37,
+      "ask": 0.45
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.246,
-      "bid": 0.14,
-      "ask": 0.34
+      "bid": 0.08,
+      "ask": 0.24
      },
      {
       "label": "65\u201366\u00b0",
       "q": 0.111,
       "bid": 0.02,
-      "ask": 0.16
+      "ask": 0.07
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.03,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "\u226569\u00b0",
       "q": 0.005,
-      "bid": null,
-      "ask": 0.01
+      "bid": 0.01,
+      "ask": 0.02
      }
     ]
    },
@@ -25804,32 +25577,32 @@
      {
       "label": "\u226482\u00b0",
       "q": 0.236,
-      "bid": 0.01,
-      "ask": 0.93
+      "bid": 0.24,
+      "ask": 0.35
      },
      {
       "label": "83\u201384\u00b0",
       "q": 0.163,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.45,
+      "ask": 0.59
      },
      {
       "label": "85\u201386\u00b0",
       "q": 0.186,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.09,
+      "ask": 0.26
      },
      {
       "label": "87\u201388\u00b0",
       "q": 0.267,
       "bid": 0.01,
-      "ask": 0.98
+      "ask": 0.1
      },
      {
       "label": "89\u201390\u00b0",
       "q": 0.136,
       "bid": 0.01,
-      "ask": 0.98
+      "ask": 0.1
      },
      {
       "label": "\u226591\u00b0",
@@ -25864,31 +25637,31 @@
       "label": "\u226471\u00b0",
       "q": 0.009,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.233,
-      "bid": 0.06,
-      "ask": 0.26
+      "bid": 0.15,
+      "ask": 0.21
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.51,
       "bid": 0.71,
-      "ask": 0.72
+      "ask": 0.73
      },
      {
       "label": "76\u201377\u00b0",
       "q": 0.194,
-      "bid": 0.01,
-      "ask": 0.11
+      "bid": 0.03,
+      "ask": 0.05
      },
      {
       "label": "78\u201379\u00b0",
       "q": 0.042,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.08
      },
      {
       "label": "\u226580\u00b0",
@@ -25923,37 +25696,37 @@
       "label": "\u226478\u00b0",
       "q": 0.002,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "79\u201380\u00b0",
       "q": 0.03,
       "bid": 0.01,
-      "ask": 0.08
+      "ask": 0.02
      },
      {
       "label": "81\u201382\u00b0",
       "q": 0.216,
-      "bid": 0.06,
-      "ask": 0.23
+      "bid": 0.05,
+      "ask": 0.07
      },
      {
       "label": "83\u201384\u00b0",
       "q": 0.2,
-      "bid": 0.39,
+      "bid": 0.42,
       "ask": 0.44
      },
      {
       "label": "85\u201386\u00b0",
       "q": 0.293,
-      "bid": 0.27,
-      "ask": 0.47
+      "bid": 0.36,
+      "ask": 0.39
      },
      {
       "label": "\u226587\u00b0",
       "q": 0.259,
-      "bid": 0.05,
-      "ask": 0.14
+      "bid": 0.1,
+      "ask": 0.11
      }
     ]
    },
@@ -25982,37 +25755,37 @@
       "label": "\u226430\u00b0",
       "q": 0.133,
       "bid": 0.02,
-      "ask": 0.21
+      "ask": 0.18
      },
      {
       "label": "31\u201332\u00b0",
       "q": 0.161,
-      "bid": 0.1,
-      "ask": 0.3
+      "bid": 0.18,
+      "ask": 0.38
      },
      {
       "label": "33\u201334\u00b0",
       "q": 0.2,
-      "bid": 0.19,
-      "ask": 0.39
+      "bid": 0.28,
+      "ask": 0.29
      },
      {
       "label": "35\u201336\u00b0",
       "q": 0.164,
-      "bid": 0.14,
-      "ask": 0.34
+      "bid": 0.2,
+      "ask": 0.29
      },
      {
       "label": "37\u201338\u00b0",
       "q": 0.111,
       "bid": 0.02,
-      "ask": 0.22
+      "ask": 0.19
      },
      {
       "label": "\u226539\u00b0",
       "q": 0.231,
       "bid": 0.01,
-      "ask": 0.14
+      "ask": 0.02
      }
     ]
    },
@@ -26041,37 +25814,37 @@
       "label": "\u226458\u00b0",
       "q": 0.138,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.319,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.359,
-      "bid": 0.38,
-      "ask": 0.46
+      "bid": 0.22,
+      "ask": 0.23
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.156,
-      "bid": 0.42,
-      "ask": 0.47
+      "bid": 0.47,
+      "ask": 0.48
      },
      {
       "label": "65\u201366\u00b0",
       "q": 0.027,
-      "bid": 0.02,
-      "ask": 0.1
+      "bid": 0.14,
+      "ask": 0.18
      },
      {
       "label": "\u226567\u00b0",
       "q": 0.002,
-      "bid": 0.02,
-      "ask": 0.11
+      "bid": 0.06,
+      "ask": 0.07
      }
     ]
    },
@@ -26100,12 +25873,12 @@
       "label": "\u226452\u00b0",
       "q": 0.032,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.114,
-      "bid": 0.01,
+      "bid": 0.02,
       "ask": 0.11
      },
      {
@@ -26158,25 +25931,25 @@
      {
       "label": "\u226453\u00b0",
       "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.1
+      "bid": null,
+      "ask": 0.08
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.002,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.04
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.027,
       "bid": 0.02,
-      "ask": 0.12
+      "ask": 0.03
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.161,
-      "bid": 0.1,
+      "bid": 0.09,
       "ask": 0.18
      },
      {
@@ -26188,8 +25961,8 @@
      {
       "label": "\u226562\u00b0",
       "q": 0.503,
-      "bid": 0.51,
-      "ask": 0.59
+      "bid": 0.52,
+      "ask": 0.6
      }
     ]
    },
@@ -26277,7 +26050,7 @@
       "label": "\u226453\u00b0",
       "q": 0.027,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "54\u201355\u00b0",
@@ -26335,14 +26108,14 @@
      {
       "label": "\u226426\u00b0",
       "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.1
+      "bid": null,
+      "ask": 0.02
      },
      {
       "label": "27\u201328\u00b0",
       "q": 0.004,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.03
      },
      {
       "label": "29\u201330\u00b0",
@@ -26412,8 +26185,8 @@
      {
       "label": "65\u201366\u00b0",
       "q": 0.217,
-      "bid": 0.21,
-      "ask": 0.41
+      "bid": 0.22,
+      "ask": 0.42
      },
      {
       "label": "67\u201368\u00b0",
@@ -26425,7 +26198,7 @@
       "label": "\u226569\u00b0",
       "q": 0.034,
       "bid": 0.01,
-      "ask": 0.12
+      "ask": 0.02
      }
     ]
    },
@@ -26454,7 +26227,7 @@
       "label": "\u226447\u00b0",
       "q": 0.065,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "48\u201349\u00b0",
@@ -26465,26 +26238,26 @@
      {
       "label": "50\u201351\u00b0",
       "q": 0.31,
-      "bid": 0.25,
-      "ask": 0.45
+      "bid": 0.1,
+      "ask": 0.3
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.238,
-      "bid": 0.35,
-      "ask": 0.55
+      "bid": 0.46,
+      "ask": 0.66
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.13,
-      "bid": 0.03,
-      "ask": 0.23
+      "bid": 0.05,
+      "ask": 0.25
      },
      {
       "label": "\u226556\u00b0",
       "q": 0.083,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -26513,31 +26286,31 @@
       "label": "\u226428\u00b0",
       "q": 0.0,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.06
      },
      {
       "label": "29\u201330\u00b0",
       "q": 0.001,
       "bid": 0.02,
-      "ask": 0.14
+      "ask": 0.15
      },
      {
       "label": "31\u201332\u00b0",
       "q": 0.068,
-      "bid": 0.09,
-      "ask": 0.29
+      "bid": 0.11,
+      "ask": 0.26
      },
      {
       "label": "33\u201334\u00b0",
       "q": 0.355,
-      "bid": 0.27,
-      "ask": 0.47
+      "bid": 0.36,
+      "ask": 0.49
      },
      {
       "label": "35\u201336\u00b0",
       "q": 0.222,
-      "bid": 0.19,
-      "ask": 0.39
+      "bid": 0.12,
+      "ask": 0.26
      },
      {
       "label": "\u226537\u00b0",
@@ -26572,7 +26345,7 @@
       "label": "\u226451\u00b0",
       "q": 0.216,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.05
      },
      {
       "label": "52\u201353\u00b0",
@@ -26630,32 +26403,32 @@
      {
       "label": "\u226469\u00b0",
       "q": 0.204,
-      "bid": 0.15,
-      "ask": 0.35
+      "bid": 0.3,
+      "ask": 0.4
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.182,
-      "bid": 0.3,
-      "ask": 0.5
+      "bid": 0.35,
+      "ask": 0.41
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.279,
-      "bid": 0.17,
-      "ask": 0.37
+      "bid": 0.19,
+      "ask": 0.26
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.267,
-      "bid": 0.02,
-      "ask": 0.16
+      "bid": 0.03,
+      "ask": 0.08
      },
      {
       "label": "76\u201377\u00b0",
       "q": 0.065,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.05
      },
      {
       "label": "\u226578\u00b0",
@@ -26689,8 +26462,8 @@
      {
       "label": "\u226478\u00b0",
       "q": 0.099,
-      "bid": 0.01,
-      "ask": 0.08
+      "bid": null,
+      "ask": 0.01
      },
      {
       "label": "79\u201380\u00b0",
@@ -26701,26 +26474,26 @@
      {
       "label": "81\u201382\u00b0",
       "q": 0.282,
-      "bid": 0.34,
-      "ask": 0.54
+      "bid": 0.43,
+      "ask": 0.5
      },
      {
       "label": "83\u201384\u00b0",
       "q": 0.214,
-      "bid": 0.23,
-      "ask": 0.43
+      "bid": 0.34,
+      "ask": 0.39
      },
      {
       "label": "85\u201386\u00b0",
       "q": 0.11,
-      "bid": 0.02,
-      "ask": 0.16
+      "bid": 0.04,
+      "ask": 0.08
      },
      {
       "label": "\u226587\u00b0",
       "q": 0.033,
-      "bid": null,
-      "ask": 0.1
+      "bid": 0.01,
+      "ask": 0.02
      }
     ]
    },
@@ -26748,32 +26521,32 @@
      {
       "label": "\u226456\u00b0",
       "q": 0.082,
-      "bid": 0.01,
+      "bid": 0.13,
       "ask": 0.18
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.21,
-      "bid": 0.25,
-      "ask": 0.45
+      "bid": 0.31,
+      "ask": 0.36
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.267,
-      "bid": 0.15,
-      "ask": 0.35
+      "bid": 0.29,
+      "ask": 0.36
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.208,
-      "bid": 0.05,
-      "ask": 0.18
+      "bid": 0.09,
+      "ask": 0.1
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.143,
-      "bid": 0.01,
-      "ask": 0.11
+      "bid": 0.02,
+      "ask": 0.07
      },
      {
       "label": "\u226565\u00b0",
@@ -26807,38 +26580,38 @@
      {
       "label": "\u226470\u00b0",
       "q": 0.099,
-      "bid": 0.02,
-      "ask": 0.63
+      "bid": 0.03,
+      "ask": 0.11
      },
      {
       "label": "71\u201372\u00b0",
       "q": 0.368,
-      "bid": 0.04,
-      "ask": 0.57
+      "bid": 0.16,
+      "ask": 0.22
      },
      {
       "label": "73\u201374\u00b0",
       "q": 0.263,
-      "bid": 0.04,
+      "bid": 0.58,
       "ask": 0.62
      },
      {
       "label": "75\u201376\u00b0",
       "q": 0.151,
-      "bid": 0.01,
-      "ask": 0.57
+      "bid": 0.13,
+      "ask": 0.18
      },
      {
       "label": "77\u201378\u00b0",
       "q": 0.086,
-      "bid": 0.01,
-      "ask": 0.46
+      "bid": 0.02,
+      "ask": 0.1
      },
      {
       "label": "\u226579\u00b0",
       "q": 0.033,
       "bid": null,
-      "ask": 0.63
+      "ask": 0.02
      }
     ]
    },
@@ -26866,38 +26639,38 @@
      {
       "label": "\u226449\u00b0",
       "q": 0.022,
-      "bid": 0.35,
-      "ask": 0.55
+      "bid": 0.14,
+      "ask": 0.2
      },
      {
       "label": "50\u201351\u00b0",
       "q": 0.096,
-      "bid": 0.11,
-      "ask": 0.31
+      "bid": 0.24,
+      "ask": 0.25
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.257,
-      "bid": 0.07,
-      "ask": 0.27
+      "bid": 0.24,
+      "ask": 0.34
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.334,
-      "bid": 0.02,
-      "ask": 0.21
+      "bid": 0.15,
+      "ask": 0.22
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.211,
-      "bid": 0.02,
-      "ask": 0.15
+      "bid": 0.05,
+      "ask": 0.13
      },
      {
       "label": "\u226558\u00b0",
       "q": 0.081,
-      "bid": null,
-      "ask": 0.11
+      "bid": 0.01,
+      "ask": 0.02
      }
     ]
    },
@@ -26925,32 +26698,32 @@
      {
       "label": "\u226474\u00b0",
       "q": 0.061,
-      "bid": 0.06,
-      "ask": 0.16
+      "bid": 0.03,
+      "ask": 0.07
      },
      {
       "label": "75\u201376\u00b0",
       "q": 0.143,
-      "bid": 0.07,
-      "ask": 0.16
+      "bid": 0.09,
+      "ask": 0.1
      },
      {
       "label": "77\u201378\u00b0",
       "q": 0.283,
       "bid": 0.37,
-      "ask": 0.45
+      "ask": 0.43
      },
      {
       "label": "79\u201380\u00b0",
       "q": 0.317,
-      "bid": 0.3,
-      "ask": 0.38
+      "bid": 0.39,
+      "ask": 0.42
      },
      {
       "label": "81\u201382\u00b0",
       "q": 0.162,
-      "bid": 0.02,
-      "ask": 0.11
+      "bid": 0.03,
+      "ask": 0.07
      },
      {
       "label": "\u226583\u00b0",
@@ -26984,38 +26757,38 @@
      {
       "label": "\u226465\u00b0",
       "q": 0.086,
-      "bid": 0.07,
-      "ask": 0.16
+      "bid": 0.24,
+      "ask": 0.26
      },
      {
       "label": "66\u201367\u00b0",
       "q": 0.185,
-      "bid": 0.26,
-      "ask": 0.34
+      "bid": 0.27,
+      "ask": 0.35
      },
      {
       "label": "68\u201369\u00b0",
       "q": 0.311,
-      "bid": 0.32,
-      "ask": 0.4
+      "bid": 0.29,
+      "ask": 0.35
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.269,
-      "bid": 0.14,
-      "ask": 0.22
+      "bid": 0.1,
+      "ask": 0.17
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.119,
       "bid": 0.02,
-      "ask": 0.11
+      "ask": 0.08
      },
      {
       "label": "\u226574\u00b0",
       "q": 0.03,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -27043,38 +26816,38 @@
      {
       "label": "\u226448\u00b0",
       "q": 0.113,
-      "bid": 0.17,
-      "ask": 0.18
+      "bid": 0.04,
+      "ask": 0.06
      },
      {
       "label": "49\u201350\u00b0",
       "q": 0.328,
-      "bid": 0.27,
-      "ask": 0.45
+      "bid": 0.31,
+      "ask": 0.33
      },
      {
       "label": "51\u201352\u00b0",
       "q": 0.341,
-      "bid": 0.23,
-      "ask": 0.35
+      "bid": 0.42,
+      "ask": 0.44
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.169,
-      "bid": 0.02,
-      "ask": 0.18
+      "bid": 0.1,
+      "ask": 0.11
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.044,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.005,
-      "bid": null,
-      "ask": 0.1
+      "bid": 0.01,
+      "ask": 0.02
      }
     ]
    },
@@ -27102,32 +26875,32 @@
      {
       "label": "\u226469\u00b0",
       "q": 0.058,
-      "bid": 0.04,
-      "ask": 0.12
+      "bid": 0.09,
+      "ask": 0.1
      },
      {
       "label": "70\u201371\u00b0",
       "q": 0.118,
-      "bid": 0.27,
-      "ask": 0.47
+      "bid": 0.36,
+      "ask": 0.41
      },
      {
       "label": "72\u201373\u00b0",
       "q": 0.281,
-      "bid": 0.38,
-      "ask": 0.58
+      "bid": 0.39,
+      "ask": 0.42
      },
      {
       "label": "74\u201375\u00b0",
       "q": 0.299,
-      "bid": 0.02,
-      "ask": 0.21
+      "bid": 0.04,
+      "ask": 0.09
      },
      {
       "label": "76\u201377\u00b0",
       "q": 0.174,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.06
      },
      {
       "label": "\u226578\u00b0",
@@ -27162,7 +26935,7 @@
       "label": "\u226438\u00b0",
       "q": 0.108,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      },
      {
       "label": "39\u201340\u00b0",
@@ -27174,25 +26947,25 @@
       "label": "41\u201342\u00b0",
       "q": 0.246,
       "bid": 0.02,
-      "ask": 0.19
+      "ask": 0.2
      },
      {
       "label": "43\u201344\u00b0",
       "q": 0.223,
-      "bid": 0.19,
-      "ask": 0.39
+      "bid": 0.18,
+      "ask": 0.38
      },
      {
       "label": "45\u201346\u00b0",
       "q": 0.146,
-      "bid": 0.14,
-      "ask": 0.34
+      "bid": 0.13,
+      "ask": 0.33
      },
      {
       "label": "\u226547\u00b0",
       "q": 0.092,
-      "bid": 0.17,
-      "ask": 0.37
+      "bid": 0.21,
+      "ask": 0.41
      }
     ]
    },
@@ -27220,8 +26993,8 @@
      {
       "label": "\u226431\u00b0",
       "q": 0.002,
-      "bid": null,
-      "ask": 0.1
+      "bid": 0.01,
+      "ask": 0.02
      },
      {
       "label": "32\u201333\u00b0",
@@ -27250,8 +27023,8 @@
      {
       "label": "\u226540\u00b0",
       "q": 0.428,
-      "bid": 0.29,
-      "ask": 0.49
+      "bid": 0.28,
+      "ask": 0.48
      }
     ]
    },
@@ -27279,38 +27052,38 @@
      {
       "label": "\u226441\u00b0",
       "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.11
+      "bid": null,
+      "ask": 0.02
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.005,
       "bid": 0.01,
-      "ask": 0.14
+      "ask": 0.02
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.052,
       "bid": 0.02,
-      "ask": 0.22
+      "ask": 0.19
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.268,
-      "bid": 0.08,
-      "ask": 0.28
+      "bid": 0.05,
+      "ask": 0.25
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.429,
-      "bid": 0.12,
-      "ask": 0.32
+      "bid": 0.27,
+      "ask": 0.47
      },
      {
       "label": "\u226550\u00b0",
       "q": 0.246,
-      "bid": 0.32,
-      "ask": 0.52
+      "bid": 0.24,
+      "ask": 0.44
      }
     ]
    },
@@ -27339,37 +27112,37 @@
       "label": "\u226445\u00b0",
       "q": 0.001,
       "bid": 0.01,
-      "ask": 0.19
+      "ask": 0.14
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.058,
-      "bid": 0.11,
-      "ask": 0.31
+      "bid": 0.05,
+      "ask": 0.2
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.315,
-      "bid": 0.2,
-      "ask": 0.4
+      "bid": 0.4,
+      "ask": 0.58
      },
      {
       "label": "50\u201351\u00b0",
       "q": 0.37,
-      "bid": 0.15,
-      "ask": 0.35
+      "bid": 0.12,
+      "ask": 0.28
      },
      {
       "label": "52\u201353\u00b0",
       "q": 0.212,
       "bid": 0.02,
-      "ask": 0.21
+      "ask": 0.17
      },
      {
       "label": "\u226554\u00b0",
       "q": 0.044,
-      "bid": 0.02,
-      "ask": 0.13
+      "bid": 0.01,
+      "ask": 0.02
      }
     ]
    },
@@ -27398,37 +27171,37 @@
       "label": "\u226466\u00b0",
       "q": 0.0,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.05
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.026,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      },
      {
       "label": "69\u201370\u00b0",
       "q": 0.27,
       "bid": 0.05,
-      "ask": 0.2
+      "ask": 0.16
      },
      {
       "label": "71\u201372\u00b0",
       "q": 0.301,
-      "bid": 0.23,
-      "ask": 0.43
+      "bid": 0.13,
+      "ask": 0.33
      },
      {
       "label": "73\u201374\u00b0",
       "q": 0.08,
-      "bid": 0.28,
-      "ask": 0.48
+      "bid": 0.45,
+      "ask": 0.65
      },
      {
       "label": "\u226575\u00b0",
       "q": 0.322,
-      "bid": 0.07,
-      "ask": 0.27
+      "bid": 0.03,
+      "ask": 0.21
      }
     ]
    },
@@ -27456,38 +27229,38 @@
      {
       "label": "\u226443\u00b0",
       "q": 0.067,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.02,
+      "ask": 0.17
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.183,
-      "bid": 0.01,
-      "ask": 0.93
+      "bid": 0.26,
+      "ask": 0.27
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.311,
-      "bid": 0.01,
-      "ask": 0.93
+      "bid": 0.07,
+      "ask": 0.27
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.278,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.31,
+      "ask": 0.51
      },
      {
       "label": "50\u201351\u00b0",
       "q": 0.128,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.04,
+      "ask": 0.24
      },
      {
       "label": "\u226552\u00b0",
       "q": 0.034,
       "bid": 0.01,
-      "ask": 0.98
+      "ask": 0.12
      }
     ]
    },
@@ -27515,38 +27288,38 @@
      {
       "label": "\u226441\u00b0",
       "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.1
+      "bid": null,
+      "ask": 0.02
      },
      {
       "label": "42\u201343\u00b0",
       "q": 0.007,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.081,
-      "bid": 0.02,
+      "bid": 0.03,
       "ask": 0.14
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.329,
-      "bid": 0.05,
-      "ask": 0.25
+      "bid": 0.06,
+      "ask": 0.26
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.358,
-      "bid": 0.18,
-      "ask": 0.38
+      "bid": 0.31,
+      "ask": 0.51
      },
      {
       "label": "\u226550\u00b0",
       "q": 0.225,
-      "bid": 0.41,
-      "ask": 0.61
+      "bid": 0.27,
+      "ask": 0.47
      }
     ]
    },
@@ -27574,38 +27347,38 @@
      {
       "label": "\u226448\u00b0",
       "q": 0.068,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.02,
+      "ask": 0.16
      },
      {
       "label": "49\u201350\u00b0",
       "q": 0.255,
-      "bid": 0.01,
-      "ask": 0.93
+      "bid": 0.26,
+      "ask": 0.46
      },
      {
       "label": "51\u201352\u00b0",
       "q": 0.323,
-      "bid": 0.01,
-      "ask": 0.93
+      "bid": 0.31,
+      "ask": 0.51
      },
      {
       "label": "53\u201354\u00b0",
       "q": 0.232,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.03,
+      "ask": 0.18
      },
      {
       "label": "55\u201356\u00b0",
       "q": 0.101,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.02,
+      "ask": 0.1
      },
      {
       "label": "\u226557\u00b0",
       "q": 0.021,
       "bid": 0.01,
-      "ask": 0.98
+      "ask": 0.02
      }
     ]
    },
@@ -27633,38 +27406,38 @@
      {
       "label": "\u226443\u00b0",
       "q": 0.0,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": null,
+      "ask": 0.02
      },
      {
       "label": "44\u201345\u00b0",
       "q": 0.004,
       "bid": 0.01,
-      "ask": 0.98
+      "ask": 0.11
      },
      {
       "label": "46\u201347\u00b0",
       "q": 0.13,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.06,
+      "ask": 0.26
      },
      {
       "label": "48\u201349\u00b0",
       "q": 0.379,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.35,
+      "ask": 0.55
      },
      {
       "label": "50\u201351\u00b0",
       "q": 0.247,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.22,
+      "ask": 0.42
      },
      {
       "label": "\u226552\u00b0",
       "q": 0.239,
-      "bid": 0.01,
-      "ask": 0.98
+      "bid": 0.02,
+      "ask": 0.03
      }
     ]
    },
@@ -27751,32 +27524,32 @@
      {
       "label": "\u226453\u00b0",
       "q": 0.067,
-      "bid": 0.09,
-      "ask": 0.27
+      "bid": 0.06,
+      "ask": 0.23
      },
      {
       "label": "54\u201355\u00b0",
       "q": 0.324,
       "bid": 0.22,
-      "ask": 0.4
+      "ask": 0.38
      },
      {
       "label": "56\u201357\u00b0",
       "q": 0.426,
-      "bid": 0.23,
-      "ask": 0.41
+      "bid": 0.34,
+      "ask": 0.5
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.152,
       "bid": 0.04,
-      "ask": 0.24
+      "ask": 0.22
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.029,
       "bid": 0.01,
-      "ask": 0.13
+      "ask": 0.12
      },
      {
       "label": "\u226562\u00b0",
@@ -27816,14 +27589,14 @@
      {
       "label": "62\u201363\u00b0",
       "q": 0.259,
-      "bid": 0.2,
-      "ask": 0.4
+      "bid": 0.21,
+      "ask": 0.41
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.367,
       "bid": 0.14,
-      "ask": 0.34
+      "ask": 0.33
      },
      {
       "label": "66\u201367\u00b0",
@@ -27870,37 +27643,37 @@
       "label": "\u226457\u00b0",
       "q": 0.012,
       "bid": 0.04,
-      "ask": 0.22
+      "ask": 0.11
      },
      {
       "label": "58\u201359\u00b0",
       "q": 0.148,
-      "bid": 0.18,
-      "ask": 0.36
+      "bid": 0.19,
+      "ask": 0.27
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.409,
-      "bid": 0.26,
-      "ask": 0.43
+      "bid": 0.57,
+      "ask": 0.61
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.313,
-      "bid": 0.09,
-      "ask": 0.29
+      "bid": 0.1,
+      "ask": 0.14
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.097,
       "bid": 0.02,
-      "ask": 0.15
+      "ask": 0.09
      },
      {
       "label": "\u226566\u00b0",
       "q": 0.02,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -27928,38 +27701,38 @@
      {
       "label": "\u226459\u00b0",
       "q": 0.073,
-      "bid": 0.05,
-      "ask": 0.16
+      "bid": 0.07,
+      "ask": 0.15
      },
      {
       "label": "60\u201361\u00b0",
       "q": 0.136,
-      "bid": 0.19,
-      "ask": 0.26
+      "bid": 0.3,
+      "ask": 0.32
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.23,
-      "bid": 0.18,
-      "ask": 0.38
+      "bid": 0.25,
+      "ask": 0.28
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.265,
-      "bid": 0.18,
-      "ask": 0.36
+      "bid": 0.16,
+      "ask": 0.18
      },
      {
       "label": "66\u201367\u00b0",
       "q": 0.187,
-      "bid": 0.06,
-      "ask": 0.24
+      "bid": 0.08,
+      "ask": 0.15
      },
      {
       "label": "\u226568\u00b0",
       "q": 0.109,
       "bid": 0.02,
-      "ask": 0.16
+      "ask": 0.03
      }
     ]
    },
@@ -27988,37 +27761,37 @@
       "label": "\u226461\u00b0",
       "q": 0.009,
       "bid": 0.01,
-      "ask": 0.11
+      "ask": 0.02
      },
      {
       "label": "62\u201363\u00b0",
       "q": 0.098,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "64\u201365\u00b0",
       "q": 0.376,
-      "bid": 0.05,
-      "ask": 0.22
+      "bid": 0.11,
+      "ask": 0.18
      },
      {
       "label": "66\u201367\u00b0",
       "q": 0.341,
-      "bid": 0.56,
-      "ask": 0.62
+      "bid": 0.59,
+      "ask": 0.61
      },
      {
       "label": "68\u201369\u00b0",
       "q": 0.142,
-      "bid": 0.08,
-      "ask": 0.26
+      "bid": 0.18,
+      "ask": 0.25
      },
      {
       "label": "\u226570\u00b0",
       "q": 0.034,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -28047,37 +27820,37 @@
       "label": "\u226456\u00b0",
       "q": 0.009,
       "bid": 0.01,
-      "ask": 0.16
+      "ask": 0.07
      },
      {
       "label": "57\u201358\u00b0",
       "q": 0.145,
-      "bid": 0.07,
-      "ask": 0.27
+      "bid": 0.05,
+      "ask": 0.11
      },
      {
       "label": "59\u201360\u00b0",
       "q": 0.54,
-      "bid": 0.21,
-      "ask": 0.39
+      "bid": 0.52,
+      "ask": 0.53
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.272,
-      "bid": 0.18,
-      "ask": 0.36
+      "bid": 0.22,
+      "ask": 0.26
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.032,
-      "bid": 0.04,
-      "ask": 0.24
+      "bid": 0.02,
+      "ask": 0.08
      },
      {
       "label": "\u226565\u00b0",
       "q": 0.002,
       "bid": 0.01,
-      "ask": 0.15
+      "ask": 0.02
      }
     ]
    },
@@ -28105,38 +27878,38 @@
      {
       "label": "\u226460\u00b0",
       "q": 0.201,
-      "bid": 0.36,
-      "ask": 0.55
+      "bid": 0.56,
+      "ask": 0.59
      },
      {
       "label": "61\u201362\u00b0",
       "q": 0.394,
-      "bid": 0.25,
-      "ask": 0.44
+      "bid": 0.28,
+      "ask": 0.31
      },
      {
       "label": "63\u201364\u00b0",
       "q": 0.291,
-      "bid": 0.07,
-      "ask": 0.27
+      "bid": 0.08,
+      "ask": 0.1
      },
      {
       "label": "65\u201366\u00b0",
       "q": 0.086,
       "bid": 0.01,
-      "ask": 0.12
+      "ask": 0.02
      },
      {
       "label": "67\u201368\u00b0",
       "q": 0.022,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      },
      {
       "label": "\u226569\u00b0",
       "q": 0.007,
       "bid": 0.01,
-      "ask": 0.1
+      "ask": 0.02
      }
     ]
    },
@@ -28164,8 +27937,8 @@
      {
       "label": "\u226482\u00b0",
       "q": 0.001,
-      "bid": null,
-      "ask": 0.1
+      "bid": 0.01,
+      "ask": 0.02
      },
      {
       "label": "83\u201384\u00b0",
@@ -28176,45 +27949,34 @@
      {
       "label": "85\u201386\u00b0",
       "q": 0.515,
-      "bid": 0.13,
-      "ask": 0.33
+      "bid": 0.14,
+      "ask": 0.16
      },
      {
       "label": "87\u201388\u00b0",
       "q": 0.342,
-      "bid": 0.33,
-      "ask": 0.52
+      "bid": 0.62,
+      "ask": 0.63
      },
      {
       "label": "89\u201390\u00b0",
       "q": 0.057,
-      "bid": 0.15,
-      "ask": 0.35
+      "bid": 0.18,
+      "ask": 0.19
      },
      {
       "label": "\u226591\u00b0",
       "q": 0.012,
       "bid": 0.02,
-      "ask": 0.1
+      "ask": 0.03
      }
     ]
    }
   ],
   "halt": null,
-  "candidates": 153,
-  "health": {
-   "open_meteo_ensemble": {
-    "ok": 48,
-    "fail": 0,
-    "last_error": null
-   },
-   "open_meteo_nbm": {
-    "ok": 24,
-    "fail": 0,
-    "last_error": null
-   }
-  },
-  "seconds": 76.4
+  "candidates": 110,
+  "health": {},
+  "seconds": 52.8
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

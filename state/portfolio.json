@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 22.092,
+ "cash": 34.092,
  "fees_paid": 9.69,
  "peak_equity": 109.65,
  "day": "2026-11-06",
@@ -84,23 +84,6 @@
    }
   },
   {
-   "id": 376,
-   "ticker": "KXHIGHLAX-26NOV05-B75.5",
-   "event_ticker": "KXHIGHLAX-26NOV05",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1793849425,
-   "close_ts": 1793955600.0,
-   "score": 0.6145,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 378,
    "ticker": "KXGOLDW-26NOV0617-T4027.99",
    "event_ticker": "KXGOLDW-26NOV0617",
@@ -114,7 +97,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.77,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -139,23 +122,6 @@
    }
   },
   {
-   "id": 380,
-   "ticker": "KXTRUMPVH-26NOV06-T37.6",
-   "event_ticker": "KXTRUMPVH-26NOV06",
-   "series": "KXTRUMPVH",
-   "label": "Will Donald Trump's VoteHub approval polling average be above 37.6% at 10:00 AM ET on Nov 6, 2026? \u2014 Above 37.6%",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.88,
-   "fee": 0.05,
-   "cost": 5.33,
-   "opened_ts": 1793884532,
-   "close_ts": 1793977140.0,
-   "score": 0.5462,
-   "mark_price": 0.98,
-   "shadow": {}
-  },
-  {
    "id": 381,
    "ticker": "KXNATGASW-26NOV0617-T3.099",
    "event_ticker": "KXNATGASW-26NOV0617",
@@ -169,7 +135,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -230,7 +196,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -264,7 +230,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.07,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -319,12 +285,22 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.82,
+   "mark_price": 0.72,
    "shadow": {
     "10": {
      "ts": 1793977227,
      "bid": 0.82,
      "proceeds": 2.42
+    },
+    "15": {
+     "ts": 1793978126,
+     "bid": 0.72,
+     "proceeds": 2.11
+    },
+    "20": {
+     "ts": 1793978126,
+     "bid": 0.72,
+     "proceeds": 2.11
     }
    }
   },
@@ -10108,6 +10084,48 @@
    "result": "YES",
    "closed_ts": 1793974527,
    "won": false
+  },
+  {
+   "id": 376,
+   "ticker": "KXHIGHLAX-26NOV05-B75.5",
+   "event_ticker": "KXHIGHLAX-26NOV05",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 75-76\u00b0 on Nov 5, 2026? \u2014 75\u00b0 to 76\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793849425,
+   "close_ts": 1793955600.0,
+   "score": 0.6145,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "NO",
+   "closed_ts": 1793978126,
+   "won": true
+  },
+  {
+   "id": 380,
+   "ticker": "KXTRUMPVH-26NOV06-T37.6",
+   "event_ticker": "KXTRUMPVH-26NOV06",
+   "series": "KXTRUMPVH",
+   "label": "Will Donald Trump's VoteHub approval polling average be above 37.6% at 10:00 AM ET on Nov 6, 2026? \u2014 Above 37.6%",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.88,
+   "fee": 0.05,
+   "cost": 5.33,
+   "opened_ts": 1793884532,
+   "close_ts": 1793977140.0,
+   "score": 0.5462,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.67,
+   "result": "YES",
+   "closed_ts": 1793978126,
+   "won": true
   }
  ],
  "equity_history": [
@@ -23195,25 +23213,33 @@
    1793977227,
    91.082,
    87.142
+  ],
+  [
+   1793978126,
+   92.142,
+   87.532
   ]
  ],
  "last_run": {
-  "ts": 1793977227,
+  "ts": 1793978126,
   "error": null,
-  "markets_scanned": 84,
+  "markets_scanned": 93,
   "candidates": 0,
   "rejections": {
-   "too little volume": 62,
+   "too little volume": 71,
    "no favorite in 80-95c band": 16,
    "spread too wide": 6
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   376,
+   380
+  ],
   "halt": null,
   "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 10,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

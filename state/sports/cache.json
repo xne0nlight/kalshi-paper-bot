@@ -1,39 +1,61 @@
 {
  "odds": {
   "basketball_nba": {
-   "ts": 1793923225,
+   "ts": 1793937626,
    "events": [
     {
-     "start_ts": 1793931000.0,
-     "home": "Phoenix Suns",
-     "away": "Orlando Magic",
-     "fair": {
-      "Orlando Magic": 0.48,
-      "Phoenix Suns": 0.52
-     },
-     "books": 9,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793934600.0,
+     "start_ts": 1793934676.0,
      "home": "Golden State Warriors",
      "away": "Miami Heat",
      "fair": {
-      "Golden State Warriors": 0.6005,
-      "Miami Heat": 0.3995
+      "Golden State Warriors": 0.5146,
+      "Miami Heat": 0.4854
      },
-     "books": 9,
+     "books": 7,
      "sharp": true
+    },
+    {
+     "start_ts": 1794010200.0,
+     "home": "Charlotte Hornets",
+     "away": "Boston Celtics",
+     "fair": {
+      "Boston Celtics": 0.7389,
+      "Charlotte Hornets": 0.2611
+     },
+     "books": 2,
+     "sharp": false
     },
     {
      "start_ts": 1794012000.0,
      "home": "Cleveland Cavaliers",
      "away": "Philadelphia 76ers",
      "fair": {
-      "Cleveland Cavaliers": 0.4428,
-      "Philadelphia 76ers": 0.5572
+      "Cleveland Cavaliers": 0.4421,
+      "Philadelphia 76ers": 0.5579
      },
-     "books": 4,
+     "books": 8,
+     "sharp": true
+    },
+    {
+     "start_ts": 1794013800.0,
+     "home": "Dallas Mavericks",
+     "away": "Utah Jazz",
+     "fair": {
+      "Dallas Mavericks": 0.7044,
+      "Utah Jazz": 0.2956
+     },
+     "books": 8,
+     "sharp": true
+    },
+    {
+     "start_ts": 1794013800.0,
+     "home": "Memphis Grizzlies",
+     "away": "Oklahoma City Thunder",
+     "fair": {
+      "Memphis Grizzlies": 0.395,
+      "Oklahoma City Thunder": 0.605
+     },
+     "books": 8,
      "sharp": true
     },
     {
@@ -41,10 +63,21 @@
      "home": "Milwaukee Bucks",
      "away": "Toronto Raptors",
      "fair": {
-      "Milwaukee Bucks": 0.287,
-      "Toronto Raptors": 0.713
+      "Milwaukee Bucks": 0.3007,
+      "Toronto Raptors": 0.6993
      },
-     "books": 2,
+     "books": 8,
+     "sharp": true
+    },
+    {
+     "start_ts": 1794013800.0,
+     "home": "New Orleans Pelicans",
+     "away": "Minnesota Timberwolves",
+     "fair": {
+      "Minnesota Timberwolves": 0.6173,
+      "New Orleans Pelicans": 0.3827
+     },
+     "books": 8,
      "sharp": true
     },
     {
@@ -52,37 +85,48 @@
      "home": "Los Angeles Lakers",
      "away": "Portland Trail Blazers",
      "fair": {
-      "Los Angeles Lakers": 0.5533,
-      "Portland Trail Blazers": 0.4467
+      "Los Angeles Lakers": 0.5701,
+      "Portland Trail Blazers": 0.4299
      },
-     "books": 2,
-     "sharp": false
+     "books": 8,
+     "sharp": true
+    },
+    {
+     "start_ts": 1794021000.0,
+     "home": "Sacramento Kings",
+     "away": "San Antonio Spurs",
+     "fair": {
+      "Sacramento Kings": 0.1139,
+      "San Antonio Spurs": 0.8861
+     },
+     "books": 6,
+     "sharp": true
     }
    ]
   },
   "americanfootball_ncaaf": {
-   "ts": 1793923225,
+   "ts": 1793937626,
    "events": [
     {
-     "start_ts": 1793925000.0,
+     "start_ts": 1793925365.0,
      "home": "Florida Atlantic Owls",
      "away": "UTSA Roadrunners",
      "fair": {
-      "Florida Atlantic Owls": 0.291,
-      "UTSA Roadrunners": 0.709
+      "Florida Atlantic Owls": 0.8843,
+      "UTSA Roadrunners": 0.1157
      },
-     "books": 9,
+     "books": 2,
      "sharp": true
     },
     {
-     "start_ts": 1793926800.0,
+     "start_ts": 1793927438.0,
      "home": "Southern Mississippi Golden Eagles",
      "away": "James Madison Dukes",
      "fair": {
-      "James Madison Dukes": 0.824,
-      "Southern Mississippi Golden Eagles": 0.176
+      "James Madison Dukes": 0.6571,
+      "Southern Mississippi Golden Eagles": 0.3429
      },
-     "books": 9,
+     "books": 2,
      "sharp": true
     },
     {
@@ -90,8 +134,8 @@
      "home": "SMU Mustangs",
      "away": "Virginia Tech Hokies",
      "fair": {
-      "SMU Mustangs": 0.6661,
-      "Virginia Tech Hokies": 0.3339
+      "SMU Mustangs": 0.6669,
+      "Virginia Tech Hokies": 0.3331
      },
      "books": 9,
      "sharp": true
@@ -101,8 +145,8 @@
      "home": "East Carolina Pirates",
      "away": "South Florida Bulls",
      "fair": {
-      "East Carolina Pirates": 0.5477,
-      "South Florida Bulls": 0.4523
+      "East Carolina Pirates": 0.5479,
+      "South Florida Bulls": 0.4521
      },
      "books": 9,
      "sharp": true
@@ -112,8 +156,8 @@
      "home": "Illinois Fighting Illini",
      "away": "Nebraska Cornhuskers",
      "fair": {
-      "Illinois Fighting Illini": 0.3586,
-      "Nebraska Cornhuskers": 0.6414
+      "Illinois Fighting Illini": 0.3597,
+      "Nebraska Cornhuskers": 0.6403
      },
      "books": 9,
      "sharp": true
@@ -123,8 +167,8 @@
      "home": "Nevada Wolf Pack",
      "away": "New Mexico Lobos",
      "fair": {
-      "Nevada Wolf Pack": 0.2266,
-      "New Mexico Lobos": 0.7734
+      "Nevada Wolf Pack": 0.2288,
+      "New Mexico Lobos": 0.7712
      },
      "books": 9,
      "sharp": true
@@ -134,8 +178,8 @@
      "home": "Arizona Wildcats",
      "away": "TCU Horned Frogs",
      "fair": {
-      "Arizona Wildcats": 0.7216,
-      "TCU Horned Frogs": 0.2784
+      "Arizona Wildcats": 0.7209,
+      "TCU Horned Frogs": 0.2791
      },
      "books": 9,
      "sharp": true
@@ -145,8 +189,8 @@
      "home": "Utah Utes",
      "away": "BYU Cougars",
      "fair": {
-      "BYU Cougars": 0.3727,
-      "Utah Utes": 0.6273
+      "BYU Cougars": 0.3735,
+      "Utah Utes": 0.6265
      },
      "books": 8,
      "sharp": true
@@ -167,8 +211,8 @@
      "home": "Boston College Eagles",
      "away": "Florida State Seminoles",
      "fair": {
-      "Boston College Eagles": 0.3166,
-      "Florida State Seminoles": 0.6834
+      "Boston College Eagles": 0.3186,
+      "Florida State Seminoles": 0.6814
      },
      "books": 9,
      "sharp": true
@@ -178,8 +222,8 @@
      "home": "Syracuse Orange",
      "away": "Clemson Tigers",
      "fair": {
-      "Clemson Tigers": 0.5549,
-      "Syracuse Orange": 0.4451
+      "Clemson Tigers": 0.5547,
+      "Syracuse Orange": 0.4453
      },
      "books": 9,
      "sharp": true
@@ -189,8 +233,8 @@
      "home": "Minnesota Golden Gophers",
      "away": "UCLA Bruins",
      "fair": {
-      "Minnesota Golden Gophers": 0.3519,
-      "UCLA Bruins": 0.6481
+      "Minnesota Golden Gophers": 0.3529,
+      "UCLA Bruins": 0.6471
      },
      "books": 9,
      "sharp": true
@@ -200,8 +244,8 @@
      "home": "Missouri Tigers",
      "away": "Texas Longhorns",
      "fair": {
-      "Missouri Tigers": 0.4338,
-      "Texas Longhorns": 0.5662
+      "Missouri Tigers": 0.4381,
+      "Texas Longhorns": 0.5619
      },
      "books": 9,
      "sharp": true
@@ -244,8 +288,8 @@
      "home": "Purdue Boilermakers",
      "away": "Maryland Terrapins",
      "fair": {
-      "Maryland Terrapins": 0.3482,
-      "Purdue Boilermakers": 0.6518
+      "Maryland Terrapins": 0.3484,
+      "Purdue Boilermakers": 0.6516
      },
      "books": 9,
      "sharp": true
@@ -266,8 +310,8 @@
      "home": "Coastal Carolina Chanticleers",
      "away": "Old Dominion Monarchs",
      "fair": {
-      "Coastal Carolina Chanticleers": 0.6821,
-      "Old Dominion Monarchs": 0.3179
+      "Coastal Carolina Chanticleers": 0.6816,
+      "Old Dominion Monarchs": 0.3184
      },
      "books": 9,
      "sharp": true
@@ -288,8 +332,8 @@
      "home": "Appalachian State Mountaineers",
      "away": "Georgia State Panthers",
      "fair": {
-      "Appalachian State Mountaineers": 0.6702,
-      "Georgia State Panthers": 0.3298
+      "Appalachian State Mountaineers": 0.6707,
+      "Georgia State Panthers": 0.3293
      },
      "books": 9,
      "sharp": true
@@ -299,8 +343,8 @@
      "home": "Arkansas State Red Wolves",
      "away": "UL Monroe Warhawks",
      "fair": {
-      "Arkansas State Red Wolves": 0.8387,
-      "UL Monroe Warhawks": 0.1613
+      "Arkansas State Red Wolves": 0.8402,
+      "UL Monroe Warhawks": 0.1598
      },
      "books": 9,
      "sharp": true
@@ -332,8 +376,8 @@
      "home": "LSU Tigers",
      "away": "Alabama Crimson Tide",
      "fair": {
-      "Alabama Crimson Tide": 0.3272,
-      "LSU Tigers": 0.6728
+      "Alabama Crimson Tide": 0.3268,
+      "LSU Tigers": 0.6732
      },
      "books": 9,
      "sharp": true
@@ -343,8 +387,8 @@
      "home": "UAB Blazers",
      "away": "Charlotte 49ers",
      "fair": {
-      "Charlotte 49ers": 0.2602,
-      "UAB Blazers": 0.7398
+      "Charlotte 49ers": 0.2598,
+      "UAB Blazers": 0.7402
      },
      "books": 9,
      "sharp": true
@@ -354,8 +398,8 @@
      "home": "Houston Cougars",
      "away": "Cincinnati Bearcats",
      "fair": {
-      "Cincinnati Bearcats": 0.2208,
-      "Houston Cougars": 0.7792
+      "Cincinnati Bearcats": 0.221,
+      "Houston Cougars": 0.779
      },
      "books": 9,
      "sharp": true
@@ -365,8 +409,8 @@
      "home": "Georgia Southern Eagles",
      "away": "Marshall Thundering Herd",
      "fair": {
-      "Georgia Southern Eagles": 0.7664,
-      "Marshall Thundering Herd": 0.2336
+      "Georgia Southern Eagles": 0.767,
+      "Marshall Thundering Herd": 0.233
      },
      "books": 9,
      "sharp": true
@@ -387,8 +431,8 @@
      "home": "Navy Midshipmen",
      "away": "Temple Owls",
      "fair": {
-      "Navy Midshipmen": 0.708,
-      "Temple Owls": 0.292
+      "Navy Midshipmen": 0.706,
+      "Temple Owls": 0.294
      },
      "books": 9,
      "sharp": true
@@ -398,8 +442,8 @@
      "home": "Ohio State Buckeyes",
      "away": "Oregon Ducks",
      "fair": {
-      "Ohio State Buckeyes": 0.7233,
-      "Oregon Ducks": 0.2767
+      "Ohio State Buckeyes": 0.7228,
+      "Oregon Ducks": 0.2772
      },
      "books": 9,
      "sharp": true
@@ -420,8 +464,8 @@
      "home": "Kansas Jayhawks",
      "away": "UCF Knights",
      "fair": {
-      "Kansas Jayhawks": 0.5791,
-      "UCF Knights": 0.4209
+      "Kansas Jayhawks": 0.5879,
+      "UCF Knights": 0.4121
      },
      "books": 9,
      "sharp": true
@@ -442,8 +486,8 @@
      "home": "Troy Trojans",
      "away": "Louisiana Tech Bulldogs",
      "fair": {
-      "Louisiana Tech Bulldogs": 0.6515,
-      "Troy Trojans": 0.3485
+      "Louisiana Tech Bulldogs": 0.652,
+      "Troy Trojans": 0.348
      },
      "books": 9,
      "sharp": true
@@ -453,8 +497,8 @@
      "home": "North Texas Mean Green",
      "away": "Rice Owls",
      "fair": {
-      "North Texas Mean Green": 0.8629,
-      "Rice Owls": 0.1371
+      "North Texas Mean Green": 0.8636,
+      "Rice Owls": 0.1364
      },
      "books": 9,
      "sharp": true
@@ -464,8 +508,8 @@
      "home": "San Jose State Spartans",
      "away": "Northern Illinois Huskies",
      "fair": {
-      "Northern Illinois Huskies": 0.2348,
-      "San Jose State Spartans": 0.7652
+      "Northern Illinois Huskies": 0.2359,
+      "San Jose State Spartans": 0.7641
      },
      "books": 9,
      "sharp": true
@@ -475,8 +519,8 @@
      "home": "Mississippi State Bulldogs",
      "away": "Vanderbilt Commodores",
      "fair": {
-      "Mississippi State Bulldogs": 0.5776,
-      "Vanderbilt Commodores": 0.4224
+      "Mississippi State Bulldogs": 0.5759,
+      "Vanderbilt Commodores": 0.4241
      },
      "books": 9,
      "sharp": true
@@ -486,8 +530,8 @@
      "home": "Wisconsin Badgers",
      "away": "Rutgers Scarlet Knights",
      "fair": {
-      "Rutgers Scarlet Knights": 0.1245,
-      "Wisconsin Badgers": 0.8755
+      "Rutgers Scarlet Knights": 0.1239,
+      "Wisconsin Badgers": 0.8761
      },
      "books": 9,
      "sharp": true
@@ -530,8 +574,8 @@
      "home": "Jacksonville State Gamecocks",
      "away": "Sam Houston State Bearkats",
      "fair": {
-      "Jacksonville State Gamecocks": 0.8634,
-      "Sam Houston State Bearkats": 0.1366
+      "Jacksonville State Gamecocks": 0.8641,
+      "Sam Houston State Bearkats": 0.1359
      },
      "books": 9,
      "sharp": true
@@ -541,8 +585,8 @@
      "home": "Army Black Knights",
      "away": "Air Force Falcons",
      "fair": {
-      "Air Force Falcons": 0.4077,
-      "Army Black Knights": 0.5923
+      "Air Force Falcons": 0.4087,
+      "Army Black Knights": 0.5913
      },
      "books": 9,
      "sharp": true
@@ -552,8 +596,8 @@
      "home": "Arizona State Sun Devils",
      "away": "Colorado Buffaloes",
      "fair": {
-      "Arizona State Sun Devils": 0.6005,
-      "Colorado Buffaloes": 0.3995
+      "Arizona State Sun Devils": 0.5982,
+      "Colorado Buffaloes": 0.4018
      },
      "books": 9,
      "sharp": true
@@ -563,8 +607,8 @@
      "home": "Ole Miss Rebels",
      "away": "Georgia Bulldogs",
      "fair": {
-      "Georgia Bulldogs": 0.6173,
-      "Ole Miss Rebels": 0.3827
+      "Georgia Bulldogs": 0.6162,
+      "Ole Miss Rebels": 0.3838
      },
      "books": 8,
      "sharp": true
@@ -574,8 +618,8 @@
      "home": "Georgia Tech Yellow Jackets",
      "away": "Louisville Cardinals",
      "fair": {
-      "Georgia Tech Yellow Jackets": 0.1652,
-      "Louisville Cardinals": 0.8348
+      "Georgia Tech Yellow Jackets": 0.1647,
+      "Louisville Cardinals": 0.8353
      },
      "books": 9,
      "sharp": true
@@ -585,8 +629,8 @@
      "home": "Northwestern Wildcats",
      "away": "Iowa Hawkeyes",
      "fair": {
-      "Iowa Hawkeyes": 0.4549,
-      "Northwestern Wildcats": 0.5451
+      "Iowa Hawkeyes": 0.4555,
+      "Northwestern Wildcats": 0.5445
      },
      "books": 9,
      "sharp": true
@@ -596,8 +640,8 @@
      "home": "Notre Dame Fighting Irish",
      "away": "Miami Hurricanes",
      "fair": {
-      "Miami Hurricanes": 0.2901,
-      "Notre Dame Fighting Irish": 0.7099
+      "Miami Hurricanes": 0.2911,
+      "Notre Dame Fighting Irish": 0.7089
      },
      "books": 9,
      "sharp": true
@@ -607,8 +651,8 @@
      "home": "Michigan Wolverines",
      "away": "Michigan State Spartans",
      "fair": {
-      "Michigan State Spartans": 0.1837,
-      "Michigan Wolverines": 0.8163
+      "Michigan State Spartans": 0.1835,
+      "Michigan Wolverines": 0.8165
      },
      "books": 8,
      "sharp": true
@@ -618,8 +662,8 @@
      "home": "Florida Gators",
      "away": "Oklahoma Sooners",
      "fair": {
-      "Florida Gators": 0.6741,
-      "Oklahoma Sooners": 0.3259
+      "Florida Gators": 0.6739,
+      "Oklahoma Sooners": 0.3261
      },
      "books": 8,
      "sharp": true
@@ -629,8 +673,8 @@
      "home": "New Mexico State Aggies",
      "away": "Liberty Flames",
      "fair": {
-      "Liberty Flames": 0.8591,
-      "New Mexico State Aggies": 0.1409
+      "Liberty Flames": 0.8588,
+      "New Mexico State Aggies": 0.1412
      },
      "books": 8,
      "sharp": true
@@ -662,8 +706,8 @@
      "home": "Texas Tech Red Raiders",
      "away": "West Virginia Mountaineers",
      "fair": {
-      "Texas Tech Red Raiders": 0.8637,
-      "West Virginia Mountaineers": 0.1363
+      "Texas Tech Red Raiders": 0.8631,
+      "West Virginia Mountaineers": 0.1369
      },
      "books": 8,
      "sharp": true
@@ -684,8 +728,8 @@
      "home": "UNLV Rebels",
      "away": "Wyoming Cowboys",
      "fair": {
-      "UNLV Rebels": 0.6562,
-      "Wyoming Cowboys": 0.3438
+      "UNLV Rebels": 0.6553,
+      "Wyoming Cowboys": 0.3447
      },
      "books": 8,
      "sharp": true
@@ -772,8 +816,8 @@
      "home": "Boise State Broncos",
      "away": "Oregon State Beavers",
      "fair": {
-      "Boise State Broncos": 0.6267,
-      "Oregon State Beavers": 0.3733
+      "Boise State Broncos": 0.6317,
+      "Oregon State Beavers": 0.3683
      },
      "books": 2,
      "sharp": false
@@ -781,127 +825,17 @@
    ]
   },
   "icehockey_nhl": {
-   "ts": 1793923225,
+   "ts": 1793937626,
    "events": [
     {
-     "start_ts": 1793923800.0,
-     "home": "Pittsburgh Penguins",
-     "away": "Boston Bruins",
-     "fair": {
-      "Boston Bruins": 0.4623,
-      "Pittsburgh Penguins": 0.5377
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "New York Islanders",
-     "away": "Carolina Hurricanes",
-     "fair": {
-      "Carolina Hurricanes": 0.6484,
-      "New York Islanders": 0.3516
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "Tampa Bay Lightning",
-     "away": "Chicago Blackhawks",
-     "fair": {
-      "Chicago Blackhawks": 0.2025,
-      "Tampa Bay Lightning": 0.7975
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "Columbus Blue Jackets",
-     "away": "Dallas Stars",
-     "fair": {
-      "Columbus Blue Jackets": 0.4624,
-      "Dallas Stars": 0.5376
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "Detroit Red Wings",
-     "away": "Vegas Golden Knights",
-     "fair": {
-      "Detroit Red Wings": 0.4241,
-      "Vegas Golden Knights": 0.5759
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "Montr\u00e9al Canadiens",
-     "away": "Utah Mammoth",
-     "fair": {
-      "Montr\u00e9al Canadiens": 0.4644,
-      "Utah Mammoth": 0.5356
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "New Jersey Devils",
-     "away": "St Louis Blues",
-     "fair": {
-      "New Jersey Devils": 0.6759,
-      "St Louis Blues": 0.3241
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "New York Rangers",
-     "away": "Philadelphia Flyers",
-     "fair": {
-      "New York Rangers": 0.5765,
-      "Philadelphia Flyers": 0.4235
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793923800.0,
-     "home": "Winnipeg Jets",
-     "away": "Vancouver Canucks",
-     "fair": {
-      "Vancouver Canucks": 0.3381,
-      "Winnipeg Jets": 0.6619
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793927400.0,
-     "home": "Edmonton Oilers",
-     "away": "Anaheim Ducks",
-     "fair": {
-      "Anaheim Ducks": 0.3677,
-      "Edmonton Oilers": 0.6323
-     },
-     "books": 8,
-     "sharp": true
-    },
-    {
-     "start_ts": 1793932800.0,
+     "start_ts": 1793932755.0,
      "home": "Colorado Avalanche",
      "away": "Nashville Predators",
      "fair": {
-      "Colorado Avalanche": 0.658,
-      "Nashville Predators": 0.342
+      "Colorado Avalanche": 0.6285,
+      "Nashville Predators": 0.3715
      },
-     "books": 8,
+     "books": 6,
      "sharp": true
     },
     {
@@ -909,50 +843,39 @@
      "home": "Buffalo Sabres",
      "away": "Columbus Blue Jackets",
      "fair": {
-      "Buffalo Sabres": 0.616,
-      "Columbus Blue Jackets": 0.384
+      "Buffalo Sabres": 0.6095,
+      "Columbus Blue Jackets": 0.3905
      },
-     "books": 4,
-     "sharp": false
+     "books": 8,
+     "sharp": true
     },
     {
      "start_ts": 1794013800.0,
      "home": "Calgary Flames",
      "away": "Anaheim Ducks",
      "fair": {
-      "Anaheim Ducks": 0.4697,
-      "Calgary Flames": 0.5303
+      "Anaheim Ducks": 0.4686,
+      "Calgary Flames": 0.5314
      },
-     "books": 4,
-     "sharp": false
+     "books": 8,
+     "sharp": true
     },
     {
      "start_ts": 1794013800.0,
      "home": "Minnesota Wild",
      "away": "San Jose Sharks",
      "fair": {
-      "Minnesota Wild": 0.6917,
-      "San Jose Sharks": 0.3083
+      "Minnesota Wild": 0.6973,
+      "San Jose Sharks": 0.3027
      },
-     "books": 7,
+     "books": 8,
      "sharp": true
     }
    ]
   },
   "americanfootball_nfl": {
-   "ts": 1793923225,
+   "ts": 1793937626,
    "events": [
-    {
-     "start_ts": 1793927700.0,
-     "home": "Baltimore Ravens",
-     "away": "Jacksonville Jaguars",
-     "fair": {
-      "Baltimore Ravens": 0.212,
-      "Jacksonville Jaguars": 0.788
-     },
-     "books": 9,
-     "sharp": true
-    },
     {
      "start_ts": 1794148200.0,
      "home": "Atlanta Falcons",
@@ -980,8 +903,8 @@
      "home": "New Orleans Saints",
      "away": "Cleveland Browns",
      "fair": {
-      "Cleveland Browns": 0.3977,
-      "New Orleans Saints": 0.6023
+      "Cleveland Browns": 0.398,
+      "New Orleans Saints": 0.602
      },
      "books": 8,
      "sharp": true
@@ -991,8 +914,8 @@
      "home": "Indianapolis Colts",
      "away": "Dallas Cowboys",
      "fair": {
-      "Dallas Cowboys": 0.6811,
-      "Indianapolis Colts": 0.3189
+      "Dallas Cowboys": 0.6813,
+      "Indianapolis Colts": 0.3187
      },
      "books": 9,
      "sharp": true
@@ -1002,10 +925,10 @@
      "home": "Miami Dolphins",
      "away": "Detroit Lions",
      "fair": {
-      "Detroit Lions": 0.736,
-      "Miami Dolphins": 0.264
+      "Detroit Lions": 0.7357,
+      "Miami Dolphins": 0.2643
      },
-     "books": 9,
+     "books": 8,
      "sharp": true
     },
     {
@@ -1024,8 +947,8 @@
      "home": "Washington Commanders",
      "away": "Los Angeles Rams",
      "fair": {
-      "Los Angeles Rams": 0.6682,
-      "Washington Commanders": 0.3318
+      "Los Angeles Rams": 0.6686,
+      "Washington Commanders": 0.3314
      },
      "books": 9,
      "sharp": true
@@ -1057,8 +980,8 @@
      "home": "San Francisco 49ers",
      "away": "Las Vegas Raiders",
      "fair": {
-      "Las Vegas Raiders": 0.206,
-      "San Francisco 49ers": 0.794
+      "Las Vegas Raiders": 0.2072,
+      "San Francisco 49ers": 0.7928
      },
      "books": 9,
      "sharp": true
@@ -1068,8 +991,8 @@
      "home": "Seattle Seahawks",
      "away": "Arizona Cardinals",
      "fair": {
-      "Arizona Cardinals": 0.2253,
-      "Seattle Seahawks": 0.7747
+      "Arizona Cardinals": 0.2248,
+      "Seattle Seahawks": 0.7752
      },
      "books": 9,
      "sharp": true
@@ -1079,8 +1002,8 @@
      "home": "New England Patriots",
      "away": "Green Bay Packers",
      "fair": {
-      "Green Bay Packers": 0.3923,
-      "New England Patriots": 0.6077
+      "Green Bay Packers": 0.3914,
+      "New England Patriots": 0.6086
      },
      "books": 9,
      "sharp": true
@@ -1090,8 +1013,8 @@
      "home": "Chicago Bears",
      "away": "Tampa Bay Buccaneers",
      "fair": {
-      "Chicago Bears": 0.7049,
-      "Tampa Bay Buccaneers": 0.2951
+      "Chicago Bears": 0.7036,
+      "Tampa Bay Buccaneers": 0.2964
      },
      "books": 9,
      "sharp": true
@@ -1101,8 +1024,8 @@
      "home": "Minnesota Vikings",
      "away": "Buffalo Bills",
      "fair": {
-      "Buffalo Bills": 0.6109,
-      "Minnesota Vikings": 0.3891
+      "Buffalo Bills": 0.6105,
+      "Minnesota Vikings": 0.3895
      },
      "books": 9,
      "sharp": true
@@ -1167,8 +1090,8 @@
      "home": "Cleveland Browns",
      "away": "Houston Texans",
      "fair": {
-      "Cleveland Browns": 0.3652,
-      "Houston Texans": 0.6348
+      "Cleveland Browns": 0.3758,
+      "Houston Texans": 0.6242
      },
      "books": 2,
      "sharp": false
@@ -1191,17 +1114,6 @@
      "fair": {
       "Indianapolis Colts": 0.5381,
       "Miami Dolphins": 0.4619
-     },
-     "books": 2,
-     "sharp": false
-    },
-    {
-     "start_ts": 1794765600.0,
-     "home": "Tennessee Titans",
-     "away": "Jacksonville Jaguars",
-     "fair": {
-      "Jacksonville Jaguars": 0.8029,
-      "Tennessee Titans": 0.1971
      },
      "books": 2,
      "sharp": false
@@ -1238,48 +1150,11 @@
      },
      "books": 2,
      "sharp": false
-    },
-    {
-     "start_ts": 1794878100.0,
-     "home": "Baltimore Ravens",
-     "away": "Los Angeles Chargers",
-     "fair": {
-      "Baltimore Ravens": 0.5406,
-      "Los Angeles Chargers": 0.4594
-     },
-     "books": 2,
-     "sharp": false
     }
    ]
   }
  },
  "espn": {
-  "NFL|20261102": {
-   "ts": 1793678425,
-   "games": [
-    {
-     "start_ts": 1793668500.0,
-     "state": "in",
-     "detail": "6:33 - 4th",
-     "home": "Seattle Seahawks",
-     "away": "Chicago Bears",
-     "teams": {
-      "home": {
-       "name": "Seattle Seahawks",
-       "short": "Seahawks",
-       "abbr": "SEA",
-       "record": "4-3"
-      },
-      "away": {
-       "name": "Chicago Bears",
-       "short": "Bears",
-       "abbr": "CHI",
-       "record": "5-2"
-      }
-     }
-    }
-   ]
-  },
   "NHL|20261102": {
    "ts": 1793680226,
    "games": [
@@ -1931,10 +1806,6 @@
   },
   "NBA|20261103": {
    "ts": 1793765725,
-   "games": []
-  },
-  "NFL|20261103": {
-   "ts": 1793678425,
    "games": []
   },
   "NCAAF|20261103": {
@@ -3185,8 +3056,8 @@
    "2026-11-03": 16,
    "2026-11-04": 16,
    "2026-11-05": 16,
-   "2026-11-06": 4
+   "2026-11-06": 8
   },
-  "remaining": 416
+  "remaining": 412
  }
 }

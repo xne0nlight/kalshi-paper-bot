@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 24.642,
- "fees_paid": 9.74,
+ "cash": 20.962,
+ "fees_paid": 9.77,
  "peak_equity": 109.65,
  "day": "2026-11-06",
  "day_start_equity": 96.302,
- "next_id": 392,
+ "next_id": 393,
  "open_positions": [
   {
    "id": 339,
@@ -59,29 +59,6 @@
    "score": 0.5428,
    "mark_price": 0.96,
    "shadow": {}
-  },
-  {
-   "id": 368,
-   "ticker": "KXRAIN-26NOV05-IND",
-   "event_ticker": "KXRAIN-26NOV05",
-   "series": "KXRAIN",
-   "label": "Will it rain in Indianapolis on Nov 5, 2026?",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 0.94,
-   "opened_ts": 1793811629,
-   "close_ts": 1793941200.0,
-   "score": 0.5389,
-   "mark_price": 0.98,
-   "shadow": {
-    "10": {
-     "ts": 1793928627,
-     "bid": 0.83,
-     "proceeds": 0.82
-    }
-   }
   },
   {
    "id": 378,
@@ -158,7 +135,7 @@
    "opened_ts": 1793888126,
    "close_ts": 1794002340.0,
    "score": 0.4931,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793929525,
@@ -230,7 +207,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.08,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -285,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.7,
+   "mark_price": 0.63,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -301,6 +278,11 @@
      "ts": 1793978126,
      "bid": 0.72,
      "proceeds": 2.11
+    },
+    "30": {
+     "ts": 1793985324,
+     "bid": 0.63,
+     "proceeds": 1.84
     }
    }
   },
@@ -318,7 +300,7 @@
    "opened_ts": 1793917827,
    "close_ts": 1794042000.0,
    "score": 0.5457,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -335,7 +317,7 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -352,7 +334,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.69,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -385,6 +367,23 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
+   "mark_price": 0.92,
+   "shadow": {}
+  },
+  {
+   "id": 392,
+   "ticker": "KXRAIN-26NOV07-DTW",
+   "event_ticker": "KXRAIN-26NOV07",
+   "series": "KXRAIN",
+   "label": "Will it rain in Detroit on Nov 7, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1793985324,
+   "close_ts": 1794114000.0,
+   "score": 0.5081,
    "mark_price": 0.92,
    "shadow": {}
   }
@@ -10175,6 +10174,33 @@
    "pnl": 0.67,
    "result": "YES",
    "closed_ts": 1793978126,
+   "won": true
+  },
+  {
+   "id": 368,
+   "ticker": "KXRAIN-26NOV05-IND",
+   "event_ticker": "KXRAIN-26NOV05",
+   "series": "KXRAIN",
+   "label": "Will it rain in Indianapolis on Nov 5, 2026?",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1793811629,
+   "close_ts": 1793941200.0,
+   "score": 0.5389,
+   "shadow": {
+    "10": {
+     "ts": 1793928627,
+     "bid": 0.83,
+     "proceeds": 0.82
+    }
+   },
+   "payout": 1.0,
+   "pnl": 0.06,
+   "result": "NO",
+   "closed_ts": 1793985324,
    "won": true
   }
  ],
@@ -23303,54 +23329,67 @@
    1793984424,
    92.142,
    87.042
+  ],
+  [
+   1793985324,
+   92.202,
+   88.062
   ]
  ],
  "last_run": {
-  "ts": 1793984424,
+  "ts": 1793985324,
   "error": null,
-  "markets_scanned": 421,
-  "candidates": 3,
+  "markets_scanned": 434,
+  "candidates": 4,
   "rejections": {
-   "too little volume": 240,
+   "too little volume": 253,
    "no favorite in 80-95c band": 170,
-   "spread too wide": 8
+   "spread too wide": 7
   },
   "opened": [
-   391
+   392
   ],
-  "settled": [],
+  "settled": [
+   368
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Breckenridge Ski Resort open before Nov 8, 2026? \u2014 Before Nov 8, 2026",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.98,
-    "volume_24h": 4198.26,
-    "score": 0.5218
+    "hours_to_close": 35.73,
+    "volume_24h": 3047.07,
+    "score": 0.5116
    },
    {
     "label": "Will it rain in Detroit on Nov 7, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
+    "hours_to_close": 35.74,
     "volume_24h": 234.0,
-    "score": 0.5078
+    "score": 0.5081
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 35.99,
-    "volume_24h": 365.36,
-    "score": 0.3623
+    "price": 0.85,
+    "hours_to_close": 35.74,
+    "volume_24h": 488.41,
+    "score": 0.452
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 24.73,
+    "volume_24h": 367.38,
+    "score": 0.4508
    }
   ],
-  "skipped": {
-   "series cap": 2
-  },
-  "watch_added": 3,
-  "watch_graded": 0,
+  "skipped": {},
+  "watch_added": 0,
+  "watch_graded": 21,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

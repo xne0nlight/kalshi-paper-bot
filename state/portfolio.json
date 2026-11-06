@@ -219,7 +219,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.8,
+   "mark_price": 0.79,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -297,7 +297,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -320,7 +320,7 @@
    "opened_ts": 1793888126,
    "close_ts": 1794002340.0,
    "score": 0.4931,
-   "mark_price": 0.49,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1793929525,
@@ -464,7 +464,7 @@
    "opened_ts": 1793917827,
    "close_ts": 1794042000.0,
    "score": 0.5457,
-   "mark_price": 0.93,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -23047,89 +23047,95 @@
    1793958326,
    96.302,
    90.962
+  ],
+  [
+   1793959225,
+   96.302,
+   91.352
   ]
  ],
  "last_run": {
-  "ts": 1793958326,
+  "ts": 1793959225,
   "error": null,
   "markets_scanned": 5375,
-  "candidates": 73,
+  "candidates": 67,
   "rejections": {
-   "too little volume": 4889,
-   "no favorite in 80-95c band": 344,
-   "spread too wide": 69
+   "too little volume": 4887,
+   "no favorite in 80-95c band": 351,
+   "spread too wide": 68,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 12.24,
-    "volume_24h": 35913.41,
-    "score": 0.7151
-   },
-   {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 12.24,
-    "volume_24h": 101029.25,
-    "score": 0.7151
+    "hours_to_close": 11.99,
+    "volume_24h": 101166.25,
+    "score": 0.7167
    },
    {
     "label": "Will the WTI crude oil settlement price be between 92.00 and 92.99 USD/Bbl on Nov 6, 2026? \u2014 $92.00 to $92.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 9.74,
+    "hours_to_close": 9.49,
     "volume_24h": 8858.78,
-    "score": 0.6995
+    "score": 0.7016
    },
    {
-    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,320 or above",
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 12.24,
-    "volume_24h": 19117.83,
-    "score": 0.6951
+    "hours_to_close": 11.99,
+    "volume_24h": 26181.96,
+    "score": 0.6967
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,500 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 12.24,
+    "hours_to_close": 11.99,
     "volume_24h": 32314.18,
-    "score": 0.6951
+    "score": 0.6967
    },
    {
     "label": "Will the WTI crude oil settlement price be between 93.00 and 93.99 USD/Bbl on Nov 6, 2026? \u2014 $93.00 to $93.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 9.74,
+    "hours_to_close": 9.49,
     "volume_24h": 2357.9,
-    "score": 0.6863
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 12.24,
-    "volume_24h": 26181.96,
-    "score": 0.6851
+    "score": 0.6885
    },
    {
     "label": "Will the WTI crude oil settlement price be above 92.99 USD/Bbl on Nov 6, 2026? \u2014 Above $92.99",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 9.74,
+    "hours_to_close": 9.49,
     "volume_24h": 5113.48,
-    "score": 0.6816
+    "score": 0.6837
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 84.99 USD/Bbl on Nov 6, 2026? \u2014 Above $84.99",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 9.49,
+    "volume_24h": 1543.12,
+    "score": 0.6747
+   },
+   {
+    "label": "Will the WTI crude oil settlement price be above 93.49 USD/Bbl on Nov 6, 2026? \u2014 Above $93.49",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 9.49,
+    "volume_24h": 1859.93,
+    "score": 0.6708
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

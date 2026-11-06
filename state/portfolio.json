@@ -74,7 +74,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.63,
+   "mark_price": 0.47,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -334,7 +334,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -401,7 +401,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -418,7 +418,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -435,7 +435,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.84,
+   "mark_price": 0.85,
    "shadow": {}
   }
  ],
@@ -23430,91 +23430,86 @@
    1793993425,
    92.202,
    88.182
+  ],
+  [
+   1793994325,
+   92.202,
+   88.062
   ]
  ],
  "last_run": {
-  "ts": 1793993425,
+  "ts": 1793994325,
   "error": null,
   "markets_scanned": 710,
-  "candidates": 10,
+  "candidates": 7,
   "rejections": {
-   "too little volume": 496,
-   "no favorite in 80-95c band": 194,
-   "spread too wide": 10
+   "too little volume": 494,
+   "no favorite in 80-95c band": 198,
+   "spread too wide": 11
   },
-  "opened": [
-   395
-  ],
+  "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will it rain in Detroit on Nov 7, 2026?",
+    "label": "Will the maximum temperature be 89-90\u00b0 on Nov 7, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.49,
-    "volume_24h": 392.38,
-    "score": 0.5478
+    "price": 0.92,
+    "hours_to_close": 34.24,
+    "volume_24h": 539.62,
+    "score": 0.5271
    },
    {
-    "label": "Will it rain in Dallas on Nov 7, 2026?",
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 34.49,
-    "volume_24h": 524.0,
-    "score": 0.5159
+    "price": 0.83,
+    "hours_to_close": 34.24,
+    "volume_24h": 1543.14,
+    "score": 0.4713
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Nov 7, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 34.49,
-    "volume_24h": 440.41,
-    "score": 0.4502
+    "price": 0.86,
+    "hours_to_close": 34.24,
+    "volume_24h": 483.87,
+    "score": 0.4636
    },
    {
     "label": "Will the maximum temperature be 68-69\u00b0 on Nov 7, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 449.56,
-    "score": 0.4309
-   },
-   {
-    "label": "Will the maximum temperature be <57\u00b0 on Nov 7, 2026? \u2014 56\u00b0 or below",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 35.49,
-    "volume_24h": 305.79,
-    "score": 0.4271
+    "score": 0.4312
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 874.49,
-    "score": 0.4238
+    "score": 0.4242
    },
    {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "label": "Will the maximum temperature be <57\u00b0 on Nov 7, 2026? \u2014 56\u00b0 or below",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 34.49,
-    "volume_24h": 1485.14,
-    "score": 0.4098
+    "price": 0.85,
+    "hours_to_close": 35.24,
+    "volume_24h": 314.34,
+    "score": 0.3883
    },
    {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "label": "Will it rain in Dallas on Nov 7, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 35.49,
-    "volume_24h": 1025.33,
-    "score": 0.3965
+    "hours_to_close": 34.24,
+    "volume_24h": 539.83,
+    "score": 0.3772
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 2
+   "tracked only (below bet price floor)": 1
   },
   "watch_added": 1,
   "watch_graded": 0,

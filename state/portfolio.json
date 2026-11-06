@@ -112,7 +112,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -173,7 +173,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -207,7 +207,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.08,
+   "mark_price": 0.1,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.37,
+   "mark_price": 0.45,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -300,7 +300,7 @@
    "opened_ts": 1793917827,
    "close_ts": 1794042000.0,
    "score": 0.5457,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -317,7 +317,7 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -384,7 +384,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -401,7 +401,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -418,7 +418,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.81,
+   "mark_price": 0.8,
    "shadow": {}
   }
  ],
@@ -23403,17 +23403,22 @@
    1793991626,
    92.202,
    87.372
+  ],
+  [
+   1793992525,
+   92.202,
+   87.662
   ]
  ],
  "last_run": {
-  "ts": 1793991626,
+  "ts": 1793992525,
   "error": null,
   "markets_scanned": 710,
-  "candidates": 13,
+  "candidates": 7,
   "rejections": {
-   "too little volume": 488,
-   "no favorite in 80-95c band": 200,
-   "spread too wide": 9
+   "too little volume": 495,
+   "no favorite in 80-95c band": 196,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
@@ -23423,71 +23428,63 @@
     "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.98,
-    "volume_24h": 716.79,
-    "score": 0.5367
-   },
-   {
-    "label": "Will it rain in Detroit on Nov 7, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.99,
-    "volume_24h": 317.38,
-    "score": 0.5302
+    "hours_to_close": 22.73,
+    "volume_24h": 719.14,
+    "score": 0.5374
    },
    {
     "label": "Will it rain in Dallas on Nov 7, 2026?",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 34.99,
+    "hours_to_close": 34.74,
     "volume_24h": 524.0,
-    "score": 0.5152
+    "score": 0.5156
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Nov 7, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.99,
-    "volume_24h": 233.7,
-    "score": 0.439
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.1 on Nov 7, 2026? \u2014 39.1%",
-    "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 22.98,
-    "volume_24h": 1156.59,
-    "score": 0.4322
+    "price": 0.85,
+    "hours_to_close": 34.74,
+    "volume_24h": 440.41,
+    "score": 0.4499
    },
    {
     "label": "Will the maximum temperature be <57\u00b0 on Nov 7, 2026? \u2014 56\u00b0 or below",
     "side": "no",
     "price": 0.84,
-    "hours_to_close": 35.99,
-    "volume_24h": 301.79,
-    "score": 0.4261
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 34.99,
-    "volume_24h": 1101.74,
-    "score": 0.4094
+    "hours_to_close": 35.74,
+    "volume_24h": 302.79,
+    "score": 0.4265
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
-    "price": 0.85,
-    "hours_to_close": 33.99,
-    "volume_24h": 787.49,
-    "score": 0.3698
+    "price": 0.9,
+    "hours_to_close": 33.74,
+    "volume_24h": 874.49,
+    "score": 0.4235
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 34.74,
+    "volume_24h": 1485.14,
+    "score": 0.4094
+   },
+   {
+    "label": "Will the maximum temperature be <70\u00b0 on Nov 7, 2026? \u2014 69\u00b0 or below",
+    "side": "no",
+    "price": 0.81,
+    "hours_to_close": 35.74,
+    "volume_24h": 937.33,
+    "score": 0.3332
    }
   ],
   "skipped": {
-   "tracked only (below bet price floor)": 4
+   "tracked only (below bet price floor)": 2
   },
-  "watch_added": 5,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 42
  },

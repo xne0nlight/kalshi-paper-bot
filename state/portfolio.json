@@ -97,7 +97,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.83,
+   "mark_price": 0.8,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -135,7 +135,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.92,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -196,7 +196,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -230,7 +230,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.08,
+   "mark_price": 0.06,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -285,7 +285,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.72,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -318,7 +318,7 @@
    "opened_ts": 1793917827,
    "close_ts": 1794042000.0,
    "score": 0.5457,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -23218,29 +23218,31 @@
    1793978126,
    92.142,
    87.532
+  ],
+  [
+   1793979026,
+   92.142,
+   87.462
   ]
  ],
  "last_run": {
-  "ts": 1793978126,
+  "ts": 1793979026,
   "error": null,
-  "markets_scanned": 93,
+  "markets_scanned": 95,
   "candidates": 0,
   "rejections": {
-   "too little volume": 71,
-   "no favorite in 80-95c band": 16,
-   "spread too wide": 6
+   "too little volume": 72,
+   "no favorite in 80-95c band": 18,
+   "spread too wide": 5
   },
   "opened": [],
-  "settled": [
-   376,
-   380
-  ],
+  "settled": [],
   "halt": null,
   "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 10,
-  "api_calls": 43
+  "watch_graded": 0,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

@@ -219,7 +219,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.64,
+   "mark_price": 0.57,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -280,7 +280,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1793977140.0,
    "score": 0.5462,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -297,7 +297,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -369,7 +369,7 @@
    "opened_ts": 1793898926,
    "close_ts": 1794027600.0,
    "score": 0.5566,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.54,
+   "mark_price": 0.38,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -22951,91 +22951,96 @@
    1793942127,
    96.302,
    91.932
+  ],
+  [
+   1793943025,
+   96.302,
+   90.692
   ]
  ],
  "last_run": {
-  "ts": 1793942127,
+  "ts": 1793943025,
   "error": null,
-  "markets_scanned": 5319,
+  "markets_scanned": 5334,
   "candidates": 64,
   "rejections": {
-   "too little volume": 4886,
-   "no favorite in 80-95c band": 306,
+   "too little volume": 4896,
+   "no favorite in 80-95c band": 309,
    "spread too wide": 53,
-   "favorite is slipping fast": 7,
-   "nothing for sale at the ask": 3
+   "favorite is slipping fast": 10,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,000 or above",
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $71,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 16.74,
-    "volume_24h": 49892.62,
-    "score": 0.6923
+    "hours_to_close": 16.49,
+    "volume_24h": 32743.04,
+    "score": 0.6934
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,000 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 16.49,
+    "volume_24h": 53972.98,
+    "score": 0.6834
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 16.74,
+    "hours_to_close": 16.49,
     "volume_24h": 5578.22,
-    "score": 0.6733
+    "score": 0.6744
+   },
+   {
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,320 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 16.49,
+    "volume_24h": 19072.46,
+    "score": 0.6734
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 16.74,
-    "volume_24h": 21181.61,
-    "score": 0.6723
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,500 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 16.74,
-    "volume_24h": 52325.06,
-    "score": 0.6723
+    "hours_to_close": 16.49,
+    "volume_24h": 22186.11,
+    "score": 0.6734
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,000 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 16.74,
-    "volume_24h": 82619.43,
-    "score": 0.6423
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 16.74,
-    "volume_24h": 94322.23,
-    "score": 0.6323
-   },
-   {
-    "label": "Will the silver close price be above 53.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $53.99",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 16.74,
-    "volume_24h": 1535.8,
-    "score": 0.6313
+    "hours_to_close": 16.49,
+    "volume_24h": 67410.02,
+    "score": 0.6434
    },
    {
     "label": "Will the WTI crude oil settlement price be above 86.49 USD/Bbl on Nov 6, 2026? \u2014 Above $86.49",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 14.24,
+    "hours_to_close": 13.99,
     "volume_24h": 1070.75,
-    "score": 0.631
+    "score": 0.6323
+   },
+   {
+    "label": "Bitcoin price range on Nov 6, 2026? \u2014 $76,000 to 76,499.99",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 16.49,
+    "volume_24h": 4867.54,
+    "score": 0.6299
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

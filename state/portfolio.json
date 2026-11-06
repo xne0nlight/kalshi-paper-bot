@@ -130,7 +130,7 @@
    "opened_ts": 1793843126,
    "close_ts": 1793971740.0,
    "score": 0.589,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -242,7 +242,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.83,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -320,7 +320,7 @@
    "opened_ts": 1793898926,
    "close_ts": 1794027600.0,
    "score": 0.5566,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -392,7 +392,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -23132,55 +23132,27 @@
    1793969126,
    95.582,
    91.222
+  ],
+  [
+   1793970026,
+   95.582,
+   91.192
   ]
  ],
  "last_run": {
-  "ts": 1793969126,
+  "ts": 1793970026,
   "error": null,
-  "markets_scanned": 125,
-  "candidates": 4,
+  "markets_scanned": 65,
+  "candidates": 0,
   "rejections": {
-   "too little volume": 67,
-   "no favorite in 80-95c band": 44,
-   "spread too wide": 10
+   "too little volume": 45,
+   "no favorite in 80-95c band": 12,
+   "spread too wide": 8
   },
   "opened": [],
   "settled": [],
   "halt": null,
-  "top_candidates": [
-   {
-    "label": "Will the maximum temperature be 79-80\u00b0 on Nov 6, 2026? \u2014 79\u00b0 to 80\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 7225.09,
-    "score": 0.6394
-   },
-   {
-    "label": "Will the maximum temperature be 59-60\u00b0 on Nov 6, 2026? \u2014 59\u00b0 to 60\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 20.24,
-    "volume_24h": 882.24,
-    "score": 0.581
-   },
-   {
-    "label": "Will the minimum temperature be >46\u00b0 on Nov 6, 2026? \u2014 47\u00b0 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 20.24,
-    "volume_24h": 243.94,
-    "score": 0.5592
-   },
-   {
-    "label": "Will the maximum temperature be 73-74\u00b0 on Nov 6, 2026? \u2014 73\u00b0 to 74\u00b0",
-    "side": "no",
-    "price": 0.85,
-    "hours_to_close": 20.24,
-    "volume_24h": 1526.33,
-    "score": 0.5188
-   }
-  ],
+  "top_candidates": [],
   "skipped": {},
   "watch_added": 0,
   "watch_graded": 0,

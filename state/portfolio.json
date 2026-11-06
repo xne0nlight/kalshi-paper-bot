@@ -74,7 +74,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.41,
+   "mark_price": 0.74,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -317,7 +317,7 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -334,7 +334,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -384,7 +384,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -23450,91 +23450,96 @@
    1793997027,
    92.202,
    87.992
+  ],
+  [
+   1793997924,
+   92.202,
+   89.222
   ]
  ],
  "last_run": {
-  "ts": 1793997027,
+  "ts": 1793997924,
   "error": null,
   "markets_scanned": 726,
-  "candidates": 15,
+  "candidates": 14,
   "rejections": {
-   "too little volume": 492,
-   "no favorite in 80-95c band": 209,
-   "spread too wide": 10
+   "too little volume": 489,
+   "no favorite in 80-95c band": 211,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 34.24,
+    "volume_24h": 422.94,
+    "score": 0.5292
+   },
+   {
     "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 1054.33,
-    "score": 0.5286
+    "score": 0.5289
    },
    {
     "label": "Will the maximum temperature be 89-90\u00b0 on Nov 7, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 546.62,
-    "score": 0.5286
+    "score": 0.5289
    },
    {
     "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
     "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.49,
-    "volume_24h": 277.0,
-    "score": 0.4752
+    "price": 0.91,
+    "hours_to_close": 35.24,
+    "volume_24h": 523.97,
+    "score": 0.5149
    },
    {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
-    "price": 0.83,
-    "hours_to_close": 33.49,
-    "volume_24h": 1629.88,
-    "score": 0.4741
-   },
-   {
-    "label": "Will it rain in Houston on Nov 7, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.49,
-    "volume_24h": 255.85,
-    "score": 0.4739
-   },
-   {
-    "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 35.49,
-    "volume_24h": 498.34,
-    "score": 0.473
+    "price": 0.86,
+    "hours_to_close": 32.24,
+    "volume_24h": 906.37,
+    "score": 0.4867
    },
    {
     "label": "Will the maximum temperature be 85-86\u00b0 on Nov 7, 2026? \u2014 85\u00b0 to 86\u00b0",
     "side": "no",
     "price": 0.86,
-    "hours_to_close": 33.49,
-    "volume_24h": 588.79,
-    "score": 0.471
+    "hours_to_close": 33.24,
+    "volume_24h": 714.59,
+    "score": 0.4776
    },
    {
-    "label": "Will it rain in New York City on Nov 7, 2026?",
+    "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 32.49,
-    "volume_24h": 901.37,
-    "score": 0.4462
+    "price": 0.89,
+    "hours_to_close": 34.24,
+    "volume_24h": 277.0,
+    "score": 0.4755
+   },
+   {
+    "label": "Will it rain in Houston on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.24,
+    "volume_24h": 266.29,
+    "score": 0.4755
    }
   ],
   "skipped": {
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 3,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 42
  },

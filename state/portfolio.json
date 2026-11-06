@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 20.962,
- "fees_paid": 9.77,
+ "cash": 10.532,
+ "fees_paid": 9.88,
  "peak_equity": 109.65,
  "day": "2026-11-06",
  "day_start_equity": 96.302,
- "next_id": 393,
+ "next_id": 395,
  "open_positions": [
   {
    "id": 339,
@@ -74,7 +74,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -112,7 +112,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -207,7 +207,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.11,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.66,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -334,7 +334,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -384,7 +384,41 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 393,
+   "ticker": "KXHIGHMIA-26NOV07-B85.5",
+   "event_ticker": "KXHIGHMIA-26NOV07",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 85-86\u00b0 on Nov 7, 2026? \u2014 85\u00b0 to 86\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.87,
+   "fee": 0.05,
+   "cost": 5.27,
+   "opened_ts": 1793988925,
+   "close_ts": 1794117600.0,
+   "score": 0.4446,
+   "mark_price": 0.86,
+   "shadow": {}
+  },
+  {
+   "id": 394,
+   "ticker": "KXHIGHNY-26NOV07-B63.5",
+   "event_ticker": "KXHIGHNY-26NOV07",
+   "series": "KXHIGHNY",
+   "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.85,
+   "fee": 0.06,
+   "cost": 5.16,
+   "opened_ts": 1793988925,
+   "close_ts": 1794117600.0,
+   "score": 0.4268,
+   "mark_price": 0.83,
    "shadow": {}
   }
  ],
@@ -23349,19 +23383,27 @@
    1793988025,
    92.202,
    88.272
+  ],
+  [
+   1793988925,
+   92.202,
+   87.852
   ]
  ],
  "last_run": {
-  "ts": 1793988025,
+  "ts": 1793988925,
   "error": null,
   "markets_scanned": 540,
   "candidates": 7,
   "rejections": {
    "too little volume": 334,
-   "no favorite in 80-95c band": 190,
-   "spread too wide": 9
+   "no favorite in 80-95c band": 188,
+   "spread too wide": 11
   },
-  "opened": [],
+  "opened": [
+   393,
+   394
+  ],
   "settled": [],
   "halt": null,
   "top_candidates": [
@@ -23369,64 +23411,62 @@
     "label": "Will it rain in Dallas on Nov 7, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.99,
-    "volume_24h": 368.5,
-    "score": 0.5226
-   },
-   {
-    "label": "Will it rain in Detroit on Nov 7, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 34.99,
-    "volume_24h": 257.48,
-    "score": 0.5122
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 7, 2026? \u2014 38.9%",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 23.98,
-    "volume_24h": 470.5,
-    "score": 0.4706
-   },
-   {
-    "label": "Will it rain in New York City on Nov 7, 2026?",
-    "side": "no",
-    "price": 0.86,
-    "hours_to_close": 34.99,
-    "volume_24h": 557.41,
-    "score": 0.4672
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.84,
-    "hours_to_close": 35.99,
-    "volume_24h": 1045.64,
-    "score": 0.4665
+    "hours_to_close": 35.74,
+    "volume_24h": 406.0,
+    "score": 0.526
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 23.98,
-    "volume_24h": 367.38,
-    "score": 0.4525
+    "price": 0.95,
+    "hours_to_close": 23.73,
+    "volume_24h": 407.38,
+    "score": 0.5165
    },
    {
-    "label": "Will it rain in San Antonio on Nov 7, 2026?",
-    "side": "yes",
-    "price": 0.81,
-    "hours_to_close": 35.99,
-    "volume_24h": 263.32,
-    "score": 0.3917
+    "label": "Will it rain in New York City on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 34.74,
+    "volume_24h": 588.71,
+    "score": 0.4593
+   },
+   {
+    "label": "Will the maximum temperature be 85-86\u00b0 on Nov 7, 2026? \u2014 85\u00b0 to 86\u00b0",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.74,
+    "volume_24h": 209.6,
+    "score": 0.4446
+   },
+   {
+    "label": "Will it rain in Miami on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 34.74,
+    "volume_24h": 723.21,
+    "score": 0.436
+   },
+   {
+    "label": "Will it rain in Detroit on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 34.74,
+    "volume_24h": 317.38,
+    "score": 0.4293
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.85,
+    "hours_to_close": 35.74,
+    "volume_24h": 1046.64,
+    "score": 0.4268
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 1
-  },
-  "watch_added": 3,
-  "watch_graded": 5,
+  "skipped": {},
+  "watch_added": 2,
+  "watch_graded": 0,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

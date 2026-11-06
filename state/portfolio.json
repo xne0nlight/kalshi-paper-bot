@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.29,
+   "mark_price": 0.2,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -367,7 +367,7 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -384,7 +384,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.96,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -401,7 +401,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.83,
+   "mark_price": 0.82,
    "shadow": {}
   },
   {
@@ -418,7 +418,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.9,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -435,7 +435,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -23470,17 +23470,22 @@
    1794000625,
    92.202,
    88.512
+  ],
+  [
+   1794001527,
+   92.202,
+   88.022
   ]
  ],
  "last_run": {
-  "ts": 1794000625,
+  "ts": 1794001527,
   "error": null,
-  "markets_scanned": 1542,
-  "candidates": 26,
+  "markets_scanned": 1544,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 1275,
-   "no favorite in 80-95c band": 230,
-   "spread too wide": 11
+   "too little volume": 1271,
+   "no favorite in 80-95c band": 234,
+   "spread too wide": 14
   },
   "opened": [],
   "settled": [],
@@ -23490,72 +23495,72 @@
     "label": "Will ChatGPT App Downloads for October 2026 be above 80 ? \u2014 Above 80",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 31.48,
-    "volume_24h": 39926.54,
-    "score": 0.656
+    "hours_to_close": 31.23,
+    "volume_24h": 40197.4,
+    "score": 0.6564
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,160 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 24.49,
-    "volume_24h": 6404.0,
-    "score": 0.6544
+    "hours_to_close": 24.24,
+    "volume_24h": 6419.5,
+    "score": 0.655
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 6156.0,
-    "score": 0.6431
+    "hours_to_close": 24.24,
+    "volume_24h": 6276.0,
+    "score": 0.6443
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,750 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 24.49,
+    "hours_to_close": 24.24,
     "volume_24h": 6045.09,
-    "score": 0.6025
+    "score": 0.603
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 24.49,
-    "volume_24h": 3210.0,
-    "score": 0.5919
+    "hours_to_close": 24.24,
+    "volume_24h": 3212.0,
+    "score": 0.5925
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,500 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 24.49,
-    "volume_24h": 600.0,
-    "score": 0.5673
-   },
-   {
-    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 32.49,
-    "volume_24h": 1922.07,
-    "score": 0.5609
+    "hours_to_close": 24.24,
+    "volume_24h": 729.18,
+    "score": 0.5742
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 855.88,
-    "score": 0.5606
+    "score": 0.5609
+   },
+   {
+    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.24,
+    "volume_24h": 2981.92,
+    "score": 0.5515
    }
   ],
   "skipped": {
-   "related-market cap (Crypto)": 7,
+   "related-market cap (Crypto)": 8,
    "tracked only (below bet price floor)": 2
   },
-  "watch_added": 3,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 43
  },

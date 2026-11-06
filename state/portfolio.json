@@ -219,7 +219,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.63,
+   "mark_price": 0.64,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -297,7 +297,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.88,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -386,7 +386,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.61,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -22916,91 +22916,96 @@
    1793935824,
    96.302,
    91.572
+  ],
+  [
+   1793936725,
+   96.302,
+   91.612
   ]
  ],
  "last_run": {
-  "ts": 1793935824,
+  "ts": 1793936725,
   "error": null,
-  "markets_scanned": 5310,
-  "candidates": 66,
+  "markets_scanned": 5312,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 4890,
-   "no favorite in 80-95c band": 297,
-   "spread too wide": 46,
-   "favorite is slipping fast": 8,
-   "nothing for sale at the ask": 3
+   "too little volume": 4889,
+   "no favorite in 80-95c band": 298,
+   "spread too wide": 52,
+   "favorite is slipping fast": 6,
+   "nothing for sale at the ask": 2
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 18.24,
+    "volume_24h": 39961.19,
+    "score": 0.6866
+   },
+   {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $72,500 or above",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 18.49,
-    "volume_24h": 43053.89,
-    "score": 0.6857
+    "hours_to_close": 18.24,
+    "volume_24h": 45906.22,
+    "score": 0.6866
    },
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.49,
-    "volume_24h": 39396.73,
-    "score": 0.6757
+    "price": 0.93,
+    "hours_to_close": 18.24,
+    "volume_24h": 17528.3,
+    "score": 0.6666
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 18.49,
-    "volume_24h": 92482.35,
-    "score": 0.6657
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 18.49,
-    "volume_24h": 17107.08,
-    "score": 0.6557
+    "hours_to_close": 18.24,
+    "volume_24h": 92559.9,
+    "score": 0.6666
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,320 or above",
     "side": "no",
     "price": 0.91,
-    "hours_to_close": 18.49,
+    "hours_to_close": 18.24,
     "volume_24h": 19151.85,
-    "score": 0.6457
+    "score": 0.6466
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,500 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 18.49,
-    "volume_24h": 21181.3,
-    "score": 0.6357
+    "hours_to_close": 18.24,
+    "volume_24h": 21280.3,
+    "score": 0.6366
    },
    {
-    "label": "Will the maximum temperature be <67\u00b0 on Nov 6, 2026? \u2014 66\u00b0 or below",
+    "label": "Will the gold close price be above 4147.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $4147.99",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 26.49,
-    "volume_24h": 7503.13,
-    "score": 0.6153
+    "price": 0.94,
+    "hours_to_close": 18.24,
+    "volume_24h": 2669.79,
+    "score": 0.6336
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 18.49,
+    "price": 0.91,
+    "hours_to_close": 18.24,
     "volume_24h": 5114.63,
-    "score": 0.6039
+    "score": 0.6248
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

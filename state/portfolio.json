@@ -219,7 +219,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.71,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -275,7 +275,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1793977140.0,
    "score": 0.5462,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -292,7 +292,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -309,7 +309,7 @@
    "opened_ts": 1793888126,
    "close_ts": 1794002340.0,
    "score": 0.4931,
-   "mark_price": 0.91,
+   "mark_price": 0.62,
    "shadow": {
     "10": {
      "ts": 1793929525,
@@ -320,6 +320,16 @@
      "ts": 1793929525,
      "bid": 0.74,
      "proceeds": 0.72
+    },
+    "20": {
+     "ts": 1793934925,
+     "bid": 0.62,
+     "proceeds": 0.6
+    },
+    "30": {
+     "ts": 1793934925,
+     "bid": 0.62,
+     "proceeds": 0.6
     }
    }
   },
@@ -371,7 +381,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.61,
+   "mark_price": 0.6,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -22891,18 +22901,23 @@
    1793934025,
    96.302,
    92.402
+  ],
+  [
+   1793934925,
+   96.302,
+   91.892
   ]
  ],
  "last_run": {
-  "ts": 1793934025,
+  "ts": 1793934925,
   "error": null,
-  "markets_scanned": 5294,
-  "candidates": 55,
+  "markets_scanned": 5310,
+  "candidates": 65,
   "rejections": {
-   "too little volume": 4885,
-   "no favorite in 80-95c band": 297,
-   "spread too wide": 47,
-   "favorite is slipping fast": 9,
+   "too little volume": 4891,
+   "no favorite in 80-95c band": 298,
+   "spread too wide": 45,
+   "favorite is slipping fast": 10,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -22913,69 +22928,69 @@
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,500 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 18.99,
-    "volume_24h": 78385.54,
-    "score": 0.684
+    "hours_to_close": 18.74,
+    "volume_24h": 77927.19,
+    "score": 0.6849
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 18.74,
+    "volume_24h": 39369.91,
+    "score": 0.6749
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,000 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 18.99,
+    "hours_to_close": 18.74,
     "volume_24h": 92482.35,
-    "score": 0.674
-   },
-   {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $79,000 or above",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 18.99,
-    "volume_24h": 38398.67,
-    "score": 0.664
+    "score": 0.6749
    },
    {
     "label": "Will the brent crude oil close price be above 105.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $105.99",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 18.99,
+    "hours_to_close": 18.74,
     "volume_24h": 5114.63,
-    "score": 0.6522
+    "score": 0.653
+   },
+   {
+    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
+    "side": "no",
+    "price": 0.91,
+    "hours_to_close": 18.74,
+    "volume_24h": 17199.94,
+    "score": 0.6449
    },
    {
     "label": "Bitcoin price on Nov 6, 2026? \u2014 $73,500 or above",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 18.99,
+    "hours_to_close": 18.74,
     "volume_24h": 21136.49,
-    "score": 0.644
+    "score": 0.6449
    },
    {
-    "label": "Bitcoin price on Nov 6, 2026? \u2014 $78,500 or above",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 18.99,
-    "volume_24h": 17066.96,
-    "score": 0.624
+    "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,120 or above",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 18.74,
+    "volume_24h": 15248.44,
+    "score": 0.6349
    },
    {
     "label": "Ethereum price at Nov 6, 2026 at 5pm EST? \u2014 $2,320 or above",
     "side": "no",
-    "price": 0.88,
-    "hours_to_close": 18.99,
-    "volume_24h": 19545.07,
-    "score": 0.614
-   },
-   {
-    "label": "Will the brent crude oil close price be above 93.99 USD/Bbl on November 06, 2026 at 5:00 PM EST? \u2014 Above $93.99",
-    "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 18.99,
-    "volume_24h": 1049.51,
-    "score": 0.6006
+    "price": 0.89,
+    "hours_to_close": 18.74,
+    "volume_24h": 19560.85,
+    "score": 0.6249
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

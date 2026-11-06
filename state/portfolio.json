@@ -135,7 +135,7 @@
    "opened_ts": 1793888126,
    "close_ts": 1794002340.0,
    "score": 0.4931,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793929525,
@@ -207,7 +207,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.12,
+   "mark_price": 0.11,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -262,7 +262,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.64,
+   "mark_price": 0.66,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -300,7 +300,7 @@
    "opened_ts": 1793917827,
    "close_ts": 1794042000.0,
    "score": 0.5457,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -23344,58 +23344,89 @@
    1793987125,
    92.202,
    88.242
+  ],
+  [
+   1793988025,
+   92.202,
+   88.272
   ]
  ],
  "last_run": {
-  "ts": 1793987125,
+  "ts": 1793988025,
   "error": null,
-  "markets_scanned": 434,
-  "candidates": 4,
+  "markets_scanned": 540,
+  "candidates": 7,
   "rejections": {
-   "too little volume": 251,
-   "no favorite in 80-95c band": 172,
-   "spread too wide": 7
+   "too little volume": 334,
+   "no favorite in 80-95c band": 190,
+   "spread too wide": 9
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will it rain in Dallas on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 368.5,
+    "score": 0.5226
+   },
+   {
     "label": "Will it rain in Detroit on Nov 7, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 35.24,
-    "volume_24h": 234.0,
-    "score": 0.5087
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 24.23,
-    "volume_24h": 367.38,
-    "score": 0.4919
+    "hours_to_close": 34.99,
+    "volume_24h": 257.48,
+    "score": 0.5122
    },
    {
     "label": "Will Trump's RCP approval average be exactly 38.9 on Nov 7, 2026? \u2014 38.9%",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 24.23,
+    "price": 0.95,
+    "hours_to_close": 23.98,
     "volume_24h": 470.5,
-    "score": 0.44
+    "score": 0.4706
    },
    {
     "label": "Will it rain in New York City on Nov 7, 2026?",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 35.24,
-    "volume_24h": 521.41,
-    "score": 0.4248
+    "price": 0.86,
+    "hours_to_close": 34.99,
+    "volume_24h": 557.41,
+    "score": 0.4672
+   },
+   {
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
+    "side": "no",
+    "price": 0.84,
+    "hours_to_close": 35.99,
+    "volume_24h": 1045.64,
+    "score": 0.4665
+   },
+   {
+    "label": "Will Trump's RCP approval average be exactly 39.2 on Nov 7, 2026? \u2014 39.2%",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 23.98,
+    "volume_24h": 367.38,
+    "score": 0.4525
+   },
+   {
+    "label": "Will it rain in San Antonio on Nov 7, 2026?",
+    "side": "yes",
+    "price": 0.81,
+    "hours_to_close": 35.99,
+    "volume_24h": 263.32,
+    "score": 0.3917
    }
   ],
-  "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
+  "watch_added": 3,
+  "watch_graded": 5,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

@@ -2,49 +2,11 @@
  "version": 1,
  "created_ts": 1792431793,
  "starting_bankroll": 100.0,
- "cash": 28.5642,
+ "cash": 45.5642,
  "fees_paid": 0.0,
  "next_id": 2432,
  "orders": [],
  "positions": [
-  {
-   "ticker": "KXHIGHCHI-26NOV05-T55",
-   "event_ticker": "KXHIGHCHI-26NOV05",
-   "series": "KXHIGHCHI",
-   "kind": "high",
-   "code": "MDW",
-   "date": "2026-11-05",
-   "label": "MDW high \u226454\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.7996,
-   "id": 2106,
-   "contracts": 2.0,
-   "cost": 0.64,
-   "opened_ts": 1793806227,
-   "mark_price": 0.99,
-   "avg_price": 0.32
-  },
-  {
-   "ticker": "KXLOWTCHI-26NOV05-B44.5",
-   "event_ticker": "KXLOWTCHI-26NOV05",
-   "series": "KXLOWTCHI",
-   "kind": "low",
-   "code": "MDW",
-   "date": "2026-11-05",
-   "label": "MDW low 44\u201345\u00b0 11-05",
-   "side": "no",
-   "strategy": "favorite",
-   "close_ts": 1793948400.0,
-   "q_model": 0.943,
-   "id": 2114,
-   "contracts": 0.04,
-   "cost": 0.0324,
-   "opened_ts": 1793808029,
-   "mark_price": 0.05,
-   "avg_price": 0.81
-  },
   {
    "ticker": "KXLOWTLAX-26NOV05-B58.5",
    "event_ticker": "KXLOWTLAX-26NOV05",
@@ -65,101 +27,6 @@
    "avg_price": 0.45
   },
   {
-   "ticker": "KXHIGHTDAL-26NOV05-B79.5",
-   "event_ticker": "KXHIGHTDAL-26NOV05",
-   "series": "KXHIGHTDAL",
-   "kind": "high",
-   "code": "DFW",
-   "date": "2026-11-05",
-   "label": "DFW high 79\u201380\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.8509,
-   "id": 2151,
-   "contracts": 1.0,
-   "cost": 0.39,
-   "opened_ts": 1793815229,
-   "mark_price": 0.99,
-   "avg_price": 0.39
-  },
-  {
-   "ticker": "KXHIGHAUS-26NOV05-B82.5",
-   "event_ticker": "KXHIGHAUS-26NOV05",
-   "series": "KXHIGHAUS",
-   "kind": "high",
-   "code": "AUS",
-   "date": "2026-11-05",
-   "label": "AUS high 82\u201383\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.8148,
-   "id": 2162,
-   "contracts": 1.0,
-   "cost": 0.4,
-   "opened_ts": 1793817928,
-   "mark_price": 0.99,
-   "avg_price": 0.4
-  },
-  {
-   "ticker": "KXHIGHTHOU-26NOV05-B81.5",
-   "event_ticker": "KXHIGHTHOU-26NOV05",
-   "series": "KXHIGHTHOU",
-   "kind": "high",
-   "code": "HOU",
-   "date": "2026-11-05",
-   "label": "HOU high 81\u201382\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.7673,
-   "id": 2166,
-   "contracts": 1.0,
-   "cost": 0.36,
-   "opened_ts": 1793818825,
-   "mark_price": 0.02,
-   "avg_price": 0.36
-  },
-  {
-   "ticker": "KXLOWTAUS-26NOV05-T52",
-   "event_ticker": "KXLOWTAUS-26NOV05",
-   "series": "KXLOWTAUS",
-   "kind": "low",
-   "code": "AUS",
-   "date": "2026-11-05",
-   "label": "AUS low \u226553\u00b0 11-05",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.4139,
-   "id": 2158,
-   "contracts": 1.0,
-   "cost": 0.1,
-   "opened_ts": 1793819727,
-   "mark_price": 0.06,
-   "avg_price": 0.1
-  },
-  {
-   "ticker": "KXHIGHTMIN-26NOV05-B50.5",
-   "event_ticker": "KXHIGHTMIN-26NOV05",
-   "series": "KXHIGHTMIN",
-   "kind": "high",
-   "code": "MSP",
-   "date": "2026-11-05",
-   "label": "MSP high 50\u201351\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.7637,
-   "id": 2183,
-   "contracts": 2.0,
-   "cost": 0.74,
-   "opened_ts": 1793822428,
-   "mark_price": 0.01,
-   "avg_price": 0.37
-  },
-  {
    "ticker": "KXHIGHLAX-26NOV05-B79.5",
    "event_ticker": "KXHIGHLAX-26NOV05",
    "series": "KXHIGHLAX",
@@ -176,25 +43,6 @@
    "cost": 0.44,
    "opened_ts": 1793827826,
    "mark_price": 0.99,
-   "avg_price": 0.44
-  },
-  {
-   "ticker": "KXHIGHTSATX-26NOV05-B81.5",
-   "event_ticker": "KXHIGHTSATX-26NOV05",
-   "series": "KXHIGHTSATX",
-   "kind": "high",
-   "code": "SAT",
-   "date": "2026-11-05",
-   "label": "SAT high 81\u201382\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.8381,
-   "id": 2207,
-   "contracts": 1.0,
-   "cost": 0.44,
-   "opened_ts": 1793834125,
-   "mark_price": 0.01,
    "avg_price": 0.44
   },
   {
@@ -217,25 +65,6 @@
    "avg_price": 0.42
   },
   {
-   "ticker": "KXHIGHTNOLA-26NOV05-B78.5",
-   "event_ticker": "KXHIGHTNOLA-26NOV05",
-   "series": "KXHIGHTNOLA",
-   "kind": "high",
-   "code": "MSY",
-   "date": "2026-11-05",
-   "label": "MSY high 78\u201379\u00b0 11-05",
-   "side": "no",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.7979,
-   "id": 2218,
-   "contracts": 1.0,
-   "cost": 0.42,
-   "opened_ts": 1793836827,
-   "mark_price": 0.02,
-   "avg_price": 0.42
-  },
-  {
    "ticker": "KXHIGHTSEA-26NOV05-B57.5",
    "event_ticker": "KXHIGHTSEA-26NOV05",
    "series": "KXHIGHTSEA",
@@ -255,25 +84,6 @@
    "avg_price": 0.27
   },
   {
-   "ticker": "KXLOWTCHI-26NOV05-T44",
-   "event_ticker": "KXLOWTCHI-26NOV05",
-   "series": "KXLOWTCHI",
-   "kind": "low",
-   "code": "MDW",
-   "date": "2026-11-05",
-   "label": "MDW low \u226443\u00b0 11-05",
-   "side": "no",
-   "strategy": "longshot",
-   "close_ts": 1793948400.0,
-   "q_model": 0.9978,
-   "id": 2231,
-   "contracts": 13.0,
-   "cost": 12.61,
-   "opened_ts": 1793844026,
-   "mark_price": 0.99,
-   "avg_price": 0.97
-  },
-  {
    "ticker": "KXHIGHTPHX-26NOV05-B79.5",
    "event_ticker": "KXHIGHTPHX-26NOV05",
    "series": "KXHIGHTPHX",
@@ -291,25 +101,6 @@
    "opened_ts": 1793851225,
    "mark_price": 0.11,
    "avg_price": 0.37
-  },
-  {
-   "ticker": "KXHIGHTSATX-26NOV05-B79.5",
-   "event_ticker": "KXHIGHTSATX-26NOV05",
-   "series": "KXHIGHTSATX",
-   "kind": "high",
-   "code": "SAT",
-   "date": "2026-11-05",
-   "label": "SAT high 79\u201380\u00b0 11-05",
-   "side": "yes",
-   "strategy": "edge",
-   "close_ts": 1793948400.0,
-   "q_model": 0.3362,
-   "id": 2247,
-   "contracts": 1.0,
-   "cost": 0.1,
-   "opened_ts": 1793856627,
-   "mark_price": 0.01,
-   "avg_price": 0.1
   },
   {
    "ticker": "KXLOWTMIN-26NOV05-T35",
@@ -365,7 +156,7 @@
    "contracts": 4.5,
    "cost": 3.825,
    "opened_ts": 1793892626,
-   "mark_price": 0.82,
+   "mark_price": 0.83,
    "avg_price": 0.85
   },
   {
@@ -403,7 +194,7 @@
    "contracts": 0.06,
    "cost": 0.048,
    "opened_ts": 1793896227,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "avg_price": 0.8
   },
   {
@@ -441,7 +232,7 @@
    "contracts": 1.0,
    "cost": 0.49,
    "opened_ts": 1793898926,
-   "mark_price": 0.29,
+   "mark_price": 0.27,
    "avg_price": 0.49
   },
   {
@@ -460,7 +251,7 @@
    "contracts": 15.0,
    "cost": 13.05,
    "opened_ts": 1793899827,
-   "mark_price": 0.95,
+   "mark_price": 0.85,
    "avg_price": 0.87
   },
   {
@@ -479,7 +270,7 @@
    "contracts": 0.02,
    "cost": 0.0026,
    "opened_ts": 1793904330,
-   "mark_price": 0.25,
+   "mark_price": 0.32,
    "avg_price": 0.13
   },
   {
@@ -517,7 +308,7 @@
    "contracts": 1.0,
    "cost": 0.13,
    "opened_ts": 1793910626,
-   "mark_price": 0.29,
+   "mark_price": 0.26,
    "avg_price": 0.13
   },
   {
@@ -536,7 +327,7 @@
    "contracts": 1.0,
    "cost": 0.36,
    "opened_ts": 1793911526,
-   "mark_price": 0.27,
+   "mark_price": 0.25,
    "avg_price": 0.36
   },
   {
@@ -555,7 +346,7 @@
    "contracts": 1.0,
    "cost": 0.3,
    "opened_ts": 1793915125,
-   "mark_price": 0.34,
+   "mark_price": 0.3,
    "avg_price": 0.3
   },
   {
@@ -631,7 +422,7 @@
    "contracts": 1.0,
    "cost": 0.29,
    "opened_ts": 1793927727,
-   "mark_price": 0.52,
+   "mark_price": 0.5,
    "avg_price": 0.29
   },
   {
@@ -650,7 +441,7 @@
    "contracts": 13.0,
    "cost": 12.09,
    "opened_ts": 1793928627,
-   "mark_price": 0.86,
+   "mark_price": 0.88,
    "avg_price": 0.93
   },
   {
@@ -669,7 +460,7 @@
    "contracts": 0.5,
    "cost": 0.125,
    "opened_ts": 1793931324,
-   "mark_price": 0.51,
+   "mark_price": 0.48,
    "avg_price": 0.25
   },
   {
@@ -688,7 +479,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793934925,
-   "mark_price": 0.07,
+   "mark_price": 0.06,
    "avg_price": 0.08
   },
   {
@@ -726,7 +517,7 @@
    "contracts": 1.0,
    "cost": 0.08,
    "opened_ts": 1793945726,
-   "mark_price": 0.2,
+   "mark_price": 0.14,
    "avg_price": 0.08
   },
   {
@@ -745,7 +536,7 @@
    "contracts": 7.0,
    "cost": 0.77,
    "opened_ts": 1793946627,
-   "mark_price": 0.14,
+   "mark_price": 0.13,
    "avg_price": 0.11
   }
  ],
@@ -8269,6 +8060,259 @@
    "pnl": -0.48,
    "result": "YES",
    "closed_ts": 1793967324,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHCHI-26NOV05-T55",
+   "event_ticker": "KXHIGHCHI-26NOV05",
+   "series": "KXHIGHCHI",
+   "kind": "high",
+   "code": "MDW",
+   "date": "2026-11-05",
+   "label": "MDW high \u226454\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.7996,
+   "id": 2106,
+   "contracts": 2.0,
+   "cost": 0.64,
+   "opened_ts": 1793806227,
+   "avg_price": 0.32,
+   "payout": 2.0,
+   "pnl": 1.36,
+   "result": "NO",
+   "closed_ts": 1793970926,
+   "won": true
+  },
+  {
+   "ticker": "KXLOWTCHI-26NOV05-B44.5",
+   "event_ticker": "KXLOWTCHI-26NOV05",
+   "series": "KXLOWTCHI",
+   "kind": "low",
+   "code": "MDW",
+   "date": "2026-11-05",
+   "label": "MDW low 44\u201345\u00b0 11-05",
+   "side": "no",
+   "strategy": "favorite",
+   "close_ts": 1793948400.0,
+   "q_model": 0.943,
+   "id": 2114,
+   "contracts": 0.04,
+   "cost": 0.0324,
+   "opened_ts": 1793808029,
+   "avg_price": 0.81,
+   "payout": 0.0,
+   "pnl": -0.0324,
+   "result": "YES",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTDAL-26NOV05-B79.5",
+   "event_ticker": "KXHIGHTDAL-26NOV05",
+   "series": "KXHIGHTDAL",
+   "kind": "high",
+   "code": "DFW",
+   "date": "2026-11-05",
+   "label": "DFW high 79\u201380\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.8509,
+   "id": 2151,
+   "contracts": 1.0,
+   "cost": 0.39,
+   "opened_ts": 1793815229,
+   "avg_price": 0.39,
+   "payout": 1.0,
+   "pnl": 0.61,
+   "result": "NO",
+   "closed_ts": 1793970926,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHAUS-26NOV05-B82.5",
+   "event_ticker": "KXHIGHAUS-26NOV05",
+   "series": "KXHIGHAUS",
+   "kind": "high",
+   "code": "AUS",
+   "date": "2026-11-05",
+   "label": "AUS high 82\u201383\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.8148,
+   "id": 2162,
+   "contracts": 1.0,
+   "cost": 0.4,
+   "opened_ts": 1793817928,
+   "avg_price": 0.4,
+   "payout": 1.0,
+   "pnl": 0.6,
+   "result": "NO",
+   "closed_ts": 1793970926,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTHOU-26NOV05-B81.5",
+   "event_ticker": "KXHIGHTHOU-26NOV05",
+   "series": "KXHIGHTHOU",
+   "kind": "high",
+   "code": "HOU",
+   "date": "2026-11-05",
+   "label": "HOU high 81\u201382\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.7673,
+   "id": 2166,
+   "contracts": 1.0,
+   "cost": 0.36,
+   "opened_ts": 1793818825,
+   "avg_price": 0.36,
+   "payout": 0.0,
+   "pnl": -0.36,
+   "result": "YES",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTAUS-26NOV05-T52",
+   "event_ticker": "KXLOWTAUS-26NOV05",
+   "series": "KXLOWTAUS",
+   "kind": "low",
+   "code": "AUS",
+   "date": "2026-11-05",
+   "label": "AUS low \u226553\u00b0 11-05",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.4139,
+   "id": 2158,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1793819727,
+   "avg_price": 0.1,
+   "payout": 0.0,
+   "pnl": -0.1,
+   "result": "NO",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTMIN-26NOV05-B50.5",
+   "event_ticker": "KXHIGHTMIN-26NOV05",
+   "series": "KXHIGHTMIN",
+   "kind": "high",
+   "code": "MSP",
+   "date": "2026-11-05",
+   "label": "MSP high 50\u201351\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.7637,
+   "id": 2183,
+   "contracts": 2.0,
+   "cost": 0.74,
+   "opened_ts": 1793822428,
+   "avg_price": 0.37,
+   "payout": 0.0,
+   "pnl": -0.74,
+   "result": "YES",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTSATX-26NOV05-B81.5",
+   "event_ticker": "KXHIGHTSATX-26NOV05",
+   "series": "KXHIGHTSATX",
+   "kind": "high",
+   "code": "SAT",
+   "date": "2026-11-05",
+   "label": "SAT high 81\u201382\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.8381,
+   "id": 2207,
+   "contracts": 1.0,
+   "cost": 0.44,
+   "opened_ts": 1793834125,
+   "avg_price": 0.44,
+   "payout": 0.0,
+   "pnl": -0.44,
+   "result": "YES",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXHIGHTNOLA-26NOV05-B78.5",
+   "event_ticker": "KXHIGHTNOLA-26NOV05",
+   "series": "KXHIGHTNOLA",
+   "kind": "high",
+   "code": "MSY",
+   "date": "2026-11-05",
+   "label": "MSY high 78\u201379\u00b0 11-05",
+   "side": "no",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.7979,
+   "id": 2218,
+   "contracts": 1.0,
+   "cost": 0.42,
+   "opened_ts": 1793836827,
+   "avg_price": 0.42,
+   "payout": 0.0,
+   "pnl": -0.42,
+   "result": "YES",
+   "closed_ts": 1793970926,
+   "won": false
+  },
+  {
+   "ticker": "KXLOWTCHI-26NOV05-T44",
+   "event_ticker": "KXLOWTCHI-26NOV05",
+   "series": "KXLOWTCHI",
+   "kind": "low",
+   "code": "MDW",
+   "date": "2026-11-05",
+   "label": "MDW low \u226443\u00b0 11-05",
+   "side": "no",
+   "strategy": "longshot",
+   "close_ts": 1793948400.0,
+   "q_model": 0.9978,
+   "id": 2231,
+   "contracts": 13.0,
+   "cost": 12.61,
+   "opened_ts": 1793844026,
+   "avg_price": 0.97,
+   "payout": 13.0,
+   "pnl": 0.39,
+   "result": "NO",
+   "closed_ts": 1793970926,
+   "won": true
+  },
+  {
+   "ticker": "KXHIGHTSATX-26NOV05-B79.5",
+   "event_ticker": "KXHIGHTSATX-26NOV05",
+   "series": "KXHIGHTSATX",
+   "kind": "high",
+   "code": "SAT",
+   "date": "2026-11-05",
+   "label": "SAT high 79\u201380\u00b0 11-05",
+   "side": "yes",
+   "strategy": "edge",
+   "close_ts": 1793948400.0,
+   "q_model": 0.3362,
+   "id": 2247,
+   "contracts": 1.0,
+   "cost": 0.1,
+   "opened_ts": 1793856627,
+   "avg_price": 0.1,
+   "payout": 0.0,
+   "pnl": -0.1,
+   "result": "NO",
+   "closed_ts": 1793970926,
    "won": false
   }
  ],
@@ -16132,6 +16176,11 @@
    1793970026,
    132.8067,
    133.1753
+  ],
+  [
+   1793970926,
+   133.5743,
+   131.7253
   ]
  ],
  "forecast_log": {
@@ -21418,42 +21467,6 @@
     "kind": "high",
     "close_ts": 1793952000.0
    },
-   "KXLOWTSATX-26NOV05-T55": {
-    "q": 0.7007883826804239,
-    "mkt": 0.685,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTSATX-26NOV05-T48": {
-    "q": 0.0001672663603494896,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTSATX-26NOV05-B54.5": {
-    "q": 0.1831311709217987,
-    "mkt": 0.255,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTSATX-26NOV05-B52.5": {
-    "q": 0.08972743341120652,
-    "mkt": 0.02,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTSATX-26NOV05-B50.5": {
-    "q": 0.023331389079925356,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTSATX-26NOV05-B48.5": {
-    "q": 0.0028543575462969526,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
    "KXLOWTPHX-26NOV05-T57": {
     "q": 0.3436892521938339,
     "mkt": 0.595,
@@ -21526,42 +21539,6 @@
     "kind": "low",
     "close_ts": 1793948400.0
    },
-   "KXLOWTNOLA-26NOV05-T64": {
-    "q": 0.41403312330778236,
-    "mkt": 0.2,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTNOLA-26NOV05-T57": {
-    "q": 0.015057900650634524,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTNOLA-26NOV05-B63.5": {
-    "q": 0.24659165125895458,
-    "mkt": 0.45999999999999996,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTNOLA-26NOV05-B61.5": {
-    "q": 0.18966380259195884,
-    "mkt": 0.29,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTNOLA-26NOV05-B59.5": {
-    "q": 0.09693549009542048,
-    "mkt": 0.05,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTNOLA-26NOV05-B57.5": {
-    "q": 0.037718032095249994,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
    "KXLOWTMIN-26NOV05-T42": {
     "q": 0.012855498793804768,
     "mkt": 0.005,
@@ -21598,186 +21575,6 @@
     "kind": "low",
     "close_ts": 1793948400.0
    },
-   "KXLOWTHOU-26NOV05-T60": {
-    "q": 0.31707019287833593,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTHOU-26NOV05-T53": {
-    "q": 0.0010531478819541425,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTHOU-26NOV05-B59.5": {
-    "q": 0.18604501120294648,
-    "mkt": 0.19,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTHOU-26NOV05-B57.5": {
-    "q": 0.34784442959961864,
-    "mkt": 0.6699999999999999,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTHOU-26NOV05-B55.5": {
-    "q": 0.13332559162451857,
-    "mkt": 0.105,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTHOU-26NOV05-B53.5": {
-    "q": 0.014661626812626853,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-T55": {
-    "q": 0.32219528234912187,
-    "mkt": 0.38,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-T48": {
-    "q": 0.004143456831731889,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-B54.5": {
-    "q": 0.2473853564424608,
-    "mkt": 0.53,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-B52.5": {
-    "q": 0.2920684385053755,
-    "mkt": 0.11,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-B50.5": {
-    "q": 0.10875666687454426,
-    "mkt": 0.015,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTDAL-26NOV05-B48.5": {
-    "q": 0.02545079899676667,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-T51": {
-    "q": 0.07610503385377178,
-    "mkt": 0.005,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-T44": {
-    "q": 0.001954893888750818,
-    "mkt": 0.03,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-B50.5": {
-    "q": 0.30688699948583054,
-    "mkt": 0.030000000000000002,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-B48.5": {
-    "q": 0.39579773442383986,
-    "mkt": 0.165,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-B46.5": {
-    "q": 0.18373589601116178,
-    "mkt": 0.525,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTCHI-26NOV05-B44.5": {
-    "q": 0.035519442336646195,
-    "mkt": 0.265,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-T52": {
-    "q": 0.4483302345324747,
-    "mkt": 0.12,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-T45": {
-    "q": 0.02383104914940827,
-    "mkt": 0.01,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-B51.5": {
-    "q": 0.16697201872276787,
-    "mkt": 0.19,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-B49.5": {
-    "q": 0.1590974630068322,
-    "mkt": 0.45499999999999996,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-B47.5": {
-    "q": 0.1297933165330165,
-    "mkt": 0.13,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXLOWTAUS-26NOV05-B45.5": {
-    "q": 0.07197591805550105,
-    "mkt": 0.035,
-    "kind": "low",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-T84": {
-    "q": 0.07596576703205324,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-T77": {
-    "q": 0.023679009279815685,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-B83.5": {
-    "q": 0.1614171978332099,
-    "mkt": 0.2,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-B81.5": {
-    "q": 0.14869186021543734,
-    "mkt": 0.675,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-B79.5": {
-    "q": 0.3361676994134817,
-    "mkt": 0.11,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTSATX-26NOV05-B77.5": {
-    "q": 0.2540784662260031,
-    "mkt": 0.025,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
    "KXHIGHTPHX-26NOV05-T82": {
     "q": 0.040027456034387746,
     "mkt": 0.005,
@@ -21811,258 +21608,6 @@
    "KXHIGHTPHX-26NOV05-B75.5": {
     "q": 0.17691929478232743,
     "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-T67": {
-    "q": 0.1761563884640553,
-    "mkt": 0.32,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-T60": {
-    "q": 0.015174507286862041,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-B66.5": {
-    "q": 0.29221375236414043,
-    "mkt": 0.305,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-B64.5": {
-    "q": 0.2876508689526758,
-    "mkt": 0.2,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-B62.5": {
-    "q": 0.16443502065768587,
-    "mkt": 0.08499999999999999,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTOKC-26NOV05-B60.5": {
-    "q": 0.06436946227458151,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-T85": {
-    "q": 0.10247261141846171,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-T78": {
-    "q": 0.4578034273086955,
-    "mkt": 0.065,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-B84.5": {
-    "q": 0.12028675204150428,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-B82.5": {
-    "q": 0.0740985062250194,
-    "mkt": 0.035,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-B80.5": {
-    "q": 0.06369330611631757,
-    "mkt": 0.305,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTNOLA-26NOV05-B78.5": {
-    "q": 0.18164539689000228,
-    "mkt": 0.605,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-T55": {
-    "q": 0.048972784491177514,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-T48": {
-    "q": 0.041881608480491474,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-B54.5": {
-    "q": 0.14789966577270597,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-B52.5": {
-    "q": 0.29350134864965377,
-    "mkt": 0.08,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-B50.5": {
-    "q": 0.30902097749764296,
-    "mkt": 0.74,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTMIN-26NOV05-B48.5": {
-    "q": 0.1587236151083292,
-    "mkt": 0.14500000000000002,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-T84": {
-    "q": 0.09827941808608115,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-T77": {
-    "q": 0.027855179225941096,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-B83.5": {
-    "q": 0.19551579081603734,
-    "mkt": 0.505,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-B81.5": {
-    "q": 0.29515053035884253,
-    "mkt": 0.415,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-B79.5": {
-    "q": 0.26739406175008323,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTHOU-26NOV05-B77.5": {
-    "q": 0.11580501976301538,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-T82": {
-    "q": 0.05526650535894993,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-T75": {
-    "q": 0.01029290466610387,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-B81.5": {
-    "q": 0.15702610988838983,
-    "mkt": 0.295,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-B79.5": {
-    "q": 0.22478894540918265,
-    "mkt": 0.565,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-B77.5": {
-    "q": 0.37903103963536977,
-    "mkt": 0.07500000000000001,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHTDAL-26NOV05-B75.5": {
-    "q": 0.173594495042005,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-T62": {
-    "q": 0.0005330770519764928,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-T55": {
-    "q": 0.22126781492204223,
-    "mkt": 0.815,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-B61.5": {
-    "q": 0.009339539670319039,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-B59.5": {
-    "q": 0.0809368614543478,
-    "mkt": 0.01,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-B57.5": {
-    "q": 0.2990000794396982,
-    "mkt": 0.015,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHCHI-26NOV05-B55.5": {
-    "q": 0.388922627461617,
-    "mkt": 0.185,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-T85": {
-    "q": 0.12476807834733322,
-    "mkt": 0.055,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-T78": {
-    "q": 0.0029839363162164675,
-    "mkt": 0.005,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-B84.5": {
-    "q": 0.15258103317820806,
-    "mkt": 0.45999999999999996,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-B82.5": {
-    "q": 0.26422176542722203,
-    "mkt": 0.425,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-B80.5": {
-    "q": 0.39867965628943364,
-    "mkt": 0.045,
-    "kind": "high",
-    "close_ts": 1793948400.0
-   },
-   "KXHIGHAUS-26NOV05-B78.5": {
-    "q": 0.05676553044158739,
-    "mkt": 0.015,
     "kind": "high",
     "close_ts": 1793948400.0
    },
@@ -23833,28 +23378,73 @@
   },
   "totals": {
    "all": {
-    "n": 4422,
-    "model": 592.9668165749838,
-    "market": 422.4405749999965
+    "n": 4506,
+    "model": 604.0228484239133,
+    "market": 431.4412249999963
    },
    "low": {
-    "n": 2214,
-    "model": 313.0534006635051,
-    "market": 221.01139999999972
+    "n": 2250,
+    "model": 317.7153030022274,
+    "market": 225.66964999999968
    },
    "high": {
-    "n": 2208,
-    "model": 279.9134159114781,
-    "market": 201.42917499999893
+    "n": 2256,
+    "model": 286.30754542168546,
+    "market": 205.77157499999893
    }
   }
  },
  "last_run": {
-  "ts": 1793970026,
+  "ts": 1793970926,
   "error": null,
   "errors": [],
   "fills": [],
-  "settled": [],
+  "settled": [
+   {
+    "ticker": "KXHIGHCHI-26NOV05-T55",
+    "pnl": 1.36
+   },
+   {
+    "ticker": "KXLOWTCHI-26NOV05-B44.5",
+    "pnl": -0.0324
+   },
+   {
+    "ticker": "KXHIGHTDAL-26NOV05-B79.5",
+    "pnl": 0.61
+   },
+   {
+    "ticker": "KXHIGHAUS-26NOV05-B82.5",
+    "pnl": 0.6
+   },
+   {
+    "ticker": "KXHIGHTHOU-26NOV05-B81.5",
+    "pnl": -0.36
+   },
+   {
+    "ticker": "KXLOWTAUS-26NOV05-T52",
+    "pnl": -0.1
+   },
+   {
+    "ticker": "KXHIGHTMIN-26NOV05-B50.5",
+    "pnl": -0.74
+   },
+   {
+    "ticker": "KXHIGHTSATX-26NOV05-B81.5",
+    "pnl": -0.44
+   },
+   {
+    "ticker": "KXHIGHTNOLA-26NOV05-B78.5",
+    "pnl": -0.42
+   },
+   {
+    "ticker": "KXLOWTCHI-26NOV05-T44",
+    "pnl": 0.39
+   },
+   {
+    "ticker": "KXHIGHTSATX-26NOV05-B79.5",
+    "pnl": -0.1
+   }
+  ],
   "cancelled": [],
   "placed": [],
   "markets": 0,
@@ -23862,7 +23452,7 @@
   "halt": null,
   "candidates": 0,
   "health": {},
-  "seconds": 44.9
+  "seconds": 40.3
  },
  "phase": {
   "name": "Weather v1: maker-only, goal $150",

@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 29.412,
- "fees_paid": 9.72,
+ "cash": 24.642,
+ "fees_paid": 9.74,
  "peak_equity": 109.65,
  "day": "2026-11-06",
  "day_start_equity": 96.302,
- "next_id": 391,
+ "next_id": 392,
  "open_positions": [
   {
    "id": 339,
@@ -97,7 +97,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.92,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -135,7 +135,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -230,7 +230,7 @@
    "opened_ts": 1793902525,
    "close_ts": 1794031200.0,
    "score": 0.5186,
-   "mark_price": 0.09,
+   "mark_price": 0.08,
    "shadow": {
     "10": {
      "ts": 1793921426,
@@ -285,7 +285,7 @@
    "opened_ts": 1793916926,
    "close_ts": 1794034800.0,
    "score": 0.5573,
-   "mark_price": 0.68,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1793977227,
@@ -335,7 +335,7 @@
    "opened_ts": 1793967324,
    "close_ts": 1794042000.0,
    "score": 0.5793,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -352,7 +352,40 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.91,
+   "mark_price": 0.69,
+   "shadow": {
+    "10": {
+     "ts": 1793984424,
+     "bid": 0.69,
+     "proceeds": 3.37
+    },
+    "15": {
+     "ts": 1793984424,
+     "bid": 0.69,
+     "proceeds": 3.37
+    },
+    "20": {
+     "ts": 1793984424,
+     "bid": 0.69,
+     "proceeds": 3.37
+    }
+   }
+  },
+  {
+   "id": 391,
+   "ticker": "KXBRECKOPEN-27-08NOV26",
+   "event_ticker": "KXBRECKOPEN-27",
+   "series": "KXBRECKOPEN",
+   "label": "Will Breckenridge Ski Resort open before Nov 8, 2026? \u2014 Before Nov 8, 2026",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1793984424,
+   "close_ts": 1794113940.0,
+   "score": 0.5218,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -23265,24 +23298,58 @@
    1793983525,
    92.142,
    88.152
+  ],
+  [
+   1793984424,
+   92.142,
+   87.042
   ]
  ],
  "last_run": {
-  "ts": 1793983525,
+  "ts": 1793984424,
   "error": null,
-  "markets_scanned": 72,
-  "candidates": 0,
+  "markets_scanned": 421,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 57,
-   "no favorite in 80-95c band": 11,
-   "spread too wide": 4
+   "too little volume": 240,
+   "no favorite in 80-95c band": 170,
+   "spread too wide": 8
   },
-  "opened": [],
+  "opened": [
+   391
+  ],
   "settled": [],
   "halt": null,
-  "top_candidates": [],
-  "skipped": {},
-  "watch_added": 0,
+  "top_candidates": [
+   {
+    "label": "Will Breckenridge Ski Resort open before Nov 8, 2026? \u2014 Before Nov 8, 2026",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.98,
+    "volume_24h": 4198.26,
+    "score": 0.5218
+   },
+   {
+    "label": "Will it rain in Detroit on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 35.99,
+    "volume_24h": 234.0,
+    "score": 0.5078
+   },
+   {
+    "label": "Will it rain in New York City on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.87,
+    "hours_to_close": 35.99,
+    "volume_24h": 365.36,
+    "score": 0.3623
+   }
+  ],
+  "skipped": {
+   "series cap": 2
+  },
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

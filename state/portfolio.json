@@ -219,7 +219,7 @@
    "opened_ts": 1793880926,
    "close_ts": 1794002400.0,
    "score": 0.5678,
-   "mark_price": 0.79,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1793912426,
@@ -297,7 +297,7 @@
    "opened_ts": 1793884532,
    "close_ts": 1794002400.0,
    "score": 0.3797,
-   "mark_price": 0.8,
+   "mark_price": 0.82,
    "shadow": {
     "10": {
      "ts": 1793950227,
@@ -358,7 +358,7 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.89,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -375,7 +375,7 @@
    "opened_ts": 1793898926,
    "close_ts": 1794027600.0,
    "score": 0.5566,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -23087,16 +23087,21 @@
    1793965525,
    96.302,
    90.862
+  ],
+  [
+   1793966424,
+   96.302,
+   90.852
   ]
  ],
  "last_run": {
-  "ts": 1793965525,
+  "ts": 1793966424,
   "error": null,
-  "markets_scanned": 139,
-  "candidates": 4,
+  "markets_scanned": 123,
+  "candidates": 3,
   "rejections": {
-   "too little volume": 77,
-   "no favorite in 80-95c band": 49,
+   "too little volume": 71,
+   "no favorite in 80-95c band": 40,
    "spread too wide": 9
   },
   "opened": [],
@@ -23107,33 +23112,25 @@
     "label": "Will the maximum temperature be 79-80\u00b0 on Nov 6, 2026? \u2014 79\u00b0 to 80\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 6865.64,
-    "score": 0.6448
+    "score": 0.6456
    },
    {
     "label": "Will the maximum temperature be 59-60\u00b0 on Nov 6, 2026? \u2014 59\u00b0 to 60\u00b0",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 21.24,
-    "volume_24h": 855.78,
-    "score": 0.587
+    "price": 0.93,
+    "hours_to_close": 20.99,
+    "volume_24h": 864.78,
+    "score": 0.5781
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Nov 6, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 21.24,
-    "volume_24h": 1525.33,
-    "score": 0.5259
-   },
-   {
-    "label": "Will the maximum temperature be 60-61\u00b0 on Nov 6, 2026? \u2014 60\u00b0 to 61\u00b0",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 20.24,
-    "volume_24h": 1763.3,
-    "score": 0.4535
+    "price": 0.91,
+    "hours_to_close": 20.99,
+    "volume_24h": 1526.33,
+    "score": 0.4766
    }
   ],
   "skipped": {},

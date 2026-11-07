@@ -5,8 +5,8 @@
  "cash": 9.522,
  "fees_paid": 9.97,
  "peak_equity": 109.65,
- "day": "2026-11-06",
- "day_start_equity": 96.302,
+ "day": "2026-11-07",
+ "day_start_equity": 93.042,
  "next_id": 399,
  "open_positions": [
   {
@@ -327,7 +327,7 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -395,7 +395,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -412,7 +412,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794088800.0,
    "score": 0.6629,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -429,7 +429,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -23569,18 +23569,22 @@
    1794007824,
    93.042,
    87.222
+  ],
+  [
+   1794009624,
+   93.042,
+   87.482
   ]
  ],
  "last_run": {
-  "ts": 1794007824,
+  "ts": 1794009624,
   "error": null,
   "markets_scanned": 1574,
-  "candidates": 33,
+  "candidates": 28,
   "rejections": {
-   "too little volume": 1297,
-   "no favorite in 80-95c band": 226,
-   "spread too wide": 17,
-   "nothing for sale at the ask": 1
+   "too little volume": 1292,
+   "no favorite in 80-95c band": 229,
+   "spread too wide": 25
   },
   "opened": [],
   "settled": [],
@@ -23589,71 +23593,71 @@
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $74,750 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 22.49,
+    "price": 0.95,
+    "hours_to_close": 21.99,
     "volume_24h": 10510.56,
-    "score": 0.6637
+    "score": 0.675
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
-    "price": 0.92,
-    "hours_to_close": 22.49,
-    "volume_24h": 6470.8,
-    "score": 0.6295
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 6477.88,
+    "score": 0.6609
+   },
+   {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 21.99,
+    "volume_24h": 11707.64,
+    "score": 0.625
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 22.49,
+    "price": 0.92,
+    "hours_to_close": 21.99,
     "volume_24h": 3608.77,
-    "score": 0.6005
+    "score": 0.6118
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.9,
-    "hours_to_close": 22.49,
-    "volume_24h": 3550.31,
-    "score": 0.59
+    "hours_to_close": 21.99,
+    "volume_24h": 3702.57,
+    "score": 0.5927
    },
    {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
+    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
-    "price": 0.86,
-    "hours_to_close": 22.49,
-    "volume_24h": 10436.09,
-    "score": 0.5837
-   },
-   {
-    "label": "Will Uber Eats App Downloads for October 2026 be above 110 ? \u2014 Above 110",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 29.48,
-    "volume_24h": 5009.05,
-    "score": 0.5767
+    "price": 0.91,
+    "hours_to_close": 32.99,
+    "volume_24h": 3619.48,
+    "score": 0.5808
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.86,
-    "hours_to_close": 22.49,
-    "volume_24h": 4756.68,
-    "score": 0.5595
+    "price": 0.87,
+    "hours_to_close": 21.99,
+    "volume_24h": 4842.68,
+    "score": 0.5714
    },
    {
-    "label": "Will it rain in New York City on Nov 7, 2026?",
+    "label": "Will the maximum temperature be 89-90\u00b0 on Nov 7, 2026? \u2014 89\u00b0 to 90\u00b0",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 29.49,
-    "volume_24h": 1572.33,
-    "score": 0.5589
+    "price": 0.94,
+    "hours_to_close": 29.99,
+    "volume_24h": 585.62,
+    "score": 0.556
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 18,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

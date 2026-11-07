@@ -294,7 +294,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.96,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -417,7 +417,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -468,7 +468,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.91,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -23686,17 +23686,22 @@
    1794025825,
    93.042,
    86.482
+  ],
+  [
+   1794026724,
+   93.042,
+   86.202
   ]
  ],
  "last_run": {
-  "ts": 1794025825,
+  "ts": 1794026724,
   "error": null,
   "markets_scanned": 1784,
-  "candidates": 39,
+  "candidates": 38,
   "rejections": {
-   "too little volume": 1422,
-   "no favorite in 80-95c band": 295,
-   "spread too wide": 27,
+   "too little volume": 1415,
+   "no favorite in 80-95c band": 300,
+   "spread too wide": 30,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -23704,72 +23709,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 17.49,
-    "volume_24h": 7521.02,
-    "score": 0.6801
-   },
-   {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
     "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 17.49,
-    "volume_24h": 7738.09,
-    "score": 0.651
-   },
-   {
-    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
-    "side": "no",
     "price": 0.93,
-    "hours_to_close": 17.49,
-    "volume_24h": 4377.28,
-    "score": 0.6425
+    "hours_to_close": 17.24,
+    "volume_24h": 7746.73,
+    "score": 0.662
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 17.49,
-    "volume_24h": 23815.1,
-    "score": 0.6394
+    "hours_to_close": 17.24,
+    "volume_24h": 23945.67,
+    "score": 0.6403
+   },
+   {
+    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 26.24,
+    "volume_24h": 3361.82,
+    "score": 0.6296
+   },
+   {
+    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 17.24,
+    "volume_24h": 7521.02,
+    "score": 0.6211
+   },
+   {
+    "label": "Will it rain in Dallas on Nov 7, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 25.24,
+    "volume_24h": 2282.48,
+    "score": 0.6191
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.49,
+    "hours_to_close": 28.24,
     "volume_24h": 2050.62,
-    "score": 0.6093
+    "score": 0.6097
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 26.49,
+    "price": 0.94,
+    "hours_to_close": 26.24,
     "volume_24h": 2443.29,
-    "score": 0.5987
+    "score": 0.6092
    },
    {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.49,
-    "volume_24h": 3245.94,
-    "score": 0.598
-   },
-   {
-    "label": "Will the maximum temperature be 64-65\u00b0 on Nov 7, 2026? \u2014 64\u00b0 to 65\u00b0",
+    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 25.49,
-    "volume_24h": 1118.22,
-    "score": 0.5853
+    "hours_to_close": 17.24,
+    "volume_24h": 4377.28,
+    "score": 0.6034
    }
   ],
   "skipped": {},
-  "watch_added": 0,
+  "watch_added": 4,
   "watch_graded": 0,
   "api_calls": 43
  },

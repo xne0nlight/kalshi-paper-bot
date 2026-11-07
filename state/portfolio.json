@@ -154,44 +154,6 @@
    "shadow": {}
   },
   {
-   "id": 387,
-   "ticker": "KXHIGHAUS-26NOV06-B73.5",
-   "event_ticker": "KXHIGHAUS-26NOV06",
-   "series": "KXHIGHAUS",
-   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 6, 2026? \u2014 73\u00b0 to 74\u00b0",
-   "side": "no",
-   "contracts": 3,
-   "price": 0.95,
-   "fee": 0.01,
-   "cost": 2.86,
-   "opened_ts": 1793916926,
-   "close_ts": 1794034800.0,
-   "score": 0.5573,
-   "mark_price": 0.01,
-   "shadow": {
-    "10": {
-     "ts": 1793977227,
-     "bid": 0.82,
-     "proceeds": 2.42
-    },
-    "15": {
-     "ts": 1793978126,
-     "bid": 0.72,
-     "proceeds": 2.11
-    },
-    "20": {
-     "ts": 1793978126,
-     "bid": 0.72,
-     "proceeds": 2.11
-    },
-    "30": {
-     "ts": 1793985324,
-     "bid": 0.63,
-     "proceeds": 1.84
-    }
-   }
-  },
-  {
    "id": 388,
    "ticker": "KXHIGHLAX-26NOV06-B79.5",
    "event_ticker": "KXHIGHLAX-26NOV06",
@@ -289,7 +251,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -322,7 +284,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.75,
+   "mark_price": 0.76,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -345,7 +307,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -396,7 +358,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -413,7 +375,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -10375,6 +10337,48 @@
    "pnl": -3.71,
    "result": "YES",
    "closed_ts": 1794053725,
+   "won": false
+  },
+  {
+   "id": 387,
+   "ticker": "KXHIGHAUS-26NOV06-B73.5",
+   "event_ticker": "KXHIGHAUS-26NOV06",
+   "series": "KXHIGHAUS",
+   "label": "Will the maximum temperature be 73-74\u00b0 on Nov 6, 2026? \u2014 73\u00b0 to 74\u00b0",
+   "side": "no",
+   "contracts": 3,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 2.86,
+   "opened_ts": 1793916926,
+   "close_ts": 1794034800.0,
+   "score": 0.5573,
+   "shadow": {
+    "10": {
+     "ts": 1793977227,
+     "bid": 0.82,
+     "proceeds": 2.42
+    },
+    "15": {
+     "ts": 1793978126,
+     "bid": 0.72,
+     "proceeds": 2.11
+    },
+    "20": {
+     "ts": 1793978126,
+     "bid": 0.72,
+     "proceeds": 2.11
+    },
+    "30": {
+     "ts": 1793985324,
+     "bid": 0.63,
+     "proceeds": 1.84
+    }
+   },
+   "payout": 0.0,
+   "pnl": -2.86,
+   "result": "YES",
+   "closed_ts": 1794057325,
    "won": false
   }
  ],
@@ -23898,43 +23902,52 @@
    1794056425,
    89.662,
    86.512
+  ],
+  [
+   1794057325,
+   86.802,
+   86.562
   ]
  ],
  "last_run": {
-  "ts": 1794056425,
+  "ts": 1794057325,
   "error": null,
   "markets_scanned": 315,
   "candidates": 2,
   "rejections": {
-   "too little volume": 237,
+   "too little volume": 238,
    "no favorite in 80-95c band": 69,
-   "spread too wide": 6,
+   "spread too wide": 5,
    "nothing for sale at the ask": 1
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   387
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Nina Milosevic wins",
-    "side": "yes",
-    "price": 0.83,
-    "hours_to_close": 33.99,
-    "volume_24h": 4555.84,
-    "score": 0.5069
-   },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 33.99,
-    "volume_24h": 4518.81,
-    "score": 0.5066
+    "hours_to_close": 33.74,
+    "volume_24h": 4577.31,
+    "score": 0.5074
+   },
+   {
+    "label": "Nina Milosevic wins",
+    "side": "yes",
+    "price": 0.83,
+    "hours_to_close": 33.74,
+    "volume_24h": 4555.84,
+    "score": 0.5072
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "tracked only (below bet price floor)": 2
+  },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 19,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

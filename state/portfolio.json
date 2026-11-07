@@ -217,7 +217,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.96,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -347,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.91,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -24077,19 +24077,23 @@
    1794076224,
    87.192,
    89.402
+  ],
+  [
+   1794077124,
+   87.192,
+   89.342
   ]
  ],
  "last_run": {
-  "ts": 1794076224,
+  "ts": 1794077124,
   "error": null,
   "markets_scanned": 934,
   "candidates": 18,
   "rejections": {
    "too little volume": 736,
-   "no favorite in 80-95c band": 159,
-   "spread too wide": 18,
-   "nothing for sale at the ask": 2,
-   "favorite is slipping fast": 1
+   "no favorite in 80-95c band": 162,
+   "spread too wide": 17,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -24099,65 +24103,65 @@
     "label": "Will average **gas prices** be above $4.0150? \u2014 Above 4.0150",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.48,
-    "volume_24h": 14151.13,
-    "score": 0.6519
+    "hours_to_close": 34.23,
+    "volume_24h": 14159.57,
+    "score": 0.6522
    },
    {
     "label": "Will it rain in Austin between Nov 7 and Nov 8, 2026?",
     "side": "yes",
     "price": 0.95,
-    "hours_to_close": 35.49,
-    "volume_24h": 751.59,
-    "score": 0.5664
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Nov 8, 2026?",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 34.49,
-    "volume_24h": 478.77,
-    "score": 0.5529
+    "hours_to_close": 35.24,
+    "volume_24h": 771.78,
+    "score": 0.5675
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.49,
+    "hours_to_close": 24.24,
     "volume_24h": 233.2,
-    "score": 0.5466
-   },
-   {
-    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
-    "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 34.48,
-    "volume_24h": 22798.43,
-    "score": 0.5419
+    "score": 0.5472
    },
    {
     "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.49,
-    "volume_24h": 2289.23,
-    "score": 0.5239
+    "hours_to_close": 34.24,
+    "volume_24h": 2296.05,
+    "score": 0.5243
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 35.49,
-    "volume_24h": 233.74,
-    "score": 0.5184
+    "hours_to_close": 35.24,
+    "volume_24h": 239.74,
+    "score": 0.5195
    },
    {
     "label": "Will it rain in Dallas on Nov 8, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.49,
+    "hours_to_close": 35.24,
     "volume_24h": 892.12,
-    "score": 0.5119
+    "score": 0.5122
+   },
+   {
+    "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
+    "side": "yes",
+    "price": 0.91,
+    "hours_to_close": 34.23,
+    "volume_24h": 6082.89,
+    "score": 0.496
+   },
+   {
+    "label": "Will it rain in Newark between Nov 7 and Nov 8, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 34.24,
+    "volume_24h": 880.26,
+    "score": 0.4931
    }
   ],
   "skipped": {},

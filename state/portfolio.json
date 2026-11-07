@@ -2,89 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 13.102,
- "fees_paid": 10.12,
+ "cash": 10.562,
+ "fees_paid": 10.16,
  "peak_equity": 109.65,
  "day": "2026-11-07",
  "day_start_equity": 93.042,
- "next_id": 407,
+ "next_id": 409,
  "open_positions": [
-  {
-   "id": 378,
-   "ticker": "KXGOLDW-26NOV0617-T4027.99",
-   "event_ticker": "KXGOLDW-26NOV0617",
-   "series": "KXGOLDW",
-   "label": "Will the gold close price be above 4027.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $4027.99",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793880926,
-   "close_ts": 1794002400.0,
-   "score": 0.5678,
-   "mark_price": 0.99,
-   "shadow": {
-    "10": {
-     "ts": 1793912426,
-     "bid": 0.85,
-     "proceeds": 5.04
-    },
-    "15": {
-     "ts": 1793928627,
-     "bid": 0.69,
-     "proceeds": 4.05
-    },
-    "20": {
-     "ts": 1793928627,
-     "bid": 0.69,
-     "proceeds": 4.05
-    },
-    "30": {
-     "ts": 1793935824,
-     "bid": 0.63,
-     "proceeds": 3.68
-    }
-   }
-  },
-  {
-   "id": 382,
-   "ticker": "KXERCOTWESTW-30OCT26-T50",
-   "event_ticker": "KXERCOTWESTW-30OCT26",
-   "series": "KXERCOTWESTW",
-   "label": "ERCOT West Hub average power price above $50/MWh, Week 45? \u2014 Above $50/MWh",
-   "side": "no",
-   "contracts": 1,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 0.94,
-   "opened_ts": 1793888126,
-   "close_ts": 1794002340.0,
-   "score": 0.4931,
-   "mark_price": 0.94,
-   "shadow": {
-    "10": {
-     "ts": 1793929525,
-     "bid": 0.74,
-     "proceeds": 0.72
-    },
-    "15": {
-     "ts": 1793929525,
-     "bid": 0.74,
-     "proceeds": 0.72
-    },
-    "20": {
-     "ts": 1793934925,
-     "bid": 0.62,
-     "proceeds": 0.6
-    },
-    "30": {
-     "ts": 1793934925,
-     "bid": 0.62,
-     "proceeds": 0.6
-    }
-   }
-  },
   {
    "id": 383,
    "ticker": "KXWTIW-26NOV0614-B93.50",
@@ -239,7 +163,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -273,7 +197,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.98,
+   "mark_price": 0.94,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -296,7 +220,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.67,
+   "mark_price": 0.7,
    "shadow": {
     "10": {
      "ts": 1794081626,
@@ -397,7 +321,7 @@
    "opened_ts": 1794070826,
    "close_ts": 1794200400.0,
    "score": 0.5696,
-   "mark_price": 0.87,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -448,7 +372,41 @@
    "opened_ts": 1794081626,
    "close_ts": 1794200400.0,
    "score": 0.5532,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 407,
+   "ticker": "KXHIGHMIA-26NOV08-B83.5",
+   "event_ticker": "KXHIGHMIA-26NOV08",
+   "series": "KXHIGHMIA",
+   "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1794083425,
+   "close_ts": 1794204000.0,
+   "score": 0.54,
+   "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 408,
+   "ticker": "KXSPORTSBOOKADS-26NOV06-T155",
+   "event_ticker": "KXSPORTSBOOKADS-26NOV06",
+   "series": "KXSPORTSBOOKADS",
+   "label": "Will Online Sportsbook Ad Spend for October 2026 be above 155? \u2014 Above 155",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1794083425,
+   "close_ts": 1794200340.0,
+   "score": 0.5275,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -10523,6 +10481,90 @@
    "pnl": 0.61,
    "result": "YES",
    "closed_ts": 1794081626,
+   "won": true
+  },
+  {
+   "id": 378,
+   "ticker": "KXGOLDW-26NOV0617-T4027.99",
+   "event_ticker": "KXGOLDW-26NOV0617",
+   "series": "KXGOLDW",
+   "label": "Will the gold close price be above 4027.99 USD/t.oz on November 06, 2026 at 5:00 PM EST? \u2014 Above $4027.99",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793880926,
+   "close_ts": 1794002400.0,
+   "score": 0.5678,
+   "shadow": {
+    "10": {
+     "ts": 1793912426,
+     "bid": 0.85,
+     "proceeds": 5.04
+    },
+    "15": {
+     "ts": 1793928627,
+     "bid": 0.69,
+     "proceeds": 4.05
+    },
+    "20": {
+     "ts": 1793928627,
+     "bid": 0.69,
+     "proceeds": 4.05
+    },
+    "30": {
+     "ts": 1793935824,
+     "bid": 0.63,
+     "proceeds": 3.68
+    }
+   },
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1794083425,
+   "won": true
+  },
+  {
+   "id": 382,
+   "ticker": "KXERCOTWESTW-30OCT26-T50",
+   "event_ticker": "KXERCOTWESTW-30OCT26",
+   "series": "KXERCOTWESTW",
+   "label": "ERCOT West Hub average power price above $50/MWh, Week 45? \u2014 Above $50/MWh",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 0.94,
+   "opened_ts": 1793888126,
+   "close_ts": 1794002340.0,
+   "score": 0.4931,
+   "shadow": {
+    "10": {
+     "ts": 1793929525,
+     "bid": 0.74,
+     "proceeds": 0.72
+    },
+    "15": {
+     "ts": 1793929525,
+     "bid": 0.74,
+     "proceeds": 0.72
+    },
+    "20": {
+     "ts": 1793934925,
+     "bid": 0.62,
+     "proceeds": 0.6
+    },
+    "30": {
+     "ts": 1793934925,
+     "bid": 0.62,
+     "proceeds": 0.6
+    }
+   },
+   "payout": 1.0,
+   "pnl": 0.06,
+   "result": "NO",
+   "closed_ts": 1794083425,
    "won": true
   }
  ],
@@ -24191,91 +24233,104 @@
    1794082524,
    88.472,
    91.012
+  ],
+  [
+   1794083425,
+   88.812,
+   90.882
   ]
  ],
  "last_run": {
-  "ts": 1794082524,
+  "ts": 1794083425,
   "error": null,
   "markets_scanned": 1038,
-  "candidates": 20,
+  "candidates": 21,
   "rejections": {
-   "too little volume": 833,
-   "no favorite in 80-95c band": 169,
-   "spread too wide": 15,
+   "too little volume": 831,
+   "no favorite in 80-95c band": 171,
+   "spread too wide": 14,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   407,
+   408
+  ],
+  "settled": [
+   378,
+   382
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 6559.17,
-    "score": 0.6105
+    "score": 0.6108
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 125? \u2014 Above 125",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 1272.0,
-    "score": 0.5871
-   },
-   {
-    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 32.73,
-    "volume_24h": 34149.13,
-    "score": 0.5842
+    "score": 0.5874
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 130? \u2014 Above 130",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.73,
+    "hours_to_close": 32.48,
     "volume_24h": 706.0,
-    "score": 0.5679
+    "score": 0.5683
+   },
+   {
+    "label": "Will it rain in New York City on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 32.49,
+    "volume_24h": 850.37,
+    "score": 0.5643
+   },
+   {
+    "label": "Will it rain in West Palm Beach on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.49,
+    "volume_24h": 1230.18,
+    "score": 0.5563
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.74,
+    "hours_to_close": 22.49,
     "volume_24h": 233.2,
-    "score": 0.5508
+    "score": 0.5514
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 308.53,
-    "score": 0.5396
+    "score": 0.54
    },
    {
     "label": "Will it rain in Pittsburgh between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 32.74,
+    "hours_to_close": 32.49,
     "volume_24h": 1250.76,
-    "score": 0.5365
-   },
-   {
-    "label": "Priscila Cachoeira wins",
-    "side": "no",
-    "price": 0.82,
-    "hours_to_close": 26.74,
-    "volume_24h": 165137.65,
-    "score": 0.5341
+    "score": 0.5369
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "tracked only (below bet price floor)": 1
+  },
   "watch_added": 0,
-  "watch_graded": 3,
+  "watch_graded": 27,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

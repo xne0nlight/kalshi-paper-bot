@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.82,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -372,7 +372,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.79,
+   "mark_price": 0.83,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -412,7 +412,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.92,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -429,7 +429,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794088800.0,
    "score": 0.6629,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -23636,90 +23636,95 @@
    1794017725,
    93.042,
    86.882
+  ],
+  [
+   1794018625,
+   93.042,
+   86.932
   ]
  ],
  "last_run": {
-  "ts": 1794017725,
+  "ts": 1794018625,
   "error": null,
-  "markets_scanned": 1595,
-  "candidates": 37,
+  "markets_scanned": 1598,
+  "candidates": 39,
   "rejections": {
-   "too little volume": 1273,
-   "no favorite in 80-95c band": 267,
-   "spread too wide": 18
+   "too little volume": 1270,
+   "no favorite in 80-95c band": 272,
+   "spread too wide": 17
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 19.49,
+    "volume_24h": 18038.06,
+    "score": 0.6824
+   },
+   {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 5695.97,
-    "score": 0.6632
+    "price": 0.94,
+    "hours_to_close": 19.49,
+    "volume_24h": 6073.97,
+    "score": 0.6561
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 19.74,
-    "volume_24h": 5388.42,
-    "score": 0.6614
+    "price": 0.94,
+    "hours_to_close": 19.49,
+    "volume_24h": 5418.42,
+    "score": 0.6524
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.74,
-    "volume_24h": 9578.72,
-    "score": 0.6302
+    "hours_to_close": 19.49,
+    "volume_24h": 10125.61,
+    "score": 0.6324
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 28.49,
+    "volume_24h": 2377.29,
+    "score": 0.6041
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.74,
-    "volume_24h": 3713.6,
-    "score": 0.6093
+    "price": 0.9,
+    "hours_to_close": 19.49,
+    "volume_24h": 3754.4,
+    "score": 0.6005
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.74,
+    "hours_to_close": 30.49,
     "volume_24h": 1889.63,
-    "score": 0.5929
+    "score": 0.5933
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,250 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 19.74,
-    "volume_24h": 3543.59,
-    "score": 0.5878
-   },
-   {
-    "label": "Will it rain in Providence on Nov 7, 2026?",
-    "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 26.74,
-    "volume_24h": 622.36,
-    "score": 0.5737
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 7, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 15.73,
-    "volume_24h": 2610.93,
-    "score": 0.5729
+    "hours_to_close": 19.49,
+    "volume_24h": 3552.59,
+    "score": 0.5887
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 1,
+  "watch_graded": 2,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

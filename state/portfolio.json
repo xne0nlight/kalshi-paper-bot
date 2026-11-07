@@ -201,7 +201,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -251,7 +251,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -284,7 +284,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.81,
+   "mark_price": 0.84,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -324,7 +324,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.85,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -358,8 +358,14 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.82,
-   "shadow": {}
+   "mark_price": 0.81,
+   "shadow": {
+    "10": {
+     "ts": 1794060025,
+     "bid": 0.81,
+     "proceeds": 4.79
+    }
+   }
   },
   {
    "id": 398,
@@ -375,7 +381,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.95,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -23934,17 +23940,22 @@
    1794059125,
    86.802,
    86.892
+  ],
+  [
+   1794060025,
+   86.802,
+   86.952
   ]
  ],
  "last_run": {
-  "ts": 1794059125,
+  "ts": 1794060025,
   "error": null,
-  "markets_scanned": 315,
+  "markets_scanned": 309,
   "candidates": 3,
   "rejections": {
-   "too little volume": 239,
-   "no favorite in 80-95c band": 66,
-   "spread too wide": 6,
+   "too little volume": 241,
+   "no favorite in 80-95c band": 60,
+   "spread too wide": 4,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -23955,25 +23966,25 @@
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 29.24,
-    "volume_24h": 342.38,
-    "score": 0.5498
+    "hours_to_close": 28.99,
+    "volume_24h": 345.38,
+    "score": 0.5505
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 33.24,
-    "volume_24h": 4692.88,
-    "score": 0.5089
+    "hours_to_close": 32.99,
+    "volume_24h": 4677.88,
+    "score": 0.5091
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 33.24,
-    "volume_24h": 4604.65,
-    "score": 0.5083
+    "hours_to_close": 32.99,
+    "volume_24h": 4605.84,
+    "score": 0.5086
    }
   ],
   "skipped": {},

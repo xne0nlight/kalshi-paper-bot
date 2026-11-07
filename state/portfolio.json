@@ -90,7 +90,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -180,7 +180,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794088800.0,
    "score": 0.6629,
-   "mark_price": 0.98,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -197,7 +197,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.97,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -220,7 +220,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.89,
+   "mark_price": 0.88,
    "shadow": {
     "10": {
      "ts": 1794081626,
@@ -270,7 +270,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -321,7 +321,7 @@
    "opened_ts": 1794070826,
    "close_ts": 1794200400.0,
    "score": 0.5696,
-   "mark_price": 0.88,
+   "mark_price": 0.9,
    "shadow": {}
   },
   {
@@ -24243,90 +24243,95 @@
    1794084328,
    88.812,
    91.362
+  ],
+  [
+   1794085225,
+   88.812,
+   91.402
   ]
  ],
  "last_run": {
-  "ts": 1794084328,
+  "ts": 1794085225,
   "error": null,
-  "markets_scanned": 1038,
-  "candidates": 24,
+  "markets_scanned": 1858,
+  "candidates": 25,
   "rejections": {
-   "too little volume": 828,
-   "no favorite in 80-95c band": 170,
-   "spread too wide": 14,
-   "nothing for sale at the ask": 2
+   "too little volume": 1634,
+   "no favorite in 80-95c band": 183,
+   "spread too wide": 15,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
-    "side": "yes",
-    "price": 0.92,
-    "hours_to_close": 32.23,
-    "volume_24h": 34228.36,
-    "score": 0.6249
-   },
-   {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.23,
-    "volume_24h": 6559.17,
-    "score": 0.6112
+    "hours_to_close": 31.98,
+    "volume_24h": 6553.02,
+    "score": 0.6115
+   },
+   {
+    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
+    "side": "yes",
+    "price": 0.94,
+    "hours_to_close": 31.98,
+    "volume_24h": 38355.55,
+    "score": 0.5953
    },
    {
     "label": "Will it rain in Pittsburgh between Nov 7 and Nov 8, 2026?",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.24,
-    "volume_24h": 1253.76,
-    "score": 0.5773
+    "price": 0.95,
+    "hours_to_close": 31.99,
+    "volume_24h": 1326.45,
+    "score": 0.5895
+   },
+   {
+    "label": "Will it rain in West Palm Beach on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 31.99,
+    "volume_24h": 1230.18,
+    "score": 0.567
    },
    {
     "label": "Will it rain in New York City on Nov 8, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 32.24,
-    "volume_24h": 850.37,
-    "score": 0.5647
-   },
-   {
-    "label": "Will it rain in West Palm Beach on Nov 8, 2026?",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 32.24,
-    "volume_24h": 1230.18,
-    "score": 0.5567
+    "hours_to_close": 31.99,
+    "volume_24h": 852.48,
+    "score": 0.5651
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
+    "hours_to_close": 21.99,
     "volume_24h": 233.2,
-    "score": 0.5521
+    "score": 0.5527
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 339.53,
-    "score": 0.5434
+    "score": 0.5438
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.82,
-    "hours_to_close": 26.24,
-    "volume_24h": 165137.98,
-    "score": 0.5351
+    "hours_to_close": 25.99,
+    "volume_24h": 165198.19,
+    "score": 0.5356
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 3,
   "watch_graded": 0,
   "api_calls": 42
  },

@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 11.782,
- "fees_paid": 10.09,
+ "cash": 13.102,
+ "fees_paid": 10.12,
  "peak_equity": 109.65,
  "day": "2026-11-07",
  "day_start_equity": 93.042,
- "next_id": 406,
+ "next_id": 407,
  "open_positions": [
-  {
-   "id": 340,
-   "ticker": "KXBABELMANDEBWEEKLY-26NOV01-T185",
-   "event_ticker": "KXBABELMANDEBWEEKLY-26NOV01",
-   "series": "KXBABELMANDEBWEEKLY",
-   "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.89,
-   "fee": 0.05,
-   "cost": 5.39,
-   "opened_ts": 1793621725,
-   "close_ts": 1793714400.0,
-   "score": 0.5908,
-   "mark_price": 0.85,
-   "shadow": {}
-  },
   {
    "id": 378,
    "ticker": "KXGOLDW-26NOV0617-T4027.99",
@@ -256,7 +239,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.96,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -290,7 +273,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -313,8 +296,19 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.84,
-   "shadow": {}
+   "mark_price": 0.75,
+   "shadow": {
+    "10": {
+     "ts": 1794081626,
+     "bid": 0.75,
+     "proceeds": 1.47
+    },
+    "15": {
+     "ts": 1794081626,
+     "bid": 0.75,
+     "proceeds": 1.47
+    }
+   }
   },
   {
    "id": 399,
@@ -415,7 +409,7 @@
    "opened_ts": 1794080725,
    "close_ts": 1794200340.0,
    "score": 0.5997,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -433,6 +427,23 @@
    "close_ts": 1794200340.0,
    "score": 0.562,
    "mark_price": 0.94,
+   "shadow": {}
+  },
+  {
+   "id": 406,
+   "ticker": "KXRAIN-26NOV08-NYC",
+   "event_ticker": "KXRAIN-26NOV08",
+   "series": "KXRAIN",
+   "label": "Will it rain in New York City on Nov 8, 2026?",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 4.68,
+   "opened_ts": 1794081626,
+   "close_ts": 1794200400.0,
+   "score": 0.5532,
+   "mark_price": 0.92,
    "shadow": {}
   }
  ],
@@ -10486,6 +10497,27 @@
    "pnl": 0.28,
    "result": "YES",
    "closed_ts": 1794080725,
+   "won": true
+  },
+  {
+   "id": 340,
+   "ticker": "KXBABELMANDEBWEEKLY-26NOV01-T185",
+   "event_ticker": "KXBABELMANDEBWEEKLY-26NOV01",
+   "series": "KXBABELMANDEBWEEKLY",
+   "label": "Will there be more than 185 transit calls through the Bab el-Mandeb Strait from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 185",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.89,
+   "fee": 0.05,
+   "cost": 5.39,
+   "opened_ts": 1793621725,
+   "close_ts": 1793714400.0,
+   "score": 0.5908,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.61,
+   "result": "YES",
+   "closed_ts": 1794081626,
    "won": true
   }
  ],
@@ -24144,98 +24176,101 @@
    1794080725,
    87.862,
    90.112
+  ],
+  [
+   1794081626,
+   88.472,
+   90.882
   ]
  ],
  "last_run": {
-  "ts": 1794080725,
+  "ts": 1794081626,
   "error": null,
-  "markets_scanned": 1018,
-  "candidates": 20,
+  "markets_scanned": 1040,
+  "candidates": 22,
   "rejections": {
-   "too little volume": 820,
-   "no favorite in 80-95c band": 165,
-   "spread too wide": 12,
+   "too little volume": 835,
+   "no favorite in 80-95c band": 167,
+   "spread too wide": 15,
    "nothing for sale at the ask": 1
   },
   "opened": [
-   404,
-   405
+   406
   ],
   "settled": [
-   339,
-   341
+   340
   ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 33.23,
+    "price": 0.92,
+    "hours_to_close": 32.98,
     "volume_24h": 6536.47,
-    "score": 0.5997
+    "score": 0.61
    },
    {
     "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
     "side": "yes",
     "price": 0.88,
-    "hours_to_close": 33.23,
-    "volume_24h": 33931.62,
-    "score": 0.5835
+    "hours_to_close": 32.98,
+    "volume_24h": 34004.12,
+    "score": 0.5839
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 125? \u2014 Above 125",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.23,
+    "hours_to_close": 32.98,
     "volume_24h": 600.0,
-    "score": 0.562
+    "score": 0.5623
    },
    {
     "label": "Will it rain in Detroit between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 662.44,
-    "score": 0.5551
+    "score": 0.5555
    },
    {
     "label": "Will it rain in New York City on Nov 8, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.24,
+    "hours_to_close": 32.99,
     "volume_24h": 838.37,
-    "score": 0.5528
+    "score": 0.5532
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.24,
+    "hours_to_close": 22.99,
     "volume_24h": 233.2,
-    "score": 0.5495
+    "score": 0.5502
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 130? \u2014 Above 130",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 33.23,
+    "price": 0.95,
+    "hours_to_close": 32.98,
     "volume_24h": 371.0,
-    "score": 0.5363
+    "score": 0.5467
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.24,
-    "volume_24h": 280.9,
-    "score": 0.5359
+    "hours_to_close": 33.99,
+    "volume_24h": 285.9,
+    "score": 0.5368
    }
   ],
   "skipped": {},
-  "watch_added": 3,
-  "watch_graded": 10,
-  "api_calls": 43
+  "watch_added": 2,
+  "watch_graded": 7,
+  "api_calls": 42
  },
  "shadow_since": 1791904549,
  "phase": {

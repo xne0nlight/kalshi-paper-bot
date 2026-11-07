@@ -2,7 +2,7 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 8.862,
+ "cash": 14.862,
  "fees_paid": 10.01,
  "peak_equity": 109.65,
  "day": "2026-11-07",
@@ -154,40 +154,6 @@
    "shadow": {}
   },
   {
-   "id": 388,
-   "ticker": "KXHIGHLAX-26NOV06-B79.5",
-   "event_ticker": "KXHIGHLAX-26NOV06",
-   "series": "KXHIGHLAX",
-   "label": "Will the maximum temperature be 79-80\u00b0 on Nov 6, 2026? \u2014 79\u00b0 to 80\u00b0",
-   "side": "no",
-   "contracts": 2,
-   "price": 0.93,
-   "fee": 0.01,
-   "cost": 1.87,
-   "opened_ts": 1793917827,
-   "close_ts": 1794042000.0,
-   "score": 0.5457,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 389,
-   "ticker": "KXHIGHTSEA-26NOV06-B59.5",
-   "event_ticker": "KXHIGHTSEA-26NOV06",
-   "series": "KXHIGHTSEA",
-   "label": "Will the maximum temperature be 59-60\u00b0 on Nov 6, 2026? \u2014 59\u00b0 to 60\u00b0",
-   "side": "no",
-   "contracts": 4,
-   "price": 0.93,
-   "fee": 0.02,
-   "cost": 3.74,
-   "opened_ts": 1793967324,
-   "close_ts": 1794042000.0,
-   "score": 0.5793,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
    "id": 390,
    "ticker": "KXTRUMPAPPROVE-26NOV07-E39.2",
    "event_ticker": "KXTRUMPAPPROVE-26NOV07",
@@ -201,7 +167,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -284,7 +250,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -324,7 +290,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.86,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -381,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.94,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -10403,6 +10369,48 @@
    "result": "YES",
    "closed_ts": 1794057325,
    "won": false
+  },
+  {
+   "id": 388,
+   "ticker": "KXHIGHLAX-26NOV06-B79.5",
+   "event_ticker": "KXHIGHLAX-26NOV06",
+   "series": "KXHIGHLAX",
+   "label": "Will the maximum temperature be 79-80\u00b0 on Nov 6, 2026? \u2014 79\u00b0 to 80\u00b0",
+   "side": "no",
+   "contracts": 2,
+   "price": 0.93,
+   "fee": 0.01,
+   "cost": 1.87,
+   "opened_ts": 1793917827,
+   "close_ts": 1794042000.0,
+   "score": 0.5457,
+   "shadow": {},
+   "payout": 2.0,
+   "pnl": 0.13,
+   "result": "NO",
+   "closed_ts": 1794064525,
+   "won": true
+  },
+  {
+   "id": 389,
+   "ticker": "KXHIGHTSEA-26NOV06-B59.5",
+   "event_ticker": "KXHIGHTSEA-26NOV06",
+   "series": "KXHIGHTSEA",
+   "label": "Will the maximum temperature be 59-60\u00b0 on Nov 6, 2026? \u2014 59\u00b0 to 60\u00b0",
+   "side": "no",
+   "contracts": 4,
+   "price": 0.93,
+   "fee": 0.02,
+   "cost": 3.74,
+   "opened_ts": 1793967324,
+   "close_ts": 1794042000.0,
+   "score": 0.5793,
+   "shadow": {},
+   "payout": 4.0,
+   "pnl": 0.26,
+   "result": "NO",
+   "closed_ts": 1794064525,
+   "won": true
   }
  ],
  "equity_history": [
@@ -23965,51 +23973,61 @@
    1794063624,
    86.802,
    87.942
+  ],
+  [
+   1794064525,
+   87.192,
+   88.162
   ]
  ],
  "last_run": {
-  "ts": 1794063624,
+  "ts": 1794064525,
   "error": null,
-  "markets_scanned": 285,
+  "markets_scanned": 294,
   "candidates": 3,
   "rejections": {
-   "too little volume": 219,
-   "no favorite in 80-95c band": 58,
+   "too little volume": 227,
+   "no favorite in 80-95c band": 59,
    "spread too wide": 4,
    "nothing for sale at the ask": 1
   },
   "opened": [],
-  "settled": [],
+  "settled": [
+   388,
+   389
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 27.99,
+    "hours_to_close": 27.74,
     "volume_24h": 345.38,
-    "score": 0.5522
+    "score": 0.5527
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 31.99,
-    "volume_24h": 5003.26,
-    "score": 0.5127
+    "hours_to_close": 31.74,
+    "volume_24h": 5082.05,
+    "score": 0.5136
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 31.99,
-    "volume_24h": 4724.24,
-    "score": 0.5109
+    "hours_to_close": 31.74,
+    "volume_24h": 4712.38,
+    "score": 0.5111
    }
   ],
-  "skipped": {},
+  "skipped": {
+   "tracked only (below bet price floor)": 2
+  },
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 9,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

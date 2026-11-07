@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.87,
+   "mark_price": 0.9,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -468,7 +468,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -23811,89 +23811,95 @@
    1794048325,
    93.042,
    87.052
+  ],
+  [
+   1794049226,
+   93.042,
+   87.222
   ]
  ],
  "last_run": {
-  "ts": 1794048325,
+  "ts": 1794049226,
   "error": null,
-  "markets_scanned": 479,
-  "candidates": 19,
+  "markets_scanned": 383,
+  "candidates": 9,
   "rejections": {
-   "too little volume": 323,
-   "no favorite in 80-95c band": 121,
-   "spread too wide": 16
+   "too little volume": 267,
+   "no favorite in 80-95c band": 93,
+   "spread too wide": 13,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 3897.36,
-    "score": 0.6393
-   },
-   {
     "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 22.24,
-    "volume_24h": 7861.01,
-    "score": 0.6065
-   },
-   {
-    "label": "Will the maximum temperature be <57\u00b0 on Nov 7, 2026? \u2014 56\u00b0 or below",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 20.24,
-    "volume_24h": 2401.26,
-    "score": 0.6036
+    "hours_to_close": 21.99,
+    "volume_24h": 7901.07,
+    "score": 0.6074
    },
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Nov 7, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 1029.0,
-    "score": 0.6003
-   },
-   {
-    "label": "Will the maximum temperature be 50-51\u00b0 on Nov 7, 2026? \u2014 50\u00b0 to 51\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 807.6,
-    "score": 0.5881
+    "hours_to_close": 21.99,
+    "volume_24h": 1030.0,
+    "score": 0.601
    },
    {
     "label": "Will the maximum temperature be 76-77\u00b0 on Nov 7, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 22.24,
-    "volume_24h": 457.88,
-    "score": 0.574
-   },
-   {
-    "label": "Will the maximum temperature be 56-57\u00b0 on Nov 7, 2026? \u2014 56\u00b0 to 57\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 514.28,
-    "score": 0.5734
+    "hours_to_close": 21.99,
+    "volume_24h": 476.63,
+    "score": 0.576
    },
    {
     "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 1761.46,
-    "score": 0.5605
+    "score": 0.5613
+   },
+   {
+    "label": "Will the maximum temperature be 73-74\u00b0 on Nov 7, 2026? \u2014 73\u00b0 to 74\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.99,
+    "volume_24h": 634.0,
+    "score": 0.5552
+   },
+   {
+    "label": "Will the maximum temperature be 67-68\u00b0 on Nov 7, 2026? \u2014 67\u00b0 to 68\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 21.99,
+    "volume_24h": 215.82,
+    "score": 0.5502
+   },
+   {
+    "label": "Nina Milosevic wins",
+    "side": "yes",
+    "price": 0.83,
+    "hours_to_close": 35.99,
+    "volume_24h": 4553.69,
+    "score": 0.5044
+   },
+   {
+    "label": "Priscila Cachoeira wins",
+    "side": "no",
+    "price": 0.83,
+    "hours_to_close": 35.99,
+    "volume_24h": 4332.25,
+    "score": 0.5028
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 2,
   "watch_graded": 0,
   "api_calls": 44
  },

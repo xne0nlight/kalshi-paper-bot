@@ -239,7 +239,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.89,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -289,7 +289,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.9,
+   "mark_price": 0.95,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -322,7 +322,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.74,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -345,7 +345,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -23883,95 +23883,96 @@
    1794053725,
    89.662,
    86.272
+  ],
+  [
+   1794054626,
+   89.662,
+   86.852
   ]
  ],
  "last_run": {
-  "ts": 1794053725,
+  "ts": 1794054626,
   "error": null,
   "markets_scanned": 377,
-  "candidates": 10,
+  "candidates": 8,
   "rejections": {
-   "too little volume": 254,
-   "no favorite in 80-95c band": 102,
-   "spread too wide": 11
+   "too little volume": 252,
+   "no favorite in 80-95c band": 103,
+   "spread too wide": 14
   },
-  "opened": [
-   400
-  ],
-  "settled": [
-   385
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Nov 7, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 1030.0,
-    "score": 0.6045
+    "score": 0.6053
    },
    {
     "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 20.74,
-    "volume_24h": 8519.29,
-    "score": 0.5933
+    "hours_to_close": 20.49,
+    "volume_24h": 8678.12,
+    "score": 0.5947
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Nov 7, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 635.0,
-    "score": 0.5588
+    "score": 0.5595
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Nov 7, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 215.82,
-    "score": 0.5537
+    "score": 0.5545
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 4555.84,
-    "score": 0.5059
+    "score": 0.5063
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 34.74,
-    "volume_24h": 4384.77,
-    "score": 0.5047
+    "hours_to_close": 34.49,
+    "volume_24h": 4437.3,
+    "score": 0.5054
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 7, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
-    "price": 0.82,
-    "hours_to_close": 20.74,
+    "price": 0.81,
+    "hours_to_close": 20.49,
     "volume_24h": 1470.87,
-    "score": 0.4861
+    "score": 0.4769
    },
    {
-    "label": "Al-Hazm wins",
+    "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
-    "price": 0.95,
-    "hours_to_close": 26.66,
-    "volume_24h": 602.34,
-    "score": 0.4728
+    "price": 0.81,
+    "hours_to_close": 20.49,
+    "volume_24h": 1236.03,
+    "score": 0.4712
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 23,
-  "api_calls": 44
+  "watch_graded": 0,
+  "api_calls": 43
  },
  "shadow_since": 1791904549,
  "phase": {

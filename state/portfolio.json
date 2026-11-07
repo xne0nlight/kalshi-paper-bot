@@ -327,7 +327,7 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.92,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -429,7 +429,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -23584,17 +23584,22 @@
    1794011425,
    93.042,
    87.432
+  ],
+  [
+   1794012327,
+   93.042,
+   87.452
   ]
  ],
  "last_run": {
-  "ts": 1794011425,
+  "ts": 1794012327,
   "error": null,
   "markets_scanned": 1574,
-  "candidates": 35,
+  "candidates": 36,
   "rejections": {
-   "too little volume": 1280,
-   "no favorite in 80-95c band": 240,
-   "spread too wide": 19
+   "too little volume": 1277,
+   "no favorite in 80-95c band": 249,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
@@ -23604,69 +23609,69 @@
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.49,
-    "volume_24h": 6874.3,
-    "score": 0.6542
+    "hours_to_close": 21.24,
+    "volume_24h": 7152.25,
+    "score": 0.6562
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 21.49,
-    "volume_24h": 4615.32,
-    "score": 0.6212
+    "hours_to_close": 21.24,
+    "volume_24h": 4820.89,
+    "score": 0.6233
    },
    {
-    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 21.49,
-    "volume_24h": 3608.77,
-    "score": 0.6032
+    "price": 0.88,
+    "hours_to_close": 21.24,
+    "volume_24h": 12488.38,
+    "score": 0.6071
    },
    {
     "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 30.49,
-    "volume_24h": 1880.29,
-    "score": 0.6031
-   },
-   {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 21.49,
-    "volume_24h": 12290.17,
-    "score": 0.5964
+    "hours_to_close": 30.24,
+    "volume_24h": 2036.29,
+    "score": 0.6061
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 21.49,
+    "price": 0.9,
+    "hours_to_close": 21.24,
     "volume_24h": 5203.57,
-    "score": 0.5951
+    "score": 0.6058
    },
    {
-    "label": "Will it rain in New York City on Nov 7, 2026?",
+    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.49,
-    "volume_24h": 1665.31,
-    "score": 0.5925
+    "price": 0.91,
+    "hours_to_close": 21.24,
+    "volume_24h": 3608.77,
+    "score": 0.6039
+   },
+   {
+    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 32.24,
+    "volume_24h": 3945.59,
+    "score": 0.5946
    },
    {
     "label": "Will the maximum temperature be 72-73\u00b0 on Nov 7, 2026? \u2014 72\u00b0 to 73\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 30.49,
+    "hours_to_close": 30.24,
     "volume_24h": 694.13,
-    "score": 0.5607
+    "score": 0.5611
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

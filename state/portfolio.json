@@ -217,7 +217,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.93,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -290,7 +290,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.95,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -347,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.91,
+   "mark_price": 0.88,
    "shadow": {}
   },
   {
@@ -432,7 +432,7 @@
    "opened_ts": 1794070826,
    "close_ts": 1794200400.0,
    "score": 0.5696,
-   "mark_price": 0.92,
+   "mark_price": 0.9,
    "shadow": {}
   }
  ],
@@ -24072,18 +24072,24 @@
    1794075326,
    87.192,
    89.252
+  ],
+  [
+   1794076224,
+   87.192,
+   89.402
   ]
  ],
  "last_run": {
-  "ts": 1794075326,
+  "ts": 1794076224,
   "error": null,
   "markets_scanned": 934,
-  "candidates": 16,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 740,
-   "no favorite in 80-95c band": 158,
+   "too little volume": 736,
+   "no favorite in 80-95c band": 159,
    "spread too wide": 18,
-   "nothing for sale at the ask": 2
+   "nothing for sale at the ask": 2,
+   "favorite is slipping fast": 1
   },
   "opened": [],
   "settled": [],
@@ -24093,65 +24099,65 @@
     "label": "Will average **gas prices** be above $4.0150? \u2014 Above 4.0150",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.73,
+    "hours_to_close": 34.48,
     "volume_24h": 14151.13,
-    "score": 0.6516
+    "score": 0.6519
+   },
+   {
+    "label": "Will it rain in Austin between Nov 7 and Nov 8, 2026?",
+    "side": "yes",
+    "price": 0.95,
+    "hours_to_close": 35.49,
+    "volume_24h": 751.59,
+    "score": 0.5664
+   },
+   {
+    "label": "Will it rain in West Palm Beach on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.49,
+    "volume_24h": 478.77,
+    "score": 0.5529
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.74,
+    "hours_to_close": 24.49,
     "volume_24h": 233.2,
-    "score": 0.546
+    "score": 0.5466
    },
    {
     "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
     "side": "yes",
-    "price": 0.84,
-    "hours_to_close": 34.73,
-    "volume_24h": 22493.73,
-    "score": 0.5416
+    "price": 0.89,
+    "hours_to_close": 34.48,
+    "volume_24h": 22798.43,
+    "score": 0.5419
    },
    {
     "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 34.74,
-    "volume_24h": 2299.23,
-    "score": 0.5237
+    "hours_to_close": 34.49,
+    "volume_24h": 2289.23,
+    "score": 0.5239
+   },
+   {
+    "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 35.49,
+    "volume_24h": 233.74,
+    "score": 0.5184
    },
    {
     "label": "Will it rain in Dallas on Nov 8, 2026?",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 35.74,
-    "volume_24h": 891.12,
-    "score": 0.5116
-   },
-   {
-    "label": "Will Diesel Price on November 9, 2026 be above $6.18? \u2014 Above $6.18",
-    "side": "no",
-    "price": 0.81,
-    "hours_to_close": 34.73,
-    "volume_24h": 11762.82,
-    "score": 0.5116
-   },
-   {
-    "label": "Will it rain in Newark between Nov 7 and Nov 8, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 34.74,
-    "volume_24h": 774.55,
-    "score": 0.5083
-   },
-   {
-    "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 233.74,
-    "score": 0.5081
+    "hours_to_close": 35.49,
+    "volume_24h": 892.12,
+    "score": 0.5119
    }
   ],
   "skipped": {},

@@ -2,30 +2,13 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.132,
- "fees_paid": 10.04,
+ "cash": 11.782,
+ "fees_paid": 10.09,
  "peak_equity": 109.65,
  "day": "2026-11-07",
  "day_start_equity": 93.042,
- "next_id": 404,
+ "next_id": 406,
  "open_positions": [
-  {
-   "id": 339,
-   "ticker": "KXSUEZWEEKLY-26NOV01-T270",
-   "event_ticker": "KXSUEZWEEKLY-26NOV01",
-   "series": "KXSUEZWEEKLY",
-   "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.93,
-   "fee": 0.03,
-   "cost": 5.61,
-   "opened_ts": 1793621725,
-   "close_ts": 1793714400.0,
-   "score": 0.6223,
-   "mark_price": 0.93,
-   "shadow": {}
-  },
   {
    "id": 340,
    "ticker": "KXBABELMANDEBWEEKLY-26NOV01-T185",
@@ -41,23 +24,6 @@
    "close_ts": 1793714400.0,
    "score": 0.5908,
    "mark_price": 0.85,
-   "shadow": {}
-  },
-  {
-   "id": 341,
-   "ticker": "KXHORMUZWEEKLY-26NOV01-T20",
-   "event_ticker": "KXHORMUZWEEKLY-26NOV01",
-   "series": "KXHORMUZWEEKLY",
-   "label": "Will there be more than 20 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 20",
-   "side": "yes",
-   "contracts": 6,
-   "price": 0.95,
-   "fee": 0.02,
-   "cost": 5.72,
-   "opened_ts": 1793623525,
-   "close_ts": 1793714400.0,
-   "score": 0.5428,
-   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -217,7 +183,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.96,
+   "mark_price": 0.97,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -290,7 +256,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -347,7 +313,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.87,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -381,7 +347,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.91,
+   "mark_price": 0.93,
    "shadow": {}
   },
   {
@@ -415,7 +381,7 @@
    "opened_ts": 1794070826,
    "close_ts": 1794200340.0,
    "score": 0.65,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -433,6 +399,40 @@
    "close_ts": 1794200400.0,
    "score": 0.5696,
    "mark_price": 0.87,
+   "shadow": {}
+  },
+  {
+   "id": 404,
+   "ticker": "KXDIESELW-26NOV09-T6.16",
+   "event_ticker": "KXDIESELW-26NOV09",
+   "series": "KXDIESELW",
+   "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
+   "side": "yes",
+   "contracts": 5,
+   "price": 0.91,
+   "fee": 0.03,
+   "cost": 4.58,
+   "opened_ts": 1794080725,
+   "close_ts": 1794200340.0,
+   "score": 0.5997,
+   "mark_price": 0.9,
+   "shadow": {}
+  },
+  {
+   "id": 405,
+   "ticker": "KXFITNESSADS-26NOV06-T125",
+   "event_ticker": "KXFITNESSADS-26NOV06",
+   "series": "KXFITNESSADS",
+   "label": "Will Fitness Centers Ad Spend for October 2026 be above 125? \u2014 Above 125",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1794080725,
+   "close_ts": 1794200340.0,
+   "score": 0.562,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -10444,6 +10444,48 @@
    "pnl": 0.26,
    "result": "NO",
    "closed_ts": 1794064525,
+   "won": true
+  },
+  {
+   "id": 339,
+   "ticker": "KXSUEZWEEKLY-26NOV01-T270",
+   "event_ticker": "KXSUEZWEEKLY-26NOV01",
+   "series": "KXSUEZWEEKLY",
+   "label": "Will there be more than 270 transit calls through the Suez Canal from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 270",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.93,
+   "fee": 0.03,
+   "cost": 5.61,
+   "opened_ts": 1793621725,
+   "close_ts": 1793714400.0,
+   "score": 0.6223,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.39,
+   "result": "YES",
+   "closed_ts": 1794080725,
+   "won": true
+  },
+  {
+   "id": 341,
+   "ticker": "KXHORMUZWEEKLY-26NOV01-T20",
+   "event_ticker": "KXHORMUZWEEKLY-26NOV01",
+   "series": "KXHORMUZWEEKLY",
+   "label": "Will there be more than 20 transit calls through the Strait of Hormuz from Oct 26, 2026 to Nov 1, 2026? \u2014 Above 20",
+   "side": "yes",
+   "contracts": 6,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 5.72,
+   "opened_ts": 1793623525,
+   "close_ts": 1793714400.0,
+   "score": 0.5428,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.28,
+   "result": "YES",
+   "closed_ts": 1794080725,
    "won": true
   }
  ],
@@ -24097,91 +24139,102 @@
    1794079824,
    87.192,
    89.422
+  ],
+  [
+   1794080725,
+   87.862,
+   90.112
   ]
  ],
  "last_run": {
-  "ts": 1794079824,
+  "ts": 1794080725,
   "error": null,
   "markets_scanned": 1018,
   "candidates": 20,
   "rejections": {
-   "too little volume": 825,
-   "no favorite in 80-95c band": 159,
-   "spread too wide": 13,
+   "too little volume": 820,
+   "no favorite in 80-95c band": 165,
+   "spread too wide": 12,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   404,
+   405
+  ],
+  "settled": [
+   339,
+   341
+  ],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 33.48,
-    "volume_24h": 6067.41,
-    "score": 0.5969
+    "hours_to_close": 33.23,
+    "volume_24h": 6536.47,
+    "score": 0.5997
    },
    {
     "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
     "side": "yes",
-    "price": 0.89,
-    "hours_to_close": 33.48,
-    "volume_24h": 33833.52,
-    "score": 0.5932
+    "price": 0.88,
+    "hours_to_close": 33.23,
+    "volume_24h": 33931.62,
+    "score": 0.5835
+   },
+   {
+    "label": "Will Fitness Centers Ad Spend for October 2026 be above 125? \u2014 Above 125",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 33.23,
+    "volume_24h": 600.0,
+    "score": 0.562
+   },
+   {
+    "label": "Will it rain in Detroit between Nov 7 and Nov 8, 2026?",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.24,
+    "volume_24h": 662.44,
+    "score": 0.5551
    },
    {
     "label": "Will it rain in New York City on Nov 8, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.49,
+    "hours_to_close": 33.24,
     "volume_24h": 838.37,
-    "score": 0.5525
+    "score": 0.5528
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.49,
+    "hours_to_close": 23.24,
     "volume_24h": 233.2,
-    "score": 0.5489
+    "score": 0.5495
+   },
+   {
+    "label": "Will Fitness Centers Ad Spend for October 2026 be above 130? \u2014 Above 130",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 33.23,
+    "volume_24h": 371.0,
+    "score": 0.5363
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.49,
+    "hours_to_close": 34.24,
     "volume_24h": 280.9,
-    "score": 0.5356
-   },
-   {
-    "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
-    "side": "no",
-    "price": 0.87,
-    "hours_to_close": 33.49,
-    "volume_24h": 2331.32,
-    "score": 0.5258
-   },
-   {
-    "label": "Will it rain in Boston on Nov 8, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 33.49,
-    "volume_24h": 344.47,
-    "score": 0.5236
-   },
-   {
-    "label": "Will it rain in Dallas on Nov 8, 2026?",
-    "side": "no",
-    "price": 0.89,
-    "hours_to_close": 34.49,
-    "volume_24h": 914.94,
-    "score": 0.514
+    "score": 0.5359
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 10,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.71,
+   "mark_price": 0.75,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -377,7 +377,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.86,
+   "mark_price": 0.85,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -400,7 +400,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.85,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -417,7 +417,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.91,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -23676,89 +23676,94 @@
    1794024024,
    93.042,
    86.632
+  ],
+  [
+   1794024925,
+   93.042,
+   86.662
   ]
  ],
  "last_run": {
-  "ts": 1794024024,
+  "ts": 1794024925,
   "error": null,
   "markets_scanned": 1784,
-  "candidates": 37,
+  "candidates": 40,
   "rejections": {
-   "too little volume": 1424,
-   "no favorite in 80-95c band": 292,
-   "spread too wide": 31
+   "too little volume": 1423,
+   "no favorite in 80-95c band": 295,
+   "spread too wide": 26
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 17.99,
-    "volume_24h": 7309.1,
-    "score": 0.6573
-   },
-   {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
-    "price": 0.91,
-    "hours_to_close": 17.99,
-    "volume_24h": 23674.23,
-    "score": 0.6475
+    "price": 0.95,
+    "hours_to_close": 17.74,
+    "volume_24h": 12289.85,
+    "score": 0.6884
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 17.99,
-    "volume_24h": 7063.21,
-    "score": 0.6162
+    "price": 0.93,
+    "hours_to_close": 17.74,
+    "volume_24h": 7271.3,
+    "score": 0.6581
+   },
+   {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
+    "side": "yes",
+    "price": 0.92,
+    "hours_to_close": 17.74,
+    "volume_24h": 7669.2,
+    "score": 0.6498
+   },
+   {
+    "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
+    "side": "no",
+    "price": 0.93,
+    "hours_to_close": 17.74,
+    "volume_24h": 4108.99,
+    "score": 0.6395
+   },
+   {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,500 or above",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 17.74,
+    "volume_24h": 23785.94,
+    "score": 0.6384
    },
    {
     "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 28.99,
-    "volume_24h": 2000.62,
-    "score": 0.6076
+    "hours_to_close": 28.74,
+    "volume_24h": 2050.62,
+    "score": 0.6089
    },
    {
     "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 28.99,
-    "volume_24h": 4822.09,
-    "score": 0.6063
+    "hours_to_close": 28.74,
+    "volume_24h": 4902.16,
+    "score": 0.6072
    },
    {
     "label": "Will it rain in Houston on Nov 7, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.99,
-    "volume_24h": 1277.63,
-    "score": 0.5986
-   },
-   {
-    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 7, 2026? \u2014 39.0%",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 13.98,
-    "volume_24h": 3090.1,
-    "score": 0.5969
-   },
-   {
-    "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
-    "side": "no",
-    "price": 0.92,
-    "hours_to_close": 26.99,
-    "volume_24h": 3214.94,
-    "score": 0.5967
+    "hours_to_close": 25.74,
+    "volume_24h": 1293.26,
+    "score": 0.5996
    }
   ],
   "skipped": {},
-  "watch_added": 4,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 43
  },

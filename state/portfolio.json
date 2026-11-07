@@ -273,7 +273,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.95,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -290,7 +290,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -324,7 +324,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.9,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -347,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.95,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.87,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -24062,17 +24062,22 @@
    1794073526,
    87.192,
    89.022
+  ],
+  [
+   1794074428,
+   87.192,
+   89.062
   ]
  ],
  "last_run": {
-  "ts": 1794073526,
+  "ts": 1794074428,
   "error": null,
-  "markets_scanned": 802,
-  "candidates": 12,
+  "markets_scanned": 934,
+  "candidates": 18,
   "rejections": {
-   "too little volume": 644,
-   "no favorite in 80-95c band": 129,
-   "spread too wide": 15,
+   "too little volume": 746,
+   "no favorite in 80-95c band": 152,
+   "spread too wide": 16,
    "nothing for sale at the ask": 2
   },
   "opened": [],
@@ -24080,72 +24085,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will Diesel Price on November 9, 2026 be above $6.20? \u2014 Above $6.20",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 34.98,
+    "volume_24h": 15329.25,
+    "score": 0.6512
+   },
+   {
     "label": "Will average **gas prices** be above $4.0150? \u2014 Above 4.0150",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.23,
+    "hours_to_close": 34.98,
     "volume_24h": 13854.03,
-    "score": 0.6509
-   },
-   {
-    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 35.23,
-    "volume_24h": 21895.28,
-    "score": 0.5809
+    "score": 0.6512
    },
    {
     "label": "Will it rain in Newark between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 845.86,
-    "score": 0.5705
+    "score": 0.5708
    },
    {
     "label": "Will Trump's RCP approval average be exactly 39.3 on Nov 8, 2026? \u2014 39.3%",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 24.23,
+    "hours_to_close": 23.98,
     "volume_24h": 256.5,
-    "score": 0.5503
+    "score": 0.5509
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.24,
+    "hours_to_close": 24.99,
     "volume_24h": 233.2,
-    "score": 0.5449
+    "score": 0.5455
+   },
+   {
+    "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
+    "side": "yes",
+    "price": 0.9,
+    "hours_to_close": 34.98,
+    "volume_24h": 6080.66,
+    "score": 0.5351
    },
    {
     "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 35.24,
-    "volume_24h": 2341.91,
-    "score": 0.5236
+    "hours_to_close": 34.99,
+    "volume_24h": 2299.23,
+    "score": 0.5234
    },
    {
-    "label": "Will Diesel Price on November 9, 2026 be above $6.18? \u2014 Above $6.18",
-    "side": "no",
-    "price": 0.81,
-    "hours_to_close": 35.23,
-    "volume_24h": 11025.89,
-    "score": 0.5109
-   },
-   {
-    "label": "Priscila Cachoeira wins",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 29.24,
-    "volume_24h": 163094.14,
-    "score": 0.4896
+    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
+    "side": "yes",
+    "price": 0.82,
+    "hours_to_close": 34.98,
+    "volume_24h": 22467.59,
+    "score": 0.5212
    }
   ],
   "skipped": {},
-  "watch_added": 1,
+  "watch_added": 6,
   "watch_graded": 0,
   "api_calls": 43
  },

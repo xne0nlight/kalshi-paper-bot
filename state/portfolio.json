@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.9,
+   "mark_price": 0.86,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -451,7 +451,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.86,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -23781,17 +23781,22 @@
    1794042926,
    93.042,
    87.002
+  ],
+  [
+   1794043824,
+   93.042,
+   86.862
   ]
  ],
  "last_run": {
-  "ts": 1794042926,
+  "ts": 1794043824,
   "error": null,
   "markets_scanned": 1862,
-  "candidates": 34,
+  "candidates": 35,
   "rejections": {
-   "too little volume": 1458,
-   "no favorite in 80-95c band": 336,
-   "spread too wide": 33,
+   "too little volume": 1457,
+   "no favorite in 80-95c band": 339,
+   "spread too wide": 30,
    "nothing for sale at the ask": 1
   },
   "opened": [],
@@ -23799,72 +23804,72 @@
   "halt": null,
   "top_candidates": [
    {
+    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 12.49,
+    "volume_24h": 38576.25,
+    "score": 0.7036
+   },
+   {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 12.74,
-    "volume_24h": 5550.34,
-    "score": 0.6929
+    "hours_to_close": 12.49,
+    "volume_24h": 5581.61,
+    "score": 0.6946
    },
    {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
+    "label": "Will Trump's RCP approval average be exactly 39.0 on Nov 7, 2026? \u2014 39.0%",
     "side": "no",
-    "price": 0.93,
-    "hours_to_close": 12.74,
-    "volume_24h": 38546.9,
-    "score": 0.692
+    "price": 0.95,
+    "hours_to_close": 8.48,
+    "volume_24h": 6531.27,
+    "score": 0.6812
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,500 or above",
     "side": "yes",
-    "price": 0.91,
-    "hours_to_close": 12.74,
-    "volume_24h": 26518.63,
-    "score": 0.672
+    "price": 0.88,
+    "hours_to_close": 12.49,
+    "volume_24h": 26525.63,
+    "score": 0.6436
    },
    {
     "label": "Will the maximum temperature be 63-64\u00b0 on Nov 7, 2026? \u2014 63\u00b0 to 64\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 20.74,
+    "hours_to_close": 20.49,
     "volume_24h": 4869.16,
-    "score": 0.6351
+    "score": 0.6358
    },
    {
     "label": "Will the maximum temperature be >69\u00b0 on Nov 7, 2026? \u2014 70\u00b0 or above",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 20.74,
-    "volume_24h": 2351.32,
-    "score": 0.6314
-   },
-   {
-    "label": "Will it rain in Detroit on Nov 7, 2026?",
-    "side": "no",
-    "price": 0.91,
-    "hours_to_close": 19.74,
-    "volume_24h": 7315.08,
-    "score": 0.6314
+    "hours_to_close": 20.49,
+    "volume_24h": 2353.32,
+    "score": 0.6322
    },
    {
     "label": "Will the maximum temperature be 68-69\u00b0 on Nov 7, 2026? \u2014 68\u00b0 to 69\u00b0",
     "side": "no",
     "price": 0.94,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 3096.27,
-    "score": 0.6275
+    "score": 0.6282
    },
    {
     "label": "Will the maximum temperature be 53-54\u00b0 on Nov 7, 2026? \u2014 53\u00b0 to 54\u00b0",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 21.74,
+    "hours_to_close": 21.49,
     "volume_24h": 3880.62,
-    "score": 0.6249
+    "score": 0.6256
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 44
  },

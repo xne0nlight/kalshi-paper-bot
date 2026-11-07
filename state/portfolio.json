@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.522,
- "fees_paid": 9.97,
+ "cash": 10.752,
+ "fees_paid": 9.99,
  "peak_equity": 109.65,
  "day": "2026-11-07",
  "day_start_equity": 93.042,
- "next_id": 399,
+ "next_id": 400,
  "open_positions": [
   {
    "id": 339,
@@ -150,23 +150,6 @@
    "opened_ts": 1793896227,
    "close_ts": 1793993400.0,
    "score": 0.595,
-   "mark_price": 0.99,
-   "shadow": {}
-  },
-  {
-   "id": 384,
-   "ticker": "KXRAIN-26NOV06-ATL",
-   "event_ticker": "KXRAIN-26NOV06",
-   "series": "KXRAIN",
-   "label": "Will it rain in Atlanta on Nov 6, 2026?",
-   "side": "no",
-   "contracts": 6,
-   "price": 0.94,
-   "fee": 0.03,
-   "cost": 5.67,
-   "opened_ts": 1793898926,
-   "close_ts": 1794027600.0,
-   "score": 0.5566,
    "mark_price": 0.99,
    "shadow": {}
   },
@@ -400,7 +383,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.92,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -434,7 +417,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794088800.0,
    "score": 0.6629,
-   "mark_price": 0.98,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -451,7 +434,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.85,
+   "mark_price": 0.84,
    "shadow": {}
   },
   {
@@ -468,6 +451,23 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
+   "mark_price": 0.93,
+   "shadow": {}
+  },
+  {
+   "id": 399,
+   "ticker": "KXHIGHTSEA-26NOV07-B65.5",
+   "event_ticker": "KXHIGHTSEA-26NOV07",
+   "series": "KXHIGHTSEA",
+   "label": "Will the maximum temperature be 65-66\u00b0 on Nov 7, 2026? \u2014 65\u00b0 to 66\u00b0",
+   "side": "no",
+   "contracts": 5,
+   "price": 0.95,
+   "fee": 0.02,
+   "cost": 4.77,
+   "opened_ts": 1794052825,
+   "close_ts": 1794128400.0,
+   "score": 0.6038,
    "mark_price": 0.94,
    "shadow": {}
   }
@@ -10333,6 +10333,27 @@
    "pnl": 0.28,
    "result": "NO",
    "closed_ts": 1794003326,
+   "won": true
+  },
+  {
+   "id": 384,
+   "ticker": "KXRAIN-26NOV06-ATL",
+   "event_ticker": "KXRAIN-26NOV06",
+   "series": "KXRAIN",
+   "label": "Will it rain in Atlanta on Nov 6, 2026?",
+   "side": "no",
+   "contracts": 6,
+   "price": 0.94,
+   "fee": 0.03,
+   "cost": 5.67,
+   "opened_ts": 1793898926,
+   "close_ts": 1794027600.0,
+   "score": 0.5566,
+   "shadow": {},
+   "payout": 6.0,
+   "pnl": 0.33,
+   "result": "NO",
+   "closed_ts": 1794052825,
    "won": true
   }
  ],
@@ -23831,90 +23852,99 @@
    1794051924,
    93.042,
    86.762
+  ],
+  [
+   1794052825,
+   93.372,
+   86.562
   ]
  ],
  "last_run": {
-  "ts": 1794051924,
+  "ts": 1794052825,
   "error": null,
-  "markets_scanned": 383,
-  "candidates": 11,
+  "markets_scanned": 377,
+  "candidates": 10,
   "rejections": {
-   "too little volume": 260,
+   "too little volume": 254,
    "no favorite in 80-95c band": 100,
-   "spread too wide": 12
+   "spread too wide": 13
   },
-  "opened": [],
-  "settled": [],
+  "opened": [
+   399
+  ],
+  "settled": [
+   384
+  ],
   "halt": null,
   "top_candidates": [
-   {
-    "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.24,
-    "volume_24h": 1885.46,
-    "score": 0.6157
-   },
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Nov 7, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 1030.0,
-    "score": 0.6031
+    "score": 0.6038
    },
    {
     "label": "Will the maximum temperature be 76-77\u00b0 on Nov 7, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 478.63,
-    "score": 0.5782
+    "score": 0.5789
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Nov 7, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 634.0,
-    "score": 0.5573
+    "score": 0.558
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Nov 7, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.24,
+    "hours_to_close": 20.99,
     "volume_24h": 215.82,
-    "score": 0.5523
+    "score": 0.553
    },
    {
     "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
-    "price": 0.87,
-    "hours_to_close": 21.24,
-    "volume_24h": 8215.22,
-    "score": 0.5407
+    "price": 0.86,
+    "hours_to_close": 20.99,
+    "volume_24h": 8228.26,
+    "score": 0.5314
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 4554.84,
-    "score": 0.5053
+    "score": 0.5056
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 35.24,
+    "hours_to_close": 34.99,
     "volume_24h": 4384.77,
-    "score": 0.5041
+    "score": 0.5044
+   },
+   {
+    "label": "Will the maximum temperature be 72-73\u00b0 on Nov 7, 2026? \u2014 72\u00b0 to 73\u00b0",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 20.99,
+    "volume_24h": 1422.78,
+    "score": 0.4843
    }
   ],
   "skipped": {},
   "watch_added": 0,
-  "watch_graded": 0,
+  "watch_graded": 8,
   "api_calls": 44
  },
  "shadow_since": 1791904549,

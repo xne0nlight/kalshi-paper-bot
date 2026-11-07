@@ -200,7 +200,7 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
-   "mark_price": 0.99,
+   "mark_price": 0.97,
    "shadow": {}
   },
   {
@@ -217,7 +217,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.94,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -324,7 +324,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.97,
+   "mark_price": 0.96,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -347,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.94,
+   "mark_price": 0.87,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.89,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -415,7 +415,7 @@
    "opened_ts": 1794070826,
    "close_ts": 1794200340.0,
    "score": 0.65,
-   "mark_price": 0.94,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -24092,16 +24092,21 @@
    1794078925,
    87.192,
    89.552
+  ],
+  [
+   1794079824,
+   87.192,
+   89.422
   ]
  ],
  "last_run": {
-  "ts": 1794078925,
+  "ts": 1794079824,
   "error": null,
   "markets_scanned": 1018,
-  "candidates": 21,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 826,
-   "no favorite in 80-95c band": 157,
+   "too little volume": 825,
+   "no favorite in 80-95c band": 159,
    "spread too wide": 13,
    "nothing for sale at the ask": 1
   },
@@ -24110,72 +24115,72 @@
   "halt": null,
   "top_candidates": [
    {
-    "label": "Will average **gas prices** be above $4.0150? \u2014 Above 4.0150",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 33.73,
-    "volume_24h": 14159.57,
-    "score": 0.6529
-   },
-   {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
     "price": 0.91,
-    "hours_to_close": 33.73,
+    "hours_to_close": 33.48,
     "volume_24h": 6067.41,
-    "score": 0.5966
+    "score": 0.5969
    },
    {
-    "label": "Will it rain in Austin between Nov 7 and Nov 8, 2026?",
+    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
     "side": "yes",
-    "price": 0.95,
-    "hours_to_close": 34.74,
-    "volume_24h": 818.58,
-    "score": 0.5701
+    "price": 0.89,
+    "hours_to_close": 33.48,
+    "volume_24h": 33833.52,
+    "score": 0.5932
    },
    {
     "label": "Will it rain in New York City on Nov 8, 2026?",
     "side": "no",
     "price": 0.93,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 838.37,
-    "score": 0.5521
+    "score": 0.5525
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 23.74,
+    "hours_to_close": 23.49,
     "volume_24h": 233.2,
-    "score": 0.5483
+    "score": 0.5489
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 34.74,
+    "hours_to_close": 34.49,
     "volume_24h": 280.9,
-    "score": 0.5353
+    "score": 0.5356
    },
    {
     "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 33.74,
-    "volume_24h": 2237.88,
-    "score": 0.5241
+    "hours_to_close": 33.49,
+    "volume_24h": 2331.32,
+    "score": 0.5258
    },
    {
     "label": "Will it rain in Boston on Nov 8, 2026?",
     "side": "yes",
     "price": 0.93,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 344.47,
-    "score": 0.5232
+    "score": 0.5236
+   },
+   {
+    "label": "Will it rain in Dallas on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.89,
+    "hours_to_close": 34.49,
+    "volume_24h": 914.94,
+    "score": 0.514
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 0,
   "watch_graded": 0,
   "api_calls": 43
  },

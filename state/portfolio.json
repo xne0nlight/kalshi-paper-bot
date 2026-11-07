@@ -294,7 +294,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.91,
+   "mark_price": 0.89,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -344,7 +344,7 @@
    "opened_ts": 1793985324,
    "close_ts": 1794114000.0,
    "score": 0.5081,
-   "mark_price": 0.9,
+   "mark_price": 0.91,
    "shadow": {
     "10": {
      "ts": 1794015025,
@@ -377,7 +377,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.78,
+   "mark_price": 0.73,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -417,7 +417,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.88,
+   "mark_price": 0.89,
    "shadow": {}
   },
   {
@@ -468,7 +468,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -23816,90 +23816,94 @@
    1794049226,
    93.042,
    87.222
+  ],
+  [
+   1794050125,
+   93.042,
+   86.862
   ]
  ],
  "last_run": {
-  "ts": 1794049226,
+  "ts": 1794050125,
   "error": null,
   "markets_scanned": 383,
-  "candidates": 9,
+  "candidates": 11,
   "rejections": {
-   "too little volume": 267,
-   "no favorite in 80-95c band": 93,
-   "spread too wide": 13,
-   "nothing for sale at the ask": 1
+   "too little volume": 263,
+   "no favorite in 80-95c band": 97,
+   "spread too wide": 12
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
+    "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
+    "side": "no",
+    "price": 0.94,
+    "hours_to_close": 20.74,
+    "volume_24h": 1791.46,
+    "score": 0.6125
+   },
+   {
     "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
     "price": 0.89,
-    "hours_to_close": 21.99,
-    "volume_24h": 7901.07,
-    "score": 0.6074
+    "hours_to_close": 21.74,
+    "volume_24h": 7963.87,
+    "score": 0.6083
    },
    {
     "label": "Will the maximum temperature be 65-66\u00b0 on Nov 7, 2026? \u2014 65\u00b0 to 66\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 1030.0,
-    "score": 0.601
+    "score": 0.6017
    },
    {
     "label": "Will the maximum temperature be 76-77\u00b0 on Nov 7, 2026? \u2014 76\u00b0 to 77\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
-    "volume_24h": 476.63,
-    "score": 0.576
-   },
-   {
-    "label": "Will the maximum temperature be 61-62\u00b0 on Nov 7, 2026? \u2014 61\u00b0 to 62\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 20.99,
-    "volume_24h": 1761.46,
-    "score": 0.5613
+    "hours_to_close": 21.74,
+    "volume_24h": 478.63,
+    "score": 0.5768
    },
    {
     "label": "Will the maximum temperature be 73-74\u00b0 on Nov 7, 2026? \u2014 73\u00b0 to 74\u00b0",
     "side": "no",
     "price": 0.92,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 634.0,
-    "score": 0.5552
+    "score": 0.5559
    },
    {
     "label": "Will the maximum temperature be 67-68\u00b0 on Nov 7, 2026? \u2014 67\u00b0 to 68\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 21.99,
+    "hours_to_close": 21.74,
     "volume_24h": 215.82,
-    "score": 0.5502
+    "score": 0.5509
+   },
+   {
+    "label": "Will the maximum temperature be <83\u00b0 on Nov 7, 2026? \u2014 82\u00b0 or below",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 21.74,
+    "volume_24h": 371.27,
+    "score": 0.5385
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 35.99,
-    "volume_24h": 4553.69,
-    "score": 0.5044
-   },
-   {
-    "label": "Priscila Cachoeira wins",
-    "side": "no",
-    "price": 0.83,
-    "hours_to_close": 35.99,
-    "volume_24h": 4332.25,
-    "score": 0.5028
+    "hours_to_close": 35.74,
+    "volume_24h": 4554.84,
+    "score": 0.5047
    }
   ],
   "skipped": {},
-  "watch_added": 2,
+  "watch_added": 1,
   "watch_graded": 0,
   "api_calls": 44
  },

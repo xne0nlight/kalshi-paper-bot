@@ -149,7 +149,7 @@
    "opened_ts": 1793984424,
    "close_ts": 1794113940.0,
    "score": 0.5218,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -222,7 +222,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.97,
+   "mark_price": 0.99,
    "shadow": {}
   },
   {
@@ -273,7 +273,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1794060025,
@@ -296,7 +296,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.75,
+   "mark_price": 0.67,
    "shadow": {
     "10": {
      "ts": 1794081626,
@@ -307,6 +307,11 @@
      "ts": 1794081626,
      "bid": 0.75,
      "proceeds": 1.47
+    },
+    "20": {
+     "ts": 1794082524,
+     "bid": 0.67,
+     "proceeds": 1.3
     }
    }
   },
@@ -341,7 +346,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.93,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -24181,95 +24186,96 @@
    1794081626,
    88.472,
    90.882
+  ],
+  [
+   1794082524,
+   88.472,
+   91.012
   ]
  ],
  "last_run": {
-  "ts": 1794081626,
+  "ts": 1794082524,
   "error": null,
-  "markets_scanned": 1040,
-  "candidates": 22,
+  "markets_scanned": 1038,
+  "candidates": 20,
   "rejections": {
-   "too little volume": 835,
-   "no favorite in 80-95c band": 167,
+   "too little volume": 833,
+   "no favorite in 80-95c band": 169,
    "spread too wide": 15,
    "nothing for sale at the ask": 1
   },
-  "opened": [
-   406
-  ],
-  "settled": [
-   340
-  ],
+  "opened": [],
+  "settled": [],
   "halt": null,
   "top_candidates": [
    {
     "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
     "side": "yes",
     "price": 0.92,
-    "hours_to_close": 32.98,
-    "volume_24h": 6536.47,
-    "score": 0.61
-   },
-   {
-    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
-    "side": "yes",
-    "price": 0.88,
-    "hours_to_close": 32.98,
-    "volume_24h": 34004.12,
-    "score": 0.5839
+    "hours_to_close": 32.73,
+    "volume_24h": 6559.17,
+    "score": 0.6105
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 125? \u2014 Above 125",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.98,
-    "volume_24h": 600.0,
-    "score": 0.5623
+    "hours_to_close": 32.73,
+    "volume_24h": 1272.0,
+    "score": 0.5871
    },
    {
-    "label": "Will it rain in Detroit between Nov 7 and Nov 8, 2026?",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 32.99,
-    "volume_24h": 662.44,
-    "score": 0.5555
-   },
-   {
-    "label": "Will it rain in New York City on Nov 8, 2026?",
-    "side": "no",
-    "price": 0.93,
-    "hours_to_close": 32.99,
-    "volume_24h": 838.37,
-    "score": 0.5532
-   },
-   {
-    "label": "PuckChamp wins",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 22.99,
-    "volume_24h": 233.2,
-    "score": 0.5502
+    "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
+    "side": "yes",
+    "price": 0.88,
+    "hours_to_close": 32.73,
+    "volume_24h": 34149.13,
+    "score": 0.5842
    },
    {
     "label": "Will Fitness Centers Ad Spend for October 2026 be above 130? \u2014 Above 130",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 32.98,
-    "volume_24h": 371.0,
-    "score": 0.5467
+    "hours_to_close": 32.73,
+    "volume_24h": 706.0,
+    "score": 0.5679
+   },
+   {
+    "label": "PuckChamp wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 22.74,
+    "volume_24h": 233.2,
+    "score": 0.5508
    },
    {
     "label": "Will the maximum temperature be 83-84\u00b0 on Nov 8, 2026? \u2014 83\u00b0 to 84\u00b0",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 33.99,
-    "volume_24h": 285.9,
-    "score": 0.5368
+    "hours_to_close": 33.74,
+    "volume_24h": 308.53,
+    "score": 0.5396
+   },
+   {
+    "label": "Will it rain in Pittsburgh between Nov 7 and Nov 8, 2026?",
+    "side": "no",
+    "price": 0.9,
+    "hours_to_close": 32.74,
+    "volume_24h": 1250.76,
+    "score": 0.5365
+   },
+   {
+    "label": "Priscila Cachoeira wins",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 26.74,
+    "volume_24h": 165137.65,
+    "score": 0.5341
    }
   ],
   "skipped": {},
-  "watch_added": 2,
-  "watch_graded": 7,
+  "watch_added": 0,
+  "watch_graded": 3,
   "api_calls": 42
  },
  "shadow_since": 1791904549,

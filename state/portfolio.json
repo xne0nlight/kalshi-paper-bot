@@ -167,7 +167,7 @@
    "opened_ts": 1793898926,
    "close_ts": 1794027600.0,
    "score": 0.5566,
-   "mark_price": 0.99,
+   "mark_price": 0.98,
    "shadow": {}
   },
   {
@@ -412,7 +412,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.93,
+   "mark_price": 0.91,
    "shadow": {}
   },
   {
@@ -446,7 +446,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {}
   },
   {
@@ -463,7 +463,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.94,
+   "mark_price": 0.93,
    "shadow": {}
   }
  ],
@@ -23641,90 +23641,95 @@
    1794018625,
    93.042,
    86.932
+  ],
+  [
+   1794019525,
+   93.042,
+   86.952
   ]
  ],
  "last_run": {
-  "ts": 1794018625,
+  "ts": 1794019525,
   "error": null,
   "markets_scanned": 1598,
-  "candidates": 39,
+  "candidates": 38,
   "rejections": {
-   "too little volume": 1270,
-   "no favorite in 80-95c band": 272,
-   "spread too wide": 17
+   "too little volume": 1266,
+   "no favorite in 80-95c band": 275,
+   "spread too wide": 19
   },
   "opened": [],
   "settled": [],
   "halt": null,
   "top_candidates": [
    {
-    "label": "Bitcoin price on Nov 7, 2026? \u2014 $77,000 or above",
-    "side": "no",
-    "price": 0.95,
-    "hours_to_close": 19.49,
-    "volume_24h": 18038.06,
-    "score": 0.6824
-   },
-   {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,000 or above",
     "side": "yes",
-    "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 6073.97,
-    "score": 0.6561
+    "price": 0.95,
+    "hours_to_close": 19.24,
+    "volume_24h": 6103.97,
+    "score": 0.6671
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,200 or above",
     "side": "yes",
     "price": 0.94,
-    "hours_to_close": 19.49,
-    "volume_24h": 5418.42,
-    "score": 0.6524
+    "hours_to_close": 19.24,
+    "volume_24h": 6118.41,
+    "score": 0.6572
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $76,750 or above",
     "side": "no",
-    "price": 0.9,
-    "hours_to_close": 19.49,
+    "price": 0.91,
+    "hours_to_close": 19.24,
     "volume_24h": 10125.61,
-    "score": 0.6324
+    "score": 0.6432
    },
    {
-    "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "label": "Will the maximum temperature be >86\u00b0 on Nov 7, 2026? \u2014 87\u00b0 or above",
     "side": "no",
-    "price": 0.94,
-    "hours_to_close": 28.49,
-    "volume_24h": 2377.29,
-    "score": 0.6041
+    "price": 0.93,
+    "hours_to_close": 30.24,
+    "volume_24h": 4574.08,
+    "score": 0.6125
+   },
+   {
+    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 30.24,
+    "volume_24h": 2000.62,
+    "score": 0.6055
    },
    {
     "label": "Ethereum price at Nov 7, 2026 at 5pm EST? \u2014 $2,280 or above",
     "side": "no",
     "price": 0.9,
-    "hours_to_close": 19.49,
-    "volume_24h": 3754.4,
-    "score": 0.6005
-   },
-   {
-    "label": "Will the maximum temperature be 81-82\u00b0 on Nov 7, 2026? \u2014 81\u00b0 to 82\u00b0",
-    "side": "no",
-    "price": 0.94,
-    "hours_to_close": 30.49,
-    "volume_24h": 1889.63,
-    "score": 0.5933
+    "hours_to_close": 19.24,
+    "volume_24h": 3800.4,
+    "score": 0.6017
    },
    {
     "label": "Bitcoin price on Nov 7, 2026? \u2014 $75,250 or above",
     "side": "yes",
     "price": 0.89,
-    "hours_to_close": 19.49,
-    "volume_24h": 3552.59,
-    "score": 0.5887
+    "hours_to_close": 19.24,
+    "volume_24h": 3709.09,
+    "score": 0.5909
+   },
+   {
+    "label": "Will the maximum temperature be 74-75\u00b0 on Nov 7, 2026? \u2014 74\u00b0 to 75\u00b0",
+    "side": "no",
+    "price": 0.92,
+    "hours_to_close": 28.24,
+    "volume_24h": 2427.29,
+    "score": 0.5852
    }
   ],
   "skipped": {},
   "watch_added": 1,
-  "watch_graded": 2,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

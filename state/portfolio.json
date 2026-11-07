@@ -2,12 +2,12 @@
  "version": 1,
  "created_ts": 1791476132.2148023,
  "starting_bankroll": 100.0,
- "cash": 9.822,
- "fees_paid": 10.0,
+ "cash": 8.862,
+ "fees_paid": 10.01,
  "peak_equity": 109.65,
  "day": "2026-11-07",
  "day_start_equity": 93.042,
- "next_id": 401,
+ "next_id": 402,
  "open_positions": [
   {
    "id": 339,
@@ -201,7 +201,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.9,
+   "mark_price": 0.92,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -284,7 +284,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4446,
-   "mark_price": 0.76,
+   "mark_price": 0.77,
    "shadow": {
     "10": {
      "ts": 1794014126,
@@ -324,7 +324,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.89,
+   "mark_price": 0.85,
    "shadow": {}
   },
   {
@@ -358,7 +358,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794128400.0,
    "score": 0.5725,
-   "mark_price": 0.84,
+   "mark_price": 0.83,
    "shadow": {}
   },
   {
@@ -410,6 +410,23 @@
    "close_ts": 1794128400.0,
    "score": 0.5588,
    "mark_price": 0.91,
+   "shadow": {}
+  },
+  {
+   "id": 401,
+   "ticker": "KXDOTA2GAME-26NOV061400PCKCPHUL-PCKCP",
+   "event_ticker": "KXDOTA2GAME-26NOV061400PCKCPHUL",
+   "series": "KXDOTA2GAME",
+   "label": "PuckChamp wins",
+   "side": "no",
+   "contracts": 1,
+   "price": 0.95,
+   "fee": 0.01,
+   "cost": 0.96,
+   "opened_ts": 1794058224,
+   "close_ts": 1794164400.0,
+   "score": 0.5493,
+   "mark_price": 0.94,
    "shadow": {}
   }
  ],
@@ -23907,47 +23924,58 @@
    1794057325,
    86.802,
    86.562
+  ],
+  [
+   1794058224,
+   86.802,
+   86.602
   ]
  ],
  "last_run": {
-  "ts": 1794057325,
+  "ts": 1794058224,
   "error": null,
   "markets_scanned": 315,
-  "candidates": 2,
+  "candidates": 3,
   "rejections": {
    "too little volume": 238,
-   "no favorite in 80-95c band": 69,
-   "spread too wide": 5,
+   "no favorite in 80-95c band": 67,
+   "spread too wide": 6,
    "nothing for sale at the ask": 1
   },
-  "opened": [],
-  "settled": [
-   387
+  "opened": [
+   401
   ],
+  "settled": [],
   "halt": null,
   "top_candidates": [
+   {
+    "label": "PuckChamp wins",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 29.49,
+    "volume_24h": 342.38,
+    "score": 0.5493
+   },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 33.74,
+    "hours_to_close": 33.49,
     "volume_24h": 4577.31,
-    "score": 0.5074
+    "score": 0.5077
    },
    {
     "label": "Nina Milosevic wins",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 33.74,
-    "volume_24h": 4555.84,
-    "score": 0.5072
+    "hours_to_close": 33.49,
+    "volume_24h": 4557.03,
+    "score": 0.5076
    }
   ],
-  "skipped": {
-   "tracked only (below bet price floor)": 2
-  },
-  "watch_added": 0,
-  "watch_graded": 19,
+  "skipped": {},
+  "watch_added": 1,
+  "watch_graded": 0,
   "api_calls": 43
  },
  "shadow_since": 1791904549,

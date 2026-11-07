@@ -167,7 +167,7 @@
    "opened_ts": 1793982625,
    "close_ts": 1794074340.0,
    "score": 0.4871,
-   "mark_price": 0.97,
+   "mark_price": 0.98,
    "shadow": {
     "10": {
      "ts": 1793984424,
@@ -273,7 +273,7 @@
    "opened_ts": 1793988925,
    "close_ts": 1794117600.0,
    "score": 0.4268,
-   "mark_price": 0.93,
+   "mark_price": 0.95,
    "shadow": {}
   },
   {
@@ -290,7 +290,7 @@
    "opened_ts": 1793993425,
    "close_ts": 1794121200.0,
    "score": 0.3965,
-   "mark_price": 0.98,
+   "mark_price": 0.96,
    "shadow": {}
   },
   {
@@ -347,7 +347,7 @@
    "opened_ts": 1794003326,
    "close_ts": 1794121200.0,
    "score": 0.5252,
-   "mark_price": 0.9,
+   "mark_price": 0.94,
    "shadow": {}
   },
   {
@@ -381,7 +381,7 @@
    "opened_ts": 1794053725,
    "close_ts": 1794128400.0,
    "score": 0.5588,
-   "mark_price": 0.92,
+   "mark_price": 0.86,
    "shadow": {}
   },
   {
@@ -24052,17 +24052,23 @@
    1794071725,
    87.192,
    88.912
+  ],
+  [
+   1794072624,
+   87.192,
+   89.082
   ]
  ],
  "last_run": {
-  "ts": 1794071725,
+  "ts": 1794072624,
   "error": null,
   "markets_scanned": 802,
-  "candidates": 11,
+  "candidates": 14,
   "rejections": {
    "too little volume": 646,
-   "no favorite in 80-95c band": 130,
-   "spread too wide": 15
+   "no favorite in 80-95c band": 127,
+   "spread too wide": 14,
+   "nothing for sale at the ask": 1
   },
   "opened": [],
   "settled": [],
@@ -24072,70 +24078,70 @@
     "label": "Will average **gas prices** be above $4.0150? \u2014 Above 4.0150",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.73,
-    "volume_24h": 13811.05,
-    "score": 0.6503
+    "hours_to_close": 35.48,
+    "volume_24h": 13822.76,
+    "score": 0.6506
    },
    {
     "label": "Will it rain in Newark between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 35.74,
+    "hours_to_close": 35.49,
     "volume_24h": 845.86,
-    "score": 0.5699
+    "score": 0.5702
+   },
+   {
+    "label": "Will it rain in New York City on Nov 8, 2026?",
+    "side": "no",
+    "price": 0.95,
+    "hours_to_close": 35.49,
+    "volume_24h": 772.55,
+    "score": 0.5672
    },
    {
     "label": "PuckChamp wins",
     "side": "no",
     "price": 0.95,
-    "hours_to_close": 25.74,
+    "hours_to_close": 25.49,
     "volume_24h": 233.2,
-    "score": 0.5439
+    "score": 0.5444
    },
    {
     "label": "Will average **gas prices** be above $4.0050? \u2014 Above 4.0050",
     "side": "yes",
     "price": 0.83,
-    "hours_to_close": 35.73,
-    "volume_24h": 17967.1,
-    "score": 0.5303
+    "hours_to_close": 35.48,
+    "volume_24h": 18167.1,
+    "score": 0.5306
    },
    {
     "label": "Will it rain in New York City between Nov 7 and Nov 8, 2026?",
     "side": "no",
     "price": 0.87,
-    "hours_to_close": 35.74,
-    "volume_24h": 2349.1,
-    "score": 0.5231
+    "hours_to_close": 35.49,
+    "volume_24h": 2341.91,
+    "score": 0.5233
    },
    {
-    "label": "Will it rain in Boston on Nov 8, 2026?",
-    "side": "yes",
-    "price": 0.93,
-    "hours_to_close": 35.74,
-    "volume_24h": 334.26,
-    "score": 0.5197
+    "label": "Will Diesel Price on November 9, 2026 be above $6.18? \u2014 Above $6.18",
+    "side": "no",
+    "price": 0.82,
+    "hours_to_close": 35.48,
+    "volume_24h": 11026.52,
+    "score": 0.5206
    },
    {
     "label": "Priscila Cachoeira wins",
     "side": "no",
     "price": 0.83,
-    "hours_to_close": 29.74,
-    "volume_24h": 163555.36,
-    "score": 0.4888
-   },
-   {
-    "label": "Will Diesel Price on November 9, 2026 be above $6.16? \u2014 Above $6.16",
-    "side": "yes",
-    "price": 0.87,
-    "hours_to_close": 35.73,
-    "volume_24h": 3099.97,
-    "score": 0.4822
+    "hours_to_close": 29.49,
+    "volume_24h": 163600.18,
+    "score": 0.4892
    }
   ],
   "skipped": {},
-  "watch_added": 0,
-  "watch_graded": 0,
+  "watch_added": 3,
+  "watch_graded": 1,
   "api_calls": 43
  },
  "shadow_since": 1791904549,
